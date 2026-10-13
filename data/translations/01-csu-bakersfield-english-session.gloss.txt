@@ -1,0 +1,31 @@
+# 01-csu-bakersfield-english-session  (UNREVIEWED candidate gloss)
+
+[01-csu-bakersfield-english-session-0001] Okay, I just wanted to say good morning to everyone.
+    GLOSS: GOOD_MORNING EVERYONE I WANT SAY
+
+[01-csu-bakersfield-english-session-0002] I know my students are still coming in and joining us and I see we have a number of other guests.
+    GLOSS: I KNOW MY STUDENT STILL COME JOIN US I SEE MANY OTHER GUEST
+
+[01-csu-bakersfield-english-session-0003] I'm happy to have you with us this morning.
+    GLOSS: THIS MORNING YOU WITH US I HAPPY
+
+[01-csu-bakersfield-english-session-0004] or this evening depending on where you are in the world.
+    GLOSS: OR THIS EVENING DEPEND WORLD WHERE YOU
+
+[01-csu-bakersfield-english-session-0005] I know we have a global audience today.
+    GLOSS: TODAY I KNOW WE WORLDWIDE AUDIENCE HAVE
+
+[01-csu-bakersfield-english-session-0006] It's pretty exciting I think.
+    GLOSS: I THINK THIS VERY EXCITING
+
+[01-csu-bakersfield-english-session-0007] I'm glad we have this opportunity.
+    GLOSS: WE THIS OPPORTUNITY HAVE I HAPPY
+
+[01-csu-bakersfield-english-session-0008] Okay everyone, like we can begin.
+    GLOSS: EVERYONE NOW WE CAN START
+
+[01-csu-bakersfield-english-session-0009] just to to clarify, this is a introductory course at California State University Bakersfield on the religions of Asia.
+    GLOSS: CLARIFY THIS FS:CALIFORNIA FS:STATE FS:UNIVERSITY FS:BAKERSFIELD ASIA RELIGION INTRODUCTORY COURSE
+
+[01-csu-bakersfield-english-session-0010] And this week in particular, we are taking a look at the Jane tradition and we are fortunate to have with us some guest speakers to teach us more about the tradition from their perspective.
+    GLOSS: THIS WEEK WE LEARN TRADITION WE LUCKY HAVE GUEST SPEAKER TEACH US THEIR PERSPECTIVE

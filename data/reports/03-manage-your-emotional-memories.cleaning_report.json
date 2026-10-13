@@ -1,0 +1,235 @@
+{
+  "schema_version": "1.0",
+  "report_type": "cleaning_report",
+  "tool_version": "0.1.0",
+  "processed_at": "2026-10-13T05:54:26+00:00",
+  "source_id": "03-manage-your-emotional-memories",
+  "source_filename": "03_Manage-Your-Emotional-Memories.txt",
+  "source_format": "txt",
+  "source_sha256": "585e5fccbe7d6183c5dc7cdf29d8f6578e56d5b96341ecd40e5e065600c05527",
+  "source_bytes": 15507,
+  "raw_artifact": "03-manage-your-emotional-memories.raw.txt",
+  "encoding": "utf-8",
+  "cleaning_status": "complete",
+  "review_required": false,
+  "accuracy_note": "The source audio/video was not available. Nothing here has been checked against what was actually said; the cleaner only makes the transcript consistent and traceable. ASR errors in the source text remain possible.",
+  "config": {
+    "language": "en",
+    "source_type": "unknown",
+    "speaker_label_pattern": "Speaker\\s+\\d+",
+    "header_keys": [
+      "source",
+      "title",
+      "url",
+      "channel",
+      "date",
+      "language",
+      "uploader",
+      "description",
+      "duration"
+    ],
+    "dedupe_rolling_captions": true,
+    "remove_fillers": true,
+    "filler_words": [
+      "um",
+      "uh",
+      "uhm",
+      "er",
+      "erm"
+    ],
+    "collapse_repeated_words": false,
+    "repeat_allowlist": [
+      "had",
+      "that",
+      "is",
+      "very",
+      "bye",
+      "ha",
+      "no",
+      "so",
+      "knock",
+      "far",
+      "never"
+    ],
+    "drop_sound_tags": false,
+    "boilerplate_patterns": [
+      "(?:auto-?generated|automatically generated|automatic captions?) (?:by|with|from) youtube.*",
+      "subtitles? (?:by|created by|provided by) .*",
+      "captions? (?:by|created by|provided by) .*",
+      "transcribed by .*",
+      "transcript (?:by|provided by) .*"
+    ],
+    "max_chunk_words": 60,
+    "short_chunk_words": 2,
+    "suspect_tokens": [
+      "hmm",
+      "hm",
+      "mm",
+      "mmm",
+      "ooh",
+      "whistle"
+    ],
+    "watchlist": [
+      {
+        "pattern": "\\bJane\\b",
+        "note": "Likely ASR error for the domain term 'Jain'. Kept as written; marked so translation skips it."
+      },
+      {
+        "pattern": "\\b(?:Janindra|Jinindra|Jhinendra|Jin Indra|Jai Jin)\\b",
+        "note": "Likely mis-hearing of the greeting 'Jai Jinendra'. Kept as written; marked so translation skips it."
+      }
+    ],
+    "non_english_markers": [
+      "hu",
+      "tu",
+      "tara",
+      "taro",
+      "tari",
+      "tamne",
+      "amne",
+      "mane",
+      "nathi",
+      "chhu",
+      "chhe",
+      "che",
+      "jya",
+      "tya",
+      "kem",
+      "ke",
+      "aavu",
+      "aaje",
+      "aavshe",
+      "evi",
+      "jevo",
+      "ane",
+      "shu",
+      "kai",
+      "kaik",
+      "divas",
+      "ek",
+      "vishwas",
+      "hoish",
+      "sarkha",
+      "hashu",
+      "nahi",
+      "nahin",
+      "hai",
+      "hain",
+      "mera",
+      "tera",
+      "kya",
+      "aur",
+      "bhi",
+      "toh",
+      "kuch",
+      "koi",
+      "hum",
+      "tum",
+      "aap",
+      "kyun",
+      "lekin",
+      "bahut",
+      "yeh",
+      "woh"
+    ],
+    "non_english_min_hits": 2,
+    "non_english_max_gap": 4,
+    "loss_warning_ratio": 0.05
+  },
+  "stats": {
+    "source_characters": 15507,
+    "source_words": 2806,
+    "cleaned_words": 2806,
+    "chunks": 253,
+    "words_per_chunk_avg": 11.1,
+    "words_per_chunk_max": 38,
+    "turns": 5,
+    "speakers": [
+      "Speaker 1",
+      "Speaker 2"
+    ],
+    "timestamps_available": false,
+    "speakers_available": true,
+    "header_metadata": {
+      "source_url": "https://www.youtube.com/watch?v=VyMXLvZwNPo",
+      "video_id": "VyMXLvZwNPo",
+      "title": "Manage Your Emotional Memories | Param Gurudev's English Session with California State University"
+    }
+  },
+  "parse_counts": {
+    "header_fields_extracted": 2,
+    "speaker_labels_extracted": 5
+  },
+  "normalization_counts": {},
+  "edit_counts_by_operation": {
+    "extract_header_metadata": 2
+  },
+  "flag_counts": {
+    "repeated_word": 4,
+    "repeated_phrase": 2,
+    "expression_cue": 3,
+    "short_fragment": 3
+  },
+  "review_item_counts": {},
+  "review_item_total": 0,
+  "warnings": [
+    {
+      "code": "speaker_labels_anonymous",
+      "message": "Speaker labels are kept exactly as written (e.g. 'Speaker 1'); they are not mapped to real identities."
+    },
+    {
+      "code": "duplicate_consecutive_chunk",
+      "message": "Identical to the previous chunk (03-manage-your-emotional-memories-0063).",
+      "chunk_id": "03-manage-your-emotional-memories-0064"
+    },
+    {
+      "code": "duplicate_consecutive_chunk",
+      "message": "Identical to the previous chunk (03-manage-your-emotional-memories-0151).",
+      "chunk_id": "03-manage-your-emotional-memories-0152"
+    }
+  ],
+  "validation": {
+    "passed": true,
+    "errors": [],
+    "warnings": [
+      {
+        "code": "duplicate_consecutive_chunk",
+        "message": "Identical to the previous chunk (03-manage-your-emotional-memories-0063).",
+        "chunk_id": "03-manage-your-emotional-memories-0064"
+      },
+      {
+        "code": "duplicate_consecutive_chunk",
+        "message": "Identical to the previous chunk (03-manage-your-emotional-memories-0151).",
+        "chunk_id": "03-manage-your-emotional-memories-0152"
+      }
+    ]
+  },
+  "edits": [
+    {
+      "stage": "ingest",
+      "operation": "extract_header_metadata",
+      "original": "Source: https://www.youtube.com/watch?v=VyMXLvZwNPo",
+      "cleaned": "",
+      "reason": "Header field kept as metadata; it is not spoken text.",
+      "confidence": "high",
+      "review_required": false,
+      "chunk_id": null,
+      "source_start_offset": 0,
+      "source_end_offset": 52,
+      "edit_id": 1
+    },
+    {
+      "stage": "ingest",
+      "operation": "extract_header_metadata",
+      "original": "Title: Manage Your Emotional Memories | Param Gurudev's English Session with California State University",
+      "cleaned": "",
+      "reason": "Header field kept as metadata; it is not spoken text.",
+      "confidence": "high",
+      "review_required": false,
+      "chunk_id": null,
+      "source_start_offset": 52,
+      "source_end_offset": 157,
+      "edit_id": 2
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Cleaned transcript (Phase 1)",
+  "type": "object",
+  "required": [
+    "schema_version", "source_id", "source_filename", "source_type", "source_language", "source_format",
+    "source_sha256", "raw_artifact", "offset_basis", "source_metadata", "timestamps_available",
+    "speakers_available", "cleaning_status", "chunks", "warnings", "review_required"
+  ],
+  "properties": {
+    "schema_version": {"type": "string", "enum": ["1.0"]},
+    "source_id": {"type": "string", "pattern": "^[a-z0-9][a-z0-9-]*$"},
+    "source_filename": {"type": "string"},
+    "source_type": {"type": "string", "enum": ["youtube_prerecorded", "livestream", "unknown"]},
+    "source_language": {"type": "string"},
+    "source_format": {"type": "string", "enum": ["txt", "srt", "vtt"]},
+    "source_sha256": {"type": "string", "pattern": "^[0-9a-f]{64}$"},
+    "raw_artifact": {"type": "string"},
+    "offset_basis": {"type": ["string", "null"]},
+    "source_metadata": {"type": "object"},
+    "timestamps_available": {"type": "boolean"},
+    "speakers_available": {"type": "boolean"},
+    "cleaning_status": {"type": "string", "enum": ["complete", "needs_review", "failed"]},
+    "review_required": {"type": "boolean"},
+    "warnings": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["code", "message"],
+        "properties": {"code": {"type": "string"}, "message": {"type": "string"}}
+      }
+    },
+    "chunks": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "chunk_id", "text", "start_time", "end_time", "speaker_id", "turn_index", "source_start_offset",
+          "source_end_offset", "cue_indices", "cue_ids", "skip_translation_spans", "uncertainty_flags", "edit_notes"
+        ],
+        "properties": {
+          "chunk_id": {"type": "string"},
+          "text": {"type": "string"},
+          "start_time": {"type": ["string", "null"], "pattern": "^\\d{2,}:\\d{2}:\\d{2}\\.\\d{3}$"},
+          "end_time": {"type": ["string", "null"], "pattern": "^\\d{2,}:\\d{2}:\\d{2}\\.\\d{3}$"},
+          "speaker_id": {"type": ["string", "null"]},
+          "turn_index": {"type": "integer"},
+          "source_start_offset": {"type": ["integer", "null"]},
+          "source_end_offset": {"type": ["integer", "null"]},
+          "cue_indices": {"type": ["array", "null"], "items": {"type": "integer"}},
+          "cue_ids": {"type": ["array", "null"], "items": {"type": "string"}},
+          "skip_translation_spans": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": ["start", "end", "text", "reason"],
+              "properties": {
+                "start": {"type": "integer"},
+                "end": {"type": "integer"},
+                "text": {"type": "string"},
+                "reason": {"type": "string"}
+              }
+            }
+          },
+          "uncertainty_flags": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": ["code", "text", "start", "end", "note", "review_required", "skip_translation"],
+              "properties": {
+                "code": {"type": "string"},
+                "text": {"type": "string"},
+                "start": {"type": "integer"},
+                "end": {"type": "integer"},
+                "note": {"type": "string"},
+                "review_required": {"type": "boolean"},
+                "skip_translation": {"type": "boolean"}
+              }
+            }
+          },
+          "edit_notes": {"type": "array", "items": {"type": "string"}}
+        }
+      }
+    }
+  }
+}

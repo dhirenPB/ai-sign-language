@@ -1,0 +1,475 @@
+{
+  "report_type": "prompt_comparison",
+  "versions": [
+    "8.0"
+  ],
+  "dry_run": false,
+  "passages": [
+    {
+      "id": "l1-names",
+      "covers": "proper names, titles, institutions, places (FS:NAME)",
+      "sentences": 3,
+      "groups": 1,
+      "grouping": {
+        "groups": 1,
+        "sentences": 3,
+        "sentences_per_group_avg": 3.0,
+        "sentences_per_group_max": 3,
+        "boundary_reasons": {
+          "end": 1
+        },
+        "forced_boundaries": 0,
+        "oversize_groups": 0,
+        "groups_with_context_before": 0,
+        "groups_with_context_after": 0
+      }
+    },
+    {
+      "id": "l1-conditions",
+      "covers": "conditional meaning (if / unless / whenever) and the condition-consequence relationship",
+      "sentences": 3,
+      "groups": 1,
+      "grouping": {
+        "groups": 1,
+        "sentences": 3,
+        "sentences_per_group_avg": 3.0,
+        "sentences_per_group_max": 3,
+        "boundary_reasons": {
+          "end": 1
+        },
+        "forced_boundaries": 0,
+        "oversize_groups": 0,
+        "groups_with_context_before": 0,
+        "groups_with_context_after": 0
+      }
+    },
+    {
+      "id": "l1-negation-questions",
+      "covers": "negation and questions",
+      "sentences": 4,
+      "groups": 1,
+      "grouping": {
+        "groups": 1,
+        "sentences": 4,
+        "sentences_per_group_avg": 4.0,
+        "sentences_per_group_max": 4,
+        "boundary_reasons": {
+          "end": 1
+        },
+        "forced_boundaries": 0,
+        "oversize_groups": 0,
+        "groups_with_context_before": 0,
+        "groups_with_context_after": 0
+      }
+    },
+    {
+      "id": "l1-pronouns",
+      "covers": "context-dependent pronouns and references inside one group",
+      "sentences": 4,
+      "groups": 1,
+      "grouping": {
+        "groups": 1,
+        "sentences": 4,
+        "sentences_per_group_avg": 4.0,
+        "sentences_per_group_max": 4,
+        "boundary_reasons": {
+          "end": 1
+        },
+        "forced_boundaries": 0,
+        "oversize_groups": 0,
+        "groups_with_context_before": 0,
+        "groups_with_context_after": 0
+      }
+    },
+    {
+      "id": "l1-cause-group",
+      "covers": "multi-sentence group needing separate outputs; cause and effect",
+      "sentences": 3,
+      "groups": 1,
+      "grouping": {
+        "groups": 1,
+        "sentences": 3,
+        "sentences_per_group_avg": 3.0,
+        "sentences_per_group_max": 3,
+        "boundary_reasons": {
+          "end": 1
+        },
+        "forced_boundaries": 0,
+        "oversize_groups": 0,
+        "groups_with_context_before": 0,
+        "groups_with_context_after": 0
+      }
+    },
+    {
+      "id": "l1-notation",
+      "covers": "consistent gloss notation: the same concept repeated across sentences",
+      "sentences": 3,
+      "groups": 1,
+      "grouping": {
+        "groups": 1,
+        "sentences": 3,
+        "sentences_per_group_avg": 3.0,
+        "sentences_per_group_max": 3,
+        "boundary_reasons": {
+          "end": 1
+        },
+        "forced_boundaries": 0,
+        "oversize_groups": 0,
+        "groups_with_context_before": 0,
+        "groups_with_context_after": 0
+      }
+    },
+    {
+      "id": "l1-time-quantity",
+      "covers": "time references, quantities and comparisons",
+      "sentences": 3,
+      "groups": 1,
+      "grouping": {
+        "groups": 1,
+        "sentences": 3,
+        "sentences_per_group_avg": 3.0,
+        "sentences_per_group_max": 3,
+        "boundary_reasons": {
+          "end": 1
+        },
+        "forced_boundaries": 0,
+        "oversize_groups": 0,
+        "groups_with_context_before": 0,
+        "groups_with_context_after": 0
+      }
+    },
+    {
+      "id": "l1-ambiguous",
+      "covers": "ambiguous references and an ambiguous sentence needing human review",
+      "sentences": 3,
+      "groups": 1,
+      "grouping": {
+        "groups": 1,
+        "sentences": 3,
+        "sentences_per_group_avg": 3.0,
+        "sentences_per_group_max": 3,
+        "boundary_reasons": {
+          "end": 1
+        },
+        "forced_boundaries": 0,
+        "oversize_groups": 0,
+        "groups_with_context_before": 0,
+        "groups_with_context_after": 0
+      }
+    },
+    {
+      "id": "l1-asr-noise",
+      "covers": "garbled ASR text and a run-on without punctuation",
+      "sentences": 5,
+      "groups": 1,
+      "grouping": {
+        "groups": 1,
+        "sentences": 5,
+        "sentences_per_group_avg": 5.0,
+        "sentences_per_group_max": 5,
+        "boundary_reasons": {
+          "end": 1
+        },
+        "forced_boundaries": 0,
+        "oversize_groups": 0,
+        "groups_with_context_before": 0,
+        "groups_with_context_after": 0
+      }
+    },
+    {
+      "id": "l1-real-a",
+      "covers": "real transcript sample (03): long opening sentence, names, an ASR fragment",
+      "sentences": 6,
+      "groups": 1,
+      "grouping": {
+        "groups": 1,
+        "sentences": 6,
+        "sentences_per_group_avg": 6.0,
+        "sentences_per_group_max": 6,
+        "boundary_reasons": {
+          "end": 1
+        },
+        "forced_boundaries": 0,
+        "oversize_groups": 0,
+        "groups_with_context_before": 0,
+        "groups_with_context_after": 0
+      }
+    },
+    {
+      "id": "l1-real-b",
+      "covers": "real transcript sample (03): a conditional, cause and a rhetorical question",
+      "sentences": 4,
+      "groups": 1,
+      "grouping": {
+        "groups": 1,
+        "sentences": 4,
+        "sentences_per_group_avg": 4.0,
+        "sentences_per_group_max": 4,
+        "boundary_reasons": {
+          "end": 1
+        },
+        "forced_boundaries": 0,
+        "oversize_groups": 0,
+        "groups_with_context_before": 0,
+        "groups_with_context_after": 0
+      }
+    }
+  ],
+  "per_version": {
+    "8.0": {
+      "usage": {
+        "llm_calls": 12,
+        "prompt_tokens": 32500,
+        "completion_tokens": 11497,
+        "total_tokens": 43997,
+        "latency_seconds": 396.75,
+        "empty_gloss_retries": 1,
+        "empty_gloss_recovered": 0,
+        "reference_entries_sent": 0,
+        "requests_made": 12
+      },
+      "score": {
+        "sentences": 41,
+        "annotations": "PROVISIONAL engineering annotations, not ISL-reviewed",
+        "alignment": {
+          "missing_or_failed_results": 0,
+          "duplicate_ids": 0
+        },
+        "usage": {
+          "llm_calls": 12,
+          "prompt_tokens": 32500,
+          "completion_tokens": 11497,
+          "total_tokens": 43997,
+          "latency_seconds": 396.75,
+          "empty_gloss_retries": 1,
+          "empty_gloss_recovered": 0,
+          "reference_entries_sent": 0,
+          "requests_made": 12
+        },
+        "issue_counts": {
+          "expected_review_not_flagged": 2,
+          "function_word_tokens": 16,
+          "name_not_fingerspelled": 1,
+          "unintelligible_empty_flagged_with_reason": 1
+        },
+        "issue_sentences": {
+          "expected_review_not_flagged": [
+            "l1-ambiguous-s0001",
+            "l1-ambiguous-s0002"
+          ],
+          "function_word_tokens": [
+            "l1-names-s0001",
+            "l1-conditions-s0002",
+            "l1-conditions-s0003",
+            "l1-pronouns-s0002",
+            "l1-pronouns-s0003",
+            "l1-time-quantity-s0002",
+            "l1-ambiguous-s0001",
+            "l1-asr-noise-s0005",
+            "l1-real-a-s0001",
+            "l1-real-a-s0002",
+            "l1-real-a-s0003",
+            "l1-real-a-s0004",
+            "l1-real-a-s0005",
+            "l1-real-b-s0001",
+            "l1-real-b-s0002",
+            "l1-real-b-s0004"
+          ],
+          "name_not_fingerspelled": [
+            "l1-asr-noise-s0002"
+          ],
+          "unintelligible_empty_flagged_with_reason": [
+            "l1-asr-noise-s0001"
+          ]
+        },
+        "details": {
+          "l1-names-s0001": [
+            "function_word_tokens:TO"
+          ],
+          "l1-conditions-s0002": [
+            "function_word_tokens:IT"
+          ],
+          "l1-conditions-s0003": [
+            "function_word_tokens:IT"
+          ],
+          "l1-pronouns-s0002": [
+            "function_word_tokens:IT"
+          ],
+          "l1-pronouns-s0003": [
+            "function_word_tokens:IT"
+          ],
+          "l1-time-quantity-s0002": [
+            "function_word_tokens:THAT"
+          ],
+          "l1-ambiguous-s0001": [
+            "function_word_tokens:THAT,WOULD"
+          ],
+          "l1-asr-noise-s0005": [
+            "function_word_tokens:OF"
+          ],
+          "l1-real-a-s0001": [
+            "function_word_tokens:AND"
+          ],
+          "l1-real-a-s0002": [
+            "function_word_tokens:OF,WOULD,TO"
+          ],
+          "l1-real-a-s0003": [
+            "function_word_tokens:THAT"
+          ],
+          "l1-real-a-s0004": [
+            "function_word_tokens:IT,IS,AND"
+          ],
+          "l1-real-a-s0005": [
+            "function_word_tokens:IT"
+          ],
+          "l1-real-b-s0001": [
+            "function_word_tokens:IT"
+          ],
+          "l1-real-b-s0002": [
+            "function_word_tokens:IT"
+          ],
+          "l1-real-b-s0004": [
+            "function_word_tokens:IT,AND"
+          ]
+        },
+        "per_sentence_issues": {
+          "l1-names-s0001": [
+            "function_word_tokens:TO"
+          ],
+          "l1-names-s0002": [],
+          "l1-names-s0003": [],
+          "l1-conditions-s0001": [],
+          "l1-conditions-s0002": [
+            "function_word_tokens:IT"
+          ],
+          "l1-conditions-s0003": [
+            "function_word_tokens:IT"
+          ],
+          "l1-negation-questions-s0001": [],
+          "l1-negation-questions-s0002": [],
+          "l1-negation-questions-s0003": [],
+          "l1-negation-questions-s0004": [],
+          "l1-pronouns-s0001": [],
+          "l1-pronouns-s0002": [
+            "function_word_tokens:IT"
+          ],
+          "l1-pronouns-s0003": [
+            "function_word_tokens:IT"
+          ],
+          "l1-pronouns-s0004": [],
+          "l1-cause-group-s0001": [],
+          "l1-cause-group-s0002": [],
+          "l1-cause-group-s0003": [],
+          "l1-notation-s0001": [],
+          "l1-notation-s0002": [],
+          "l1-notation-s0003": [],
+          "l1-time-quantity-s0001": [],
+          "l1-time-quantity-s0002": [
+            "function_word_tokens:THAT"
+          ],
+          "l1-time-quantity-s0003": [],
+          "l1-ambiguous-s0001": [
+            "expected_review_not_flagged",
+            "function_word_tokens:THAT,WOULD"
+          ],
+          "l1-ambiguous-s0002": [
+            "expected_review_not_flagged"
+          ],
+          "l1-ambiguous-s0003": [],
+          "l1-asr-noise-s0001": [
+            "unintelligible_empty_flagged_with_reason"
+          ],
+          "l1-asr-noise-s0002": [
+            "name_not_fingerspelled"
+          ],
+          "l1-asr-noise-s0003": [],
+          "l1-asr-noise-s0004": [],
+          "l1-asr-noise-s0005": [
+            "function_word_tokens:OF"
+          ],
+          "l1-real-a-s0001": [
+            "function_word_tokens:AND"
+          ],
+          "l1-real-a-s0002": [
+            "function_word_tokens:OF,WOULD,TO"
+          ],
+          "l1-real-a-s0003": [
+            "function_word_tokens:THAT"
+          ],
+          "l1-real-a-s0004": [
+            "function_word_tokens:IT,IS,AND"
+          ],
+          "l1-real-a-s0005": [
+            "function_word_tokens:IT"
+          ],
+          "l1-real-a-s0006": [],
+          "l1-real-b-s0001": [
+            "function_word_tokens:IT"
+          ],
+          "l1-real-b-s0002": [
+            "function_word_tokens:IT"
+          ],
+          "l1-real-b-s0003": [],
+          "l1-real-b-s0004": [
+            "function_word_tokens:IT,AND"
+          ]
+        },
+        "categories": {
+          "1_empty_gloss_for_understandable_sentence": 0,
+          "2_unintelligible_handled_correctly": 1,
+          "2_unintelligible_handled_wrongly": 0,
+          "3_name_formatting_errors": 1,
+          "3_name_false_positives": 0,
+          "4_meaning_markers_missing": 0,
+          "5_pronouns_not_preserved": 0,
+          "6_review_flags_possibly_unnecessary": 0,
+          "6_expected_review_not_flagged": 2,
+          "7_unsupported_labels_or_paraphrases": 0,
+          "8_inconsistent_multiword_notation": 0,
+          "9_function_word_tokens_present": 16,
+          "10_alignment_problems": 0
+        },
+        "meaning_markers_missing_by_type": {},
+        "model_flagged_review": 2,
+        "empty_glosses_total": 1,
+        "gloss_tokens": 285
+      },
+      "config": {
+        "provider": "groq",
+        "model": "openai/gpt-oss-120b",
+        "reasoning_effort": "medium",
+        "temperature": 0.0,
+        "max_output_tokens": 8192,
+        "prompt_version": "8.0",
+        "thinking_budget": null,
+        "empty_gloss_retry": true,
+        "references_file": null,
+        "reference_entries_loaded": 0
+      },
+      "complete": true,
+      "stop_reason": null,
+      "assembly_passed": true,
+      "requests": 12,
+      "sentences": 41,
+      "translated": 41,
+      "failed": 0,
+      "needs_human_review": 3,
+      "model_flagged_review": 2,
+      "sentences_with_an_observed_failure": 5,
+      "observed_failure_types": {
+        "empty_gloss_flagged_for_review": 1,
+        "name_not_fingerspelled": 4,
+        "name_missing": 1
+      },
+      "pipeline_validation_codes": {
+        "llm_marked_uncertain": 1,
+        "llm_review_required": 1,
+        "name_may_be_missing": 2
+      },
+      "gloss_tokens": 285,
+      "english_function_word_tokens": 22
+    }
+  },
+  "all_versions_complete": true,
+  "interpretation": "Counts come from crude automatic detectors on a small sample (observation only). They are not a measure of translation accuracy and do not show that either prompt is better. If a version did not finish, nothing can be concluded. An ISL-fluent reviewer must judge the side-by-side sheet."
+}

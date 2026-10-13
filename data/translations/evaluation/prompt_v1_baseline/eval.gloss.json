@@ -1,0 +1,2221 @@
+{
+  "schema_version": "1.0",
+  "report_type": "isl_gloss_translation",
+  "tool_version": "0.1.0",
+  "source_id": "eval",
+  "source_file": "evaluation\\eval_sentences.json",
+  "generated_at": "2026-10-12T13:20:08+00:00",
+  "review_status": "unreviewed",
+  "review_note": "Gloss is a machine-generated candidate. It has NOT been reviewed by an ISL-fluent signer and must not be treated as production-accurate.",
+  "complete": true,
+  "stop_reason": null,
+  "counts": {
+    "translated": 40,
+    "validation_pass": 36,
+    "validation_review_required": 4,
+    "cache_hits": 0
+  },
+  "metadata": {
+    "model": "gemini/gemini-3.6-flash",
+    "prompt_version": "1.0",
+    "rule_set_version": "0.1.0",
+    "active_rules": [
+      "R-FMT-01",
+      "R-ART-01",
+      "R-SKIP-01"
+    ],
+    "result_schema_version": "1.0"
+  },
+  "categories": {
+    "eval-001": "simple",
+    "eval-002": "simple",
+    "eval-003": "simple",
+    "eval-004": "simple",
+    "eval-005": "simple",
+    "eval-006": "simple",
+    "eval-007": "question",
+    "eval-008": "question",
+    "eval-009": "question",
+    "eval-010": "question",
+    "eval-011": "question",
+    "eval-012": "question",
+    "eval-013": "negation",
+    "eval-014": "negation",
+    "eval-015": "negation",
+    "eval-016": "negation",
+    "eval-017": "negation",
+    "eval-018": "negation",
+    "eval-019": "time",
+    "eval-020": "time",
+    "eval-021": "time",
+    "eval-022": "time",
+    "eval-023": "time",
+    "eval-024": "names",
+    "eval-025": "names",
+    "eval-026": "names",
+    "eval-027": "numbers",
+    "eval-028": "numbers",
+    "eval-029": "idiom",
+    "eval-030": "idiom",
+    "eval-031": "idiom",
+    "eval-032": "idiom",
+    "eval-033": "interjection",
+    "eval-034": "interjection",
+    "eval-035": "interjection",
+    "eval-036": "filler_residue",
+    "eval-037": "ambiguous",
+    "eval-038": "ambiguous",
+    "eval-039": "compound",
+    "eval-040": "compound"
+  },
+  "results": [
+    {
+      "chunk_id": "eval-001",
+      "source_text": "I am happy to be here today.",
+      "llm_input_text": "I am happy to be here today.",
+      "skipped_spans": [],
+      "translation_status": "translated",
+      "candidate_gloss": "TODAY I HERE HAPPY",
+      "candidate_tokens": [
+        "TODAY",
+        "I",
+        "HERE",
+        "HAPPY"
+      ],
+      "final_gloss": "TODAY I HERE HAPPY",
+      "final_tokens": [
+        "TODAY",
+        "I",
+        "HERE",
+        "HAPPY"
+      ],
+      "applied_rules": [],
+      "validation": {
+        "status": "pass",
+        "warnings": []
+      },
+      "review_status": "unreviewed",
+      "llm": {
+        "uncertain": false,
+        "notes": ""
+      },
+      "error": null,
+      "context": {
+        "speaker_id": null,
+        "turn_index": null,
+        "start_time": null,
+        "end_time": null
+      },
+      "metadata": {
+        "model": "gemini/gemini-3.6-flash",
+        "prompt_version": "1.0",
+        "rule_set_version": "0.1.0",
+        "active_rules": [
+          "R-FMT-01",
+          "R-ART-01",
+          "R-SKIP-01"
+        ],
+        "result_schema_version": "1.0",
+        "rule_pass_completed": true,
+        "cache_hit": false
+      }
+    },
+    {
+      "chunk_id": "eval-002",
+      "source_text": "The teacher gave us a book.",
+      "llm_input_text": "The teacher gave us a book.",
+      "skipped_spans": [],
+      "translation_status": "translated",
+      "candidate_gloss": "TEACHER BOOK US GIVE",
+      "candidate_tokens": [
+        "TEACHER",
+        "BOOK",
+        "US",
+        "GIVE"
+      ],
+      "final_gloss": "TEACHER BOOK US GIVE",
+      "final_tokens": [
+        "TEACHER",
+        "BOOK",
+        "US",
+        "GIVE"
+      ],
+      "applied_rules": [],
+      "validation": {
+        "status": "pass",
+        "warnings": []
+      },
+      "review_status": "unreviewed",
+      "llm": {
+        "uncertain": false,
+        "notes": ""
+      },
+      "error": null,
+      "context": {
+        "speaker_id": null,
+        "turn_index": null,
+        "start_time": null,
+        "end_time": null
+      },
+      "metadata": {
+        "model": "gemini/gemini-3.6-flash",
+        "prompt_version": "1.0",
+        "rule_set_version": "0.1.0",
+        "active_rules": [
+          "R-FMT-01",
+          "R-ART-01",
+          "R-SKIP-01"
+        ],
+        "result_schema_version": "1.0",
+        "rule_pass_completed": true,
+        "cache_hit": false
+      }
+    },
+    {
+      "chunk_id": "eval-003",
+      "source_text": "Water flows in the same direction.",
+      "llm_input_text": "Water flows in the same direction.",
+      "skipped_spans": [],
+      "translation_status": "translated",
+      "candidate_gloss": "WATER SAME DIRECTION FLOW",
+      "candidate_tokens": [
+        "WATER",
+        "SAME",
+        "DIRECTION",
+        "FLOW"
+      ],
+      "final_gloss": "WATER SAME DIRECTION FLOW",
+      "final_tokens": [
+        "WATER",
+        "SAME",
+        "DIRECTION",
+        "FLOW"
+      ],
+      "applied_rules": [],
+      "validation": {
+        "status": "pass",
+        "warnings": []
+      },
+      "review_status": "unreviewed",
+      "llm": {
+        "uncertain": false,
+        "notes": ""
+      },
+      "error": null,
+      "context": {
+        "speaker_id": null,
+        "turn_index": null,
+        "start_time": null,
+        "end_time": null
+      },
+      "metadata": {
+        "model": "gemini/gemini-3.6-flash",
+        "prompt_version": "1.0",
+        "rule_set_version": "0.1.0",
+        "active_rules": [
+          "R-FMT-01",
+          "R-ART-01",
+          "R-SKIP-01"
+        ],
+        "result_schema_version": "1.0",
+        "rule_pass_completed": true,
+        "cache_hit": false
+      }
+    },
+    {
+      "chunk_id": "eval-004",
+      "source_text": "We are building a translation system.",
+      "llm_input_text": "We are building a translation system.",
+      "skipped_spans": [],
+      "translation_status": "translated",
+      "candidate_gloss": "WE TRANSLATION SYSTEM BUILD",
+      "candidate_tokens": [
+        "WE",
+        "TRANSLATION",
+        "SYSTEM",
+        "BUILD"
+      ],
+      "final_gloss": "WE TRANSLATION SYSTEM BUILD",
+      "final_tokens": [
+        "WE",
+        "TRANSLATION",
+        "SYSTEM",
+        "BUILD"
+      ],
+      "applied_rules": [],
+      "validation": {
+        "status": "pass",
+        "warnings": []
+      },
+      "review_status": "unreviewed",
+      "llm": {
+        "uncertain": false,
+        "notes": ""
+      },
+      "error": null,
+      "context": {
+        "speaker_id": null,
+        "turn_index": null,
+        "start_time": null,
+        "end_time": null
+      },
+      "metadata": {
+        "model": "gemini/gemini-3.6-flash",
+        "prompt_version": "1.0",
+        "rule_set_version": "0.1.0",
+        "active_rules": [
+          "R-FMT-01",
+          "R-ART-01",
+          "R-SKIP-01"
+        ],
+        "result_schema_version": "1.0",
+        "rule_pass_completed": true,
+        "cache_hit": false
+      }
+    },
+    {
+      "chunk_id": "eval-005",
+      "source_text": "Every action leaves an impression in the mind.",
+      "llm_input_text": "Every action leaves an impression in the mind.",
+      "skipped_spans": [],
+      "translation_status": "translated",
+      "candidate_gloss": "EVERY ACTION MIND IMPRESSION LEAVE",
+      "candidate_tokens": [
+        "EVERY",
+        "ACTION",
+        "MIND",
+        "IMPRESSION",
+        "LEAVE"
+      ],
+      "final_gloss": "EVERY ACTION MIND IMPRESSION LEAVE",
+      "final_tokens": [
+        "EVERY",
+        "ACTION",
+        "MIND",
+        "IMPRESSION",
+        "LEAVE"
+      ],
+      "applied_rules": [],
+      "validation": {
+        "status": "pass",
+        "warnings": []
+      },
+      "review_status": "unreviewed",
+      "llm": {
+        "uncertain": false,
+        "notes": ""
+      },
+      "error": null,
+      "context": {
+        "speaker_id": null,
+        "turn_index": null,
+        "start_time": null,
+        "end_time": null
+      },
+      "metadata": {
+        "model": "gemini/gemini-3.6-flash",
+        "prompt_version": "1.0",
+        "rule_set_version": "0.1.0",
+        "active_rules": [
+          "R-FMT-01",
+          "R-ART-01",
+          "R-SKIP-01"
+        ],
+        "result_schema_version": "1.0",
+        "rule_pass_completed": true,
+        "cache_hit": false
+      }
+    },
+    {
+      "chunk_id": "eval-006",
+      "source_text": "My friends live in a small village.",
+      "llm_input_text": "My friends live in a small village.",
+      "skipped_spans": [],
+      "translation_status": "translated",
+      "candidate_gloss": "MY FRIEND SMALL VILLAGE LIVE",
+      "candidate_tokens": [
+        "MY",
+        "FRIEND",
+        "SMALL",
+        "VILLAGE",
+        "LIVE"
+      ],
+      "final_gloss": "MY FRIEND SMALL VILLAGE LIVE",
+      "final_tokens": [
+        "MY",
+        "FRIEND",
+        "SMALL",
+        "VILLAGE",
+        "LIVE"
+      ],
+      "applied_rules": [],
+      "validation": {
+        "status": "pass",
+        "warnings": []
+      },
+      "review_status": "unreviewed",
+      "llm": {
+        "uncertain": false,
+        "notes": ""
+      },
+      "error": null,
+      "context": {
+        "speaker_id": null,
+        "turn_index": null,
+        "start_time": null,
+        "end_time": null
+      },
+      "metadata": {
+        "model": "gemini/gemini-3.6-flash",
+        "prompt_version": "1.0",
+        "rule_set_version": "0.1.0",
+        "active_rules": [
+          "R-FMT-01",
+          "R-ART-01",
+          "R-SKIP-01"
+        ],
+        "result_schema_version": "1.0",
+        "rule_pass_completed": true,
+        "cache_hit": false
+      }
+    },
+    {
+      "chunk_id": "eval-007",
+      "source_text": "Where are you going?",
+      "llm_input_text": "Where are you going?",
+      "skipped_spans": [],
+      "translation_status": "translated",
+      "candidate_gloss": "YOU GO WHERE",
+      "candidate_tokens": [
+        "YOU",
+        "GO",
+        "WHERE"
+      ],
+      "final_gloss": "YOU GO WHERE",
+      "final_tokens": [
+        "YOU",
+        "GO",
+        "WHERE"
+      ],
+      "applied_rules": [],
+      "validation": {
+        "status": "pass",
+        "warnings": []
+      },
+      "review_status": "unreviewed",
+      "llm": {
+        "uncertain": false,
+        "notes": ""
+      },
+      "error": null,
+      "context": {
+        "speaker_id": null,
+        "turn_index": null,
+        "start_time": null,
+        "end_time": null
+      },
+      "metadata": {
+        "model": "gemini/gemini-3.6-flash",
+        "prompt_version": "1.0",
+        "rule_set_version": "0.1.0",
+        "active_rules": [
+          "R-FMT-01",
+          "R-ART-01",
+          "R-SKIP-01"
+        ],
+        "result_schema_version": "1.0",
+        "rule_pass_completed": true,
+        "cache_hit": false
+      }
+    },
+    {
+      "chunk_id": "eval-008",
+      "source_text": "What qualities did he have?",
+      "llm_input_text": "What qualities did he have?",
+      "skipped_spans": [],
+      "translation_status": "translated",
+      "candidate_gloss": "HE QUALITIES HAVE WHAT",
+      "candidate_tokens": [
+        "HE",
+        "QUALITIES",
+        "HAVE",
+        "WHAT"
+      ],
+      "final_gloss": "HE QUALITIES HAVE WHAT",
+      "final_tokens": [
+        "HE",
+        "QUALITIES",
+        "HAVE",
+        "WHAT"
+      ],
+      "applied_rules": [],
+      "validation": {
+        "status": "pass",
+        "warnings": []
+      },
+      "review_status": "unreviewed",
+      "llm": {
+        "uncertain": false,
+        "notes": ""
+      },
+      "error": null,
+      "context": {
+        "speaker_id": null,
+        "turn_index": null,
+        "start_time": null,
+        "end_time": null
+      },
+      "metadata": {
+        "model": "gemini/gemini-3.6-flash",
+        "prompt_version": "1.0",
+        "rule_set_version": "0.1.0",
+        "active_rules": [
+          "R-FMT-01",
+          "R-ART-01",
+          "R-SKIP-01"
+        ],
+        "result_schema_version": "1.0",
+        "rule_pass_completed": true,
+        "cache_hit": false
+      }
+    },
+    {
+      "chunk_id": "eval-009",
+      "source_text": "Do you understand what I mean?",
+      "llm_input_text": "Do you understand what I mean?",
+      "skipped_spans": [],
+      "translation_status": "translated",
+      "candidate_gloss": "I MEAN YOU UNDERSTAND",
+      "candidate_tokens": [
+        "I",
+        "MEAN",
+        "YOU",
+        "UNDERSTAND"
+      ],
+      "final_gloss": "I MEAN YOU UNDERSTAND",
+      "final_tokens": [
+        "I",
+        "MEAN",
+        "YOU",
+        "UNDERSTAND"
+      ],
+      "applied_rules": [],
+      "validation": {
+        "status": "pass",
+        "warnings": []
+      },
+      "review_status": "unreviewed",
+      "llm": {
+        "uncertain": false,
+        "notes": ""
+      },
+      "error": null,
+      "context": {
+        "speaker_id": null,
+        "turn_index": null,
+        "start_time": null,
+        "end_time": null
+      },
+      "metadata": {
+        "model": "gemini/gemini-3.6-flash",
+        "prompt_version": "1.0",
+        "rule_set_version": "0.1.0",
+        "active_rules": [
+          "R-FMT-01",
+          "R-ART-01",
+          "R-SKIP-01"
+        ],
+        "result_schema_version": "1.0",
+        "rule_pass_completed": true,
+        "cache_hit": false
+      }
+    },
+    {
+      "chunk_id": "eval-010",
+      "source_text": "Why do we get angry so quickly?",
+      "llm_input_text": "Why do we get angry so quickly?",
+      "skipped_spans": [],
+      "translation_status": "translated",
+      "candidate_gloss": "WE QUICK ANGRY WHY",
+      "candidate_tokens": [
+        "WE",
+        "QUICK",
+        "ANGRY",
+        "WHY"
+      ],
+      "final_gloss": "WE QUICK ANGRY WHY",
+      "final_tokens": [
+        "WE",
+        "QUICK",
+        "ANGRY",
+        "WHY"
+      ],
+      "applied_rules": [],
+      "validation": {
+        "status": "pass",
+        "warnings": []
+      },
+      "review_status": "unreviewed",
+      "llm": {
+        "uncertain": false,
+        "notes": ""
+      },
+      "error": null,
+      "context": {
+        "speaker_id": null,
+        "turn_index": null,
+        "start_time": null,
+        "end_time": null
+      },
+      "metadata": {
+        "model": "gemini/gemini-3.6-flash",
+        "prompt_version": "1.0",
+        "rule_set_version": "0.1.0",
+        "active_rules": [
+          "R-FMT-01",
+          "R-ART-01",
+          "R-SKIP-01"
+        ],
+        "result_schema_version": "1.0",
+        "rule_pass_completed": true,
+        "cache_hit": false
+      }
+    },
+    {
+      "chunk_id": "eval-011",
+      "source_text": "How many students are joining us today?",
+      "llm_input_text": "How many students are joining us today?",
+      "skipped_spans": [],
+      "translation_status": "translated",
+      "candidate_gloss": "TODAY STUDENT JOIN HOW_MANY",
+      "candidate_tokens": [
+        "TODAY",
+        "STUDENT",
+        "JOIN",
+        "HOW_MANY"
+      ],
+      "final_gloss": "TODAY STUDENT JOIN HOW_MANY",
+      "final_tokens": [
+        "TODAY",
+        "STUDENT",
+        "JOIN",
+        "HOW_MANY"
+      ],
+      "applied_rules": [],
+      "validation": {
+        "status": "pass",
+        "warnings": []
+      },
+      "review_status": "unreviewed",
+      "llm": {
+        "uncertain": false,
+        "notes": ""
+      },
+      "error": null,
+      "context": {
+        "speaker_id": null,
+        "turn_index": null,
+        "start_time": null,
+        "end_time": null
+      },
+      "metadata": {
+        "model": "gemini/gemini-3.6-flash",
+        "prompt_version": "1.0",
+        "rule_set_version": "0.1.0",
+        "active_rules": [
+          "R-FMT-01",
+          "R-ART-01",
+          "R-SKIP-01"
+        ],
+        "result_schema_version": "1.0",
+        "rule_pass_completed": true,
+        "cache_hit": false
+      }
+    },
+    {
+      "chunk_id": "eval-012",
+      "source_text": "Who will share their experience first?",
+      "llm_input_text": "Who will share their experience first?",
+      "skipped_spans": [],
+      "translation_status": "translated",
+      "candidate_gloss": "FIRST EXPERIENCE SHARE WHO",
+      "candidate_tokens": [
+        "FIRST",
+        "EXPERIENCE",
+        "SHARE",
+        "WHO"
+      ],
+      "final_gloss": "FIRST EXPERIENCE SHARE WHO",
+      "final_tokens": [
+        "FIRST",
+        "EXPERIENCE",
+        "SHARE",
+        "WHO"
+      ],
+      "applied_rules": [],
+      "validation": {
+        "status": "pass",
+        "warnings": []
+      },
+      "review_status": "unreviewed",
+      "llm": {
+        "uncertain": false,
+        "notes": ""
+      },
+      "error": null,
+      "context": {
+        "speaker_id": null,
+        "turn_index": null,
+        "start_time": null,
+        "end_time": null
+      },
+      "metadata": {
+        "model": "gemini/gemini-3.6-flash",
+        "prompt_version": "1.0",
+        "rule_set_version": "0.1.0",
+        "active_rules": [
+          "R-FMT-01",
+          "R-ART-01",
+          "R-SKIP-01"
+        ],
+        "result_schema_version": "1.0",
+        "rule_pass_completed": true,
+        "cache_hit": false
+      }
+    },
+    {
+      "chunk_id": "eval-013",
+      "source_text": "The result was 15, not 50.",
+      "llm_input_text": "The result was 15, not 50.",
+      "skipped_spans": [],
+      "translation_status": "translated",
+      "candidate_gloss": "RESULT 15 50 NOT",
+      "candidate_tokens": [
+        "RESULT",
+        "15",
+        "50",
+        "NOT"
+      ],
+      "final_gloss": "RESULT 15 50 NOT",
+      "final_tokens": [
+        "RESULT",
+        "15",
+        "50",
+        "NOT"
+      ],
+      "applied_rules": [],
+      "validation": {
+        "status": "pass",
+        "warnings": []
+      },
+      "review_status": "unreviewed",
+      "llm": {
+        "uncertain": false,
+        "notes": ""
+      },
+      "error": null,
+      "context": {
+        "speaker_id": null,
+        "turn_index": null,
+        "start_time": null,
+        "end_time": null
+      },
+      "metadata": {
+        "model": "gemini/gemini-3.6-flash",
+        "prompt_version": "1.0",
+        "rule_set_version": "0.1.0",
+        "active_rules": [
+          "R-FMT-01",
+          "R-ART-01",
+          "R-SKIP-01"
+        ],
+        "result_schema_version": "1.0",
+        "rule_pass_completed": true,
+        "cache_hit": false
+      }
+    },
+    {
+      "chunk_id": "eval-014",
+      "source_text": "I do not want to hurt anyone.",
+      "llm_input_text": "I do not want to hurt anyone.",
+      "skipped_spans": [],
+      "translation_status": "translated",
+      "candidate_gloss": "I ANYONE HURT WANT NOT",
+      "candidate_tokens": [
+        "I",
+        "ANYONE",
+        "HURT",
+        "WANT",
+        "NOT"
+      ],
+      "final_gloss": "I ANYONE HURT WANT NOT",
+      "final_tokens": [
+        "I",
+        "ANYONE",
+        "HURT",
+        "WANT",
+        "NOT"
+      ],
+      "applied_rules": [],
+      "validation": {
+        "status": "pass",
+        "warnings": []
+      },
+      "review_status": "unreviewed",
+      "llm": {
+        "uncertain": false,
+        "notes": ""
+      },
+      "error": null,
+      "context": {
+        "speaker_id": null,
+        "turn_index": null,
+        "start_time": null,
+        "end_time": null
+      },
+      "metadata": {
+        "model": "gemini/gemini-3.6-flash",
+        "prompt_version": "1.0",
+        "rule_set_version": "0.1.0",
+        "active_rules": [
+          "R-FMT-01",
+          "R-ART-01",
+          "R-SKIP-01"
+        ],
+        "result_schema_version": "1.0",
+        "rule_pass_completed": true,
+        "cache_hit": false
+      }
+    },
+    {
+      "chunk_id": "eval-015",
+      "source_text": "Jainism is not a religion but a way of living.",
+      "llm_input_text": "Jainism is not a religion but a way of living.",
+      "skipped_spans": [],
+      "translation_status": "translated",
+      "candidate_gloss": "FS:JAINISM RELIGION NOT LIFE WAY",
+      "candidate_tokens": [
+        "FS:JAINISM",
+        "RELIGION",
+        "NOT",
+        "LIFE",
+        "WAY"
+      ],
+      "final_gloss": "FS:JAINISM RELIGION NOT LIFE WAY",
+      "final_tokens": [
+        "FS:JAINISM",
+        "RELIGION",
+        "NOT",
+        "LIFE",
+        "WAY"
+      ],
+      "applied_rules": [],
+      "validation": {
+        "status": "pass",
+        "warnings": []
+      },
+      "review_status": "unreviewed",
+      "llm": {
+        "uncertain": false,
+        "notes": ""
+      },
+      "error": null,
+      "context": {
+        "speaker_id": null,
+        "turn_index": null,
+        "start_time": null,
+        "end_time": null
+      },
+      "metadata": {
+        "model": "gemini/gemini-3.6-flash",
+        "prompt_version": "1.0",
+        "rule_set_version": "0.1.0",
+        "active_rules": [
+          "R-FMT-01",
+          "R-ART-01",
+          "R-SKIP-01"
+        ],
+        "result_schema_version": "1.0",
+        "rule_pass_completed": true,
+        "cache_hit": false
+      }
+    },
+    {
+      "chunk_id": "eval-016",
+      "source_text": "He never lies, and he never steals.",
+      "llm_input_text": "He never lies, and he never steals.",
+      "skipped_spans": [],
+      "translation_status": "translated",
+      "candidate_gloss": "HE LIE NEVER STEAL NEVER",
+      "candidate_tokens": [
+        "HE",
+        "LIE",
+        "NEVER",
+        "STEAL",
+        "NEVER"
+      ],
+      "final_gloss": "HE LIE NEVER STEAL NEVER",
+      "final_tokens": [
+        "HE",
+        "LIE",
+        "NEVER",
+        "STEAL",
+        "NEVER"
+      ],
+      "applied_rules": [],
+      "validation": {
+        "status": "pass",
+        "warnings": []
+      },
+      "review_status": "unreviewed",
+      "llm": {
+        "uncertain": false,
+        "notes": ""
+      },
+      "error": null,
+      "context": {
+        "speaker_id": null,
+        "turn_index": null,
+        "start_time": null,
+        "end_time": null
+      },
+      "metadata": {
+        "model": "gemini/gemini-3.6-flash",
+        "prompt_version": "1.0",
+        "rule_set_version": "0.1.0",
+        "active_rules": [
+          "R-FMT-01",
+          "R-ART-01",
+          "R-SKIP-01"
+        ],
+        "result_schema_version": "1.0",
+        "rule_pass_completed": true,
+        "cache_hit": false
+      }
+    },
+    {
+      "chunk_id": "eval-017",
+      "source_text": "Nothing in this world belongs to us.",
+      "llm_input_text": "Nothing in this world belongs to us.",
+      "skipped_spans": [],
+      "translation_status": "translated",
+      "candidate_gloss": "THIS WORLD NOTHING OUR",
+      "candidate_tokens": [
+        "THIS",
+        "WORLD",
+        "NOTHING",
+        "OUR"
+      ],
+      "final_gloss": "THIS WORLD NOTHING OUR",
+      "final_tokens": [
+        "THIS",
+        "WORLD",
+        "NOTHING",
+        "OUR"
+      ],
+      "applied_rules": [],
+      "validation": {
+        "status": "pass",
+        "warnings": []
+      },
+      "review_status": "unreviewed",
+      "llm": {
+        "uncertain": false,
+        "notes": ""
+      },
+      "error": null,
+      "context": {
+        "speaker_id": null,
+        "turn_index": null,
+        "start_time": null,
+        "end_time": null
+      },
+      "metadata": {
+        "model": "gemini/gemini-3.6-flash",
+        "prompt_version": "1.0",
+        "rule_set_version": "0.1.0",
+        "active_rules": [
+          "R-FMT-01",
+          "R-ART-01",
+          "R-SKIP-01"
+        ],
+        "result_schema_version": "1.0",
+        "rule_pass_completed": true,
+        "cache_hit": false
+      }
+    },
+    {
+      "chunk_id": "eval-018",
+      "source_text": "You cannot change the past, but you can change today.",
+      "llm_input_text": "You cannot change the past, but you can change today.",
+      "skipped_spans": [],
+      "translation_status": "translated",
+      "candidate_gloss": "PAST YOU CHANGE CANNOT TODAY YOU CHANGE CAN",
+      "candidate_tokens": [
+        "PAST",
+        "YOU",
+        "CHANGE",
+        "CANNOT",
+        "TODAY",
+        "YOU",
+        "CHANGE",
+        "CAN"
+      ],
+      "final_gloss": "PAST YOU CHANGE CANNOT TODAY YOU CHANGE CAN",
+      "final_tokens": [
+        "PAST",
+        "YOU",
+        "CHANGE",
+        "CANNOT",
+        "TODAY",
+        "YOU",
+        "CHANGE",
+        "CAN"
+      ],
+      "applied_rules": [],
+      "validation": {
+        "status": "pass",
+        "warnings": []
+      },
+      "review_status": "unreviewed",
+      "llm": {
+        "uncertain": false,
+        "notes": ""
+      },
+      "error": null,
+      "context": {
+        "speaker_id": null,
+        "turn_index": null,
+        "start_time": null,
+        "end_time": null
+      },
+      "metadata": {
+        "model": "gemini/gemini-3.6-flash",
+        "prompt_version": "1.0",
+        "rule_set_version": "0.1.0",
+        "active_rules": [
+          "R-FMT-01",
+          "R-ART-01",
+          "R-SKIP-01"
+        ],
+        "result_schema_version": "1.0",
+        "rule_pass_completed": true,
+        "cache_hit": false
+      }
+    },
+    {
+      "chunk_id": "eval-019",
+      "source_text": "Yesterday I met my teacher at the temple.",
+      "llm_input_text": "Yesterday I met my teacher at the temple.",
+      "skipped_spans": [],
+      "translation_status": "translated",
+      "candidate_gloss": "YESTERDAY TEMPLE I MY TEACHER MEET",
+      "candidate_tokens": [
+        "YESTERDAY",
+        "TEMPLE",
+        "I",
+        "MY",
+        "TEACHER",
+        "MEET"
+      ],
+      "final_gloss": "YESTERDAY TEMPLE I MY TEACHER MEET",
+      "final_tokens": [
+        "YESTERDAY",
+        "TEMPLE",
+        "I",
+        "MY",
+        "TEACHER",
+        "MEET"
+      ],
+      "applied_rules": [],
+      "validation": {
+        "status": "pass",
+        "warnings": []
+      },
+      "review_status": "unreviewed",
+      "llm": {
+        "uncertain": false,
+        "notes": ""
+      },
+      "error": null,
+      "context": {
+        "speaker_id": null,
+        "turn_index": null,
+        "start_time": null,
+        "end_time": null
+      },
+      "metadata": {
+        "model": "gemini/gemini-3.6-flash",
+        "prompt_version": "1.0",
+        "rule_set_version": "0.1.0",
+        "active_rules": [
+          "R-FMT-01",
+          "R-ART-01",
+          "R-SKIP-01"
+        ],
+        "result_schema_version": "1.0",
+        "rule_pass_completed": true,
+        "cache_hit": false
+      }
+    },
+    {
+      "chunk_id": "eval-020",
+      "source_text": "We will meet again tomorrow morning.",
+      "llm_input_text": "We will meet again tomorrow morning.",
+      "skipped_spans": [],
+      "translation_status": "translated",
+      "candidate_gloss": "TOMORROW MORNING WE AGAIN MEET",
+      "candidate_tokens": [
+        "TOMORROW",
+        "MORNING",
+        "WE",
+        "AGAIN",
+        "MEET"
+      ],
+      "final_gloss": "TOMORROW MORNING WE AGAIN MEET",
+      "final_tokens": [
+        "TOMORROW",
+        "MORNING",
+        "WE",
+        "AGAIN",
+        "MEET"
+      ],
+      "applied_rules": [],
+      "validation": {
+        "status": "pass",
+        "warnings": []
+      },
+      "review_status": "unreviewed",
+      "llm": {
+        "uncertain": false,
+        "notes": ""
+      },
+      "error": null,
+      "context": {
+        "speaker_id": null,
+        "turn_index": null,
+        "start_time": null,
+        "end_time": null
+      },
+      "metadata": {
+        "model": "gemini/gemini-3.6-flash",
+        "prompt_version": "1.0",
+        "rule_set_version": "0.1.0",
+        "active_rules": [
+          "R-FMT-01",
+          "R-ART-01",
+          "R-SKIP-01"
+        ],
+        "result_schema_version": "1.0",
+        "rule_pass_completed": true,
+        "cache_hit": false
+      }
+    },
+    {
+      "chunk_id": "eval-021",
+      "source_text": "Last year my brother moved to another city.",
+      "llm_input_text": "Last year my brother moved to another city.",
+      "skipped_spans": [],
+      "translation_status": "translated",
+      "candidate_gloss": "LAST_YEAR MY BROTHER ANOTHER CITY MOVE",
+      "candidate_tokens": [
+        "LAST_YEAR",
+        "MY",
+        "BROTHER",
+        "ANOTHER",
+        "CITY",
+        "MOVE"
+      ],
+      "final_gloss": "LAST_YEAR MY BROTHER ANOTHER CITY MOVE",
+      "final_tokens": [
+        "LAST_YEAR",
+        "MY",
+        "BROTHER",
+        "ANOTHER",
+        "CITY",
+        "MOVE"
+      ],
+      "applied_rules": [],
+      "validation": {
+        "status": "pass",
+        "warnings": []
+      },
+      "review_status": "unreviewed",
+      "llm": {
+        "uncertain": false,
+        "notes": ""
+      },
+      "error": null,
+      "context": {
+        "speaker_id": null,
+        "turn_index": null,
+        "start_time": null,
+        "end_time": null
+      },
+      "metadata": {
+        "model": "gemini/gemini-3.6-flash",
+        "prompt_version": "1.0",
+        "rule_set_version": "0.1.0",
+        "active_rules": [
+          "R-FMT-01",
+          "R-ART-01",
+          "R-SKIP-01"
+        ],
+        "result_schema_version": "1.0",
+        "rule_pass_completed": true,
+        "cache_hit": false
+      }
+    },
+    {
+      "chunk_id": "eval-022",
+      "source_text": "After the lecture we will have some time for questions.",
+      "llm_input_text": "After the lecture we will have some time for questions.",
+      "skipped_spans": [],
+      "translation_status": "translated",
+      "candidate_gloss": "LECTURE AFTER WE QUESTION TIME HAVE",
+      "candidate_tokens": [
+        "LECTURE",
+        "AFTER",
+        "WE",
+        "QUESTION",
+        "TIME",
+        "HAVE"
+      ],
+      "final_gloss": "LECTURE AFTER WE QUESTION TIME HAVE",
+      "final_tokens": [
+        "LECTURE",
+        "AFTER",
+        "WE",
+        "QUESTION",
+        "TIME",
+        "HAVE"
+      ],
+      "applied_rules": [],
+      "validation": {
+        "status": "pass",
+        "warnings": []
+      },
+      "review_status": "unreviewed",
+      "llm": {
+        "uncertain": false,
+        "notes": ""
+      },
+      "error": null,
+      "context": {
+        "speaker_id": null,
+        "turn_index": null,
+        "start_time": null,
+        "end_time": null
+      },
+      "metadata": {
+        "model": "gemini/gemini-3.6-flash",
+        "prompt_version": "1.0",
+        "rule_set_version": "0.1.0",
+        "active_rules": [
+          "R-FMT-01",
+          "R-ART-01",
+          "R-SKIP-01"
+        ],
+        "result_schema_version": "1.0",
+        "rule_pass_completed": true,
+        "cache_hit": false
+      }
+    },
+    {
+      "chunk_id": "eval-023",
+      "source_text": "Every evening she sits quietly for ten minutes.",
+      "llm_input_text": "Every evening she sits quietly for ten minutes.",
+      "skipped_spans": [],
+      "translation_status": "translated",
+      "candidate_gloss": "EVERY EVENING SHE 10 MINUTE QUIET SIT",
+      "candidate_tokens": [
+        "EVERY",
+        "EVENING",
+        "SHE",
+        "10",
+        "MINUTE",
+        "QUIET",
+        "SIT"
+      ],
+      "final_gloss": "EVERY EVENING SHE 10 MINUTE QUIET SIT",
+      "final_tokens": [
+        "EVERY",
+        "EVENING",
+        "SHE",
+        "10",
+        "MINUTE",
+        "QUIET",
+        "SIT"
+      ],
+      "applied_rules": [],
+      "validation": {
+        "status": "pass",
+        "warnings": []
+      },
+      "review_status": "unreviewed",
+      "llm": {
+        "uncertain": false,
+        "notes": ""
+      },
+      "error": null,
+      "context": {
+        "speaker_id": null,
+        "turn_index": null,
+        "start_time": null,
+        "end_time": null
+      },
+      "metadata": {
+        "model": "gemini/gemini-3.6-flash",
+        "prompt_version": "1.0",
+        "rule_set_version": "0.1.0",
+        "active_rules": [
+          "R-FMT-01",
+          "R-ART-01",
+          "R-SKIP-01"
+        ],
+        "result_schema_version": "1.0",
+        "rule_pass_completed": true,
+        "cache_hit": false
+      }
+    },
+    {
+      "chunk_id": "eval-024",
+      "source_text": "Professor Jonathan Young invited us to this session.",
+      "llm_input_text": "Professor Jonathan Young invited us to this session.",
+      "skipped_spans": [],
+      "translation_status": "translated",
+      "candidate_gloss": "FS:PROFESSOR FS:JONATHAN FS:YOUNG THIS SESSION US INVITE",
+      "candidate_tokens": [
+        "FS:PROFESSOR",
+        "FS:JONATHAN",
+        "FS:YOUNG",
+        "THIS",
+        "SESSION",
+        "US",
+        "INVITE"
+      ],
+      "final_gloss": "FS:PROFESSOR FS:JONATHAN FS:YOUNG THIS SESSION US INVITE",
+      "final_tokens": [
+        "FS:PROFESSOR",
+        "FS:JONATHAN",
+        "FS:YOUNG",
+        "THIS",
+        "SESSION",
+        "US",
+        "INVITE"
+      ],
+      "applied_rules": [],
+      "validation": {
+        "status": "pass",
+        "warnings": []
+      },
+      "review_status": "unreviewed",
+      "llm": {
+        "uncertain": false,
+        "notes": ""
+      },
+      "error": null,
+      "context": {
+        "speaker_id": null,
+        "turn_index": null,
+        "start_time": null,
+        "end_time": null
+      },
+      "metadata": {
+        "model": "gemini/gemini-3.6-flash",
+        "prompt_version": "1.0",
+        "rule_set_version": "0.1.0",
+        "active_rules": [
+          "R-FMT-01",
+          "R-ART-01",
+          "R-SKIP-01"
+        ],
+        "result_schema_version": "1.0",
+        "rule_pass_completed": true,
+        "cache_hit": false
+      }
+    },
+    {
+      "chunk_id": "eval-025",
+      "source_text": "Bhagwan Mahavir practiced tough sadhana for twelve and a half years.",
+      "llm_input_text": "Bhagwan Mahavir practiced tough sadhana for twelve and a half years.",
+      "skipped_spans": [],
+      "translation_status": "translated",
+      "candidate_gloss": "FS:BHAGWAN FS:MAHAVIR 12 HALF YEAR HARD FS:SADHANA PRACTICE",
+      "candidate_tokens": [
+        "FS:BHAGWAN",
+        "FS:MAHAVIR",
+        "12",
+        "HALF",
+        "YEAR",
+        "HARD",
+        "FS:SADHANA",
+        "PRACTICE"
+      ],
+      "final_gloss": "FS:BHAGWAN FS:MAHAVIR 12 HALF YEAR HARD FS:SADHANA PRACTICE",
+      "final_tokens": [
+        "FS:BHAGWAN",
+        "FS:MAHAVIR",
+        "12",
+        "HALF",
+        "YEAR",
+        "HARD",
+        "FS:SADHANA",
+        "PRACTICE"
+      ],
+      "applied_rules": [],
+      "validation": {
+        "status": "pass",
+        "warnings": []
+      },
+      "review_status": "unreviewed",
+      "llm": {
+        "uncertain": false,
+        "notes": ""
+      },
+      "error": null,
+      "context": {
+        "speaker_id": null,
+        "turn_index": null,
+        "start_time": null,
+        "end_time": null
+      },
+      "metadata": {
+        "model": "gemini/gemini-3.6-flash",
+        "prompt_version": "1.0",
+        "rule_set_version": "0.1.0",
+        "active_rules": [
+          "R-FMT-01",
+          "R-ART-01",
+          "R-SKIP-01"
+        ],
+        "result_schema_version": "1.0",
+        "rule_pass_completed": true,
+        "cache_hit": false
+      }
+    },
+    {
+      "chunk_id": "eval-026",
+      "source_text": "Maria travelled from Bakersfield to Mumbai last week.",
+      "llm_input_text": "Maria travelled from Bakersfield to Mumbai last week.",
+      "skipped_spans": [],
+      "translation_status": "translated",
+      "candidate_gloss": "LAST_WEEK FS:MARIA FS:BAKERSFIELD FROM FS:MUMBAI TRAVEL",
+      "candidate_tokens": [
+        "LAST_WEEK",
+        "FS:MARIA",
+        "FS:BAKERSFIELD",
+        "FROM",
+        "FS:MUMBAI",
+        "TRAVEL"
+      ],
+      "final_gloss": "LAST_WEEK FS:MARIA FS:BAKERSFIELD FROM FS:MUMBAI TRAVEL",
+      "final_tokens": [
+        "LAST_WEEK",
+        "FS:MARIA",
+        "FS:BAKERSFIELD",
+        "FROM",
+        "FS:MUMBAI",
+        "TRAVEL"
+      ],
+      "applied_rules": [],
+      "validation": {
+        "status": "pass",
+        "warnings": []
+      },
+      "review_status": "unreviewed",
+      "llm": {
+        "uncertain": false,
+        "notes": ""
+      },
+      "error": null,
+      "context": {
+        "speaker_id": null,
+        "turn_index": null,
+        "start_time": null,
+        "end_time": null
+      },
+      "metadata": {
+        "model": "gemini/gemini-3.6-flash",
+        "prompt_version": "1.0",
+        "rule_set_version": "0.1.0",
+        "active_rules": [
+          "R-FMT-01",
+          "R-ART-01",
+          "R-SKIP-01"
+        ],
+        "result_schema_version": "1.0",
+        "rule_pass_completed": true,
+        "cache_hit": false
+      }
+    },
+    {
+      "chunk_id": "eval-027",
+      "source_text": "There are 5 vows and 12 months in a year.",
+      "llm_input_text": "There are 5 vows and 12 months in a year.",
+      "skipped_spans": [],
+      "translation_status": "translated",
+      "candidate_gloss": "ONE YEAR 12 MONTH 5 FS:VOW",
+      "candidate_tokens": [
+        "ONE",
+        "YEAR",
+        "12",
+        "MONTH",
+        "5",
+        "FS:VOW"
+      ],
+      "final_gloss": "ONE YEAR 12 MONTH 5 FS:VOW",
+      "final_tokens": [
+        "ONE",
+        "YEAR",
+        "12",
+        "MONTH",
+        "5",
+        "FS:VOW"
+      ],
+      "applied_rules": [],
+      "validation": {
+        "status": "pass",
+        "warnings": []
+      },
+      "review_status": "unreviewed",
+      "llm": {
+        "uncertain": false,
+        "notes": ""
+      },
+      "error": null,
+      "context": {
+        "speaker_id": null,
+        "turn_index": null,
+        "start_time": null,
+        "end_time": null
+      },
+      "metadata": {
+        "model": "gemini/gemini-3.6-flash",
+        "prompt_version": "1.0",
+        "rule_set_version": "0.1.0",
+        "active_rules": [
+          "R-FMT-01",
+          "R-ART-01",
+          "R-SKIP-01"
+        ],
+        "result_schema_version": "1.0",
+        "rule_pass_completed": true,
+        "cache_hit": false
+      }
+    },
+    {
+      "chunk_id": "eval-028",
+      "source_text": "He donated 2500 rupees to the school.",
+      "llm_input_text": "He donated 2500 rupees to the school.",
+      "skipped_spans": [],
+      "translation_status": "translated",
+      "candidate_gloss": "HE SCHOOL 2500 RUPEE DONATE",
+      "candidate_tokens": [
+        "HE",
+        "SCHOOL",
+        "2500",
+        "RUPEE",
+        "DONATE"
+      ],
+      "final_gloss": "HE SCHOOL 2500 RUPEE DONATE",
+      "final_tokens": [
+        "HE",
+        "SCHOOL",
+        "2500",
+        "RUPEE",
+        "DONATE"
+      ],
+      "applied_rules": [],
+      "validation": {
+        "status": "pass",
+        "warnings": []
+      },
+      "review_status": "unreviewed",
+      "llm": {
+        "uncertain": false,
+        "notes": ""
+      },
+      "error": null,
+      "context": {
+        "speaker_id": null,
+        "turn_index": null,
+        "start_time": null,
+        "end_time": null
+      },
+      "metadata": {
+        "model": "gemini/gemini-3.6-flash",
+        "prompt_version": "1.0",
+        "rule_set_version": "0.1.0",
+        "active_rules": [
+          "R-FMT-01",
+          "R-ART-01",
+          "R-SKIP-01"
+        ],
+        "result_schema_version": "1.0",
+        "rule_pass_completed": true,
+        "cache_hit": false
+      }
+    },
+    {
+      "chunk_id": "eval-029",
+      "source_text": "Let's break the ice and begin.",
+      "llm_input_text": "Let's break the ice and begin.",
+      "skipped_spans": [],
+      "translation_status": "translated",
+      "candidate_gloss": "WE ICE BREAK BEGIN",
+      "candidate_tokens": [
+        "WE",
+        "ICE",
+        "BREAK",
+        "BEGIN"
+      ],
+      "final_gloss": "WE ICE BREAK BEGIN",
+      "final_tokens": [
+        "WE",
+        "ICE",
+        "BREAK",
+        "BEGIN"
+      ],
+      "applied_rules": [],
+      "validation": {
+        "status": "review_required",
+        "warnings": [
+          {
+            "code": "llm_marked_uncertain",
+            "severity": "review",
+            "message": "The LLM flagged this entry as uncertain: Idiomatic expression 'break the ice' glossed literally."
+          }
+        ]
+      },
+      "review_status": "unreviewed",
+      "llm": {
+        "uncertain": true,
+        "notes": "Idiomatic expression 'break the ice' glossed literally."
+      },
+      "error": null,
+      "context": {
+        "speaker_id": null,
+        "turn_index": null,
+        "start_time": null,
+        "end_time": null
+      },
+      "metadata": {
+        "model": "gemini/gemini-3.6-flash",
+        "prompt_version": "1.0",
+        "rule_set_version": "0.1.0",
+        "active_rules": [
+          "R-FMT-01",
+          "R-ART-01",
+          "R-SKIP-01"
+        ],
+        "result_schema_version": "1.0",
+        "rule_pass_completed": true,
+        "cache_hit": false
+      }
+    },
+    {
+      "chunk_id": "eval-030",
+      "source_text": "Time heals all wounds.",
+      "llm_input_text": "Time heals all wounds.",
+      "skipped_spans": [],
+      "translation_status": "translated",
+      "candidate_gloss": "TIME ALL WOUND HEAL",
+      "candidate_tokens": [
+        "TIME",
+        "ALL",
+        "WOUND",
+        "HEAL"
+      ],
+      "final_gloss": "TIME ALL WOUND HEAL",
+      "final_tokens": [
+        "TIME",
+        "ALL",
+        "WOUND",
+        "HEAL"
+      ],
+      "applied_rules": [],
+      "validation": {
+        "status": "review_required",
+        "warnings": [
+          {
+            "code": "llm_marked_uncertain",
+            "severity": "review",
+            "message": "The LLM flagged this entry as uncertain: Metaphorical proverb translated word-by-word."
+          }
+        ]
+      },
+      "review_status": "unreviewed",
+      "llm": {
+        "uncertain": true,
+        "notes": "Metaphorical proverb translated word-by-word."
+      },
+      "error": null,
+      "context": {
+        "speaker_id": null,
+        "turn_index": null,
+        "start_time": null,
+        "end_time": null
+      },
+      "metadata": {
+        "model": "gemini/gemini-3.6-flash",
+        "prompt_version": "1.0",
+        "rule_set_version": "0.1.0",
+        "active_rules": [
+          "R-FMT-01",
+          "R-ART-01",
+          "R-SKIP-01"
+        ],
+        "result_schema_version": "1.0",
+        "rule_pass_completed": true,
+        "cache_hit": false
+      }
+    },
+    {
+      "chunk_id": "eval-031",
+      "source_text": "Don't judge a book by its cover.",
+      "llm_input_text": "Don't judge a book by its cover.",
+      "skipped_spans": [],
+      "translation_status": "translated",
+      "candidate_gloss": "BOOK COVER LOOK JUDGE NOT",
+      "candidate_tokens": [
+        "BOOK",
+        "COVER",
+        "LOOK",
+        "JUDGE",
+        "NOT"
+      ],
+      "final_gloss": "BOOK COVER LOOK JUDGE NOT",
+      "final_tokens": [
+        "BOOK",
+        "COVER",
+        "LOOK",
+        "JUDGE",
+        "NOT"
+      ],
+      "applied_rules": [],
+      "validation": {
+        "status": "pass",
+        "warnings": []
+      },
+      "review_status": "unreviewed",
+      "llm": {
+        "uncertain": false,
+        "notes": ""
+      },
+      "error": null,
+      "context": {
+        "speaker_id": null,
+        "turn_index": null,
+        "start_time": null,
+        "end_time": null
+      },
+      "metadata": {
+        "model": "gemini/gemini-3.6-flash",
+        "prompt_version": "1.0",
+        "rule_set_version": "0.1.0",
+        "active_rules": [
+          "R-FMT-01",
+          "R-ART-01",
+          "R-SKIP-01"
+        ],
+        "result_schema_version": "1.0",
+        "rule_pass_completed": true,
+        "cache_hit": false
+      }
+    },
+    {
+      "chunk_id": "eval-032",
+      "source_text": "It is a piece of cake once you practise.",
+      "llm_input_text": "It is a piece of cake once you practise.",
+      "skipped_spans": [],
+      "translation_status": "translated",
+      "candidate_gloss": "YOU PRACTISE AFTER VERY EASY",
+      "candidate_tokens": [
+        "YOU",
+        "PRACTISE",
+        "AFTER",
+        "VERY",
+        "EASY"
+      ],
+      "final_gloss": "YOU PRACTISE AFTER VERY EASY",
+      "final_tokens": [
+        "YOU",
+        "PRACTISE",
+        "AFTER",
+        "VERY",
+        "EASY"
+      ],
+      "applied_rules": [],
+      "validation": {
+        "status": "pass",
+        "warnings": []
+      },
+      "review_status": "unreviewed",
+      "llm": {
+        "uncertain": false,
+        "notes": ""
+      },
+      "error": null,
+      "context": {
+        "speaker_id": null,
+        "turn_index": null,
+        "start_time": null,
+        "end_time": null
+      },
+      "metadata": {
+        "model": "gemini/gemini-3.6-flash",
+        "prompt_version": "1.0",
+        "rule_set_version": "0.1.0",
+        "active_rules": [
+          "R-FMT-01",
+          "R-ART-01",
+          "R-SKIP-01"
+        ],
+        "result_schema_version": "1.0",
+        "rule_pass_completed": true,
+        "cache_hit": false
+      }
+    },
+    {
+      "chunk_id": "eval-033",
+      "source_text": "Wow, that is a big change!",
+      "llm_input_text": "Wow, that is a big change!",
+      "skipped_spans": [],
+      "translation_status": "translated",
+      "candidate_gloss": "WOW THAT CHANGE BIG",
+      "candidate_tokens": [
+        "WOW",
+        "THAT",
+        "CHANGE",
+        "BIG"
+      ],
+      "final_gloss": "WOW THAT CHANGE BIG",
+      "final_tokens": [
+        "WOW",
+        "THAT",
+        "CHANGE",
+        "BIG"
+      ],
+      "applied_rules": [],
+      "validation": {
+        "status": "pass",
+        "warnings": []
+      },
+      "review_status": "unreviewed",
+      "llm": {
+        "uncertain": false,
+        "notes": ""
+      },
+      "error": null,
+      "context": {
+        "speaker_id": null,
+        "turn_index": null,
+        "start_time": null,
+        "end_time": null
+      },
+      "metadata": {
+        "model": "gemini/gemini-3.6-flash",
+        "prompt_version": "1.0",
+        "rule_set_version": "0.1.0",
+        "active_rules": [
+          "R-FMT-01",
+          "R-ART-01",
+          "R-SKIP-01"
+        ],
+        "result_schema_version": "1.0",
+        "rule_pass_completed": true,
+        "cache_hit": false
+      }
+    },
+    {
+      "chunk_id": "eval-034",
+      "source_text": "Oh, I did not know that.",
+      "llm_input_text": "Oh, I did not know that.",
+      "skipped_spans": [],
+      "translation_status": "translated",
+      "candidate_gloss": "OH THAT I KNOW NOT",
+      "candidate_tokens": [
+        "OH",
+        "THAT",
+        "I",
+        "KNOW",
+        "NOT"
+      ],
+      "final_gloss": "OH THAT I KNOW NOT",
+      "final_tokens": [
+        "OH",
+        "THAT",
+        "I",
+        "KNOW",
+        "NOT"
+      ],
+      "applied_rules": [],
+      "validation": {
+        "status": "pass",
+        "warnings": []
+      },
+      "review_status": "unreviewed",
+      "llm": {
+        "uncertain": false,
+        "notes": ""
+      },
+      "error": null,
+      "context": {
+        "speaker_id": null,
+        "turn_index": null,
+        "start_time": null,
+        "end_time": null
+      },
+      "metadata": {
+        "model": "gemini/gemini-3.6-flash",
+        "prompt_version": "1.0",
+        "rule_set_version": "0.1.0",
+        "active_rules": [
+          "R-FMT-01",
+          "R-ART-01",
+          "R-SKIP-01"
+        ],
+        "result_schema_version": "1.0",
+        "rule_pass_completed": true,
+        "cache_hit": false
+      }
+    },
+    {
+      "chunk_id": "eval-035",
+      "source_text": "Hmm, let me think about it.",
+      "llm_input_text": "Hmm, let me think about it.",
+      "skipped_spans": [],
+      "translation_status": "translated",
+      "candidate_gloss": "THAT I THINK",
+      "candidate_tokens": [
+        "THAT",
+        "I",
+        "THINK"
+      ],
+      "final_gloss": "THAT I THINK",
+      "final_tokens": [
+        "THAT",
+        "I",
+        "THINK"
+      ],
+      "applied_rules": [],
+      "validation": {
+        "status": "pass",
+        "warnings": []
+      },
+      "review_status": "unreviewed",
+      "llm": {
+        "uncertain": false,
+        "notes": ""
+      },
+      "error": null,
+      "context": {
+        "speaker_id": null,
+        "turn_index": null,
+        "start_time": null,
+        "end_time": null
+      },
+      "metadata": {
+        "model": "gemini/gemini-3.6-flash",
+        "prompt_version": "1.0",
+        "rule_set_version": "0.1.0",
+        "active_rules": [
+          "R-FMT-01",
+          "R-ART-01",
+          "R-SKIP-01"
+        ],
+        "result_schema_version": "1.0",
+        "rule_pass_completed": true,
+        "cache_hit": false
+      }
+    },
+    {
+      "chunk_id": "eval-036",
+      "source_text": "So, I mean, we should start now.",
+      "llm_input_text": "So, I mean, we should start now.",
+      "skipped_spans": [],
+      "translation_status": "translated",
+      "candidate_gloss": "NOW WE START SHOULD",
+      "candidate_tokens": [
+        "NOW",
+        "WE",
+        "START",
+        "SHOULD"
+      ],
+      "final_gloss": "NOW WE START SHOULD",
+      "final_tokens": [
+        "NOW",
+        "WE",
+        "START",
+        "SHOULD"
+      ],
+      "applied_rules": [],
+      "validation": {
+        "status": "pass",
+        "warnings": []
+      },
+      "review_status": "unreviewed",
+      "llm": {
+        "uncertain": false,
+        "notes": ""
+      },
+      "error": null,
+      "context": {
+        "speaker_id": null,
+        "turn_index": null,
+        "start_time": null,
+        "end_time": null
+      },
+      "metadata": {
+        "model": "gemini/gemini-3.6-flash",
+        "prompt_version": "1.0",
+        "rule_set_version": "0.1.0",
+        "active_rules": [
+          "R-FMT-01",
+          "R-ART-01",
+          "R-SKIP-01"
+        ],
+        "result_schema_version": "1.0",
+        "rule_pass_completed": true,
+        "cache_hit": false
+      }
+    },
+    {
+      "chunk_id": "eval-037",
+      "source_text": "I saw her duck.",
+      "llm_input_text": "I saw her duck.",
+      "skipped_spans": [],
+      "translation_status": "translated",
+      "candidate_gloss": "I SEE HER DUCK",
+      "candidate_tokens": [
+        "I",
+        "SEE",
+        "HER",
+        "DUCK"
+      ],
+      "final_gloss": "I SEE HER DUCK",
+      "final_tokens": [
+        "I",
+        "SEE",
+        "HER",
+        "DUCK"
+      ],
+      "applied_rules": [],
+      "validation": {
+        "status": "review_required",
+        "warnings": [
+          {
+            "code": "llm_marked_uncertain",
+            "severity": "review",
+            "message": "The LLM flagged this entry as uncertain: Ambiguous sentence: duck can mean the bird or the action of lowering body."
+          }
+        ]
+      },
+      "review_status": "unreviewed",
+      "llm": {
+        "uncertain": true,
+        "notes": "Ambiguous sentence: duck can mean the bird or the action of lowering body."
+      },
+      "error": null,
+      "context": {
+        "speaker_id": null,
+        "turn_index": null,
+        "start_time": null,
+        "end_time": null
+      },
+      "metadata": {
+        "model": "gemini/gemini-3.6-flash",
+        "prompt_version": "1.0",
+        "rule_set_version": "0.1.0",
+        "active_rules": [
+          "R-FMT-01",
+          "R-ART-01",
+          "R-SKIP-01"
+        ],
+        "result_schema_version": "1.0",
+        "rule_pass_completed": true,
+        "cache_hit": false
+      }
+    },
+    {
+      "chunk_id": "eval-038",
+      "source_text": "The old man the boats.",
+      "llm_input_text": "The old man the boats.",
+      "skipped_spans": [],
+      "translation_status": "translated",
+      "candidate_gloss": "OLD PEOPLE BOAT OPERATE",
+      "candidate_tokens": [
+        "OLD",
+        "PEOPLE",
+        "BOAT",
+        "OPERATE"
+      ],
+      "final_gloss": "OLD PEOPLE BOAT OPERATE",
+      "final_tokens": [
+        "OLD",
+        "PEOPLE",
+        "BOAT",
+        "OPERATE"
+      ],
+      "applied_rules": [],
+      "validation": {
+        "status": "review_required",
+        "warnings": [
+          {
+            "code": "llm_marked_uncertain",
+            "severity": "review",
+            "message": "The LLM flagged this entry as uncertain: Garden path sentence: old means elderly people, man means operate or staff."
+          }
+        ]
+      },
+      "review_status": "unreviewed",
+      "llm": {
+        "uncertain": true,
+        "notes": "Garden path sentence: old means elderly people, man means operate or staff."
+      },
+      "error": null,
+      "context": {
+        "speaker_id": null,
+        "turn_index": null,
+        "start_time": null,
+        "end_time": null
+      },
+      "metadata": {
+        "model": "gemini/gemini-3.6-flash",
+        "prompt_version": "1.0",
+        "rule_set_version": "0.1.0",
+        "active_rules": [
+          "R-FMT-01",
+          "R-ART-01",
+          "R-SKIP-01"
+        ],
+        "result_schema_version": "1.0",
+        "rule_pass_completed": true,
+        "cache_hit": false
+      }
+    },
+    {
+      "chunk_id": "eval-039",
+      "source_text": "When you are angry, the act is over quickly, but it leaves an impression that stays in your memory.",
+      "llm_input_text": "When you are angry, the act is over quickly, but it leaves an impression that stays in your memory.",
+      "skipped_spans": [],
+      "translation_status": "translated",
+      "candidate_gloss": "YOU ANGRY WHEN ACTION FINISH QUICK BUT MEMORY STAY",
+      "candidate_tokens": [
+        "YOU",
+        "ANGRY",
+        "WHEN",
+        "ACTION",
+        "FINISH",
+        "QUICK",
+        "BUT",
+        "MEMORY",
+        "STAY"
+      ],
+      "final_gloss": "YOU ANGRY WHEN ACTION FINISH QUICK BUT MEMORY STAY",
+      "final_tokens": [
+        "YOU",
+        "ANGRY",
+        "WHEN",
+        "ACTION",
+        "FINISH",
+        "QUICK",
+        "BUT",
+        "MEMORY",
+        "STAY"
+      ],
+      "applied_rules": [],
+      "validation": {
+        "status": "pass",
+        "warnings": []
+      },
+      "review_status": "unreviewed",
+      "llm": {
+        "uncertain": false,
+        "notes": ""
+      },
+      "error": null,
+      "context": {
+        "speaker_id": null,
+        "turn_index": null,
+        "start_time": null,
+        "end_time": null
+      },
+      "metadata": {
+        "model": "gemini/gemini-3.6-flash",
+        "prompt_version": "1.0",
+        "rule_set_version": "0.1.0",
+        "active_rules": [
+          "R-FMT-01",
+          "R-ART-01",
+          "R-SKIP-01"
+        ],
+        "result_schema_version": "1.0",
+        "rule_pass_completed": true,
+        "cache_hit": false
+      }
+    },
+    {
+      "chunk_id": "eval-040",
+      "source_text": "If you practise every day and stay patient, your mind will slowly become calm.",
+      "llm_input_text": "If you practise every day and stay patient, your mind will slowly become calm.",
+      "skipped_spans": [],
+      "translation_status": "translated",
+      "candidate_gloss": "YOU EVERY_DAY PRACTISE PATIENT IF YOUR MIND SLOWLY CALM",
+      "candidate_tokens": [
+        "YOU",
+        "EVERY_DAY",
+        "PRACTISE",
+        "PATIENT",
+        "IF",
+        "YOUR",
+        "MIND",
+        "SLOWLY",
+        "CALM"
+      ],
+      "final_gloss": "YOU EVERY_DAY PRACTISE PATIENT IF YOUR MIND SLOWLY CALM",
+      "final_tokens": [
+        "YOU",
+        "EVERY_DAY",
+        "PRACTISE",
+        "PATIENT",
+        "IF",
+        "YOUR",
+        "MIND",
+        "SLOWLY",
+        "CALM"
+      ],
+      "applied_rules": [],
+      "validation": {
+        "status": "pass",
+        "warnings": []
+      },
+      "review_status": "unreviewed",
+      "llm": {
+        "uncertain": false,
+        "notes": ""
+      },
+      "error": null,
+      "context": {
+        "speaker_id": null,
+        "turn_index": null,
+        "start_time": null,
+        "end_time": null
+      },
+      "metadata": {
+        "model": "gemini/gemini-3.6-flash",
+        "prompt_version": "1.0",
+        "rule_set_version": "0.1.0",
+        "active_rules": [
+          "R-FMT-01",
+          "R-ART-01",
+          "R-SKIP-01"
+        ],
+        "result_schema_version": "1.0",
+        "rule_pass_completed": true,
+        "cache_hit": false
+      }
+    }
+  ]
+}

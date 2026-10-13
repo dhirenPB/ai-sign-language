@@ -1,0 +1,61 @@
+{
+  "version": "1.0",
+  "note": "Representative inputs for comparing LLM prompt versions on the SAME text. Each passage is raw transcript text; it goes through the real cleaner, sentence chunking and context grouping before the LLM. No reference glosses are included: none have been endorsed by an ISL-fluent reviewer. The automatic diagnostics in the comparison output are not a measure of translation accuracy.",
+  "passages": [
+    {
+      "id": "l1-names",
+      "covers": "proper names, titles, institutions, places (FS:NAME)",
+      "text": "Professor Jonathan Young invited the students to Bakersfield. He teaches at California State University. Maria Gonzalez will join us from Mumbai."
+    },
+    {
+      "id": "l1-conditions",
+      "covers": "conditional meaning (if / unless / whenever) and the condition-consequence relationship",
+      "text": "If you practise every day, your mind will become calm. We will not go outside unless it stops raining. Whenever we get angry, it leaves an impression."
+    },
+    {
+      "id": "l1-negation-questions",
+      "covers": "negation and questions",
+      "text": "I do not want to hurt anyone. Why do we get angry so quickly? Nothing in this world belongs to us. Did you finish the report?"
+    },
+    {
+      "id": "l1-pronouns",
+      "covers": "context-dependent pronouns and references inside one group",
+      "text": "Maria bought a new laptop yesterday. She says it is very fast. It replaced the old one that kept crashing. Her brother wants one too."
+    },
+    {
+      "id": "l1-cause-group",
+      "covers": "multi-sentence group needing separate outputs; cause and effect",
+      "text": "The monsoon arrives in June. Farmers prepare their fields early because the rain is heavy. The harvest is better when the soil is ready."
+    },
+    {
+      "id": "l1-notation",
+      "covers": "consistent gloss notation: the same concept repeated across sentences",
+      "text": "The water dried up. After the water dried up, an impression stayed. The same impression returns whenever new water flows over the same path."
+    },
+    {
+      "id": "l1-time-quantity",
+      "covers": "time references, quantities and comparisons",
+      "text": "Yesterday we walked 5 kilometres. Today we walked more than that. Tomorrow we will rest for 2 hours."
+    },
+    {
+      "id": "l1-ambiguous",
+      "covers": "ambiguous references and an ambiguous sentence needing human review",
+      "text": "John told Peter that he would be late. He apologised, but nobody believed him. I saw her duck."
+    },
+    {
+      "id": "l1-asr-noise",
+      "covers": "garbled ASR text and a run-on without punctuation",
+      "text": "Om Ooh Hello Done frio Today They are celebrating Bhagwan Mahavir's Janmotsav Today is a day of expressing heartfelt gratitude. Hey Prabhu If you had not grasped this land If you had not taught us the values of Ahimsa Truth non-stealing."
+    },
+    {
+      "id": "l1-real-a",
+      "covers": "real transcript sample (03): long opening sentence, names, an ASR fragment",
+      "text": "Hello Hi students The California State University where Professor Jonathan Young has invited to take a session on philosophy and religious studies Today, first of all, I would like to appreciate your curiosity to learn something about Jainism. I truly believe that Jainism is Not a religion But it is a philosophy and a way of living. Whenever we do any action It creates an image. an impression in your mind."
+    },
+    {
+      "id": "l1-real-b",
+      "covers": "real transcript sample (03): a conditional, cause and a rhetorical question",
+      "text": "You must have seen that whenever water splits from a glass, it starts flowing in one direction and then it dries up. but If you again pour water in that same place, you must have marked that it starts flowing in the same path, same direction that is had created before. Why? Because Though the water had dried up, it still created and left back an image."
+    }
+  ]
+}

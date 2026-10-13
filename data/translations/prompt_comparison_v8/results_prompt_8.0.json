@@ -1,0 +1,4129 @@
+{
+  "prompt_version": "8.0",
+  "config": {
+    "provider": "groq",
+    "model": "openai/gpt-oss-120b",
+    "reasoning_effort": "medium",
+    "temperature": 0.0,
+    "max_output_tokens": 8192,
+    "prompt_version": "8.0",
+    "thinking_budget": null,
+    "empty_gloss_retry": true,
+    "references_file": null,
+    "reference_entries_loaded": 0
+  },
+  "complete": true,
+  "usage": {
+    "llm_calls": 12,
+    "prompt_tokens": 32500,
+    "completion_tokens": 11497,
+    "total_tokens": 43997,
+    "latency_seconds": 396.75,
+    "empty_gloss_retries": 1,
+    "empty_gloss_recovered": 0,
+    "reference_entries_sent": 0,
+    "requests_made": 12
+  },
+  "results": [
+    {
+      "sentence_id": "l1-names-s0001",
+      "group_id": "l1-names-g0001",
+      "source_text": "Professor Jonathan Young invited the students to Bakersfield.",
+      "llm_input_text": "Professor Jonathan Young invited the students to Bakersfield.",
+      "skipped_spans": [],
+      "translation_status": "translated",
+      "candidate_gloss": "PROFESSOR FS:JONATHAN FS:YOUNG INVITE STUDENTS TO FS:BAKERSFIELD",
+      "candidate_tokens": [
+        "PROFESSOR",
+        "FS:JONATHAN",
+        "FS:YOUNG",
+        "INVITE",
+        "STUDENTS",
+        "TO",
+        "FS:BAKERSFIELD"
+      ],
+      "final_gloss": "PROFESSOR FS:JONATHAN FS:YOUNG INVITE STUDENTS TO FS:BAKERSFIELD",
+      "final_tokens": [
+        "PROFESSOR",
+        "FS:JONATHAN",
+        "FS:YOUNG",
+        "INVITE",
+        "STUDENTS",
+        "TO",
+        "FS:BAKERSFIELD"
+      ],
+      "applied_rules": [],
+      "validation": {
+        "status": "pass",
+        "warnings": []
+      },
+      "review_status": "unreviewed",
+      "uncertainty_notes": "",
+      "uncertain_parts": [],
+      "needs_human_review": false,
+      "llm_status": "ok",
+      "llm": {
+        "status": "ok",
+        "needs_human_review": false,
+        "uncertain": false,
+        "uncertain_parts": [],
+        "notes": "",
+        "echoed_source_text": "Professor Jonathan Young invited the students to Bakersfield."
+      },
+      "error": null,
+      "speaker_id": null,
+      "start_timestamp": null,
+      "end_timestamp": null,
+      "turn_index": 0,
+      "source_metadata": {
+        "source_id": "l1-names",
+        "parent_chunk_id": "l1-names-0001",
+        "split_method": null,
+        "piece": [
+          1,
+          1
+        ],
+        "source_start_offset": 0,
+        "source_end_offset": 61,
+        "cue_indices": null,
+        "cue_ids": null,
+        "incomplete": false,
+        "depends_on_previous": false,
+        "dependency_reasons": []
+      },
+      "metadata": {
+        "model": "groq/openai/gpt-oss-120b",
+        "prompt_version": "8.0",
+        "llm_config": {
+          "provider": "groq",
+          "model": "openai/gpt-oss-120b",
+          "reasoning_effort": "medium",
+          "temperature": 0.0,
+          "max_output_tokens": 8192,
+          "prompt_version": "8.0",
+          "thinking_budget": null,
+          "empty_gloss_retry": true,
+          "references_file": null,
+          "reference_entries_loaded": 0
+        },
+        "rule_set_version": "0.1.0",
+        "active_rules": [
+          "R-FMT-01",
+          "R-ART-01",
+          "R-SKIP-01"
+        ],
+        "result_schema_version": "1.0",
+        "rule_pass_completed": true,
+        "cache_hit": false
+      },
+      "passage_id": "l1-names",
+      "observed_failures": [],
+      "function_word_tokens": [
+        "TO"
+      ],
+      "scored_issues": [
+        "function_word_tokens:TO"
+      ]
+    },
+    {
+      "sentence_id": "l1-names-s0002",
+      "group_id": "l1-names-g0001",
+      "source_text": "He teaches at California State University.",
+      "llm_input_text": "He teaches at California State University.",
+      "skipped_spans": [],
+      "translation_status": "translated",
+      "candidate_gloss": "HE TEACH AT FS:CALIFORNIA FS:STATE FS:UNIVERSITY",
+      "candidate_tokens": [
+        "HE",
+        "TEACH",
+        "AT",
+        "FS:CALIFORNIA",
+        "FS:STATE",
+        "FS:UNIVERSITY"
+      ],
+      "final_gloss": "HE TEACH AT FS:CALIFORNIA FS:STATE FS:UNIVERSITY",
+      "final_tokens": [
+        "HE",
+        "TEACH",
+        "AT",
+        "FS:CALIFORNIA",
+        "FS:STATE",
+        "FS:UNIVERSITY"
+      ],
+      "applied_rules": [],
+      "validation": {
+        "status": "pass",
+        "warnings": []
+      },
+      "review_status": "unreviewed",
+      "uncertainty_notes": "",
+      "uncertain_parts": [],
+      "needs_human_review": false,
+      "llm_status": "ok",
+      "llm": {
+        "status": "ok",
+        "needs_human_review": false,
+        "uncertain": false,
+        "uncertain_parts": [],
+        "notes": "",
+        "echoed_source_text": "He teaches at California State University."
+      },
+      "error": null,
+      "speaker_id": null,
+      "start_timestamp": null,
+      "end_timestamp": null,
+      "turn_index": 0,
+      "source_metadata": {
+        "source_id": "l1-names",
+        "parent_chunk_id": "l1-names-0002",
+        "split_method": null,
+        "piece": [
+          1,
+          1
+        ],
+        "source_start_offset": 62,
+        "source_end_offset": 104,
+        "cue_indices": null,
+        "cue_ids": null,
+        "incomplete": false,
+        "depends_on_previous": true,
+        "dependency_reasons": [
+          "pronoun_start"
+        ]
+      },
+      "metadata": {
+        "model": "groq/openai/gpt-oss-120b",
+        "prompt_version": "8.0",
+        "llm_config": {
+          "provider": "groq",
+          "model": "openai/gpt-oss-120b",
+          "reasoning_effort": "medium",
+          "temperature": 0.0,
+          "max_output_tokens": 8192,
+          "prompt_version": "8.0",
+          "thinking_budget": null,
+          "empty_gloss_retry": true,
+          "references_file": null,
+          "reference_entries_loaded": 0
+        },
+        "rule_set_version": "0.1.0",
+        "active_rules": [
+          "R-FMT-01",
+          "R-ART-01",
+          "R-SKIP-01"
+        ],
+        "result_schema_version": "1.0",
+        "rule_pass_completed": true,
+        "cache_hit": false
+      },
+      "passage_id": "l1-names",
+      "observed_failures": [],
+      "function_word_tokens": [],
+      "scored_issues": []
+    },
+    {
+      "sentence_id": "l1-names-s0003",
+      "group_id": "l1-names-g0001",
+      "source_text": "Maria Gonzalez will join us from Mumbai.",
+      "llm_input_text": "Maria Gonzalez will join us from Mumbai.",
+      "skipped_spans": [],
+      "translation_status": "translated",
+      "candidate_gloss": "FS:MARIA FS:GONZALEZ WILL JOIN US FROM FS:MUMBAI",
+      "candidate_tokens": [
+        "FS:MARIA",
+        "FS:GONZALEZ",
+        "WILL",
+        "JOIN",
+        "US",
+        "FROM",
+        "FS:MUMBAI"
+      ],
+      "final_gloss": "FS:MARIA FS:GONZALEZ WILL JOIN US FROM FS:MUMBAI",
+      "final_tokens": [
+        "FS:MARIA",
+        "FS:GONZALEZ",
+        "WILL",
+        "JOIN",
+        "US",
+        "FROM",
+        "FS:MUMBAI"
+      ],
+      "applied_rules": [],
+      "validation": {
+        "status": "pass",
+        "warnings": []
+      },
+      "review_status": "unreviewed",
+      "uncertainty_notes": "",
+      "uncertain_parts": [],
+      "needs_human_review": false,
+      "llm_status": "ok",
+      "llm": {
+        "status": "ok",
+        "needs_human_review": false,
+        "uncertain": false,
+        "uncertain_parts": [],
+        "notes": "",
+        "echoed_source_text": "Maria Gonzalez will join us from Mumbai."
+      },
+      "error": null,
+      "speaker_id": null,
+      "start_timestamp": null,
+      "end_timestamp": null,
+      "turn_index": 0,
+      "source_metadata": {
+        "source_id": "l1-names",
+        "parent_chunk_id": "l1-names-0003",
+        "split_method": null,
+        "piece": [
+          1,
+          1
+        ],
+        "source_start_offset": 105,
+        "source_end_offset": 145,
+        "cue_indices": null,
+        "cue_ids": null,
+        "incomplete": false,
+        "depends_on_previous": false,
+        "dependency_reasons": []
+      },
+      "metadata": {
+        "model": "groq/openai/gpt-oss-120b",
+        "prompt_version": "8.0",
+        "llm_config": {
+          "provider": "groq",
+          "model": "openai/gpt-oss-120b",
+          "reasoning_effort": "medium",
+          "temperature": 0.0,
+          "max_output_tokens": 8192,
+          "prompt_version": "8.0",
+          "thinking_budget": null,
+          "empty_gloss_retry": true,
+          "references_file": null,
+          "reference_entries_loaded": 0
+        },
+        "rule_set_version": "0.1.0",
+        "active_rules": [
+          "R-FMT-01",
+          "R-ART-01",
+          "R-SKIP-01"
+        ],
+        "result_schema_version": "1.0",
+        "rule_pass_completed": true,
+        "cache_hit": false
+      },
+      "passage_id": "l1-names",
+      "observed_failures": [],
+      "function_word_tokens": [],
+      "scored_issues": []
+    },
+    {
+      "sentence_id": "l1-conditions-s0001",
+      "group_id": "l1-conditions-g0001",
+      "source_text": "If you practise every day, your mind will become calm.",
+      "llm_input_text": "If you practise every day, your mind will become calm.",
+      "skipped_spans": [],
+      "translation_status": "translated",
+      "candidate_gloss": "IF YOU PRACTISE EVERY_DAY MIND WILL BECOME CALM",
+      "candidate_tokens": [
+        "IF",
+        "YOU",
+        "PRACTISE",
+        "EVERY_DAY",
+        "MIND",
+        "WILL",
+        "BECOME",
+        "CALM"
+      ],
+      "final_gloss": "IF YOU PRACTISE EVERY_DAY MIND WILL BECOME CALM",
+      "final_tokens": [
+        "IF",
+        "YOU",
+        "PRACTISE",
+        "EVERY_DAY",
+        "MIND",
+        "WILL",
+        "BECOME",
+        "CALM"
+      ],
+      "applied_rules": [],
+      "validation": {
+        "status": "pass",
+        "warnings": []
+      },
+      "review_status": "unreviewed",
+      "uncertainty_notes": "",
+      "uncertain_parts": [],
+      "needs_human_review": false,
+      "llm_status": "ok",
+      "llm": {
+        "status": "ok",
+        "needs_human_review": false,
+        "uncertain": false,
+        "uncertain_parts": [],
+        "notes": "",
+        "echoed_source_text": "If you practise every day, your mind will become calm."
+      },
+      "error": null,
+      "speaker_id": null,
+      "start_timestamp": null,
+      "end_timestamp": null,
+      "turn_index": 0,
+      "source_metadata": {
+        "source_id": "l1-conditions",
+        "parent_chunk_id": "l1-conditions-0001",
+        "split_method": null,
+        "piece": [
+          1,
+          1
+        ],
+        "source_start_offset": 0,
+        "source_end_offset": 54,
+        "cue_indices": null,
+        "cue_ids": null,
+        "incomplete": false,
+        "depends_on_previous": false,
+        "dependency_reasons": []
+      },
+      "metadata": {
+        "model": "groq/openai/gpt-oss-120b",
+        "prompt_version": "8.0",
+        "llm_config": {
+          "provider": "groq",
+          "model": "openai/gpt-oss-120b",
+          "reasoning_effort": "medium",
+          "temperature": 0.0,
+          "max_output_tokens": 8192,
+          "prompt_version": "8.0",
+          "thinking_budget": null,
+          "empty_gloss_retry": true,
+          "references_file": null,
+          "reference_entries_loaded": 0
+        },
+        "rule_set_version": "0.1.0",
+        "active_rules": [
+          "R-FMT-01",
+          "R-ART-01",
+          "R-SKIP-01"
+        ],
+        "result_schema_version": "1.0",
+        "rule_pass_completed": true,
+        "cache_hit": false
+      },
+      "passage_id": "l1-conditions",
+      "observed_failures": [],
+      "function_word_tokens": [],
+      "scored_issues": []
+    },
+    {
+      "sentence_id": "l1-conditions-s0002",
+      "group_id": "l1-conditions-g0001",
+      "source_text": "We will not go outside unless it stops raining.",
+      "llm_input_text": "We will not go outside unless it stops raining.",
+      "skipped_spans": [],
+      "translation_status": "translated",
+      "candidate_gloss": "UNLESS IT STOP RAIN WE WILL NOT GO OUTSIDE",
+      "candidate_tokens": [
+        "UNLESS",
+        "IT",
+        "STOP",
+        "RAIN",
+        "WE",
+        "WILL",
+        "NOT",
+        "GO",
+        "OUTSIDE"
+      ],
+      "final_gloss": "UNLESS IT STOP RAIN WE WILL NOT GO OUTSIDE",
+      "final_tokens": [
+        "UNLESS",
+        "IT",
+        "STOP",
+        "RAIN",
+        "WE",
+        "WILL",
+        "NOT",
+        "GO",
+        "OUTSIDE"
+      ],
+      "applied_rules": [],
+      "validation": {
+        "status": "pass",
+        "warnings": []
+      },
+      "review_status": "unreviewed",
+      "uncertainty_notes": "",
+      "uncertain_parts": [],
+      "needs_human_review": false,
+      "llm_status": "ok",
+      "llm": {
+        "status": "ok",
+        "needs_human_review": false,
+        "uncertain": false,
+        "uncertain_parts": [],
+        "notes": "",
+        "echoed_source_text": "We will not go outside unless it stops raining."
+      },
+      "error": null,
+      "speaker_id": null,
+      "start_timestamp": null,
+      "end_timestamp": null,
+      "turn_index": 0,
+      "source_metadata": {
+        "source_id": "l1-conditions",
+        "parent_chunk_id": "l1-conditions-0002",
+        "split_method": null,
+        "piece": [
+          1,
+          1
+        ],
+        "source_start_offset": 55,
+        "source_end_offset": 102,
+        "cue_indices": null,
+        "cue_ids": null,
+        "incomplete": false,
+        "depends_on_previous": false,
+        "dependency_reasons": []
+      },
+      "metadata": {
+        "model": "groq/openai/gpt-oss-120b",
+        "prompt_version": "8.0",
+        "llm_config": {
+          "provider": "groq",
+          "model": "openai/gpt-oss-120b",
+          "reasoning_effort": "medium",
+          "temperature": 0.0,
+          "max_output_tokens": 8192,
+          "prompt_version": "8.0",
+          "thinking_budget": null,
+          "empty_gloss_retry": true,
+          "references_file": null,
+          "reference_entries_loaded": 0
+        },
+        "rule_set_version": "0.1.0",
+        "active_rules": [
+          "R-FMT-01",
+          "R-ART-01",
+          "R-SKIP-01"
+        ],
+        "result_schema_version": "1.0",
+        "rule_pass_completed": true,
+        "cache_hit": false
+      },
+      "passage_id": "l1-conditions",
+      "observed_failures": [],
+      "function_word_tokens": [
+        "IT"
+      ],
+      "scored_issues": [
+        "function_word_tokens:IT"
+      ]
+    },
+    {
+      "sentence_id": "l1-conditions-s0003",
+      "group_id": "l1-conditions-g0001",
+      "source_text": "Whenever we get angry, it leaves an impression.",
+      "llm_input_text": "Whenever we get angry, it leaves an impression.",
+      "skipped_spans": [],
+      "translation_status": "translated",
+      "candidate_gloss": "WHENEVER WE GET ANGRY IT LEAVE IMPRESS",
+      "candidate_tokens": [
+        "WHENEVER",
+        "WE",
+        "GET",
+        "ANGRY",
+        "IT",
+        "LEAVE",
+        "IMPRESS"
+      ],
+      "final_gloss": "WHENEVER WE GET ANGRY IT LEAVE IMPRESS",
+      "final_tokens": [
+        "WHENEVER",
+        "WE",
+        "GET",
+        "ANGRY",
+        "IT",
+        "LEAVE",
+        "IMPRESS"
+      ],
+      "applied_rules": [],
+      "validation": {
+        "status": "pass",
+        "warnings": []
+      },
+      "review_status": "unreviewed",
+      "uncertainty_notes": "",
+      "uncertain_parts": [],
+      "needs_human_review": false,
+      "llm_status": "ok",
+      "llm": {
+        "status": "ok",
+        "needs_human_review": false,
+        "uncertain": false,
+        "uncertain_parts": [],
+        "notes": "",
+        "echoed_source_text": "Whenever we get angry, it leaves an impression."
+      },
+      "error": null,
+      "speaker_id": null,
+      "start_timestamp": null,
+      "end_timestamp": null,
+      "turn_index": 0,
+      "source_metadata": {
+        "source_id": "l1-conditions",
+        "parent_chunk_id": "l1-conditions-0003",
+        "split_method": null,
+        "piece": [
+          1,
+          1
+        ],
+        "source_start_offset": 103,
+        "source_end_offset": 150,
+        "cue_indices": null,
+        "cue_ids": null,
+        "incomplete": false,
+        "depends_on_previous": false,
+        "dependency_reasons": []
+      },
+      "metadata": {
+        "model": "groq/openai/gpt-oss-120b",
+        "prompt_version": "8.0",
+        "llm_config": {
+          "provider": "groq",
+          "model": "openai/gpt-oss-120b",
+          "reasoning_effort": "medium",
+          "temperature": 0.0,
+          "max_output_tokens": 8192,
+          "prompt_version": "8.0",
+          "thinking_budget": null,
+          "empty_gloss_retry": true,
+          "references_file": null,
+          "reference_entries_loaded": 0
+        },
+        "rule_set_version": "0.1.0",
+        "active_rules": [
+          "R-FMT-01",
+          "R-ART-01",
+          "R-SKIP-01"
+        ],
+        "result_schema_version": "1.0",
+        "rule_pass_completed": true,
+        "cache_hit": false
+      },
+      "passage_id": "l1-conditions",
+      "observed_failures": [],
+      "function_word_tokens": [
+        "IT"
+      ],
+      "scored_issues": [
+        "function_word_tokens:IT"
+      ]
+    },
+    {
+      "sentence_id": "l1-negation-questions-s0001",
+      "group_id": "l1-negation-questions-g0001",
+      "source_text": "I do not want to hurt anyone.",
+      "llm_input_text": "I do not want to hurt anyone.",
+      "skipped_spans": [],
+      "translation_status": "translated",
+      "candidate_gloss": "I NOT WANT HURT ANYONE",
+      "candidate_tokens": [
+        "I",
+        "NOT",
+        "WANT",
+        "HURT",
+        "ANYONE"
+      ],
+      "final_gloss": "I NOT WANT HURT ANYONE",
+      "final_tokens": [
+        "I",
+        "NOT",
+        "WANT",
+        "HURT",
+        "ANYONE"
+      ],
+      "applied_rules": [],
+      "validation": {
+        "status": "pass",
+        "warnings": []
+      },
+      "review_status": "unreviewed",
+      "uncertainty_notes": "",
+      "uncertain_parts": [],
+      "needs_human_review": false,
+      "llm_status": "ok",
+      "llm": {
+        "status": "ok",
+        "needs_human_review": false,
+        "uncertain": false,
+        "uncertain_parts": [],
+        "notes": "",
+        "echoed_source_text": "I do not want to hurt anyone."
+      },
+      "error": null,
+      "speaker_id": null,
+      "start_timestamp": null,
+      "end_timestamp": null,
+      "turn_index": 0,
+      "source_metadata": {
+        "source_id": "l1-negation-questions",
+        "parent_chunk_id": "l1-negation-questions-0001",
+        "split_method": null,
+        "piece": [
+          1,
+          1
+        ],
+        "source_start_offset": 0,
+        "source_end_offset": 29,
+        "cue_indices": null,
+        "cue_ids": null,
+        "incomplete": false,
+        "depends_on_previous": false,
+        "dependency_reasons": []
+      },
+      "metadata": {
+        "model": "groq/openai/gpt-oss-120b",
+        "prompt_version": "8.0",
+        "llm_config": {
+          "provider": "groq",
+          "model": "openai/gpt-oss-120b",
+          "reasoning_effort": "medium",
+          "temperature": 0.0,
+          "max_output_tokens": 8192,
+          "prompt_version": "8.0",
+          "thinking_budget": null,
+          "empty_gloss_retry": true,
+          "references_file": null,
+          "reference_entries_loaded": 0
+        },
+        "rule_set_version": "0.1.0",
+        "active_rules": [
+          "R-FMT-01",
+          "R-ART-01",
+          "R-SKIP-01"
+        ],
+        "result_schema_version": "1.0",
+        "rule_pass_completed": true,
+        "cache_hit": false
+      },
+      "passage_id": "l1-negation-questions",
+      "observed_failures": [],
+      "function_word_tokens": [],
+      "scored_issues": []
+    },
+    {
+      "sentence_id": "l1-negation-questions-s0002",
+      "group_id": "l1-negation-questions-g0001",
+      "source_text": "Why do we get angry so quickly?",
+      "llm_input_text": "Why do we get angry so quickly?",
+      "skipped_spans": [],
+      "translation_status": "translated",
+      "candidate_gloss": "WHY WE GET ANGRY QUICKLY",
+      "candidate_tokens": [
+        "WHY",
+        "WE",
+        "GET",
+        "ANGRY",
+        "QUICKLY"
+      ],
+      "final_gloss": "WHY WE GET ANGRY QUICKLY",
+      "final_tokens": [
+        "WHY",
+        "WE",
+        "GET",
+        "ANGRY",
+        "QUICKLY"
+      ],
+      "applied_rules": [],
+      "validation": {
+        "status": "pass",
+        "warnings": []
+      },
+      "review_status": "unreviewed",
+      "uncertainty_notes": "",
+      "uncertain_parts": [],
+      "needs_human_review": false,
+      "llm_status": "ok",
+      "llm": {
+        "status": "ok",
+        "needs_human_review": false,
+        "uncertain": false,
+        "uncertain_parts": [],
+        "notes": "",
+        "echoed_source_text": "Why do we get angry so quickly?"
+      },
+      "error": null,
+      "speaker_id": null,
+      "start_timestamp": null,
+      "end_timestamp": null,
+      "turn_index": 0,
+      "source_metadata": {
+        "source_id": "l1-negation-questions",
+        "parent_chunk_id": "l1-negation-questions-0002",
+        "split_method": null,
+        "piece": [
+          1,
+          1
+        ],
+        "source_start_offset": 30,
+        "source_end_offset": 61,
+        "cue_indices": null,
+        "cue_ids": null,
+        "incomplete": false,
+        "depends_on_previous": false,
+        "dependency_reasons": []
+      },
+      "metadata": {
+        "model": "groq/openai/gpt-oss-120b",
+        "prompt_version": "8.0",
+        "llm_config": {
+          "provider": "groq",
+          "model": "openai/gpt-oss-120b",
+          "reasoning_effort": "medium",
+          "temperature": 0.0,
+          "max_output_tokens": 8192,
+          "prompt_version": "8.0",
+          "thinking_budget": null,
+          "empty_gloss_retry": true,
+          "references_file": null,
+          "reference_entries_loaded": 0
+        },
+        "rule_set_version": "0.1.0",
+        "active_rules": [
+          "R-FMT-01",
+          "R-ART-01",
+          "R-SKIP-01"
+        ],
+        "result_schema_version": "1.0",
+        "rule_pass_completed": true,
+        "cache_hit": false
+      },
+      "passage_id": "l1-negation-questions",
+      "observed_failures": [],
+      "function_word_tokens": [],
+      "scored_issues": []
+    },
+    {
+      "sentence_id": "l1-negation-questions-s0003",
+      "group_id": "l1-negation-questions-g0001",
+      "source_text": "Nothing in this world belongs to us.",
+      "llm_input_text": "Nothing in this world belongs to us.",
+      "skipped_spans": [],
+      "translation_status": "translated",
+      "candidate_gloss": "NOTHING THIS WORLD BELONG US",
+      "candidate_tokens": [
+        "NOTHING",
+        "THIS",
+        "WORLD",
+        "BELONG",
+        "US"
+      ],
+      "final_gloss": "NOTHING THIS WORLD BELONG US",
+      "final_tokens": [
+        "NOTHING",
+        "THIS",
+        "WORLD",
+        "BELONG",
+        "US"
+      ],
+      "applied_rules": [],
+      "validation": {
+        "status": "pass",
+        "warnings": []
+      },
+      "review_status": "unreviewed",
+      "uncertainty_notes": "",
+      "uncertain_parts": [],
+      "needs_human_review": false,
+      "llm_status": "ok",
+      "llm": {
+        "status": "ok",
+        "needs_human_review": false,
+        "uncertain": false,
+        "uncertain_parts": [],
+        "notes": "",
+        "echoed_source_text": "Nothing in this world belongs to us."
+      },
+      "error": null,
+      "speaker_id": null,
+      "start_timestamp": null,
+      "end_timestamp": null,
+      "turn_index": 0,
+      "source_metadata": {
+        "source_id": "l1-negation-questions",
+        "parent_chunk_id": "l1-negation-questions-0003",
+        "split_method": null,
+        "piece": [
+          1,
+          1
+        ],
+        "source_start_offset": 62,
+        "source_end_offset": 98,
+        "cue_indices": null,
+        "cue_ids": null,
+        "incomplete": false,
+        "depends_on_previous": false,
+        "dependency_reasons": []
+      },
+      "metadata": {
+        "model": "groq/openai/gpt-oss-120b",
+        "prompt_version": "8.0",
+        "llm_config": {
+          "provider": "groq",
+          "model": "openai/gpt-oss-120b",
+          "reasoning_effort": "medium",
+          "temperature": 0.0,
+          "max_output_tokens": 8192,
+          "prompt_version": "8.0",
+          "thinking_budget": null,
+          "empty_gloss_retry": true,
+          "references_file": null,
+          "reference_entries_loaded": 0
+        },
+        "rule_set_version": "0.1.0",
+        "active_rules": [
+          "R-FMT-01",
+          "R-ART-01",
+          "R-SKIP-01"
+        ],
+        "result_schema_version": "1.0",
+        "rule_pass_completed": true,
+        "cache_hit": false
+      },
+      "passage_id": "l1-negation-questions",
+      "observed_failures": [],
+      "function_word_tokens": [],
+      "scored_issues": []
+    },
+    {
+      "sentence_id": "l1-negation-questions-s0004",
+      "group_id": "l1-negation-questions-g0001",
+      "source_text": "Did you finish the report?",
+      "llm_input_text": "Did you finish the report?",
+      "skipped_spans": [],
+      "translation_status": "translated",
+      "candidate_gloss": "YOU FINISH REPORT",
+      "candidate_tokens": [
+        "YOU",
+        "FINISH",
+        "REPORT"
+      ],
+      "final_gloss": "YOU FINISH REPORT",
+      "final_tokens": [
+        "YOU",
+        "FINISH",
+        "REPORT"
+      ],
+      "applied_rules": [],
+      "validation": {
+        "status": "pass",
+        "warnings": []
+      },
+      "review_status": "unreviewed",
+      "uncertainty_notes": "",
+      "uncertain_parts": [],
+      "needs_human_review": false,
+      "llm_status": "ok",
+      "llm": {
+        "status": "ok",
+        "needs_human_review": false,
+        "uncertain": false,
+        "uncertain_parts": [],
+        "notes": "",
+        "echoed_source_text": "Did you finish the report?"
+      },
+      "error": null,
+      "speaker_id": null,
+      "start_timestamp": null,
+      "end_timestamp": null,
+      "turn_index": 0,
+      "source_metadata": {
+        "source_id": "l1-negation-questions",
+        "parent_chunk_id": "l1-negation-questions-0004",
+        "split_method": null,
+        "piece": [
+          1,
+          1
+        ],
+        "source_start_offset": 99,
+        "source_end_offset": 125,
+        "cue_indices": null,
+        "cue_ids": null,
+        "incomplete": false,
+        "depends_on_previous": false,
+        "dependency_reasons": []
+      },
+      "metadata": {
+        "model": "groq/openai/gpt-oss-120b",
+        "prompt_version": "8.0",
+        "llm_config": {
+          "provider": "groq",
+          "model": "openai/gpt-oss-120b",
+          "reasoning_effort": "medium",
+          "temperature": 0.0,
+          "max_output_tokens": 8192,
+          "prompt_version": "8.0",
+          "thinking_budget": null,
+          "empty_gloss_retry": true,
+          "references_file": null,
+          "reference_entries_loaded": 0
+        },
+        "rule_set_version": "0.1.0",
+        "active_rules": [
+          "R-FMT-01",
+          "R-ART-01",
+          "R-SKIP-01"
+        ],
+        "result_schema_version": "1.0",
+        "rule_pass_completed": true,
+        "cache_hit": false
+      },
+      "passage_id": "l1-negation-questions",
+      "observed_failures": [],
+      "function_word_tokens": [],
+      "scored_issues": []
+    },
+    {
+      "sentence_id": "l1-pronouns-s0001",
+      "group_id": "l1-pronouns-g0001",
+      "source_text": "Maria bought a new laptop yesterday.",
+      "llm_input_text": "Maria bought a new laptop yesterday.",
+      "skipped_spans": [],
+      "translation_status": "translated",
+      "candidate_gloss": "FS:MARIA BUY NEW LAPTOP YESTERDAY",
+      "candidate_tokens": [
+        "FS:MARIA",
+        "BUY",
+        "NEW",
+        "LAPTOP",
+        "YESTERDAY"
+      ],
+      "final_gloss": "FS:MARIA BUY NEW LAPTOP YESTERDAY",
+      "final_tokens": [
+        "FS:MARIA",
+        "BUY",
+        "NEW",
+        "LAPTOP",
+        "YESTERDAY"
+      ],
+      "applied_rules": [],
+      "validation": {
+        "status": "pass",
+        "warnings": []
+      },
+      "review_status": "unreviewed",
+      "uncertainty_notes": "",
+      "uncertain_parts": [],
+      "needs_human_review": false,
+      "llm_status": "ok",
+      "llm": {
+        "status": "ok",
+        "needs_human_review": false,
+        "uncertain": false,
+        "uncertain_parts": [],
+        "notes": "",
+        "echoed_source_text": "Maria bought a new laptop yesterday."
+      },
+      "error": null,
+      "speaker_id": null,
+      "start_timestamp": null,
+      "end_timestamp": null,
+      "turn_index": 0,
+      "source_metadata": {
+        "source_id": "l1-pronouns",
+        "parent_chunk_id": "l1-pronouns-0001",
+        "split_method": null,
+        "piece": [
+          1,
+          1
+        ],
+        "source_start_offset": 0,
+        "source_end_offset": 36,
+        "cue_indices": null,
+        "cue_ids": null,
+        "incomplete": false,
+        "depends_on_previous": false,
+        "dependency_reasons": []
+      },
+      "metadata": {
+        "model": "groq/openai/gpt-oss-120b",
+        "prompt_version": "8.0",
+        "llm_config": {
+          "provider": "groq",
+          "model": "openai/gpt-oss-120b",
+          "reasoning_effort": "medium",
+          "temperature": 0.0,
+          "max_output_tokens": 8192,
+          "prompt_version": "8.0",
+          "thinking_budget": null,
+          "empty_gloss_retry": true,
+          "references_file": null,
+          "reference_entries_loaded": 0
+        },
+        "rule_set_version": "0.1.0",
+        "active_rules": [
+          "R-FMT-01",
+          "R-ART-01",
+          "R-SKIP-01"
+        ],
+        "result_schema_version": "1.0",
+        "rule_pass_completed": true,
+        "cache_hit": false
+      },
+      "passage_id": "l1-pronouns",
+      "observed_failures": [],
+      "function_word_tokens": [],
+      "scored_issues": []
+    },
+    {
+      "sentence_id": "l1-pronouns-s0002",
+      "group_id": "l1-pronouns-g0001",
+      "source_text": "She says it is very fast.",
+      "llm_input_text": "She says it is very fast.",
+      "skipped_spans": [],
+      "translation_status": "translated",
+      "candidate_gloss": "SHE SAY IT VERY FAST",
+      "candidate_tokens": [
+        "SHE",
+        "SAY",
+        "IT",
+        "VERY",
+        "FAST"
+      ],
+      "final_gloss": "SHE SAY IT VERY FAST",
+      "final_tokens": [
+        "SHE",
+        "SAY",
+        "IT",
+        "VERY",
+        "FAST"
+      ],
+      "applied_rules": [],
+      "validation": {
+        "status": "pass",
+        "warnings": []
+      },
+      "review_status": "unreviewed",
+      "uncertainty_notes": "",
+      "uncertain_parts": [],
+      "needs_human_review": false,
+      "llm_status": "ok",
+      "llm": {
+        "status": "ok",
+        "needs_human_review": false,
+        "uncertain": false,
+        "uncertain_parts": [],
+        "notes": "",
+        "echoed_source_text": "She says it is very fast."
+      },
+      "error": null,
+      "speaker_id": null,
+      "start_timestamp": null,
+      "end_timestamp": null,
+      "turn_index": 0,
+      "source_metadata": {
+        "source_id": "l1-pronouns",
+        "parent_chunk_id": "l1-pronouns-0002",
+        "split_method": null,
+        "piece": [
+          1,
+          1
+        ],
+        "source_start_offset": 37,
+        "source_end_offset": 62,
+        "cue_indices": null,
+        "cue_ids": null,
+        "incomplete": false,
+        "depends_on_previous": true,
+        "dependency_reasons": [
+          "pronoun_start"
+        ]
+      },
+      "metadata": {
+        "model": "groq/openai/gpt-oss-120b",
+        "prompt_version": "8.0",
+        "llm_config": {
+          "provider": "groq",
+          "model": "openai/gpt-oss-120b",
+          "reasoning_effort": "medium",
+          "temperature": 0.0,
+          "max_output_tokens": 8192,
+          "prompt_version": "8.0",
+          "thinking_budget": null,
+          "empty_gloss_retry": true,
+          "references_file": null,
+          "reference_entries_loaded": 0
+        },
+        "rule_set_version": "0.1.0",
+        "active_rules": [
+          "R-FMT-01",
+          "R-ART-01",
+          "R-SKIP-01"
+        ],
+        "result_schema_version": "1.0",
+        "rule_pass_completed": true,
+        "cache_hit": false
+      },
+      "passage_id": "l1-pronouns",
+      "observed_failures": [],
+      "function_word_tokens": [
+        "IT"
+      ],
+      "scored_issues": [
+        "function_word_tokens:IT"
+      ]
+    },
+    {
+      "sentence_id": "l1-pronouns-s0003",
+      "group_id": "l1-pronouns-g0001",
+      "source_text": "It replaced the old one that kept crashing.",
+      "llm_input_text": "It replaced the old one that kept crashing.",
+      "skipped_spans": [],
+      "translation_status": "translated",
+      "candidate_gloss": "IT REPLACE OLD ONE KEEP CRASH",
+      "candidate_tokens": [
+        "IT",
+        "REPLACE",
+        "OLD",
+        "ONE",
+        "KEEP",
+        "CRASH"
+      ],
+      "final_gloss": "IT REPLACE OLD ONE KEEP CRASH",
+      "final_tokens": [
+        "IT",
+        "REPLACE",
+        "OLD",
+        "ONE",
+        "KEEP",
+        "CRASH"
+      ],
+      "applied_rules": [],
+      "validation": {
+        "status": "pass",
+        "warnings": []
+      },
+      "review_status": "unreviewed",
+      "uncertainty_notes": "",
+      "uncertain_parts": [],
+      "needs_human_review": false,
+      "llm_status": "ok",
+      "llm": {
+        "status": "ok",
+        "needs_human_review": false,
+        "uncertain": false,
+        "uncertain_parts": [],
+        "notes": "",
+        "echoed_source_text": "It replaced the old one that kept crashing."
+      },
+      "error": null,
+      "speaker_id": null,
+      "start_timestamp": null,
+      "end_timestamp": null,
+      "turn_index": 0,
+      "source_metadata": {
+        "source_id": "l1-pronouns",
+        "parent_chunk_id": "l1-pronouns-0003",
+        "split_method": null,
+        "piece": [
+          1,
+          1
+        ],
+        "source_start_offset": 63,
+        "source_end_offset": 106,
+        "cue_indices": null,
+        "cue_ids": null,
+        "incomplete": false,
+        "depends_on_previous": true,
+        "dependency_reasons": [
+          "pronoun_start"
+        ]
+      },
+      "metadata": {
+        "model": "groq/openai/gpt-oss-120b",
+        "prompt_version": "8.0",
+        "llm_config": {
+          "provider": "groq",
+          "model": "openai/gpt-oss-120b",
+          "reasoning_effort": "medium",
+          "temperature": 0.0,
+          "max_output_tokens": 8192,
+          "prompt_version": "8.0",
+          "thinking_budget": null,
+          "empty_gloss_retry": true,
+          "references_file": null,
+          "reference_entries_loaded": 0
+        },
+        "rule_set_version": "0.1.0",
+        "active_rules": [
+          "R-FMT-01",
+          "R-ART-01",
+          "R-SKIP-01"
+        ],
+        "result_schema_version": "1.0",
+        "rule_pass_completed": true,
+        "cache_hit": false
+      },
+      "passage_id": "l1-pronouns",
+      "observed_failures": [],
+      "function_word_tokens": [
+        "IT"
+      ],
+      "scored_issues": [
+        "function_word_tokens:IT"
+      ]
+    },
+    {
+      "sentence_id": "l1-pronouns-s0004",
+      "group_id": "l1-pronouns-g0001",
+      "source_text": "Her brother wants one too.",
+      "llm_input_text": "Her brother wants one too.",
+      "skipped_spans": [],
+      "translation_status": "translated",
+      "candidate_gloss": "HER BROTHER WANT ONE TOO",
+      "candidate_tokens": [
+        "HER",
+        "BROTHER",
+        "WANT",
+        "ONE",
+        "TOO"
+      ],
+      "final_gloss": "HER BROTHER WANT ONE TOO",
+      "final_tokens": [
+        "HER",
+        "BROTHER",
+        "WANT",
+        "ONE",
+        "TOO"
+      ],
+      "applied_rules": [],
+      "validation": {
+        "status": "pass",
+        "warnings": []
+      },
+      "review_status": "unreviewed",
+      "uncertainty_notes": "",
+      "uncertain_parts": [],
+      "needs_human_review": false,
+      "llm_status": "ok",
+      "llm": {
+        "status": "ok",
+        "needs_human_review": false,
+        "uncertain": false,
+        "uncertain_parts": [],
+        "notes": "",
+        "echoed_source_text": "Her brother wants one too."
+      },
+      "error": null,
+      "speaker_id": null,
+      "start_timestamp": null,
+      "end_timestamp": null,
+      "turn_index": 0,
+      "source_metadata": {
+        "source_id": "l1-pronouns",
+        "parent_chunk_id": "l1-pronouns-0004",
+        "split_method": null,
+        "piece": [
+          1,
+          1
+        ],
+        "source_start_offset": 107,
+        "source_end_offset": 133,
+        "cue_indices": null,
+        "cue_ids": null,
+        "incomplete": false,
+        "depends_on_previous": true,
+        "dependency_reasons": [
+          "pronoun_start"
+        ]
+      },
+      "metadata": {
+        "model": "groq/openai/gpt-oss-120b",
+        "prompt_version": "8.0",
+        "llm_config": {
+          "provider": "groq",
+          "model": "openai/gpt-oss-120b",
+          "reasoning_effort": "medium",
+          "temperature": 0.0,
+          "max_output_tokens": 8192,
+          "prompt_version": "8.0",
+          "thinking_budget": null,
+          "empty_gloss_retry": true,
+          "references_file": null,
+          "reference_entries_loaded": 0
+        },
+        "rule_set_version": "0.1.0",
+        "active_rules": [
+          "R-FMT-01",
+          "R-ART-01",
+          "R-SKIP-01"
+        ],
+        "result_schema_version": "1.0",
+        "rule_pass_completed": true,
+        "cache_hit": false
+      },
+      "passage_id": "l1-pronouns",
+      "observed_failures": [],
+      "function_word_tokens": [],
+      "scored_issues": []
+    },
+    {
+      "sentence_id": "l1-cause-group-s0001",
+      "group_id": "l1-cause-group-g0001",
+      "source_text": "The monsoon arrives in June.",
+      "llm_input_text": "The monsoon arrives in June.",
+      "skipped_spans": [],
+      "translation_status": "translated",
+      "candidate_gloss": "MONSOON ARRIVE IN JUNE",
+      "candidate_tokens": [
+        "MONSOON",
+        "ARRIVE",
+        "IN",
+        "JUNE"
+      ],
+      "final_gloss": "MONSOON ARRIVE IN JUNE",
+      "final_tokens": [
+        "MONSOON",
+        "ARRIVE",
+        "IN",
+        "JUNE"
+      ],
+      "applied_rules": [],
+      "validation": {
+        "status": "pass",
+        "warnings": []
+      },
+      "review_status": "unreviewed",
+      "uncertainty_notes": "",
+      "uncertain_parts": [],
+      "needs_human_review": false,
+      "llm_status": "ok",
+      "llm": {
+        "status": "ok",
+        "needs_human_review": false,
+        "uncertain": false,
+        "uncertain_parts": [],
+        "notes": "",
+        "echoed_source_text": "The monsoon arrives in June."
+      },
+      "error": null,
+      "speaker_id": null,
+      "start_timestamp": null,
+      "end_timestamp": null,
+      "turn_index": 0,
+      "source_metadata": {
+        "source_id": "l1-cause-group",
+        "parent_chunk_id": "l1-cause-group-0001",
+        "split_method": null,
+        "piece": [
+          1,
+          1
+        ],
+        "source_start_offset": 0,
+        "source_end_offset": 28,
+        "cue_indices": null,
+        "cue_ids": null,
+        "incomplete": false,
+        "depends_on_previous": false,
+        "dependency_reasons": []
+      },
+      "metadata": {
+        "model": "groq/openai/gpt-oss-120b",
+        "prompt_version": "8.0",
+        "llm_config": {
+          "provider": "groq",
+          "model": "openai/gpt-oss-120b",
+          "reasoning_effort": "medium",
+          "temperature": 0.0,
+          "max_output_tokens": 8192,
+          "prompt_version": "8.0",
+          "thinking_budget": null,
+          "empty_gloss_retry": true,
+          "references_file": null,
+          "reference_entries_loaded": 0
+        },
+        "rule_set_version": "0.1.0",
+        "active_rules": [
+          "R-FMT-01",
+          "R-ART-01",
+          "R-SKIP-01"
+        ],
+        "result_schema_version": "1.0",
+        "rule_pass_completed": true,
+        "cache_hit": false
+      },
+      "passage_id": "l1-cause-group",
+      "observed_failures": [
+        "name_not_fingerspelled"
+      ],
+      "function_word_tokens": [],
+      "scored_issues": []
+    },
+    {
+      "sentence_id": "l1-cause-group-s0002",
+      "group_id": "l1-cause-group-g0001",
+      "source_text": "Farmers prepare their fields early because the rain is heavy.",
+      "llm_input_text": "Farmers prepare their fields early because the rain is heavy.",
+      "skipped_spans": [],
+      "translation_status": "translated",
+      "candidate_gloss": "FARMERS PREPARE THEIR FIELD EARLY BECAUSE RAIN HEAVY",
+      "candidate_tokens": [
+        "FARMERS",
+        "PREPARE",
+        "THEIR",
+        "FIELD",
+        "EARLY",
+        "BECAUSE",
+        "RAIN",
+        "HEAVY"
+      ],
+      "final_gloss": "FARMERS PREPARE THEIR FIELD EARLY BECAUSE RAIN HEAVY",
+      "final_tokens": [
+        "FARMERS",
+        "PREPARE",
+        "THEIR",
+        "FIELD",
+        "EARLY",
+        "BECAUSE",
+        "RAIN",
+        "HEAVY"
+      ],
+      "applied_rules": [],
+      "validation": {
+        "status": "pass",
+        "warnings": []
+      },
+      "review_status": "unreviewed",
+      "uncertainty_notes": "",
+      "uncertain_parts": [],
+      "needs_human_review": false,
+      "llm_status": "ok",
+      "llm": {
+        "status": "ok",
+        "needs_human_review": false,
+        "uncertain": false,
+        "uncertain_parts": [],
+        "notes": "",
+        "echoed_source_text": "Farmers prepare their fields early because the rain is heavy."
+      },
+      "error": null,
+      "speaker_id": null,
+      "start_timestamp": null,
+      "end_timestamp": null,
+      "turn_index": 0,
+      "source_metadata": {
+        "source_id": "l1-cause-group",
+        "parent_chunk_id": "l1-cause-group-0002",
+        "split_method": null,
+        "piece": [
+          1,
+          1
+        ],
+        "source_start_offset": 29,
+        "source_end_offset": 90,
+        "cue_indices": null,
+        "cue_ids": null,
+        "incomplete": false,
+        "depends_on_previous": false,
+        "dependency_reasons": []
+      },
+      "metadata": {
+        "model": "groq/openai/gpt-oss-120b",
+        "prompt_version": "8.0",
+        "llm_config": {
+          "provider": "groq",
+          "model": "openai/gpt-oss-120b",
+          "reasoning_effort": "medium",
+          "temperature": 0.0,
+          "max_output_tokens": 8192,
+          "prompt_version": "8.0",
+          "thinking_budget": null,
+          "empty_gloss_retry": true,
+          "references_file": null,
+          "reference_entries_loaded": 0
+        },
+        "rule_set_version": "0.1.0",
+        "active_rules": [
+          "R-FMT-01",
+          "R-ART-01",
+          "R-SKIP-01"
+        ],
+        "result_schema_version": "1.0",
+        "rule_pass_completed": true,
+        "cache_hit": false
+      },
+      "passage_id": "l1-cause-group",
+      "observed_failures": [],
+      "function_word_tokens": [],
+      "scored_issues": []
+    },
+    {
+      "sentence_id": "l1-cause-group-s0003",
+      "group_id": "l1-cause-group-g0001",
+      "source_text": "The harvest is better when the soil is ready.",
+      "llm_input_text": "The harvest is better when the soil is ready.",
+      "skipped_spans": [],
+      "translation_status": "translated",
+      "candidate_gloss": "HARVEST BETTER WHEN SOIL READY",
+      "candidate_tokens": [
+        "HARVEST",
+        "BETTER",
+        "WHEN",
+        "SOIL",
+        "READY"
+      ],
+      "final_gloss": "HARVEST BETTER WHEN SOIL READY",
+      "final_tokens": [
+        "HARVEST",
+        "BETTER",
+        "WHEN",
+        "SOIL",
+        "READY"
+      ],
+      "applied_rules": [],
+      "validation": {
+        "status": "pass",
+        "warnings": []
+      },
+      "review_status": "unreviewed",
+      "uncertainty_notes": "",
+      "uncertain_parts": [],
+      "needs_human_review": false,
+      "llm_status": "ok",
+      "llm": {
+        "status": "ok",
+        "needs_human_review": false,
+        "uncertain": false,
+        "uncertain_parts": [],
+        "notes": "",
+        "echoed_source_text": "The harvest is better when the soil is ready."
+      },
+      "error": null,
+      "speaker_id": null,
+      "start_timestamp": null,
+      "end_timestamp": null,
+      "turn_index": 0,
+      "source_metadata": {
+        "source_id": "l1-cause-group",
+        "parent_chunk_id": "l1-cause-group-0003",
+        "split_method": null,
+        "piece": [
+          1,
+          1
+        ],
+        "source_start_offset": 91,
+        "source_end_offset": 136,
+        "cue_indices": null,
+        "cue_ids": null,
+        "incomplete": false,
+        "depends_on_previous": false,
+        "dependency_reasons": []
+      },
+      "metadata": {
+        "model": "groq/openai/gpt-oss-120b",
+        "prompt_version": "8.0",
+        "llm_config": {
+          "provider": "groq",
+          "model": "openai/gpt-oss-120b",
+          "reasoning_effort": "medium",
+          "temperature": 0.0,
+          "max_output_tokens": 8192,
+          "prompt_version": "8.0",
+          "thinking_budget": null,
+          "empty_gloss_retry": true,
+          "references_file": null,
+          "reference_entries_loaded": 0
+        },
+        "rule_set_version": "0.1.0",
+        "active_rules": [
+          "R-FMT-01",
+          "R-ART-01",
+          "R-SKIP-01"
+        ],
+        "result_schema_version": "1.0",
+        "rule_pass_completed": true,
+        "cache_hit": false
+      },
+      "passage_id": "l1-cause-group",
+      "observed_failures": [],
+      "function_word_tokens": [],
+      "scored_issues": []
+    },
+    {
+      "sentence_id": "l1-notation-s0001",
+      "group_id": "l1-notation-g0001",
+      "source_text": "The water dried up.",
+      "llm_input_text": "The water dried up.",
+      "skipped_spans": [],
+      "translation_status": "translated",
+      "candidate_gloss": "WATER DRY_UP",
+      "candidate_tokens": [
+        "WATER",
+        "DRY_UP"
+      ],
+      "final_gloss": "WATER DRY_UP",
+      "final_tokens": [
+        "WATER",
+        "DRY_UP"
+      ],
+      "applied_rules": [],
+      "validation": {
+        "status": "pass",
+        "warnings": []
+      },
+      "review_status": "unreviewed",
+      "uncertainty_notes": "",
+      "uncertain_parts": [],
+      "needs_human_review": false,
+      "llm_status": "ok",
+      "llm": {
+        "status": "ok",
+        "needs_human_review": false,
+        "uncertain": false,
+        "uncertain_parts": [],
+        "notes": "",
+        "echoed_source_text": "The water dried up."
+      },
+      "error": null,
+      "speaker_id": null,
+      "start_timestamp": null,
+      "end_timestamp": null,
+      "turn_index": 0,
+      "source_metadata": {
+        "source_id": "l1-notation",
+        "parent_chunk_id": "l1-notation-0001",
+        "split_method": null,
+        "piece": [
+          1,
+          1
+        ],
+        "source_start_offset": 0,
+        "source_end_offset": 19,
+        "cue_indices": null,
+        "cue_ids": null,
+        "incomplete": false,
+        "depends_on_previous": false,
+        "dependency_reasons": []
+      },
+      "metadata": {
+        "model": "groq/openai/gpt-oss-120b",
+        "prompt_version": "8.0",
+        "llm_config": {
+          "provider": "groq",
+          "model": "openai/gpt-oss-120b",
+          "reasoning_effort": "medium",
+          "temperature": 0.0,
+          "max_output_tokens": 8192,
+          "prompt_version": "8.0",
+          "thinking_budget": null,
+          "empty_gloss_retry": true,
+          "references_file": null,
+          "reference_entries_loaded": 0
+        },
+        "rule_set_version": "0.1.0",
+        "active_rules": [
+          "R-FMT-01",
+          "R-ART-01",
+          "R-SKIP-01"
+        ],
+        "result_schema_version": "1.0",
+        "rule_pass_completed": true,
+        "cache_hit": false
+      },
+      "passage_id": "l1-notation",
+      "observed_failures": [],
+      "function_word_tokens": [],
+      "scored_issues": []
+    },
+    {
+      "sentence_id": "l1-notation-s0002",
+      "group_id": "l1-notation-g0001",
+      "source_text": "After the water dried up, an impression stayed.",
+      "llm_input_text": "After the water dried up, an impression stayed.",
+      "skipped_spans": [],
+      "translation_status": "translated",
+      "candidate_gloss": "AFTER WATER DRY_UP IMPRESSION STAY",
+      "candidate_tokens": [
+        "AFTER",
+        "WATER",
+        "DRY_UP",
+        "IMPRESSION",
+        "STAY"
+      ],
+      "final_gloss": "AFTER WATER DRY_UP IMPRESSION STAY",
+      "final_tokens": [
+        "AFTER",
+        "WATER",
+        "DRY_UP",
+        "IMPRESSION",
+        "STAY"
+      ],
+      "applied_rules": [],
+      "validation": {
+        "status": "pass",
+        "warnings": []
+      },
+      "review_status": "unreviewed",
+      "uncertainty_notes": "",
+      "uncertain_parts": [],
+      "needs_human_review": false,
+      "llm_status": "ok",
+      "llm": {
+        "status": "ok",
+        "needs_human_review": false,
+        "uncertain": false,
+        "uncertain_parts": [],
+        "notes": "",
+        "echoed_source_text": "After the water dried up, an impression stayed."
+      },
+      "error": null,
+      "speaker_id": null,
+      "start_timestamp": null,
+      "end_timestamp": null,
+      "turn_index": 0,
+      "source_metadata": {
+        "source_id": "l1-notation",
+        "parent_chunk_id": "l1-notation-0002",
+        "split_method": null,
+        "piece": [
+          1,
+          1
+        ],
+        "source_start_offset": 20,
+        "source_end_offset": 67,
+        "cue_indices": null,
+        "cue_ids": null,
+        "incomplete": false,
+        "depends_on_previous": false,
+        "dependency_reasons": []
+      },
+      "metadata": {
+        "model": "groq/openai/gpt-oss-120b",
+        "prompt_version": "8.0",
+        "llm_config": {
+          "provider": "groq",
+          "model": "openai/gpt-oss-120b",
+          "reasoning_effort": "medium",
+          "temperature": 0.0,
+          "max_output_tokens": 8192,
+          "prompt_version": "8.0",
+          "thinking_budget": null,
+          "empty_gloss_retry": true,
+          "references_file": null,
+          "reference_entries_loaded": 0
+        },
+        "rule_set_version": "0.1.0",
+        "active_rules": [
+          "R-FMT-01",
+          "R-ART-01",
+          "R-SKIP-01"
+        ],
+        "result_schema_version": "1.0",
+        "rule_pass_completed": true,
+        "cache_hit": false
+      },
+      "passage_id": "l1-notation",
+      "observed_failures": [],
+      "function_word_tokens": [],
+      "scored_issues": []
+    },
+    {
+      "sentence_id": "l1-notation-s0003",
+      "group_id": "l1-notation-g0001",
+      "source_text": "The same impression returns whenever new water flows over the same path.",
+      "llm_input_text": "The same impression returns whenever new water flows over the same path.",
+      "skipped_spans": [],
+      "translation_status": "translated",
+      "candidate_gloss": "SAME IMPRESSION RETURN WHENEVER NEW WATER FLOW OVER SAME PATH",
+      "candidate_tokens": [
+        "SAME",
+        "IMPRESSION",
+        "RETURN",
+        "WHENEVER",
+        "NEW",
+        "WATER",
+        "FLOW",
+        "OVER",
+        "SAME",
+        "PATH"
+      ],
+      "final_gloss": "SAME IMPRESSION RETURN WHENEVER NEW WATER FLOW OVER SAME PATH",
+      "final_tokens": [
+        "SAME",
+        "IMPRESSION",
+        "RETURN",
+        "WHENEVER",
+        "NEW",
+        "WATER",
+        "FLOW",
+        "OVER",
+        "SAME",
+        "PATH"
+      ],
+      "applied_rules": [],
+      "validation": {
+        "status": "pass",
+        "warnings": []
+      },
+      "review_status": "unreviewed",
+      "uncertainty_notes": "",
+      "uncertain_parts": [],
+      "needs_human_review": false,
+      "llm_status": "ok",
+      "llm": {
+        "status": "ok",
+        "needs_human_review": false,
+        "uncertain": false,
+        "uncertain_parts": [],
+        "notes": "",
+        "echoed_source_text": "The same impression returns whenever new water flows over the same path."
+      },
+      "error": null,
+      "speaker_id": null,
+      "start_timestamp": null,
+      "end_timestamp": null,
+      "turn_index": 0,
+      "source_metadata": {
+        "source_id": "l1-notation",
+        "parent_chunk_id": "l1-notation-0003",
+        "split_method": null,
+        "piece": [
+          1,
+          1
+        ],
+        "source_start_offset": 68,
+        "source_end_offset": 140,
+        "cue_indices": null,
+        "cue_ids": null,
+        "incomplete": false,
+        "depends_on_previous": false,
+        "dependency_reasons": []
+      },
+      "metadata": {
+        "model": "groq/openai/gpt-oss-120b",
+        "prompt_version": "8.0",
+        "llm_config": {
+          "provider": "groq",
+          "model": "openai/gpt-oss-120b",
+          "reasoning_effort": "medium",
+          "temperature": 0.0,
+          "max_output_tokens": 8192,
+          "prompt_version": "8.0",
+          "thinking_budget": null,
+          "empty_gloss_retry": true,
+          "references_file": null,
+          "reference_entries_loaded": 0
+        },
+        "rule_set_version": "0.1.0",
+        "active_rules": [
+          "R-FMT-01",
+          "R-ART-01",
+          "R-SKIP-01"
+        ],
+        "result_schema_version": "1.0",
+        "rule_pass_completed": true,
+        "cache_hit": false
+      },
+      "passage_id": "l1-notation",
+      "observed_failures": [],
+      "function_word_tokens": [],
+      "scored_issues": []
+    },
+    {
+      "sentence_id": "l1-time-quantity-s0001",
+      "group_id": "l1-time-quantity-g0001",
+      "source_text": "Yesterday we walked 5 kilometres.",
+      "llm_input_text": "Yesterday we walked 5 kilometres.",
+      "skipped_spans": [],
+      "translation_status": "translated",
+      "candidate_gloss": "YESTERDAY WE WALK 5 KILOMETRE",
+      "candidate_tokens": [
+        "YESTERDAY",
+        "WE",
+        "WALK",
+        "5",
+        "KILOMETRE"
+      ],
+      "final_gloss": "YESTERDAY WE WALK 5 KILOMETRE",
+      "final_tokens": [
+        "YESTERDAY",
+        "WE",
+        "WALK",
+        "5",
+        "KILOMETRE"
+      ],
+      "applied_rules": [],
+      "validation": {
+        "status": "pass",
+        "warnings": []
+      },
+      "review_status": "unreviewed",
+      "uncertainty_notes": "",
+      "uncertain_parts": [],
+      "needs_human_review": false,
+      "llm_status": "ok",
+      "llm": {
+        "status": "ok",
+        "needs_human_review": false,
+        "uncertain": false,
+        "uncertain_parts": [],
+        "notes": "",
+        "echoed_source_text": "Yesterday we walked 5 kilometres."
+      },
+      "error": null,
+      "speaker_id": null,
+      "start_timestamp": null,
+      "end_timestamp": null,
+      "turn_index": 0,
+      "source_metadata": {
+        "source_id": "l1-time-quantity",
+        "parent_chunk_id": "l1-time-quantity-0001",
+        "split_method": null,
+        "piece": [
+          1,
+          1
+        ],
+        "source_start_offset": 0,
+        "source_end_offset": 33,
+        "cue_indices": null,
+        "cue_ids": null,
+        "incomplete": false,
+        "depends_on_previous": false,
+        "dependency_reasons": []
+      },
+      "metadata": {
+        "model": "groq/openai/gpt-oss-120b",
+        "prompt_version": "8.0",
+        "llm_config": {
+          "provider": "groq",
+          "model": "openai/gpt-oss-120b",
+          "reasoning_effort": "medium",
+          "temperature": 0.0,
+          "max_output_tokens": 8192,
+          "prompt_version": "8.0",
+          "thinking_budget": null,
+          "empty_gloss_retry": true,
+          "references_file": null,
+          "reference_entries_loaded": 0
+        },
+        "rule_set_version": "0.1.0",
+        "active_rules": [
+          "R-FMT-01",
+          "R-ART-01",
+          "R-SKIP-01"
+        ],
+        "result_schema_version": "1.0",
+        "rule_pass_completed": true,
+        "cache_hit": false
+      },
+      "passage_id": "l1-time-quantity",
+      "observed_failures": [],
+      "function_word_tokens": [],
+      "scored_issues": []
+    },
+    {
+      "sentence_id": "l1-time-quantity-s0002",
+      "group_id": "l1-time-quantity-g0001",
+      "source_text": "Today we walked more than that.",
+      "llm_input_text": "Today we walked more than that.",
+      "skipped_spans": [],
+      "translation_status": "translated",
+      "candidate_gloss": "TODAY WE WALK MORE_THAN THAT",
+      "candidate_tokens": [
+        "TODAY",
+        "WE",
+        "WALK",
+        "MORE_THAN",
+        "THAT"
+      ],
+      "final_gloss": "TODAY WE WALK MORE_THAN THAT",
+      "final_tokens": [
+        "TODAY",
+        "WE",
+        "WALK",
+        "MORE_THAN",
+        "THAT"
+      ],
+      "applied_rules": [],
+      "validation": {
+        "status": "pass",
+        "warnings": []
+      },
+      "review_status": "unreviewed",
+      "uncertainty_notes": "",
+      "uncertain_parts": [],
+      "needs_human_review": false,
+      "llm_status": "ok",
+      "llm": {
+        "status": "ok",
+        "needs_human_review": false,
+        "uncertain": false,
+        "uncertain_parts": [],
+        "notes": "",
+        "echoed_source_text": "Today we walked more than that."
+      },
+      "error": null,
+      "speaker_id": null,
+      "start_timestamp": null,
+      "end_timestamp": null,
+      "turn_index": 0,
+      "source_metadata": {
+        "source_id": "l1-time-quantity",
+        "parent_chunk_id": "l1-time-quantity-0002",
+        "split_method": null,
+        "piece": [
+          1,
+          1
+        ],
+        "source_start_offset": 34,
+        "source_end_offset": 65,
+        "cue_indices": null,
+        "cue_ids": null,
+        "incomplete": false,
+        "depends_on_previous": false,
+        "dependency_reasons": []
+      },
+      "metadata": {
+        "model": "groq/openai/gpt-oss-120b",
+        "prompt_version": "8.0",
+        "llm_config": {
+          "provider": "groq",
+          "model": "openai/gpt-oss-120b",
+          "reasoning_effort": "medium",
+          "temperature": 0.0,
+          "max_output_tokens": 8192,
+          "prompt_version": "8.0",
+          "thinking_budget": null,
+          "empty_gloss_retry": true,
+          "references_file": null,
+          "reference_entries_loaded": 0
+        },
+        "rule_set_version": "0.1.0",
+        "active_rules": [
+          "R-FMT-01",
+          "R-ART-01",
+          "R-SKIP-01"
+        ],
+        "result_schema_version": "1.0",
+        "rule_pass_completed": true,
+        "cache_hit": false
+      },
+      "passage_id": "l1-time-quantity",
+      "observed_failures": [],
+      "function_word_tokens": [
+        "THAT"
+      ],
+      "scored_issues": [
+        "function_word_tokens:THAT"
+      ]
+    },
+    {
+      "sentence_id": "l1-time-quantity-s0003",
+      "group_id": "l1-time-quantity-g0001",
+      "source_text": "Tomorrow we will rest for 2 hours.",
+      "llm_input_text": "Tomorrow we will rest for 2 hours.",
+      "skipped_spans": [],
+      "translation_status": "translated",
+      "candidate_gloss": "TOMORROW WE REST FOR 2 HOUR",
+      "candidate_tokens": [
+        "TOMORROW",
+        "WE",
+        "REST",
+        "FOR",
+        "2",
+        "HOUR"
+      ],
+      "final_gloss": "TOMORROW WE REST FOR 2 HOUR",
+      "final_tokens": [
+        "TOMORROW",
+        "WE",
+        "REST",
+        "FOR",
+        "2",
+        "HOUR"
+      ],
+      "applied_rules": [],
+      "validation": {
+        "status": "pass",
+        "warnings": []
+      },
+      "review_status": "unreviewed",
+      "uncertainty_notes": "",
+      "uncertain_parts": [],
+      "needs_human_review": false,
+      "llm_status": "ok",
+      "llm": {
+        "status": "ok",
+        "needs_human_review": false,
+        "uncertain": false,
+        "uncertain_parts": [],
+        "notes": "",
+        "echoed_source_text": "Tomorrow we will rest for 2 hours."
+      },
+      "error": null,
+      "speaker_id": null,
+      "start_timestamp": null,
+      "end_timestamp": null,
+      "turn_index": 0,
+      "source_metadata": {
+        "source_id": "l1-time-quantity",
+        "parent_chunk_id": "l1-time-quantity-0003",
+        "split_method": null,
+        "piece": [
+          1,
+          1
+        ],
+        "source_start_offset": 66,
+        "source_end_offset": 100,
+        "cue_indices": null,
+        "cue_ids": null,
+        "incomplete": false,
+        "depends_on_previous": false,
+        "dependency_reasons": []
+      },
+      "metadata": {
+        "model": "groq/openai/gpt-oss-120b",
+        "prompt_version": "8.0",
+        "llm_config": {
+          "provider": "groq",
+          "model": "openai/gpt-oss-120b",
+          "reasoning_effort": "medium",
+          "temperature": 0.0,
+          "max_output_tokens": 8192,
+          "prompt_version": "8.0",
+          "thinking_budget": null,
+          "empty_gloss_retry": true,
+          "references_file": null,
+          "reference_entries_loaded": 0
+        },
+        "rule_set_version": "0.1.0",
+        "active_rules": [
+          "R-FMT-01",
+          "R-ART-01",
+          "R-SKIP-01"
+        ],
+        "result_schema_version": "1.0",
+        "rule_pass_completed": true,
+        "cache_hit": false
+      },
+      "passage_id": "l1-time-quantity",
+      "observed_failures": [],
+      "function_word_tokens": [],
+      "scored_issues": []
+    },
+    {
+      "sentence_id": "l1-ambiguous-s0001",
+      "group_id": "l1-ambiguous-g0001",
+      "source_text": "John told Peter that he would be late.",
+      "llm_input_text": "John told Peter that he would be late.",
+      "skipped_spans": [],
+      "translation_status": "translated",
+      "candidate_gloss": "FS:JOHN TELL FS:PETER THAT HE WOULD LATE",
+      "candidate_tokens": [
+        "FS:JOHN",
+        "TELL",
+        "FS:PETER",
+        "THAT",
+        "HE",
+        "WOULD",
+        "LATE"
+      ],
+      "final_gloss": "FS:JOHN TELL FS:PETER THAT HE WOULD LATE",
+      "final_tokens": [
+        "FS:JOHN",
+        "TELL",
+        "FS:PETER",
+        "THAT",
+        "HE",
+        "WOULD",
+        "LATE"
+      ],
+      "applied_rules": [],
+      "validation": {
+        "status": "pass",
+        "warnings": []
+      },
+      "review_status": "unreviewed",
+      "uncertainty_notes": "",
+      "uncertain_parts": [],
+      "needs_human_review": false,
+      "llm_status": "ok",
+      "llm": {
+        "status": "ok",
+        "needs_human_review": false,
+        "uncertain": false,
+        "uncertain_parts": [],
+        "notes": "",
+        "echoed_source_text": "John told Peter that he would be late."
+      },
+      "error": null,
+      "speaker_id": null,
+      "start_timestamp": null,
+      "end_timestamp": null,
+      "turn_index": 0,
+      "source_metadata": {
+        "source_id": "l1-ambiguous",
+        "parent_chunk_id": "l1-ambiguous-0001",
+        "split_method": null,
+        "piece": [
+          1,
+          1
+        ],
+        "source_start_offset": 0,
+        "source_end_offset": 38,
+        "cue_indices": null,
+        "cue_ids": null,
+        "incomplete": false,
+        "depends_on_previous": false,
+        "dependency_reasons": []
+      },
+      "metadata": {
+        "model": "groq/openai/gpt-oss-120b",
+        "prompt_version": "8.0",
+        "llm_config": {
+          "provider": "groq",
+          "model": "openai/gpt-oss-120b",
+          "reasoning_effort": "medium",
+          "temperature": 0.0,
+          "max_output_tokens": 8192,
+          "prompt_version": "8.0",
+          "thinking_budget": null,
+          "empty_gloss_retry": true,
+          "references_file": null,
+          "reference_entries_loaded": 0
+        },
+        "rule_set_version": "0.1.0",
+        "active_rules": [
+          "R-FMT-01",
+          "R-ART-01",
+          "R-SKIP-01"
+        ],
+        "result_schema_version": "1.0",
+        "rule_pass_completed": true,
+        "cache_hit": false
+      },
+      "passage_id": "l1-ambiguous",
+      "observed_failures": [],
+      "function_word_tokens": [
+        "THAT",
+        "WOULD"
+      ],
+      "scored_issues": [
+        "expected_review_not_flagged",
+        "function_word_tokens:THAT,WOULD"
+      ]
+    },
+    {
+      "sentence_id": "l1-ambiguous-s0002",
+      "group_id": "l1-ambiguous-g0001",
+      "source_text": "He apologised, but nobody believed him.",
+      "llm_input_text": "He apologised, but nobody believed him.",
+      "skipped_spans": [],
+      "translation_status": "translated",
+      "candidate_gloss": "HE APOLOGISE BUT NOBODY BELIEVE HIM",
+      "candidate_tokens": [
+        "HE",
+        "APOLOGISE",
+        "BUT",
+        "NOBODY",
+        "BELIEVE",
+        "HIM"
+      ],
+      "final_gloss": "HE APOLOGISE BUT NOBODY BELIEVE HIM",
+      "final_tokens": [
+        "HE",
+        "APOLOGISE",
+        "BUT",
+        "NOBODY",
+        "BELIEVE",
+        "HIM"
+      ],
+      "applied_rules": [],
+      "validation": {
+        "status": "pass",
+        "warnings": []
+      },
+      "review_status": "unreviewed",
+      "uncertainty_notes": "",
+      "uncertain_parts": [],
+      "needs_human_review": false,
+      "llm_status": "ok",
+      "llm": {
+        "status": "ok",
+        "needs_human_review": false,
+        "uncertain": false,
+        "uncertain_parts": [],
+        "notes": "",
+        "echoed_source_text": "He apologised, but nobody believed him."
+      },
+      "error": null,
+      "speaker_id": null,
+      "start_timestamp": null,
+      "end_timestamp": null,
+      "turn_index": 0,
+      "source_metadata": {
+        "source_id": "l1-ambiguous",
+        "parent_chunk_id": "l1-ambiguous-0002",
+        "split_method": null,
+        "piece": [
+          1,
+          1
+        ],
+        "source_start_offset": 39,
+        "source_end_offset": 78,
+        "cue_indices": null,
+        "cue_ids": null,
+        "incomplete": false,
+        "depends_on_previous": true,
+        "dependency_reasons": [
+          "pronoun_start"
+        ]
+      },
+      "metadata": {
+        "model": "groq/openai/gpt-oss-120b",
+        "prompt_version": "8.0",
+        "llm_config": {
+          "provider": "groq",
+          "model": "openai/gpt-oss-120b",
+          "reasoning_effort": "medium",
+          "temperature": 0.0,
+          "max_output_tokens": 8192,
+          "prompt_version": "8.0",
+          "thinking_budget": null,
+          "empty_gloss_retry": true,
+          "references_file": null,
+          "reference_entries_loaded": 0
+        },
+        "rule_set_version": "0.1.0",
+        "active_rules": [
+          "R-FMT-01",
+          "R-ART-01",
+          "R-SKIP-01"
+        ],
+        "result_schema_version": "1.0",
+        "rule_pass_completed": true,
+        "cache_hit": false
+      },
+      "passage_id": "l1-ambiguous",
+      "observed_failures": [],
+      "function_word_tokens": [],
+      "scored_issues": [
+        "expected_review_not_flagged"
+      ]
+    },
+    {
+      "sentence_id": "l1-ambiguous-s0003",
+      "group_id": "l1-ambiguous-g0001",
+      "source_text": "I saw her duck.",
+      "llm_input_text": "I saw her duck.",
+      "skipped_spans": [],
+      "translation_status": "translated",
+      "candidate_gloss": "I SAW HER DUCK",
+      "candidate_tokens": [
+        "I",
+        "SAW",
+        "HER",
+        "DUCK"
+      ],
+      "final_gloss": "I SAW HER DUCK",
+      "final_tokens": [
+        "I",
+        "SAW",
+        "HER",
+        "DUCK"
+      ],
+      "applied_rules": [],
+      "validation": {
+        "status": "review_required",
+        "warnings": [
+          {
+            "code": "llm_marked_uncertain",
+            "severity": "review",
+            "message": "The LLM flagged this entry as uncertain: duck ambiguous between noun (bird) and verb (action). Doubtful: duck."
+          }
+        ]
+      },
+      "review_status": "unreviewed",
+      "uncertainty_notes": "duck ambiguous between noun (bird) and verb (action)",
+      "uncertain_parts": [
+        "duck"
+      ],
+      "needs_human_review": true,
+      "llm_status": "uncertain",
+      "llm": {
+        "status": "uncertain",
+        "needs_human_review": true,
+        "uncertain": true,
+        "uncertain_parts": [
+          "duck"
+        ],
+        "notes": "duck ambiguous between noun (bird) and verb (action)",
+        "echoed_source_text": "I saw her duck."
+      },
+      "error": null,
+      "speaker_id": null,
+      "start_timestamp": null,
+      "end_timestamp": null,
+      "turn_index": 0,
+      "source_metadata": {
+        "source_id": "l1-ambiguous",
+        "parent_chunk_id": "l1-ambiguous-0003",
+        "split_method": null,
+        "piece": [
+          1,
+          1
+        ],
+        "source_start_offset": 79,
+        "source_end_offset": 94,
+        "cue_indices": null,
+        "cue_ids": null,
+        "incomplete": false,
+        "depends_on_previous": false,
+        "dependency_reasons": []
+      },
+      "metadata": {
+        "model": "groq/openai/gpt-oss-120b",
+        "prompt_version": "8.0",
+        "llm_config": {
+          "provider": "groq",
+          "model": "openai/gpt-oss-120b",
+          "reasoning_effort": "medium",
+          "temperature": 0.0,
+          "max_output_tokens": 8192,
+          "prompt_version": "8.0",
+          "thinking_budget": null,
+          "empty_gloss_retry": true,
+          "references_file": null,
+          "reference_entries_loaded": 0
+        },
+        "rule_set_version": "0.1.0",
+        "active_rules": [
+          "R-FMT-01",
+          "R-ART-01",
+          "R-SKIP-01"
+        ],
+        "result_schema_version": "1.0",
+        "rule_pass_completed": true,
+        "cache_hit": false
+      },
+      "passage_id": "l1-ambiguous",
+      "observed_failures": [],
+      "function_word_tokens": [],
+      "scored_issues": []
+    },
+    {
+      "sentence_id": "l1-asr-noise-s0001",
+      "group_id": "l1-asr-noise-g0001",
+      "source_text": "Om Ooh Hello Done frio",
+      "llm_input_text": "Om Hello Done frio",
+      "skipped_spans": [
+        {
+          "start": 3,
+          "end": 6,
+          "text": "Ooh",
+          "reason": "expression_cue"
+        }
+      ],
+      "translation_status": "translated",
+      "candidate_gloss": "",
+      "candidate_tokens": [],
+      "final_gloss": "",
+      "final_tokens": [],
+      "applied_rules": [],
+      "validation": {
+        "status": "review_required",
+        "warnings": [
+          {
+            "code": "llm_review_required",
+            "severity": "review",
+            "message": "The model could not gloss this sentence and marked it review-required: Source sentence unintelligible or garbled; unable to determine meaning."
+          },
+          {
+            "code": "spans_skipped",
+            "severity": "info",
+            "message": "1 span(s) were excluded from translation by design."
+          },
+          {
+            "code": "name_may_be_missing",
+            "severity": "review",
+            "message": "Capitalised word(s) not found in the gloss: DONE. May be names or sign-label substitutions."
+          },
+          {
+            "code": "empty_gloss_retried",
+            "severity": "info",
+            "message": "The first reply had an empty gloss; one targeted retry was made (outcome: still_empty)."
+          }
+        ]
+      },
+      "review_status": "unreviewed",
+      "uncertainty_notes": "Source sentence unintelligible or garbled; unable to determine meaning.",
+      "uncertain_parts": [],
+      "needs_human_review": true,
+      "llm_status": "review_required",
+      "llm": {
+        "status": "review_required",
+        "needs_human_review": true,
+        "uncertain": true,
+        "uncertain_parts": [],
+        "notes": "Source sentence unintelligible or garbled; unable to determine meaning.",
+        "echoed_source_text": "Om Hello Done frio"
+      },
+      "error": null,
+      "speaker_id": null,
+      "start_timestamp": null,
+      "end_timestamp": null,
+      "turn_index": 0,
+      "source_metadata": {
+        "source_id": "l1-asr-noise",
+        "parent_chunk_id": "l1-asr-noise-0001",
+        "split_method": "runon_capital_opener",
+        "piece": [
+          1,
+          3
+        ],
+        "source_start_offset": null,
+        "source_end_offset": null,
+        "cue_indices": null,
+        "cue_ids": null,
+        "incomplete": true,
+        "depends_on_previous": false,
+        "dependency_reasons": []
+      },
+      "metadata": {
+        "model": "groq/openai/gpt-oss-120b",
+        "prompt_version": "8.0",
+        "llm_config": {
+          "provider": "groq",
+          "model": "openai/gpt-oss-120b",
+          "reasoning_effort": "medium",
+          "temperature": 0.0,
+          "max_output_tokens": 8192,
+          "prompt_version": "8.0",
+          "thinking_budget": null,
+          "empty_gloss_retry": true,
+          "references_file": null,
+          "reference_entries_loaded": 0
+        },
+        "rule_set_version": "0.1.0",
+        "active_rules": [
+          "R-FMT-01",
+          "R-ART-01",
+          "R-SKIP-01"
+        ],
+        "result_schema_version": "1.0",
+        "rule_pass_completed": true,
+        "cache_hit": false
+      },
+      "passage_id": "l1-asr-noise",
+      "observed_failures": [
+        "empty_gloss_flagged_for_review"
+      ],
+      "function_word_tokens": [],
+      "scored_issues": [
+        "unintelligible_empty_flagged_with_reason"
+      ]
+    },
+    {
+      "sentence_id": "l1-asr-noise-s0002",
+      "group_id": "l1-asr-noise-g0001",
+      "source_text": "Today They are celebrating Bhagwan Mahavir's Janmotsav",
+      "llm_input_text": "Today They are celebrating Bhagwan Mahavir's Janmotsav",
+      "skipped_spans": [],
+      "translation_status": "translated",
+      "candidate_gloss": "TODAY THEY CELEBRATE BHAGWAN MAHAVIR FS:JANMOTSAV",
+      "candidate_tokens": [
+        "TODAY",
+        "THEY",
+        "CELEBRATE",
+        "BHAGWAN",
+        "MAHAVIR",
+        "FS:JANMOTSAV"
+      ],
+      "final_gloss": "TODAY THEY CELEBRATE BHAGWAN MAHAVIR FS:JANMOTSAV",
+      "final_tokens": [
+        "TODAY",
+        "THEY",
+        "CELEBRATE",
+        "BHAGWAN",
+        "MAHAVIR",
+        "FS:JANMOTSAV"
+      ],
+      "applied_rules": [],
+      "validation": {
+        "status": "review_required",
+        "warnings": [
+          {
+            "code": "name_may_be_missing",
+            "severity": "review",
+            "message": "Capitalised word(s) not found in the gloss: MAHAVIR'S. May be names or sign-label substitutions."
+          }
+        ]
+      },
+      "review_status": "unreviewed",
+      "uncertainty_notes": "JANMOTSAV not in verified ISL vocabulary; fingerspelled.",
+      "uncertain_parts": [
+        "JANMOTSAV"
+      ],
+      "needs_human_review": true,
+      "llm_status": "ok",
+      "llm": {
+        "status": "ok",
+        "needs_human_review": false,
+        "uncertain": false,
+        "uncertain_parts": [
+          "JANMOTSAV"
+        ],
+        "notes": "JANMOTSAV not in verified ISL vocabulary; fingerspelled.",
+        "echoed_source_text": "Today They are celebrating Bhagwan Mahavir's Janmotsav"
+      },
+      "error": null,
+      "speaker_id": null,
+      "start_timestamp": null,
+      "end_timestamp": null,
+      "turn_index": 0,
+      "source_metadata": {
+        "source_id": "l1-asr-noise",
+        "parent_chunk_id": "l1-asr-noise-0001",
+        "split_method": "runon_capital_opener",
+        "piece": [
+          2,
+          3
+        ],
+        "source_start_offset": null,
+        "source_end_offset": null,
+        "cue_indices": null,
+        "cue_ids": null,
+        "incomplete": true,
+        "depends_on_previous": true,
+        "dependency_reasons": [
+          "previous_incomplete"
+        ]
+      },
+      "metadata": {
+        "model": "groq/openai/gpt-oss-120b",
+        "prompt_version": "8.0",
+        "llm_config": {
+          "provider": "groq",
+          "model": "openai/gpt-oss-120b",
+          "reasoning_effort": "medium",
+          "temperature": 0.0,
+          "max_output_tokens": 8192,
+          "prompt_version": "8.0",
+          "thinking_budget": null,
+          "empty_gloss_retry": true,
+          "references_file": null,
+          "reference_entries_loaded": 0
+        },
+        "rule_set_version": "0.1.0",
+        "active_rules": [
+          "R-FMT-01",
+          "R-ART-01",
+          "R-SKIP-01"
+        ],
+        "result_schema_version": "1.0",
+        "rule_pass_completed": true,
+        "cache_hit": false
+      },
+      "passage_id": "l1-asr-noise",
+      "observed_failures": [
+        "name_not_fingerspelled",
+        "name_missing"
+      ],
+      "function_word_tokens": [],
+      "scored_issues": [
+        "name_not_fingerspelled"
+      ]
+    },
+    {
+      "sentence_id": "l1-asr-noise-s0003",
+      "group_id": "l1-asr-noise-g0001",
+      "source_text": "Today is a day of expressing heartfelt gratitude.",
+      "llm_input_text": "Today is a day of expressing heartfelt gratitude.",
+      "skipped_spans": [],
+      "translation_status": "translated",
+      "candidate_gloss": "TODAY DAY EXPRESS HEARTFELT GRATITUDE",
+      "candidate_tokens": [
+        "TODAY",
+        "DAY",
+        "EXPRESS",
+        "HEARTFELT",
+        "GRATITUDE"
+      ],
+      "final_gloss": "TODAY DAY EXPRESS HEARTFELT GRATITUDE",
+      "final_tokens": [
+        "TODAY",
+        "DAY",
+        "EXPRESS",
+        "HEARTFELT",
+        "GRATITUDE"
+      ],
+      "applied_rules": [],
+      "validation": {
+        "status": "pass",
+        "warnings": []
+      },
+      "review_status": "unreviewed",
+      "uncertainty_notes": "",
+      "uncertain_parts": [],
+      "needs_human_review": false,
+      "llm_status": "ok",
+      "llm": {
+        "status": "ok",
+        "needs_human_review": false,
+        "uncertain": false,
+        "uncertain_parts": [],
+        "notes": "",
+        "echoed_source_text": "Today is a day of expressing heartfelt gratitude."
+      },
+      "error": null,
+      "speaker_id": null,
+      "start_timestamp": null,
+      "end_timestamp": null,
+      "turn_index": 0,
+      "source_metadata": {
+        "source_id": "l1-asr-noise",
+        "parent_chunk_id": "l1-asr-noise-0001",
+        "split_method": "runon_capital_opener",
+        "piece": [
+          3,
+          3
+        ],
+        "source_start_offset": null,
+        "source_end_offset": null,
+        "cue_indices": null,
+        "cue_ids": null,
+        "incomplete": false,
+        "depends_on_previous": true,
+        "dependency_reasons": [
+          "previous_incomplete"
+        ]
+      },
+      "metadata": {
+        "model": "groq/openai/gpt-oss-120b",
+        "prompt_version": "8.0",
+        "llm_config": {
+          "provider": "groq",
+          "model": "openai/gpt-oss-120b",
+          "reasoning_effort": "medium",
+          "temperature": 0.0,
+          "max_output_tokens": 8192,
+          "prompt_version": "8.0",
+          "thinking_budget": null,
+          "empty_gloss_retry": true,
+          "references_file": null,
+          "reference_entries_loaded": 0
+        },
+        "rule_set_version": "0.1.0",
+        "active_rules": [
+          "R-FMT-01",
+          "R-ART-01",
+          "R-SKIP-01"
+        ],
+        "result_schema_version": "1.0",
+        "rule_pass_completed": true,
+        "cache_hit": false
+      },
+      "passage_id": "l1-asr-noise",
+      "observed_failures": [],
+      "function_word_tokens": [],
+      "scored_issues": []
+    },
+    {
+      "sentence_id": "l1-asr-noise-s0004",
+      "group_id": "l1-asr-noise-g0001",
+      "source_text": "Hey Prabhu If you had not grasped this land",
+      "llm_input_text": "Hey Prabhu If you had not grasped this land",
+      "skipped_spans": [],
+      "translation_status": "translated",
+      "candidate_gloss": "HEY PRABHU IF YOU NOT GRASP THIS LAND",
+      "candidate_tokens": [
+        "HEY",
+        "PRABHU",
+        "IF",
+        "YOU",
+        "NOT",
+        "GRASP",
+        "THIS",
+        "LAND"
+      ],
+      "final_gloss": "HEY PRABHU IF YOU NOT GRASP THIS LAND",
+      "final_tokens": [
+        "HEY",
+        "PRABHU",
+        "IF",
+        "YOU",
+        "NOT",
+        "GRASP",
+        "THIS",
+        "LAND"
+      ],
+      "applied_rules": [],
+      "validation": {
+        "status": "pass",
+        "warnings": []
+      },
+      "review_status": "unreviewed",
+      "uncertainty_notes": "",
+      "uncertain_parts": [],
+      "needs_human_review": false,
+      "llm_status": "ok",
+      "llm": {
+        "status": "ok",
+        "needs_human_review": false,
+        "uncertain": false,
+        "uncertain_parts": [],
+        "notes": "",
+        "echoed_source_text": "Hey Prabhu If you had not grasped this land"
+      },
+      "error": null,
+      "speaker_id": null,
+      "start_timestamp": null,
+      "end_timestamp": null,
+      "turn_index": 0,
+      "source_metadata": {
+        "source_id": "l1-asr-noise",
+        "parent_chunk_id": "l1-asr-noise-0002",
+        "split_method": "runon_capital_opener",
+        "piece": [
+          1,
+          2
+        ],
+        "source_start_offset": null,
+        "source_end_offset": null,
+        "cue_indices": null,
+        "cue_ids": null,
+        "incomplete": true,
+        "depends_on_previous": false,
+        "dependency_reasons": []
+      },
+      "metadata": {
+        "model": "groq/openai/gpt-oss-120b",
+        "prompt_version": "8.0",
+        "llm_config": {
+          "provider": "groq",
+          "model": "openai/gpt-oss-120b",
+          "reasoning_effort": "medium",
+          "temperature": 0.0,
+          "max_output_tokens": 8192,
+          "prompt_version": "8.0",
+          "thinking_budget": null,
+          "empty_gloss_retry": true,
+          "references_file": null,
+          "reference_entries_loaded": 0
+        },
+        "rule_set_version": "0.1.0",
+        "active_rules": [
+          "R-FMT-01",
+          "R-ART-01",
+          "R-SKIP-01"
+        ],
+        "result_schema_version": "1.0",
+        "rule_pass_completed": true,
+        "cache_hit": false
+      },
+      "passage_id": "l1-asr-noise",
+      "observed_failures": [
+        "name_not_fingerspelled"
+      ],
+      "function_word_tokens": [],
+      "scored_issues": []
+    },
+    {
+      "sentence_id": "l1-asr-noise-s0005",
+      "group_id": "l1-asr-noise-g0001",
+      "source_text": "If you had not taught us the values of Ahimsa Truth non-stealing.",
+      "llm_input_text": "If you had not taught us the values of Ahimsa Truth non-stealing.",
+      "skipped_spans": [],
+      "translation_status": "translated",
+      "candidate_gloss": "IF YOU NOT TEACH US VALUES OF FS:AHIMSA TRUTH NON_STEALING",
+      "candidate_tokens": [
+        "IF",
+        "YOU",
+        "NOT",
+        "TEACH",
+        "US",
+        "VALUES",
+        "OF",
+        "FS:AHIMSA",
+        "TRUTH",
+        "NON_STEALING"
+      ],
+      "final_gloss": "IF YOU NOT TEACH US VALUES OF FS:AHIMSA TRUTH NON_STEALING",
+      "final_tokens": [
+        "IF",
+        "YOU",
+        "NOT",
+        "TEACH",
+        "US",
+        "VALUES",
+        "OF",
+        "FS:AHIMSA",
+        "TRUTH",
+        "NON_STEALING"
+      ],
+      "applied_rules": [],
+      "validation": {
+        "status": "pass",
+        "warnings": []
+      },
+      "review_status": "unreviewed",
+      "uncertainty_notes": "AHIMSA not in verified ISL vocabulary; fingerspelled.",
+      "uncertain_parts": [
+        "AHIMSA"
+      ],
+      "needs_human_review": false,
+      "llm_status": "ok",
+      "llm": {
+        "status": "ok",
+        "needs_human_review": false,
+        "uncertain": false,
+        "uncertain_parts": [
+          "AHIMSA"
+        ],
+        "notes": "AHIMSA not in verified ISL vocabulary; fingerspelled.",
+        "echoed_source_text": "If you had not taught us the values of Ahimsa Truth non-stealing."
+      },
+      "error": null,
+      "speaker_id": null,
+      "start_timestamp": null,
+      "end_timestamp": null,
+      "turn_index": 0,
+      "source_metadata": {
+        "source_id": "l1-asr-noise",
+        "parent_chunk_id": "l1-asr-noise-0002",
+        "split_method": "runon_capital_opener",
+        "piece": [
+          2,
+          2
+        ],
+        "source_start_offset": null,
+        "source_end_offset": null,
+        "cue_indices": null,
+        "cue_ids": null,
+        "incomplete": false,
+        "depends_on_previous": true,
+        "dependency_reasons": [
+          "previous_incomplete"
+        ]
+      },
+      "metadata": {
+        "model": "groq/openai/gpt-oss-120b",
+        "prompt_version": "8.0",
+        "llm_config": {
+          "provider": "groq",
+          "model": "openai/gpt-oss-120b",
+          "reasoning_effort": "medium",
+          "temperature": 0.0,
+          "max_output_tokens": 8192,
+          "prompt_version": "8.0",
+          "thinking_budget": null,
+          "empty_gloss_retry": true,
+          "references_file": null,
+          "reference_entries_loaded": 0
+        },
+        "rule_set_version": "0.1.0",
+        "active_rules": [
+          "R-FMT-01",
+          "R-ART-01",
+          "R-SKIP-01"
+        ],
+        "result_schema_version": "1.0",
+        "rule_pass_completed": true,
+        "cache_hit": false
+      },
+      "passage_id": "l1-asr-noise",
+      "observed_failures": [
+        "name_not_fingerspelled"
+      ],
+      "function_word_tokens": [
+        "OF"
+      ],
+      "scored_issues": [
+        "function_word_tokens:OF"
+      ]
+    },
+    {
+      "sentence_id": "l1-real-a-s0001",
+      "group_id": "l1-real-a-g0001",
+      "source_text": "Hello Hi students The California State University where Professor Jonathan Young has invited to take a session on philosophy and religious studies",
+      "llm_input_text": "Hello Hi students The California State University where Professor Jonathan Young has invited to take a session on philosophy and religious studies",
+      "skipped_spans": [],
+      "translation_status": "translated",
+      "candidate_gloss": "HELLO HI STUDENTS FS:CALIFORNIA FS:STATE FS:UNIVERSITY WHERE PROFESSOR FS:JONATHAN FS:YOUNG INVITE TAKE SESSION ON PHILOSOPHY AND RELIGIOUS STUDIES",
+      "candidate_tokens": [
+        "HELLO",
+        "HI",
+        "STUDENTS",
+        "FS:CALIFORNIA",
+        "FS:STATE",
+        "FS:UNIVERSITY",
+        "WHERE",
+        "PROFESSOR",
+        "FS:JONATHAN",
+        "FS:YOUNG",
+        "INVITE",
+        "TAKE",
+        "SESSION",
+        "ON",
+        "PHILOSOPHY",
+        "AND",
+        "RELIGIOUS",
+        "STUDIES"
+      ],
+      "final_gloss": "HELLO HI STUDENTS FS:CALIFORNIA FS:STATE FS:UNIVERSITY WHERE PROFESSOR FS:JONATHAN FS:YOUNG INVITE TAKE SESSION ON PHILOSOPHY AND RELIGIOUS STUDIES",
+      "final_tokens": [
+        "HELLO",
+        "HI",
+        "STUDENTS",
+        "FS:CALIFORNIA",
+        "FS:STATE",
+        "FS:UNIVERSITY",
+        "WHERE",
+        "PROFESSOR",
+        "FS:JONATHAN",
+        "FS:YOUNG",
+        "INVITE",
+        "TAKE",
+        "SESSION",
+        "ON",
+        "PHILOSOPHY",
+        "AND",
+        "RELIGIOUS",
+        "STUDIES"
+      ],
+      "applied_rules": [],
+      "validation": {
+        "status": "pass",
+        "warnings": []
+      },
+      "review_status": "unreviewed",
+      "uncertainty_notes": "",
+      "uncertain_parts": [],
+      "needs_human_review": false,
+      "llm_status": "ok",
+      "llm": {
+        "status": "ok",
+        "needs_human_review": false,
+        "uncertain": false,
+        "uncertain_parts": [],
+        "notes": "",
+        "echoed_source_text": "Hello Hi students The California State University where Professor Jonathan Young has invited to take a session on philosophy and religious studies"
+      },
+      "error": null,
+      "speaker_id": null,
+      "start_timestamp": null,
+      "end_timestamp": null,
+      "turn_index": 0,
+      "source_metadata": {
+        "source_id": "l1-real-a",
+        "parent_chunk_id": "l1-real-a-0001",
+        "split_method": "runon_capital_opener",
+        "piece": [
+          1,
+          2
+        ],
+        "source_start_offset": null,
+        "source_end_offset": null,
+        "cue_indices": null,
+        "cue_ids": null,
+        "incomplete": true,
+        "depends_on_previous": false,
+        "dependency_reasons": []
+      },
+      "metadata": {
+        "model": "groq/openai/gpt-oss-120b",
+        "prompt_version": "8.0",
+        "llm_config": {
+          "provider": "groq",
+          "model": "openai/gpt-oss-120b",
+          "reasoning_effort": "medium",
+          "temperature": 0.0,
+          "max_output_tokens": 8192,
+          "prompt_version": "8.0",
+          "thinking_budget": null,
+          "empty_gloss_retry": true,
+          "references_file": null,
+          "reference_entries_loaded": 0
+        },
+        "rule_set_version": "0.1.0",
+        "active_rules": [
+          "R-FMT-01",
+          "R-ART-01",
+          "R-SKIP-01"
+        ],
+        "result_schema_version": "1.0",
+        "rule_pass_completed": true,
+        "cache_hit": false
+      },
+      "passage_id": "l1-real-a",
+      "observed_failures": [],
+      "function_word_tokens": [
+        "AND"
+      ],
+      "scored_issues": [
+        "function_word_tokens:AND"
+      ]
+    },
+    {
+      "sentence_id": "l1-real-a-s0002",
+      "group_id": "l1-real-a-g0001",
+      "source_text": "Today, first of all, I would like to appreciate your curiosity to learn something about Jainism.",
+      "llm_input_text": "Today, first of all, I would like to appreciate your curiosity to learn something about Jainism.",
+      "skipped_spans": [],
+      "translation_status": "translated",
+      "candidate_gloss": "TODAY FIRST OF ALL I WOULD LIKE APPRECIATE YOUR CURIOSITY TO LEARN SOMETHING ABOUT FS:JAINISM",
+      "candidate_tokens": [
+        "TODAY",
+        "FIRST",
+        "OF",
+        "ALL",
+        "I",
+        "WOULD",
+        "LIKE",
+        "APPRECIATE",
+        "YOUR",
+        "CURIOSITY",
+        "TO",
+        "LEARN",
+        "SOMETHING",
+        "ABOUT",
+        "FS:JAINISM"
+      ],
+      "final_gloss": "TODAY FIRST OF ALL I WOULD LIKE APPRECIATE YOUR CURIOSITY TO LEARN SOMETHING ABOUT FS:JAINISM",
+      "final_tokens": [
+        "TODAY",
+        "FIRST",
+        "OF",
+        "ALL",
+        "I",
+        "WOULD",
+        "LIKE",
+        "APPRECIATE",
+        "YOUR",
+        "CURIOSITY",
+        "TO",
+        "LEARN",
+        "SOMETHING",
+        "ABOUT",
+        "FS:JAINISM"
+      ],
+      "applied_rules": [],
+      "validation": {
+        "status": "pass",
+        "warnings": []
+      },
+      "review_status": "unreviewed",
+      "uncertainty_notes": "",
+      "uncertain_parts": [],
+      "needs_human_review": false,
+      "llm_status": "ok",
+      "llm": {
+        "status": "ok",
+        "needs_human_review": false,
+        "uncertain": false,
+        "uncertain_parts": [],
+        "notes": "",
+        "echoed_source_text": "Today, first of all, I would like to appreciate your curiosity to learn something about Jainism."
+      },
+      "error": null,
+      "speaker_id": null,
+      "start_timestamp": null,
+      "end_timestamp": null,
+      "turn_index": 0,
+      "source_metadata": {
+        "source_id": "l1-real-a",
+        "parent_chunk_id": "l1-real-a-0001",
+        "split_method": "runon_capital_opener",
+        "piece": [
+          2,
+          2
+        ],
+        "source_start_offset": null,
+        "source_end_offset": null,
+        "cue_indices": null,
+        "cue_ids": null,
+        "incomplete": false,
+        "depends_on_previous": true,
+        "dependency_reasons": [
+          "previous_incomplete"
+        ]
+      },
+      "metadata": {
+        "model": "groq/openai/gpt-oss-120b",
+        "prompt_version": "8.0",
+        "llm_config": {
+          "provider": "groq",
+          "model": "openai/gpt-oss-120b",
+          "reasoning_effort": "medium",
+          "temperature": 0.0,
+          "max_output_tokens": 8192,
+          "prompt_version": "8.0",
+          "thinking_budget": null,
+          "empty_gloss_retry": true,
+          "references_file": null,
+          "reference_entries_loaded": 0
+        },
+        "rule_set_version": "0.1.0",
+        "active_rules": [
+          "R-FMT-01",
+          "R-ART-01",
+          "R-SKIP-01"
+        ],
+        "result_schema_version": "1.0",
+        "rule_pass_completed": true,
+        "cache_hit": false
+      },
+      "passage_id": "l1-real-a",
+      "observed_failures": [],
+      "function_word_tokens": [
+        "OF",
+        "WOULD",
+        "TO"
+      ],
+      "scored_issues": [
+        "function_word_tokens:OF,WOULD,TO"
+      ]
+    },
+    {
+      "sentence_id": "l1-real-a-s0003",
+      "group_id": "l1-real-a-g0001",
+      "source_text": "I truly believe that Jainism is Not a religion",
+      "llm_input_text": "I truly believe that Jainism is Not a religion",
+      "skipped_spans": [],
+      "translation_status": "translated",
+      "candidate_gloss": "I TRULY BELIEVE THAT FS:JAINISM NOT RELIGION",
+      "candidate_tokens": [
+        "I",
+        "TRULY",
+        "BELIEVE",
+        "THAT",
+        "FS:JAINISM",
+        "NOT",
+        "RELIGION"
+      ],
+      "final_gloss": "I TRULY BELIEVE THAT FS:JAINISM NOT RELIGION",
+      "final_tokens": [
+        "I",
+        "TRULY",
+        "BELIEVE",
+        "THAT",
+        "FS:JAINISM",
+        "NOT",
+        "RELIGION"
+      ],
+      "applied_rules": [],
+      "validation": {
+        "status": "pass",
+        "warnings": []
+      },
+      "review_status": "unreviewed",
+      "uncertainty_notes": "",
+      "uncertain_parts": [],
+      "needs_human_review": false,
+      "llm_status": "ok",
+      "llm": {
+        "status": "ok",
+        "needs_human_review": false,
+        "uncertain": false,
+        "uncertain_parts": [],
+        "notes": "",
+        "echoed_source_text": "I truly believe that Jainism is Not a religion"
+      },
+      "error": null,
+      "speaker_id": null,
+      "start_timestamp": null,
+      "end_timestamp": null,
+      "turn_index": 0,
+      "source_metadata": {
+        "source_id": "l1-real-a",
+        "parent_chunk_id": "l1-real-a-0002",
+        "split_method": "runon_capital_opener",
+        "piece": [
+          1,
+          2
+        ],
+        "source_start_offset": null,
+        "source_end_offset": null,
+        "cue_indices": null,
+        "cue_ids": null,
+        "incomplete": true,
+        "depends_on_previous": false,
+        "dependency_reasons": []
+      },
+      "metadata": {
+        "model": "groq/openai/gpt-oss-120b",
+        "prompt_version": "8.0",
+        "llm_config": {
+          "provider": "groq",
+          "model": "openai/gpt-oss-120b",
+          "reasoning_effort": "medium",
+          "temperature": 0.0,
+          "max_output_tokens": 8192,
+          "prompt_version": "8.0",
+          "thinking_budget": null,
+          "empty_gloss_retry": true,
+          "references_file": null,
+          "reference_entries_loaded": 0
+        },
+        "rule_set_version": "0.1.0",
+        "active_rules": [
+          "R-FMT-01",
+          "R-ART-01",
+          "R-SKIP-01"
+        ],
+        "result_schema_version": "1.0",
+        "rule_pass_completed": true,
+        "cache_hit": false
+      },
+      "passage_id": "l1-real-a",
+      "observed_failures": [],
+      "function_word_tokens": [
+        "THAT"
+      ],
+      "scored_issues": [
+        "function_word_tokens:THAT"
+      ]
+    },
+    {
+      "sentence_id": "l1-real-a-s0004",
+      "group_id": "l1-real-a-g0001",
+      "source_text": "But it is a philosophy and a way of living.",
+      "llm_input_text": "But it is a philosophy and a way of living.",
+      "skipped_spans": [],
+      "translation_status": "translated",
+      "candidate_gloss": "BUT IT IS PHILOSOPHY AND WAY_OF_LIVING",
+      "candidate_tokens": [
+        "BUT",
+        "IT",
+        "IS",
+        "PHILOSOPHY",
+        "AND",
+        "WAY_OF_LIVING"
+      ],
+      "final_gloss": "BUT IT IS PHILOSOPHY AND WAY_OF_LIVING",
+      "final_tokens": [
+        "BUT",
+        "IT",
+        "IS",
+        "PHILOSOPHY",
+        "AND",
+        "WAY_OF_LIVING"
+      ],
+      "applied_rules": [],
+      "validation": {
+        "status": "pass",
+        "warnings": []
+      },
+      "review_status": "unreviewed",
+      "uncertainty_notes": "",
+      "uncertain_parts": [],
+      "needs_human_review": false,
+      "llm_status": "ok",
+      "llm": {
+        "status": "ok",
+        "needs_human_review": false,
+        "uncertain": false,
+        "uncertain_parts": [],
+        "notes": "",
+        "echoed_source_text": "But it is a philosophy and a way of living."
+      },
+      "error": null,
+      "speaker_id": null,
+      "start_timestamp": null,
+      "end_timestamp": null,
+      "turn_index": 0,
+      "source_metadata": {
+        "source_id": "l1-real-a",
+        "parent_chunk_id": "l1-real-a-0002",
+        "split_method": "runon_capital_opener",
+        "piece": [
+          2,
+          2
+        ],
+        "source_start_offset": null,
+        "source_end_offset": null,
+        "cue_indices": null,
+        "cue_ids": null,
+        "incomplete": false,
+        "depends_on_previous": true,
+        "dependency_reasons": [
+          "continuation_word",
+          "previous_incomplete"
+        ]
+      },
+      "metadata": {
+        "model": "groq/openai/gpt-oss-120b",
+        "prompt_version": "8.0",
+        "llm_config": {
+          "provider": "groq",
+          "model": "openai/gpt-oss-120b",
+          "reasoning_effort": "medium",
+          "temperature": 0.0,
+          "max_output_tokens": 8192,
+          "prompt_version": "8.0",
+          "thinking_budget": null,
+          "empty_gloss_retry": true,
+          "references_file": null,
+          "reference_entries_loaded": 0
+        },
+        "rule_set_version": "0.1.0",
+        "active_rules": [
+          "R-FMT-01",
+          "R-ART-01",
+          "R-SKIP-01"
+        ],
+        "result_schema_version": "1.0",
+        "rule_pass_completed": true,
+        "cache_hit": false
+      },
+      "passage_id": "l1-real-a",
+      "observed_failures": [],
+      "function_word_tokens": [
+        "IT",
+        "IS",
+        "AND"
+      ],
+      "scored_issues": [
+        "function_word_tokens:IT,IS,AND"
+      ]
+    },
+    {
+      "sentence_id": "l1-real-a-s0005",
+      "group_id": "l1-real-a-g0001",
+      "source_text": "Whenever we do any action It creates an image.",
+      "llm_input_text": "Whenever we do any action It creates an image.",
+      "skipped_spans": [],
+      "translation_status": "translated",
+      "candidate_gloss": "WHENEVER WE DO ANY ACTION IT CREATE IMAGE",
+      "candidate_tokens": [
+        "WHENEVER",
+        "WE",
+        "DO",
+        "ANY",
+        "ACTION",
+        "IT",
+        "CREATE",
+        "IMAGE"
+      ],
+      "final_gloss": "WHENEVER WE DO ANY ACTION IT CREATE IMAGE",
+      "final_tokens": [
+        "WHENEVER",
+        "WE",
+        "DO",
+        "ANY",
+        "ACTION",
+        "IT",
+        "CREATE",
+        "IMAGE"
+      ],
+      "applied_rules": [],
+      "validation": {
+        "status": "pass",
+        "warnings": []
+      },
+      "review_status": "unreviewed",
+      "uncertainty_notes": "",
+      "uncertain_parts": [],
+      "needs_human_review": false,
+      "llm_status": "ok",
+      "llm": {
+        "status": "ok",
+        "needs_human_review": false,
+        "uncertain": false,
+        "uncertain_parts": [],
+        "notes": "",
+        "echoed_source_text": "Whenever we do any action It creates an image."
+      },
+      "error": null,
+      "speaker_id": null,
+      "start_timestamp": null,
+      "end_timestamp": null,
+      "turn_index": 0,
+      "source_metadata": {
+        "source_id": "l1-real-a",
+        "parent_chunk_id": "l1-real-a-0003",
+        "split_method": null,
+        "piece": [
+          1,
+          1
+        ],
+        "source_start_offset": 335,
+        "source_end_offset": 381,
+        "cue_indices": null,
+        "cue_ids": null,
+        "incomplete": false,
+        "depends_on_previous": false,
+        "dependency_reasons": []
+      },
+      "metadata": {
+        "model": "groq/openai/gpt-oss-120b",
+        "prompt_version": "8.0",
+        "llm_config": {
+          "provider": "groq",
+          "model": "openai/gpt-oss-120b",
+          "reasoning_effort": "medium",
+          "temperature": 0.0,
+          "max_output_tokens": 8192,
+          "prompt_version": "8.0",
+          "thinking_budget": null,
+          "empty_gloss_retry": true,
+          "references_file": null,
+          "reference_entries_loaded": 0
+        },
+        "rule_set_version": "0.1.0",
+        "active_rules": [
+          "R-FMT-01",
+          "R-ART-01",
+          "R-SKIP-01"
+        ],
+        "result_schema_version": "1.0",
+        "rule_pass_completed": true,
+        "cache_hit": false
+      },
+      "passage_id": "l1-real-a",
+      "observed_failures": [],
+      "function_word_tokens": [
+        "IT"
+      ],
+      "scored_issues": [
+        "function_word_tokens:IT"
+      ]
+    },
+    {
+      "sentence_id": "l1-real-a-s0006",
+      "group_id": "l1-real-a-g0001",
+      "source_text": "an impression in your mind.",
+      "llm_input_text": "an impression in your mind.",
+      "skipped_spans": [],
+      "translation_status": "translated",
+      "candidate_gloss": "IMPRESSION IN YOUR MIND",
+      "candidate_tokens": [
+        "IMPRESSION",
+        "IN",
+        "YOUR",
+        "MIND"
+      ],
+      "final_gloss": "IMPRESSION IN YOUR MIND",
+      "final_tokens": [
+        "IMPRESSION",
+        "IN",
+        "YOUR",
+        "MIND"
+      ],
+      "applied_rules": [],
+      "validation": {
+        "status": "pass",
+        "warnings": []
+      },
+      "review_status": "unreviewed",
+      "uncertainty_notes": "",
+      "uncertain_parts": [],
+      "needs_human_review": false,
+      "llm_status": "ok",
+      "llm": {
+        "status": "ok",
+        "needs_human_review": false,
+        "uncertain": false,
+        "uncertain_parts": [],
+        "notes": "",
+        "echoed_source_text": "an impression in your mind."
+      },
+      "error": null,
+      "speaker_id": null,
+      "start_timestamp": null,
+      "end_timestamp": null,
+      "turn_index": 0,
+      "source_metadata": {
+        "source_id": "l1-real-a",
+        "parent_chunk_id": "l1-real-a-0004",
+        "split_method": null,
+        "piece": [
+          1,
+          1
+        ],
+        "source_start_offset": 382,
+        "source_end_offset": 409,
+        "cue_indices": null,
+        "cue_ids": null,
+        "incomplete": false,
+        "depends_on_previous": true,
+        "dependency_reasons": [
+          "lowercase_start"
+        ]
+      },
+      "metadata": {
+        "model": "groq/openai/gpt-oss-120b",
+        "prompt_version": "8.0",
+        "llm_config": {
+          "provider": "groq",
+          "model": "openai/gpt-oss-120b",
+          "reasoning_effort": "medium",
+          "temperature": 0.0,
+          "max_output_tokens": 8192,
+          "prompt_version": "8.0",
+          "thinking_budget": null,
+          "empty_gloss_retry": true,
+          "references_file": null,
+          "reference_entries_loaded": 0
+        },
+        "rule_set_version": "0.1.0",
+        "active_rules": [
+          "R-FMT-01",
+          "R-ART-01",
+          "R-SKIP-01"
+        ],
+        "result_schema_version": "1.0",
+        "rule_pass_completed": true,
+        "cache_hit": false
+      },
+      "passage_id": "l1-real-a",
+      "observed_failures": [],
+      "function_word_tokens": [],
+      "scored_issues": []
+    },
+    {
+      "sentence_id": "l1-real-b-s0001",
+      "group_id": "l1-real-b-g0001",
+      "source_text": "You must have seen that whenever water splits from a glass, it starts flowing in one direction and then it dries up.",
+      "llm_input_text": "You must have seen that whenever water splits from a glass, it starts flowing in one direction and then it dries up.",
+      "skipped_spans": [],
+      "translation_status": "translated",
+      "candidate_gloss": "YOU MUST HAVE SEEN WHENEVER WATER SPLIT FROM GLASS IT START_FLOW ONE DIRECTION THEN DRY_UP",
+      "candidate_tokens": [
+        "YOU",
+        "MUST",
+        "HAVE",
+        "SEEN",
+        "WHENEVER",
+        "WATER",
+        "SPLIT",
+        "FROM",
+        "GLASS",
+        "IT",
+        "START_FLOW",
+        "ONE",
+        "DIRECTION",
+        "THEN",
+        "DRY_UP"
+      ],
+      "final_gloss": "YOU MUST HAVE SEEN WHENEVER WATER SPLIT FROM GLASS IT START_FLOW ONE DIRECTION THEN DRY_UP",
+      "final_tokens": [
+        "YOU",
+        "MUST",
+        "HAVE",
+        "SEEN",
+        "WHENEVER",
+        "WATER",
+        "SPLIT",
+        "FROM",
+        "GLASS",
+        "IT",
+        "START_FLOW",
+        "ONE",
+        "DIRECTION",
+        "THEN",
+        "DRY_UP"
+      ],
+      "applied_rules": [],
+      "validation": {
+        "status": "pass",
+        "warnings": []
+      },
+      "review_status": "unreviewed",
+      "uncertainty_notes": "",
+      "uncertain_parts": [],
+      "needs_human_review": false,
+      "llm_status": "ok",
+      "llm": {
+        "status": "ok",
+        "needs_human_review": false,
+        "uncertain": false,
+        "uncertain_parts": [],
+        "notes": "",
+        "echoed_source_text": "You must have seen that whenever water splits from a glass, it starts flowing in one direction and then it dries up."
+      },
+      "error": null,
+      "speaker_id": null,
+      "start_timestamp": null,
+      "end_timestamp": null,
+      "turn_index": 0,
+      "source_metadata": {
+        "source_id": "l1-real-b",
+        "parent_chunk_id": "l1-real-b-0001",
+        "split_method": null,
+        "piece": [
+          1,
+          1
+        ],
+        "source_start_offset": 0,
+        "source_end_offset": 116,
+        "cue_indices": null,
+        "cue_ids": null,
+        "incomplete": false,
+        "depends_on_previous": false,
+        "dependency_reasons": []
+      },
+      "metadata": {
+        "model": "groq/openai/gpt-oss-120b",
+        "prompt_version": "8.0",
+        "llm_config": {
+          "provider": "groq",
+          "model": "openai/gpt-oss-120b",
+          "reasoning_effort": "medium",
+          "temperature": 0.0,
+          "max_output_tokens": 8192,
+          "prompt_version": "8.0",
+          "thinking_budget": null,
+          "empty_gloss_retry": true,
+          "references_file": null,
+          "reference_entries_loaded": 0
+        },
+        "rule_set_version": "0.1.0",
+        "active_rules": [
+          "R-FMT-01",
+          "R-ART-01",
+          "R-SKIP-01"
+        ],
+        "result_schema_version": "1.0",
+        "rule_pass_completed": true,
+        "cache_hit": false
+      },
+      "passage_id": "l1-real-b",
+      "observed_failures": [],
+      "function_word_tokens": [
+        "IT"
+      ],
+      "scored_issues": [
+        "function_word_tokens:IT"
+      ]
+    },
+    {
+      "sentence_id": "l1-real-b-s0002",
+      "group_id": "l1-real-b-g0001",
+      "source_text": "but If you again pour water in that same place, you must have marked that it starts flowing in the same path, same direction that is had created before.",
+      "llm_input_text": "but If you again pour water in that same place, you must have marked that it starts flowing in the same path, same direction that is had created before.",
+      "skipped_spans": [],
+      "translation_status": "translated",
+      "candidate_gloss": "IF YOU AGAIN POUR WATER IN SAME PLACE YOU MUST HAVE MARKED IT START_FLOW SAME PATH SAME DIRECTION HAD CREATED BEFORE",
+      "candidate_tokens": [
+        "IF",
+        "YOU",
+        "AGAIN",
+        "POUR",
+        "WATER",
+        "IN",
+        "SAME",
+        "PLACE",
+        "YOU",
+        "MUST",
+        "HAVE",
+        "MARKED",
+        "IT",
+        "START_FLOW",
+        "SAME",
+        "PATH",
+        "SAME",
+        "DIRECTION",
+        "HAD",
+        "CREATED",
+        "BEFORE"
+      ],
+      "final_gloss": "IF YOU AGAIN POUR WATER IN SAME PLACE YOU MUST HAVE MARKED IT START_FLOW SAME PATH SAME DIRECTION HAD CREATED BEFORE",
+      "final_tokens": [
+        "IF",
+        "YOU",
+        "AGAIN",
+        "POUR",
+        "WATER",
+        "IN",
+        "SAME",
+        "PLACE",
+        "YOU",
+        "MUST",
+        "HAVE",
+        "MARKED",
+        "IT",
+        "START_FLOW",
+        "SAME",
+        "PATH",
+        "SAME",
+        "DIRECTION",
+        "HAD",
+        "CREATED",
+        "BEFORE"
+      ],
+      "applied_rules": [],
+      "validation": {
+        "status": "pass",
+        "warnings": []
+      },
+      "review_status": "unreviewed",
+      "uncertainty_notes": "",
+      "uncertain_parts": [],
+      "needs_human_review": false,
+      "llm_status": "ok",
+      "llm": {
+        "status": "ok",
+        "needs_human_review": false,
+        "uncertain": false,
+        "uncertain_parts": [],
+        "notes": "",
+        "echoed_source_text": "but If you again pour water in that same place, you must have marked that it starts flowing in the same path, same direction that is had created before."
+      },
+      "error": null,
+      "speaker_id": null,
+      "start_timestamp": null,
+      "end_timestamp": null,
+      "turn_index": 0,
+      "source_metadata": {
+        "source_id": "l1-real-b",
+        "parent_chunk_id": "l1-real-b-0002",
+        "split_method": null,
+        "piece": [
+          1,
+          1
+        ],
+        "source_start_offset": 117,
+        "source_end_offset": 269,
+        "cue_indices": null,
+        "cue_ids": null,
+        "incomplete": false,
+        "depends_on_previous": true,
+        "dependency_reasons": [
+          "lowercase_start",
+          "continuation_word"
+        ]
+      },
+      "metadata": {
+        "model": "groq/openai/gpt-oss-120b",
+        "prompt_version": "8.0",
+        "llm_config": {
+          "provider": "groq",
+          "model": "openai/gpt-oss-120b",
+          "reasoning_effort": "medium",
+          "temperature": 0.0,
+          "max_output_tokens": 8192,
+          "prompt_version": "8.0",
+          "thinking_budget": null,
+          "empty_gloss_retry": true,
+          "references_file": null,
+          "reference_entries_loaded": 0
+        },
+        "rule_set_version": "0.1.0",
+        "active_rules": [
+          "R-FMT-01",
+          "R-ART-01",
+          "R-SKIP-01"
+        ],
+        "result_schema_version": "1.0",
+        "rule_pass_completed": true,
+        "cache_hit": false
+      },
+      "passage_id": "l1-real-b",
+      "observed_failures": [],
+      "function_word_tokens": [
+        "IT"
+      ],
+      "scored_issues": [
+        "function_word_tokens:IT"
+      ]
+    },
+    {
+      "sentence_id": "l1-real-b-s0003",
+      "group_id": "l1-real-b-g0001",
+      "source_text": "Why?",
+      "llm_input_text": "Why?",
+      "skipped_spans": [],
+      "translation_status": "translated",
+      "candidate_gloss": "WHY",
+      "candidate_tokens": [
+        "WHY"
+      ],
+      "final_gloss": "WHY",
+      "final_tokens": [
+        "WHY"
+      ],
+      "applied_rules": [],
+      "validation": {
+        "status": "pass",
+        "warnings": []
+      },
+      "review_status": "unreviewed",
+      "uncertainty_notes": "",
+      "uncertain_parts": [],
+      "needs_human_review": false,
+      "llm_status": "ok",
+      "llm": {
+        "status": "ok",
+        "needs_human_review": false,
+        "uncertain": false,
+        "uncertain_parts": [],
+        "notes": "",
+        "echoed_source_text": "Why?"
+      },
+      "error": null,
+      "speaker_id": null,
+      "start_timestamp": null,
+      "end_timestamp": null,
+      "turn_index": 0,
+      "source_metadata": {
+        "source_id": "l1-real-b",
+        "parent_chunk_id": "l1-real-b-0003",
+        "split_method": null,
+        "piece": [
+          1,
+          1
+        ],
+        "source_start_offset": 270,
+        "source_end_offset": 274,
+        "cue_indices": null,
+        "cue_ids": null,
+        "incomplete": false,
+        "depends_on_previous": true,
+        "dependency_reasons": [
+          "very_short"
+        ]
+      },
+      "metadata": {
+        "model": "groq/openai/gpt-oss-120b",
+        "prompt_version": "8.0",
+        "llm_config": {
+          "provider": "groq",
+          "model": "openai/gpt-oss-120b",
+          "reasoning_effort": "medium",
+          "temperature": 0.0,
+          "max_output_tokens": 8192,
+          "prompt_version": "8.0",
+          "thinking_budget": null,
+          "empty_gloss_retry": true,
+          "references_file": null,
+          "reference_entries_loaded": 0
+        },
+        "rule_set_version": "0.1.0",
+        "active_rules": [
+          "R-FMT-01",
+          "R-ART-01",
+          "R-SKIP-01"
+        ],
+        "result_schema_version": "1.0",
+        "rule_pass_completed": true,
+        "cache_hit": false
+      },
+      "passage_id": "l1-real-b",
+      "observed_failures": [],
+      "function_word_tokens": [],
+      "scored_issues": []
+    },
+    {
+      "sentence_id": "l1-real-b-s0004",
+      "group_id": "l1-real-b-g0001",
+      "source_text": "Because Though the water had dried up, it still created and left back an image.",
+      "llm_input_text": "Because Though the water had dried up, it still created and left back an image.",
+      "skipped_spans": [],
+      "translation_status": "translated",
+      "candidate_gloss": "BECAUSE THOUGH WATER HAD DRY_UP IT STILL CREATE AND LEFT_BACK IMAGE",
+      "candidate_tokens": [
+        "BECAUSE",
+        "THOUGH",
+        "WATER",
+        "HAD",
+        "DRY_UP",
+        "IT",
+        "STILL",
+        "CREATE",
+        "AND",
+        "LEFT_BACK",
+        "IMAGE"
+      ],
+      "final_gloss": "BECAUSE THOUGH WATER HAD DRY_UP IT STILL CREATE AND LEFT_BACK IMAGE",
+      "final_tokens": [
+        "BECAUSE",
+        "THOUGH",
+        "WATER",
+        "HAD",
+        "DRY_UP",
+        "IT",
+        "STILL",
+        "CREATE",
+        "AND",
+        "LEFT_BACK",
+        "IMAGE"
+      ],
+      "applied_rules": [],
+      "validation": {
+        "status": "pass",
+        "warnings": []
+      },
+      "review_status": "unreviewed",
+      "uncertainty_notes": "",
+      "uncertain_parts": [],
+      "needs_human_review": false,
+      "llm_status": "ok",
+      "llm": {
+        "status": "ok",
+        "needs_human_review": false,
+        "uncertain": false,
+        "uncertain_parts": [],
+        "notes": "",
+        "echoed_source_text": "Because Though the water had dried up, it still created and left back an image."
+      },
+      "error": null,
+      "speaker_id": null,
+      "start_timestamp": null,
+      "end_timestamp": null,
+      "turn_index": 0,
+      "source_metadata": {
+        "source_id": "l1-real-b",
+        "parent_chunk_id": "l1-real-b-0004",
+        "split_method": null,
+        "piece": [
+          1,
+          1
+        ],
+        "source_start_offset": 275,
+        "source_end_offset": 354,
+        "cue_indices": null,
+        "cue_ids": null,
+        "incomplete": false,
+        "depends_on_previous": true,
+        "dependency_reasons": [
+          "continuation_word"
+        ]
+      },
+      "metadata": {
+        "model": "groq/openai/gpt-oss-120b",
+        "prompt_version": "8.0",
+        "llm_config": {
+          "provider": "groq",
+          "model": "openai/gpt-oss-120b",
+          "reasoning_effort": "medium",
+          "temperature": 0.0,
+          "max_output_tokens": 8192,
+          "prompt_version": "8.0",
+          "thinking_budget": null,
+          "empty_gloss_retry": true,
+          "references_file": null,
+          "reference_entries_loaded": 0
+        },
+        "rule_set_version": "0.1.0",
+        "active_rules": [
+          "R-FMT-01",
+          "R-ART-01",
+          "R-SKIP-01"
+        ],
+        "result_schema_version": "1.0",
+        "rule_pass_completed": true,
+        "cache_hit": false
+      },
+      "passage_id": "l1-real-b",
+      "observed_failures": [],
+      "function_word_tokens": [
+        "IT",
+        "AND"
+      ],
+      "scored_issues": [
+        "function_word_tokens:IT,AND"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "version": "1.0",
+  "status": "PROVISIONAL engineering annotations. NOT reviewed by an ISL-fluent person. They record plain facts about the 41 test sentences (which one is garbled, which words are named entities, which markers the source contains) so that diagnostics can be counted per category. They are not reference translations, they say nothing about how ISL expresses anything, and every count derived from them is a diagnostic signal, not a quality metric. The 'expected_review' set is a judgement call and should be confirmed by a reviewer.",
+  "inputs_file": "layer1_inputs.json",
+  "unintelligible": ["l1-asr-noise-s0001"],
+  "expected_review": [
+    "l1-ambiguous-s0001", "l1-ambiguous-s0002", "l1-ambiguous-s0003", "l1-asr-noise-s0001"
+  ],
+  "review_optional": [
+    "l1-asr-noise-s0004", "l1-asr-noise-s0005", "l1-real-a-s0001", "l1-real-a-s0006"
+  ],
+  "must_be_glossed_even_if_ambiguous": ["l1-ambiguous-s0001", "l1-ambiguous-s0002", "l1-ambiguous-s0003"],
+  "named_entities": {
+    "l1-names-s0001": ["JONATHAN", "YOUNG", "BAKERSFIELD"],
+    "l1-names-s0002": ["CALIFORNIA", "STATE", "UNIVERSITY"],
+    "l1-names-s0003": ["MARIA", "GONZALEZ", "MUMBAI"],
+    "l1-pronouns-s0001": ["MARIA"],
+    "l1-ambiguous-s0001": ["JOHN", "PETER"],
+    "l1-asr-noise-s0002": ["BHAGWAN", "MAHAVIR"],
+    "l1-real-a-s0001": ["CALIFORNIA", "STATE", "UNIVERSITY", "JONATHAN", "YOUNG"]
+  },
+  "not_names": {
+    "l1-cause-group-s0001": ["JUNE"],
+    "l1-asr-noise-s0002": ["TODAY", "THEY"],
+    "l1-asr-noise-s0004": ["HEY", "IF"],
+    "l1-asr-noise-s0005": ["TRUTH", "IF"],
+    "l1-real-a-s0001": ["HELLO", "HI", "THE", "TODAY"],
+    "l1-real-a-s0003": ["NOT"],
+    "l1-real-a-s0005": ["IT"],
+    "l1-real-b-s0002": ["IF"],
+    "l1-real-b-s0004": ["BECAUSE", "THOUGH"]
+  },
+  "terms_not_to_paraphrase": {
+    "l1-asr-noise-s0002": ["JANMOTSAV"],
+    "l1-asr-noise-s0005": ["AHIMSA"]
+  },
+  "pronouns_to_keep": {
+    "l1-pronouns-s0002": [["SHE"], ["IT"]],
+    "l1-pronouns-s0003": [["IT"]],
+    "l1-pronouns-s0004": [["HER", "SHE"]],
+    "l1-ambiguous-s0001": [["HE"]],
+    "l1-ambiguous-s0002": [["HE"], ["HIM", "HE"]],
+    "l1-conditions-s0003": [["IT"]],
+    "l1-real-a-s0003": [["I", "ME"]],
+    "l1-real-a-s0002": [["I", "ME"]],
+    "l1-negation-questions-s0001": [["I", "ME"]],
+    "l1-ambiguous-s0003": [["I", "ME"], ["HER", "SHE"]],
+    "l1-time-quantity-s0001": [["WE", "US"]],
+    "l1-time-quantity-s0002": [["WE", "US"]],
+    "l1-time-quantity-s0003": [["WE", "US"]],
+    "l1-conditions-s0002": [["WE", "US"]]
+  },
+  "expected_markers": {
+    "l1-conditions-s0001": {"condition": ["IF"]},
+    "l1-conditions-s0002": {"condition": ["UNLESS"], "negation": ["NOT", "NO", "NEVER"]},
+    "l1-conditions-s0003": {"condition": ["WHENEVER"]},
+    "l1-negation-questions-s0001": {"negation": ["NOT", "NO", "NEVER"]},
+    "l1-negation-questions-s0002": {"question": ["WHY"], "emphasis": ["SO", "VERY", "QUICKLY", "QUICK", "FAST"]},
+    "l1-negation-questions-s0003": {"negation": ["NOTHING", "NO", "NOT", "NONE"]},
+    "l1-pronouns-s0001": {"time": ["YESTERDAY"]},
+    "l1-pronouns-s0002": {"emphasis": ["VERY", "VERY_FAST"]},
+    "l1-cause-group-s0002": {"cause": ["BECAUSE", "REASON"]},
+    "l1-cause-group-s0003": {"comparison": ["BETTER", "MORE"], "condition": ["WHEN", "WHENEVER", "IF"]},
+    "l1-time-quantity-s0001": {"time": ["YESTERDAY"], "number": ["5"]},
+    "l1-time-quantity-s0002": {"time": ["TODAY"], "comparison": ["MORE", "MORE_THAN"]},
+    "l1-time-quantity-s0003": {"time": ["TOMORROW"], "number": ["2"]},
+    "l1-asr-noise-s0002": {"time": ["TODAY"]},
+    "l1-asr-noise-s0003": {"time": ["TODAY"]},
+    "l1-asr-noise-s0004": {"condition": ["IF"], "negation": ["NOT", "NO", "NEVER"]},
+    "l1-asr-noise-s0005": {"condition": ["IF"], "negation": ["NOT", "NO", "NEVER"]},
+    "l1-real-a-s0002": {"time": ["TODAY"]},
+    "l1-real-a-s0003": {"negation": ["NOT", "NO", "NEVER"], "emphasis": ["TRULY", "REAL", "REALLY", "TRUE"]},
+    "l1-real-a-s0005": {"condition": ["WHENEVER", "WHEN", "IF"]},
+    "l1-real-b-s0001": {"condition": ["WHENEVER", "WHEN", "IF"]},
+    "l1-real-b-s0002": {"condition": ["IF"]},
+    "l1-real-b-s0003": {"question": ["WHY"]},
+    "l1-real-b-s0004": {"cause": ["BECAUSE", "REASON"]}
+  }
+}

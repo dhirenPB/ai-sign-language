@@ -1,0 +1,682 @@
+{
+  "report_type": "scored_results",
+  "inputs": [
+    "data\\translations\\prompt_comparison\\results_prompt_5.0.json",
+    "data\\translations\\prompt_comparison\\results_prompt_6.0.json",
+    "data\\translations\\prompt_comparison\\results_prompt_7.0.json"
+  ],
+  "per_version": {
+    "5.0": {
+      "source_file": "data\\translations\\prompt_comparison\\results_prompt_5.0.json",
+      "complete": true,
+      "config": {
+        "provider": "groq",
+        "model": "openai/gpt-oss-120b",
+        "reasoning_effort": "medium",
+        "temperature": 0.0,
+        "max_output_tokens": 8192,
+        "prompt_version": "5.0",
+        "thinking_budget": null
+      },
+      "score": {
+        "sentences": 41,
+        "annotations": "PROVISIONAL engineering annotations, not ISL-reviewed",
+        "alignment": {
+          "missing_or_failed_results": 0,
+          "duplicate_ids": 0
+        },
+        "usage": {
+          "recorded": false
+        },
+        "issue_counts": {
+          "expected_review_not_flagged": 3,
+          "function_word_tokens": 10,
+          "label_without_source_counterpart": 2,
+          "marker_missing": 2,
+          "multiword_notation_inconsistent": 1,
+          "name_not_fingerspelled": 2,
+          "unintelligible_input_given_an_invented_gloss": 1
+        },
+        "issue_sentences": {
+          "expected_review_not_flagged": [
+            "l1-ambiguous-s0001",
+            "l1-ambiguous-s0002",
+            "l1-asr-noise-s0001"
+          ],
+          "function_word_tokens": [
+            "l1-conditions-s0002",
+            "l1-conditions-s0003",
+            "l1-pronouns-s0002",
+            "l1-pronouns-s0003",
+            "l1-ambiguous-s0001",
+            "l1-real-a-s0004",
+            "l1-real-a-s0005",
+            "l1-real-b-s0001",
+            "l1-real-b-s0002",
+            "l1-real-b-s0004"
+          ],
+          "label_without_source_counterpart": [
+            "l1-pronouns-s0004",
+            "l1-time-quantity-s0001"
+          ],
+          "marker_missing": [
+            "l1-time-quantity-s0001",
+            "l1-time-quantity-s0003"
+          ],
+          "multiword_notation_inconsistent": [
+            "l1-notation-s0003"
+          ],
+          "name_not_fingerspelled": [
+            "l1-ambiguous-s0001",
+            "l1-real-a-s0001"
+          ],
+          "unintelligible_input_given_an_invented_gloss": [
+            "l1-asr-noise-s0001"
+          ]
+        },
+        "details": {
+          "l1-conditions-s0002": [
+            "function_word_tokens:IT"
+          ],
+          "l1-conditions-s0003": [
+            "function_word_tokens:IT"
+          ],
+          "l1-pronouns-s0002": [
+            "function_word_tokens:IT"
+          ],
+          "l1-pronouns-s0003": [
+            "function_word_tokens:IT"
+          ],
+          "l1-pronouns-s0004": [
+            "label_without_source_counterpart:ALSO"
+          ],
+          "l1-notation-s0003": [
+            "multiword_notation_inconsistent:SAME_PATH"
+          ],
+          "l1-time-quantity-s0001": [
+            "marker_missing:number",
+            "label_without_source_counterpart:FIVE"
+          ],
+          "l1-time-quantity-s0003": [
+            "marker_missing:number"
+          ],
+          "l1-ambiguous-s0001": [
+            "function_word_tokens:WOULD"
+          ],
+          "l1-real-a-s0004": [
+            "function_word_tokens:IT"
+          ],
+          "l1-real-a-s0005": [
+            "function_word_tokens:IT"
+          ],
+          "l1-real-b-s0001": [
+            "function_word_tokens:IT,IT"
+          ],
+          "l1-real-b-s0002": [
+            "function_word_tokens:THAT,IT,THAT"
+          ],
+          "l1-real-b-s0004": [
+            "function_word_tokens:IT"
+          ]
+        },
+        "per_sentence_issues": {
+          "l1-names-s0001": [],
+          "l1-names-s0002": [],
+          "l1-names-s0003": [],
+          "l1-conditions-s0001": [],
+          "l1-conditions-s0002": [
+            "function_word_tokens:IT"
+          ],
+          "l1-conditions-s0003": [
+            "function_word_tokens:IT"
+          ],
+          "l1-negation-questions-s0001": [],
+          "l1-negation-questions-s0002": [],
+          "l1-negation-questions-s0003": [],
+          "l1-negation-questions-s0004": [],
+          "l1-pronouns-s0001": [],
+          "l1-pronouns-s0002": [
+            "function_word_tokens:IT"
+          ],
+          "l1-pronouns-s0003": [
+            "function_word_tokens:IT"
+          ],
+          "l1-pronouns-s0004": [
+            "label_without_source_counterpart:ALSO"
+          ],
+          "l1-cause-group-s0001": [],
+          "l1-cause-group-s0002": [],
+          "l1-cause-group-s0003": [],
+          "l1-notation-s0001": [],
+          "l1-notation-s0002": [],
+          "l1-notation-s0003": [
+            "multiword_notation_inconsistent:SAME_PATH"
+          ],
+          "l1-time-quantity-s0001": [
+            "marker_missing:number",
+            "label_without_source_counterpart:FIVE"
+          ],
+          "l1-time-quantity-s0002": [],
+          "l1-time-quantity-s0003": [
+            "marker_missing:number"
+          ],
+          "l1-ambiguous-s0001": [
+            "name_not_fingerspelled",
+            "expected_review_not_flagged",
+            "function_word_tokens:WOULD"
+          ],
+          "l1-ambiguous-s0002": [
+            "expected_review_not_flagged"
+          ],
+          "l1-ambiguous-s0003": [],
+          "l1-asr-noise-s0001": [
+            "unintelligible_input_given_an_invented_gloss",
+            "expected_review_not_flagged"
+          ],
+          "l1-asr-noise-s0002": [],
+          "l1-asr-noise-s0003": [],
+          "l1-asr-noise-s0004": [],
+          "l1-asr-noise-s0005": [],
+          "l1-real-a-s0001": [
+            "name_not_fingerspelled"
+          ],
+          "l1-real-a-s0002": [],
+          "l1-real-a-s0003": [],
+          "l1-real-a-s0004": [
+            "function_word_tokens:IT"
+          ],
+          "l1-real-a-s0005": [
+            "function_word_tokens:IT"
+          ],
+          "l1-real-a-s0006": [],
+          "l1-real-b-s0001": [
+            "function_word_tokens:IT,IT"
+          ],
+          "l1-real-b-s0002": [
+            "function_word_tokens:THAT,IT,THAT"
+          ],
+          "l1-real-b-s0003": [],
+          "l1-real-b-s0004": [
+            "function_word_tokens:IT"
+          ]
+        },
+        "categories": {
+          "1_empty_gloss_for_understandable_sentence": 0,
+          "2_unintelligible_handled_correctly": 0,
+          "2_unintelligible_handled_wrongly": 1,
+          "3_name_formatting_errors": 2,
+          "3_name_false_positives": 0,
+          "4_meaning_markers_missing": 2,
+          "5_pronouns_not_preserved": 0,
+          "6_review_flags_possibly_unnecessary": 0,
+          "6_expected_review_not_flagged": 3,
+          "7_unsupported_labels_or_paraphrases": 2,
+          "8_inconsistent_multiword_notation": 1,
+          "9_function_word_tokens_present": 10,
+          "10_alignment_problems": 0
+        },
+        "meaning_markers_missing_by_type": {
+          "number": 2
+        },
+        "model_flagged_review": 5,
+        "empty_glosses_total": 0,
+        "gloss_tokens": 253
+      }
+    },
+    "6.0": {
+      "source_file": "data\\translations\\prompt_comparison\\results_prompt_6.0.json",
+      "complete": true,
+      "config": {
+        "provider": "groq",
+        "model": "openai/gpt-oss-120b",
+        "reasoning_effort": "medium",
+        "temperature": 0.0,
+        "max_output_tokens": 8192,
+        "prompt_version": "6.0",
+        "thinking_budget": null
+      },
+      "score": {
+        "sentences": 41,
+        "annotations": "PROVISIONAL engineering annotations, not ISL-reviewed",
+        "alignment": {
+          "missing_or_failed_results": 0,
+          "duplicate_ids": 0
+        },
+        "usage": {
+          "recorded": false
+        },
+        "issue_counts": {
+          "function_word_tokens": 7,
+          "label_without_source_counterpart": 5,
+          "multiword_notation_inconsistent": 1,
+          "pronoun_not_preserved": 3,
+          "review_flag_possibly_unnecessary": 3,
+          "unintelligible_empty_flagged_with_reason": 1
+        },
+        "issue_sentences": {
+          "function_word_tokens": [
+            "l1-names-s0001",
+            "l1-conditions-s0003",
+            "l1-negation-questions-s0003",
+            "l1-time-quantity-s0002",
+            "l1-asr-noise-s0005",
+            "l1-real-a-s0004",
+            "l1-real-a-s0005"
+          ],
+          "label_without_source_counterpart": [
+            "l1-pronouns-s0002",
+            "l1-pronouns-s0003",
+            "l1-pronouns-s0004",
+            "l1-real-b-s0004"
+          ],
+          "multiword_notation_inconsistent": [
+            "l1-notation-s0003"
+          ],
+          "pronoun_not_preserved": [
+            "l1-pronouns-s0002",
+            "l1-pronouns-s0003",
+            "l1-pronouns-s0004"
+          ],
+          "review_flag_possibly_unnecessary": [
+            "l1-real-b-s0001",
+            "l1-real-b-s0002",
+            "l1-real-b-s0004"
+          ],
+          "unintelligible_empty_flagged_with_reason": [
+            "l1-asr-noise-s0001"
+          ]
+        },
+        "details": {
+          "l1-names-s0001": [
+            "function_word_tokens:TO"
+          ],
+          "l1-conditions-s0003": [
+            "function_word_tokens:IT"
+          ],
+          "l1-negation-questions-s0003": [
+            "function_word_tokens:TO"
+          ],
+          "l1-pronouns-s0002": [
+            "label_without_source_counterpart:LAPTOP"
+          ],
+          "l1-pronouns-s0003": [
+            "label_without_source_counterpart:LAPTOP",
+            "label_without_source_counterpart:CONTINUOUS"
+          ],
+          "l1-pronouns-s0004": [
+            "label_without_source_counterpart:LAPTOP"
+          ],
+          "l1-notation-s0003": [
+            "multiword_notation_inconsistent:SAME_PATH"
+          ],
+          "l1-time-quantity-s0002": [
+            "function_word_tokens:THAT"
+          ],
+          "l1-asr-noise-s0005": [
+            "function_word_tokens:OF"
+          ],
+          "l1-real-a-s0004": [
+            "function_word_tokens:IT,AND"
+          ],
+          "l1-real-a-s0005": [
+            "function_word_tokens:IT"
+          ],
+          "l1-real-b-s0004": [
+            "label_without_source_counterpart:ALTHOUGH"
+          ]
+        },
+        "per_sentence_issues": {
+          "l1-names-s0001": [
+            "function_word_tokens:TO"
+          ],
+          "l1-names-s0002": [],
+          "l1-names-s0003": [],
+          "l1-conditions-s0001": [],
+          "l1-conditions-s0002": [],
+          "l1-conditions-s0003": [
+            "function_word_tokens:IT"
+          ],
+          "l1-negation-questions-s0001": [],
+          "l1-negation-questions-s0002": [],
+          "l1-negation-questions-s0003": [
+            "function_word_tokens:TO"
+          ],
+          "l1-negation-questions-s0004": [],
+          "l1-pronouns-s0001": [],
+          "l1-pronouns-s0002": [
+            "pronoun_not_preserved",
+            "label_without_source_counterpart:LAPTOP"
+          ],
+          "l1-pronouns-s0003": [
+            "pronoun_not_preserved",
+            "label_without_source_counterpart:LAPTOP",
+            "label_without_source_counterpart:CONTINUOUS"
+          ],
+          "l1-pronouns-s0004": [
+            "pronoun_not_preserved",
+            "label_without_source_counterpart:LAPTOP"
+          ],
+          "l1-cause-group-s0001": [],
+          "l1-cause-group-s0002": [],
+          "l1-cause-group-s0003": [],
+          "l1-notation-s0001": [],
+          "l1-notation-s0002": [],
+          "l1-notation-s0003": [
+            "multiword_notation_inconsistent:SAME_PATH"
+          ],
+          "l1-time-quantity-s0001": [],
+          "l1-time-quantity-s0002": [
+            "function_word_tokens:THAT"
+          ],
+          "l1-time-quantity-s0003": [],
+          "l1-ambiguous-s0001": [],
+          "l1-ambiguous-s0002": [],
+          "l1-ambiguous-s0003": [],
+          "l1-asr-noise-s0001": [
+            "unintelligible_empty_flagged_with_reason"
+          ],
+          "l1-asr-noise-s0002": [],
+          "l1-asr-noise-s0003": [],
+          "l1-asr-noise-s0004": [],
+          "l1-asr-noise-s0005": [
+            "function_word_tokens:OF"
+          ],
+          "l1-real-a-s0001": [],
+          "l1-real-a-s0002": [],
+          "l1-real-a-s0003": [],
+          "l1-real-a-s0004": [
+            "function_word_tokens:IT,AND"
+          ],
+          "l1-real-a-s0005": [
+            "function_word_tokens:IT"
+          ],
+          "l1-real-a-s0006": [],
+          "l1-real-b-s0001": [
+            "review_flag_possibly_unnecessary"
+          ],
+          "l1-real-b-s0002": [
+            "review_flag_possibly_unnecessary"
+          ],
+          "l1-real-b-s0003": [],
+          "l1-real-b-s0004": [
+            "review_flag_possibly_unnecessary",
+            "label_without_source_counterpart:ALTHOUGH"
+          ]
+        },
+        "categories": {
+          "1_empty_gloss_for_understandable_sentence": 0,
+          "2_unintelligible_handled_correctly": 1,
+          "2_unintelligible_handled_wrongly": 0,
+          "3_name_formatting_errors": 0,
+          "3_name_false_positives": 0,
+          "4_meaning_markers_missing": 0,
+          "5_pronouns_not_preserved": 3,
+          "6_review_flags_possibly_unnecessary": 3,
+          "6_expected_review_not_flagged": 0,
+          "7_unsupported_labels_or_paraphrases": 5,
+          "8_inconsistent_multiword_notation": 1,
+          "9_function_word_tokens_present": 7,
+          "10_alignment_problems": 0
+        },
+        "meaning_markers_missing_by_type": {},
+        "model_flagged_review": 11,
+        "empty_glosses_total": 1,
+        "gloss_tokens": 252
+      }
+    },
+    "7.0": {
+      "source_file": "data\\translations\\prompt_comparison\\results_prompt_7.0.json",
+      "complete": true,
+      "config": {
+        "provider": "groq",
+        "model": "openai/gpt-oss-120b",
+        "reasoning_effort": "medium",
+        "temperature": 0.0,
+        "max_output_tokens": 8192,
+        "prompt_version": "7.0",
+        "thinking_budget": null
+      },
+      "score": {
+        "sentences": 41,
+        "annotations": "PROVISIONAL engineering annotations, not ISL-reviewed",
+        "alignment": {
+          "missing_or_failed_results": 0,
+          "duplicate_ids": 0
+        },
+        "usage": {
+          "recorded": false
+        },
+        "issue_counts": {
+          "culturally_specific_term_paraphrased_or_dropped": 1,
+          "empty_gloss_for_understandable_sentence": 3,
+          "function_word_tokens": 6,
+          "label_without_source_counterpart": 9,
+          "marker_missing": 2,
+          "multiword_notation_inconsistent": 3,
+          "name_in_compound_label": 1,
+          "pronoun_not_preserved": 4,
+          "unintelligible_empty_flagged_with_reason": 1
+        },
+        "issue_sentences": {
+          "culturally_specific_term_paraphrased_or_dropped": [
+            "l1-asr-noise-s0002"
+          ],
+          "empty_gloss_for_understandable_sentence": [
+            "l1-ambiguous-s0001",
+            "l1-ambiguous-s0002",
+            "l1-ambiguous-s0003"
+          ],
+          "function_word_tokens": [
+            "l1-names-s0001",
+            "l1-conditions-s0002",
+            "l1-conditions-s0003",
+            "l1-time-quantity-s0002",
+            "l1-real-a-s0004",
+            "l1-real-a-s0005"
+          ],
+          "label_without_source_counterpart": [
+            "l1-names-s0001",
+            "l1-pronouns-s0002",
+            "l1-pronouns-s0003",
+            "l1-pronouns-s0004",
+            "l1-asr-noise-s0002",
+            "l1-real-a-s0004",
+            "l1-real-b-s0002",
+            "l1-real-b-s0004"
+          ],
+          "marker_missing": [
+            "l1-real-a-s0003",
+            "l1-real-b-s0001"
+          ],
+          "multiword_notation_inconsistent": [
+            "l1-notation-s0003",
+            "l1-real-b-s0001",
+            "l1-real-b-s0004"
+          ],
+          "name_in_compound_label": [
+            "l1-real-a-s0001"
+          ],
+          "pronoun_not_preserved": [
+            "l1-pronouns-s0002",
+            "l1-pronouns-s0003",
+            "l1-real-a-s0002",
+            "l1-real-a-s0003"
+          ],
+          "unintelligible_empty_flagged_with_reason": [
+            "l1-asr-noise-s0001"
+          ]
+        },
+        "details": {
+          "l1-names-s0001": [
+            "label_without_source_counterpart:STUDENT-PL",
+            "function_word_tokens:TO"
+          ],
+          "l1-conditions-s0002": [
+            "function_word_tokens:IT"
+          ],
+          "l1-conditions-s0003": [
+            "function_word_tokens:IT"
+          ],
+          "l1-pronouns-s0002": [
+            "label_without_source_counterpart:LAPTOP"
+          ],
+          "l1-pronouns-s0003": [
+            "label_without_source_counterpart:LAPTOP"
+          ],
+          "l1-pronouns-s0004": [
+            "label_without_source_counterpart:LAPTOP",
+            "label_without_source_counterpart:ALSO"
+          ],
+          "l1-notation-s0003": [
+            "multiword_notation_inconsistent:SAME_PATH"
+          ],
+          "l1-time-quantity-s0002": [
+            "function_word_tokens:THAT"
+          ],
+          "l1-asr-noise-s0002": [
+            "label_without_source_counterpart:BIRTH_ANNIVERSARY"
+          ],
+          "l1-real-a-s0003": [
+            "marker_missing:emphasis"
+          ],
+          "l1-real-a-s0004": [
+            "label_without_source_counterpart:JAINISM",
+            "function_word_tokens:AND"
+          ],
+          "l1-real-a-s0005": [
+            "function_word_tokens:IT"
+          ],
+          "l1-real-b-s0001": [
+            "marker_missing:condition",
+            "multiword_notation_inconsistent:DRY_UP"
+          ],
+          "l1-real-b-s0002": [
+            "label_without_source_counterpart:NOTE"
+          ],
+          "l1-real-b-s0004": [
+            "label_without_source_counterpart:YET",
+            "multiword_notation_inconsistent:DRY_UP"
+          ]
+        },
+        "per_sentence_issues": {
+          "l1-names-s0001": [
+            "label_without_source_counterpart:STUDENT-PL",
+            "function_word_tokens:TO"
+          ],
+          "l1-names-s0002": [],
+          "l1-names-s0003": [],
+          "l1-conditions-s0001": [],
+          "l1-conditions-s0002": [
+            "function_word_tokens:IT"
+          ],
+          "l1-conditions-s0003": [
+            "function_word_tokens:IT"
+          ],
+          "l1-negation-questions-s0001": [],
+          "l1-negation-questions-s0002": [],
+          "l1-negation-questions-s0003": [],
+          "l1-negation-questions-s0004": [],
+          "l1-pronouns-s0001": [],
+          "l1-pronouns-s0002": [
+            "pronoun_not_preserved",
+            "label_without_source_counterpart:LAPTOP"
+          ],
+          "l1-pronouns-s0003": [
+            "pronoun_not_preserved",
+            "label_without_source_counterpart:LAPTOP"
+          ],
+          "l1-pronouns-s0004": [
+            "label_without_source_counterpart:LAPTOP",
+            "label_without_source_counterpart:ALSO"
+          ],
+          "l1-cause-group-s0001": [],
+          "l1-cause-group-s0002": [],
+          "l1-cause-group-s0003": [],
+          "l1-notation-s0001": [],
+          "l1-notation-s0002": [],
+          "l1-notation-s0003": [
+            "multiword_notation_inconsistent:SAME_PATH"
+          ],
+          "l1-time-quantity-s0001": [],
+          "l1-time-quantity-s0002": [
+            "function_word_tokens:THAT"
+          ],
+          "l1-time-quantity-s0003": [],
+          "l1-ambiguous-s0001": [
+            "empty_gloss_for_understandable_sentence"
+          ],
+          "l1-ambiguous-s0002": [
+            "empty_gloss_for_understandable_sentence"
+          ],
+          "l1-ambiguous-s0003": [
+            "empty_gloss_for_understandable_sentence"
+          ],
+          "l1-asr-noise-s0001": [
+            "unintelligible_empty_flagged_with_reason"
+          ],
+          "l1-asr-noise-s0002": [
+            "culturally_specific_term_paraphrased_or_dropped",
+            "label_without_source_counterpart:BIRTH_ANNIVERSARY"
+          ],
+          "l1-asr-noise-s0003": [],
+          "l1-asr-noise-s0004": [],
+          "l1-asr-noise-s0005": [],
+          "l1-real-a-s0001": [
+            "name_in_compound_label"
+          ],
+          "l1-real-a-s0002": [
+            "pronoun_not_preserved"
+          ],
+          "l1-real-a-s0003": [
+            "marker_missing:emphasis",
+            "pronoun_not_preserved"
+          ],
+          "l1-real-a-s0004": [
+            "label_without_source_counterpart:JAINISM",
+            "function_word_tokens:AND"
+          ],
+          "l1-real-a-s0005": [
+            "function_word_tokens:IT"
+          ],
+          "l1-real-a-s0006": [],
+          "l1-real-b-s0001": [
+            "marker_missing:condition",
+            "multiword_notation_inconsistent:DRY_UP"
+          ],
+          "l1-real-b-s0002": [
+            "label_without_source_counterpart:NOTE"
+          ],
+          "l1-real-b-s0003": [],
+          "l1-real-b-s0004": [
+            "label_without_source_counterpart:YET",
+            "multiword_notation_inconsistent:DRY_UP"
+          ]
+        },
+        "categories": {
+          "1_empty_gloss_for_understandable_sentence": 3,
+          "2_unintelligible_handled_correctly": 1,
+          "2_unintelligible_handled_wrongly": 0,
+          "3_name_formatting_errors": 1,
+          "3_name_false_positives": 0,
+          "4_meaning_markers_missing": 2,
+          "5_pronouns_not_preserved": 4,
+          "6_review_flags_possibly_unnecessary": 0,
+          "6_expected_review_not_flagged": 0,
+          "7_unsupported_labels_or_paraphrases": 10,
+          "8_inconsistent_multiword_notation": 3,
+          "9_function_word_tokens_present": 6,
+          "10_alignment_problems": 0
+        },
+        "meaning_markers_missing_by_type": {
+          "emphasis": 1,
+          "condition": 1
+        },
+        "model_flagged_review": 4,
+        "empty_glosses_total": 4,
+        "gloss_tokens": 218
+      }
+    }
+  },
+  "interpretation": "Counts come from provisional engineering annotations and crude detectors. A lower count, a shorter gloss or fewer review flags is NOT evidence of a better translation. Only an ISL-fluent reviewer can judge the side-by-side sheet.",
+  "same_sentences_in_every_file": true
+}

@@ -1,0 +1,7 @@
+{
+  "format_version": "1.0",
+  "status": "EMPTY TEMPLATE. No reviewed ISL material has been added yet. Nothing in this file may be added unless an ISL-proficient reviewer has actually reviewed it (see docs/reference_set_format.md). Entries without reviewed_by, reviewed_on and source are rejected by the loader and never sent to the model.",
+  "notation_conventions": [],
+  "vocabulary": [],
+  "sentence_pairs": []
+}

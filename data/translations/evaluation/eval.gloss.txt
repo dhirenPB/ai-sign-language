@@ -1,0 +1,121 @@
+# eval  (UNREVIEWED candidate gloss, prompt 1.0)
+
+[eval-001] I am happy to be here today.
+    GLOSS: TODAY I HERE HAPPY
+
+[eval-002] The teacher gave us a book.
+    GLOSS: TEACHER BOOK US GIVE
+
+[eval-003] Water flows in the same direction.
+    GLOSS: WATER SAME DIRECTION FLOW
+
+[eval-004] We are building a translation system.
+    GLOSS: WE TRANSLATION SYSTEM BUILD
+
+[eval-005] Every action leaves an impression in the mind.
+    GLOSS: EVERY ACTION MIND IMPRESSION LEAVE
+
+[eval-006] My friends live in a small village.
+    GLOSS: MY FRIEND SMALL VILLAGE LIVE
+
+[eval-007] Where are you going?
+    GLOSS: YOU GO WHERE
+
+[eval-008] What qualities did he have?
+    GLOSS: HE QUALITIES HAVE WHAT
+
+[eval-009] Do you understand what I mean?
+    GLOSS: I MEAN YOU UNDERSTAND
+
+[eval-010] Why do we get angry so quickly?
+    GLOSS: WE QUICK ANGRY WHY
+
+[eval-011] How many students are joining us today?
+    GLOSS: TODAY STUDENT JOIN HOW_MANY
+
+[eval-012] Who will share their experience first?
+    GLOSS: FIRST EXPERIENCE SHARE WHO
+
+[eval-013] The result was 15, not 50.
+    GLOSS: RESULT 15 50 NOT
+
+[eval-014] I do not want to hurt anyone.
+    GLOSS: I ANYONE HURT WANT NOT
+
+[eval-015] Jainism is not a religion but a way of living.
+    GLOSS: FS:JAINISM RELIGION NOT LIFE WAY
+
+[eval-016] He never lies, and he never steals.
+    GLOSS: HE LIE NEVER STEAL NEVER
+
+[eval-017] Nothing in this world belongs to us.
+    GLOSS: THIS WORLD NOTHING OUR
+
+[eval-018] You cannot change the past, but you can change today.
+    GLOSS: PAST YOU CHANGE CANNOT TODAY YOU CHANGE CAN
+
+[eval-019] Yesterday I met my teacher at the temple.
+    GLOSS: YESTERDAY TEMPLE I MY TEACHER MEET
+
+[eval-020] We will meet again tomorrow morning.
+    GLOSS: TOMORROW MORNING WE AGAIN MEET
+
+[eval-021] Last year my brother moved to another city.
+    GLOSS: LAST_YEAR MY BROTHER ANOTHER CITY MOVE
+
+[eval-022] After the lecture we will have some time for questions.
+    GLOSS: LECTURE AFTER WE QUESTION TIME HAVE
+
+[eval-023] Every evening she sits quietly for ten minutes.
+    GLOSS: EVERY EVENING SHE 10 MINUTE QUIET SIT
+
+[eval-024] Professor Jonathan Young invited us to this session.
+    GLOSS: FS:PROFESSOR FS:JONATHAN FS:YOUNG THIS SESSION US INVITE
+
+[eval-025] Bhagwan Mahavir practiced tough sadhana for twelve and a half years.
+    GLOSS: FS:BHAGWAN FS:MAHAVIR 12 HALF YEAR HARD FS:SADHANA PRACTICE
+
+[eval-026] Maria travelled from Bakersfield to Mumbai last week.
+    GLOSS: LAST_WEEK FS:MARIA FS:BAKERSFIELD FROM FS:MUMBAI TRAVEL
+
+[eval-027] There are 5 vows and 12 months in a year.
+    GLOSS: ONE YEAR 12 MONTH 5 FS:VOW
+
+[eval-028] He donated 2500 rupees to the school.
+    GLOSS: HE SCHOOL 2500 RUPEE DONATE
+
+[eval-029] Let's break the ice and begin.
+    GLOSS: WE ICE BREAK BEGIN   <review_required>
+
+[eval-030] Time heals all wounds.
+    GLOSS: TIME ALL WOUND HEAL   <review_required>
+
+[eval-031] Don't judge a book by its cover.
+    GLOSS: BOOK COVER LOOK JUDGE NOT
+
+[eval-032] It is a piece of cake once you practise.
+    GLOSS: YOU PRACTISE AFTER VERY EASY
+
+[eval-033] Wow, that is a big change!
+    GLOSS: WOW THAT CHANGE BIG
+
+[eval-034] Oh, I did not know that.
+    GLOSS: OH THAT I KNOW NOT
+
+[eval-035] Hmm, let me think about it.
+    GLOSS: THAT I THINK
+
+[eval-036] So, I mean, we should start now.
+    GLOSS: NOW WE START SHOULD
+
+[eval-037] I saw her duck.
+    GLOSS: I SEE HER DUCK   <review_required>
+
+[eval-038] The old man the boats.
+    GLOSS: OLD PEOPLE BOAT OPERATE   <review_required>
+
+[eval-039] When you are angry, the act is over quickly, but it leaves an impression that stays in your memory.
+    GLOSS: YOU ANGRY WHEN ACTION FINISH QUICK BUT MEMORY STAY
+
+[eval-040] If you practise every day and stay patient, your mind will slowly become calm.
+    GLOSS: YOU EVERY_DAY PRACTISE PATIENT IF YOUR MIND SLOWLY CALM

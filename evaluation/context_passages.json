@@ -1,0 +1,36 @@
+{
+  "version": "1.0",
+  "note": "Short raw transcripts in the same format as the real data. They go through the existing cleaner first, then through both pipelines. No reference glosses are included: none have been endorsed by an ISL-fluent reviewer.",
+  "passages": [
+    {
+      "id": "cmp-pronouns",
+      "description": "Pronouns and 'it/one' that refer to earlier sentences.",
+      "look_for": "'She', 'it', 'the old one', 'her' keep the right referent without dragging extra words into the neighbouring gloss.",
+      "text": "Speaker 1: Maria bought a new laptop yesterday. She says it is very fast. It replaced the old one that kept crashing. Her brother wants one too."
+    },
+    {
+      "id": "cmp-turns",
+      "description": "Two speakers; short replies depend on the previous turn, and 'him' is ambiguous.",
+      "look_for": "'Not yet' and 'him' are marked uncertain or kept as pronouns; nothing from the other speaker leaks into a reply.",
+      "text": "Speaker 1: Did you finish the report? Speaker 2: Not yet. I need two more days. Speaker 1: Then please send it to him when it is ready."
+    },
+    {
+      "id": "cmp-topics",
+      "description": "Two unrelated topics in separate paragraphs.",
+      "look_for": "No information from the monsoon paragraph appears in the library paragraph's glosses, or the other way round.",
+      "text": "Speaker 1: The monsoon arrives in June. Farmers prepare their fields early.\n\nSpeaker 1: Our new library opens next week. It has a quiet reading room."
+    },
+    {
+      "id": "cmp-runon",
+      "description": "ASR-style text: missing punctuation, mid-sentence capitals, a lowercase fragment after a full stop.",
+      "look_for": "Run-on text is split at sensible places; the fragment 'and that is why anger grows' stays attached to what it continues.",
+      "text": "Speaker 1: When you are angry the act is over quickly but It leaves an impression in your memory Then whenever you get angry again It opens the same impression. and that is why anger grows."
+    },
+    {
+      "id": "cmp-ambiguous",
+      "description": "Ambiguous pronoun references.",
+      "look_for": "'he' and 'him' are NOT silently resolved to John or Peter; uncertainty is flagged.",
+      "text": "Speaker 1: John told Peter that he would be late. He apologised, but nobody believed him."
+    }
+  ]
+}

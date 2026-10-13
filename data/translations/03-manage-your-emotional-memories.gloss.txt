@@ -1,0 +1,10 @@
+# 03-manage-your-emotional-memories  (UNREVIEWED candidate gloss)
+
+[03-manage-your-emotional-memories-0001] Hello Hi students The California State University where Professor Jonathan Young has invited to take a session on philosophy and religious studies Today, first of all, I would like to appreciate your curiosity to learn something about Jainism.
+    GLOSS: HELLO HI STUDENT FS:CALIFORNIA_STATE_UNIVERSITY PROFESSOR FS:JONATHAN_YOUNG INVITE SESSION PHILOSOPHY RELIGIOUS_STUDIES TODAY FIRST WANT APPRECIATE CURIOSITY LEARN JAINISM   <review_required>
+
+[03-manage-your-emotional-memories-0002] I truly believe that Jainism is Not a religion But it is a philosophy and a way of living.
+    GLOSS: TRULY BELIEVE JAINISM RELIGION NOT PHILOSOPHY WAY_OF_LIVING
+
+[03-manage-your-emotional-memories-0003] Whenever we do any action It creates an image.
+    GLOSS: WHENEVER ACTION DO CREATE IMAGE

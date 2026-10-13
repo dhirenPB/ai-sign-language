@@ -1,0 +1,633 @@
+{
+  "schema_version": "1.0",
+  "report_type": "isl_gloss_translation",
+  "tool_version": "0.1.0",
+  "source_id": "01-csu-bakersfield-english-session",
+  "source_file": "data\\structured\\01-csu-bakersfield-english-session.cleaned.json",
+  "generated_at": "2026-10-12T13:19:06+00:00",
+  "review_status": "unreviewed",
+  "review_note": "Gloss is a machine-generated candidate. It has NOT been reviewed by an ISL-fluent signer and must not be treated as production-accurate.",
+  "complete": true,
+  "stop_reason": null,
+  "counts": {
+    "translated": 10,
+    "validation_pass": 10,
+    "cache_hits": 0
+  },
+  "metadata": {
+    "model": "gemini/gemini-3.6-flash",
+    "prompt_version": "1.0",
+    "rule_set_version": "0.1.0",
+    "active_rules": [
+      "R-FMT-01",
+      "R-ART-01",
+      "R-SKIP-01"
+    ],
+    "result_schema_version": "1.0"
+  },
+  "source_type": "unknown",
+  "limit": 10,
+  "results": [
+    {
+      "chunk_id": "01-csu-bakersfield-english-session-0001",
+      "source_text": "Okay, I just wanted to say good morning to everyone.",
+      "llm_input_text": "Okay, I just wanted to say good morning to everyone.",
+      "skipped_spans": [],
+      "translation_status": "translated",
+      "candidate_gloss": "GOOD_MORNING EVERYONE I WANT SAY",
+      "candidate_tokens": [
+        "GOOD_MORNING",
+        "EVERYONE",
+        "I",
+        "WANT",
+        "SAY"
+      ],
+      "final_gloss": "GOOD_MORNING EVERYONE I WANT SAY",
+      "final_tokens": [
+        "GOOD_MORNING",
+        "EVERYONE",
+        "I",
+        "WANT",
+        "SAY"
+      ],
+      "applied_rules": [],
+      "validation": {
+        "status": "pass",
+        "warnings": []
+      },
+      "review_status": "unreviewed",
+      "llm": {
+        "uncertain": false,
+        "notes": ""
+      },
+      "error": null,
+      "context": {
+        "speaker_id": "Speaker 1",
+        "turn_index": 0,
+        "start_time": null,
+        "end_time": null
+      },
+      "metadata": {
+        "model": "gemini/gemini-3.6-flash",
+        "prompt_version": "1.0",
+        "rule_set_version": "0.1.0",
+        "active_rules": [
+          "R-FMT-01",
+          "R-ART-01",
+          "R-SKIP-01"
+        ],
+        "result_schema_version": "1.0",
+        "rule_pass_completed": true,
+        "cache_hit": false
+      }
+    },
+    {
+      "chunk_id": "01-csu-bakersfield-english-session-0002",
+      "source_text": "I know my students are still coming in and joining us and I see we have a number of other guests.",
+      "llm_input_text": "I know my students are still coming in and joining us and I see we have a number of other guests.",
+      "skipped_spans": [],
+      "translation_status": "translated",
+      "candidate_gloss": "I KNOW MY STUDENT STILL COME JOIN US I SEE MANY OTHER GUEST",
+      "candidate_tokens": [
+        "I",
+        "KNOW",
+        "MY",
+        "STUDENT",
+        "STILL",
+        "COME",
+        "JOIN",
+        "US",
+        "I",
+        "SEE",
+        "MANY",
+        "OTHER",
+        "GUEST"
+      ],
+      "final_gloss": "I KNOW MY STUDENT STILL COME JOIN US I SEE MANY OTHER GUEST",
+      "final_tokens": [
+        "I",
+        "KNOW",
+        "MY",
+        "STUDENT",
+        "STILL",
+        "COME",
+        "JOIN",
+        "US",
+        "I",
+        "SEE",
+        "MANY",
+        "OTHER",
+        "GUEST"
+      ],
+      "applied_rules": [],
+      "validation": {
+        "status": "pass",
+        "warnings": []
+      },
+      "review_status": "unreviewed",
+      "llm": {
+        "uncertain": false,
+        "notes": ""
+      },
+      "error": null,
+      "context": {
+        "speaker_id": "Speaker 1",
+        "turn_index": 0,
+        "start_time": null,
+        "end_time": null
+      },
+      "metadata": {
+        "model": "gemini/gemini-3.6-flash",
+        "prompt_version": "1.0",
+        "rule_set_version": "0.1.0",
+        "active_rules": [
+          "R-FMT-01",
+          "R-ART-01",
+          "R-SKIP-01"
+        ],
+        "result_schema_version": "1.0",
+        "rule_pass_completed": true,
+        "cache_hit": false
+      }
+    },
+    {
+      "chunk_id": "01-csu-bakersfield-english-session-0003",
+      "source_text": "I'm happy to have you with us this morning.",
+      "llm_input_text": "I'm happy to have you with us this morning.",
+      "skipped_spans": [],
+      "translation_status": "translated",
+      "candidate_gloss": "THIS MORNING YOU WITH US I HAPPY",
+      "candidate_tokens": [
+        "THIS",
+        "MORNING",
+        "YOU",
+        "WITH",
+        "US",
+        "I",
+        "HAPPY"
+      ],
+      "final_gloss": "THIS MORNING YOU WITH US I HAPPY",
+      "final_tokens": [
+        "THIS",
+        "MORNING",
+        "YOU",
+        "WITH",
+        "US",
+        "I",
+        "HAPPY"
+      ],
+      "applied_rules": [],
+      "validation": {
+        "status": "pass",
+        "warnings": []
+      },
+      "review_status": "unreviewed",
+      "llm": {
+        "uncertain": false,
+        "notes": ""
+      },
+      "error": null,
+      "context": {
+        "speaker_id": "Speaker 1",
+        "turn_index": 0,
+        "start_time": null,
+        "end_time": null
+      },
+      "metadata": {
+        "model": "gemini/gemini-3.6-flash",
+        "prompt_version": "1.0",
+        "rule_set_version": "0.1.0",
+        "active_rules": [
+          "R-FMT-01",
+          "R-ART-01",
+          "R-SKIP-01"
+        ],
+        "result_schema_version": "1.0",
+        "rule_pass_completed": true,
+        "cache_hit": false
+      }
+    },
+    {
+      "chunk_id": "01-csu-bakersfield-english-session-0004",
+      "source_text": "or this evening depending on where you are in the world.",
+      "llm_input_text": "or this evening depending on where you are in the world.",
+      "skipped_spans": [],
+      "translation_status": "translated",
+      "candidate_gloss": "OR THIS EVENING DEPEND WORLD WHERE YOU",
+      "candidate_tokens": [
+        "OR",
+        "THIS",
+        "EVENING",
+        "DEPEND",
+        "WORLD",
+        "WHERE",
+        "YOU"
+      ],
+      "final_gloss": "OR THIS EVENING DEPEND WORLD WHERE YOU",
+      "final_tokens": [
+        "OR",
+        "THIS",
+        "EVENING",
+        "DEPEND",
+        "WORLD",
+        "WHERE",
+        "YOU"
+      ],
+      "applied_rules": [],
+      "validation": {
+        "status": "pass",
+        "warnings": []
+      },
+      "review_status": "unreviewed",
+      "llm": {
+        "uncertain": false,
+        "notes": ""
+      },
+      "error": null,
+      "context": {
+        "speaker_id": "Speaker 1",
+        "turn_index": 0,
+        "start_time": null,
+        "end_time": null
+      },
+      "metadata": {
+        "model": "gemini/gemini-3.6-flash",
+        "prompt_version": "1.0",
+        "rule_set_version": "0.1.0",
+        "active_rules": [
+          "R-FMT-01",
+          "R-ART-01",
+          "R-SKIP-01"
+        ],
+        "result_schema_version": "1.0",
+        "rule_pass_completed": true,
+        "cache_hit": false
+      }
+    },
+    {
+      "chunk_id": "01-csu-bakersfield-english-session-0005",
+      "source_text": "I know we have a global audience today.",
+      "llm_input_text": "I know we have a global audience today.",
+      "skipped_spans": [],
+      "translation_status": "translated",
+      "candidate_gloss": "TODAY I KNOW WE WORLDWIDE AUDIENCE HAVE",
+      "candidate_tokens": [
+        "TODAY",
+        "I",
+        "KNOW",
+        "WE",
+        "WORLDWIDE",
+        "AUDIENCE",
+        "HAVE"
+      ],
+      "final_gloss": "TODAY I KNOW WE WORLDWIDE AUDIENCE HAVE",
+      "final_tokens": [
+        "TODAY",
+        "I",
+        "KNOW",
+        "WE",
+        "WORLDWIDE",
+        "AUDIENCE",
+        "HAVE"
+      ],
+      "applied_rules": [],
+      "validation": {
+        "status": "pass",
+        "warnings": []
+      },
+      "review_status": "unreviewed",
+      "llm": {
+        "uncertain": false,
+        "notes": ""
+      },
+      "error": null,
+      "context": {
+        "speaker_id": "Speaker 1",
+        "turn_index": 0,
+        "start_time": null,
+        "end_time": null
+      },
+      "metadata": {
+        "model": "gemini/gemini-3.6-flash",
+        "prompt_version": "1.0",
+        "rule_set_version": "0.1.0",
+        "active_rules": [
+          "R-FMT-01",
+          "R-ART-01",
+          "R-SKIP-01"
+        ],
+        "result_schema_version": "1.0",
+        "rule_pass_completed": true,
+        "cache_hit": false
+      }
+    },
+    {
+      "chunk_id": "01-csu-bakersfield-english-session-0006",
+      "source_text": "It's pretty exciting I think.",
+      "llm_input_text": "It's pretty exciting I think.",
+      "skipped_spans": [],
+      "translation_status": "translated",
+      "candidate_gloss": "I THINK THIS VERY EXCITING",
+      "candidate_tokens": [
+        "I",
+        "THINK",
+        "THIS",
+        "VERY",
+        "EXCITING"
+      ],
+      "final_gloss": "I THINK THIS VERY EXCITING",
+      "final_tokens": [
+        "I",
+        "THINK",
+        "THIS",
+        "VERY",
+        "EXCITING"
+      ],
+      "applied_rules": [],
+      "validation": {
+        "status": "pass",
+        "warnings": []
+      },
+      "review_status": "unreviewed",
+      "llm": {
+        "uncertain": false,
+        "notes": ""
+      },
+      "error": null,
+      "context": {
+        "speaker_id": "Speaker 1",
+        "turn_index": 0,
+        "start_time": null,
+        "end_time": null
+      },
+      "metadata": {
+        "model": "gemini/gemini-3.6-flash",
+        "prompt_version": "1.0",
+        "rule_set_version": "0.1.0",
+        "active_rules": [
+          "R-FMT-01",
+          "R-ART-01",
+          "R-SKIP-01"
+        ],
+        "result_schema_version": "1.0",
+        "rule_pass_completed": true,
+        "cache_hit": false
+      }
+    },
+    {
+      "chunk_id": "01-csu-bakersfield-english-session-0007",
+      "source_text": "I'm glad we have this opportunity.",
+      "llm_input_text": "I'm glad we have this opportunity.",
+      "skipped_spans": [],
+      "translation_status": "translated",
+      "candidate_gloss": "WE THIS OPPORTUNITY HAVE I HAPPY",
+      "candidate_tokens": [
+        "WE",
+        "THIS",
+        "OPPORTUNITY",
+        "HAVE",
+        "I",
+        "HAPPY"
+      ],
+      "final_gloss": "WE THIS OPPORTUNITY HAVE I HAPPY",
+      "final_tokens": [
+        "WE",
+        "THIS",
+        "OPPORTUNITY",
+        "HAVE",
+        "I",
+        "HAPPY"
+      ],
+      "applied_rules": [],
+      "validation": {
+        "status": "pass",
+        "warnings": []
+      },
+      "review_status": "unreviewed",
+      "llm": {
+        "uncertain": false,
+        "notes": ""
+      },
+      "error": null,
+      "context": {
+        "speaker_id": "Speaker 1",
+        "turn_index": 0,
+        "start_time": null,
+        "end_time": null
+      },
+      "metadata": {
+        "model": "gemini/gemini-3.6-flash",
+        "prompt_version": "1.0",
+        "rule_set_version": "0.1.0",
+        "active_rules": [
+          "R-FMT-01",
+          "R-ART-01",
+          "R-SKIP-01"
+        ],
+        "result_schema_version": "1.0",
+        "rule_pass_completed": true,
+        "cache_hit": false
+      }
+    },
+    {
+      "chunk_id": "01-csu-bakersfield-english-session-0008",
+      "source_text": "Okay everyone, like we can begin.",
+      "llm_input_text": "Okay everyone, like we can begin.",
+      "skipped_spans": [],
+      "translation_status": "translated",
+      "candidate_gloss": "EVERYONE NOW WE CAN START",
+      "candidate_tokens": [
+        "EVERYONE",
+        "NOW",
+        "WE",
+        "CAN",
+        "START"
+      ],
+      "final_gloss": "EVERYONE NOW WE CAN START",
+      "final_tokens": [
+        "EVERYONE",
+        "NOW",
+        "WE",
+        "CAN",
+        "START"
+      ],
+      "applied_rules": [],
+      "validation": {
+        "status": "pass",
+        "warnings": []
+      },
+      "review_status": "unreviewed",
+      "llm": {
+        "uncertain": false,
+        "notes": ""
+      },
+      "error": null,
+      "context": {
+        "speaker_id": "Speaker 1",
+        "turn_index": 0,
+        "start_time": null,
+        "end_time": null
+      },
+      "metadata": {
+        "model": "gemini/gemini-3.6-flash",
+        "prompt_version": "1.0",
+        "rule_set_version": "0.1.0",
+        "active_rules": [
+          "R-FMT-01",
+          "R-ART-01",
+          "R-SKIP-01"
+        ],
+        "result_schema_version": "1.0",
+        "rule_pass_completed": true,
+        "cache_hit": false
+      }
+    },
+    {
+      "chunk_id": "01-csu-bakersfield-english-session-0009",
+      "source_text": "just to to clarify, this is a introductory course at California State University Bakersfield on the religions of Asia.",
+      "llm_input_text": "just to to clarify, this is a introductory course at California State University Bakersfield on the religions of Asia.",
+      "skipped_spans": [],
+      "translation_status": "translated",
+      "candidate_gloss": "CLARIFY THIS FS:CALIFORNIA FS:STATE FS:UNIVERSITY FS:BAKERSFIELD ASIA RELIGION INTRODUCTORY COURSE",
+      "candidate_tokens": [
+        "CLARIFY",
+        "THIS",
+        "FS:CALIFORNIA",
+        "FS:STATE",
+        "FS:UNIVERSITY",
+        "FS:BAKERSFIELD",
+        "ASIA",
+        "RELIGION",
+        "INTRODUCTORY",
+        "COURSE"
+      ],
+      "final_gloss": "CLARIFY THIS FS:CALIFORNIA FS:STATE FS:UNIVERSITY FS:BAKERSFIELD ASIA RELIGION INTRODUCTORY COURSE",
+      "final_tokens": [
+        "CLARIFY",
+        "THIS",
+        "FS:CALIFORNIA",
+        "FS:STATE",
+        "FS:UNIVERSITY",
+        "FS:BAKERSFIELD",
+        "ASIA",
+        "RELIGION",
+        "INTRODUCTORY",
+        "COURSE"
+      ],
+      "applied_rules": [],
+      "validation": {
+        "status": "pass",
+        "warnings": []
+      },
+      "review_status": "unreviewed",
+      "llm": {
+        "uncertain": false,
+        "notes": ""
+      },
+      "error": null,
+      "context": {
+        "speaker_id": "Speaker 1",
+        "turn_index": 0,
+        "start_time": null,
+        "end_time": null
+      },
+      "metadata": {
+        "model": "gemini/gemini-3.6-flash",
+        "prompt_version": "1.0",
+        "rule_set_version": "0.1.0",
+        "active_rules": [
+          "R-FMT-01",
+          "R-ART-01",
+          "R-SKIP-01"
+        ],
+        "result_schema_version": "1.0",
+        "rule_pass_completed": true,
+        "cache_hit": false
+      }
+    },
+    {
+      "chunk_id": "01-csu-bakersfield-english-session-0010",
+      "source_text": "And this week in particular, we are taking a look at the Jane tradition and we are fortunate to have with us some guest speakers to teach us more about the tradition from their perspective.",
+      "llm_input_text": "And this week in particular, we are taking a look at the tradition and we are fortunate to have with us some guest speakers to teach us more about the tradition from their perspective.",
+      "skipped_spans": [
+        {
+          "start": 57,
+          "end": 61,
+          "text": "Jane",
+          "reason": "skip_term"
+        }
+      ],
+      "translation_status": "translated",
+      "candidate_gloss": "THIS WEEK WE LEARN TRADITION WE LUCKY HAVE GUEST SPEAKER TEACH US THEIR PERSPECTIVE",
+      "candidate_tokens": [
+        "THIS",
+        "WEEK",
+        "WE",
+        "LEARN",
+        "TRADITION",
+        "WE",
+        "LUCKY",
+        "HAVE",
+        "GUEST",
+        "SPEAKER",
+        "TEACH",
+        "US",
+        "THEIR",
+        "PERSPECTIVE"
+      ],
+      "final_gloss": "THIS WEEK WE LEARN TRADITION WE LUCKY HAVE GUEST SPEAKER TEACH US THEIR PERSPECTIVE",
+      "final_tokens": [
+        "THIS",
+        "WEEK",
+        "WE",
+        "LEARN",
+        "TRADITION",
+        "WE",
+        "LUCKY",
+        "HAVE",
+        "GUEST",
+        "SPEAKER",
+        "TEACH",
+        "US",
+        "THEIR",
+        "PERSPECTIVE"
+      ],
+      "applied_rules": [],
+      "validation": {
+        "status": "pass",
+        "warnings": [
+          {
+            "code": "spans_skipped",
+            "severity": "info",
+            "message": "1 span(s) were excluded from translation by design."
+          }
+        ]
+      },
+      "review_status": "unreviewed",
+      "llm": {
+        "uncertain": false,
+        "notes": ""
+      },
+      "error": null,
+      "context": {
+        "speaker_id": "Speaker 1",
+        "turn_index": 0,
+        "start_time": null,
+        "end_time": null
+      },
+      "metadata": {
+        "model": "gemini/gemini-3.6-flash",
+        "prompt_version": "1.0",
+        "rule_set_version": "0.1.0",
+        "active_rules": [
+          "R-FMT-01",
+          "R-ART-01",
+          "R-SKIP-01"
+        ],
+        "result_schema_version": "1.0",
+        "rule_pass_completed": true,
+        "cache_hit": false
+      }
+    }
+  ]
+}

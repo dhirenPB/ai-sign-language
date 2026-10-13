@@ -1,0 +1,16 @@
+request 1/1: 3 sentence(s) [l1-names-g0001]
+request 1/1: 3 sentence(s) [l1-conditions-g0001]
+request 1/1: 4 sentence(s) [l1-negation-questions-g0001]
+request 1/1: 4 sentence(s) [l1-pronouns-g0001]
+request 1/1: 3 sentence(s) [l1-cause-group-g0001]
+request 1/1: 3 sentence(s) [l1-notation-g0001]
+request 1/1: 3 sentence(s) [l1-time-quantity-g0001]
+request 1/1: 3 sentence(s) [l1-ambiguous-g0001]
+request 1/1: 5 sentence(s) [l1-asr-noise-g0001]
+request 1/1: 6 sentence(s) [l1-real-a-g0001]
+request 1/1: 4 sentence(s) [l1-real-b-g0001]
+prompt 8.0 [groq/openai/gpt-oss-120b, reasoning medium]: translated 41/41, failed 0, model-flagged 2, sentences with an observed failure 5, requests 12, complete True
+   observed failure types: {'empty_gloss_flagged_for_review': 1, 'name_not_fingerspelled': 4, 'name_missing': 1}
+   usage: 12 fresh call(s), 43997 tokens, 396.75s, empty-gloss retries 1 (recovered 0)
+Counts come from crude automatic detectors on a small sample (observation only). They are not a measure of translation accuracy and do not show that either prompt is better. If a version did not finish, nothing can be concluded. An ISL-fluent reviewer must judge the side-by-side sheet.
+wrote data\translations\prompt_comparison_v8\comparison_sheet.csv and results_prompt_<version>.json

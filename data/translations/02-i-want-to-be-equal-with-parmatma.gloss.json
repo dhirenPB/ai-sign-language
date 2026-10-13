@@ -1,0 +1,243 @@
+{
+  "schema_version": "1.0",
+  "report_type": "isl_gloss_translation",
+  "tool_version": "0.1.0",
+  "source_id": "02-i-want-to-be-equal-with-parmatma",
+  "source_file": "data\\structured\\02-i-want-to-be-equal-with-parmatma.cleaned.json",
+  "generated_at": "2026-10-13T05:40:44+00:00",
+  "review_status": "unreviewed",
+  "review_note": "Gloss is a machine-generated candidate. It has NOT been reviewed by an ISL-fluent signer and must not be treated as production-accurate.",
+  "complete": true,
+  "stop_reason": null,
+  "counts": {
+    "failed": 5,
+    "cache_hits": 0
+  },
+  "metadata": {
+    "model": "gemini/gemini-3.6-flash",
+    "prompt_version": "1.0",
+    "rule_set_version": "0.1.0",
+    "active_rules": [
+      "R-FMT-01",
+      "R-ART-01",
+      "R-SKIP-01"
+    ],
+    "result_schema_version": "1.0"
+  },
+  "source_type": "unknown",
+  "limit": 5,
+  "results": [
+    {
+      "chunk_id": "02-i-want-to-be-equal-with-parmatma-0001",
+      "source_text": "Om Ooh Hello Done, frio Today They are celebrating Bhagwan Mahavir's Janmotsav Today is a day of expressing heartfelt gratitude.",
+      "llm_input_text": "Om Hello Done, frio Today They are celebrating Bhagwan Mahavir's Janmotsav Today is a day of expressing heartfelt gratitude.",
+      "skipped_spans": [
+        {
+          "start": 3,
+          "end": 6,
+          "text": "Ooh",
+          "reason": "expression_cue"
+        }
+      ],
+      "translation_status": "failed",
+      "candidate_gloss": null,
+      "candidate_tokens": null,
+      "final_gloss": null,
+      "final_tokens": null,
+      "applied_rules": [],
+      "validation": {
+        "status": "failed",
+        "warnings": []
+      },
+      "review_status": "unreviewed",
+      "llm": null,
+      "error": {
+        "kind": "transient_error",
+        "message": "Gave up after 5 attempts. Last error: HTTP 503. This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later."
+      },
+      "context": {
+        "speaker_id": "Speaker 1",
+        "turn_index": 0,
+        "start_time": null,
+        "end_time": null
+      },
+      "metadata": {
+        "model": "gemini/gemini-3.6-flash",
+        "prompt_version": "1.0",
+        "rule_set_version": "0.1.0",
+        "active_rules": [
+          "R-FMT-01",
+          "R-ART-01",
+          "R-SKIP-01"
+        ],
+        "result_schema_version": "1.0",
+        "rule_pass_completed": false,
+        "cache_hit": false
+      }
+    },
+    {
+      "chunk_id": "02-i-want-to-be-equal-with-parmatma-0002",
+      "source_text": "Let us close our eyes for two minutes.",
+      "llm_input_text": "Let us close our eyes for two minutes.",
+      "skipped_spans": [],
+      "translation_status": "failed",
+      "candidate_gloss": null,
+      "candidate_tokens": null,
+      "final_gloss": null,
+      "final_tokens": null,
+      "applied_rules": [],
+      "validation": {
+        "status": "failed",
+        "warnings": []
+      },
+      "review_status": "unreviewed",
+      "llm": null,
+      "error": {
+        "kind": "transient_error",
+        "message": "Gave up after 5 attempts. Last error: HTTP 503. This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later."
+      },
+      "context": {
+        "speaker_id": "Speaker 1",
+        "turn_index": 0,
+        "start_time": null,
+        "end_time": null
+      },
+      "metadata": {
+        "model": "gemini/gemini-3.6-flash",
+        "prompt_version": "1.0",
+        "rule_set_version": "0.1.0",
+        "active_rules": [
+          "R-FMT-01",
+          "R-ART-01",
+          "R-SKIP-01"
+        ],
+        "result_schema_version": "1.0",
+        "rule_pass_completed": false,
+        "cache_hit": false
+      }
+    },
+    {
+      "chunk_id": "02-i-want-to-be-equal-with-parmatma-0003",
+      "source_text": "Let us bow down our head in Paramatma's feet and feel thankful to Prabhu from the bottom of our heart.",
+      "llm_input_text": "Let us bow down our head in Paramatma's feet and feel thankful to Prabhu from the bottom of our heart.",
+      "skipped_spans": [],
+      "translation_status": "failed",
+      "candidate_gloss": null,
+      "candidate_tokens": null,
+      "final_gloss": null,
+      "final_tokens": null,
+      "applied_rules": [],
+      "validation": {
+        "status": "failed",
+        "warnings": []
+      },
+      "review_status": "unreviewed",
+      "llm": null,
+      "error": {
+        "kind": "transient_error",
+        "message": "Gave up after 5 attempts. Last error: HTTP 503. This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later."
+      },
+      "context": {
+        "speaker_id": "Speaker 1",
+        "turn_index": 0,
+        "start_time": null,
+        "end_time": null
+      },
+      "metadata": {
+        "model": "gemini/gemini-3.6-flash",
+        "prompt_version": "1.0",
+        "rule_set_version": "0.1.0",
+        "active_rules": [
+          "R-FMT-01",
+          "R-ART-01",
+          "R-SKIP-01"
+        ],
+        "result_schema_version": "1.0",
+        "rule_pass_completed": false,
+        "cache_hit": false
+      }
+    },
+    {
+      "chunk_id": "02-i-want-to-be-equal-with-parmatma-0004",
+      "source_text": "Hey Prabhu If you had not grasped this land If you had not taught us the values of Ahimsa, Truth non-stealing, celibacy, non-possessionness.",
+      "llm_input_text": "Hey Prabhu If you had not grasped this land If you had not taught us the values of Ahimsa, Truth non-stealing, celibacy, non-possessionness.",
+      "skipped_spans": [],
+      "translation_status": "failed",
+      "candidate_gloss": null,
+      "candidate_tokens": null,
+      "final_gloss": null,
+      "final_tokens": null,
+      "applied_rules": [],
+      "validation": {
+        "status": "failed",
+        "warnings": []
+      },
+      "review_status": "unreviewed",
+      "llm": null,
+      "error": {
+        "kind": "transient_error",
+        "message": "Gave up after 5 attempts. Last error: HTTP 503. This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later."
+      },
+      "context": {
+        "speaker_id": "Speaker 1",
+        "turn_index": 0,
+        "start_time": null,
+        "end_time": null
+      },
+      "metadata": {
+        "model": "gemini/gemini-3.6-flash",
+        "prompt_version": "1.0",
+        "rule_set_version": "0.1.0",
+        "active_rules": [
+          "R-FMT-01",
+          "R-ART-01",
+          "R-SKIP-01"
+        ],
+        "result_schema_version": "1.0",
+        "rule_pass_completed": false,
+        "cache_hit": false
+      }
+    },
+    {
+      "chunk_id": "02-i-want-to-be-equal-with-parmatma-0005",
+      "source_text": "Then Even we would be doing so many wrong activities like the other living beings on this planet.",
+      "llm_input_text": "Then Even we would be doing so many wrong activities like the other living beings on this planet.",
+      "skipped_spans": [],
+      "translation_status": "failed",
+      "candidate_gloss": null,
+      "candidate_tokens": null,
+      "final_gloss": null,
+      "final_tokens": null,
+      "applied_rules": [],
+      "validation": {
+        "status": "failed",
+        "warnings": []
+      },
+      "review_status": "unreviewed",
+      "llm": null,
+      "error": {
+        "kind": "transient_error",
+        "message": "Gave up after 5 attempts. Last error: HTTP 503. This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later."
+      },
+      "context": {
+        "speaker_id": "Speaker 1",
+        "turn_index": 0,
+        "start_time": null,
+        "end_time": null
+      },
+      "metadata": {
+        "model": "gemini/gemini-3.6-flash",
+        "prompt_version": "1.0",
+        "rule_set_version": "0.1.0",
+        "active_rules": [
+          "R-FMT-01",
+          "R-ART-01",
+          "R-SKIP-01"
+        ],
+        "result_schema_version": "1.0",
+        "rule_pass_completed": false,
+        "cache_hit": false
+      }
+    }
+  ]
+}

@@ -1,0 +1,206 @@
+{
+  "version": "1.0",
+  "note": "Source sentences only. No reference glosses are included on purpose: none are available that an ISL-fluent reviewer has endorsed. Run `python run_translator.py evaluate`, then give data/translations/evaluation/eval.review_sheet.csv to the reviewer.",
+  "sentences": [
+    {
+      "id": "eval-001",
+      "category": "simple",
+      "text": "I am happy to be here today."
+    },
+    {
+      "id": "eval-002",
+      "category": "simple",
+      "text": "The teacher gave us a book."
+    },
+    {
+      "id": "eval-003",
+      "category": "simple",
+      "text": "Water flows in the same direction."
+    },
+    {
+      "id": "eval-004",
+      "category": "simple",
+      "text": "We are building a translation system."
+    },
+    {
+      "id": "eval-005",
+      "category": "simple",
+      "text": "Every action leaves an impression in the mind."
+    },
+    {
+      "id": "eval-006",
+      "category": "simple",
+      "text": "My friends live in a small village."
+    },
+    {
+      "id": "eval-007",
+      "category": "question",
+      "text": "Where are you going?"
+    },
+    {
+      "id": "eval-008",
+      "category": "question",
+      "text": "What qualities did he have?"
+    },
+    {
+      "id": "eval-009",
+      "category": "question",
+      "text": "Do you understand what I mean?"
+    },
+    {
+      "id": "eval-010",
+      "category": "question",
+      "text": "Why do we get angry so quickly?"
+    },
+    {
+      "id": "eval-011",
+      "category": "question",
+      "text": "How many students are joining us today?"
+    },
+    {
+      "id": "eval-012",
+      "category": "question",
+      "text": "Who will share their experience first?"
+    },
+    {
+      "id": "eval-013",
+      "category": "negation",
+      "text": "The result was 15, not 50."
+    },
+    {
+      "id": "eval-014",
+      "category": "negation",
+      "text": "I do not want to hurt anyone."
+    },
+    {
+      "id": "eval-015",
+      "category": "negation",
+      "text": "Jainism is not a religion but a way of living."
+    },
+    {
+      "id": "eval-016",
+      "category": "negation",
+      "text": "He never lies, and he never steals."
+    },
+    {
+      "id": "eval-017",
+      "category": "negation",
+      "text": "Nothing in this world belongs to us."
+    },
+    {
+      "id": "eval-018",
+      "category": "negation",
+      "text": "You cannot change the past, but you can change today."
+    },
+    {
+      "id": "eval-019",
+      "category": "time",
+      "text": "Yesterday I met my teacher at the temple."
+    },
+    {
+      "id": "eval-020",
+      "category": "time",
+      "text": "We will meet again tomorrow morning."
+    },
+    {
+      "id": "eval-021",
+      "category": "time",
+      "text": "Last year my brother moved to another city."
+    },
+    {
+      "id": "eval-022",
+      "category": "time",
+      "text": "After the lecture we will have some time for questions."
+    },
+    {
+      "id": "eval-023",
+      "category": "time",
+      "text": "Every evening she sits quietly for ten minutes."
+    },
+    {
+      "id": "eval-024",
+      "category": "names",
+      "text": "Professor Jonathan Young invited us to this session."
+    },
+    {
+      "id": "eval-025",
+      "category": "names",
+      "text": "Bhagwan Mahavir practiced tough sadhana for twelve and a half years."
+    },
+    {
+      "id": "eval-026",
+      "category": "names",
+      "text": "Maria travelled from Bakersfield to Mumbai last week."
+    },
+    {
+      "id": "eval-027",
+      "category": "numbers",
+      "text": "There are 5 vows and 12 months in a year."
+    },
+    {
+      "id": "eval-028",
+      "category": "numbers",
+      "text": "He donated 2500 rupees to the school."
+    },
+    {
+      "id": "eval-029",
+      "category": "idiom",
+      "text": "Let's break the ice and begin."
+    },
+    {
+      "id": "eval-030",
+      "category": "idiom",
+      "text": "Time heals all wounds."
+    },
+    {
+      "id": "eval-031",
+      "category": "idiom",
+      "text": "Don't judge a book by its cover."
+    },
+    {
+      "id": "eval-032",
+      "category": "idiom",
+      "text": "It is a piece of cake once you practise."
+    },
+    {
+      "id": "eval-033",
+      "category": "interjection",
+      "text": "Wow, that is a big change!"
+    },
+    {
+      "id": "eval-034",
+      "category": "interjection",
+      "text": "Oh, I did not know that."
+    },
+    {
+      "id": "eval-035",
+      "category": "interjection",
+      "text": "Hmm, let me think about it."
+    },
+    {
+      "id": "eval-036",
+      "category": "filler_residue",
+      "text": "So, I mean, we should start now."
+    },
+    {
+      "id": "eval-037",
+      "category": "ambiguous",
+      "text": "I saw her duck."
+    },
+    {
+      "id": "eval-038",
+      "category": "ambiguous",
+      "text": "The old man the boats."
+    },
+    {
+      "id": "eval-039",
+      "category": "compound",
+      "text": "When you are angry, the act is over quickly, but it leaves an impression that stays in your memory."
+    },
+    {
+      "id": "eval-040",
+      "category": "compound",
+      "text": "If you practise every day and stay patient, your mind will slowly become calm."
+    }
+  ]
+}

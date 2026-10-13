@@ -1,0 +1,192 @@
+{
+  "report_type": "batch_report",
+  "tool_version": "0.1.0",
+  "processed_at": "2026-10-13T05:54:26+00:00",
+  "files_total": 3,
+  "files_complete": 3,
+  "files_needs_review": 0,
+  "files_failed": 0,
+  "review_items_total": 0,
+  "config": {
+    "language": "en",
+    "source_type": "unknown",
+    "speaker_label_pattern": "Speaker\\s+\\d+",
+    "header_keys": [
+      "source",
+      "title",
+      "url",
+      "channel",
+      "date",
+      "language",
+      "uploader",
+      "description",
+      "duration"
+    ],
+    "dedupe_rolling_captions": true,
+    "remove_fillers": true,
+    "filler_words": [
+      "um",
+      "uh",
+      "uhm",
+      "er",
+      "erm"
+    ],
+    "collapse_repeated_words": false,
+    "repeat_allowlist": [
+      "had",
+      "that",
+      "is",
+      "very",
+      "bye",
+      "ha",
+      "no",
+      "so",
+      "knock",
+      "far",
+      "never"
+    ],
+    "drop_sound_tags": false,
+    "boilerplate_patterns": [
+      "(?:auto-?generated|automatically generated|automatic captions?) (?:by|with|from) youtube.*",
+      "subtitles? (?:by|created by|provided by) .*",
+      "captions? (?:by|created by|provided by) .*",
+      "transcribed by .*",
+      "transcript (?:by|provided by) .*"
+    ],
+    "max_chunk_words": 60,
+    "short_chunk_words": 2,
+    "suspect_tokens": [
+      "hmm",
+      "hm",
+      "mm",
+      "mmm",
+      "ooh",
+      "whistle"
+    ],
+    "watchlist": [
+      {
+        "pattern": "\\bJane\\b",
+        "note": "Likely ASR error for the domain term 'Jain'. Kept as written; marked so translation skips it."
+      },
+      {
+        "pattern": "\\b(?:Janindra|Jinindra|Jhinendra|Jin Indra|Jai Jin)\\b",
+        "note": "Likely mis-hearing of the greeting 'Jai Jinendra'. Kept as written; marked so translation skips it."
+      }
+    ],
+    "non_english_markers": [
+      "hu",
+      "tu",
+      "tara",
+      "taro",
+      "tari",
+      "tamne",
+      "amne",
+      "mane",
+      "nathi",
+      "chhu",
+      "chhe",
+      "che",
+      "jya",
+      "tya",
+      "kem",
+      "ke",
+      "aavu",
+      "aaje",
+      "aavshe",
+      "evi",
+      "jevo",
+      "ane",
+      "shu",
+      "kai",
+      "kaik",
+      "divas",
+      "ek",
+      "vishwas",
+      "hoish",
+      "sarkha",
+      "hashu",
+      "nahi",
+      "nahin",
+      "hai",
+      "hain",
+      "mera",
+      "tera",
+      "kya",
+      "aur",
+      "bhi",
+      "toh",
+      "kuch",
+      "koi",
+      "hum",
+      "tum",
+      "aap",
+      "kyun",
+      "lekin",
+      "bahut",
+      "yeh",
+      "woh"
+    ],
+    "non_english_min_hits": 2,
+    "non_english_max_gap": 4,
+    "loss_warning_ratio": 0.05
+  },
+  "files": [
+    {
+      "file": "data\\01_CSU-Bakersfield-English-Session.txt",
+      "source_id": "01-csu-bakersfield-english-session",
+      "status": "complete",
+      "format": "txt",
+      "chunks": 564,
+      "flags": 41,
+      "review_items": 0,
+      "validation_errors": [],
+      "validation_warnings": 2,
+      "outputs": {
+        "raw": "data\\raw\\01-csu-bakersfield-english-session.raw.txt",
+        "structured": "data\\structured\\01-csu-bakersfield-english-session.cleaned.json",
+        "cleaned": "data\\cleaned\\01-csu-bakersfield-english-session.cleaned.txt",
+        "review_json": "data\\review_queue\\01-csu-bakersfield-english-session.review.json",
+        "review_csv": "data\\review_queue\\01-csu-bakersfield-english-session.review.csv",
+        "report": "data\\reports\\01-csu-bakersfield-english-session.cleaning_report.json"
+      }
+    },
+    {
+      "file": "data\\02_I-Want-to-be-Equal-with-Parmatma.txt",
+      "source_id": "02-i-want-to-be-equal-with-parmatma",
+      "status": "complete",
+      "format": "txt",
+      "chunks": 444,
+      "flags": 24,
+      "review_items": 0,
+      "validation_errors": [],
+      "validation_warnings": 8,
+      "outputs": {
+        "raw": "data\\raw\\02-i-want-to-be-equal-with-parmatma.raw.txt",
+        "structured": "data\\structured\\02-i-want-to-be-equal-with-parmatma.cleaned.json",
+        "cleaned": "data\\cleaned\\02-i-want-to-be-equal-with-parmatma.cleaned.txt",
+        "review_json": "data\\review_queue\\02-i-want-to-be-equal-with-parmatma.review.json",
+        "review_csv": "data\\review_queue\\02-i-want-to-be-equal-with-parmatma.review.csv",
+        "report": "data\\reports\\02-i-want-to-be-equal-with-parmatma.cleaning_report.json"
+      }
+    },
+    {
+      "file": "data\\03_Manage-Your-Emotional-Memories.txt",
+      "source_id": "03-manage-your-emotional-memories",
+      "status": "complete",
+      "format": "txt",
+      "chunks": 253,
+      "flags": 12,
+      "review_items": 0,
+      "validation_errors": [],
+      "validation_warnings": 2,
+      "outputs": {
+        "raw": "data\\raw\\03-manage-your-emotional-memories.raw.txt",
+        "structured": "data\\structured\\03-manage-your-emotional-memories.cleaned.json",
+        "cleaned": "data\\cleaned\\03-manage-your-emotional-memories.cleaned.txt",
+        "review_json": "data\\review_queue\\03-manage-your-emotional-memories.review.json",
+        "review_csv": "data\\review_queue\\03-manage-your-emotional-memories.review.csv",
+        "report": "data\\reports\\03-manage-your-emotional-memories.cleaning_report.json"
+      }
+    }
+  ]
+}

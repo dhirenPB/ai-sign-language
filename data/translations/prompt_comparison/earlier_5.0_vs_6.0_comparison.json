@@ -1,0 +1,291 @@
+{
+  "report_type": "prompt_comparison",
+  "versions": [
+    "5.0",
+    "6.0"
+  ],
+  "dry_run": false,
+  "passages": [
+    {
+      "id": "l1-names",
+      "covers": "proper names, titles, institutions, places (FS:NAME)",
+      "sentences": 3,
+      "groups": 1,
+      "grouping": {
+        "groups": 1,
+        "sentences": 3,
+        "sentences_per_group_avg": 3.0,
+        "sentences_per_group_max": 3,
+        "boundary_reasons": {
+          "end": 1
+        },
+        "forced_boundaries": 0,
+        "oversize_groups": 0,
+        "groups_with_context_before": 0,
+        "groups_with_context_after": 0
+      }
+    },
+    {
+      "id": "l1-conditions",
+      "covers": "conditional meaning (if / unless / whenever) and the condition-consequence relationship",
+      "sentences": 3,
+      "groups": 1,
+      "grouping": {
+        "groups": 1,
+        "sentences": 3,
+        "sentences_per_group_avg": 3.0,
+        "sentences_per_group_max": 3,
+        "boundary_reasons": {
+          "end": 1
+        },
+        "forced_boundaries": 0,
+        "oversize_groups": 0,
+        "groups_with_context_before": 0,
+        "groups_with_context_after": 0
+      }
+    },
+    {
+      "id": "l1-negation-questions",
+      "covers": "negation and questions",
+      "sentences": 4,
+      "groups": 1,
+      "grouping": {
+        "groups": 1,
+        "sentences": 4,
+        "sentences_per_group_avg": 4.0,
+        "sentences_per_group_max": 4,
+        "boundary_reasons": {
+          "end": 1
+        },
+        "forced_boundaries": 0,
+        "oversize_groups": 0,
+        "groups_with_context_before": 0,
+        "groups_with_context_after": 0
+      }
+    },
+    {
+      "id": "l1-pronouns",
+      "covers": "context-dependent pronouns and references inside one group",
+      "sentences": 4,
+      "groups": 1,
+      "grouping": {
+        "groups": 1,
+        "sentences": 4,
+        "sentences_per_group_avg": 4.0,
+        "sentences_per_group_max": 4,
+        "boundary_reasons": {
+          "end": 1
+        },
+        "forced_boundaries": 0,
+        "oversize_groups": 0,
+        "groups_with_context_before": 0,
+        "groups_with_context_after": 0
+      }
+    },
+    {
+      "id": "l1-cause-group",
+      "covers": "multi-sentence group needing separate outputs; cause and effect",
+      "sentences": 3,
+      "groups": 1,
+      "grouping": {
+        "groups": 1,
+        "sentences": 3,
+        "sentences_per_group_avg": 3.0,
+        "sentences_per_group_max": 3,
+        "boundary_reasons": {
+          "end": 1
+        },
+        "forced_boundaries": 0,
+        "oversize_groups": 0,
+        "groups_with_context_before": 0,
+        "groups_with_context_after": 0
+      }
+    },
+    {
+      "id": "l1-notation",
+      "covers": "consistent gloss notation: the same concept repeated across sentences",
+      "sentences": 3,
+      "groups": 1,
+      "grouping": {
+        "groups": 1,
+        "sentences": 3,
+        "sentences_per_group_avg": 3.0,
+        "sentences_per_group_max": 3,
+        "boundary_reasons": {
+          "end": 1
+        },
+        "forced_boundaries": 0,
+        "oversize_groups": 0,
+        "groups_with_context_before": 0,
+        "groups_with_context_after": 0
+      }
+    },
+    {
+      "id": "l1-time-quantity",
+      "covers": "time references, quantities and comparisons",
+      "sentences": 3,
+      "groups": 1,
+      "grouping": {
+        "groups": 1,
+        "sentences": 3,
+        "sentences_per_group_avg": 3.0,
+        "sentences_per_group_max": 3,
+        "boundary_reasons": {
+          "end": 1
+        },
+        "forced_boundaries": 0,
+        "oversize_groups": 0,
+        "groups_with_context_before": 0,
+        "groups_with_context_after": 0
+      }
+    },
+    {
+      "id": "l1-ambiguous",
+      "covers": "ambiguous references and an ambiguous sentence needing human review",
+      "sentences": 3,
+      "groups": 1,
+      "grouping": {
+        "groups": 1,
+        "sentences": 3,
+        "sentences_per_group_avg": 3.0,
+        "sentences_per_group_max": 3,
+        "boundary_reasons": {
+          "end": 1
+        },
+        "forced_boundaries": 0,
+        "oversize_groups": 0,
+        "groups_with_context_before": 0,
+        "groups_with_context_after": 0
+      }
+    },
+    {
+      "id": "l1-asr-noise",
+      "covers": "garbled ASR text and a run-on without punctuation",
+      "sentences": 5,
+      "groups": 1,
+      "grouping": {
+        "groups": 1,
+        "sentences": 5,
+        "sentences_per_group_avg": 5.0,
+        "sentences_per_group_max": 5,
+        "boundary_reasons": {
+          "end": 1
+        },
+        "forced_boundaries": 0,
+        "oversize_groups": 0,
+        "groups_with_context_before": 0,
+        "groups_with_context_after": 0
+      }
+    },
+    {
+      "id": "l1-real-a",
+      "covers": "real transcript sample (03): long opening sentence, names, an ASR fragment",
+      "sentences": 6,
+      "groups": 1,
+      "grouping": {
+        "groups": 1,
+        "sentences": 6,
+        "sentences_per_group_avg": 6.0,
+        "sentences_per_group_max": 6,
+        "boundary_reasons": {
+          "end": 1
+        },
+        "forced_boundaries": 0,
+        "oversize_groups": 0,
+        "groups_with_context_before": 0,
+        "groups_with_context_after": 0
+      }
+    },
+    {
+      "id": "l1-real-b",
+      "covers": "real transcript sample (03): a conditional, cause and a rhetorical question",
+      "sentences": 4,
+      "groups": 1,
+      "grouping": {
+        "groups": 1,
+        "sentences": 4,
+        "sentences_per_group_avg": 4.0,
+        "sentences_per_group_max": 4,
+        "boundary_reasons": {
+          "end": 1
+        },
+        "forced_boundaries": 0,
+        "oversize_groups": 0,
+        "groups_with_context_before": 0,
+        "groups_with_context_after": 0
+      }
+    }
+  ],
+  "per_version": {
+    "5.0": {
+      "config": {
+        "provider": "groq",
+        "model": "openai/gpt-oss-120b",
+        "reasoning_effort": "medium",
+        "temperature": 0.0,
+        "max_output_tokens": 8192,
+        "prompt_version": "5.0",
+        "thinking_budget": null
+      },
+      "complete": true,
+      "stop_reason": null,
+      "assembly_passed": true,
+      "requests": 11,
+      "sentences": 41,
+      "translated": 41,
+      "failed": 0,
+      "needs_human_review": 8,
+      "model_flagged_review": 5,
+      "sentences_with_an_observed_failure": 11,
+      "observed_failure_types": {
+        "name_not_fingerspelled": 8,
+        "name_missing": 1,
+        "number_dropped": 2,
+        "notation_inconsistent_multiword": 1
+      },
+      "pipeline_validation_codes": {
+        "number_not_preserved": 2,
+        "llm_marked_uncertain": 5,
+        "name_may_be_missing": 1
+      },
+      "gloss_tokens": 253,
+      "english_function_word_tokens": 13
+    },
+    "6.0": {
+      "config": {
+        "provider": "groq",
+        "model": "openai/gpt-oss-120b",
+        "reasoning_effort": "medium",
+        "temperature": 0.0,
+        "max_output_tokens": 8192,
+        "prompt_version": "6.0",
+        "thinking_budget": null
+      },
+      "complete": true,
+      "stop_reason": null,
+      "assembly_passed": true,
+      "requests": 12,
+      "sentences": 41,
+      "translated": 41,
+      "failed": 0,
+      "needs_human_review": 12,
+      "model_flagged_review": 11,
+      "sentences_with_an_observed_failure": 7,
+      "observed_failure_types": {
+        "empty_gloss_flagged_for_review": 1,
+        "name_not_fingerspelled": 5,
+        "name_missing": 1,
+        "notation_inconsistent_multiword": 1
+      },
+      "pipeline_validation_codes": {
+        "llm_marked_uncertain": 10,
+        "llm_review_required": 1,
+        "name_may_be_missing": 2
+      },
+      "gloss_tokens": 252,
+      "english_function_word_tokens": 8
+    }
+  },
+  "all_versions_complete": true,
+  "interpretation": "Counts come from crude automatic detectors on a small sample (observation only). They are not a measure of translation accuracy and do not show that either prompt is better. If a version did not finish, nothing can be concluded. An ISL-fluent reviewer must judge the side-by-side sheet."
+}

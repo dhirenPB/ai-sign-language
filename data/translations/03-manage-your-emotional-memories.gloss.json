@@ -1,0 +1,226 @@
+{
+  "schema_version": "1.0",
+  "report_type": "isl_gloss_translation",
+  "tool_version": "0.1.0",
+  "source_id": "03-manage-your-emotional-memories",
+  "source_file": "data\\structured\\03-manage-your-emotional-memories.cleaned.json",
+  "generated_at": "2026-10-13T06:04:09+00:00",
+  "review_status": "unreviewed",
+  "review_note": "Gloss is a machine-generated candidate. It has NOT been reviewed by an ISL-fluent signer and must not be treated as production-accurate.",
+  "complete": true,
+  "stop_reason": null,
+  "counts": {
+    "translated": 3,
+    "validation_review_required": 1,
+    "validation_pass": 2,
+    "cache_hits": 0
+  },
+  "metadata": {
+    "model": "gemini/gemini-3.5-flash-lite",
+    "prompt_version": "2.0",
+    "rule_set_version": "0.1.0",
+    "active_rules": [
+      "R-FMT-01",
+      "R-ART-01",
+      "R-SKIP-01"
+    ],
+    "result_schema_version": "1.0"
+  },
+  "source_type": "unknown",
+  "limit": 3,
+  "results": [
+    {
+      "chunk_id": "03-manage-your-emotional-memories-0001",
+      "source_text": "Hello Hi students The California State University where Professor Jonathan Young has invited to take a session on philosophy and religious studies Today, first of all, I would like to appreciate your curiosity to learn something about Jainism.",
+      "llm_input_text": "Hello Hi students The California State University where Professor Jonathan Young has invited to take a session on philosophy and religious studies Today, first of all, I would like to appreciate your curiosity to learn something about Jainism.",
+      "skipped_spans": [],
+      "translation_status": "translated",
+      "candidate_gloss": "HELLO HI STUDENT FS:CALIFORNIA_STATE_UNIVERSITY PROFESSOR FS:JONATHAN_YOUNG INVITE SESSION PHILOSOPHY RELIGIOUS_STUDIES TODAY FIRST WANT APPRECIATE CURIOSITY LEARN JAINISM",
+      "candidate_tokens": [
+        "HELLO",
+        "HI",
+        "STUDENT",
+        "FS:CALIFORNIA_STATE_UNIVERSITY",
+        "PROFESSOR",
+        "FS:JONATHAN_YOUNG",
+        "INVITE",
+        "SESSION",
+        "PHILOSOPHY",
+        "RELIGIOUS_STUDIES",
+        "TODAY",
+        "FIRST",
+        "WANT",
+        "APPRECIATE",
+        "CURIOSITY",
+        "LEARN",
+        "JAINISM"
+      ],
+      "final_gloss": "HELLO HI STUDENT FS:CALIFORNIA_STATE_UNIVERSITY PROFESSOR FS:JONATHAN_YOUNG INVITE SESSION PHILOSOPHY RELIGIOUS_STUDIES TODAY FIRST WANT APPRECIATE CURIOSITY LEARN JAINISM",
+      "final_tokens": [
+        "HELLO",
+        "HI",
+        "STUDENT",
+        "FS:CALIFORNIA_STATE_UNIVERSITY",
+        "PROFESSOR",
+        "FS:JONATHAN_YOUNG",
+        "INVITE",
+        "SESSION",
+        "PHILOSOPHY",
+        "RELIGIOUS_STUDIES",
+        "TODAY",
+        "FIRST",
+        "WANT",
+        "APPRECIATE",
+        "CURIOSITY",
+        "LEARN",
+        "JAINISM"
+      ],
+      "applied_rules": [],
+      "validation": {
+        "status": "review_required",
+        "warnings": [
+          {
+            "code": "name_may_be_missing",
+            "severity": "review",
+            "message": "Capitalised word(s) not found in the gloss: CALIFORNIA, JONATHAN, STATE, UNIVERSITY, YOUNG. May be names or sign-label substitutions."
+          }
+        ]
+      },
+      "review_status": "unreviewed",
+      "llm": {
+        "uncertain": false,
+        "notes": ""
+      },
+      "error": null,
+      "context": {
+        "speaker_id": "Speaker 1",
+        "turn_index": 0,
+        "start_time": null,
+        "end_time": null
+      },
+      "metadata": {
+        "model": "gemini/gemini-3.5-flash-lite",
+        "prompt_version": "2.0",
+        "rule_set_version": "0.1.0",
+        "active_rules": [
+          "R-FMT-01",
+          "R-ART-01",
+          "R-SKIP-01"
+        ],
+        "result_schema_version": "1.0",
+        "rule_pass_completed": true,
+        "cache_hit": false
+      }
+    },
+    {
+      "chunk_id": "03-manage-your-emotional-memories-0002",
+      "source_text": "I truly believe that Jainism is Not a religion But it is a philosophy and a way of living.",
+      "llm_input_text": "I truly believe that Jainism is Not a religion But it is a philosophy and a way of living.",
+      "skipped_spans": [],
+      "translation_status": "translated",
+      "candidate_gloss": "TRULY BELIEVE JAINISM RELIGION NOT PHILOSOPHY WAY_OF_LIVING",
+      "candidate_tokens": [
+        "TRULY",
+        "BELIEVE",
+        "JAINISM",
+        "RELIGION",
+        "NOT",
+        "PHILOSOPHY",
+        "WAY_OF_LIVING"
+      ],
+      "final_gloss": "TRULY BELIEVE JAINISM RELIGION NOT PHILOSOPHY WAY_OF_LIVING",
+      "final_tokens": [
+        "TRULY",
+        "BELIEVE",
+        "JAINISM",
+        "RELIGION",
+        "NOT",
+        "PHILOSOPHY",
+        "WAY_OF_LIVING"
+      ],
+      "applied_rules": [],
+      "validation": {
+        "status": "pass",
+        "warnings": []
+      },
+      "review_status": "unreviewed",
+      "llm": {
+        "uncertain": false,
+        "notes": ""
+      },
+      "error": null,
+      "context": {
+        "speaker_id": "Speaker 1",
+        "turn_index": 0,
+        "start_time": null,
+        "end_time": null
+      },
+      "metadata": {
+        "model": "gemini/gemini-3.5-flash-lite",
+        "prompt_version": "2.0",
+        "rule_set_version": "0.1.0",
+        "active_rules": [
+          "R-FMT-01",
+          "R-ART-01",
+          "R-SKIP-01"
+        ],
+        "result_schema_version": "1.0",
+        "rule_pass_completed": true,
+        "cache_hit": false
+      }
+    },
+    {
+      "chunk_id": "03-manage-your-emotional-memories-0003",
+      "source_text": "Whenever we do any action It creates an image.",
+      "llm_input_text": "Whenever we do any action It creates an image.",
+      "skipped_spans": [],
+      "translation_status": "translated",
+      "candidate_gloss": "WHENEVER ACTION DO CREATE IMAGE",
+      "candidate_tokens": [
+        "WHENEVER",
+        "ACTION",
+        "DO",
+        "CREATE",
+        "IMAGE"
+      ],
+      "final_gloss": "WHENEVER ACTION DO CREATE IMAGE",
+      "final_tokens": [
+        "WHENEVER",
+        "ACTION",
+        "DO",
+        "CREATE",
+        "IMAGE"
+      ],
+      "applied_rules": [],
+      "validation": {
+        "status": "pass",
+        "warnings": []
+      },
+      "review_status": "unreviewed",
+      "llm": {
+        "uncertain": false,
+        "notes": ""
+      },
+      "error": null,
+      "context": {
+        "speaker_id": "Speaker 1",
+        "turn_index": 0,
+        "start_time": null,
+        "end_time": null
+      },
+      "metadata": {
+        "model": "gemini/gemini-3.5-flash-lite",
+        "prompt_version": "2.0",
+        "rule_set_version": "0.1.0",
+        "active_rules": [
+          "R-FMT-01",
+          "R-ART-01",
+          "R-SKIP-01"
+        ],
+        "result_schema_version": "1.0",
+        "rule_pass_completed": true,
+        "cache_hit": false
+      }
+    }
+  ]
+}
