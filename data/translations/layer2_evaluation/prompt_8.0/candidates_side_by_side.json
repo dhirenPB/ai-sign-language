@@ -1,0 +1,2387 @@
+{
+  "report_type": "layer2_candidates",
+  "schema_version": "1.0",
+  "review_status": "unreviewed",
+  "note": "Candidates are machine-generated and UNREVIEWED. Technical checks and warning counts say nothing about linguistic accuracy. No ISL-fluent reviewer has judged either candidate, so it is not known whether combining the two approaches improves the gloss.",
+  "results": [
+    {
+      "sentence_id": "l1-names-s0001",
+      "group_id": "l1-names-g0001",
+      "source_text": "Professor Jonathan Young invited the students to Bakersfield.",
+      "cleaned_source_text": "Professor Jonathan Young invited the students to Bakersfield.",
+      "speaker_id": null,
+      "start_timestamp": null,
+      "end_timestamp": null,
+      "turn_index": 0,
+      "llm_gloss": "PROFESSOR FS:JONATHAN FS:YOUNG INVITE STUDENTS TO FS:BAKERSFIELD",
+      "spacy_gloss": "professor jonathan young bakersfield the student invite",
+      "llm_status": "translated",
+      "spacy_status": "ok",
+      "llm_usable": true,
+      "spacy_usable": true,
+      "llm_warnings": [],
+      "spacy_warnings": [
+        {
+          "kind": "notation",
+          "code": "multiword_token",
+          "severity": "info",
+          "message": "A token is a merged phrase containing spaces (reference noun-chunk formatting); downstream code that splits on spaces will see more tokens."
+        }
+      ],
+      "llm_stated_review_flag": false,
+      "llm_uncertainty_notes": "",
+      "spacy_error": null,
+      "shared_warnings": [],
+      "candidate_difference": {
+        "comparable": true,
+        "identical_as_given": false,
+        "identical_after_normalisation": false,
+        "same_words_different_order": false,
+        "llm_word_count": 7,
+        "spacy_word_count": 7,
+        "only_in_llm": [
+          "STUDENTS",
+          "TO"
+        ],
+        "only_in_spacy": [
+          "STUDENT",
+          "THE"
+        ],
+        "notation_differences": [
+          "LLM uses FS: fingerspelling tokens; the spaCy reference has no such convention",
+          "spaCy merges noun phrases and entities into single tokens containing spaces"
+        ],
+        "normalisation": "upper-case words; FS: prefix removed; '_', '-' and spaces are separators",
+        "note": "descriptive only: not a similarity score and not evidence that either gloss is better"
+      },
+      "primary_candidate": "LLM",
+      "alternative_candidate": "SPACY",
+      "selection_status": "llm_primary",
+      "selected_candidate": "LLM",
+      "selection_basis": "policy_default_primary",
+      "selection_reason": "The LLM candidate is the primary candidate and is technically usable. It is carried forward by POLICY DEFAULT, not because it was judged better than the spaCy candidate, which is kept as an alternative (usable).",
+      "needs_human_review": false,
+      "selection_rule": "R-SEL-06",
+      "alternative_usable_as_fallback": true,
+      "alternative_check_reasons": [],
+      "verification": "technical_checks_only_not_linguistically_verified"
+    },
+    {
+      "sentence_id": "l1-names-s0002",
+      "group_id": "l1-names-g0001",
+      "source_text": "He teaches at California State University.",
+      "cleaned_source_text": "He teaches at California State University.",
+      "speaker_id": null,
+      "start_timestamp": null,
+      "end_timestamp": null,
+      "turn_index": 0,
+      "llm_gloss": "HE TEACH AT FS:CALIFORNIA FS:STATE FS:UNIVERSITY",
+      "spacy_gloss": "he at california state university teach",
+      "llm_status": "translated",
+      "spacy_status": "ok",
+      "llm_usable": true,
+      "spacy_usable": true,
+      "llm_warnings": [],
+      "spacy_warnings": [
+        {
+          "kind": "notation",
+          "code": "multiword_token",
+          "severity": "info",
+          "message": "A token is a merged phrase containing spaces (reference noun-chunk formatting); downstream code that splits on spaces will see more tokens."
+        }
+      ],
+      "llm_stated_review_flag": false,
+      "llm_uncertainty_notes": "",
+      "spacy_error": null,
+      "shared_warnings": [],
+      "candidate_difference": {
+        "comparable": true,
+        "identical_as_given": false,
+        "identical_after_normalisation": false,
+        "same_words_different_order": true,
+        "llm_word_count": 6,
+        "spacy_word_count": 6,
+        "only_in_llm": [],
+        "only_in_spacy": [],
+        "notation_differences": [
+          "LLM uses FS: fingerspelling tokens; the spaCy reference has no such convention",
+          "spaCy merges noun phrases and entities into single tokens containing spaces"
+        ],
+        "normalisation": "upper-case words; FS: prefix removed; '_', '-' and spaces are separators",
+        "note": "descriptive only: not a similarity score and not evidence that either gloss is better"
+      },
+      "primary_candidate": "LLM",
+      "alternative_candidate": "SPACY",
+      "selection_status": "llm_primary",
+      "selected_candidate": "LLM",
+      "selection_basis": "policy_default_primary",
+      "selection_reason": "The LLM candidate is the primary candidate and is technically usable. It is carried forward by POLICY DEFAULT, not because it was judged better than the spaCy candidate, which is kept as an alternative (usable).",
+      "needs_human_review": false,
+      "selection_rule": "R-SEL-06",
+      "alternative_usable_as_fallback": true,
+      "alternative_check_reasons": [],
+      "verification": "technical_checks_only_not_linguistically_verified"
+    },
+    {
+      "sentence_id": "l1-names-s0003",
+      "group_id": "l1-names-g0001",
+      "source_text": "Maria Gonzalez will join us from Mumbai.",
+      "cleaned_source_text": "Maria Gonzalez will join us from Mumbai.",
+      "speaker_id": null,
+      "start_timestamp": null,
+      "end_timestamp": null,
+      "turn_index": 0,
+      "llm_gloss": "FS:MARIA FS:GONZALEZ WILL JOIN US FROM FS:MUMBAI",
+      "spacy_gloss": "maria gonzalez mumbai we join will",
+      "llm_status": "translated",
+      "spacy_status": "ok",
+      "llm_usable": true,
+      "spacy_usable": true,
+      "llm_warnings": [],
+      "spacy_warnings": [
+        {
+          "kind": "notation",
+          "code": "multiword_token",
+          "severity": "info",
+          "message": "A token is a merged phrase containing spaces (reference noun-chunk formatting); downstream code that splits on spaces will see more tokens."
+        }
+      ],
+      "llm_stated_review_flag": false,
+      "llm_uncertainty_notes": "",
+      "spacy_error": null,
+      "shared_warnings": [],
+      "candidate_difference": {
+        "comparable": true,
+        "identical_as_given": false,
+        "identical_after_normalisation": false,
+        "same_words_different_order": false,
+        "llm_word_count": 7,
+        "spacy_word_count": 6,
+        "only_in_llm": [
+          "FROM",
+          "US"
+        ],
+        "only_in_spacy": [
+          "WE"
+        ],
+        "notation_differences": [
+          "LLM uses FS: fingerspelling tokens; the spaCy reference has no such convention",
+          "spaCy merges noun phrases and entities into single tokens containing spaces"
+        ],
+        "normalisation": "upper-case words; FS: prefix removed; '_', '-' and spaces are separators",
+        "note": "descriptive only: not a similarity score and not evidence that either gloss is better"
+      },
+      "primary_candidate": "LLM",
+      "alternative_candidate": "SPACY",
+      "selection_status": "llm_primary",
+      "selected_candidate": "LLM",
+      "selection_basis": "policy_default_primary",
+      "selection_reason": "The LLM candidate is the primary candidate and is technically usable. It is carried forward by POLICY DEFAULT, not because it was judged better than the spaCy candidate, which is kept as an alternative (usable).",
+      "needs_human_review": false,
+      "selection_rule": "R-SEL-06",
+      "alternative_usable_as_fallback": true,
+      "alternative_check_reasons": [],
+      "verification": "technical_checks_only_not_linguistically_verified"
+    },
+    {
+      "sentence_id": "l1-conditions-s0001",
+      "group_id": "l1-conditions-g0001",
+      "source_text": "If you practise every day, your mind will become calm.",
+      "cleaned_source_text": "If you practise every day, your mind will become calm.",
+      "speaker_id": null,
+      "start_timestamp": null,
+      "end_timestamp": null,
+      "turn_index": 0,
+      "llm_gloss": "IF YOU PRACTISE EVERY_DAY MIND WILL BECOME CALM",
+      "spacy_gloss": "you if practise every day your mind calm become will",
+      "llm_status": "translated",
+      "spacy_status": "ok",
+      "llm_usable": true,
+      "spacy_usable": true,
+      "llm_warnings": [],
+      "spacy_warnings": [
+        {
+          "kind": "notation",
+          "code": "multiword_token",
+          "severity": "info",
+          "message": "A token is a merged phrase containing spaces (reference noun-chunk formatting); downstream code that splits on spaces will see more tokens."
+        }
+      ],
+      "llm_stated_review_flag": false,
+      "llm_uncertainty_notes": "",
+      "spacy_error": null,
+      "shared_warnings": [],
+      "candidate_difference": {
+        "comparable": true,
+        "identical_as_given": false,
+        "identical_after_normalisation": false,
+        "same_words_different_order": false,
+        "llm_word_count": 9,
+        "spacy_word_count": 10,
+        "only_in_llm": [],
+        "only_in_spacy": [
+          "YOUR"
+        ],
+        "notation_differences": [
+          "spaCy merges noun phrases and entities into single tokens containing spaces",
+          "LLM joins multiword concepts with '_' or '-'"
+        ],
+        "normalisation": "upper-case words; FS: prefix removed; '_', '-' and spaces are separators",
+        "note": "descriptive only: not a similarity score and not evidence that either gloss is better"
+      },
+      "primary_candidate": "LLM",
+      "alternative_candidate": "SPACY",
+      "selection_status": "llm_primary",
+      "selected_candidate": "LLM",
+      "selection_basis": "policy_default_primary",
+      "selection_reason": "The LLM candidate is the primary candidate and is technically usable. It is carried forward by POLICY DEFAULT, not because it was judged better than the spaCy candidate, which is kept as an alternative (usable).",
+      "needs_human_review": false,
+      "selection_rule": "R-SEL-06",
+      "alternative_usable_as_fallback": true,
+      "alternative_check_reasons": [],
+      "verification": "technical_checks_only_not_linguistically_verified"
+    },
+    {
+      "sentence_id": "l1-conditions-s0002",
+      "group_id": "l1-conditions-g0001",
+      "source_text": "We will not go outside unless it stops raining.",
+      "cleaned_source_text": "We will not go outside unless it stops raining.",
+      "speaker_id": null,
+      "start_timestamp": null,
+      "end_timestamp": null,
+      "turn_index": 0,
+      "llm_gloss": "UNLESS IT STOP RAIN WE WILL NOT GO OUTSIDE",
+      "spacy_gloss": "we unless it stop rain outside go will not",
+      "llm_status": "translated",
+      "spacy_status": "ok",
+      "llm_usable": true,
+      "spacy_usable": true,
+      "llm_warnings": [],
+      "spacy_warnings": [],
+      "llm_stated_review_flag": false,
+      "llm_uncertainty_notes": "",
+      "spacy_error": null,
+      "shared_warnings": [],
+      "candidate_difference": {
+        "comparable": true,
+        "identical_as_given": false,
+        "identical_after_normalisation": false,
+        "same_words_different_order": true,
+        "llm_word_count": 9,
+        "spacy_word_count": 9,
+        "only_in_llm": [],
+        "only_in_spacy": [],
+        "notation_differences": [],
+        "normalisation": "upper-case words; FS: prefix removed; '_', '-' and spaces are separators",
+        "note": "descriptive only: not a similarity score and not evidence that either gloss is better"
+      },
+      "primary_candidate": "LLM",
+      "alternative_candidate": "SPACY",
+      "selection_status": "llm_primary",
+      "selected_candidate": "LLM",
+      "selection_basis": "policy_default_primary",
+      "selection_reason": "The LLM candidate is the primary candidate and is technically usable. It is carried forward by POLICY DEFAULT, not because it was judged better than the spaCy candidate, which is kept as an alternative (usable).",
+      "needs_human_review": false,
+      "selection_rule": "R-SEL-06",
+      "alternative_usable_as_fallback": true,
+      "alternative_check_reasons": [],
+      "verification": "technical_checks_only_not_linguistically_verified"
+    },
+    {
+      "sentence_id": "l1-conditions-s0003",
+      "group_id": "l1-conditions-g0001",
+      "source_text": "Whenever we get angry, it leaves an impression.",
+      "cleaned_source_text": "Whenever we get angry, it leaves an impression.",
+      "speaker_id": null,
+      "start_timestamp": null,
+      "end_timestamp": null,
+      "turn_index": 0,
+      "llm_gloss": "WHENEVER WE GET ANGRY IT LEAVE IMPRESS",
+      "spacy_gloss": "we whenever get angry an impression it leave whenever",
+      "llm_status": "translated",
+      "spacy_status": "ok",
+      "llm_usable": true,
+      "spacy_usable": true,
+      "llm_warnings": [],
+      "spacy_warnings": [
+        {
+          "kind": "notation",
+          "code": "multiword_token",
+          "severity": "info",
+          "message": "A token is a merged phrase containing spaces (reference noun-chunk formatting); downstream code that splits on spaces will see more tokens."
+        }
+      ],
+      "llm_stated_review_flag": false,
+      "llm_uncertainty_notes": "",
+      "spacy_error": null,
+      "shared_warnings": [],
+      "candidate_difference": {
+        "comparable": true,
+        "identical_as_given": false,
+        "identical_after_normalisation": false,
+        "same_words_different_order": false,
+        "llm_word_count": 7,
+        "spacy_word_count": 9,
+        "only_in_llm": [
+          "IMPRESS"
+        ],
+        "only_in_spacy": [
+          "AN",
+          "IMPRESSION",
+          "WHENEVER"
+        ],
+        "notation_differences": [
+          "spaCy merges noun phrases and entities into single tokens containing spaces"
+        ],
+        "normalisation": "upper-case words; FS: prefix removed; '_', '-' and spaces are separators",
+        "note": "descriptive only: not a similarity score and not evidence that either gloss is better"
+      },
+      "primary_candidate": "LLM",
+      "alternative_candidate": "SPACY",
+      "selection_status": "llm_primary",
+      "selected_candidate": "LLM",
+      "selection_basis": "policy_default_primary",
+      "selection_reason": "The LLM candidate is the primary candidate and is technically usable. It is carried forward by POLICY DEFAULT, not because it was judged better than the spaCy candidate, which is kept as an alternative (usable).",
+      "needs_human_review": false,
+      "selection_rule": "R-SEL-06",
+      "alternative_usable_as_fallback": true,
+      "alternative_check_reasons": [],
+      "verification": "technical_checks_only_not_linguistically_verified"
+    },
+    {
+      "sentence_id": "l1-negation-questions-s0001",
+      "group_id": "l1-negation-questions-g0001",
+      "source_text": "I do not want to hurt anyone.",
+      "cleaned_source_text": "I do not want to hurt anyone.",
+      "speaker_id": null,
+      "start_timestamp": null,
+      "end_timestamp": null,
+      "turn_index": 0,
+      "llm_gloss": "I NOT WANT HURT ANYONE",
+      "spacy_gloss": "i hurt anyone want not",
+      "llm_status": "translated",
+      "spacy_status": "ok",
+      "llm_usable": true,
+      "spacy_usable": true,
+      "llm_warnings": [],
+      "spacy_warnings": [],
+      "llm_stated_review_flag": false,
+      "llm_uncertainty_notes": "",
+      "spacy_error": null,
+      "shared_warnings": [],
+      "candidate_difference": {
+        "comparable": true,
+        "identical_as_given": false,
+        "identical_after_normalisation": false,
+        "same_words_different_order": true,
+        "llm_word_count": 5,
+        "spacy_word_count": 5,
+        "only_in_llm": [],
+        "only_in_spacy": [],
+        "notation_differences": [],
+        "normalisation": "upper-case words; FS: prefix removed; '_', '-' and spaces are separators",
+        "note": "descriptive only: not a similarity score and not evidence that either gloss is better"
+      },
+      "primary_candidate": "LLM",
+      "alternative_candidate": "SPACY",
+      "selection_status": "llm_primary",
+      "selected_candidate": "LLM",
+      "selection_basis": "policy_default_primary",
+      "selection_reason": "The LLM candidate is the primary candidate and is technically usable. It is carried forward by POLICY DEFAULT, not because it was judged better than the spaCy candidate, which is kept as an alternative (usable).",
+      "needs_human_review": false,
+      "selection_rule": "R-SEL-06",
+      "alternative_usable_as_fallback": true,
+      "alternative_check_reasons": [],
+      "verification": "technical_checks_only_not_linguistically_verified"
+    },
+    {
+      "sentence_id": "l1-negation-questions-s0002",
+      "group_id": "l1-negation-questions-g0001",
+      "source_text": "Why do we get angry so quickly?",
+      "cleaned_source_text": "Why do we get angry so quickly?",
+      "speaker_id": null,
+      "start_timestamp": null,
+      "end_timestamp": null,
+      "turn_index": 0,
+      "llm_gloss": "WHY WE GET ANGRY QUICKLY",
+      "spacy_gloss": "we angry quickly so get why",
+      "llm_status": "translated",
+      "spacy_status": "ok",
+      "llm_usable": true,
+      "spacy_usable": true,
+      "llm_warnings": [],
+      "spacy_warnings": [],
+      "llm_stated_review_flag": false,
+      "llm_uncertainty_notes": "",
+      "spacy_error": null,
+      "shared_warnings": [],
+      "candidate_difference": {
+        "comparable": true,
+        "identical_as_given": false,
+        "identical_after_normalisation": false,
+        "same_words_different_order": false,
+        "llm_word_count": 5,
+        "spacy_word_count": 6,
+        "only_in_llm": [],
+        "only_in_spacy": [
+          "SO"
+        ],
+        "notation_differences": [],
+        "normalisation": "upper-case words; FS: prefix removed; '_', '-' and spaces are separators",
+        "note": "descriptive only: not a similarity score and not evidence that either gloss is better"
+      },
+      "primary_candidate": "LLM",
+      "alternative_candidate": "SPACY",
+      "selection_status": "llm_primary",
+      "selected_candidate": "LLM",
+      "selection_basis": "policy_default_primary",
+      "selection_reason": "The LLM candidate is the primary candidate and is technically usable. It is carried forward by POLICY DEFAULT, not because it was judged better than the spaCy candidate, which is kept as an alternative (usable).",
+      "needs_human_review": false,
+      "selection_rule": "R-SEL-06",
+      "alternative_usable_as_fallback": true,
+      "alternative_check_reasons": [],
+      "verification": "technical_checks_only_not_linguistically_verified"
+    },
+    {
+      "sentence_id": "l1-negation-questions-s0003",
+      "group_id": "l1-negation-questions-g0001",
+      "source_text": "Nothing in this world belongs to us.",
+      "cleaned_source_text": "Nothing in this world belongs to us.",
+      "speaker_id": null,
+      "start_timestamp": null,
+      "end_timestamp": null,
+      "turn_index": 0,
+      "llm_gloss": "NOTHING THIS WORLD BELONG US",
+      "spacy_gloss": "nothing we in this world belong",
+      "llm_status": "translated",
+      "spacy_status": "ok",
+      "llm_usable": true,
+      "spacy_usable": true,
+      "llm_warnings": [],
+      "spacy_warnings": [
+        {
+          "kind": "notation",
+          "code": "multiword_token",
+          "severity": "info",
+          "message": "A token is a merged phrase containing spaces (reference noun-chunk formatting); downstream code that splits on spaces will see more tokens."
+        }
+      ],
+      "llm_stated_review_flag": false,
+      "llm_uncertainty_notes": "",
+      "spacy_error": null,
+      "shared_warnings": [],
+      "candidate_difference": {
+        "comparable": true,
+        "identical_as_given": false,
+        "identical_after_normalisation": false,
+        "same_words_different_order": false,
+        "llm_word_count": 5,
+        "spacy_word_count": 6,
+        "only_in_llm": [
+          "US"
+        ],
+        "only_in_spacy": [
+          "IN",
+          "WE"
+        ],
+        "notation_differences": [
+          "spaCy merges noun phrases and entities into single tokens containing spaces"
+        ],
+        "normalisation": "upper-case words; FS: prefix removed; '_', '-' and spaces are separators",
+        "note": "descriptive only: not a similarity score and not evidence that either gloss is better"
+      },
+      "primary_candidate": "LLM",
+      "alternative_candidate": "SPACY",
+      "selection_status": "llm_primary",
+      "selected_candidate": "LLM",
+      "selection_basis": "policy_default_primary",
+      "selection_reason": "The LLM candidate is the primary candidate and is technically usable. It is carried forward by POLICY DEFAULT, not because it was judged better than the spaCy candidate, which is kept as an alternative (usable).",
+      "needs_human_review": false,
+      "selection_rule": "R-SEL-06",
+      "alternative_usable_as_fallback": true,
+      "alternative_check_reasons": [],
+      "verification": "technical_checks_only_not_linguistically_verified"
+    },
+    {
+      "sentence_id": "l1-negation-questions-s0004",
+      "group_id": "l1-negation-questions-g0001",
+      "source_text": "Did you finish the report?",
+      "cleaned_source_text": "Did you finish the report?",
+      "speaker_id": null,
+      "start_timestamp": null,
+      "end_timestamp": null,
+      "turn_index": 0,
+      "llm_gloss": "YOU FINISH REPORT",
+      "spacy_gloss": "you the report finish",
+      "llm_status": "translated",
+      "spacy_status": "ok",
+      "llm_usable": true,
+      "spacy_usable": true,
+      "llm_warnings": [
+        {
+          "kind": "question",
+          "code": "yes_no_question_marking_not_checkable",
+          "severity": "info",
+          "message": "Yes/no questions are usually marked non-manually in ISL; this check cannot see that."
+        }
+      ],
+      "spacy_warnings": [
+        {
+          "kind": "question",
+          "code": "yes_no_question_marking_not_checkable",
+          "severity": "info",
+          "message": "Yes/no questions are usually marked non-manually in ISL; this check cannot see that."
+        },
+        {
+          "kind": "notation",
+          "code": "multiword_token",
+          "severity": "info",
+          "message": "A token is a merged phrase containing spaces (reference noun-chunk formatting); downstream code that splits on spaces will see more tokens."
+        }
+      ],
+      "llm_stated_review_flag": false,
+      "llm_uncertainty_notes": "",
+      "spacy_error": null,
+      "shared_warnings": [],
+      "candidate_difference": {
+        "comparable": true,
+        "identical_as_given": false,
+        "identical_after_normalisation": false,
+        "same_words_different_order": false,
+        "llm_word_count": 3,
+        "spacy_word_count": 4,
+        "only_in_llm": [],
+        "only_in_spacy": [
+          "THE"
+        ],
+        "notation_differences": [
+          "spaCy merges noun phrases and entities into single tokens containing spaces"
+        ],
+        "normalisation": "upper-case words; FS: prefix removed; '_', '-' and spaces are separators",
+        "note": "descriptive only: not a similarity score and not evidence that either gloss is better"
+      },
+      "primary_candidate": "LLM",
+      "alternative_candidate": "SPACY",
+      "selection_status": "llm_primary",
+      "selected_candidate": "LLM",
+      "selection_basis": "policy_default_primary",
+      "selection_reason": "The LLM candidate is the primary candidate and is technically usable. It is carried forward by POLICY DEFAULT, not because it was judged better than the spaCy candidate, which is kept as an alternative (usable).",
+      "needs_human_review": false,
+      "selection_rule": "R-SEL-06",
+      "alternative_usable_as_fallback": true,
+      "alternative_check_reasons": [],
+      "verification": "technical_checks_only_not_linguistically_verified"
+    },
+    {
+      "sentence_id": "l1-pronouns-s0001",
+      "group_id": "l1-pronouns-g0001",
+      "source_text": "Maria bought a new laptop yesterday.",
+      "cleaned_source_text": "Maria bought a new laptop yesterday.",
+      "speaker_id": null,
+      "start_timestamp": null,
+      "end_timestamp": null,
+      "turn_index": 0,
+      "llm_gloss": "FS:MARIA BUY NEW LAPTOP YESTERDAY",
+      "spacy_gloss": "yesterday maria a new laptop buy",
+      "llm_status": "translated",
+      "spacy_status": "ok",
+      "llm_usable": true,
+      "spacy_usable": true,
+      "llm_warnings": [],
+      "spacy_warnings": [
+        {
+          "kind": "notation",
+          "code": "multiword_token",
+          "severity": "info",
+          "message": "A token is a merged phrase containing spaces (reference noun-chunk formatting); downstream code that splits on spaces will see more tokens."
+        }
+      ],
+      "llm_stated_review_flag": false,
+      "llm_uncertainty_notes": "",
+      "spacy_error": null,
+      "shared_warnings": [],
+      "candidate_difference": {
+        "comparable": true,
+        "identical_as_given": false,
+        "identical_after_normalisation": false,
+        "same_words_different_order": false,
+        "llm_word_count": 5,
+        "spacy_word_count": 6,
+        "only_in_llm": [],
+        "only_in_spacy": [
+          "A"
+        ],
+        "notation_differences": [
+          "LLM uses FS: fingerspelling tokens; the spaCy reference has no such convention",
+          "spaCy merges noun phrases and entities into single tokens containing spaces"
+        ],
+        "normalisation": "upper-case words; FS: prefix removed; '_', '-' and spaces are separators",
+        "note": "descriptive only: not a similarity score and not evidence that either gloss is better"
+      },
+      "primary_candidate": "LLM",
+      "alternative_candidate": "SPACY",
+      "selection_status": "llm_primary",
+      "selected_candidate": "LLM",
+      "selection_basis": "policy_default_primary",
+      "selection_reason": "The LLM candidate is the primary candidate and is technically usable. It is carried forward by POLICY DEFAULT, not because it was judged better than the spaCy candidate, which is kept as an alternative (usable).",
+      "needs_human_review": false,
+      "selection_rule": "R-SEL-06",
+      "alternative_usable_as_fallback": true,
+      "alternative_check_reasons": [],
+      "verification": "technical_checks_only_not_linguistically_verified"
+    },
+    {
+      "sentence_id": "l1-pronouns-s0002",
+      "group_id": "l1-pronouns-g0001",
+      "source_text": "She says it is very fast.",
+      "cleaned_source_text": "She says it is very fast.",
+      "speaker_id": null,
+      "start_timestamp": null,
+      "end_timestamp": null,
+      "turn_index": 0,
+      "llm_gloss": "SHE SAY IT VERY FAST",
+      "spacy_gloss": "she it very fast say",
+      "llm_status": "translated",
+      "spacy_status": "ok",
+      "llm_usable": true,
+      "spacy_usable": true,
+      "llm_warnings": [],
+      "spacy_warnings": [],
+      "llm_stated_review_flag": false,
+      "llm_uncertainty_notes": "",
+      "spacy_error": null,
+      "shared_warnings": [],
+      "candidate_difference": {
+        "comparable": true,
+        "identical_as_given": false,
+        "identical_after_normalisation": false,
+        "same_words_different_order": true,
+        "llm_word_count": 5,
+        "spacy_word_count": 5,
+        "only_in_llm": [],
+        "only_in_spacy": [],
+        "notation_differences": [],
+        "normalisation": "upper-case words; FS: prefix removed; '_', '-' and spaces are separators",
+        "note": "descriptive only: not a similarity score and not evidence that either gloss is better"
+      },
+      "primary_candidate": "LLM",
+      "alternative_candidate": "SPACY",
+      "selection_status": "llm_primary",
+      "selected_candidate": "LLM",
+      "selection_basis": "policy_default_primary",
+      "selection_reason": "The LLM candidate is the primary candidate and is technically usable. It is carried forward by POLICY DEFAULT, not because it was judged better than the spaCy candidate, which is kept as an alternative (usable).",
+      "needs_human_review": false,
+      "selection_rule": "R-SEL-06",
+      "alternative_usable_as_fallback": true,
+      "alternative_check_reasons": [],
+      "verification": "technical_checks_only_not_linguistically_verified"
+    },
+    {
+      "sentence_id": "l1-pronouns-s0003",
+      "group_id": "l1-pronouns-g0001",
+      "source_text": "It replaced the old one that kept crashing.",
+      "cleaned_source_text": "It replaced the old one that kept crashing.",
+      "speaker_id": null,
+      "start_timestamp": null,
+      "end_timestamp": null,
+      "turn_index": 0,
+      "llm_gloss": "IT REPLACE OLD ONE KEEP CRASH",
+      "spacy_gloss": "it the old one that keep crash replace",
+      "llm_status": "translated",
+      "spacy_status": "ok",
+      "llm_usable": true,
+      "spacy_usable": true,
+      "llm_warnings": [],
+      "spacy_warnings": [
+        {
+          "kind": "notation",
+          "code": "multiword_token",
+          "severity": "info",
+          "message": "A token is a merged phrase containing spaces (reference noun-chunk formatting); downstream code that splits on spaces will see more tokens."
+        }
+      ],
+      "llm_stated_review_flag": false,
+      "llm_uncertainty_notes": "",
+      "spacy_error": null,
+      "shared_warnings": [],
+      "candidate_difference": {
+        "comparable": true,
+        "identical_as_given": false,
+        "identical_after_normalisation": false,
+        "same_words_different_order": false,
+        "llm_word_count": 6,
+        "spacy_word_count": 8,
+        "only_in_llm": [],
+        "only_in_spacy": [
+          "THAT",
+          "THE"
+        ],
+        "notation_differences": [
+          "spaCy merges noun phrases and entities into single tokens containing spaces"
+        ],
+        "normalisation": "upper-case words; FS: prefix removed; '_', '-' and spaces are separators",
+        "note": "descriptive only: not a similarity score and not evidence that either gloss is better"
+      },
+      "primary_candidate": "LLM",
+      "alternative_candidate": "SPACY",
+      "selection_status": "llm_primary",
+      "selected_candidate": "LLM",
+      "selection_basis": "policy_default_primary",
+      "selection_reason": "The LLM candidate is the primary candidate and is technically usable. It is carried forward by POLICY DEFAULT, not because it was judged better than the spaCy candidate, which is kept as an alternative (usable).",
+      "needs_human_review": false,
+      "selection_rule": "R-SEL-06",
+      "alternative_usable_as_fallback": true,
+      "alternative_check_reasons": [],
+      "verification": "technical_checks_only_not_linguistically_verified"
+    },
+    {
+      "sentence_id": "l1-pronouns-s0004",
+      "group_id": "l1-pronouns-g0001",
+      "source_text": "Her brother wants one too.",
+      "cleaned_source_text": "Her brother wants one too.",
+      "speaker_id": null,
+      "start_timestamp": null,
+      "end_timestamp": null,
+      "turn_index": 0,
+      "llm_gloss": "HER BROTHER WANT ONE TOO",
+      "spacy_gloss": "her brother one too want",
+      "llm_status": "translated",
+      "spacy_status": "ok",
+      "llm_usable": true,
+      "spacy_usable": true,
+      "llm_warnings": [],
+      "spacy_warnings": [
+        {
+          "kind": "notation",
+          "code": "multiword_token",
+          "severity": "info",
+          "message": "A token is a merged phrase containing spaces (reference noun-chunk formatting); downstream code that splits on spaces will see more tokens."
+        }
+      ],
+      "llm_stated_review_flag": false,
+      "llm_uncertainty_notes": "",
+      "spacy_error": null,
+      "shared_warnings": [],
+      "candidate_difference": {
+        "comparable": true,
+        "identical_as_given": false,
+        "identical_after_normalisation": false,
+        "same_words_different_order": true,
+        "llm_word_count": 5,
+        "spacy_word_count": 5,
+        "only_in_llm": [],
+        "only_in_spacy": [],
+        "notation_differences": [
+          "spaCy merges noun phrases and entities into single tokens containing spaces"
+        ],
+        "normalisation": "upper-case words; FS: prefix removed; '_', '-' and spaces are separators",
+        "note": "descriptive only: not a similarity score and not evidence that either gloss is better"
+      },
+      "primary_candidate": "LLM",
+      "alternative_candidate": "SPACY",
+      "selection_status": "llm_primary",
+      "selected_candidate": "LLM",
+      "selection_basis": "policy_default_primary",
+      "selection_reason": "The LLM candidate is the primary candidate and is technically usable. It is carried forward by POLICY DEFAULT, not because it was judged better than the spaCy candidate, which is kept as an alternative (usable).",
+      "needs_human_review": false,
+      "selection_rule": "R-SEL-06",
+      "alternative_usable_as_fallback": true,
+      "alternative_check_reasons": [],
+      "verification": "technical_checks_only_not_linguistically_verified"
+    },
+    {
+      "sentence_id": "l1-cause-group-s0001",
+      "group_id": "l1-cause-group-g0001",
+      "source_text": "The monsoon arrives in June.",
+      "cleaned_source_text": "The monsoon arrives in June.",
+      "speaker_id": null,
+      "start_timestamp": null,
+      "end_timestamp": null,
+      "turn_index": 0,
+      "llm_gloss": "MONSOON ARRIVE IN JUNE",
+      "spacy_gloss": "june in the monsoon arrive",
+      "llm_status": "translated",
+      "spacy_status": "ok",
+      "llm_usable": true,
+      "spacy_usable": true,
+      "llm_warnings": [],
+      "spacy_warnings": [
+        {
+          "kind": "notation",
+          "code": "multiword_token",
+          "severity": "info",
+          "message": "A token is a merged phrase containing spaces (reference noun-chunk formatting); downstream code that splits on spaces will see more tokens."
+        }
+      ],
+      "llm_stated_review_flag": false,
+      "llm_uncertainty_notes": "",
+      "spacy_error": null,
+      "shared_warnings": [],
+      "candidate_difference": {
+        "comparable": true,
+        "identical_as_given": false,
+        "identical_after_normalisation": false,
+        "same_words_different_order": false,
+        "llm_word_count": 4,
+        "spacy_word_count": 5,
+        "only_in_llm": [],
+        "only_in_spacy": [
+          "THE"
+        ],
+        "notation_differences": [
+          "spaCy merges noun phrases and entities into single tokens containing spaces"
+        ],
+        "normalisation": "upper-case words; FS: prefix removed; '_', '-' and spaces are separators",
+        "note": "descriptive only: not a similarity score and not evidence that either gloss is better"
+      },
+      "primary_candidate": "LLM",
+      "alternative_candidate": "SPACY",
+      "selection_status": "llm_primary",
+      "selected_candidate": "LLM",
+      "selection_basis": "policy_default_primary",
+      "selection_reason": "The LLM candidate is the primary candidate and is technically usable. It is carried forward by POLICY DEFAULT, not because it was judged better than the spaCy candidate, which is kept as an alternative (usable).",
+      "needs_human_review": false,
+      "selection_rule": "R-SEL-06",
+      "alternative_usable_as_fallback": true,
+      "alternative_check_reasons": [],
+      "verification": "technical_checks_only_not_linguistically_verified"
+    },
+    {
+      "sentence_id": "l1-cause-group-s0002",
+      "group_id": "l1-cause-group-g0001",
+      "source_text": "Farmers prepare their fields early because the rain is heavy.",
+      "cleaned_source_text": "Farmers prepare their fields early because the rain is heavy.",
+      "speaker_id": null,
+      "start_timestamp": null,
+      "end_timestamp": null,
+      "turn_index": 0,
+      "llm_gloss": "FARMERS PREPARE THEIR FIELD EARLY BECAUSE RAIN HEAVY",
+      "spacy_gloss": "farmer because the rain heavy their field early prepare",
+      "llm_status": "translated",
+      "spacy_status": "ok",
+      "llm_usable": true,
+      "spacy_usable": true,
+      "llm_warnings": [],
+      "spacy_warnings": [
+        {
+          "kind": "notation",
+          "code": "multiword_token",
+          "severity": "info",
+          "message": "A token is a merged phrase containing spaces (reference noun-chunk formatting); downstream code that splits on spaces will see more tokens."
+        }
+      ],
+      "llm_stated_review_flag": false,
+      "llm_uncertainty_notes": "",
+      "spacy_error": null,
+      "shared_warnings": [],
+      "candidate_difference": {
+        "comparable": true,
+        "identical_as_given": false,
+        "identical_after_normalisation": false,
+        "same_words_different_order": false,
+        "llm_word_count": 8,
+        "spacy_word_count": 9,
+        "only_in_llm": [
+          "FARMERS"
+        ],
+        "only_in_spacy": [
+          "FARMER",
+          "THE"
+        ],
+        "notation_differences": [
+          "spaCy merges noun phrases and entities into single tokens containing spaces"
+        ],
+        "normalisation": "upper-case words; FS: prefix removed; '_', '-' and spaces are separators",
+        "note": "descriptive only: not a similarity score and not evidence that either gloss is better"
+      },
+      "primary_candidate": "LLM",
+      "alternative_candidate": "SPACY",
+      "selection_status": "llm_primary",
+      "selected_candidate": "LLM",
+      "selection_basis": "policy_default_primary",
+      "selection_reason": "The LLM candidate is the primary candidate and is technically usable. It is carried forward by POLICY DEFAULT, not because it was judged better than the spaCy candidate, which is kept as an alternative (usable).",
+      "needs_human_review": false,
+      "selection_rule": "R-SEL-06",
+      "alternative_usable_as_fallback": true,
+      "alternative_check_reasons": [],
+      "verification": "technical_checks_only_not_linguistically_verified"
+    },
+    {
+      "sentence_id": "l1-cause-group-s0003",
+      "group_id": "l1-cause-group-g0001",
+      "source_text": "The harvest is better when the soil is ready.",
+      "cleaned_source_text": "The harvest is better when the soil is ready.",
+      "speaker_id": null,
+      "start_timestamp": null,
+      "end_timestamp": null,
+      "turn_index": 0,
+      "llm_gloss": "HARVEST BETTER WHEN SOIL READY",
+      "spacy_gloss": "the harvest when the soil ready well",
+      "llm_status": "translated",
+      "spacy_status": "ok",
+      "llm_usable": true,
+      "spacy_usable": true,
+      "llm_warnings": [],
+      "spacy_warnings": [
+        {
+          "kind": "notation",
+          "code": "multiword_token",
+          "severity": "info",
+          "message": "A token is a merged phrase containing spaces (reference noun-chunk formatting); downstream code that splits on spaces will see more tokens."
+        }
+      ],
+      "llm_stated_review_flag": false,
+      "llm_uncertainty_notes": "",
+      "spacy_error": null,
+      "shared_warnings": [],
+      "candidate_difference": {
+        "comparable": true,
+        "identical_as_given": false,
+        "identical_after_normalisation": false,
+        "same_words_different_order": false,
+        "llm_word_count": 5,
+        "spacy_word_count": 7,
+        "only_in_llm": [
+          "BETTER"
+        ],
+        "only_in_spacy": [
+          "THE",
+          "THE",
+          "WELL"
+        ],
+        "notation_differences": [
+          "spaCy merges noun phrases and entities into single tokens containing spaces"
+        ],
+        "normalisation": "upper-case words; FS: prefix removed; '_', '-' and spaces are separators",
+        "note": "descriptive only: not a similarity score and not evidence that either gloss is better"
+      },
+      "primary_candidate": "LLM",
+      "alternative_candidate": "SPACY",
+      "selection_status": "llm_primary",
+      "selected_candidate": "LLM",
+      "selection_basis": "policy_default_primary",
+      "selection_reason": "The LLM candidate is the primary candidate and is technically usable. It is carried forward by POLICY DEFAULT, not because it was judged better than the spaCy candidate, which is kept as an alternative (usable).",
+      "needs_human_review": false,
+      "selection_rule": "R-SEL-06",
+      "alternative_usable_as_fallback": true,
+      "alternative_check_reasons": [],
+      "verification": "technical_checks_only_not_linguistically_verified"
+    },
+    {
+      "sentence_id": "l1-notation-s0001",
+      "group_id": "l1-notation-g0001",
+      "source_text": "The water dried up.",
+      "cleaned_source_text": "The water dried up.",
+      "speaker_id": null,
+      "start_timestamp": null,
+      "end_timestamp": null,
+      "turn_index": 0,
+      "llm_gloss": "WATER DRY_UP",
+      "spacy_gloss": "the water up dry",
+      "llm_status": "translated",
+      "spacy_status": "ok",
+      "llm_usable": true,
+      "spacy_usable": true,
+      "llm_warnings": [],
+      "spacy_warnings": [
+        {
+          "kind": "notation",
+          "code": "multiword_token",
+          "severity": "info",
+          "message": "A token is a merged phrase containing spaces (reference noun-chunk formatting); downstream code that splits on spaces will see more tokens."
+        }
+      ],
+      "llm_stated_review_flag": false,
+      "llm_uncertainty_notes": "",
+      "spacy_error": null,
+      "shared_warnings": [],
+      "candidate_difference": {
+        "comparable": true,
+        "identical_as_given": false,
+        "identical_after_normalisation": false,
+        "same_words_different_order": false,
+        "llm_word_count": 3,
+        "spacy_word_count": 4,
+        "only_in_llm": [],
+        "only_in_spacy": [
+          "THE"
+        ],
+        "notation_differences": [
+          "spaCy merges noun phrases and entities into single tokens containing spaces",
+          "LLM joins multiword concepts with '_' or '-'"
+        ],
+        "normalisation": "upper-case words; FS: prefix removed; '_', '-' and spaces are separators",
+        "note": "descriptive only: not a similarity score and not evidence that either gloss is better"
+      },
+      "primary_candidate": "LLM",
+      "alternative_candidate": "SPACY",
+      "selection_status": "llm_primary",
+      "selected_candidate": "LLM",
+      "selection_basis": "policy_default_primary",
+      "selection_reason": "The LLM candidate is the primary candidate and is technically usable. It is carried forward by POLICY DEFAULT, not because it was judged better than the spaCy candidate, which is kept as an alternative (usable).",
+      "needs_human_review": false,
+      "selection_rule": "R-SEL-06",
+      "alternative_usable_as_fallback": true,
+      "alternative_check_reasons": [],
+      "verification": "technical_checks_only_not_linguistically_verified"
+    },
+    {
+      "sentence_id": "l1-notation-s0002",
+      "group_id": "l1-notation-g0001",
+      "source_text": "After the water dried up, an impression stayed.",
+      "cleaned_source_text": "After the water dried up, an impression stayed.",
+      "speaker_id": null,
+      "start_timestamp": null,
+      "end_timestamp": null,
+      "turn_index": 0,
+      "llm_gloss": "AFTER WATER DRY_UP IMPRESSION STAY",
+      "spacy_gloss": "the water after dry up an impression stay",
+      "llm_status": "translated",
+      "spacy_status": "ok",
+      "llm_usable": true,
+      "spacy_usable": true,
+      "llm_warnings": [],
+      "spacy_warnings": [
+        {
+          "kind": "notation",
+          "code": "multiword_token",
+          "severity": "info",
+          "message": "A token is a merged phrase containing spaces (reference noun-chunk formatting); downstream code that splits on spaces will see more tokens."
+        }
+      ],
+      "llm_stated_review_flag": false,
+      "llm_uncertainty_notes": "",
+      "spacy_error": null,
+      "shared_warnings": [],
+      "candidate_difference": {
+        "comparable": true,
+        "identical_as_given": false,
+        "identical_after_normalisation": false,
+        "same_words_different_order": false,
+        "llm_word_count": 6,
+        "spacy_word_count": 8,
+        "only_in_llm": [],
+        "only_in_spacy": [
+          "AN",
+          "THE"
+        ],
+        "notation_differences": [
+          "spaCy merges noun phrases and entities into single tokens containing spaces",
+          "LLM joins multiword concepts with '_' or '-'"
+        ],
+        "normalisation": "upper-case words; FS: prefix removed; '_', '-' and spaces are separators",
+        "note": "descriptive only: not a similarity score and not evidence that either gloss is better"
+      },
+      "primary_candidate": "LLM",
+      "alternative_candidate": "SPACY",
+      "selection_status": "llm_primary",
+      "selected_candidate": "LLM",
+      "selection_basis": "policy_default_primary",
+      "selection_reason": "The LLM candidate is the primary candidate and is technically usable. It is carried forward by POLICY DEFAULT, not because it was judged better than the spaCy candidate, which is kept as an alternative (usable).",
+      "needs_human_review": false,
+      "selection_rule": "R-SEL-06",
+      "alternative_usable_as_fallback": true,
+      "alternative_check_reasons": [],
+      "verification": "technical_checks_only_not_linguistically_verified"
+    },
+    {
+      "sentence_id": "l1-notation-s0003",
+      "group_id": "l1-notation-g0001",
+      "source_text": "The same impression returns whenever new water flows over the same path.",
+      "cleaned_source_text": "The same impression returns whenever new water flows over the same path.",
+      "speaker_id": null,
+      "start_timestamp": null,
+      "end_timestamp": null,
+      "turn_index": 0,
+      "llm_gloss": "SAME IMPRESSION RETURN WHENEVER NEW WATER FLOW OVER SAME PATH",
+      "spacy_gloss": "new water whenever flow over the same path same impression return",
+      "llm_status": "translated",
+      "spacy_status": "ok",
+      "llm_usable": true,
+      "spacy_usable": true,
+      "llm_warnings": [],
+      "spacy_warnings": [
+        {
+          "kind": "notation",
+          "code": "multiword_token",
+          "severity": "info",
+          "message": "A token is a merged phrase containing spaces (reference noun-chunk formatting); downstream code that splits on spaces will see more tokens."
+        }
+      ],
+      "llm_stated_review_flag": false,
+      "llm_uncertainty_notes": "",
+      "spacy_error": null,
+      "shared_warnings": [],
+      "candidate_difference": {
+        "comparable": true,
+        "identical_as_given": false,
+        "identical_after_normalisation": false,
+        "same_words_different_order": false,
+        "llm_word_count": 10,
+        "spacy_word_count": 11,
+        "only_in_llm": [],
+        "only_in_spacy": [
+          "THE"
+        ],
+        "notation_differences": [
+          "spaCy merges noun phrases and entities into single tokens containing spaces"
+        ],
+        "normalisation": "upper-case words; FS: prefix removed; '_', '-' and spaces are separators",
+        "note": "descriptive only: not a similarity score and not evidence that either gloss is better"
+      },
+      "primary_candidate": "LLM",
+      "alternative_candidate": "SPACY",
+      "selection_status": "llm_primary",
+      "selected_candidate": "LLM",
+      "selection_basis": "policy_default_primary",
+      "selection_reason": "The LLM candidate is the primary candidate and is technically usable. It is carried forward by POLICY DEFAULT, not because it was judged better than the spaCy candidate, which is kept as an alternative (usable).",
+      "needs_human_review": false,
+      "selection_rule": "R-SEL-06",
+      "alternative_usable_as_fallback": true,
+      "alternative_check_reasons": [],
+      "verification": "technical_checks_only_not_linguistically_verified"
+    },
+    {
+      "sentence_id": "l1-time-quantity-s0001",
+      "group_id": "l1-time-quantity-g0001",
+      "source_text": "Yesterday we walked 5 kilometres.",
+      "cleaned_source_text": "Yesterday we walked 5 kilometres.",
+      "speaker_id": null,
+      "start_timestamp": null,
+      "end_timestamp": null,
+      "turn_index": 0,
+      "llm_gloss": "YESTERDAY WE WALK 5 KILOMETRE",
+      "spacy_gloss": "yesterday we 5 kilometre walk",
+      "llm_status": "translated",
+      "spacy_status": "ok",
+      "llm_usable": true,
+      "spacy_usable": true,
+      "llm_warnings": [],
+      "spacy_warnings": [
+        {
+          "kind": "notation",
+          "code": "multiword_token",
+          "severity": "info",
+          "message": "A token is a merged phrase containing spaces (reference noun-chunk formatting); downstream code that splits on spaces will see more tokens."
+        }
+      ],
+      "llm_stated_review_flag": false,
+      "llm_uncertainty_notes": "",
+      "spacy_error": null,
+      "shared_warnings": [],
+      "candidate_difference": {
+        "comparable": true,
+        "identical_as_given": false,
+        "identical_after_normalisation": false,
+        "same_words_different_order": true,
+        "llm_word_count": 5,
+        "spacy_word_count": 5,
+        "only_in_llm": [],
+        "only_in_spacy": [],
+        "notation_differences": [
+          "spaCy merges noun phrases and entities into single tokens containing spaces"
+        ],
+        "normalisation": "upper-case words; FS: prefix removed; '_', '-' and spaces are separators",
+        "note": "descriptive only: not a similarity score and not evidence that either gloss is better"
+      },
+      "primary_candidate": "LLM",
+      "alternative_candidate": "SPACY",
+      "selection_status": "llm_primary",
+      "selected_candidate": "LLM",
+      "selection_basis": "policy_default_primary",
+      "selection_reason": "The LLM candidate is the primary candidate and is technically usable. It is carried forward by POLICY DEFAULT, not because it was judged better than the spaCy candidate, which is kept as an alternative (usable).",
+      "needs_human_review": false,
+      "selection_rule": "R-SEL-06",
+      "alternative_usable_as_fallback": true,
+      "alternative_check_reasons": [],
+      "verification": "technical_checks_only_not_linguistically_verified"
+    },
+    {
+      "sentence_id": "l1-time-quantity-s0002",
+      "group_id": "l1-time-quantity-g0001",
+      "source_text": "Today we walked more than that.",
+      "cleaned_source_text": "Today we walked more than that.",
+      "speaker_id": null,
+      "start_timestamp": null,
+      "end_timestamp": null,
+      "turn_index": 0,
+      "llm_gloss": "TODAY WE WALK MORE_THAN THAT",
+      "spacy_gloss": "today we more than that walk",
+      "llm_status": "translated",
+      "spacy_status": "ok",
+      "llm_usable": true,
+      "spacy_usable": true,
+      "llm_warnings": [],
+      "spacy_warnings": [],
+      "llm_stated_review_flag": false,
+      "llm_uncertainty_notes": "",
+      "spacy_error": null,
+      "shared_warnings": [],
+      "candidate_difference": {
+        "comparable": true,
+        "identical_as_given": false,
+        "identical_after_normalisation": false,
+        "same_words_different_order": true,
+        "llm_word_count": 6,
+        "spacy_word_count": 6,
+        "only_in_llm": [],
+        "only_in_spacy": [],
+        "notation_differences": [
+          "LLM joins multiword concepts with '_' or '-'"
+        ],
+        "normalisation": "upper-case words; FS: prefix removed; '_', '-' and spaces are separators",
+        "note": "descriptive only: not a similarity score and not evidence that either gloss is better"
+      },
+      "primary_candidate": "LLM",
+      "alternative_candidate": "SPACY",
+      "selection_status": "llm_primary",
+      "selected_candidate": "LLM",
+      "selection_basis": "policy_default_primary",
+      "selection_reason": "The LLM candidate is the primary candidate and is technically usable. It is carried forward by POLICY DEFAULT, not because it was judged better than the spaCy candidate, which is kept as an alternative (usable).",
+      "needs_human_review": false,
+      "selection_rule": "R-SEL-06",
+      "alternative_usable_as_fallback": true,
+      "alternative_check_reasons": [],
+      "verification": "technical_checks_only_not_linguistically_verified"
+    },
+    {
+      "sentence_id": "l1-time-quantity-s0003",
+      "group_id": "l1-time-quantity-g0001",
+      "source_text": "Tomorrow we will rest for 2 hours.",
+      "cleaned_source_text": "Tomorrow we will rest for 2 hours.",
+      "speaker_id": null,
+      "start_timestamp": null,
+      "end_timestamp": null,
+      "turn_index": 0,
+      "llm_gloss": "TOMORROW WE REST FOR 2 HOUR",
+      "spacy_gloss": "tomorrow we 2 hour rest will",
+      "llm_status": "translated",
+      "spacy_status": "ok",
+      "llm_usable": true,
+      "spacy_usable": true,
+      "llm_warnings": [],
+      "spacy_warnings": [
+        {
+          "kind": "notation",
+          "code": "multiword_token",
+          "severity": "info",
+          "message": "A token is a merged phrase containing spaces (reference noun-chunk formatting); downstream code that splits on spaces will see more tokens."
+        }
+      ],
+      "llm_stated_review_flag": false,
+      "llm_uncertainty_notes": "",
+      "spacy_error": null,
+      "shared_warnings": [],
+      "candidate_difference": {
+        "comparable": true,
+        "identical_as_given": false,
+        "identical_after_normalisation": false,
+        "same_words_different_order": false,
+        "llm_word_count": 6,
+        "spacy_word_count": 6,
+        "only_in_llm": [
+          "FOR"
+        ],
+        "only_in_spacy": [
+          "WILL"
+        ],
+        "notation_differences": [
+          "spaCy merges noun phrases and entities into single tokens containing spaces"
+        ],
+        "normalisation": "upper-case words; FS: prefix removed; '_', '-' and spaces are separators",
+        "note": "descriptive only: not a similarity score and not evidence that either gloss is better"
+      },
+      "primary_candidate": "LLM",
+      "alternative_candidate": "SPACY",
+      "selection_status": "llm_primary",
+      "selected_candidate": "LLM",
+      "selection_basis": "policy_default_primary",
+      "selection_reason": "The LLM candidate is the primary candidate and is technically usable. It is carried forward by POLICY DEFAULT, not because it was judged better than the spaCy candidate, which is kept as an alternative (usable).",
+      "needs_human_review": false,
+      "selection_rule": "R-SEL-06",
+      "alternative_usable_as_fallback": true,
+      "alternative_check_reasons": [],
+      "verification": "technical_checks_only_not_linguistically_verified"
+    },
+    {
+      "sentence_id": "l1-ambiguous-s0001",
+      "group_id": "l1-ambiguous-g0001",
+      "source_text": "John told Peter that he would be late.",
+      "cleaned_source_text": "John told Peter that he would be late.",
+      "speaker_id": null,
+      "start_timestamp": null,
+      "end_timestamp": null,
+      "turn_index": 0,
+      "llm_gloss": "FS:JOHN TELL FS:PETER THAT HE WOULD LATE",
+      "spacy_gloss": "john that he would late peter tell",
+      "llm_status": "translated",
+      "spacy_status": "ok",
+      "llm_usable": true,
+      "spacy_usable": true,
+      "llm_warnings": [],
+      "spacy_warnings": [],
+      "llm_stated_review_flag": false,
+      "llm_uncertainty_notes": "",
+      "spacy_error": null,
+      "shared_warnings": [],
+      "candidate_difference": {
+        "comparable": true,
+        "identical_as_given": false,
+        "identical_after_normalisation": false,
+        "same_words_different_order": true,
+        "llm_word_count": 7,
+        "spacy_word_count": 7,
+        "only_in_llm": [],
+        "only_in_spacy": [],
+        "notation_differences": [
+          "LLM uses FS: fingerspelling tokens; the spaCy reference has no such convention"
+        ],
+        "normalisation": "upper-case words; FS: prefix removed; '_', '-' and spaces are separators",
+        "note": "descriptive only: not a similarity score and not evidence that either gloss is better"
+      },
+      "primary_candidate": "LLM",
+      "alternative_candidate": "SPACY",
+      "selection_status": "llm_primary",
+      "selected_candidate": "LLM",
+      "selection_basis": "policy_default_primary",
+      "selection_reason": "The LLM candidate is the primary candidate and is technically usable. It is carried forward by POLICY DEFAULT, not because it was judged better than the spaCy candidate, which is kept as an alternative (usable).",
+      "needs_human_review": false,
+      "selection_rule": "R-SEL-06",
+      "alternative_usable_as_fallback": true,
+      "alternative_check_reasons": [],
+      "verification": "technical_checks_only_not_linguistically_verified"
+    },
+    {
+      "sentence_id": "l1-ambiguous-s0002",
+      "group_id": "l1-ambiguous-g0001",
+      "source_text": "He apologised, but nobody believed him.",
+      "cleaned_source_text": "He apologised, but nobody believed him.",
+      "speaker_id": null,
+      "start_timestamp": null,
+      "end_timestamp": null,
+      "turn_index": 0,
+      "llm_gloss": "HE APOLOGISE BUT NOBODY BELIEVE HIM",
+      "spacy_gloss": "he but believe nobody he apologise",
+      "llm_status": "translated",
+      "spacy_status": "ok",
+      "llm_usable": true,
+      "spacy_usable": true,
+      "llm_warnings": [],
+      "spacy_warnings": [],
+      "llm_stated_review_flag": false,
+      "llm_uncertainty_notes": "",
+      "spacy_error": null,
+      "shared_warnings": [],
+      "candidate_difference": {
+        "comparable": true,
+        "identical_as_given": false,
+        "identical_after_normalisation": false,
+        "same_words_different_order": false,
+        "llm_word_count": 6,
+        "spacy_word_count": 6,
+        "only_in_llm": [
+          "HIM"
+        ],
+        "only_in_spacy": [
+          "HE"
+        ],
+        "notation_differences": [],
+        "normalisation": "upper-case words; FS: prefix removed; '_', '-' and spaces are separators",
+        "note": "descriptive only: not a similarity score and not evidence that either gloss is better"
+      },
+      "primary_candidate": "LLM",
+      "alternative_candidate": "SPACY",
+      "selection_status": "llm_primary",
+      "selected_candidate": "LLM",
+      "selection_basis": "policy_default_primary",
+      "selection_reason": "The LLM candidate is the primary candidate and is technically usable. It is carried forward by POLICY DEFAULT, not because it was judged better than the spaCy candidate, which is kept as an alternative (usable).",
+      "needs_human_review": false,
+      "selection_rule": "R-SEL-06",
+      "alternative_usable_as_fallback": true,
+      "alternative_check_reasons": [],
+      "verification": "technical_checks_only_not_linguistically_verified"
+    },
+    {
+      "sentence_id": "l1-ambiguous-s0003",
+      "group_id": "l1-ambiguous-g0001",
+      "source_text": "I saw her duck.",
+      "cleaned_source_text": "I saw her duck.",
+      "speaker_id": null,
+      "start_timestamp": null,
+      "end_timestamp": null,
+      "turn_index": 0,
+      "llm_gloss": "I SAW HER DUCK",
+      "spacy_gloss": "i her duck see",
+      "llm_status": "translated",
+      "spacy_status": "ok",
+      "llm_usable": true,
+      "spacy_usable": true,
+      "llm_warnings": [],
+      "spacy_warnings": [
+        {
+          "kind": "notation",
+          "code": "multiword_token",
+          "severity": "info",
+          "message": "A token is a merged phrase containing spaces (reference noun-chunk formatting); downstream code that splits on spaces will see more tokens."
+        }
+      ],
+      "llm_stated_review_flag": true,
+      "llm_uncertainty_notes": "duck ambiguous between noun (bird) and verb (action)",
+      "spacy_error": null,
+      "shared_warnings": [],
+      "candidate_difference": {
+        "comparable": true,
+        "identical_as_given": false,
+        "identical_after_normalisation": false,
+        "same_words_different_order": false,
+        "llm_word_count": 4,
+        "spacy_word_count": 4,
+        "only_in_llm": [
+          "SAW"
+        ],
+        "only_in_spacy": [
+          "SEE"
+        ],
+        "notation_differences": [
+          "spaCy merges noun phrases and entities into single tokens containing spaces"
+        ],
+        "normalisation": "upper-case words; FS: prefix removed; '_', '-' and spaces are separators",
+        "note": "descriptive only: not a similarity score and not evidence that either gloss is better"
+      },
+      "primary_candidate": "LLM",
+      "alternative_candidate": "SPACY",
+      "selection_status": "llm_primary",
+      "selected_candidate": "LLM",
+      "selection_basis": "policy_default_primary",
+      "selection_reason": "The LLM candidate is the primary candidate and is technically usable. It is carried forward by POLICY DEFAULT, not because it was judged better than the spaCy candidate, which is kept as an alternative (usable).",
+      "needs_human_review": true,
+      "selection_rule": "R-SEL-06",
+      "alternative_usable_as_fallback": true,
+      "alternative_check_reasons": [],
+      "verification": "technical_checks_only_not_linguistically_verified"
+    },
+    {
+      "sentence_id": "l1-asr-noise-s0001",
+      "group_id": "l1-asr-noise-g0001",
+      "source_text": "Om Ooh Hello Done frio",
+      "cleaned_source_text": "Om Hello Done frio",
+      "speaker_id": null,
+      "start_timestamp": null,
+      "end_timestamp": null,
+      "turn_index": 0,
+      "llm_gloss": "",
+      "spacy_gloss": "hello frio om",
+      "llm_status": "translated",
+      "spacy_status": "ok",
+      "llm_usable": false,
+      "spacy_usable": true,
+      "llm_warnings": [
+        {
+          "kind": "structural",
+          "code": "empty_output",
+          "severity": "invalid",
+          "message": "The LLM returned an empty gloss with the stated reason: Source sentence unintelligible or garbled; unable to determine meaning.."
+        }
+      ],
+      "spacy_warnings": [
+        {
+          "kind": "name",
+          "code": "possible_name_not_found",
+          "severity": "warning",
+          "message": "The capitalised word 'Done' may be a name but does not appear in the gloss."
+        }
+      ],
+      "llm_stated_review_flag": true,
+      "llm_uncertainty_notes": "Source sentence unintelligible or garbled; unable to determine meaning.",
+      "spacy_error": null,
+      "shared_warnings": [],
+      "candidate_difference": {
+        "comparable": false,
+        "identical_as_given": false,
+        "identical_after_normalisation": false,
+        "same_words_different_order": false,
+        "llm_word_count": null,
+        "spacy_word_count": 3,
+        "only_in_llm": [],
+        "only_in_spacy": [],
+        "notation_differences": [],
+        "normalisation": "upper-case words; FS: prefix removed; '_', '-' and spaces are separators",
+        "note": "descriptive only: not a similarity score and not evidence that either gloss is better"
+      },
+      "primary_candidate": "LLM",
+      "alternative_candidate": "SPACY",
+      "selection_status": "llm_failed_alternative_rejected",
+      "selected_candidate": null,
+      "selection_basis": "none",
+      "selection_reason": "The LLM candidate is unusable (empty_output) and the spaCy candidate was not accepted as a stand-in: raises possible_name_not_found. Neither is carried forward.",
+      "needs_human_review": true,
+      "selection_rule": "R-SEL-08",
+      "alternative_usable_as_fallback": false,
+      "alternative_check_reasons": [
+        "raises possible_name_not_found"
+      ],
+      "verification": "technical_checks_only_not_linguistically_verified"
+    },
+    {
+      "sentence_id": "l1-asr-noise-s0002",
+      "group_id": "l1-asr-noise-g0001",
+      "source_text": "Today They are celebrating Bhagwan Mahavir's Janmotsav",
+      "cleaned_source_text": "Today They are celebrating Bhagwan Mahavir's Janmotsav",
+      "speaker_id": null,
+      "start_timestamp": null,
+      "end_timestamp": null,
+      "turn_index": 0,
+      "llm_gloss": "TODAY THEY CELEBRATE BHAGWAN MAHAVIR FS:JANMOTSAV",
+      "spacy_gloss": "they bhagwan mahavir's janmotsav today celebrate",
+      "llm_status": "translated",
+      "spacy_status": "ok",
+      "llm_usable": true,
+      "spacy_usable": true,
+      "llm_warnings": [],
+      "spacy_warnings": [
+        {
+          "kind": "notation",
+          "code": "multiword_token",
+          "severity": "info",
+          "message": "A token is a merged phrase containing spaces (reference noun-chunk formatting); downstream code that splits on spaces will see more tokens."
+        }
+      ],
+      "llm_stated_review_flag": false,
+      "llm_uncertainty_notes": "JANMOTSAV not in verified ISL vocabulary; fingerspelled.",
+      "spacy_error": null,
+      "shared_warnings": [],
+      "candidate_difference": {
+        "comparable": true,
+        "identical_as_given": false,
+        "identical_after_normalisation": false,
+        "same_words_different_order": false,
+        "llm_word_count": 6,
+        "spacy_word_count": 6,
+        "only_in_llm": [
+          "MAHAVIR"
+        ],
+        "only_in_spacy": [
+          "MAHAVIR'S"
+        ],
+        "notation_differences": [
+          "LLM uses FS: fingerspelling tokens; the spaCy reference has no such convention",
+          "spaCy merges noun phrases and entities into single tokens containing spaces"
+        ],
+        "normalisation": "upper-case words; FS: prefix removed; '_', '-' and spaces are separators",
+        "note": "descriptive only: not a similarity score and not evidence that either gloss is better"
+      },
+      "primary_candidate": "LLM",
+      "alternative_candidate": "SPACY",
+      "selection_status": "llm_primary",
+      "selected_candidate": "LLM",
+      "selection_basis": "policy_default_primary",
+      "selection_reason": "The LLM candidate is the primary candidate and is technically usable. It is carried forward by POLICY DEFAULT, not because it was judged better than the spaCy candidate, which is kept as an alternative (usable).",
+      "needs_human_review": false,
+      "selection_rule": "R-SEL-06",
+      "alternative_usable_as_fallback": true,
+      "alternative_check_reasons": [],
+      "verification": "technical_checks_only_not_linguistically_verified"
+    },
+    {
+      "sentence_id": "l1-asr-noise-s0003",
+      "group_id": "l1-asr-noise-g0001",
+      "source_text": "Today is a day of expressing heartfelt gratitude.",
+      "cleaned_source_text": "Today is a day of expressing heartfelt gratitude.",
+      "speaker_id": null,
+      "start_timestamp": null,
+      "end_timestamp": null,
+      "turn_index": 0,
+      "llm_gloss": "TODAY DAY EXPRESS HEARTFELT GRATITUDE",
+      "spacy_gloss": "today a day express heartfelt gratitude",
+      "llm_status": "translated",
+      "spacy_status": "ok",
+      "llm_usable": true,
+      "spacy_usable": true,
+      "llm_warnings": [],
+      "spacy_warnings": [
+        {
+          "kind": "notation",
+          "code": "multiword_token",
+          "severity": "info",
+          "message": "A token is a merged phrase containing spaces (reference noun-chunk formatting); downstream code that splits on spaces will see more tokens."
+        }
+      ],
+      "llm_stated_review_flag": false,
+      "llm_uncertainty_notes": "",
+      "spacy_error": null,
+      "shared_warnings": [],
+      "candidate_difference": {
+        "comparable": true,
+        "identical_as_given": false,
+        "identical_after_normalisation": false,
+        "same_words_different_order": false,
+        "llm_word_count": 5,
+        "spacy_word_count": 6,
+        "only_in_llm": [],
+        "only_in_spacy": [
+          "A"
+        ],
+        "notation_differences": [
+          "spaCy merges noun phrases and entities into single tokens containing spaces"
+        ],
+        "normalisation": "upper-case words; FS: prefix removed; '_', '-' and spaces are separators",
+        "note": "descriptive only: not a similarity score and not evidence that either gloss is better"
+      },
+      "primary_candidate": "LLM",
+      "alternative_candidate": "SPACY",
+      "selection_status": "llm_primary",
+      "selected_candidate": "LLM",
+      "selection_basis": "policy_default_primary",
+      "selection_reason": "The LLM candidate is the primary candidate and is technically usable. It is carried forward by POLICY DEFAULT, not because it was judged better than the spaCy candidate, which is kept as an alternative (usable).",
+      "needs_human_review": false,
+      "selection_rule": "R-SEL-06",
+      "alternative_usable_as_fallback": true,
+      "alternative_check_reasons": [],
+      "verification": "technical_checks_only_not_linguistically_verified"
+    },
+    {
+      "sentence_id": "l1-asr-noise-s0004",
+      "group_id": "l1-asr-noise-g0001",
+      "source_text": "Hey Prabhu If you had not grasped this land",
+      "cleaned_source_text": "Hey Prabhu If you had not grasped this land",
+      "speaker_id": null,
+      "start_timestamp": null,
+      "end_timestamp": null,
+      "turn_index": 0,
+      "llm_gloss": "HEY PRABHU IF YOU NOT GRASP THIS LAND",
+      "spacy_gloss": "you this land prabhu if hey grasp have not",
+      "llm_status": "translated",
+      "spacy_status": "ok",
+      "llm_usable": true,
+      "spacy_usable": true,
+      "llm_warnings": [],
+      "spacy_warnings": [
+        {
+          "kind": "notation",
+          "code": "multiword_token",
+          "severity": "info",
+          "message": "A token is a merged phrase containing spaces (reference noun-chunk formatting); downstream code that splits on spaces will see more tokens."
+        }
+      ],
+      "llm_stated_review_flag": false,
+      "llm_uncertainty_notes": "",
+      "spacy_error": null,
+      "shared_warnings": [],
+      "candidate_difference": {
+        "comparable": true,
+        "identical_as_given": false,
+        "identical_after_normalisation": false,
+        "same_words_different_order": false,
+        "llm_word_count": 8,
+        "spacy_word_count": 9,
+        "only_in_llm": [],
+        "only_in_spacy": [
+          "HAVE"
+        ],
+        "notation_differences": [
+          "spaCy merges noun phrases and entities into single tokens containing spaces"
+        ],
+        "normalisation": "upper-case words; FS: prefix removed; '_', '-' and spaces are separators",
+        "note": "descriptive only: not a similarity score and not evidence that either gloss is better"
+      },
+      "primary_candidate": "LLM",
+      "alternative_candidate": "SPACY",
+      "selection_status": "llm_primary",
+      "selected_candidate": "LLM",
+      "selection_basis": "policy_default_primary",
+      "selection_reason": "The LLM candidate is the primary candidate and is technically usable. It is carried forward by POLICY DEFAULT, not because it was judged better than the spaCy candidate, which is kept as an alternative (usable).",
+      "needs_human_review": false,
+      "selection_rule": "R-SEL-06",
+      "alternative_usable_as_fallback": true,
+      "alternative_check_reasons": [],
+      "verification": "technical_checks_only_not_linguistically_verified"
+    },
+    {
+      "sentence_id": "l1-asr-noise-s0005",
+      "group_id": "l1-asr-noise-g0001",
+      "source_text": "If you had not taught us the values of Ahimsa Truth non-stealing.",
+      "cleaned_source_text": "If you had not taught us the values of Ahimsa Truth non-stealing.",
+      "speaker_id": null,
+      "start_timestamp": null,
+      "end_timestamp": null,
+      "turn_index": 0,
+      "llm_gloss": "IF YOU NOT TEACH US VALUES OF FS:AHIMSA TRUTH NON_STEALING",
+      "spacy_gloss": "you the value if we ahimsa truth non - stealing teach have not",
+      "llm_status": "translated",
+      "spacy_status": "ok",
+      "llm_usable": true,
+      "spacy_usable": true,
+      "llm_warnings": [],
+      "spacy_warnings": [
+        {
+          "kind": "notation",
+          "code": "multiword_token",
+          "severity": "info",
+          "message": "A token is a merged phrase containing spaces (reference noun-chunk formatting); downstream code that splits on spaces will see more tokens."
+        }
+      ],
+      "llm_stated_review_flag": false,
+      "llm_uncertainty_notes": "AHIMSA not in verified ISL vocabulary; fingerspelled.",
+      "spacy_error": null,
+      "shared_warnings": [],
+      "candidate_difference": {
+        "comparable": true,
+        "identical_as_given": false,
+        "identical_after_normalisation": false,
+        "same_words_different_order": false,
+        "llm_word_count": 11,
+        "spacy_word_count": 12,
+        "only_in_llm": [
+          "OF",
+          "US",
+          "VALUES"
+        ],
+        "only_in_spacy": [
+          "HAVE",
+          "THE",
+          "VALUE",
+          "WE"
+        ],
+        "notation_differences": [
+          "LLM uses FS: fingerspelling tokens; the spaCy reference has no such convention",
+          "spaCy merges noun phrases and entities into single tokens containing spaces",
+          "LLM joins multiword concepts with '_' or '-'"
+        ],
+        "normalisation": "upper-case words; FS: prefix removed; '_', '-' and spaces are separators",
+        "note": "descriptive only: not a similarity score and not evidence that either gloss is better"
+      },
+      "primary_candidate": "LLM",
+      "alternative_candidate": "SPACY",
+      "selection_status": "llm_primary",
+      "selected_candidate": "LLM",
+      "selection_basis": "policy_default_primary",
+      "selection_reason": "The LLM candidate is the primary candidate and is technically usable. It is carried forward by POLICY DEFAULT, not because it was judged better than the spaCy candidate, which is kept as an alternative (usable).",
+      "needs_human_review": false,
+      "selection_rule": "R-SEL-06",
+      "alternative_usable_as_fallback": false,
+      "alternative_check_reasons": [
+        "contains a punctuation-only token"
+      ],
+      "verification": "technical_checks_only_not_linguistically_verified"
+    },
+    {
+      "sentence_id": "l1-real-a-s0001",
+      "group_id": "l1-real-a-g0001",
+      "source_text": "Hello Hi students The California State University where Professor Jonathan Young has invited to take a session on philosophy and religious studies",
+      "cleaned_source_text": "Hello Hi students The California State University where Professor Jonathan Young has invited to take a session on philosophy and religious studies",
+      "speaker_id": null,
+      "start_timestamp": null,
+      "end_timestamp": null,
+      "turn_index": 0,
+      "llm_gloss": "HELLO HI STUDENTS FS:CALIFORNIA FS:STATE FS:UNIVERSITY WHERE PROFESSOR FS:JONATHAN FS:YOUNG INVITE TAKE SESSION ON PHILOSOPHY AND RELIGIOUS STUDIES",
+      "spacy_gloss": "professor jonathan young the california state university where invite take a session on philosophy and religious study hello hi student",
+      "llm_status": "translated",
+      "spacy_status": "ok",
+      "llm_usable": true,
+      "spacy_usable": true,
+      "llm_warnings": [],
+      "spacy_warnings": [
+        {
+          "kind": "notation",
+          "code": "multiword_token",
+          "severity": "info",
+          "message": "A token is a merged phrase containing spaces (reference noun-chunk formatting); downstream code that splits on spaces will see more tokens."
+        }
+      ],
+      "llm_stated_review_flag": false,
+      "llm_uncertainty_notes": "",
+      "spacy_error": null,
+      "shared_warnings": [],
+      "candidate_difference": {
+        "comparable": true,
+        "identical_as_given": false,
+        "identical_after_normalisation": false,
+        "same_words_different_order": false,
+        "llm_word_count": 18,
+        "spacy_word_count": 20,
+        "only_in_llm": [
+          "STUDENTS",
+          "STUDIES"
+        ],
+        "only_in_spacy": [
+          "A",
+          "STUDENT",
+          "STUDY",
+          "THE"
+        ],
+        "notation_differences": [
+          "LLM uses FS: fingerspelling tokens; the spaCy reference has no such convention",
+          "spaCy merges noun phrases and entities into single tokens containing spaces"
+        ],
+        "normalisation": "upper-case words; FS: prefix removed; '_', '-' and spaces are separators",
+        "note": "descriptive only: not a similarity score and not evidence that either gloss is better"
+      },
+      "primary_candidate": "LLM",
+      "alternative_candidate": "SPACY",
+      "selection_status": "llm_primary",
+      "selected_candidate": "LLM",
+      "selection_basis": "policy_default_primary",
+      "selection_reason": "The LLM candidate is the primary candidate and is technically usable. It is carried forward by POLICY DEFAULT, not because it was judged better than the spaCy candidate, which is kept as an alternative (usable).",
+      "needs_human_review": false,
+      "selection_rule": "R-SEL-06",
+      "alternative_usable_as_fallback": true,
+      "alternative_check_reasons": [],
+      "verification": "technical_checks_only_not_linguistically_verified"
+    },
+    {
+      "sentence_id": "l1-real-a-s0002",
+      "group_id": "l1-real-a-g0001",
+      "source_text": "Today, first of all, I would like to appreciate your curiosity to learn something about Jainism.",
+      "cleaned_source_text": "Today, first of all, I would like to appreciate your curiosity to learn something about Jainism.",
+      "speaker_id": null,
+      "start_timestamp": null,
+      "end_timestamp": null,
+      "turn_index": 0,
+      "llm_gloss": "TODAY FIRST OF ALL I WOULD LIKE APPRECIATE YOUR CURIOSITY TO LEARN SOMETHING ABOUT FS:JAINISM",
+      "spacy_gloss": "i appreciate your curiosity learn something about jainism today first all like would",
+      "llm_status": "translated",
+      "spacy_status": "ok",
+      "llm_usable": true,
+      "spacy_usable": true,
+      "llm_warnings": [],
+      "spacy_warnings": [
+        {
+          "kind": "notation",
+          "code": "multiword_token",
+          "severity": "info",
+          "message": "A token is a merged phrase containing spaces (reference noun-chunk formatting); downstream code that splits on spaces will see more tokens."
+        }
+      ],
+      "llm_stated_review_flag": false,
+      "llm_uncertainty_notes": "",
+      "spacy_error": null,
+      "shared_warnings": [],
+      "candidate_difference": {
+        "comparable": true,
+        "identical_as_given": false,
+        "identical_after_normalisation": false,
+        "same_words_different_order": false,
+        "llm_word_count": 15,
+        "spacy_word_count": 13,
+        "only_in_llm": [
+          "OF",
+          "TO"
+        ],
+        "only_in_spacy": [],
+        "notation_differences": [
+          "LLM uses FS: fingerspelling tokens; the spaCy reference has no such convention",
+          "spaCy merges noun phrases and entities into single tokens containing spaces"
+        ],
+        "normalisation": "upper-case words; FS: prefix removed; '_', '-' and spaces are separators",
+        "note": "descriptive only: not a similarity score and not evidence that either gloss is better"
+      },
+      "primary_candidate": "LLM",
+      "alternative_candidate": "SPACY",
+      "selection_status": "llm_primary",
+      "selected_candidate": "LLM",
+      "selection_basis": "policy_default_primary",
+      "selection_reason": "The LLM candidate is the primary candidate and is technically usable. It is carried forward by POLICY DEFAULT, not because it was judged better than the spaCy candidate, which is kept as an alternative (usable).",
+      "needs_human_review": false,
+      "selection_rule": "R-SEL-06",
+      "alternative_usable_as_fallback": true,
+      "alternative_check_reasons": [],
+      "verification": "technical_checks_only_not_linguistically_verified"
+    },
+    {
+      "sentence_id": "l1-real-a-s0003",
+      "group_id": "l1-real-a-g0001",
+      "source_text": "I truly believe that Jainism is Not a religion",
+      "cleaned_source_text": "I truly believe that Jainism is Not a religion",
+      "speaker_id": null,
+      "start_timestamp": null,
+      "end_timestamp": null,
+      "turn_index": 0,
+      "llm_gloss": "I TRULY BELIEVE THAT FS:JAINISM NOT RELIGION",
+      "spacy_gloss": "i that jainism not a religion truly believe not",
+      "llm_status": "translated",
+      "spacy_status": "ok",
+      "llm_usable": true,
+      "spacy_usable": true,
+      "llm_warnings": [],
+      "spacy_warnings": [
+        {
+          "kind": "notation",
+          "code": "multiword_token",
+          "severity": "info",
+          "message": "A token is a merged phrase containing spaces (reference noun-chunk formatting); downstream code that splits on spaces will see more tokens."
+        }
+      ],
+      "llm_stated_review_flag": false,
+      "llm_uncertainty_notes": "",
+      "spacy_error": null,
+      "shared_warnings": [],
+      "candidate_difference": {
+        "comparable": true,
+        "identical_as_given": false,
+        "identical_after_normalisation": false,
+        "same_words_different_order": false,
+        "llm_word_count": 7,
+        "spacy_word_count": 9,
+        "only_in_llm": [],
+        "only_in_spacy": [
+          "A",
+          "NOT"
+        ],
+        "notation_differences": [
+          "LLM uses FS: fingerspelling tokens; the spaCy reference has no such convention",
+          "spaCy merges noun phrases and entities into single tokens containing spaces"
+        ],
+        "normalisation": "upper-case words; FS: prefix removed; '_', '-' and spaces are separators",
+        "note": "descriptive only: not a similarity score and not evidence that either gloss is better"
+      },
+      "primary_candidate": "LLM",
+      "alternative_candidate": "SPACY",
+      "selection_status": "llm_primary",
+      "selected_candidate": "LLM",
+      "selection_basis": "policy_default_primary",
+      "selection_reason": "The LLM candidate is the primary candidate and is technically usable. It is carried forward by POLICY DEFAULT, not because it was judged better than the spaCy candidate, which is kept as an alternative (usable).",
+      "needs_human_review": false,
+      "selection_rule": "R-SEL-06",
+      "alternative_usable_as_fallback": true,
+      "alternative_check_reasons": [],
+      "verification": "technical_checks_only_not_linguistically_verified"
+    },
+    {
+      "sentence_id": "l1-real-a-s0004",
+      "group_id": "l1-real-a-g0001",
+      "source_text": "But it is a philosophy and a way of living.",
+      "cleaned_source_text": "But it is a philosophy and a way of living.",
+      "speaker_id": null,
+      "start_timestamp": null,
+      "end_timestamp": null,
+      "turn_index": 0,
+      "llm_gloss": "BUT IT IS PHILOSOPHY AND WAY_OF_LIVING",
+      "spacy_gloss": "it but a philosophy and a way of living",
+      "llm_status": "translated",
+      "spacy_status": "ok",
+      "llm_usable": true,
+      "spacy_usable": true,
+      "llm_warnings": [],
+      "spacy_warnings": [
+        {
+          "kind": "notation",
+          "code": "multiword_token",
+          "severity": "info",
+          "message": "A token is a merged phrase containing spaces (reference noun-chunk formatting); downstream code that splits on spaces will see more tokens."
+        }
+      ],
+      "llm_stated_review_flag": false,
+      "llm_uncertainty_notes": "",
+      "spacy_error": null,
+      "shared_warnings": [],
+      "candidate_difference": {
+        "comparable": true,
+        "identical_as_given": false,
+        "identical_after_normalisation": false,
+        "same_words_different_order": false,
+        "llm_word_count": 8,
+        "spacy_word_count": 9,
+        "only_in_llm": [
+          "IS"
+        ],
+        "only_in_spacy": [
+          "A",
+          "A"
+        ],
+        "notation_differences": [
+          "spaCy merges noun phrases and entities into single tokens containing spaces",
+          "LLM joins multiword concepts with '_' or '-'"
+        ],
+        "normalisation": "upper-case words; FS: prefix removed; '_', '-' and spaces are separators",
+        "note": "descriptive only: not a similarity score and not evidence that either gloss is better"
+      },
+      "primary_candidate": "LLM",
+      "alternative_candidate": "SPACY",
+      "selection_status": "llm_primary",
+      "selected_candidate": "LLM",
+      "selection_basis": "policy_default_primary",
+      "selection_reason": "The LLM candidate is the primary candidate and is technically usable. It is carried forward by POLICY DEFAULT, not because it was judged better than the spaCy candidate, which is kept as an alternative (usable).",
+      "needs_human_review": false,
+      "selection_rule": "R-SEL-06",
+      "alternative_usable_as_fallback": true,
+      "alternative_check_reasons": [],
+      "verification": "technical_checks_only_not_linguistically_verified"
+    },
+    {
+      "sentence_id": "l1-real-a-s0005",
+      "group_id": "l1-real-a-g0001",
+      "source_text": "Whenever we do any action It creates an image.",
+      "cleaned_source_text": "Whenever we do any action It creates an image.",
+      "speaker_id": null,
+      "start_timestamp": null,
+      "end_timestamp": null,
+      "turn_index": 0,
+      "llm_gloss": "WHENEVER WE DO ANY ACTION IT CREATE IMAGE",
+      "spacy_gloss": "we whenever any action an image it create whenever",
+      "llm_status": "translated",
+      "spacy_status": "ok",
+      "llm_usable": true,
+      "spacy_usable": true,
+      "llm_warnings": [],
+      "spacy_warnings": [
+        {
+          "kind": "notation",
+          "code": "multiword_token",
+          "severity": "info",
+          "message": "A token is a merged phrase containing spaces (reference noun-chunk formatting); downstream code that splits on spaces will see more tokens."
+        }
+      ],
+      "llm_stated_review_flag": false,
+      "llm_uncertainty_notes": "",
+      "spacy_error": null,
+      "shared_warnings": [],
+      "candidate_difference": {
+        "comparable": true,
+        "identical_as_given": false,
+        "identical_after_normalisation": false,
+        "same_words_different_order": false,
+        "llm_word_count": 8,
+        "spacy_word_count": 9,
+        "only_in_llm": [
+          "DO"
+        ],
+        "only_in_spacy": [
+          "AN",
+          "WHENEVER"
+        ],
+        "notation_differences": [
+          "spaCy merges noun phrases and entities into single tokens containing spaces"
+        ],
+        "normalisation": "upper-case words; FS: prefix removed; '_', '-' and spaces are separators",
+        "note": "descriptive only: not a similarity score and not evidence that either gloss is better"
+      },
+      "primary_candidate": "LLM",
+      "alternative_candidate": "SPACY",
+      "selection_status": "llm_primary",
+      "selected_candidate": "LLM",
+      "selection_basis": "policy_default_primary",
+      "selection_reason": "The LLM candidate is the primary candidate and is technically usable. It is carried forward by POLICY DEFAULT, not because it was judged better than the spaCy candidate, which is kept as an alternative (usable).",
+      "needs_human_review": false,
+      "selection_rule": "R-SEL-06",
+      "alternative_usable_as_fallback": true,
+      "alternative_check_reasons": [],
+      "verification": "technical_checks_only_not_linguistically_verified"
+    },
+    {
+      "sentence_id": "l1-real-a-s0006",
+      "group_id": "l1-real-a-g0001",
+      "source_text": "an impression in your mind.",
+      "cleaned_source_text": "an impression in your mind.",
+      "speaker_id": null,
+      "start_timestamp": null,
+      "end_timestamp": null,
+      "turn_index": 0,
+      "llm_gloss": "IMPRESSION IN YOUR MIND",
+      "spacy_gloss": "in your mind an impression",
+      "llm_status": "translated",
+      "spacy_status": "ok",
+      "llm_usable": true,
+      "spacy_usable": true,
+      "llm_warnings": [],
+      "spacy_warnings": [
+        {
+          "kind": "notation",
+          "code": "multiword_token",
+          "severity": "info",
+          "message": "A token is a merged phrase containing spaces (reference noun-chunk formatting); downstream code that splits on spaces will see more tokens."
+        }
+      ],
+      "llm_stated_review_flag": false,
+      "llm_uncertainty_notes": "",
+      "spacy_error": null,
+      "shared_warnings": [],
+      "candidate_difference": {
+        "comparable": true,
+        "identical_as_given": false,
+        "identical_after_normalisation": false,
+        "same_words_different_order": false,
+        "llm_word_count": 4,
+        "spacy_word_count": 5,
+        "only_in_llm": [],
+        "only_in_spacy": [
+          "AN"
+        ],
+        "notation_differences": [
+          "spaCy merges noun phrases and entities into single tokens containing spaces"
+        ],
+        "normalisation": "upper-case words; FS: prefix removed; '_', '-' and spaces are separators",
+        "note": "descriptive only: not a similarity score and not evidence that either gloss is better"
+      },
+      "primary_candidate": "LLM",
+      "alternative_candidate": "SPACY",
+      "selection_status": "llm_primary",
+      "selected_candidate": "LLM",
+      "selection_basis": "policy_default_primary",
+      "selection_reason": "The LLM candidate is the primary candidate and is technically usable. It is carried forward by POLICY DEFAULT, not because it was judged better than the spaCy candidate, which is kept as an alternative (usable).",
+      "needs_human_review": false,
+      "selection_rule": "R-SEL-06",
+      "alternative_usable_as_fallback": true,
+      "alternative_check_reasons": [],
+      "verification": "technical_checks_only_not_linguistically_verified"
+    },
+    {
+      "sentence_id": "l1-real-b-s0001",
+      "group_id": "l1-real-b-g0001",
+      "source_text": "You must have seen that whenever water splits from a glass, it starts flowing in one direction and then it dries up.",
+      "cleaned_source_text": "You must have seen that whenever water splits from a glass, it starts flowing in one direction and then it dries up.",
+      "speaker_id": null,
+      "start_timestamp": null,
+      "end_timestamp": null,
+      "turn_index": 0,
+      "llm_gloss": "YOU MUST HAVE SEEN WHENEVER WATER SPLIT FROM GLASS IT START_FLOW ONE DIRECTION THEN DRY_UP",
+      "spacy_gloss": "you that whenever water split a glass , it start flow in one direction see must and it then up . dry",
+      "llm_status": "translated",
+      "spacy_status": "ok",
+      "llm_usable": true,
+      "spacy_usable": true,
+      "llm_warnings": [],
+      "spacy_warnings": [
+        {
+          "kind": "notation",
+          "code": "multiword_token",
+          "severity": "info",
+          "message": "A token is a merged phrase containing spaces (reference noun-chunk formatting); downstream code that splits on spaces will see more tokens."
+        }
+      ],
+      "llm_stated_review_flag": false,
+      "llm_uncertainty_notes": "",
+      "spacy_error": null,
+      "shared_warnings": [],
+      "candidate_difference": {
+        "comparable": true,
+        "identical_as_given": false,
+        "identical_after_normalisation": false,
+        "same_words_different_order": false,
+        "llm_word_count": 17,
+        "spacy_word_count": 22,
+        "only_in_llm": [
+          "FROM",
+          "HAVE",
+          "SEEN"
+        ],
+        "only_in_spacy": [
+          ",",
+          ".",
+          "A",
+          "AND",
+          "IN",
+          "IT",
+          "SEE",
+          "THAT"
+        ],
+        "notation_differences": [
+          "spaCy merges noun phrases and entities into single tokens containing spaces",
+          "LLM joins multiword concepts with '_' or '-'"
+        ],
+        "normalisation": "upper-case words; FS: prefix removed; '_', '-' and spaces are separators",
+        "note": "descriptive only: not a similarity score and not evidence that either gloss is better"
+      },
+      "primary_candidate": "LLM",
+      "alternative_candidate": "SPACY",
+      "selection_status": "llm_primary",
+      "selected_candidate": "LLM",
+      "selection_basis": "policy_default_primary",
+      "selection_reason": "The LLM candidate is the primary candidate and is technically usable. It is carried forward by POLICY DEFAULT, not because it was judged better than the spaCy candidate, which is kept as an alternative (usable).",
+      "needs_human_review": false,
+      "selection_rule": "R-SEL-06",
+      "alternative_usable_as_fallback": false,
+      "alternative_check_reasons": [
+        "contains a punctuation-only token"
+      ],
+      "verification": "technical_checks_only_not_linguistically_verified"
+    },
+    {
+      "sentence_id": "l1-real-b-s0002",
+      "group_id": "l1-real-b-g0001",
+      "source_text": "but If you again pour water in that same place, you must have marked that it starts flowing in the same path, same direction that is had created before.",
+      "cleaned_source_text": "but If you again pour water in that same place, you must have marked that it starts flowing in the same path, same direction that is had created before.",
+      "speaker_id": null,
+      "start_timestamp": null,
+      "end_timestamp": null,
+      "turn_index": 0,
+      "llm_gloss": "IF YOU AGAIN POUR WATER IN SAME PLACE YOU MUST HAVE MARKED IT START_FLOW SAME PATH SAME DIRECTION HAD CREATED BEFORE",
+      "spacy_gloss": "you if again pour water in that same place that it start flow in the same path , same direction that have create before but you mark must",
+      "llm_status": "translated",
+      "spacy_status": "ok",
+      "llm_usable": true,
+      "spacy_usable": true,
+      "llm_warnings": [],
+      "spacy_warnings": [
+        {
+          "kind": "notation",
+          "code": "multiword_token",
+          "severity": "info",
+          "message": "A token is a merged phrase containing spaces (reference noun-chunk formatting); downstream code that splits on spaces will see more tokens."
+        }
+      ],
+      "llm_stated_review_flag": false,
+      "llm_uncertainty_notes": "",
+      "spacy_error": null,
+      "shared_warnings": [],
+      "candidate_difference": {
+        "comparable": true,
+        "identical_as_given": false,
+        "identical_after_normalisation": false,
+        "same_words_different_order": false,
+        "llm_word_count": 22,
+        "spacy_word_count": 28,
+        "only_in_llm": [
+          "CREATED",
+          "HAD",
+          "MARKED"
+        ],
+        "only_in_spacy": [
+          ",",
+          "BUT",
+          "CREATE",
+          "IN",
+          "MARK",
+          "THAT",
+          "THAT",
+          "THAT",
+          "THE"
+        ],
+        "notation_differences": [
+          "spaCy merges noun phrases and entities into single tokens containing spaces",
+          "LLM joins multiword concepts with '_' or '-'"
+        ],
+        "normalisation": "upper-case words; FS: prefix removed; '_', '-' and spaces are separators",
+        "note": "descriptive only: not a similarity score and not evidence that either gloss is better"
+      },
+      "primary_candidate": "LLM",
+      "alternative_candidate": "SPACY",
+      "selection_status": "llm_primary",
+      "selected_candidate": "LLM",
+      "selection_basis": "policy_default_primary",
+      "selection_reason": "The LLM candidate is the primary candidate and is technically usable. It is carried forward by POLICY DEFAULT, not because it was judged better than the spaCy candidate, which is kept as an alternative (usable).",
+      "needs_human_review": false,
+      "selection_rule": "R-SEL-06",
+      "alternative_usable_as_fallback": false,
+      "alternative_check_reasons": [
+        "contains a punctuation-only token"
+      ],
+      "verification": "technical_checks_only_not_linguistically_verified"
+    },
+    {
+      "sentence_id": "l1-real-b-s0003",
+      "group_id": "l1-real-b-g0001",
+      "source_text": "Why?",
+      "cleaned_source_text": "Why?",
+      "speaker_id": null,
+      "start_timestamp": null,
+      "end_timestamp": null,
+      "turn_index": 0,
+      "llm_gloss": "WHY",
+      "spacy_gloss": "why why",
+      "llm_status": "translated",
+      "spacy_status": "ok",
+      "llm_usable": true,
+      "spacy_usable": true,
+      "llm_warnings": [],
+      "spacy_warnings": [],
+      "llm_stated_review_flag": false,
+      "llm_uncertainty_notes": "",
+      "spacy_error": null,
+      "shared_warnings": [],
+      "candidate_difference": {
+        "comparable": true,
+        "identical_as_given": false,
+        "identical_after_normalisation": false,
+        "same_words_different_order": false,
+        "llm_word_count": 1,
+        "spacy_word_count": 2,
+        "only_in_llm": [],
+        "only_in_spacy": [
+          "WHY"
+        ],
+        "notation_differences": [],
+        "normalisation": "upper-case words; FS: prefix removed; '_', '-' and spaces are separators",
+        "note": "descriptive only: not a similarity score and not evidence that either gloss is better"
+      },
+      "primary_candidate": "LLM",
+      "alternative_candidate": "SPACY",
+      "selection_status": "llm_primary",
+      "selected_candidate": "LLM",
+      "selection_basis": "policy_default_primary",
+      "selection_reason": "The LLM candidate is the primary candidate and is technically usable. It is carried forward by POLICY DEFAULT, not because it was judged better than the spaCy candidate, which is kept as an alternative (usable).",
+      "needs_human_review": false,
+      "selection_rule": "R-SEL-06",
+      "alternative_usable_as_fallback": true,
+      "alternative_check_reasons": [],
+      "verification": "technical_checks_only_not_linguistically_verified"
+    },
+    {
+      "sentence_id": "l1-real-b-s0004",
+      "group_id": "l1-real-b-g0001",
+      "source_text": "Because Though the water had dried up, it still created and left back an image.",
+      "cleaned_source_text": "Because Though the water had dried up, it still created and left back an image.",
+      "speaker_id": null,
+      "start_timestamp": null,
+      "end_timestamp": null,
+      "turn_index": 0,
+      "llm_gloss": "BECAUSE THOUGH WATER HAD DRY_UP IT STILL CREATE AND LEFT_BACK IMAGE",
+      "spacy_gloss": "because though the water have dry up, it still create and leave back an image.",
+      "llm_status": "translated",
+      "spacy_status": "ok",
+      "llm_usable": true,
+      "spacy_usable": true,
+      "llm_warnings": [],
+      "spacy_warnings": [
+        {
+          "kind": "notation",
+          "code": "multiword_token",
+          "severity": "info",
+          "message": "A token is a merged phrase containing spaces (reference noun-chunk formatting); downstream code that splits on spaces will see more tokens."
+        }
+      ],
+      "llm_stated_review_flag": false,
+      "llm_uncertainty_notes": "",
+      "spacy_error": null,
+      "shared_warnings": [],
+      "candidate_difference": {
+        "comparable": true,
+        "identical_as_given": false,
+        "identical_after_normalisation": false,
+        "same_words_different_order": false,
+        "llm_word_count": 13,
+        "spacy_word_count": 15,
+        "only_in_llm": [
+          "HAD",
+          "IMAGE",
+          "LEFT",
+          "UP"
+        ],
+        "only_in_spacy": [
+          "AN",
+          "HAVE",
+          "IMAGE.",
+          "LEAVE",
+          "THE",
+          "UP,"
+        ],
+        "notation_differences": [
+          "spaCy merges noun phrases and entities into single tokens containing spaces",
+          "LLM joins multiword concepts with '_' or '-'"
+        ],
+        "normalisation": "upper-case words; FS: prefix removed; '_', '-' and spaces are separators",
+        "note": "descriptive only: not a similarity score and not evidence that either gloss is better"
+      },
+      "primary_candidate": "LLM",
+      "alternative_candidate": "SPACY",
+      "selection_status": "llm_primary",
+      "selected_candidate": "LLM",
+      "selection_basis": "policy_default_primary",
+      "selection_reason": "The LLM candidate is the primary candidate and is technically usable. It is carried forward by POLICY DEFAULT, not because it was judged better than the spaCy candidate, which is kept as an alternative (usable).",
+      "needs_human_review": false,
+      "selection_rule": "R-SEL-06",
+      "alternative_usable_as_fallback": true,
+      "alternative_check_reasons": [],
+      "verification": "technical_checks_only_not_linguistically_verified"
+    }
+  ]
+}

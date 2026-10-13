@@ -1,0 +1,42 @@
+﻿sentence_id,translator,kind,code,severity,message
+l1-names-s0001,SPACY,notation,multiword_token,info,A token is a merged phrase containing spaces (reference noun-chunk formatting); downstream code that splits on spaces will see more tokens.
+l1-names-s0002,SPACY,notation,multiword_token,info,A token is a merged phrase containing spaces (reference noun-chunk formatting); downstream code that splits on spaces will see more tokens.
+l1-names-s0003,SPACY,notation,multiword_token,info,A token is a merged phrase containing spaces (reference noun-chunk formatting); downstream code that splits on spaces will see more tokens.
+l1-conditions-s0001,SPACY,notation,multiword_token,info,A token is a merged phrase containing spaces (reference noun-chunk formatting); downstream code that splits on spaces will see more tokens.
+l1-conditions-s0003,SPACY,notation,multiword_token,info,A token is a merged phrase containing spaces (reference noun-chunk formatting); downstream code that splits on spaces will see more tokens.
+l1-negation-questions-s0003,SPACY,notation,multiword_token,info,A token is a merged phrase containing spaces (reference noun-chunk formatting); downstream code that splits on spaces will see more tokens.
+l1-negation-questions-s0004,LLM,question,yes_no_question_marking_not_checkable,info,Yes/no questions are usually marked non-manually in ISL; this check cannot see that.
+l1-negation-questions-s0004,SPACY,question,yes_no_question_marking_not_checkable,info,Yes/no questions are usually marked non-manually in ISL; this check cannot see that.
+l1-negation-questions-s0004,SPACY,notation,multiword_token,info,A token is a merged phrase containing spaces (reference noun-chunk formatting); downstream code that splits on spaces will see more tokens.
+l1-pronouns-s0001,SPACY,notation,multiword_token,info,A token is a merged phrase containing spaces (reference noun-chunk formatting); downstream code that splits on spaces will see more tokens.
+l1-pronouns-s0003,SPACY,notation,multiword_token,info,A token is a merged phrase containing spaces (reference noun-chunk formatting); downstream code that splits on spaces will see more tokens.
+l1-pronouns-s0004,SPACY,notation,multiword_token,info,A token is a merged phrase containing spaces (reference noun-chunk formatting); downstream code that splits on spaces will see more tokens.
+l1-cause-group-s0001,SPACY,notation,multiword_token,info,A token is a merged phrase containing spaces (reference noun-chunk formatting); downstream code that splits on spaces will see more tokens.
+l1-cause-group-s0002,SPACY,notation,multiword_token,info,A token is a merged phrase containing spaces (reference noun-chunk formatting); downstream code that splits on spaces will see more tokens.
+l1-cause-group-s0003,SPACY,notation,multiword_token,info,A token is a merged phrase containing spaces (reference noun-chunk formatting); downstream code that splits on spaces will see more tokens.
+l1-notation-s0001,SPACY,notation,multiword_token,info,A token is a merged phrase containing spaces (reference noun-chunk formatting); downstream code that splits on spaces will see more tokens.
+l1-notation-s0002,SPACY,notation,multiword_token,info,A token is a merged phrase containing spaces (reference noun-chunk formatting); downstream code that splits on spaces will see more tokens.
+l1-notation-s0003,SPACY,notation,multiword_token,info,A token is a merged phrase containing spaces (reference noun-chunk formatting); downstream code that splits on spaces will see more tokens.
+l1-time-quantity-s0001,SPACY,notation,multiword_token,info,A token is a merged phrase containing spaces (reference noun-chunk formatting); downstream code that splits on spaces will see more tokens.
+l1-time-quantity-s0003,SPACY,notation,multiword_token,info,A token is a merged phrase containing spaces (reference noun-chunk formatting); downstream code that splits on spaces will see more tokens.
+l1-ambiguous-s0001,LLM,structural,empty_output,invalid,"The LLM returned an empty gloss with the stated reason: Pronoun 'he' ambiguous: could refer to John or Peter, affecting meaning.."
+l1-ambiguous-s0002,LLM,structural,empty_output,invalid,The LLM returned an empty gloss with the stated reason: Pronouns 'He' and 'him' ambiguous due to previous sentence; unclear referent..
+l1-ambiguous-s0003,LLM,structural,empty_output,invalid,The LLM returned an empty gloss with the stated reason: Ambiguity: 'duck' could be noun or verb; 'her' referent unclear..
+l1-ambiguous-s0003,SPACY,notation,multiword_token,info,A token is a merged phrase containing spaces (reference noun-chunk formatting); downstream code that splits on spaces will see more tokens.
+l1-asr-noise-s0001,LLM,structural,empty_output,invalid,The LLM returned an empty gloss with the stated reason: Source unintelligible or garbled; cannot produce defensible gloss..
+l1-asr-noise-s0001,SPACY,name,possible_name_not_found,warning,The capitalised word 'Done' may be a name but does not appear in the gloss.
+l1-asr-noise-s0002,LLM,name,possible_name_not_found,warning,The capitalised word 'Janmotsav' may be a name but does not appear in the gloss.
+l1-asr-noise-s0002,SPACY,notation,multiword_token,info,A token is a merged phrase containing spaces (reference noun-chunk formatting); downstream code that splits on spaces will see more tokens.
+l1-asr-noise-s0003,SPACY,notation,multiword_token,info,A token is a merged phrase containing spaces (reference noun-chunk formatting); downstream code that splits on spaces will see more tokens.
+l1-asr-noise-s0004,SPACY,notation,multiword_token,info,A token is a merged phrase containing spaces (reference noun-chunk formatting); downstream code that splits on spaces will see more tokens.
+l1-asr-noise-s0005,SPACY,notation,multiword_token,info,A token is a merged phrase containing spaces (reference noun-chunk formatting); downstream code that splits on spaces will see more tokens.
+l1-real-a-s0001,SPACY,notation,multiword_token,info,A token is a merged phrase containing spaces (reference noun-chunk formatting); downstream code that splits on spaces will see more tokens.
+l1-real-a-s0002,SPACY,notation,multiword_token,info,A token is a merged phrase containing spaces (reference noun-chunk formatting); downstream code that splits on spaces will see more tokens.
+l1-real-a-s0003,SPACY,notation,multiword_token,info,A token is a merged phrase containing spaces (reference noun-chunk formatting); downstream code that splits on spaces will see more tokens.
+l1-real-a-s0004,SPACY,notation,multiword_token,info,A token is a merged phrase containing spaces (reference noun-chunk formatting); downstream code that splits on spaces will see more tokens.
+l1-real-a-s0005,SPACY,notation,multiword_token,info,A token is a merged phrase containing spaces (reference noun-chunk formatting); downstream code that splits on spaces will see more tokens.
+l1-real-a-s0006,SPACY,notation,multiword_token,info,A token is a merged phrase containing spaces (reference noun-chunk formatting); downstream code that splits on spaces will see more tokens.
+l1-real-b-s0001,LLM,condition,possible_condition_not_represented,warning,The source has a conditional word but no conditional marker appears in the gloss.
+l1-real-b-s0001,SPACY,notation,multiword_token,info,A token is a merged phrase containing spaces (reference noun-chunk formatting); downstream code that splits on spaces will see more tokens.
+l1-real-b-s0002,SPACY,notation,multiword_token,info,A token is a merged phrase containing spaces (reference noun-chunk formatting); downstream code that splits on spaces will see more tokens.
+l1-real-b-s0004,SPACY,notation,multiword_token,info,A token is a merged phrase containing spaces (reference noun-chunk formatting); downstream code that splits on spaces will see more tokens.
