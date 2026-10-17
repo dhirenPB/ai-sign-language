@@ -1,0 +1,61 @@
+{
+  "schema_version": "1.0",
+  "tool_version": "0.1.0",
+  "generated_at": "2026-10-13T10:34:26+00:00",
+  "layer1_input": {
+    "path": "data\\translations\\prompt_comparison_v8\\results_prompt_8.0.json",
+    "sha256_before": "98dbc1b3bec9b0fd2b4c782c727e9a685a0645189c7d79b90e23379eaefe6318",
+    "sha256_after": "98dbc1b3bec9b0fd2b4c782c727e9a685a0645189c7d79b90e23379eaefe6318",
+    "unchanged": true,
+    "layer1_complete": true,
+    "layer1_stop_reason": null,
+    "prompt_version": "8.0",
+    "llm_config": {
+      "provider": "groq",
+      "model": "openai/gpt-oss-120b",
+      "reasoning_effort": "medium",
+      "temperature": 0.0,
+      "max_output_tokens": 8192,
+      "prompt_version": "8.0",
+      "thinking_budget": null,
+      "empty_gloss_retry": true,
+      "references_file": null,
+      "reference_entries_loaded": 0
+    }
+  },
+  "llm_requests_made_by_layer2": 0,
+  "candidate_a_field": "candidate_tokens",
+  "spacy": {
+    "python": "3.11.5",
+    "spacy": "3.8.16",
+    "en_core_web_sm": "3.8.0",
+    "nltk": "3.10.3",
+    "adapter_version": "1.0.0",
+    "reference": {
+      "repository": "https://github.com/krishnshyam/VirtualISLInterpreter",
+      "path": "src/translate/spacy_rules.py",
+      "commit": "f5d9484d9fea21d1f0a77711eda0483c75187c04",
+      "original_sha256": "2154e50a6a24155b7de4584e74b6318e61426dc66eb08ae8a099ff9df01c47d4",
+      "compatibility_changes": [
+        "C1 lazy model load",
+        "C2 translate_to_tokens uses the lazy loader"
+      ]
+    }
+  },
+  "selection_policy": {
+    "policy_version": "2.0.0",
+    "primary_candidate": "LLM",
+    "spacy_fallback_when_llm_fails": true,
+    "fallback_on_llm_abstention": false,
+    "treat_identical_as_agreement": true,
+    "allow_check_based_preference": false,
+    "preference_codes": [
+      "number_not_found"
+    ]
+  },
+  "selection_policy_version": "2.0.0",
+  "adapter_version": "1.0.0",
+  "setup_help": "Layer 2 needs spaCy, its small English model and NLTK. Install once, outside the application:\n  python -m pip install spacy nltk\n  python -m spacy download en_core_web_sm\nNLTK's WordNet data is NOT needed: the reference only imports nltk.corpus.wordnet and never reads it.",
+  "review_status": "unreviewed",
+  "note": "Candidates are machine-generated and UNREVIEWED. Technical checks and warning counts say nothing about linguistic accuracy. No ISL-fluent reviewer has judged either candidate, so it is not known whether combining the two approaches improves the gloss."
+}

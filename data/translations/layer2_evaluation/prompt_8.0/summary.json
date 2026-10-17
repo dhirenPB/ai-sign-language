@@ -1,0 +1,66 @@
+{
+  "sentences": 41,
+  "spacy": {
+    "success": 41,
+    "empty": 0,
+    "failed": 0,
+    "dependency_unavailable": 0
+  },
+  "llm": {
+    "success": 40,
+    "empty": 1,
+    "failed": 0,
+    "skipped_no_translatable_text": 0
+  },
+  "structural_validation_failures": {
+    "llm": 1,
+    "spacy": 0,
+    "llm_by_code": {
+      "empty_output": 1
+    },
+    "spacy_by_code": {}
+  },
+  "both_candidates_usable": 40,
+  "candidates_differ_after_normalisation": 40,
+  "candidates_identical_after_normalisation": 0,
+  "candidates_identical_as_given": 0,
+  "selection": {
+    "status_counts": {
+      "llm_failed_alternative_rejected": 1,
+      "llm_primary": 40
+    },
+    "rule_counts": {
+      "R-SEL-06": 40,
+      "R-SEL-08": 1
+    },
+    "basis_counts": {
+      "none": 1,
+      "policy_default_primary": 40
+    },
+    "carried_forward": 40,
+    "llm_primary_by_policy_default": 40,
+    "candidates_agree": 0,
+    "spacy_selected": 0,
+    "spacy_selected_as_technical_fallback": 0,
+    "llm_declined_spacy_offered_not_substituted": 0,
+    "llm_unusable_spacy_rejected": 1,
+    "both_invalid": 0,
+    "needs_human_review_total": 2,
+    "selected_candidate_counts": {
+      "LLM": 40,
+      "NONE": 1
+    },
+    "evidence_based_selections": 0,
+    "note": "'llm_primary' is a policy default (the LLM is the primary candidate), not a finding that it beats spaCy. No selection here rests on human-reviewed evidence."
+  },
+  "heuristic_warning_counts": {
+    "llm": {},
+    "spacy": {
+      "possible_name_not_found": 1
+    },
+    "shared_by_both": {},
+    "caution": "Heuristic flags for a reviewer to look at. They are not translation errors and say nothing about accuracy."
+  },
+  "linguistic_accuracy_established": false,
+  "note": "Candidates are machine-generated and UNREVIEWED. Technical checks and warning counts say nothing about linguistic accuracy. No ISL-fluent reviewer has judged either candidate, so it is not known whether combining the two approaches improves the gloss."
+}

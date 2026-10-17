@@ -1,5 +1,7 @@
 # Layer 2 (rule-based secondary pass): requirements for a FUTURE phase
 
+> **Update:** a different Layer 2 (an independent spaCy candidate, compared with the LLM candidate, never rewriting either) has since been implemented and evaluated: see `layer2_dual_candidate.md`. The rule-based *correction* pass described below is still not implemented.
+
 **Status: documented only. Nothing in this file is implemented.** Recorded 13 Oct 2026 as Part B of the "Improve LLM
 Translation Layer" request. The Layer 1 task deliberately adds no Layer 2 logic, no rule-based corrections, no
 post-rule validation and no transformation logging.

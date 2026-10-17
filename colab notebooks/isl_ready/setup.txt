@@ -1,0 +1,110 @@
+SETUP - everything needed to run the iSign text-to-pose pipeline
+=================================================================
+Target: a Windows PC with an NVIDIA GPU (written for a Quadro T1000). Notes for Colab are at the end.
+The commands are PowerShell. Step-by-step run instructions are in SETUP_PC.md; this file lists what must be true and installed.
+
+
+1. HARDWARE AND OPERATING SYSTEM
+--------------------------------
+- Windows 10/11, 64-bit.
+- NVIDIA GPU with at least 4 GB of memory. The model is small (about 15 M parameters plus a word table); batch size 8 with sequences
+  up to 600 frames should fit in 4 GB (the benchmark step prints the real peak memory). Quadro T1000 = Turing, compute capability 7.5, supported.
+- RAM: 16 GB minimum, 32 GB comfortable (the converted data is memory-mapped and is cached by Windows).
+- Disk: at least 200 GB free on the drive that holds the data.
+    pose archive (4 files) .......... about 170 GB (only needed for the conversion; it can be deleted afterwards)
+    iSign CSV ....................... about 10 MB
+    converted shards (all splits) ... about 13 GB (estimate: 525 bytes per frame)
+    checkpoints per run ............. about 0.3 GB (last + best) plus history
+    repository clone and logs ....... under 1 GB
+- Internet access to: pypi.org and download.pytorch.org (packages), github.com (model repository, one zip),
+  huggingface.co (only if the dataset is downloaded from there).
+- Power settings: sleep = Never while converting or training; keep the PC plugged in.
+
+
+2. GPU DRIVER (no CUDA Toolkit needed)
+--------------------------------------
+- The command  nvidia-smi  must print a table with the GPU name and memory. If it fails, install the current NVIDIA driver for the card
+  from nvidia.com (driver version 525 or newer for the CUDA 12 wheels used below).
+- Do NOT install the CUDA Toolkit separately: the PyTorch wheel contains its own CUDA runtime.
+
+
+3. PYTHON
+---------
+- Python 3.11 (tested with 3.11.5), 64-bit, from python.org. Tick "Add python.exe to PATH". 3.10 and 3.12 are expected to work; 3.11 is what was tested.
+- Create an isolated environment:
+      py -3.11 -m venv C:\isl\venv
+      C:\isl\venv\Scripts\Activate.ps1
+      python -m pip install --upgrade pip
+
+
+4. PYTHON PACKAGES
+------------------
+4a. PyTorch WITH CUDA (do this first):
+      pip install torch --index-url https://download.pytorch.org/whl/cu124
+    Check:
+      python -c "import torch; print(torch.__version__, torch.cuda.is_available(), torch.cuda.get_device_name(0))"
+    It must print True and the GPU name. If it prints False: update the driver, or use cu121 or cu118 instead of cu124 in the URL.
+    (Tested on CPU with torch 2.14.1; the CUDA build of the same version is expected to behave the same. Any torch 2.x is fine.)
+
+4b. Everything else (from the folder containing requirements_pc.txt):
+      pip install -r requirements_pc.txt
+    Versions the code was tested with (Python 3.11.5, Windows):
+      numpy 2.4.6, pandas 3.0.6, PyYAML 6.0.3, matplotlib 3.11.2, scipy 1.17.1, ipython 9.17.1,
+      pose-format 0.15.0, huggingface_hub 2.2.0
+    scipy is required (the model repository imports it); pose-format reads the .pose files; matplotlib draws the diagnostic plots;
+    huggingface_hub is only used by download_isign.py.
+
+4c. Git is NOT required: pc_run.py downloads the model repository as a zip at the tested commit.
+
+
+5. FILES AND FOLDERS THAT MUST EXIST
+------------------------------------
+- The project folder (isl_ready) with: all *.py files, the colab_cells folder, requirements_pc.txt, setup.txt, SETUP_PC.md, project_gist.txt.
+- The dataset in ONE folder with exactly this layout (any drive letter):
+      D:\isign\iSign_v1.1.csv
+      D:\isign\pose_parts\iSign-poses_v1.1_part_aa
+      D:\isign\pose_parts\iSign-poses_v1.1_part_ab
+      D:\isign\pose_parts\iSign-poses_v1.1_part_ac
+      D:\isign\pose_parts\iSign-poses_v1.1_part_ad
+  The four parts are ONE split ZIP. Never join them into one file and never extract them: the code reads them in place.
+  Expected sizes: aa, ab, ac = 48,318,382,080 bytes each; ad = 25,275,140,832 bytes (170.2 GB in total).
+- A work folder for outputs, for example D:\isl_out (the setup stage creates the sub-folders).
+
+
+6. ACCESS AND LICENCE CONDITIONS
+--------------------------------
+- iSign (Exploration-Lab/iSign on Hugging Face) is a GATED dataset. Your account must have been granted access.
+  If you download with download_isign.py you need your own Hugging Face access token in the environment variable HF_TOKEN
+  (PowerShell:  $env:HF_TOKEN = "hf_...").  Never put the token in a file, a commit or a chat.
+- Licence: do not upload or redistribute the dataset or data derived from it (the converted shards). Keep both on your own machine/Drive.
+- The Progressive Transformers repository (BenSaunders27/ProgressiveTransformersSLP) has its own licence; it is downloaded, patched in
+  a local copy and used locally. Its files are not committed to this project.
+
+
+7. CHECKS BEFORE YOU START (all should pass)
+--------------------------------------------
+      nvidia-smi                                              -> table with the GPU
+      python --version                                        -> Python 3.11.x
+      python -c "import torch; print(torch.cuda.is_available())"   -> True
+      python -c "import numpy, pandas, yaml, scipy, matplotlib, pose_format; print('packages ok')"
+      (Get-PSDrive D).Free / 1GB                              -> at least 200 (use your data drive letter)
+
+
+8. THE ORDER OF THE STAGES (details in SETUP_PC.md)
+---------------------------------------------------
+      python pc_run.py setup --data-dir D:\isign --out-dir D:\isl_out
+      python pc_run.py prepare
+      python pc_run.py convert           (about 127,000 sequences; resumable; roughly 1-3 hours, an estimate)
+      python pc_run.py check             (all pre-training checks incl. the real CUDA step; writes the READY / NOT READY decision)
+      python pc_run.py train --benchmark 50
+      python pc_run.py train             (only starts when the last check said READY; --force overrides on purpose)
+      python pc_run.py test              (once, after training has finished)
+
+
+9. IF YOU USE GOOGLE COLAB INSTEAD
+----------------------------------
+- Drive mounted at /content/drive with the dataset in MyDrive/ISL_Project/iSign (CSV + pose_parts).
+- Free Colab has limited, unpredictable GPU quota; do all CPU work (conversion, diagnostics) on a CPU runtime.
+- Reading the 170 GB archive through the mounted Drive fills the VM disk with Drive's cache when the reads are random; the code reads in
+  archive order and stops cleanly when less than MIN_FREE_GB (8) is free.
+- The Colab flow is described in project_gist.txt; the cell scripts are in colab_cells/ (upload_to_colab/ holds copies to pick in the file chooser).

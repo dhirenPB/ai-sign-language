@@ -1,0 +1,174 @@
+PROJECT GIST - iSign English-to-sign-pose, pre-training work
+=============================================================
+Written for the next Claude session (on the Windows PC with the GPU) and for the owner. Read this first, then CHANGELOG.md and TEST_REPORT.md.
+Date of this write-up: 2026-10-17. Branch: feat/isign-pre-training-ready. Folder: colab notebooks/isl_ready/.
+
+
+0. WHAT TO DO FIRST ON THE PC (the pick-up point)
+-------------------------------------------------
+Status in one sentence: the code is finished and was tested end to end on a CPU with synthetic data; the real data has only been processed
+at "review scale" on Colab, the real GPU step has NEVER run, and full training has NOT started.
+The owner wants plain, short, step-by-step instructions (no jargon, no long menus) and honest statements about what is verified.
+1. Read setup.txt and SETUP_PC.md; verify the environment with the checks in setup.txt section 7. Ask for the nvidia-smi output
+   (the Quadro T1000 comes with 4 GB or 8 GB; this was never confirmed).
+2. Make sure the dataset is on the PC (setup.txt section 5). The owner may still need to download it (about 170 GB).
+3. python pc_run.py setup / prepare / convert / check  (see section 7 below). Read the diagnostics flags printed by prepare.
+4. python pc_run.py check  must finish with  READY FOR CONTROLLED TRAINING  (all 16 required checks PASS, including check 11 = the real CUDA step).
+   If something fails, diagnose it; never bypass a check. Report the final table to the owner.
+5. python pc_run.py train --benchmark 50  -> real frames/s and GPU memory; compute the epoch time and tell the owner honestly.
+6. Only then python pc_run.py train  (resumable; --hours N for a time budget). The owner authorises full training; the code refuses without READY.
+7. python pc_run.py test  once, after training has finished and a best checkpoint is chosen on VALIDATION loss. Never tune on the test split.
+Do not start full-dataset training without the owner's go-ahead. Do not commit or upload the dataset or the converted shards.
+
+
+1. THE GOAL
+-----------
+Train a model that maps English text to continuous sign-language pose sequences, using the iSign dataset directly (Exploration-Lab/iSign on
+Hugging Face, gated) and the existing ProgressiveTransformersSLP model (BenSaunders27/ProgressiveTransformersSLP, commit
+ff8b28cb0817d177f63dfa18c7c322806ee5dd96). The architecture is NOT replaced: 2 encoder + 2 decoder Transformer layers, d=512, 4 heads, ff 2048
+(about 15 M parameters without the word-embedding table, 30 M with a 30,000-word vocabulary).
+The owner's separate ISL-gloss pipeline (the rest of this git repository: src/isl_gloss, transcript cleaning, web UI ...) is NOT used for the training targets.
+The work in this folder was done to make the pre-training stage technically ready for a controlled experiment: correct preprocessing, masks,
+data splits, device handling and validation. The six requested fixes are all implemented (section 5).
+
+
+2. THE DATA
+-----------
+- iSign_v1.1.csv: columns uid,text. 127,237 rows, no duplicates, no empty text. uid = "<12-hex video id>-<sequence number>" (unpadded, with gaps),
+  e.g. 1782bea75c7d-1. video_id = everything before the LAST "-". About 5,900 videos.
+- iSign-poses_v1.1_part_aa..ad: ONE split ZIP of .pose files (pose-format, MediaPipe Holistic, 576 landmarks per frame: body 33, face 468,
+  left hand 21, right hand 21, world-pose 33). Parts: 48.3 GB x3 + 25.3 GB = 170.2 GB, 127,237 entries, all of them match a CSV row.
+  Read them through VirtualConcatFile (isign_pose.py); never join or extract them.
+- Header image sizes differ per file: about 83-93% are 300x300, the rest have their own sizes (e.g. 648x720, 664x720, 562x660, 450x396),
+  coordinates in that frame's pixels. This is why x/y are normalised PER SEQUENCE (section 4).
+- Confidence: 80.3% of the kept landmarks are valid (confidence >= 0.5, not masked, not non-finite); there are no exact-zero-but-confident landmarks.
+- Split by video, seed 27, 80/10/10 of sequences: train 101,791 seq / 4,728 videos; val 12,831 / 661; test 12,615 / 669. Decided on the matched
+  sequences BEFORE quality filtering so exclusions never move a video.
+- Exclusions at conversion time (logged with reasons): too long (> 600 frames, about 2%), too few valid landmarks (< 15%), no valid hand landmark,
+  too short (< 2 frames), too many empty frames.
+- Review-scale conversion done on Colab (first shards in archive order): train 995 of 1,024, val 249 of 256, test 251 of 256 sequences,
+  about 202 frames per sequence, 525 bytes per frame (225 coordinates in float16 + 75 validity flags). The full dataset would be about 13 GB.
+- Observed on a 300-sequence training sample: hand wrist to own body wrist median distance 0.057-0.060 (normalised) vs 0.80-0.83 to the opposite
+  wrist (left/right ordering and shared coordinate system confirmed); frame-to-frame displacement p50 0.022, p99 0.26, p99.9 0.51, max 2.45, with at
+  least one displacement above 0.5 in 170 of 300 sequences (rare single-frame pose-estimator glitches, about 0.1% of displacements; not handled,
+  a robust loss or smoothing is an option for later); landmark groups' share of target variance: hands about 54%, pose-hand points 20%, face 17%,
+  hips/knees/feet about 0% (they are rarely valid); hand z is small (about +-0.05) but not corrupted.
+
+
+3. THE FRAME REPRESENTATION (do not change silently)
+----------------------------------------------------
+- 75 landmarks = 33 body + 21 left hand + 21 right hand = pose-format indices 0:33 and 501:543 (checked against the file header; a different header raises).
+- 225 coordinates per frame, landmark-major [x0,y0,z0,x1,y1,z1,...] plus 1 frame counter = 226 values per frame.
+- Counter = frame_index / n_frames (first frame 0.0, last (n-1)/n). It is NOT stored; it is regenerated when loading.
+- Decoder alignment: input at step t = frame t, target at step t = frame t+1 (counter included); padding is zero.
+- Invalid landmarks (low confidence, masked, non-finite, exact raw (0,0,0)) are stored as 0.0 AND flagged in a separate [T,75] validity array.
+  The loss uses the flags (and the padded-frame mask), never the coordinate values. No imputation/interpolation; decoder INPUTS contain 0.0 there.
+- Normalisation (hash 50878210e1 for the default settings): x -> (x - width/2)/(width/2), y -> (y - height/2)/(height/2) with width/height from each
+  pose header (300x300 if missing; identical to (v-150)/150 for 300x300 files); no clamping; z kept in source units (z_mode "keep").
+  Reason for "keep": z is not pixel-scale, hand z is simply small, nothing dominates the loss. "scale" mode (per-component scales from a TRAINING sample)
+  exists. A small z spread is a WARN, only a z that would dominate the loss (ratio > 10) is a FAIL.
+- Stored shards: float16 coordinates (quantisation error checked, about 5e-4 relative).
+
+
+4. HOW THE CODE IS ORGANISED  (colab notebooks/isl_ready/)
+----------------------------------------------------------
+Modules (importable, tested):
+  isign_pose.py    numpy only: VirtualConcatFile (archive access), landmark extraction/validity/normalisation, video split, shard writer/reader
+                   (ShardWriter, ShardStore, convert_manifest: resumable, disk-guarded), diagnostics report and plots.
+  isign_data.py    PyTorch dataset over the shards, vocabulary, collate (adds frame_lengths and landmark_valid), loader (resumable shuffle, persistent workers).
+  isign_train.py   device selection, batch placement checks, train step/epoch, evaluation (teacher-forced and free-running), checkpoints,
+                   train() (validation, best checkpoint on validation loss, plateau LR, early stopping, resume, time budget), final_test_evaluation()
+                   (once, only after selection_done.json exists).
+  isign_report.py  PASS / FAIL / UNVERIFIED registry and the READY / NOT READY decision.
+  repo_patches.py  asserted, idempotent patches to the cloned model repository (originals backed up to <repo>/_originals): torchtext removed, decoder/padding
+                   masks from true lengths, RegLoss with frame and coordinate masks (build_element_mask), get_loss_for_batch passes the masks, greedy decoding
+                   mask fix, smaller positional-encoding table, O(1) vocabulary insertion.
+Scripts:
+  pc_run.py            Windows/PC front end: setup, prepare, convert, check, train, test (settings remembered in pc_settings.json; --set NAME=VALUE overrides).
+  download_isign.py    resumable, size-checked Hugging Face download (written but never run against Hugging Face).
+  colab_cells/         the cell scripts shared by Colab and pc_run.py: 06 restore+diagnose, 07 convert, 08 checks to report (= notebook cells 12-25),
+                       09 fresh VM setup, 10 training setup, 11 train/benchmark, 12 test eval; 00 upload, 05 sync, 01 disk report (Colab only).
+  isl_text_to_pose_pre_training_ready.ipynb (in the parent folder)  the whole pipeline as one notebook; built by build_notebook.py from
+                       notebook_cells.txt (editing 08 means editing notebook_cells.txt and rebuilding).
+Tests (no GPU needed):
+  dry_tests.py         numpy logic, patch replay on the real repository source, static name/API checks of modules and the notebook.
+  local_run/           make_synthetic_archive.py (fake iSign with the real structure incl. mixed image sizes), run_notebook_local.py (runs the notebook cells on
+                       a CPU), prepare_colab_sim.py / wipe_vm.py (simulate the Colab sessions), bench_cpu.py (CPU speed).
+Docs: README.md, setup.txt, SETUP_PC.md, CHANGELOG.md (every change and why), TEST_REPORT.md (what was verified), this file.
+Generated/ignored: patched_repo_files/, repo_patches.diff, upload_to_colab/ (copies for the Colab file chooser), __pycache__ (see .gitignore).
+
+
+5. THE SIX FIXES (the original task) - all implemented
+------------------------------------------------------
+1 Landmark-level validity: confidence kept; categories reported separately; explicit rule; loss masks frames AND coordinates; denominators clamped;
+  all-invalid batches handled (loss exactly 0, skipped and counted in the loop).
+2 Real splits by video_id with a fixed seed; separate .text/.files/.skels datasets per split (.skels is BINARY, in shards, because text would be tens
+  of GB); unmatched/excluded sequences logged with reasons; the 5-example pilot is isolated and only used for regression.
+3 Normalisation investigated, not assumed: distributions, out-of-image rates, hand/body coordinate compatibility, z scale, discontinuities; plots;
+  parameters saved and hashed with the model config. Result: per-sequence image-size normalisation (section 3).
+4 Device handling: select_device, prepare_model, batch placement verified for every tensor; check 11 does a real forward/backward/optimizer step and is only
+  PASS on a CUDA device (UNVERIFIED on CPU).
+5 Overfit experiment on a fixed training subset (reports the measured outcome, no fixed threshold).
+6 Training/evaluation foundation: training loop, validation, best checkpoint on validation loss, early stopping, resume, guarded test evaluation.
+
+
+6. WHAT HAS BEEN VERIFIED, AND WHAT HAS NOT
+-------------------------------------------
+Verified (CPU, synthetic archive with the real file structure; Windows; torch 2.14, numpy 2.4, pandas 3.0): every required check PASSES except check 11
+(UNVERIFIED: the step ran on the CPU, 92/92 parameter tensors updated); the pc_run.py stages incl. READY guard, resume, time budget, test-once guard, 2 loader
+workers under Windows spawn; the Colab cell sequence in a fresh process; a wiped-VM restore from Drive.
+Verified on real data (Colab): archive access without combining (170.2 GB, 127,237 entries), UID matching 100%, split by video, diagnostics (section 2),
+conversion at review scale (0.03-0.14 s per sequence when read in archive order).
+NOT verified: the real CUDA step; checks 3-14 on the real converted data (the Colab run was interrupted when the free GPU quota ran out);
+full conversion; real training speed; download_isign.py; behaviour with 4 GB of GPU memory.
+Speed (CPU figure measured, the rest are guesses until measured): laptop CPU, 2 threads, about 1,000 frames/s (so about 5.5 h per epoch); Colab T4 maybe 15-40k frames/s (epoch
+10-25 min); Quadro T1000 maybe a third of that. One epoch of the full training split is about 20 M frames.
+
+
+7. HOW IT RUNS (pc_run.py stages)
+---------------------------------
+  setup    remember folders, download the model repository zip at the tested commit, apply patches
+  prepare  archive check, matching, split manifests, normalisation, diagnostics (reused if saved), pilot
+  convert  all shards, resumable, disk guard (MIN_FREE_GB 15), archive order
+  check    checks 1-14 + pilot, report, decision (outputs/pre_training_report.json)
+  train    guarded by the decision; --benchmark N measures speed; --hours N time budget; resumable; runs in outputs/runs/<name>
+  test     once, after selection_done.json exists; teacher-forced on the whole test split, free-running on a limited number of batches
+Folders (PC): <out>/ProgressiveTransformersSLP (patched clone), <out>/work, <out>/outputs/{processed/norm_50878210e1_archive_order, splits, diagnostics,
+logs, runs/<name>, pre_training_report.json}.
+Folders (Colab, Drive): ISL_Project/iSign (dataset), ISL_Project/pre_training_ready/{processed, splits, diagnostics, logs, code, normalization_50878210e1.json}.
+Stale/obsolete on the owner's Drive: normalization_0a40d852b8.json and processed/norm_0a40d852b8* (old fixed (v-150)/150 normalisation).
+
+
+8. HISTORY (what happened, in order)
+------------------------------------
+- Read the owner's original Colab notebook (smoke tests of the Progressive Transformers model on iSign poses). Built a cleaned notebook (fixed the torchtext import
+  that was never removed, a decoder-mask shape bug that crashed with batch 2 / 4 heads, a loss-file patch that dropped XentLoss).
+- The owner then specified six fixes (section 5); the "ready" notebook and modules were written, with a PASS/FAIL/UNVERIFIED test registry.
+- First Colab run: conversion crashed with a full disk and was slow (3.4 s per sequence). Cause (likely Drive's local cache from random access across the 170 GB
+  archive): fixed by reading in archive order (about 50-100x faster), a disk guard, resumable shards that record their row identity.
+- The owner's inspect output showed that image sizes differ per file; the fixed normalisation was replaced by the per-sequence one; lower-body landmarks were shown
+  to be irrelevant; the z gate was relaxed to a warning for small z.
+- Local CPU runs on synthetic data found and fixed: Sampler constructor (torch 2.14), an invalid check-10 comparison (fixed 0.1 dropout in the repository's feed-forward
+  layers ignores config dropout 0.0), worker pickling, first-run manifests, stale selection marker.
+- Colab free GPU quota ran out; the owner moved to a PC with a Quadro T1000 (Windows, 32 GB RAM, 290 GB free). pc_run.py and the setup docs were written for it.
+- Code committed and pushed to GitHub on branch feat/isign-pre-training-ready (see git log).
+
+
+9. KNOWN ISSUES, DECISIONS AND GOTCHAS
+--------------------------------------
+- The repository's feed-forward layers use a hard-coded dropout of 0.1 (the config's dropout 0.0 does not reach them): training-mode passes are not deterministic.
+- Free-running (greedy) decoding is slow (one decoder pass per frame, quadratic): use limited batches; the repository's greedy decoding uses the ground-truth frame
+  counters; unconstrained text-only inference (stopping on a predicted counter) is NOT implemented.
+- Resume granularity is one epoch. A resumed run keeps the saved vocabulary (src_vocab.txt in the run folder) and refuses a different model/normalisation config.
+- Keep the converted shards and the dataset private (licence). Never commit them.
+- On Windows the DataLoader uses spawn; classes must stay importable from modules (they are), and scripts need the __main__ guard (pc_run.py has it).
+- The model repository's own training.py/data.py/prediction.py still import torchtext and are NOT used.
+- Open modelling ideas, not done: mixed precision (a T1000 has no tensor cores, so limited gain), skipping every other frame, a larger batch, robust loss or smoothing
+  for the rare keypoint jumps, excluding the redundant pose-hand points 17-22. Landmark selection and frame layout must not change without the owner's decision.
+
+10. WORKING AGREEMENTS WITH THE OWNER
+-------------------------------------
+- Never claim a check passed unless an assertion actually ran; mark anything unrunnable as UNVERIFIED.
+- Do not start full training or touch the test split without the go-ahead; the code enforces both.
+- Do not upload or redistribute the dataset; do not put tokens in files or chats.
+- The owner prefers short, plain, ordered instructions and not having to re-mount Drive repeatedly on Colab.

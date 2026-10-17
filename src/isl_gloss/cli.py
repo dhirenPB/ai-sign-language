@@ -62,6 +62,10 @@ def build_parser() -> argparse.ArgumentParser:
     t.add_argument("--mode", choices=("groups", "direct"), default="groups",
                    help="groups = sentence chunking + context grouping (default); direct = the old fixed windows of cleaned chunks")
     t.add_argument("--limit", type=int, help="only the first N sentences of each file (handy for a first free-tier test)")
+    t.add_argument("--layer2", action="store_true", help="after translating, also run Layer 2 (spaCy candidate + comparison) on the saved "
+                                                          "results into <out>/<name>.layer2/; makes no extra LLM calls and does not change Layer 1 output")
+    t.add_argument("--layer2-config", type=Path, help="JSON for Layer 2 ({enabled, llm_field, policy{...}}); only used with --layer2, "
+                                                      '{"enabled": false} switches Layer 2 off even if --layer2 is given')
     _add_common(t)
     _add_grouping(t)
 
@@ -94,6 +98,13 @@ def build_parser() -> argparse.ArgumentParser:
     sr.add_argument("results", nargs="+", type=Path, help="results_prompt_<version>.json files from compare-prompts")
     sr.add_argument("--annotations", type=Path, default=Path("evaluation/layer1_annotations.json"))
     sr.add_argument("-o", "--out", type=Path, required=True)
+
+    l2 = sub.add_parser("layer2", help="Layer 2: run the spaCy translator on SAVED Layer 1 results and compare the two candidates (no LLM calls)")
+    l2.add_argument("results", type=Path, help="a Layer 1 results file (results_prompt_<version>.json or <id>.gloss.json); only read")
+    l2.add_argument("-o", "--out", type=Path, required=True, help="output folder (must not be the folder holding the Layer 1 file)")
+    l2.add_argument("--layer2-config", type=Path, help="JSON: {enabled, llm_field, policy{...}}")
+    l2.add_argument("--llm-field", choices=("candidate_tokens", "final_tokens"), help="Candidate A: the model's own gloss (default) or Layer 1's post-rule gloss")
+    sub.add_parser("layer2-check", help="show whether spaCy, the model and NLTK are installed, with versions and setup steps")
 
     rc = sub.add_parser("check-references", help="validate a reference file and show what would be accepted or rejected")
     rc.add_argument("file", type=Path, nargs="?", default=Path("references/reference_set.json"))
@@ -226,6 +237,17 @@ def _cmd_translate(args) -> int:
             print(f"INCOMPLETE ({outcome.stop_reason}). Re-run the same command to resume; finished sentences are cached.")
             exit_code = 1
         print("wrote", paths["json"])
+        if args.layer2:
+            from .layer2 import Layer2Config, run_layer2
+
+            l2cfg = Layer2Config.from_json(args.layer2_config) if args.layer2_config else Layer2Config()
+            l2 = run_layer2(paths["json"], out / f"{name}.layer2", l2cfg, log=print)
+            if not l2["enabled"]:
+                print(f"layer 2: {l2['message']}")
+            else:
+                s = l2["summary"]
+                print(f"layer 2: LLM kept as primary for {s['selection']['llm_primary_by_policy_default']}, spaCy selected for "
+                      f"{s['selection']['spacy_selected']}, {s['selection']['needs_human_review_total']} flagged for review; wrote {l2['out_dir']}")
     return exit_code
 
 
@@ -311,6 +333,38 @@ def _cmd_score_results(args) -> int:
     return 0
 
 
+def _cmd_layer2(args) -> int:
+    from .layer2 import Layer2Config, run_layer2
+
+    cfg = Layer2Config.from_json(args.layer2_config) if args.layer2_config else Layer2Config()
+    if args.llm_field:
+        cfg.llm_field = args.llm_field
+    res = run_layer2(args.results, args.out, cfg, log=print)
+    if not res["enabled"]:
+        print(res["message"])
+        return 0
+    s = res["summary"]
+    print(f"{s['sentences']} sentences. spaCy: {s['spacy']}. LLM: {s['llm']}.")
+    print(f"both usable {s['both_candidates_usable']}, differing {s['candidates_differ_after_normalisation']}; "
+          f"selection {s['selection']['status_counts']}; needs review {s['selection']['needs_human_review_total']}")
+    print("Linguistic accuracy has NOT been established (no reviewer labels).")
+    if s["spacy"]["dependency_unavailable"]:
+        print("spaCy was unavailable for some sentences. Run: isl_gloss layer2-check")
+    print("wrote", res["out_dir"])
+    return 0
+
+
+def _cmd_layer2_check(args) -> int:
+    from .layer2.spacy_translator import SETUP_HELP, SpacyTranslator, environment_report
+
+    print(json.dumps(environment_report(), indent=2))
+    ok, why = SpacyTranslator().available()
+    print("spaCy translator available:", ok)
+    if not ok:
+        print(why)
+    return 0 if ok else 1
+
+
 def _cmd_check_references(args) -> int:
     from .references import describe, load_references
 
@@ -344,7 +398,7 @@ def main(argv: Optional[Sequence[str]] = None) -> int:
         return 0
     handlers = {"translate": _cmd_translate, "group": _cmd_group, "compare": _cmd_compare, "evaluate": _cmd_evaluate,
                 "compare-prompts": _cmd_compare_prompts, "score-results": _cmd_score_results,
-                "check-references": _cmd_check_references}
+                "check-references": _cmd_check_references, "layer2": _cmd_layer2, "layer2-check": _cmd_layer2_check}
     try:
         return handlers[args.cmd](args)
     except MissingApiKey as exc:
