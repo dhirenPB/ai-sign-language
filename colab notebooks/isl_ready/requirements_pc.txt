@@ -1,0 +1,9 @@
+# Install torch separately with CUDA support (see SETUP_PC.md); then:
+numpy
+pandas
+pyyaml
+matplotlib
+scipy
+ipython
+pose-format
+huggingface_hub

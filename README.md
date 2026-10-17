@@ -168,3 +168,10 @@ Compare prompt versions on the same inputs: `python run_translator.py compare-pr
 
 Outputs in `data/translations/`: `<id>.gloss.json` (full audit trail), `<id>.review_sheet.csv` (for the ISL reviewer),
 `<id>.gloss.txt` (quick look). Run the tests with `python -m unittest discover -s tests -t .`.
+
+## iSign text-to-pose (sign generation): pre-training work
+
+Separate from the gloss pipeline above. `colab notebooks/isl_ready/` prepares the iSign dataset and the Progressive Transformers SLP model for training
+English text -> sign pose sequences: data preparation and validation checks, normalisation, training / evaluation tooling and a PC / Colab runner.
+Start with `colab notebooks/isl_ready/project_gist.txt` (status and where to pick up), `colab notebooks/isl_ready/setup.txt` (what to install)
+and `colab notebooks/isl_ready/README.md`. The dataset and anything derived from it must stay private and are not part of this repository.
