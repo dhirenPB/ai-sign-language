@@ -169,6 +169,14 @@ Compare prompt versions on the same inputs: `python run_translator.py compare-pr
 Outputs in `data/translations/`: `<id>.gloss.json` (full audit trail), `<id>.review_sheet.csv` (for the ISL reviewer),
 `<id>.gloss.txt` (quick look). Run the tests with `python -m unittest discover -s tests -t .`.
 
+## Try the pipeline interactively
+
+`.venv/Scripts/python.exe run_webui.py`, then open <http://127.0.0.1:8765/>: type any English text and see the cleaned text, numbered sentences, context groups, the LLM's gloss, spaCy's gloss and the comparison. See `docs/pipeline_tester.md`.
+
+## From a YouTube link
+
+`python run_translator.py youtube "https://www.youtube.com/watch?v=VIDEO_ID"` downloads the audio, transcribes it with timestamps, then runs the existing cleaner and gloss pipeline. See `docs/youtube_ingestion.md` (setup, schema, limitations, smoke test).
+
 ## iSign text-to-pose (sign generation): pre-training work
 
 Separate from the gloss pipeline above. `colab notebooks/isl_ready/` prepares the iSign dataset and the Progressive Transformers SLP model for training

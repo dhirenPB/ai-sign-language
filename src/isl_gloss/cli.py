@@ -106,6 +106,17 @@ def build_parser() -> argparse.ArgumentParser:
     l2.add_argument("--llm-field", choices=("candidate_tokens", "final_tokens"), help="Candidate A: the model's own gloss (default) or Layer 1's post-rule gloss")
     sub.add_parser("layer2-check", help="show whether spaCy, the model and NLTK are installed, with versions and setup steps")
 
+    from .youtube.cli import add_subparsers as _add_youtube
+
+    _add_youtube(sub)
+
+    sv = sub.add_parser("serve", help="start the local interactive pipeline tester (type text, see every stage)")
+    sv.add_argument("--port", type=int, default=8765)
+    sv.add_argument("--env-file", default=".env", help="file with GROQ_API_KEY=... (read on the server only; default ./.env)")
+    sv.add_argument("--data-dir", default="data/demo", help="where saved LLM answers for identical requests are kept")
+    sv.add_argument("--jobs-dir", default="data/jobs", help="where video jobs (audio, transcripts) are kept")
+    sv.add_argument("--max-video-minutes", type=float, default=30.0, help="longest video the page will accept (default 30)")
+
     rc = sub.add_parser("check-references", help="validate a reference file and show what would be accepted or rejected")
     rc.add_argument("file", type=Path, nargs="?", default=Path("references/reference_set.json"))
 
@@ -354,6 +365,19 @@ def _cmd_layer2(args) -> int:
     return 0
 
 
+def _cmd_serve(args) -> int:
+    from .webui.server import serve
+
+    serve(args.port, args.env_file, args.data_dir, jobs_dir=args.jobs_dir, max_video_minutes=args.max_video_minutes)
+    return 0
+
+
+def _youtube_handlers() -> dict:
+    from .youtube.cli import HANDLERS
+
+    return HANDLERS
+
+
 def _cmd_layer2_check(args) -> int:
     from .layer2.spacy_translator import SETUP_HELP, SpacyTranslator, environment_report
 
@@ -398,7 +422,7 @@ def main(argv: Optional[Sequence[str]] = None) -> int:
         return 0
     handlers = {"translate": _cmd_translate, "group": _cmd_group, "compare": _cmd_compare, "evaluate": _cmd_evaluate,
                 "compare-prompts": _cmd_compare_prompts, "score-results": _cmd_score_results,
-                "check-references": _cmd_check_references, "layer2": _cmd_layer2, "layer2-check": _cmd_layer2_check}
+                "check-references": _cmd_check_references, "layer2": _cmd_layer2, "layer2-check": _cmd_layer2_check, "serve": _cmd_serve, **_youtube_handlers()}
     try:
         return handlers[args.cmd](args)
     except MissingApiKey as exc:

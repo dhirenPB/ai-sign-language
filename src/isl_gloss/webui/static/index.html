@@ -1,0 +1,371 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ISL Pipeline Tester</title>
+<style>
+:root {
+  --bg: #f6f7f9; --card: #ffffff; --ink: #1b1f24; --muted: #5b6672; --line: #dde1e6; --accent: #2457c5; --accent-ink: #ffffff;
+  --ok: #1d7a46; --ok-bg: #e4f4ea; --warn: #8a5a00; --warn-bg: #fdf1d6; --bad: #a3262a; --bad-bg: #fbe4e4; --chip: #eef1f5; --skip: #ffe08a;
+  --mono: ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace;
+  --g1: #2457c5; --g2: #1d7a46; --g3: #b45309; --g4: #7c3aed; --g5: #be185d;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #14171b; --card: #1d2228; --ink: #e8ebef; --muted: #98a3af; --line: #2f3740; --accent: #6b97ff; --accent-ink: #0d1117;
+    --ok: #6fd69a; --ok-bg: #17301f; --warn: #f0c36a; --warn-bg: #352a10; --bad: #ff8f93; --bad-bg: #3a1d1e; --chip: #29313a; --skip: #6a5300;
+    --g1: #6b97ff; --g2: #6fd69a; --g3: #f0a35a; --g4: #b39bff; --g5: #ff8fc0;
+  }
+}
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--bg); color: var(--ink); font: 15px/1.5 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+main { max-width: 1040px; margin: 0 auto; padding: 24px 16px 64px; }
+h1 { font-size: 22px; margin: 0 0 4px; }
+.sub { color: var(--muted); margin: 0 0 12px; }
+.banner { background: var(--warn-bg); color: var(--warn); border-radius: 8px; padding: 8px 12px; font-size: 13px; margin: 12px 0; }
+.banner.bad { background: var(--bad-bg); color: var(--bad); }
+.status { display: flex; flex-wrap: wrap; gap: 8px; margin: 8px 0 16px; }
+.pill { font-size: 12px; border-radius: 999px; padding: 2px 10px; background: var(--chip); color: var(--muted); }
+.pill.ok { background: var(--ok-bg); color: var(--ok); } .pill.bad { background: var(--bad-bg); color: var(--bad); } .pill.warn { background: var(--warn-bg); color: var(--warn); }
+.card { background: var(--card); border: 1px solid var(--line); border-radius: 12px; padding: 16px; margin: 0 0 16px; }
+.tabs { display: flex; gap: 4px; margin: -4px 0 12px; border-bottom: 1px solid var(--line); }
+.tab { border: 0; border-bottom: 3px solid transparent; border-radius: 0; background: none; padding: 8px 14px; color: var(--muted); font-weight: 600; }
+.tab[aria-selected="true"] { color: var(--accent); border-bottom-color: var(--accent); }
+textarea, input[type="url"] { width: 100%; font: inherit; color: var(--ink); background: var(--bg); border: 1px solid var(--line); border-radius: 8px; padding: 10px; }
+textarea { min-height: 110px; resize: vertical; }
+textarea:focus, input:focus, select:focus, button:focus-visible { outline: 2px solid var(--accent); outline-offset: 1px; }
+.row { display: flex; flex-wrap: wrap; gap: 12px; align-items: center; margin-top: 10px; }
+label { font-size: 13px; color: var(--muted); display: inline-flex; gap: 6px; align-items: center; }
+select, input[type="number"] { font: inherit; font-size: 13px; background: var(--bg); color: var(--ink); border: 1px solid var(--line); border-radius: 6px; padding: 3px 6px; }
+input[type="number"] { width: 64px; }
+button { font: inherit; border: 1px solid var(--line); background: var(--card); color: var(--ink); border-radius: 8px; padding: 7px 14px; cursor: pointer; }
+button.primary { background: var(--accent); color: var(--accent-ink); border-color: var(--accent); font-weight: 600; }
+button:disabled { opacity: .55; cursor: not-allowed; }
+.spacer { flex: 1; }
+.examples { font-size: 13px; color: var(--muted); }
+.examples button { font-size: 12px; padding: 3px 9px; margin-left: 6px; }
+.stage-head { display: flex; align-items: baseline; gap: 10px; margin: 0 0 4px; }
+.num { background: var(--accent); color: var(--accent-ink); border-radius: 999px; min-width: 26px; height: 26px; padding: 0 6px; display: inline-grid; place-items: center; font-weight: 700; font-size: 13px; }
+h2 { font-size: 17px; margin: 0; }
+.why { color: var(--muted); font-size: 13px; margin: 0 0 12px; }
+.item { border-top: 1px solid var(--line); padding: 10px 0; }
+.item:first-of-type { border-top: 0; }
+.idx { display: inline-block; min-width: 28px; font: 600 12px var(--mono); color: var(--accent); }
+.time { font: 12px var(--mono); color: var(--muted); background: var(--chip); border-radius: 4px; padding: 0 5px; margin-right: 6px; white-space: nowrap; }
+.chips { display: flex; flex-wrap: wrap; gap: 4px; margin-top: 4px; }
+.chip { font: 13px var(--mono); background: var(--chip); border-radius: 6px; padding: 1px 7px; }
+.chip.fs { background: var(--warn-bg); color: var(--warn); }
+.tag { font-size: 11px; border-radius: 999px; padding: 1px 8px; margin-left: 4px; background: var(--chip); color: var(--muted); white-space: nowrap; }
+.tag.ok { background: var(--ok-bg); color: var(--ok); } .tag.bad { background: var(--bad-bg); color: var(--bad); } .tag.warn { background: var(--warn-bg); color: var(--warn); }
+mark.skip { background: var(--skip); color: inherit; border-radius: 3px; padding: 0 2px; }
+.muted { color: var(--muted); } .small { font-size: 12px; }
+.group { border-left: 4px solid var(--gc, var(--g1)); padding: 6px 0 6px 12px; margin: 8px 0; }
+.cols { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin-top: 6px; }
+@media (max-width: 700px) { .cols { grid-template-columns: 1fr; } }
+.col { background: var(--bg); border-radius: 8px; padding: 8px 10px; }
+.col h4 { margin: 0 0 2px; font-size: 12px; text-transform: uppercase; letter-spacing: .04em; color: var(--muted); }
+.output { background: var(--bg); border-radius: 8px; padding: 10px 12px; font: 14px/1.7 var(--mono); }
+details { margin-top: 8px; font-size: 13px; } summary { cursor: pointer; color: var(--accent); }
+pre { white-space: pre-wrap; word-break: break-word; background: var(--bg); border-radius: 8px; padding: 8px 10px; font: 12px/1.5 var(--mono); max-height: 320px; overflow: auto; }
+.spin { display: inline-block; width: 14px; height: 14px; border: 2px solid var(--line); border-top-color: var(--accent); border-radius: 50%; animation: s 0.8s linear infinite; vertical-align: -2px; margin-right: 6px; }
+@keyframes s { to { transform: rotate(360deg); } }
+@media (prefers-reduced-motion: reduce) { .spin { animation: none; } }
+.step { display: grid; grid-template-columns: 26px 1fr; gap: 10px; padding: 8px 0; border-top: 1px solid var(--line); }
+.step:first-of-type { border-top: 0; }
+.ico { width: 22px; height: 22px; border-radius: 50%; display: grid; place-items: center; font-size: 13px; font-weight: 700; background: var(--chip); color: var(--muted); margin-top: 1px; }
+.ico.done { background: var(--ok-bg); color: var(--ok); } .ico.failed { background: var(--bad-bg); color: var(--bad); } .ico.running { background: none; }
+.step-title { font-weight: 600; } .step.pending .step-title { color: var(--muted); font-weight: 500; }
+.step.done .step-title { color: var(--ok); } .step.failed .step-title { color: var(--bad); }
+</style>
+</head>
+<body>
+<main>
+  <h1>ISL Pipeline Tester</h1>
+  <p class="sub">Type English, or paste a YouTube link. See what your real pipeline does at every stage: cleaning, sentences, context groups, the LLM and spaCy.</p>
+  <div class="banner">Everything below is <b>unreviewed machine output</b>. A gloss that passes the technical checks is not verified ISL; no ISL-fluent person has judged these results.</div>
+  <div class="status" id="status" aria-live="polite"></div>
+
+  <section class="card" aria-label="Input">
+    <div class="tabs" role="tablist">
+      <button class="tab" role="tab" id="tab-text" aria-selected="true" aria-controls="panel-text">Type text</button>
+      <button class="tab" role="tab" id="tab-yt" aria-selected="false" aria-controls="panel-yt">YouTube link</button>
+    </div>
+
+    <div id="panel-text" role="tabpanel" aria-labelledby="tab-text">
+      <textarea id="text" placeholder="Type or paste a sentence or a paragraph, then press Run (Ctrl+Enter)." autofocus></textarea>
+      <div class="row examples">Try an example:
+        <button type="button" data-ex="0">conditions &amp; questions</button>
+        <button type="button" data-ex="1">names &amp; numbers</button>
+        <button type="button" data-ex="2">messy transcript</button>
+      </div>
+    </div>
+
+    <div id="panel-yt" role="tabpanel" aria-labelledby="tab-yt" hidden>
+      <input type="url" id="yturl" placeholder="https://www.youtube.com/watch?v=VIDEO_ID  (also youtu.be and /shorts/ links)" autocomplete="off" spellcheck="false">
+      <div class="row">
+        <label>Gloss the first <input type="number" id="ytsent" min="1" max="40" value="10"> sentences</label>
+      </div>
+      <div id="ytnote" class="small muted" style="margin-top:8px">Only publicly viewable videos work; nothing is signed in or bypassed. Longer videos take a while to transcribe.</div>
+    </div>
+
+    <div class="row">
+      <span class="spacer"></span>
+      <button id="clear" type="button">Clear</button>
+      <button id="run" class="primary" type="button">Run pipeline</button>
+    </div>
+  </section>
+
+  <div id="msg"></div>
+  <div id="out"></div>
+</main>
+
+<script>
+"use strict";
+const $ = (id) => document.getElementById(id);
+const esc = (s) => String(s ?? "").replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+const EXAMPLES = [
+  "Hmm, we will not go outside unless it stops raining. Why do we get angry so quickly? If you practise every day, your mind will become calm.",
+  "Professor Jonathan Young invited the students to Bakersfield. She bought 3 apples yesterday. John told Peter that he would be late.",
+  "Um, today we are celebrating Bhagwan Mahavir's Janmotsav. Ek divas tu ane hu. [Music] I truly believe that Jainism is not a religion but a way of living",
+];
+let status = null, running = false, mode = "text";
+
+function fmtTime(sec) {
+  if (sec === null || sec === undefined) return "--:--";
+  const m = Math.floor(sec / 60), s = sec - m * 60;
+  return `${m}:${s.toFixed(1).padStart(4, "0")}`;
+}
+function fmtDur(sec) {
+  if (sec === null || sec === undefined) return "";
+  const m = Math.floor(sec / 60), s = Math.round(sec - m * 60);
+  return m ? `${m} min ${s} s` : `${s} s`;
+}
+function timeTag(t) {
+  if (!t) return "";
+  const title = `${t.basis} times, ${t.alignment}` + (t.basis === "chunk_interval" ? " (this sentence could not be matched word-for-word; it carries its whole cleaned chunk's interval)" : "");
+  return `<span class="time" title="${esc(title)}">${fmtTime(t.start)}–${fmtTime(t.end)}</span>`;
+}
+function marked(text, spans) {
+  const list = (spans || []).filter((s) => s.start >= 0 && s.end <= text.length && s.start < s.end).sort((a, b) => a.start - b.start);
+  let out = "", pos = 0;
+  for (const s of list) {
+    if (s.start < pos) continue;
+    out += esc(text.slice(pos, s.start)) + `<mark class="skip" title="skipped in translation: ${esc(s.reason || "")}">${esc(text.slice(s.start, s.end))}</mark>`;
+    pos = s.end;
+  }
+  return out + esc(text.slice(pos));
+}
+const tag = (t, cls = "") => `<span class="tag ${cls}">${esc(t)}</span>`;
+function chips(tokens) {
+  if (!tokens || !tokens.length) return `<span class="muted small">(empty)</span>`;
+  return `<div class="chips">${tokens.map((t) => `<span class="chip ${String(t).startsWith("FS:") ? "fs" : ""}">${esc(t)}</span>`).join("")}</div>`;
+}
+function stage(n, title, why, body, id = "") {
+  return `<section class="card"${id ? ` id="${id}"` : ""}><div class="stage-head"><span class="num">${n}</span><h2>${esc(title)}</h2></div><p class="why">${why}</p>${body}</section>`;
+}
+const range = (a) => (a.length === 0 ? "none" : a.length === 1 ? `${a[0]}` : `${a[0]}–${a[a.length - 1]}`);
+let timesByIndex = {};
+
+function renderAnalysis(a) {
+  const c = a.cleaning, src = a.source || {};
+  timesByIndex = {};
+  a.sentences.forEach((s) => { if (s.time) timesByIndex[s.index] = s.time; });
+  const limitNote = src.type === "youtube" && src.total_sentences > src.limit
+    ? `<div class="banner">Showing the first ${src.limit} of ${src.total_sentences} sentences of this video. Only these go through the next stages (change "Gloss the first N sentences" to see more).</div>` : "";
+  const cleaning = `<div class="small muted">source type: ${esc(c.source_type)} · cleaning: ${esc(c.status)}${c.warnings.length ? " · warnings: " + esc(JSON.stringify(c.warnings)) : ""}</div>` + limitNote +
+    c.chunks.map((ch) => `<div class="item"><div>${marked(ch.text, ch.skip_spans)}</div>` +
+      (ch.flags.length ? `<div class="small muted">` + ch.flags.map((f) => tag(f.code + (f.skipped ? " → skipped" : ""), f.skipped ? "warn" : "")).join("") + `</div>` : "") +
+      (ch.edit_notes.length ? `<div class="small muted">edits: ${ch.edit_notes.map(esc).join("; ")}</div>` : "") + `</div>`).join("");
+  const s1 = stage(1, "Cleaned text", `The cleaner keeps only spoken words. <mark class="skip">Highlighted</mark> words (fillers, non-English, unclear audio) stay in the record but are skipped during translation.`, cleaning);
+
+  const sents = a.sentences.map((s) => `<div class="item"><span class="idx">#${s.index}</span>${timeTag(s.time)}${marked(s.text, s.skip_spans)}` +
+    tag("group " + s.group_index) + (s.split_from_run_on ? tag("split from a run-on", "warn") : "") + (s.depends_on_previous ? tag("depends on previous", "warn") : "") +
+    (s.incomplete ? tag("incomplete", "warn") : "") + `</div>`).join("");
+  const s2 = stage(2, "Sentences", "Cleaned chunks are split into sentences, each with an index (#) and an id. Run-on text is split only at safe points." +
+    (src.type === "youtube" ? " Times are seconds from the start of the video, read from the matched words or segments." : ""), sents || `<p class="muted">Nothing left to translate after cleaning.</p>`);
+
+  const gs = a.groups.map((g) => `<div class="group" style="--gc: var(--g${((g.index - 1) % 5) + 1})"><b>Group ${g.index}</b> · sentences ${range(g.sentences)} · ${g.chars} characters` +
+    `<div class="small muted">ended because ${esc(g.boundary_text)}${g.oversize ? " · oversize" : ""}${g.forced_boundary ? " · forced" : ""}</div>` +
+    (g.context_before.length ? `<div class="small muted">read-only context before: sentence ${g.context_before.join(", ")}</div>` : "") +
+    (g.context_after.length ? `<div class="small muted">read-only context after: sentence ${g.context_after.join(", ")}</div>` : "") + `</div>`).join("");
+  const s3 = stage(3, "Context groups", `Nearby sentences are bundled so the model can see context (who "he" is). Each group becomes <b>one LLM request</b>: ${a.estimated_llm_requests} request(s) for this text.`, gs);
+  return s1 + s2 + s3;
+}
+
+function renderLLM(l) {
+  let body = "";
+  if (l.error) {
+    const hint = l.error.kind === "missing_api_key" ? " Add GROQ_API_KEY to the .env file and restart the tester." : "";
+    body += `<div class="banner bad"><b>LLM unavailable:</b> ${esc(l.error.kind)} — ${esc(l.error.message)}${esc(hint)} Layer 2 (spaCy) still ran.</div>`;
+  }
+  if (l.stop_reason) body += `<div class="banner bad">The run stopped early: ${esc(l.stop_reason)}</div>`;
+  body += l.rows.map((r) => {
+    const showFinal = r.final_tokens && JSON.stringify(r.final_tokens) !== JSON.stringify(r.candidate_tokens);
+    const empty = r.status === "translated" && !(r.candidate_tokens && r.candidate_tokens.length);
+    const st = empty ? tag("no gloss returned", "bad") : r.status === "translated" ? tag("translated", "ok") : tag(r.status, r.status === "failed" ? "bad" : "");
+    return `<div class="item"><span class="idx">#${r.index}</span>${timeTag(timesByIndex[r.index])}${esc(r.llm_input_text || r.source_text)} ${st}` +
+      (r.cache_hit ? tag("saved answer") : "") + (r.status === "translated" && r.needs_human_review ? tag("model asks for review", "warn") : "") +
+      (r.status === "translated" ? (empty ? `<div class="small" style="color:var(--bad)">The model declined to give a gloss for this sentence (see its notes below). A sentence like this should be re-run, for example with prompt 8.0, or reviewed by hand.</div>` : chips(r.candidate_tokens)) : "") +
+      (showFinal ? `<div class="small muted">after the small rule pass (${r.applied_rules.map(esc).join(", ")}):</div>${chips(r.final_tokens)}` : "") +
+      (r.uncertainty_notes ? `<div class="small muted">notes: ${esc(r.uncertainty_notes)}</div>` : "") +
+      (r.uncertain_parts && r.uncertain_parts.length ? `<div class="small muted">doubtful: ${r.uncertain_parts.map(esc).join(", ")}</div>` : "") +
+      (r.warnings.length ? `<div class="small">${r.warnings.map((w) => tag(w.code, w.severity === "failed" ? "bad" : "warn")).join("")}</div>` : "") +
+      (r.error ? `<div class="small" style="color:var(--bad)">${esc(r.error.kind)}: ${esc(r.error.message)}</div>` : "") + `</div>`;
+  }).join("");
+  const u = l.usage;
+  if (u) body += `<div class="small muted">${u.llm_calls} request(s) made now · ${u.total_tokens} tokens · ${u.latency_seconds}s · model ${esc(l.model)} · prompt ${esc(l.prompt_version)} · reasoning ${esc(l.reasoning_effort)}${u.empty_gloss_retries ? " · empty-gloss retries " + u.empty_gloss_retries : ""}</div>`;
+  body += `<details><summary>Exactly what was sent to the model</summary>` +
+    l.requests.map((p) => `<div class="small muted" style="margin-top:8px">${esc(p.group_id)} — user message:</div><pre>${esc(p.user_payload)}</pre>`).join("") +
+    `<div class="small muted" style="margin-top:8px">System prompt (${l.system_prompt.length} characters):</div><pre>${esc(l.system_prompt)}</pre></details>`;
+  return stage(4, "Layer 1 · LLM response", "Each group goes to the model with a long instruction prompt. It returns a candidate gloss per sentence, plus any doubts. A tiny rule pass then fixes formatting.", body);
+}
+
+function renderSpacy(sp) {
+  let body = "";
+  if (!sp.available) body += `<div class="banner bad">spaCy is not available: ${esc(sp.problem)}</div>`;
+  body += sp.rows.map((r) => `<div class="item"><span class="idx">#${r.index}</span>${timeTag(timesByIndex[r.index])}${esc(r.source_text)} ` +
+    (r.spacy_status === "ok" ? tag("ok", "ok") : tag(r.spacy_status, "bad")) + (r.spacy_status === "ok" ? chips(r.spacy_tokens) : "") +
+    (r.spacy_error ? `<div class="small" style="color:var(--bad)">${esc(r.spacy_error.kind)}: ${esc(r.spacy_error.message)}</div>` : "") + `</div>`).join("");
+  const v = sp.versions;
+  body += `<div class="small muted">spaCy ${esc(v.spacy)} · en_core_web_sm ${esc(v.en_core_web_sm)} · reference commit ${esc(v.reference.commit.slice(0, 7))}</div>`;
+  return stage(5, "Layer 2 · spaCy response", "A rule-based translator (VirtualISLInterpreter) works on the same cleaned sentence. It never sees the LLM's answer. Output is lower-case words in a dependency-based order.", body);
+}
+
+function glossOf(it, which) { return which === "LLM" ? (it.llm_gloss || "") : (it.spacy_gloss || ""); }
+function renderCompare(c, sp) {
+  const spTok = Object.fromEntries(sp.rows.map((r) => [r.index, r.spacy_tokens]));
+  const out = c.items.map((it) => {
+    const g = it.selected_candidate ? glossOf(it, it.selected_candidate) : "";
+    return `<div><span class="idx">#${it.index}</span>${timeTag(timesByIndex[it.index])}${it.selected_candidate ? esc(g) + ` <span class="muted small">(${esc(it.selected_candidate)})</span>` : `<span class="muted">— nothing carried forward; see the reason below</span>`}</div>`;
+  }).join("");
+  const sel = c.summary.selection;
+  let body = `<div class="output" aria-label="Output carried forward">${out}</div>` +
+    `<div class="small muted" style="margin:6px 0 12px">Policy: the LLM is the <b>primary</b> candidate; spaCy is an independent alternative, used only if the LLM technically fails and its output passes a stricter check. ` +
+    `LLM kept by default: ${sel.llm_primary_by_policy_default} · spaCy selected: ${sel.spacy_selected} · flagged for review: ${sel.needs_human_review_total}. Selections backed by reviewed evidence: ${sel.evidence_based_selections}.</div>`;
+  body += c.items.map((it) => {
+    const w = (list) => list.filter((x) => x.severity !== "info").map((x) => tag(x.code, x.severity === "invalid" ? "bad" : "warn")).join("");
+    const d = it.candidate_difference;
+    return `<div class="item"><span class="idx">#${it.index}</span>${timeTag(timesByIndex[it.index])}<b>${esc(it.cleaned_source_text)}</b>` +
+      `<div class="cols"><div class="col"><h4>LLM ${it.llm_gloss ? tag(it.llm_status) : tag("no gloss returned", "bad")}</h4>${chips((it.llm_gloss || "").split(/\s+/).filter(Boolean))}<div class="small">${w(it.llm_warnings)}</div></div>` +
+      `<div class="col"><h4>spaCy ${tag(it.spacy_status)}</h4>${chips(spTok[it.index] || [])}<div class="small">${w(it.spacy_warnings)}</div></div></div>` +
+      `<div class="small" style="margin-top:6px">${tag(it.selection_status, it.needs_human_review ? "warn" : "ok")}${it.needs_human_review ? tag("flagged for review", "warn") : ""}` +
+      ` ${esc(it.selection_reason)}</div>` +
+      (d.comparable && !d.identical_after_normalisation ? `<div class="small muted">words only in LLM: ${esc(d.only_in_llm.join(" ") || "—")} · only in spaCy: ${esc(d.only_in_spacy.join(" ") || "—")} (descriptive, not a quality score)</div>` : "") + `</div>`;
+  }).join("");
+  body += `<div class="banner">${esc(c.note)}</div>`;
+  return stage(6, "Comparison and output", "Both candidates side by side, what the policy carried forward, and why. Warnings are heuristic prompts to look, not errors.", body);
+}
+
+// ---- the video steps (YouTube link) ---------------------------------------------------------------------------------------------
+function stepDetail(st) {
+  const d = st.detail || {};
+  if (st.state !== "done") return "";
+  if (st.key === "video") return [d.title, d.duration_seconds != null ? fmtDur(d.duration_seconds) : "", d.channel].filter(Boolean).map(esc).join(" · ");
+  if (st.key === "audio") return [d.duration_seconds != null ? `${fmtDur(d.duration_seconds)} of audio` : "", d.sample_rate ? `${d.sample_rate} Hz, ${d.channels === 1 ? "mono" : d.channels + " ch"}` : "", "timeline kept (nothing trimmed)"].filter(Boolean).join(" · ") +
+    (d.warnings && d.warnings.length ? `<div class="small" style="color:var(--warn)">${d.warnings.map(esc).join("<br>")}</div>` : "");
+  const lvl = d.timestamp_level ? `${d.timestamp_level}-level timestamps` : "";
+  return [`${d.segments} segment(s)`, lvl, d.language ? "language " + d.language : "", d.model ? `${d.engine} / ${d.model}` : ""].filter(Boolean).map(esc).join(" · ") +
+    (d.warnings && d.warnings.length ? `<div class="small muted">${d.warnings.map(esc).join("<br>")}</div>` : "");
+}
+function renderSteps(s) {
+  const rows = s.steps.map((st) => {
+    const ico = st.state === "done" ? "✓" : st.state === "failed" ? "✗" : st.state === "running" ? `<span class="spin" style="margin:0"></span>` : "○";
+    const sub = st.state === "running" && s.progress && s.progress.length ? `<div class="small muted">${esc(s.progress[0])}</div>` : "";
+    return `<div class="step ${st.state}"><span class="ico ${st.state}">${ico}</span><div><div class="step-title">${esc(st.label)}${st.state === "running" ? "…" : ""}` +
+      `${st.reused && st.state === "done" ? tag("reused saved result") : ""}</div><div class="small muted">${stepDetail(st)}</div>${sub}</div></div>`;
+  }).join("");
+  let extra = "";
+  if (s.error) extra += `<div class="banner bad"><b>Stopped at the ${esc(s.error.stage || "")} step:</b> ${esc(s.error.message)}${s.error.hint ? "<br>" + esc(s.error.hint) : ""}<br><span class="small">Nothing was sent to the LLM.</span></div>`;
+  if (s.ready && s.transcript) {
+    const t = s.transcript;
+    extra += `<details><summary>Transcript with timestamps (${t.total_segments} segment${t.total_segments === 1 ? "" : "s"}${t.total_segments > t.segments.length ? ", first " + t.segments.length + " shown" : ""})</summary><pre>` +
+      t.segments.map((g) => `[${fmtTime(g.start)} → ${fmtTime(g.end)}] ${esc(g.text)}`).join("\n") + `</pre></details>`;
+  }
+  return `<section class="card" id="videocard"><div class="stage-head"><span class="num">▶</span><h2>Video → audio → transcript</h2></div>` +
+    `<p class="why">The link is checked, the audio is downloaded and converted (timeline untouched), then transcribed with timestamps. The LLM is not used in these steps.</p>${rows}${extra}</section>`;
+}
+
+async function post(path, payload) {
+  const res = await fetch(path, { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify(payload) });
+  const data = await res.json().catch(() => ({ error: "The server sent an unreadable reply." }));
+  if (!res.ok) { const e = new Error(data.error || `Request failed (${res.status})`); e.hint = data.hint; throw e; }
+  return data;
+}
+const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
+function common() {
+  return {};  // no options on the page: the server's defaults apply (project prompt, medium reasoning, saved answers reused)
+}
+
+async function runPipeline(payload, headHtml) {
+  const a = await post("/api/analyze", payload);
+  const pending = `<section class="card" id="pending"><div class="stage-head"><span class="num">4–6</span><h2>LLM, spaCy and comparison</h2></div><p class="why"><span class="spin"></span>${`Calling the model (${a.estimated_llm_requests} request(s)); this can take 10–60 seconds…`}</p></section>`;
+  $("out").innerHTML = headHtml + renderAnalysis(a) + pending;
+  const t = await post("/api/translate", payload);
+  $("out").innerHTML = headHtml + renderAnalysis(a) + renderLLM(t.llm) + renderSpacy(t.spacy) + renderCompare(t.comparison, t.spacy);
+}
+
+async function runText() {
+  const o = { text: $("text").value, ...common() };
+  if (!o.text.trim()) { $("msg").innerHTML = `<div class="banner bad">Type a sentence or a paragraph first.</div>`; return; }
+  await runPipeline(o, "");
+}
+
+async function runYouTube() {
+  const url = $("yturl").value.trim();
+  if (!url) { $("msg").innerHTML = `<div class="banner bad">Paste a YouTube link first.</div>`; return; }
+  if (status && !status.youtube.available) { $("msg").innerHTML = `<div class="banner bad">YouTube support is not ready on this computer. Missing: ${status.youtube.missing.map(esc).join(", ")}</div>`; return; }
+  const started = await post("/api/youtube/start", { url });
+  let s;
+  for (;;) {
+    s = await (await fetch("/api/youtube/status?job_id=" + encodeURIComponent(started.job_id))).json();
+    if (s.error && !s.steps) throw new Error(s.error);
+    $("out").innerHTML = renderSteps(s);
+    if (!s.running) break;
+    await sleep(1000);
+  }
+  if (!s.ready) return;  // a step failed: the failure is shown on the card and nothing further runs
+  const payload = { job_id: started.job_id, max_sentences: +$("ytsent").value || 10, ...common() };
+  await runPipeline(payload, renderSteps(s));
+}
+
+async function run() {
+  if (running) return;
+  running = true; $("run").disabled = true; $("msg").innerHTML = ""; $("out").innerHTML = "";
+  try {
+    if (mode === "yt") await runYouTube(); else await runText();
+  } catch (e) {
+    $("msg").innerHTML = `<div class="banner bad">${esc(e.message)}${e.hint ? "<br>" + esc(e.hint) : ""}</div>`;
+    const p = $("pending"); if (p) p.remove();
+  } finally { running = false; $("run").disabled = false; }
+}
+
+function setMode(m) {
+  mode = m;
+  $("tab-text").setAttribute("aria-selected", m === "text"); $("tab-yt").setAttribute("aria-selected", m === "yt");
+  $("panel-text").hidden = m !== "text"; $("panel-yt").hidden = m !== "yt";
+  $("msg").innerHTML = "";
+  (m === "yt" ? $("yturl") : $("text")).focus();
+}
+async function init() {
+  document.querySelectorAll("[data-ex]").forEach((b) => b.addEventListener("click", () => { $("text").value = EXAMPLES[+b.dataset.ex]; $("text").focus(); }));
+  $("tab-text").addEventListener("click", () => setMode("text")); $("tab-yt").addEventListener("click", () => setMode("yt"));
+  $("run").addEventListener("click", run);
+  $("clear").addEventListener("click", () => { $("text").value = ""; $("yturl").value = ""; $("out").innerHTML = ""; $("msg").innerHTML = ""; });
+  $("text").addEventListener("keydown", (e) => { if ((e.ctrlKey || e.metaKey) && e.key === "Enter") { e.preventDefault(); run(); } });
+  $("yturl").addEventListener("keydown", (e) => { if (e.key === "Enter") { e.preventDefault(); run(); } });
+  try {
+    const r = await fetch("/api/status"); status = await r.json();
+    $("ytsent").value = status.default_video_sentences;
+    const pills = [];
+    pills.push(status.llm_key_present ? `<span class="pill ok">Groq key found</span>` : `<span class="pill bad" title="Add GROQ_API_KEY to .env, then restart">Groq key missing: the LLM stage will be skipped</span>`);
+    pills.push(status.spacy_available ? `<span class="pill ok">spaCy ready</span>` : `<span class="pill bad" title="${esc(status.spacy_problem)}">spaCy not available</span>`);
+    pills.push(status.youtube.available ? `<span class="pill ok">YouTube ready</span>` : `<span class="pill bad" title="${esc(status.youtube.missing.join(", "))}">YouTube not ready: ${esc(status.youtube.missing.join(", "))}</span>`);
+    pills.push(`<span class="pill">model ${esc(status.model)}</span>`, `<span class="pill">text limit ${status.limits.max_chars} characters / ${status.limits.max_sentences} sentences</span>`);
+    $("status").innerHTML = pills.join("");
+  } catch (e) { $("status").innerHTML = `<span class="pill bad">Cannot reach the local server</span>`; }
+}
+init();
+</script>
+</body>
+</html>

@@ -3,3 +3,6 @@ __pycache__/
 *.pyc
 data/translations/*.llm_cache.jsonl
 .venv/
+data/demo/
+data/jobs/
+deploy/
