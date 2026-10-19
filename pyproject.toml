@@ -12,6 +12,8 @@ dependencies = []
 [project.optional-dependencies]
 # Layer 2 only. The spaCy model is a separate download: python -m spacy download en_core_web_sm
 layer2 = ["spacy>=3.5", "nltk"]
+# YouTube ingestion only. FFmpeg is a separate program; the Whisper model downloads on first use.
+youtube = ["yt-dlp", "faster-whisper"]
 
 [project.scripts]
 transcript-cleaner = "transcript_cleaner.cli:main"
@@ -22,3 +24,4 @@ where = ["src"]
 
 [tool.setuptools.package-data]
 transcript_cleaner = ["schemas/*.json"]
+isl_gloss = ["webui/static/*.html"]

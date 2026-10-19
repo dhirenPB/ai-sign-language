@@ -126,6 +126,25 @@ def _row(l1: dict, spacy: SpacyResult, cmp: Comparison, sel, text: str) -> dict[
     }
 
 
+def build_items(rows: list[dict], translator: SpacyTranslator, cfg: Layer2Config,
+                log: Callable[[str], None] = lambda m: None) -> tuple[list[SpacyResult], list[dict]]:
+    """Layer 2 for already-loaded Layer 1 result rows: spaCy on the same cleaned text, comparison, selection. Pure computation:
+    nothing is read from or written to disk, and no LLM is called. Used by run_layer2 and by the interactive demo page."""
+    spacy_results: list[SpacyResult] = []
+    items: list[dict] = []
+    for l1 in rows:
+        text = l1.get("llm_input_text") if l1.get("llm_input_text") is not None else (l1.get("source_text") or "")
+        meta = {k: l1.get(k) for k in ("speaker_id", "start_timestamp", "end_timestamp", "turn_index")}
+        res = translator.translate(l1["sentence_id"], text, group_id=l1.get("group_id"), metadata=meta)
+        if res.spacy_status in ("error", "unavailable"):
+            log(f"spaCy {res.spacy_status} for {l1['sentence_id']}: {(res.spacy_error or {}).get('kind')}: {(res.spacy_error or {}).get('message', '')[:160]}")
+        cmp = compare_candidates(l1["sentence_id"], text, l1, res, cfg.llm_field)
+        sel = select(cmp, cfg.policy)
+        spacy_results.append(res)
+        items.append(_row(l1, res, cmp, sel, text))
+    return spacy_results, items
+
+
 def run_layer2(layer1_path: str | Path, out_dir: str | Path, cfg: Optional[Layer2Config] = None,
                translator: Optional[SpacyTranslator] = None, log: Callable[[str], None] = lambda m: None) -> dict[str, Any]:
     cfg = cfg or Layer2Config()
@@ -139,18 +158,7 @@ def run_layer2(layer1_path: str | Path, out_dir: str | Path, cfg: Optional[Layer
     hash_before = sha256_file(layer1_path)
     doc, rows = load_layer1_results(layer1_path)
 
-    spacy_results: list[SpacyResult] = []
-    items: list[dict] = []
-    for l1 in rows:
-        text = l1.get("llm_input_text") if l1.get("llm_input_text") is not None else (l1.get("source_text") or "")
-        meta = {k: l1.get(k) for k in ("speaker_id", "start_timestamp", "end_timestamp", "turn_index")}
-        res = translator.translate(l1["sentence_id"], text, group_id=l1.get("group_id"), metadata=meta)
-        if res.spacy_status in ("error", "unavailable"):
-            log(f"spaCy {res.spacy_status} for {l1['sentence_id']}: {(res.spacy_error or {}).get('kind')}: {(res.spacy_error or {}).get('message', '')[:160]}")
-        cmp = compare_candidates(l1["sentence_id"], text, l1, res, cfg.llm_field)
-        sel = select(cmp, cfg.policy)
-        spacy_results.append(res)
-        items.append(_row(l1, res, cmp, sel, text))
+    spacy_results, items = build_items(rows, translator, cfg, log)
 
     hash_after = sha256_file(layer1_path)
     summary = summarise(items, spacy_results)
