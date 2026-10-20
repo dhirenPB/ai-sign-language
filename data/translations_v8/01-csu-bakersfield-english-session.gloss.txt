@@ -1,0 +1,121 @@
+# 01-csu-bakersfield-english-session  (UNREVIEWED candidate gloss)
+
+[01-csu-bakersfield-english-session-s0001] Okay, I just wanted to say good morning to everyone.
+    GLOSS: GOOD_MORNING EVERYONE   <review_required>
+
+[01-csu-bakersfield-english-session-s0002] I know my students are still coming in and joining us and I see we have a number of other guests.
+    GLOSS: STUDENT STILL COME JOIN WE NUMBER OTHER GUEST
+
+[01-csu-bakersfield-english-session-s0003] I'm happy to have you with us this morning.
+    GLOSS: HAPPY YOU WITH US THIS MORNING
+
+[01-csu-bakersfield-english-session-s0004] or this evening depending on where you are in the world.
+    GLOSS: OR THIS EVENING DEPEND WHERE YOU WORLD
+
+[01-csu-bakersfield-english-session-s0005] I know we have a global audience today.
+    GLOSS: KNOW WE GLOBAL AUDIENCE TODAY
+
+[01-csu-bakersfield-english-session-s0006] It's pretty exciting I think.
+    GLOSS: PRETTY EXCITING THINK
+
+[01-csu-bakersfield-english-session-s0007] I'm glad we have this opportunity.
+    GLOSS: GLAD WE THIS OPPORTUNITY
+
+[01-csu-bakersfield-english-session-s0008] Okay everyone, like we can begin.
+    GLOSS: OK EVERYONE CAN BEGIN
+
+[01-csu-bakersfield-english-session-s0009] just to to clarify, this is a introductory course at California State University Bakersfield on the religions of Asia.
+    GLOSS: CLARIFY THIS IS INTRODUCTORY COURSE FS:CALIFORNIA FS:STATE FS:UNIVERSITY FS:BAKERSFIELD ON RELIGION ASIA
+
+[01-csu-bakersfield-english-session-s0010] And this week in particular, we are taking a look at the Jane tradition and we are fortunate to have with us some guest speakers to teach us more about the tradition from their perspective.
+    GLOSS: THIS WEEK PARTICULAR WE TAKE LOOK AT TRADITION WE FORTUNATE HAVE GUEST SPEAKER TEACH US MORE ABOUT TRADITION FROM THEIR PERSPECTIVE
+
+[01-csu-bakersfield-english-session-s0011] These are people who have practiced the religion for quite some time and can share with us.
+    GLOSS: THESE PEOPLE WHO PRACTICE RELIGION LONG TIME CAN SHARE WITH US
+
+[01-csu-bakersfield-english-session-s0012] some basics on Jane ideas, philosophy and practice.
+    GLOSS: SOME BASIC ON IDEA PHILOSOPHY PRACTICE
+
+[01-csu-bakersfield-english-session-s0013] And hopefully we'll have some chance at the end for questions as well.
+    GLOSS: HOPEFULLY END HAVE CHANCE FOR QUESTION ALSO
+
+[01-csu-bakersfield-english-session-s0014] So I want to begin with a greeting which I learned from my Jain friends over the last couple of years, Jai Jin Indra, which is, Shaileshya Didi maybe the best way to explain that, you can correct me if I'm wrong, but it's something like homage to the victor, the Jina.
+    GLOSS: I WANT BEGIN WITH GREETING LEARN FROM MY FS:JAIN FRIEND LAST COUPLE YEAR FS:INDRA BEST WAY EXPLAIN YOU CAN CORRECT ME IF WRONG BUT SOMETHING LIKE HOMAGE TO VICTOR FS:JINA   <review_required>
+
+[01-csu-bakersfield-english-session-s0015] The Lord Jina.
+    GLOSS: LORD FS:JINA
+
+[01-csu-bakersfield-english-session-s0016] So, that's something you can take right off the bat.
+    GLOSS: SO THAT SOMETHING YOU CAN TAKE RIGHT_OFF_THE_BAT
+
+[01-csu-bakersfield-english-session-s0017] Yes, yes, yes.
+    GLOSS: YES YES YES
+
+[01-csu-bakersfield-english-session-s0018] By Janindra, a greeting if you do meet James in your community and you'd like to offer a proper greeting.
+    GLOSS: IF YOU MEET FS:JAMES IN YOUR COMMUNITY AND YOU LIKE OFFER PROPER_GREETING
+
+[01-csu-bakersfield-english-session-s0019] With that said, let me introduce you to, some of the people we'll be hearing from today.
+    GLOSS: LET_ME INTRODUCE YOU TO SOME PEOPLE WE HEAR FROM TODAY
+
+[01-csu-bakersfield-english-session-s0020] So, the leading guru or teacher, as my students should know, for the community of Jains we'll be learning from, is Rashtrasant Param Gurudev Sri Namramuni Maharaj Sahi.
+    GLOSS: LEADING GURU TEACHER AS MY STUDENTS SHOULD KNOW FOR COMMUNITY OF JAIN WE LEARN FROM IS FS:RASHTRASANT FS:PARAM FS:GURUDEV FS:SRI FS:NAMRAMUNI FS:MAHARAJ FS:SAHI   <review_required>
+
+[01-csu-bakersfield-english-session-s0021] His community sees him as a Jain saint whose thoughts, words, and work are an inspiration for people around the world.
+    GLOSS: HIS COMMUNITY SEES HIM AS JAIN SAINT WHOSE THOUGHTS WORDS WORK ARE INSPIRATION FOR PEOPLE AROUND WORLD
+
+[01-csu-bakersfield-english-session-s0022] For his community, he's not only a profound visionary, but also humanitarian, working to engender a positive difference in countless lives globally.
+    GLOSS: FOR HIS COMMUNITY HE NOT_ONLY PROFOUND VISIONARY BUT ALSO HUMANITARIAN WORKING TO CREATE POSITIVE DIFFERENCE IN COUNTLESS LIVES GLOBALLY
+
+[01-csu-bakersfield-english-session-s0023] He's the founder of Parastham, a socio-religious organization in India with humanitarian initiatives and spiritually uplifting missions across the world.
+    GLOSS: HE FOUNDER OF FS:PARASTHAM SOCIO_RELIGIOUS ORGANIZATION IN INDIA WITH HUMANITARIAN INITIATIVES AND SPIRITUALLY UPLIFTING MISSIONS ACROSS WORLD
+
+[01-csu-bakersfield-english-session-s0024] So far, he's inspired 37 young women and men to accept renunciation in the Jain tradition.
+    GLOSS: SO_FAR HE INSPIRED 37 YOUNG WOMEN MEN TO ACCEPT RENUNCIATION IN JAIN TRADITION
+
+[01-csu-bakersfield-english-session-s0025] We'll learn more about, about the guru, Sri Namramuni Maharaj Sahib as we go.
+    GLOSS: WE WILL LEARN MORE ABOUT GURU FS:SRI FS:NAMRAMUNI FS:MAHARAJ FS:SAHIB AS WE GO
+
+[01-csu-bakersfield-english-session-s0026] But I want to introduce our speaker today, Param Asmitaji Mahasataji, who is one among the disciples of Gurudev.
+    GLOSS: BUT I WANT INTRODUCE OUR SPEAKER TODAY FS:PARAM FS:ASMITAJI FS:MAHASATAJI WHO ONE AMONG DISCIPLES OF FS:GURUDEV
+
+[01-csu-bakersfield-english-session-s0027] She's a leading cosmetologist, having treated renowned celebrities in India, and her life underwent a complete transformation when Asmitaji Mahasatji heard just one audio CD of Param Gurudev's discourse on the real identity of the soul.
+    GLOSS: SHE LEADING COSMETOLOGIST HAVE TREATED RENOWNED CELEBRITIES IN INDIA AND HER LIFE UNDERGO COMPLETE TRANSFORMATION WHEN FS:ASMITAJI FS:MAHASATJI HEAR ONE AUDIO CD OF FS:PARAM FS:GURUDEV DISCOURSE ON REAL IDENTITY OF SOUL   <review_required>
+
+[01-csu-bakersfield-english-session-s0028] After deep contemplation, she decided to adopt Jain Diksha, that is renunciation from the materialistic world in 2016 under the guidance of Gurudev.
+    GLOSS: AFTER DEEP CONTEMPLATION SHE DECIDE ADOPT FS:JAIN FS:DIKSHA THAT RENUNCIATION FROM MATERIALISTIC WORLD 2016 UNDER GUIDANCE OF FS:GURUDEV
+
+[01-csu-bakersfield-english-session-s0029] Since then she's dedicated her life in the pursuit of truth.
+    GLOSS: SINCE THEN SHE DEDICATE HER LIFE IN PURSUIT OF TRUTH
+
+[01-csu-bakersfield-english-session-s0030] She has been delivering online discourses on various subjects of Jainism for devotees from various countries like the United States, but also the UK, Malaysia, Singapore, UAE, Sudan, Congo, Sweden, and Australia.
+    GLOSS: SHE DELIVER ONLINE DISCOURSES ON VARIOUS SUBJECTS OF FS:JAISM FOR DEVOTEES FROM VARIOUS COUNTRIES LIKE FS:UNITED FS:STATES BUT ALSO FS:UK FS:MALAYSIA FS:SINGAPORE FS:UAE FS:SUDAN FS:CONGO FS:SWEDEN AND FS:AUSTRALIA   <review_required>
+
+[01-csu-bakersfield-english-session-s0031] That's quite a resume.
+    GLOSS: THAT QUITE RESUME
+
+[01-csu-bakersfield-english-session-s0032] So we were fortunate to have her with us.
+    GLOSS: SO WE FORTUNATE HAVE HER WITH US
+
+[01-csu-bakersfield-english-session-s0033] with us this morning.
+    GLOSS: WITH US THIS MORNING
+
+[01-csu-bakersfield-english-session-s0034] So without further ado, please welcome Asmita Ji Masaji.
+    GLOSS: SO WITHOUT FURTHER ADO PLEASE WELCOME FS:ASMITA FS:JI FS:MASAJI
+
+[01-csu-bakersfield-english-session-s0035] Shasanpati Shraman Bhagwan Mahavir Swami ne bhavpurvak vandan.
+    GLOSS: FS:SHASANPATI FS:SHRAMAN FS:BHA FS:MAHAVIR FS:SWAMI NE BHAVPURVAK VANDAN   <review_required>
+
+[01-csu-bakersfield-english-session-s0036] Asim upkari rashtrasant param gurudev aap shreena shree charanoma bhavpurvak vandan.
+    GLOSS: FS:ASIM UPKARI RASHTRASANT PARAM GURUDEV AAP SHREENA SHREE CHARANOMA BHAVPURVAK VANDAN
+
+[01-csu-bakersfield-english-session-s0037] a very warm welcome.
+    GLOSS: VERY WARM WELCOME
+
+[01-csu-bakersfield-english-session-s0038] To all of you It's very interesting to know the curiosity.
+    GLOSS: ALL YOU IT VERY INTERESTING KNOW CURIOUSITY   <review_required>
+
+[01-csu-bakersfield-english-session-s0039] that you all have within your hearts to know about all the different religions of this world.
+    GLOSS: YOU ALL HAVE HEART INSIDE KNOW ABOUT ALL DIFFERENT RELIGIONS WORLD
+
+[01-csu-bakersfield-english-session-s0040] And today, we have been blessed with this opportunity to gain some insight.
+    GLOSS: TODAY WE BLESSED THIS OPPORTUNITY GAIN INSIGHT

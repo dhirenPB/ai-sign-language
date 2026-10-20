@@ -1,0 +1,1230 @@
+{
+  "report_type": "sentences_and_groups",
+  "tool_version": "0.1.0",
+  "source_id": "03-manage-your-emotional-memories",
+  "summary": {
+    "groups": 6,
+    "sentences": 40,
+    "sentences_per_group_avg": 6.7,
+    "sentences_per_group_max": 8,
+    "boundary_reasons": {
+      "max_sentences": 5,
+      "end": 1
+    },
+    "forced_boundaries": 0,
+    "oversize_groups": 0,
+    "groups_with_context_before": 0,
+    "groups_with_context_after": 0
+  },
+  "sentences": [
+    {
+      "sentence_id": "03-manage-your-emotional-memories-s0001",
+      "source_text": "Hello Hi students The California State University where Professor Jonathan Young has invited to take a session on philosophy and religious studies",
+      "start_timestamp": null,
+      "end_timestamp": null,
+      "speaker_id": "Speaker 1",
+      "turn_index": 0,
+      "incomplete": true,
+      "depends_on_previous": false,
+      "dependency_reasons": [],
+      "skip_spans": [],
+      "excluded_spans": [],
+      "source_metadata": {
+        "source_id": "03-manage-your-emotional-memories",
+        "parent_chunk_id": "03-manage-your-emotional-memories-0001",
+        "split_method": "runon_capital_opener",
+        "piece": [
+          1,
+          2
+        ],
+        "source_start_offset": null,
+        "source_end_offset": null,
+        "cue_indices": null,
+        "cue_ids": null
+      }
+    },
+    {
+      "sentence_id": "03-manage-your-emotional-memories-s0002",
+      "source_text": "Today, first of all, I would like to appreciate your curiosity to learn something about Jainism.",
+      "start_timestamp": null,
+      "end_timestamp": null,
+      "speaker_id": "Speaker 1",
+      "turn_index": 0,
+      "incomplete": false,
+      "depends_on_previous": true,
+      "dependency_reasons": [
+        "previous_incomplete"
+      ],
+      "skip_spans": [],
+      "excluded_spans": [],
+      "source_metadata": {
+        "source_id": "03-manage-your-emotional-memories",
+        "parent_chunk_id": "03-manage-your-emotional-memories-0001",
+        "split_method": "runon_capital_opener",
+        "piece": [
+          2,
+          2
+        ],
+        "source_start_offset": null,
+        "source_end_offset": null,
+        "cue_indices": null,
+        "cue_ids": null
+      }
+    },
+    {
+      "sentence_id": "03-manage-your-emotional-memories-s0003",
+      "source_text": "I truly believe that Jainism is Not a religion",
+      "start_timestamp": null,
+      "end_timestamp": null,
+      "speaker_id": "Speaker 1",
+      "turn_index": 0,
+      "incomplete": true,
+      "depends_on_previous": false,
+      "dependency_reasons": [],
+      "skip_spans": [],
+      "excluded_spans": [],
+      "source_metadata": {
+        "source_id": "03-manage-your-emotional-memories",
+        "parent_chunk_id": "03-manage-your-emotional-memories-0002",
+        "split_method": "runon_capital_opener",
+        "piece": [
+          1,
+          2
+        ],
+        "source_start_offset": null,
+        "source_end_offset": null,
+        "cue_indices": null,
+        "cue_ids": null
+      }
+    },
+    {
+      "sentence_id": "03-manage-your-emotional-memories-s0004",
+      "source_text": "But it is a philosophy and a way of living.",
+      "start_timestamp": null,
+      "end_timestamp": null,
+      "speaker_id": "Speaker 1",
+      "turn_index": 0,
+      "incomplete": false,
+      "depends_on_previous": true,
+      "dependency_reasons": [
+        "continuation_word",
+        "previous_incomplete"
+      ],
+      "skip_spans": [],
+      "excluded_spans": [],
+      "source_metadata": {
+        "source_id": "03-manage-your-emotional-memories",
+        "parent_chunk_id": "03-manage-your-emotional-memories-0002",
+        "split_method": "runon_capital_opener",
+        "piece": [
+          2,
+          2
+        ],
+        "source_start_offset": null,
+        "source_end_offset": null,
+        "cue_indices": null,
+        "cue_ids": null
+      }
+    },
+    {
+      "sentence_id": "03-manage-your-emotional-memories-s0005",
+      "source_text": "Whenever we do any action It creates an image.",
+      "start_timestamp": null,
+      "end_timestamp": null,
+      "speaker_id": "Speaker 1",
+      "turn_index": 0,
+      "incomplete": false,
+      "depends_on_previous": false,
+      "dependency_reasons": [],
+      "skip_spans": [],
+      "excluded_spans": [],
+      "source_metadata": {
+        "source_id": "03-manage-your-emotional-memories",
+        "parent_chunk_id": "03-manage-your-emotional-memories-0003",
+        "split_method": null,
+        "piece": [
+          1,
+          1
+        ],
+        "source_start_offset": 504,
+        "source_end_offset": 550,
+        "cue_indices": null,
+        "cue_ids": null
+      }
+    },
+    {
+      "sentence_id": "03-manage-your-emotional-memories-s0006",
+      "source_text": "an impression in your mind.",
+      "start_timestamp": null,
+      "end_timestamp": null,
+      "speaker_id": "Speaker 1",
+      "turn_index": 0,
+      "incomplete": false,
+      "depends_on_previous": true,
+      "dependency_reasons": [
+        "lowercase_start"
+      ],
+      "skip_spans": [],
+      "excluded_spans": [],
+      "source_metadata": {
+        "source_id": "03-manage-your-emotional-memories",
+        "parent_chunk_id": "03-manage-your-emotional-memories-0004",
+        "split_method": null,
+        "piece": [
+          1,
+          1
+        ],
+        "source_start_offset": 551,
+        "source_end_offset": 578,
+        "cue_indices": null,
+        "cue_ids": null
+      }
+    },
+    {
+      "sentence_id": "03-manage-your-emotional-memories-s0007",
+      "source_text": "You must have seen that whenever water splits from a glass, it starts flowing in one direction and then it dries up.",
+      "start_timestamp": null,
+      "end_timestamp": null,
+      "speaker_id": "Speaker 1",
+      "turn_index": 0,
+      "incomplete": false,
+      "depends_on_previous": false,
+      "dependency_reasons": [],
+      "skip_spans": [],
+      "excluded_spans": [],
+      "source_metadata": {
+        "source_id": "03-manage-your-emotional-memories",
+        "parent_chunk_id": "03-manage-your-emotional-memories-0005",
+        "split_method": null,
+        "piece": [
+          1,
+          1
+        ],
+        "source_start_offset": 579,
+        "source_end_offset": 695,
+        "cue_indices": null,
+        "cue_ids": null
+      }
+    },
+    {
+      "sentence_id": "03-manage-your-emotional-memories-s0008",
+      "source_text": "but If you again pour water in that same place, you must have marked that it starts flowing in the same path, same direction that is had created before.",
+      "start_timestamp": null,
+      "end_timestamp": null,
+      "speaker_id": "Speaker 1",
+      "turn_index": 0,
+      "incomplete": false,
+      "depends_on_previous": true,
+      "dependency_reasons": [
+        "lowercase_start",
+        "continuation_word"
+      ],
+      "skip_spans": [],
+      "excluded_spans": [],
+      "source_metadata": {
+        "source_id": "03-manage-your-emotional-memories",
+        "parent_chunk_id": "03-manage-your-emotional-memories-0006",
+        "split_method": null,
+        "piece": [
+          1,
+          1
+        ],
+        "source_start_offset": 696,
+        "source_end_offset": 848,
+        "cue_indices": null,
+        "cue_ids": null
+      }
+    },
+    {
+      "sentence_id": "03-manage-your-emotional-memories-s0009",
+      "source_text": "Why?",
+      "start_timestamp": null,
+      "end_timestamp": null,
+      "speaker_id": "Speaker 1",
+      "turn_index": 0,
+      "incomplete": false,
+      "depends_on_previous": true,
+      "dependency_reasons": [
+        "very_short"
+      ],
+      "skip_spans": [],
+      "excluded_spans": [],
+      "source_metadata": {
+        "source_id": "03-manage-your-emotional-memories",
+        "parent_chunk_id": "03-manage-your-emotional-memories-0007",
+        "split_method": null,
+        "piece": [
+          1,
+          1
+        ],
+        "source_start_offset": 849,
+        "source_end_offset": 853,
+        "cue_indices": null,
+        "cue_ids": null
+      }
+    },
+    {
+      "sentence_id": "03-manage-your-emotional-memories-s0010",
+      "source_text": "Because Though the water had dried up, it still created and left back an image.",
+      "start_timestamp": null,
+      "end_timestamp": null,
+      "speaker_id": "Speaker 1",
+      "turn_index": 0,
+      "incomplete": false,
+      "depends_on_previous": true,
+      "dependency_reasons": [
+        "continuation_word"
+      ],
+      "skip_spans": [],
+      "excluded_spans": [],
+      "source_metadata": {
+        "source_id": "03-manage-your-emotional-memories",
+        "parent_chunk_id": "03-manage-your-emotional-memories-0008",
+        "split_method": null,
+        "piece": [
+          1,
+          1
+        ],
+        "source_start_offset": 854,
+        "source_end_offset": 933,
+        "cue_indices": null,
+        "cue_ids": null
+      }
+    },
+    {
+      "sentence_id": "03-manage-your-emotional-memories-s0011",
+      "source_text": "So now When you again poured water over it, it flowed in the same path of the impression.",
+      "start_timestamp": null,
+      "end_timestamp": null,
+      "speaker_id": "Speaker 1",
+      "turn_index": 0,
+      "incomplete": false,
+      "depends_on_previous": true,
+      "dependency_reasons": [
+        "continuation_word"
+      ],
+      "skip_spans": [],
+      "excluded_spans": [],
+      "source_metadata": {
+        "source_id": "03-manage-your-emotional-memories",
+        "parent_chunk_id": "03-manage-your-emotional-memories-0009",
+        "split_method": null,
+        "piece": [
+          1,
+          1
+        ],
+        "source_start_offset": 934,
+        "source_end_offset": 1023,
+        "cue_indices": null,
+        "cue_ids": null
+      }
+    },
+    {
+      "sentence_id": "03-manage-your-emotional-memories-s0012",
+      "source_text": "What is this impression?",
+      "start_timestamp": null,
+      "end_timestamp": null,
+      "speaker_id": "Speaker 1",
+      "turn_index": 0,
+      "incomplete": false,
+      "depends_on_previous": false,
+      "dependency_reasons": [],
+      "skip_spans": [],
+      "excluded_spans": [],
+      "source_metadata": {
+        "source_id": "03-manage-your-emotional-memories",
+        "parent_chunk_id": "03-manage-your-emotional-memories-0010",
+        "split_method": null,
+        "piece": [
+          1,
+          1
+        ],
+        "source_start_offset": 1024,
+        "source_end_offset": 1048,
+        "cue_indices": null,
+        "cue_ids": null
+      }
+    },
+    {
+      "sentence_id": "03-manage-your-emotional-memories-s0013",
+      "source_text": "It's nothing but memory.",
+      "start_timestamp": null,
+      "end_timestamp": null,
+      "speaker_id": "Speaker 1",
+      "turn_index": 0,
+      "incomplete": false,
+      "depends_on_previous": false,
+      "dependency_reasons": [],
+      "skip_spans": [],
+      "excluded_spans": [],
+      "source_metadata": {
+        "source_id": "03-manage-your-emotional-memories",
+        "parent_chunk_id": "03-manage-your-emotional-memories-0011",
+        "split_method": null,
+        "piece": [
+          1,
+          1
+        ],
+        "source_start_offset": 1049,
+        "source_end_offset": 1073,
+        "cue_indices": null,
+        "cue_ids": null
+      }
+    },
+    {
+      "sentence_id": "03-manage-your-emotional-memories-s0014",
+      "source_text": "The action got over but it left an impression.",
+      "start_timestamp": null,
+      "end_timestamp": null,
+      "speaker_id": "Speaker 1",
+      "turn_index": 0,
+      "incomplete": false,
+      "depends_on_previous": false,
+      "dependency_reasons": [],
+      "skip_spans": [],
+      "excluded_spans": [],
+      "source_metadata": {
+        "source_id": "03-manage-your-emotional-memories",
+        "parent_chunk_id": "03-manage-your-emotional-memories-0012",
+        "split_method": null,
+        "piece": [
+          1,
+          1
+        ],
+        "source_start_offset": 1074,
+        "source_end_offset": 1120,
+        "cue_indices": null,
+        "cue_ids": null
+      }
+    },
+    {
+      "sentence_id": "03-manage-your-emotional-memories-s0015",
+      "source_text": "Same thing happens with our life too.",
+      "start_timestamp": null,
+      "end_timestamp": null,
+      "speaker_id": "Speaker 1",
+      "turn_index": 0,
+      "incomplete": false,
+      "depends_on_previous": false,
+      "dependency_reasons": [],
+      "skip_spans": [],
+      "excluded_spans": [],
+      "source_metadata": {
+        "source_id": "03-manage-your-emotional-memories",
+        "parent_chunk_id": "03-manage-your-emotional-memories-0013",
+        "split_method": null,
+        "piece": [
+          1,
+          1
+        ],
+        "source_start_offset": 1121,
+        "source_end_offset": 1158,
+        "cue_indices": null,
+        "cue_ids": null
+      }
+    },
+    {
+      "sentence_id": "03-manage-your-emotional-memories-s0016",
+      "source_text": "When we get angry, after getting angry the act is over, but",
+      "start_timestamp": null,
+      "end_timestamp": null,
+      "speaker_id": "Speaker 1",
+      "turn_index": 0,
+      "incomplete": true,
+      "depends_on_previous": false,
+      "dependency_reasons": [],
+      "skip_spans": [],
+      "excluded_spans": [],
+      "source_metadata": {
+        "source_id": "03-manage-your-emotional-memories",
+        "parent_chunk_id": "03-manage-your-emotional-memories-0014",
+        "split_method": "runon_capital_opener",
+        "piece": [
+          1,
+          2
+        ],
+        "source_start_offset": null,
+        "source_end_offset": null,
+        "cue_indices": null,
+        "cue_ids": null
+      }
+    },
+    {
+      "sentence_id": "03-manage-your-emotional-memories-s0017",
+      "source_text": "It leaves behind an impression of getting angry which gets saved in the form of memories.",
+      "start_timestamp": null,
+      "end_timestamp": null,
+      "speaker_id": "Speaker 1",
+      "turn_index": 0,
+      "incomplete": false,
+      "depends_on_previous": true,
+      "dependency_reasons": [
+        "pronoun_start",
+        "previous_incomplete"
+      ],
+      "skip_spans": [],
+      "excluded_spans": [],
+      "source_metadata": {
+        "source_id": "03-manage-your-emotional-memories",
+        "parent_chunk_id": "03-manage-your-emotional-memories-0014",
+        "split_method": "runon_capital_opener",
+        "piece": [
+          2,
+          2
+        ],
+        "source_start_offset": null,
+        "source_end_offset": null,
+        "cue_indices": null,
+        "cue_ids": null
+      }
+    },
+    {
+      "sentence_id": "03-manage-your-emotional-memories-s0018",
+      "source_text": "So now Whenever you do any action of getting angry, it gets connected with this impression which is set in your mind.",
+      "start_timestamp": null,
+      "end_timestamp": null,
+      "speaker_id": "Speaker 1",
+      "turn_index": 0,
+      "incomplete": false,
+      "depends_on_previous": true,
+      "dependency_reasons": [
+        "continuation_word"
+      ],
+      "skip_spans": [],
+      "excluded_spans": [],
+      "source_metadata": {
+        "source_id": "03-manage-your-emotional-memories",
+        "parent_chunk_id": "03-manage-your-emotional-memories-0015",
+        "split_method": null,
+        "piece": [
+          1,
+          1
+        ],
+        "source_start_offset": 1309,
+        "source_end_offset": 1426,
+        "cue_indices": null,
+        "cue_ids": null
+      }
+    },
+    {
+      "sentence_id": "03-manage-your-emotional-memories-s0019",
+      "source_text": "And hence, because of linking to the same impression, it opens the same file of getting angry and then you react.",
+      "start_timestamp": null,
+      "end_timestamp": null,
+      "speaker_id": "Speaker 1",
+      "turn_index": 0,
+      "incomplete": false,
+      "depends_on_previous": true,
+      "dependency_reasons": [
+        "continuation_word"
+      ],
+      "skip_spans": [],
+      "excluded_spans": [],
+      "source_metadata": {
+        "source_id": "03-manage-your-emotional-memories",
+        "parent_chunk_id": "03-manage-your-emotional-memories-0016",
+        "split_method": null,
+        "piece": [
+          1,
+          1
+        ],
+        "source_start_offset": 1427,
+        "source_end_offset": 1540,
+        "cue_indices": null,
+        "cue_ids": null
+      }
+    },
+    {
+      "sentence_id": "03-manage-your-emotional-memories-s0020",
+      "source_text": "Now, tell me one thing.",
+      "start_timestamp": null,
+      "end_timestamp": null,
+      "speaker_id": "Speaker 1",
+      "turn_index": 0,
+      "incomplete": false,
+      "depends_on_previous": false,
+      "dependency_reasons": [],
+      "skip_spans": [],
+      "excluded_spans": [],
+      "source_metadata": {
+        "source_id": "03-manage-your-emotional-memories",
+        "parent_chunk_id": "03-manage-your-emotional-memories-0017",
+        "split_method": null,
+        "piece": [
+          1,
+          1
+        ],
+        "source_start_offset": 1541,
+        "source_end_offset": 1564,
+        "cue_indices": null,
+        "cue_ids": null
+      }
+    },
+    {
+      "sentence_id": "03-manage-your-emotional-memories-s0021",
+      "source_text": "Then you boil water, its temperature increases, but slowly slowly after some time, it comes back to its normal room temperature, right?",
+      "start_timestamp": null,
+      "end_timestamp": null,
+      "speaker_id": "Speaker 1",
+      "turn_index": 0,
+      "incomplete": false,
+      "depends_on_previous": true,
+      "dependency_reasons": [
+        "continuation_word"
+      ],
+      "skip_spans": [],
+      "excluded_spans": [],
+      "source_metadata": {
+        "source_id": "03-manage-your-emotional-memories",
+        "parent_chunk_id": "03-manage-your-emotional-memories-0018",
+        "split_method": null,
+        "piece": [
+          1,
+          1
+        ],
+        "source_start_offset": 1565,
+        "source_end_offset": 1700,
+        "cue_indices": null,
+        "cue_ids": null
+      }
+    },
+    {
+      "sentence_id": "03-manage-your-emotional-memories-s0022",
+      "source_text": "Because the real nature of the water is to be at room temperature.",
+      "start_timestamp": null,
+      "end_timestamp": null,
+      "speaker_id": "Speaker 1",
+      "turn_index": 0,
+      "incomplete": false,
+      "depends_on_previous": true,
+      "dependency_reasons": [
+        "continuation_word"
+      ],
+      "skip_spans": [],
+      "excluded_spans": [],
+      "source_metadata": {
+        "source_id": "03-manage-your-emotional-memories",
+        "parent_chunk_id": "03-manage-your-emotional-memories-0019",
+        "split_method": null,
+        "piece": [
+          1,
+          1
+        ],
+        "source_start_offset": 1701,
+        "source_end_offset": 1767,
+        "cue_indices": null,
+        "cue_ids": null
+      }
+    },
+    {
+      "sentence_id": "03-manage-your-emotional-memories-s0023",
+      "source_text": "It's only when you hit it, it becomes hot.",
+      "start_timestamp": null,
+      "end_timestamp": null,
+      "speaker_id": "Speaker 1",
+      "turn_index": 0,
+      "incomplete": false,
+      "depends_on_previous": false,
+      "dependency_reasons": [],
+      "skip_spans": [],
+      "excluded_spans": [],
+      "source_metadata": {
+        "source_id": "03-manage-your-emotional-memories",
+        "parent_chunk_id": "03-manage-your-emotional-memories-0020",
+        "split_method": null,
+        "piece": [
+          1,
+          1
+        ],
+        "source_start_offset": 1768,
+        "source_end_offset": 1810,
+        "cue_indices": null,
+        "cue_ids": null
+      }
+    },
+    {
+      "sentence_id": "03-manage-your-emotional-memories-s0024",
+      "source_text": "Similarly, whenever you get angry, how long can you remain angry?",
+      "start_timestamp": null,
+      "end_timestamp": null,
+      "speaker_id": "Speaker 1",
+      "turn_index": 0,
+      "incomplete": false,
+      "depends_on_previous": false,
+      "dependency_reasons": [],
+      "skip_spans": [],
+      "excluded_spans": [],
+      "source_metadata": {
+        "source_id": "03-manage-your-emotional-memories",
+        "parent_chunk_id": "03-manage-your-emotional-memories-0021",
+        "split_method": null,
+        "piece": [
+          1,
+          1
+        ],
+        "source_start_offset": 1811,
+        "source_end_offset": 1876,
+        "cue_indices": null,
+        "cue_ids": null
+      }
+    },
+    {
+      "sentence_id": "03-manage-your-emotional-memories-s0025",
+      "source_text": "for few minutes.",
+      "start_timestamp": null,
+      "end_timestamp": null,
+      "speaker_id": "Speaker 1",
+      "turn_index": 0,
+      "incomplete": false,
+      "depends_on_previous": true,
+      "dependency_reasons": [
+        "lowercase_start"
+      ],
+      "skip_spans": [],
+      "excluded_spans": [],
+      "source_metadata": {
+        "source_id": "03-manage-your-emotional-memories",
+        "parent_chunk_id": "03-manage-your-emotional-memories-0022",
+        "split_method": null,
+        "piece": [
+          1,
+          1
+        ],
+        "source_start_offset": 1877,
+        "source_end_offset": 1893,
+        "cue_indices": null,
+        "cue_ids": null
+      }
+    },
+    {
+      "sentence_id": "03-manage-your-emotional-memories-s0026",
+      "source_text": "Okay.",
+      "start_timestamp": null,
+      "end_timestamp": null,
+      "speaker_id": "Speaker 1",
+      "turn_index": 0,
+      "incomplete": false,
+      "depends_on_previous": true,
+      "dependency_reasons": [
+        "very_short"
+      ],
+      "skip_spans": [],
+      "excluded_spans": [],
+      "source_metadata": {
+        "source_id": "03-manage-your-emotional-memories",
+        "parent_chunk_id": "03-manage-your-emotional-memories-0023",
+        "split_method": null,
+        "piece": [
+          1,
+          1
+        ],
+        "source_start_offset": 1894,
+        "source_end_offset": 1899,
+        "cue_indices": null,
+        "cue_ids": null
+      }
+    },
+    {
+      "sentence_id": "03-manage-your-emotional-memories-s0027",
+      "source_text": "for few hours.",
+      "start_timestamp": null,
+      "end_timestamp": null,
+      "speaker_id": "Speaker 1",
+      "turn_index": 0,
+      "incomplete": false,
+      "depends_on_previous": true,
+      "dependency_reasons": [
+        "lowercase_start"
+      ],
+      "skip_spans": [],
+      "excluded_spans": [],
+      "source_metadata": {
+        "source_id": "03-manage-your-emotional-memories",
+        "parent_chunk_id": "03-manage-your-emotional-memories-0024",
+        "split_method": null,
+        "piece": [
+          1,
+          1
+        ],
+        "source_start_offset": 1900,
+        "source_end_offset": 1914,
+        "cue_indices": null,
+        "cue_ids": null
+      }
+    },
+    {
+      "sentence_id": "03-manage-your-emotional-memories-s0028",
+      "source_text": "and then then slowly slowly you will come down.",
+      "start_timestamp": null,
+      "end_timestamp": null,
+      "speaker_id": "Speaker 1",
+      "turn_index": 0,
+      "incomplete": false,
+      "depends_on_previous": true,
+      "dependency_reasons": [
+        "lowercase_start",
+        "continuation_word"
+      ],
+      "skip_spans": [],
+      "excluded_spans": [],
+      "source_metadata": {
+        "source_id": "03-manage-your-emotional-memories",
+        "parent_chunk_id": "03-manage-your-emotional-memories-0025",
+        "split_method": null,
+        "piece": [
+          1,
+          1
+        ],
+        "source_start_offset": 1915,
+        "source_end_offset": 1962,
+        "cue_indices": null,
+        "cue_ids": null
+      }
+    },
+    {
+      "sentence_id": "03-manage-your-emotional-memories-s0029",
+      "source_text": "and come back to normal mood.",
+      "start_timestamp": null,
+      "end_timestamp": null,
+      "speaker_id": "Speaker 1",
+      "turn_index": 0,
+      "incomplete": false,
+      "depends_on_previous": true,
+      "dependency_reasons": [
+        "lowercase_start",
+        "continuation_word"
+      ],
+      "skip_spans": [],
+      "excluded_spans": [],
+      "source_metadata": {
+        "source_id": "03-manage-your-emotional-memories",
+        "parent_chunk_id": "03-manage-your-emotional-memories-0026",
+        "split_method": null,
+        "piece": [
+          1,
+          1
+        ],
+        "source_start_offset": 1963,
+        "source_end_offset": 1992,
+        "cue_indices": null,
+        "cue_ids": null
+      }
+    },
+    {
+      "sentence_id": "03-manage-your-emotional-memories-s0030",
+      "source_text": "Right?",
+      "start_timestamp": null,
+      "end_timestamp": null,
+      "speaker_id": "Speaker 1",
+      "turn_index": 0,
+      "incomplete": false,
+      "depends_on_previous": true,
+      "dependency_reasons": [
+        "very_short"
+      ],
+      "skip_spans": [],
+      "excluded_spans": [],
+      "source_metadata": {
+        "source_id": "03-manage-your-emotional-memories",
+        "parent_chunk_id": "03-manage-your-emotional-memories-0027",
+        "split_method": null,
+        "piece": [
+          1,
+          1
+        ],
+        "source_start_offset": 1993,
+        "source_end_offset": 1999,
+        "cue_indices": null,
+        "cue_ids": null
+      }
+    },
+    {
+      "sentence_id": "03-manage-your-emotional-memories-s0031",
+      "source_text": "Can you remain normal for a longer time or can you remain angry for a longer time?",
+      "start_timestamp": null,
+      "end_timestamp": null,
+      "speaker_id": "Speaker 1",
+      "turn_index": 0,
+      "incomplete": false,
+      "depends_on_previous": false,
+      "dependency_reasons": [],
+      "skip_spans": [],
+      "excluded_spans": [],
+      "source_metadata": {
+        "source_id": "03-manage-your-emotional-memories",
+        "parent_chunk_id": "03-manage-your-emotional-memories-0028",
+        "split_method": null,
+        "piece": [
+          1,
+          1
+        ],
+        "source_start_offset": 2000,
+        "source_end_offset": 2082,
+        "cue_indices": null,
+        "cue_ids": null
+      }
+    },
+    {
+      "sentence_id": "03-manage-your-emotional-memories-s0032",
+      "source_text": "Normal, Right.",
+      "start_timestamp": null,
+      "end_timestamp": null,
+      "speaker_id": "Speaker 1",
+      "turn_index": 0,
+      "incomplete": false,
+      "depends_on_previous": true,
+      "dependency_reasons": [
+        "very_short"
+      ],
+      "skip_spans": [],
+      "excluded_spans": [],
+      "source_metadata": {
+        "source_id": "03-manage-your-emotional-memories",
+        "parent_chunk_id": "03-manage-your-emotional-memories-0029",
+        "split_method": null,
+        "piece": [
+          1,
+          1
+        ],
+        "source_start_offset": 2083,
+        "source_end_offset": 2097,
+        "cue_indices": null,
+        "cue_ids": null
+      }
+    },
+    {
+      "sentence_id": "03-manage-your-emotional-memories-s0033",
+      "source_text": "Bye Because anger is not your nature, ego is not your nature.",
+      "start_timestamp": null,
+      "end_timestamp": null,
+      "speaker_id": "Speaker 1",
+      "turn_index": 0,
+      "incomplete": false,
+      "depends_on_previous": false,
+      "dependency_reasons": [],
+      "skip_spans": [],
+      "excluded_spans": [],
+      "source_metadata": {
+        "source_id": "03-manage-your-emotional-memories",
+        "parent_chunk_id": "03-manage-your-emotional-memories-0030",
+        "split_method": null,
+        "piece": [
+          1,
+          1
+        ],
+        "source_start_offset": 2098,
+        "source_end_offset": 2159,
+        "cue_indices": null,
+        "cue_ids": null
+      }
+    },
+    {
+      "sentence_id": "03-manage-your-emotional-memories-s0034",
+      "source_text": "So, what is not your nature, you cannot remain in that state for a longer time.",
+      "start_timestamp": null,
+      "end_timestamp": null,
+      "speaker_id": "Speaker 1",
+      "turn_index": 0,
+      "incomplete": false,
+      "depends_on_previous": true,
+      "dependency_reasons": [
+        "continuation_word"
+      ],
+      "skip_spans": [],
+      "excluded_spans": [],
+      "source_metadata": {
+        "source_id": "03-manage-your-emotional-memories",
+        "parent_chunk_id": "03-manage-your-emotional-memories-0031",
+        "split_method": null,
+        "piece": [
+          1,
+          1
+        ],
+        "source_start_offset": 2160,
+        "source_end_offset": 2239,
+        "cue_indices": null,
+        "cue_ids": null
+      }
+    },
+    {
+      "sentence_id": "03-manage-your-emotional-memories-s0035",
+      "source_text": "Whenever you come out from your nature, you cannot stay in that state for a longer time.",
+      "start_timestamp": null,
+      "end_timestamp": null,
+      "speaker_id": "Speaker 1",
+      "turn_index": 0,
+      "incomplete": false,
+      "depends_on_previous": false,
+      "dependency_reasons": [],
+      "skip_spans": [],
+      "excluded_spans": [],
+      "source_metadata": {
+        "source_id": "03-manage-your-emotional-memories",
+        "parent_chunk_id": "03-manage-your-emotional-memories-0032",
+        "split_method": null,
+        "piece": [
+          1,
+          1
+        ],
+        "source_start_offset": 2240,
+        "source_end_offset": 2328,
+        "cue_indices": null,
+        "cue_ids": null
+      }
+    },
+    {
+      "sentence_id": "03-manage-your-emotional-memories-s0036",
+      "source_text": "Understand?",
+      "start_timestamp": null,
+      "end_timestamp": null,
+      "speaker_id": "Speaker 1",
+      "turn_index": 0,
+      "incomplete": false,
+      "depends_on_previous": true,
+      "dependency_reasons": [
+        "very_short"
+      ],
+      "skip_spans": [],
+      "excluded_spans": [],
+      "source_metadata": {
+        "source_id": "03-manage-your-emotional-memories",
+        "parent_chunk_id": "03-manage-your-emotional-memories-0033",
+        "split_method": null,
+        "piece": [
+          1,
+          1
+        ],
+        "source_start_offset": 2329,
+        "source_end_offset": 2340,
+        "cue_indices": null,
+        "cue_ids": null
+      }
+    },
+    {
+      "sentence_id": "03-manage-your-emotional-memories-s0037",
+      "source_text": "Every time you come out of your nature and get angry, it starts creating an impression in your mind.",
+      "start_timestamp": null,
+      "end_timestamp": null,
+      "speaker_id": "Speaker 1",
+      "turn_index": 0,
+      "incomplete": false,
+      "depends_on_previous": false,
+      "dependency_reasons": [],
+      "skip_spans": [],
+      "excluded_spans": [],
+      "source_metadata": {
+        "source_id": "03-manage-your-emotional-memories",
+        "parent_chunk_id": "03-manage-your-emotional-memories-0034",
+        "split_method": null,
+        "piece": [
+          1,
+          1
+        ],
+        "source_start_offset": 2341,
+        "source_end_offset": 2441,
+        "cue_indices": null,
+        "cue_ids": null
+      }
+    },
+    {
+      "sentence_id": "03-manage-your-emotional-memories-s0038",
+      "source_text": "Remember one thing",
+      "start_timestamp": null,
+      "end_timestamp": null,
+      "speaker_id": "Speaker 1",
+      "turn_index": 0,
+      "incomplete": true,
+      "depends_on_previous": false,
+      "dependency_reasons": [],
+      "skip_spans": [],
+      "excluded_spans": [],
+      "source_metadata": {
+        "source_id": "03-manage-your-emotional-memories",
+        "parent_chunk_id": "03-manage-your-emotional-memories-0035",
+        "split_method": "runon_capital_opener",
+        "piece": [
+          1,
+          2
+        ],
+        "source_start_offset": null,
+        "source_end_offset": null,
+        "cue_indices": null,
+        "cue_ids": null
+      }
+    },
+    {
+      "sentence_id": "03-manage-your-emotional-memories-s0039",
+      "source_text": "Whenever you remain normal or when you are not highly connected with your emotions, it does not create a strong impression or image in your mind.",
+      "start_timestamp": null,
+      "end_timestamp": null,
+      "speaker_id": "Speaker 1",
+      "turn_index": 0,
+      "incomplete": false,
+      "depends_on_previous": true,
+      "dependency_reasons": [
+        "previous_incomplete"
+      ],
+      "skip_spans": [],
+      "excluded_spans": [],
+      "source_metadata": {
+        "source_id": "03-manage-your-emotional-memories",
+        "parent_chunk_id": "03-manage-your-emotional-memories-0035",
+        "split_method": "runon_capital_opener",
+        "piece": [
+          2,
+          2
+        ],
+        "source_start_offset": null,
+        "source_end_offset": null,
+        "cue_indices": null,
+        "cue_ids": null
+      }
+    },
+    {
+      "sentence_id": "03-manage-your-emotional-memories-s0040",
+      "source_text": "Only when you come out of your normal nature, either you become too hot or you become too calm.",
+      "start_timestamp": null,
+      "end_timestamp": null,
+      "speaker_id": "Speaker 1",
+      "turn_index": 0,
+      "incomplete": false,
+      "depends_on_previous": false,
+      "dependency_reasons": [],
+      "skip_spans": [],
+      "excluded_spans": [],
+      "source_metadata": {
+        "source_id": "03-manage-your-emotional-memories",
+        "parent_chunk_id": "03-manage-your-emotional-memories-0036",
+        "split_method": null,
+        "piece": [
+          1,
+          1
+        ],
+        "source_start_offset": 2607,
+        "source_end_offset": 2702,
+        "cue_indices": null,
+        "cue_ids": null
+      }
+    }
+  ],
+  "groups": [
+    {
+      "group_id": "03-manage-your-emotional-memories-g0001",
+      "sentence_ids": [
+        "03-manage-your-emotional-memories-s0001",
+        "03-manage-your-emotional-memories-s0002",
+        "03-manage-your-emotional-memories-s0003",
+        "03-manage-your-emotional-memories-s0004",
+        "03-manage-your-emotional-memories-s0005",
+        "03-manage-your-emotional-memories-s0006"
+      ],
+      "context_before_ids": [],
+      "context_after_ids": [],
+      "context_text": "Hello Hi students The California State University where Professor Jonathan Young has invited to take a session on philosophy and religious studies Today, first of all, I would like to appreciate your curiosity to learn something about Jainism. I truly believe that Jainism is Not a religion But it is a philosophy and a way of living. Whenever we do any action It creates an image. an impression in your mind.",
+      "start_timestamp": null,
+      "end_timestamp": null,
+      "boundary_reason": "max_sentences",
+      "forced_boundary": false,
+      "oversize": false
+    },
+    {
+      "group_id": "03-manage-your-emotional-memories-g0002",
+      "sentence_ids": [
+        "03-manage-your-emotional-memories-s0007",
+        "03-manage-your-emotional-memories-s0008",
+        "03-manage-your-emotional-memories-s0009",
+        "03-manage-your-emotional-memories-s0010",
+        "03-manage-your-emotional-memories-s0011",
+        "03-manage-your-emotional-memories-s0012",
+        "03-manage-your-emotional-memories-s0013",
+        "03-manage-your-emotional-memories-s0014"
+      ],
+      "context_before_ids": [],
+      "context_after_ids": [],
+      "context_text": "You must have seen that whenever water splits from a glass, it starts flowing in one direction and then it dries up. but If you again pour water in that same place, you must have marked that it starts flowing in the same path, same direction that is had created before. Why? Because Though the water had dried up, it still created and left back an image. So now When you again poured water over it, it flowed in the same path of the impression. What is this impression? It's nothing but memory. The action got over but it left an impression.",
+      "start_timestamp": null,
+      "end_timestamp": null,
+      "boundary_reason": "max_sentences",
+      "forced_boundary": false,
+      "oversize": false
+    },
+    {
+      "group_id": "03-manage-your-emotional-memories-g0003",
+      "sentence_ids": [
+        "03-manage-your-emotional-memories-s0015",
+        "03-manage-your-emotional-memories-s0016",
+        "03-manage-your-emotional-memories-s0017",
+        "03-manage-your-emotional-memories-s0018",
+        "03-manage-your-emotional-memories-s0019",
+        "03-manage-your-emotional-memories-s0020",
+        "03-manage-your-emotional-memories-s0021",
+        "03-manage-your-emotional-memories-s0022"
+      ],
+      "context_before_ids": [],
+      "context_after_ids": [],
+      "context_text": "Same thing happens with our life too. When we get angry, after getting angry the act is over, but It leaves behind an impression of getting angry which gets saved in the form of memories. So now Whenever you do any action of getting angry, it gets connected with this impression which is set in your mind. And hence, because of linking to the same impression, it opens the same file of getting angry and then you react. Now, tell me one thing. Then you boil water, its temperature increases, but slowly slowly after some time, it comes back to its normal room temperature, right? Because the real nature of the water is to be at room temperature.",
+      "start_timestamp": null,
+      "end_timestamp": null,
+      "boundary_reason": "max_sentences",
+      "forced_boundary": false,
+      "oversize": false
+    },
+    {
+      "group_id": "03-manage-your-emotional-memories-g0004",
+      "sentence_ids": [
+        "03-manage-your-emotional-memories-s0023",
+        "03-manage-your-emotional-memories-s0024",
+        "03-manage-your-emotional-memories-s0025",
+        "03-manage-your-emotional-memories-s0026",
+        "03-manage-your-emotional-memories-s0027",
+        "03-manage-your-emotional-memories-s0028",
+        "03-manage-your-emotional-memories-s0029",
+        "03-manage-your-emotional-memories-s0030"
+      ],
+      "context_before_ids": [],
+      "context_after_ids": [],
+      "context_text": "It's only when you hit it, it becomes hot. Similarly, whenever you get angry, how long can you remain angry? for few minutes. Okay. for few hours. and then then slowly slowly you will come down. and come back to normal mood. Right?",
+      "start_timestamp": null,
+      "end_timestamp": null,
+      "boundary_reason": "max_sentences",
+      "forced_boundary": false,
+      "oversize": false
+    },
+    {
+      "group_id": "03-manage-your-emotional-memories-g0005",
+      "sentence_ids": [
+        "03-manage-your-emotional-memories-s0031",
+        "03-manage-your-emotional-memories-s0032",
+        "03-manage-your-emotional-memories-s0033",
+        "03-manage-your-emotional-memories-s0034",
+        "03-manage-your-emotional-memories-s0035",
+        "03-manage-your-emotional-memories-s0036",
+        "03-manage-your-emotional-memories-s0037"
+      ],
+      "context_before_ids": [],
+      "context_after_ids": [],
+      "context_text": "Can you remain normal for a longer time or can you remain angry for a longer time? Normal, Right. Bye Because anger is not your nature, ego is not your nature. So, what is not your nature, you cannot remain in that state for a longer time. Whenever you come out from your nature, you cannot stay in that state for a longer time. Understand? Every time you come out of your nature and get angry, it starts creating an impression in your mind.",
+      "start_timestamp": null,
+      "end_timestamp": null,
+      "boundary_reason": "max_sentences",
+      "forced_boundary": false,
+      "oversize": false
+    },
+    {
+      "group_id": "03-manage-your-emotional-memories-g0006",
+      "sentence_ids": [
+        "03-manage-your-emotional-memories-s0038",
+        "03-manage-your-emotional-memories-s0039",
+        "03-manage-your-emotional-memories-s0040"
+      ],
+      "context_before_ids": [],
+      "context_after_ids": [],
+      "context_text": "Remember one thing Whenever you remain normal or when you are not highly connected with your emotions, it does not create a strong impression or image in your mind. Only when you come out of your normal nature, either you become too hot or you become too calm.",
+      "start_timestamp": null,
+      "end_timestamp": null,
+      "boundary_reason": "end",
+      "forced_boundary": false,
+      "oversize": false
+    }
+  ]
+}

@@ -1,0 +1,6377 @@
+{
+ "select": {
+  "aam aadmi party": "iadfc7ce2f393",
+  "aamir khan": "if910c1216d57",
+  "aap": "iadfc7ce2f393",
+  "ab": "ibf3103fd7ac9",
+  "abandonment of child": "i0534d6fcd658",
+  "abdicate": "ia27e37a18d56",
+  "abortive trial": "i4af1dd1380f1",
+  "absorption": "i4e6ffdd4893e",
+  "abstract": "iabae3fb03fe0",
+  "abusive language": "ib0e34b7fd766",
+  "accelerator": "i5326f16538b3",
+  "accent": "ice4e8ee60840",
+  "acceptance letter": "i356f97654c23",
+  "accessibility": "i0505f77101ac",
+  "accessibility grants": "i6cc6f2339ac7",
+  "accommodation endorsement": "i46237118f1bb",
+  "accompany": "i7e244750fa02",
+  "account": "i4760ad6ed96a",
+  "acid": "i16a4e284542c",
+  "across": "i4dd458f062f1",
+  "act of war": "ie644b046055f",
+  "actor": "i0e08c12a41ad",
+  "actress": "i67203044a37f",
+  "actual loss": "i293bbac2af9e",
+  "adaptation": "iab3d8d98bdc9",
+  "addendum": "i24f9f0153685",
+  "addicted dependent hooked": "i8a00a3f7344e",
+  "address": "i13e0b01bd808",
+  "adjacent angles": "i63ad132b9d07",
+  "adjective": "i4f6c9fa9cdb1",
+  "adjustable workstation": "i34a726647f54",
+  "administrator": "i2960ae3651e4",
+  "adult": "i293f7172c640",
+  "adulteration": "id9322c23d5cc",
+  "advance": "i561d624b3a2c",
+  "advocate general": "ie30662947ccc",
+  "aeroplane": "i2a078f7888a9",
+  "africa": "i93be95499938",
+  "aftershave lotion": "i587b366deee3",
+  "again repeat": "i7c81876f8b4b",
+  "agenda": "i5b73631d66ad",
+  "agnate": "i677660edc7f4",
+  "agra": "i9990e9c8e93e",
+  "agriculture": "icc6df13e1c45",
+  "ahimsa": "i32e34e5d4790",
+  "air": "i1d8986d26bd3",
+  "air conditioner ac": "i31317b6c78df",
+  "air matress": "i4a2dc5ae2775",
+  "alarm": "i64d2f0203ace",
+  "alcohol": "i066fc5bacf2b",
+  "alert": "i534c713fba6b",
+  "algae": "if9d7e94cdc97",
+  "algebra": "i0ea06986a447",
+  "all": "i07e5139d374b",
+  "allow": "iaefb9a7116bd",
+  "alloy": "i37ba8384eed5",
+  "almond": "i62d9f620abdc",
+  "already": "i61d0f6d308c0",
+  "amazon": "i9fe6f53fb1bf",
+  "amoeba": "iadcd110c1ada",
+  "amritsar": "i2f6c8d988cb7",
+  "anatomy": "i4fc2689fe93b",
+  "ancestor": "i25c39b8c1497",
+  "anemometer": "i9061e283af2f",
+  "animals": "ief60c84338ca",
+  "ankle": "i70b87912224e",
+  "anode": "ice8fd9f54a98",
+  "anonymous": "i1a2d58a6f514",
+  "anonymous complaint": "i2fa568ae6b61",
+  "anti corruption law": "i3bbaa262c18f",
+  "anti virus": "i00a3ce710f96",
+  "anus": "ie1813db3ae45",
+  "apartheid": "i69e044374b41",
+  "app": "if367e22b469e",
+  "appearance": "ibeb85e5c8b12",
+  "application": "ia288e3baf6b3",
+  "appointment": "ic87b2fed85c4",
+  "approve": "i6377f342e08a",
+  "approximate": "i2b068f2c1fb0",
+  "apron": "ib2bd90e8c344",
+  "aquaculture": "if334b2bf6ab4",
+  "archeology": "i0dd2af301059",
+  "archive": "i6a522eb1cbee",
+  "area": "i27fcd9d94d71",
+  "argument": "i275b40c1b92d",
+  "armed dangerous": "iab9ce9c26c4e",
+  "around": "i3030d84177a1",
+  "arrest": "i4e198d99f251",
+  "art": "i597724c4fa31",
+  "artery": "ic33f05493c5d",
+  "article": "i884f75c550ad",
+  "arunachal pradesh": "i76f050a164d0",
+  "ascending order": "i92a1b7a7042c",
+  "assam": "i32f1e1dcc1c5",
+  "assassination": "i0aa5f319b1b5",
+  "association": "ia02732ef1573",
+  "asymmetrical design": "i4ae39f3e10b9",
+  "atlas": "i6150368f37f3",
+  "atom": "iee9c26bd6ea9",
+  "attitude": "i875cdf7e360a",
+  "audiogram": "i703114f70208",
+  "audiology": "ic594980b06aa",
+  "audiometer": "i361e21cfd90b",
+  "august": "ie91f50f77516",
+  "australia": "i4af719f2ec49",
+  "autotrophic": "i8c7375664c79",
+  "back": "ic2e88bcea2de",
+  "back date": "i436917011658",
+  "back up": "if6862a347cd4",
+  "backdate": "idd597063fcb8",
+  "backdoor": "i2af8bd58085a",
+  "backdoor or trapdoor": "i2af8bd58085a",
+  "backup": "if96d63be435d",
+  "bacteria": "i41e88a7e633f",
+  "bad": "i0c6d239c8e2a",
+  "bad language verbal abuse": "i120b399a04a5",
+  "badminton": "ib119dad010f3",
+  "bail": "ie610baa30eaf",
+  "balance sheet": "i5e53013a9153",
+  "bald": "i8e01ceacf06c",
+  "ball": "i5a7adde2e762",
+  "ball bearing": "i5468274d9723",
+  "ball room": "ifc87bdc19e6f",
+  "balloon": "i21b8561c39d4",
+  "ban": "i84fcacefe40e",
+  "bandage": "i3404d90be643",
+  "bandh general strike": "i34dc7c84248b",
+  "bandit": "id6651e9cd830",
+  "bank": "i36b222b42988",
+  "banner": "id9068abadb07",
+  "banyan": "i8d08d1961146",
+  "bar graph": "idebba8ee770d",
+  "base": "i861846a7952f",
+  "basic": "i30b5fcb9e534",
+  "basic pay": "i106c4cf3351f",
+  "bat": "i675056ca4db4",
+  "bath": "ia6c9528f3a8b",
+  "batman": "i17c97377bf94",
+  "batter": "i2fdc54274f1a",
+  "battered child syndrome": "id3f647d7cfe9",
+  "battery": "i08d3e8e89194",
+  "beaker": "i923c9fb0d45f",
+  "beam": "i48a62790a45f",
+  "bear": "ib97e81324c62",
+  "bear endure tolerate": "i4aa0192f9b13",
+  "beat": "i52013fbe18a3",
+  "beat triumph outdo be victorious": "iaf8fdcb1a955",
+  "beautiful": "i1efe61b2a61d",
+  "beer": "ife3921c1db0d",
+  "before": "if23e753923da",
+  "beg": "id144b5c8ebac",
+  "behind": "if43893e1d7c2",
+  "bell": "i014dd08b7664",
+  "best": "ia0da83cf0a54",
+  "bet": "i7d84bceed0dc",
+  "betray": "i8d3634a78e0d",
+  "bharat": "i5428208096a5",
+  "bharatiya janata party": "i1300c7de5e47",
+  "biased": "iba7830047ed4",
+  "bike motorcycle": "ie1006ccccad6",
+  "bike oil filter": "i5dbe7295ce2b",
+  "bike suspension": "i1d1197c38e31",
+  "bilingualism": "i511b9ff9f4a3",
+  "bill": "ib08bd18a51ae",
+  "biochemistry": "ib44bbd490569",
+  "biodiversity": "i37bad8e47a33",
+  "biogas": "i8006672cccfc",
+  "biology": "idb9cb64e6694",
+  "bite": "ia048b1477d7f",
+  "bjp": "i1300c7de5e47",
+  "black market": "i5dff6025ab8a",
+  "blackboard duster": "i341fcba2fecb",
+  "bleat baa": "id70fa68acc18",
+  "bleeding": "ic48e0f552ba8",
+  "blind spot": "i77fdcc1c44f2",
+  "block": "i19b1ffbbaeac",
+  "blood pressure": "idb60674703bc",
+  "blouse": "i0fba899c994c",
+  "bluetooth": "i73fddc51bb5b",
+  "board": "i07570f2a0c58",
+  "body": "i2a033727dcf0",
+  "bonafide": "i92c4a1673a4e",
+  "bonus": "if406ce2a570d",
+  "book": "ie4f51e34265e",
+  "boot": "i3b82295aefdb",
+  "bowl": "i5b53a4b63c17",
+  "bowled out": "i83dd6a6936d9",
+  "brace": "ic12d14489a72",
+  "brackets": "ied447a12fc22",
+  "brain": "i290f6bc54e6f",
+  "brain tumor": "i3a7d5a707bfa",
+  "branch": "i23397cf06344",
+  "brand": "if6ca6e851d55",
+  "break": "i7a087e2b4a9b",
+  "briefcase": "ia7283f540a7d",
+  "broker": "id0bc0e9f718e",
+  "broom": "i87b7c624c5f7",
+  "buddhism buddhist": "i1ac66fc466d3",
+  "budget": "ic2e237e07524",
+  "buffalo": "i1004a1f051d4",
+  "bullet": "ic8ee90597609",
+  "burqa": "i8e72a466fee0",
+  "bus": "i37eeea7529f3",
+  "business": "ic31bbc51387a",
+  "butter": "i5f61b2f7b07a",
+  "button": "i3c1bf08a293c",
+  "calculator": "i4192176808ff",
+  "calendar": "iaa870666ea7b",
+  "calf": "i288c1eb14539",
+  "call": "i79828c294a49",
+  "can": "if32027e7afe9",
+  "capital": "i8c41cac461fc",
+  "capitalism": "i3d956050b250",
+  "capsicum": "i1eb516d39472",
+  "carbohydrates": "ie9afbbffef07",
+  "carbon dioxide": "i858fe721efd8",
+  "carpenter": "i8c88a781f04b",
+  "case": "i5f9979ffc4b9",
+  "cash flow": "ic6943b5fd5ca",
+  "cashier": "i1e8225cd804c",
+  "caste": "id41ba2d5adfa",
+  "cat": "i9718cacc9574",
+  "catch": "icdb20f6077ef",
+  "cathode": "i76da8daa8c9c",
+  "ccl": "i2e591dd0da2e",
+  "cell": "if390bb03114c",
+  "cell mobile": "i34c593018bf0",
+  "census": "i032dcfb4ea53",
+  "certificate": "i34f725641243",
+  "chalk": "ic27735fdb05f",
+  "character map": "ic23d9090b3ee",
+  "charger": "i0aada6f0d170",
+  "chart": "i95ceed58b5dc",
+  "cheap": "i0676e0976cdc",
+  "chemistry": "i0005b4827e28",
+  "chennai": "i0e7fa42c4c2f",
+  "cheque": "i99d87495c563",
+  "cherry": "ic52a42e8a94a",
+  "child": "i9912971faee4",
+  "child care leave": "i2e591dd0da2e",
+  "chilli": "i05e8ed2b0f59",
+  "chimta tongs": "i6b78504cb3e4",
+  "chlorophyll": "i6d2a53905733",
+  "christmas": "i5ae592987b97",
+  "cinema hall theatre": "ic0cd27cb7d7b",
+  "circle": "ic3c0d566f831",
+  "circular": "ifcf51ed11526",
+  "circumference": "iae53714c47c9",
+  "citizenship": "i09983afcaa68",
+  "city": "i10fa57836bc5",
+  "clear": "i0f3437b97b7e",
+  "clearance certificate": "i2700084fe87c",
+  "clerk": "i0f2bf5cdd293",
+  "clever": "i030570d0ecd2",
+  "climbers": "ic46e32549455",
+  "clock": "if14bdb0d7078",
+  "close": "i69bdea35a30a",
+  "club": "i2eef2bd40fd7",
+  "co accused": "i67f60efb4a56",
+  "co curriculum": "icd03e07734cd",
+  "coach": "i24230382042d",
+  "cobbler": "i00501e280052",
+  "coconut": "ie54a514d65a4",
+  "coda": "i2711a6e66c82",
+  "cognizable": "iae2496c0b807",
+  "cold": "i990dd6e20f9f",
+  "colonialism": "ie51e6dcf9611",
+  "colour": "ib82402101949",
+  "colours": "ibdc96a1300fb",
+  "column": "i26488e2b021c",
+  "combat": "ie4f226046cd0",
+  "come": "i9142b6129247",
+  "comfortable": "i170b730279a0",
+  "comment": "i31275a5c5545",
+  "commission": "i5228a50b092e",
+  "company": "i1ac10921260c",
+  "compass": "i6a53f65b5ebe",
+  "compensation": "i3c7ab18f486d",
+  "competition": "i869bf32e2a78",
+  "compound": "idf1e06a0575f",
+  "conceive": "ia1fa3b1d845c",
+  "conclusion": "i85effc040f86",
+  "condensation": "ie35774981d31",
+  "conductor": "ic96531a6258d",
+  "cone": "i646b1fa803d2",
+  "conference": "i960d3b7e6793",
+  "confession": "i360c7f197ae3",
+  "confirm": "i97e1908c4943",
+  "confused": "i8f95764841a0",
+  "constant": "i15f27089d4aa",
+  "constitution": "i6b98d6a7e8cc",
+  "convection": "i7007c76043e7",
+  "convention": "i06e54605cbb6",
+  "convex lens": "i8a1e6736b846",
+  "copper": "i872b6cf8a5f8",
+  "copy imitate": "id5a07e9078b8",
+  "corn": "i181c27a6cc81",
+  "corpse": "i5b1212b98107",
+  "corruption graft": "if3b22d225ca1",
+  "counter attack": "iae5481e250d4",
+  "coverage": "idc893e2d6ab8",
+  "cow": "ic44ac6408823",
+  "cowl": "idf737c37114c",
+  "cricket": "icc2907fa6606",
+  "crime": "ie87863f3064c",
+  "crop rotation": "i17086ec88963",
+  "crops": "i75885823b2a1",
+  "cross examine": "i8ba9a8b8e8ea",
+  "cruel callous harsh ruthless": "ib877b8dba86a",
+  "cry weep": "i7dc4d886f1db",
+  "cube": "i16e7ae3b37a9",
+  "cultivation": "iad85e404fe18",
+  "cultivators": "ie47f87b732f7",
+  "cultural model of disability": "i7e206e02f2a3",
+  "culture": "i60137484ed06",
+  "curfew": "i6f7ef7d19ab4",
+  "current account": "i7eba8590be37",
+  "curve": "i5a4e022e8992",
+  "custody": "ifb3a7f885735",
+  "cut": "ied481a35c633",
+  "cyber crime": "if3364e278d56",
+  "cylinder": "id11f71ff5ef7",
+  "cytoplasm": "i7a6c6446ed29",
+  "dairy products": "ic273c8c7bd51",
+  "dandruff": "i5b29a030f389",
+  "dare challenge": "iaf0e6ac5c521",
+  "dash": "i914458c74958",
+  "data": "i6d38aa0d376c",
+  "date": "i79b392f93f15",
+  "date of retirement": "ieb683e9f913a",
+  "day": "i6766fbabafe6",
+  "deadline time limit": "ie0bd65c3e328",
+  "deal": "i715b6e6c3c7f",
+  "death certificate": "i383de9915555",
+  "debit card": "i5220d23c6121",
+  "deceive": "i945f06697c20",
+  "decimal": "i6a91870e42e4",
+  "decommission": "i3720b4501d98",
+  "decrease lessen reduce": "i3dfda857520f",
+  "deer": "i0f8262e68959",
+  "defend protect": "i6c098b0996aa",
+  "deforestation": "i67dc01dd1a46",
+  "defraud": "i30a1f7939010",
+  "degree": "i3e9742d5b286",
+  "delegate": "iea85156178a3",
+  "delegation": "if40d47f1e0e0",
+  "deliberate": "i9e5282f70e63",
+  "delicious": "ieb82fc4f8b00",
+  "demand": "id87b76ce5a76",
+  "demand draft": "iaf966a824540",
+  "demarcation": "i8ae8d9d58f73",
+  "democracy": "i786890e28888",
+  "dentist": "i4f7556883e20",
+  "department of empowerment of persons with disabilities": "icf7f1f19a5ee",
+  "deploy": "i218ba9726d4d",
+  "deposit": "i9899aa9112c9",
+  "depression": "i2601d84b528a",
+  "deputy director": "ib0674e0400af",
+  "descending order": "ia9037800aa05",
+  "diabetes": "id495d08071e1",
+  "diagonal": "id8b864b5d146",
+  "dice": "if22e06f9313e",
+  "diet": "ice78d354780b",
+  "digestion": "i42b64de0db98",
+  "digestive system": "iadf0ce6e49ef",
+  "director": "i1e4968e48ec1",
+  "disagree dissent": "i43cbeb424e1b",
+  "disappear with the arrival of someone": "i6f96177fc62b",
+  "discount": "i617f91f1d133",
+  "discrimination": "i7996dca92924",
+  "disease": "ibb2909f81bd9",
+  "disparity": "i024ac33944c2",
+  "dispersion": "i4c4273b4ad93",
+  "district jail": "i2afdd77dc792",
+  "dividend": "ie65598cc34d9",
+  "divider": "i9e823955211b",
+  "division": "i12a0d471e19b",
+  "divorce": "i81bc78e6f6d2",
+  "divorcee": "i32ff03e9f05c",
+  "diwali": "i0b779949d098",
+  "document": "iec828502ddfd",
+  "dog": "ie20007558f08",
+  "doner": "i85a700053311",
+  "donkey": "i3a387ed0c50f",
+  "double burden": "i1ef7f4291049",
+  "drip irrigation": "if2768dbba8ff",
+  "drive": "i6a548e042ffa",
+  "driver": "i9e53677ea2f2",
+  "drought": "i963c4953117d",
+  "drug": "iebcbf6620fac",
+  "dubai": "ib56ffcfbcb69",
+  "duck": "i54f1641db618",
+  "dussehra": "i9582cd734fb3",
+  "each": "i2bd1daccbab9",
+  "earth": "i18e09304ec5c",
+  "earthen water pot matka": "ie2861b749ed1",
+  "east": "ic74997ac0287",
+  "economics": "i727199f1eff6",
+  "edge": "i51b85d928e5e",
+  "edit": "i99a18d80db3a",
+  "egg": "i9ead9e9ad41c",
+  "egypt": "i7be4dac1df5c",
+  "egyptian civilization": "if0c11cd75053",
+  "electric circuit": "i840f957b079e",
+  "electrician": "ifd2a2b365c62",
+  "electrode": "if1a2576665cd",
+  "electrolyte": "i3365f9ce5a49",
+  "electromagnet": "ie3e053b9e557",
+  "elephant": "ic7a2b983859c",
+  "elevation": "ie4046794bb84",
+  "embarrass": "i0cad697d8fad",
+  "empathy": "ieae57284a0cc",
+  "empowerment": "ide181391c0ce",
+  "energy": "i2dea9d3c0ad7",
+  "engine": "i9c02c45db056",
+  "england": "i90a42ea0bb11",
+  "enough": "ib206c3031d25",
+  "ent": "ibaec01c1ab50",
+  "environment": "ic44ce3afa7c1",
+  "euthanasia": "i2242605a7fda",
+  "excretion": "icb3db37234e0",
+  "executive": "i46d4ae582a8b",
+  "expensive": "id739bc522527",
+  "experiment": "i19c8b5aae293",
+  "exporting graphics": "i47b501d51ab9",
+  "extinct": "iea6c96e080f0",
+  "eyebrow": "i336e1a1f1bed",
+  "fabricated evidence": "if472657d4f74",
+  "face": "ifca188bb18c0",
+  "fact": "if9d7c1ade6be",
+  "factorisation": "i8adda2b51018",
+  "factory": "i6b3532a856a8",
+  "fair": "ia8192196823f",
+  "fall": "i92f3bae920b3",
+  "family": "i48dd8de5fcc4",
+  "farmer": "i494700a04464",
+  "fast": "if74a6b3d9a80",
+  "father in law": "if74f9a49d0b6",
+  "favourite": "iec3290307796",
+  "feudalism": "i8624fe0037d2",
+  "fever": "i4d8c68e426b5",
+  "fiance": "i8cd7319f0626",
+  "fiancee": "icc39758fe98f",
+  "fifth": "ia9e76168f0db",
+  "fifty half century": "i28132bbd7229",
+  "fight": "i78534941ae26",
+  "figure": "if0b9bc6b1469",
+  "file": "i062bd3687117",
+  "financial year": "i0953c631db70",
+  "fine": "iaf2b462d7899",
+  "fire": "id6ad26661d7d",
+  "fish": "i93f9bd2d43f5",
+  "flag": "i0ea620088e95",
+  "flask": "i91eafb815423",
+  "flexible": "i7648d095ede9",
+  "float": "ib5e1f9b10e4c",
+  "flood": "i828b94234b8f",
+  "flour": "i0f051ce0c3ab",
+  "food chain": "i764201b3da0c",
+  "food security": "ie69691025fd8",
+  "football": "i06bc94b9ce24",
+  "force": "iff72c59a9ec7",
+  "forehead": "i03446f84b2a9",
+  "forgive": "ie0df13de8ec8",
+  "form": "iea7bb20ffbb9",
+  "format": "id7214a6dfdc2",
+  "formula": "i189e807927fa",
+  "foundation": "i8dce9b232a88",
+  "four": "i729b0ab529e1",
+  "fraction": "i7a78bfab73e2",
+  "free will": "id0ec78653928",
+  "friction": "i3a872956cf8d",
+  "full": "i8895321dab4f",
+  "full time": "i59d0a9e5b664",
+  "fundamental duties": "ice6c024c7dc0",
+  "funeral": "i8184194512f8",
+  "funny": "if045b18ad491",
+  "fuse": "ib3d3a9a42593",
+  "garage door opener": "i3d6b45cbaf67",
+  "garden": "ib251983fa90c",
+  "gas": "i91b77e1636d3",
+  "gas stove": "i14df92f018b0",
+  "gather": "i9f40cbbe6f0a",
+  "genealogy": "i42718a20c5a4",
+  "general financial rule": "i4ca173c3b316",
+  "geology": "id63190c593f9",
+  "germination": "i41d0fde2538c",
+  "gfr": "i4ca173c3b316",
+  "ginger": "i76af5c8ef0d0",
+  "giraffe": "id10b5b1eb4c8",
+  "glass block": "ic994f3f4147d",
+  "gloss over something": "ic660c28a8738",
+  "gloves": "i86743cc02e17",
+  "glow": "i500cf15c73b1",
+  "goa": "ie54e7b59551a",
+  "goat": "i7549ad8b2d19",
+  "god": "i06c9fcd46886",
+  "gol gappe pani puri": "i5d0a3e9c491e",
+  "gold": "ia5385dee4ff6",
+  "good": "i22a92b908266",
+  "grafting": "i2e345f4a61d7",
+  "gravity": "i11ca6fccc19f",
+  "greater than": "i6cc27457eea8",
+  "greedy": "icbc6470fe16b",
+  "green revolution": "i3192277c6df5",
+  "grey": "i67fa6cd215a0",
+  "ground water": "idd617afaaf6b",
+  "grow": "i851657c423c7",
+  "gst": "i8b34b367ac16",
+  "guilt": "ide713b88da02",
+  "gujarat": "icc59b80ed9c8",
+  "gun": "i1d2cfbd6c05e",
+  "gurudwara": "i365d8d225b92",
+  "habitat": "i46124df3fb65",
+  "hair": "i50301c595684",
+  "hair dryer": "i4977d18da6ea",
+  "half": "i5bced55c5f58",
+  "hand": "i96af3647afeb",
+  "handle": "ia0a0bb779b3a",
+  "hanuman": "ic20762da8dfb",
+  "hard": "ic8bdb89dc807",
+  "hard disk hard drive": "i0dd1da9dbff5",
+  "hattrick": "i703bb48ca623",
+  "headache": "i2f5e21355f6f",
+  "hear listen": "i283a1edbe274",
+  "heartbeat": "i20d5f212d5be",
+  "heater": "i60d9af6cf481",
+  "heaven": "i4f9f9b482b55",
+  "height": "i4021457c5857",
+  "hidden file": "id92b1843b916",
+  "himachal pradesh": "i459b2cff8877",
+  "hippopotamus": "i30cf0637e8e7",
+  "history": "i66aaf303d817",
+  "hobby": "i7c50925084b2",
+  "holiday": "i9f6360715455",
+  "honest": "id561c63d187c",
+  "honorarium": "ie989f78ac675",
+  "host": "i0a629887311c",
+  "hot": "i303f18821bea",
+  "hot air balloon": "ib6a0e5818d99",
+  "hungry": "i0ce696b5205d",
+  "hydrogen": "i3c52ee676f2b",
+  "hygiene": "i79fd9f1fec86",
+  "ice cream": "icacf569e8466",
+  "idea": "i9db2fc64a1a5",
+  "identity card": "i0c43a8508a96",
+  "igneous rocks": "i1bcb1e296d1d",
+  "ignore": "ic758bb5563eb",
+  "illegal unlawful": "i72d82618ab55",
+  "imitation": "i614d1a410cb0",
+  "impact": "i583f94a9a861",
+  "imperialism": "i504f8b8631d1",
+  "inauguration": "i4d1e09debf9d",
+  "incite ignite inflame instigate stir up provoke": "i3e817248e965",
+  "incorporation": "id4e275ccf97f",
+  "increase": "iccf6f3248691",
+  "independent": "ib167e516caa2",
+  "india": "i5b1513abd106",
+  "indian sign language": "i6bc35bb8c5e2",
+  "indicator": "id965425a9d8b",
+  "induction": "id8f818eae612",
+  "indus valley civilization": "ieca0420f4e88",
+  "inflammable": "i8f601b698390",
+  "inform apprise notify": "ia698886e0329",
+  "initiative drive": "icfb9fd511fc7",
+  "insect": "i0833dd5713a9",
+  "instagram": "i19afb3babcbe",
+  "insulator": "i21aac52455ff",
+  "insurance": "if3e56d2c11a1",
+  "integer": "i8733c8e64627",
+  "interest": "i83d03d92ead8",
+  "international": "ia8b97bd0ada0",
+  "interpretation": "id62579cefeb8",
+  "intersecting lines": "i1946bf9282df",
+  "interview": "idce21ac32399",
+  "introspection": "ifbfa58bf4211",
+  "inventory": "i5ae17a14c366",
+  "investor": "i8097b10e0d87",
+  "iron": "ib93c4fddaf8a",
+  "irrigation": "i118627c873e0",
+  "isl": "i6bc35bb8c5e2",
+  "islam muslim": "i91355dbe02b9",
+  "island": "i8dd76764e1a0",
+  "isosceles triangle": "i62532a5f7650",
+  "jackfruit": "i88ac80fceafa",
+  "jaipur": "idbe0812f60b8",
+  "janmashtami": "i862f65c9301d",
+  "january": "i3ddb7abf85c3",
+  "jawaharlal nehru": "icaae2a7e2ce7",
+  "job": "i5017b4d5febb",
+  "join": "i4ee04b603b59",
+  "journalist reporter": "i16f617a8f32b",
+  "judiciary": "ifaf627d76114",
+  "juvenile": "i44eca516f433",
+  "kali mata": "if29adf3a087f",
+  "kannada": "id1c090fa5909",
+  "kidney beans": "i37380fdb3162",
+  "kill murder": "i9e5388b9a476",
+  "knife": "i9f5cf7462f07",
+  "kumbh mela": "id3bddb8a7144",
+  "kyc": "ia4f21c49360f",
+  "label": "i7ba293277be2",
+  "laboratory": "i4109925a6861",
+  "labour": "i9c53306287d9",
+  "ladder": "i90f81c262b39",
+  "laminate": "i9978cb9c41de",
+  "land": "ibdb438711844",
+  "land breeze": "i2a6ecc57ddbf",
+  "landfill": "i7bb1c09f521f",
+  "language": "i694d55faf81c",
+  "language acquisition": "i9c45a7bfc07f",
+  "laptop": "ie44293141282",
+  "large intestine": "id58a5d648e4b",
+  "lassi": "i87d9c558eab7",
+  "late": "i60c95ce662fc",
+  "law": "ib2965317ea9a",
+  "lawyer": "i5ab3170b5455",
+  "leaf": "i249bd6962d86",
+  "leaf spring": "i46c4e20e44a6",
+  "learn": "i99635df4b0af",
+  "legislative assembly": "i025fbb4ea397",
+  "legislature": "idaaffcdc205f",
+  "less than": "i49b9d923bd72",
+  "letter": "i15f504fb3933",
+  "level": "ibd207dd817dd",
+  "license": "i59f67cdfad78",
+  "lift": "ie882a1f35b3d",
+  "light": "i291aa4ddd5d9",
+  "lighthouse": "i47fb8d4a2664",
+  "lightning": "i7b3904aa9489",
+  "like": "i3bcd303c5edc",
+  "line": "iecdd9dbf4b67",
+  "line segment": "i64d2fd449cee",
+  "liquid": "ibf614640ca63",
+  "list": "ib3c4566b30ba",
+  "listen": "i2be68650901b",
+  "livelihood": "ifdc99b33746f",
+  "liver": "i8e73f6bb28e4",
+  "loan": "ic9651cd4ca9e",
+  "location": "i1cb4d6d500d5",
+  "long jump": "ic7da30d9abaa",
+  "loss": "i29771c696ce4",
+  "luck": "i59328d9b4017",
+  "machine": "iaca75d7a2af9",
+  "magician": "i3de5f7d0a6dc",
+  "magnet": "i62433fd41fc6",
+  "maha shivaratri": "i4b0c83911602",
+  "mahavir jayanti": "i33a75b1a9278",
+  "make": "i889c794450a4",
+  "make a long story short": "ia4c9f1737a4b",
+  "mall": "id4165c48bad2",
+  "manipur": "i8727f4af0229",
+  "manuscript": "i3f5951427577",
+  "margin": "i90ba666d770b",
+  "mars": "ic2598778deb7",
+  "masturbation": "ie14b3f0d2544",
+  "material": "i12b8cd1d30c7",
+  "mean": "i8ee04ae758d1",
+  "measurement": "idaee5218ef98",
+  "meat": "i57eb943cfed2",
+  "mechanic": "id33e369186e1",
+  "medical model of disability": "i485f2fecd7bd",
+  "meeting": "i305151c83199",
+  "meghalaya": "i60fca1ac91b8",
+  "melt": "iaca5e8b36a4d",
+  "mercury": "i4a41b53ee5d5",
+  "message": "i8836ee9d1c41",
+  "metal": "iad3bca973d61",
+  "metamorphic rocks": "ib835580c5a6a",
+  "microscope": "i74ad2315d7ea",
+  "microsoft outlook plugin": "i1390bb0affa4",
+  "middleman": "i7d5b07639a47",
+  "migration": "i4fd59aa52eae",
+  "ministry of social justice and empowerment": "ib07eca4d5eaf",
+  "minority": "i373089434751",
+  "mirror": "icf719601cb86",
+  "mistake error inaccuracy": "i7c83ac69630d",
+  "mixed fraction": "i04876ccaed37",
+  "mizoram": "iececa96e13f0",
+  "mode": "i1aef9c84a1f5",
+  "monkey": "ia76b4a250b83",
+  "monsoon": "i18159df0f646",
+  "month": "i672143166cca",
+  "moon": "iab8e0b578747",
+  "more": "i923a65e686d4",
+  "morphology": "i9541cdb93ba1",
+  "muharram": "icee263edf92e",
+  "multiple": "ia9a263f5a551",
+  "mushroom": "i8c228aece988",
+  "musician": "i2a4e64a909b4",
+  "name": "i2704ec55bda5",
+  "national": "ib173b6ec177c",
+  "national anthem": "ie435f8307687",
+  "nationalist congress party ncp": "ib48bdeb9a9be",
+  "natural gas": "ibcebe5a17a50",
+  "ncr": "i849dfbdfa49d",
+  "neck": "ia48e8ef6ab1d",
+  "nervous": "ib0c6c6ac5cfa",
+  "nervous system": "i92794431ce7a",
+  "nest": "i24aa5c3719f1",
+  "net": "i5c0fe2fc2c94",
+  "network": "i5b622afa8a78",
+  "next": "i57e03810e922",
+  "nice": "i418f944a0a43",
+  "nitrogen": "i3d3bdafbe2f4",
+  "no": "ie009c1707b91",
+  "nominal": "i55e97105856b",
+  "nominee": "i90f507ab6f89",
+  "none nothing": "ifb3deaba2e66",
+  "normal delivery and cesarean": "i36a455a658af",
+  "north pole and south pole": "i3d386f575d7f",
+  "noun": "i00f7eb89db39",
+  "nuclear family": "i426be92ebaca",
+  "numbers": "icf561c901dad",
+  "numbers 1 10": "i8c08c82f3ab7",
+  "numerical control": "i1a3c0be19346",
+  "nurse": "idefda56e2b04",
+  "nutrition": "i9d0d082f446d",
+  "obey comply": "i33fce3773c54",
+  "october": "i8ef125b4f594",
+  "offence": "i6f5ed11ca098",
+  "official": "i639ec5187004",
+  "offshoot": "i26b93ee662f8",
+  "often": "i55b4263f23bb",
+  "oil": "i280f7ab23cc4",
+  "okay": "i2477ce20f29e",
+  "oligarchy": "i38a1b497e782",
+  "onam": "i172eda480191",
+  "onion": "i0e75334712d7",
+  "online": "i0abf74c53300",
+  "open": "iaf456f438341",
+  "operation": "i9514546db061",
+  "opposition": "i2687ba79cd10",
+  "oralism": "icfcb7e030776",
+  "orbit": "if6a6779df1bf",
+  "order": "i795229912701",
+  "order command direct instruct": "idba3780b965c",
+  "organic": "ie6b419346eed",
+  "oriya": "i9560e72a91e5",
+  "out for a duck": "i16a6f2f8e309",
+  "over": "idf7633c08bfa",
+  "owl": "i2953a2d6708f",
+  "owner": "ibba68a1e69b9",
+  "oxidation": "ic49a2acd2c78",
+  "oxygen": "i2e1919623f79",
+  "pace bowling fast bowling": "i0c1595ef000f",
+  "pain": "i6d5396639309",
+  "paint": "i99c8ec1e2c16",
+  "pakistan": "i224dd771b5de",
+  "palliation": "i24a3aa6c3d62",
+  "panaji": "i0ae743ad451b",
+  "pancreas": "i5bac7ae41e20",
+  "papaya": "ic7b05f1a948e",
+  "paper": "i5daee27561ed",
+  "paper clip": "i1c1940413e47",
+  "parade": "i4d5cc68f04e6",
+  "paragraph": "if6b3fd0ece57",
+  "parallel lines": "icebcbb0e442c",
+  "parasite": "i8b0864080bb8",
+  "parents": "i2fb10850c71d",
+  "parking": "i7d94941e3137",
+  "parliament": "i067a2840abe2",
+  "parrot": "i49db04433573",
+  "pass": "iecd0cf93bb85",
+  "pasteurization": "i03799f347dfe",
+  "pause": "i40aa703b6cd1",
+  "paytm": "iee4046794918",
+  "peacock": "idc8937c26388",
+  "peas": "i744c6af34e0d",
+  "pedestrian": "i524d2c5e50c9",
+  "pen": "iab910d89bc8e",
+  "pen drive": "i73a8474c1f48",
+  "pencil": "i6f0fa6909d6d",
+  "pending": "if8ee54bf87c6",
+  "peon": "i05915754ba44",
+  "percentage": "i66a07d0c42fd",
+  "permanent": "i4e93d6d10d9f",
+  "personal": "ib51e61d23a8c",
+  "personality": "i2ea8dc4796e8",
+  "pharmacist": "i4affeeecb92a",
+  "photosynthesis": "i46aabdfb03b2",
+  "physics": "ifba040d95ce2",
+  "physiology": "i72e1e730332e",
+  "pick": "i762294fe657e",
+  "piece": "i9e559ebaead3",
+  "pilgrim": "i7197397dd793",
+  "pink": "i32b6bf6314e0",
+  "pizza": "ibb687a979d4b",
+  "plagiarism": "i46d8652638e3",
+  "plate": "if78ede45407c",
+  "platelet": "ibb6c9deb9a21",
+  "please": "i834a836828b0",
+  "plenty": "i0045d0619166",
+  "podium": "i7560d7e3eecb",
+  "point": "i05680970386e",
+  "point race": "i8b9bee112e87",
+  "poison": "i14c89327797b",
+  "policeman": "idd4438a29343",
+  "policy": "i7fa4b1d1cbcb",
+  "polity": "i6125de89af44",
+  "pollution": "id0d8a3ead99c",
+  "ports tab": "ie82a134420a8",
+  "positive integer": "i39f90fe5566e",
+  "post": "iac499e2b4e8a",
+  "potato": "i56bf7204338c",
+  "predict": "i82c73df0baaa",
+  "prefer": "i6cc33439ec5b",
+  "premium": "i0656d197f805",
+  "preposition": "i932861e26eb1",
+  "prescription": "i4d3a614723af",
+  "principal": "ic288ce714180",
+  "printer": "i49d0e589cddf",
+  "prism": "i8747f4c40b27",
+  "private goods": "i81772d0574f0",
+  "problem": "i64567ac57a3f",
+  "process": "ifbeebe810b16",
+  "profit": "i2b23df415fe9",
+  "projector": "i9c118da9cb53",
+  "promote": "i87ddc9a30291",
+  "promotion": "i5ef8649bd4ca",
+  "proof": "i57a92ff902b6",
+  "property": "iac97f30c1287",
+  "protractor": "i684551ddf089",
+  "puberty": "i7273ddbadb58",
+  "public goods": "id8f6cc7886f2",
+  "public limited company": "i0f07fa131206",
+  "public protest": "i139ffedad46b",
+  "publish": "ieec8b936818a",
+  "pull": "i0972612e344f",
+  "pulse": "ic23ef439d046",
+  "punjab": "i41e37e099b6b",
+  "punjabi": "i2ef1735dca31",
+  "put": "ia0dd8872e402",
+  "qualification": "ib448592fa7f6",
+  "quantity": "i27ea6d47b6ac",
+  "race": "iacd1be1a1a2c",
+  "radiation": "ibfb11e002bbe",
+  "raft": "ia285d99cd95b",
+  "rag": "i04c8be811a65",
+  "rainbow": "i99beefb306c9",
+  "rainwater harvesting": "i22fe46519bcf",
+  "raise": "i019e8fceb43e",
+  "raita": "i03e5d0d05177",
+  "rajasthan": "i6c39f5857a20",
+  "rajdhani train": "ib4fad8108ef9",
+  "range": "i1a0152cd3f25",
+  "rashtriya janta dal rjd": "i459ba025fef2",
+  "ray": "id7cfc57d88a5",
+  "reception": "i3bfce5c97480",
+  "recharge": "ie2bfb92614bb",
+  "reciprocal": "i4735df632f97",
+  "record": "i7edf0244b73d",
+  "rectangle": "i64ef317176db",
+  "red blood cell": "i948bb52ea4b8",
+  "reduce": "i1ab8c84863a2",
+  "reflection": "if8c0235ee98c",
+  "refraction": "i7d651ce2878d",
+  "refund": "i72a4169a0a69",
+  "refuse reject": "i917c9189aaa1",
+  "regret": "i30b0dd18ebc4",
+  "regular": "i04ca80852fff",
+  "regulator": "i85a86ef1a990",
+  "rehabilitation": "i48567e1612bd",
+  "relay race": "ibacac1b5a4e2",
+  "religion": "i5e3e342bd63c",
+  "remote": "i947e674f36fe",
+  "remove delete": "ia8ffa1b5c1e8",
+  "repair": "i4482d685b3b1",
+  "republic day": "ic2f9c99cfe9f",
+  "research": "i050dd4b98aa1",
+  "reservation": "i91a3318dbb13",
+  "resign": "iccc41816bab9",
+  "restaurant": "i9bb0e471952f",
+  "result": "ic66827f680b8",
+  "revenue": "i82bd8a0f965d",
+  "revolution": "i7024354f033d",
+  "reward": "id41e22e6d976",
+  "rhythm": "i4012c13e6fc9",
+  "right to equality": "i29d18f22438a",
+  "right to freedom": "iae91dd4a655b",
+  "rock": "ifb64d32fe47e",
+  "role": "i489aeafa4b22",
+  "roll": "i7f50e93f8aff",
+  "rotation": "i50d28a8ccc7f",
+  "rude": "i976431ace88c",
+  "ruler": "ifa2a3ba726a9",
+  "runner": "i53c79ba5100b",
+  "runs": "i4465b9ae5000",
+  "runway": "i105b51118878",
+  "russia": "ie2cee2682075",
+  "rust": "i51247dfbc765",
+  "sacrifice": "i70339050aa9e",
+  "safe": "ia8ceccfec2a0",
+  "same": "i8bd0d9fec625",
+  "sandwich": "ifaf5f0c21359",
+  "sanitary pad": "ib494b42c07a5",
+  "sari": "ib8e65156c307",
+  "saving account": "i3dd25e613e42",
+  "scalene triangle": "iac30a25d8314",
+  "scalpel": "i6f1565686b0b",
+  "schedule": "ib0e28ac86f26",
+  "scheduled caste": "i2d83deed80ad",
+  "score": "i856f18d9f9d0",
+  "scratch": "i34aeaa57ba09",
+  "scribe": "i61e4fb2ea110",
+  "sea breeze": "ibcd0ecd578ab",
+  "secret": "i6af2840c713f",
+  "secretary": "i8ff1dece57b4",
+  "section": "i30785f850297",
+  "secularism": "i5d2334be8f2d",
+  "seed": "i61369f91d2ba",
+  "semantics": "if2b13e9e0f58",
+  "sentence": "i8effc213b21c",
+  "separate": "i29d9921f6724",
+  "sequential": "i5ee0343ff5da",
+  "serial": "idca7bc5230ae",
+  "settlement": "id334fd2ab8c8",
+  "sewing machine": "id4abf94ed336",
+  "sex ratio": "i7fdd5de43144",
+  "shaheed bhagat singh": "ie0637f74a699",
+  "shallow": "i2b75479aadc2",
+  "shape": "i0ef8643853cd",
+  "share": "i8233aabf179a",
+  "shark": "iac847b824551",
+  "shaving razor": "i57d405189cdf",
+  "shawl": "i1a471fb3e752",
+  "sheep": "idd67ac4bbb69",
+  "shift": "i64ec2d4a4e59",
+  "shine": "i5957e9358529",
+  "shiva": "i8fa9812a75f3",
+  "shock": "if204d6b4628e",
+  "shoot": "ieb9a35baa213",
+  "shooting": "i347b59930395",
+  "shoulder": "i5bb59fd1a884",
+  "shut up stop talking": "i48a5cca27c77",
+  "shy": "iff242fc677f3",
+  "sick": "i8469fd5894e9",
+  "side": "i902e2bef061f",
+  "sikhism sikh": "i387ce031ba32",
+  "silt": "i3db6b183189e",
+  "silver": "i42ac97eb11d9",
+  "similar": "i81de558a08e5",
+  "sin": "ib721330d45b5",
+  "sit": "ib19fea9a7c50",
+  "site": "i2d2d4d4e84d7",
+  "six": "iebe631c98412",
+  "size": "id17dff313959",
+  "skin": "iefd709cb382e",
+  "slap": "ib1a040a29e50",
+  "slide": "i5b7eeb7e0299",
+  "small intestine": "i8b43197ec512",
+  "smell": "ie012e23542bb",
+  "smog": "i3c219a69be33",
+  "snail": "iccca83f65e54",
+  "snorkelling": "i167d1249b820",
+  "snow": "ieed44d5bd3d6",
+  "social": "i47651ed0018c",
+  "social model of disability": "i23e8ed6efc98",
+  "sociolinguistics": "i6db49a440fec",
+  "soil erosion": "ie808b073585b",
+  "solid": "i819689f7b83a",
+  "solution": "i5933b94d5744",
+  "sometimes": "i1cd040893a83",
+  "sorry": "i5a6fde8a7424",
+  "soup": "i115b74df7187",
+  "sparrow": "ie34d5f3a92f0",
+  "speak speech": "if091145489bb",
+  "special": "ief58272d7cd3",
+  "speech therapist": "i70cc91f0d126",
+  "sperm": "if0337e5bd0ed",
+  "sphere": "ie6740f8bea25",
+  "sphygmomanometer": "i611f1ce6a768",
+  "spider": "idf2dc86caaae",
+  "spiritual": "ib09a10f4f938",
+  "spoon": "if53eaca6f79f",
+  "spot": "id39a2904901d",
+  "spread": "i4808c2612e3c",
+  "sprint": "ia7eb90c807c0",
+  "square": "ic12277751b25",
+  "staff": "ib9d8c43036ab",
+  "stairs": "i9551631b0040",
+  "star": "if0a9e0862ec2",
+  "start begin": "iee2c2b2c7b5c",
+  "starvation": "if4748549892a",
+  "stereotype": "iae9261d97c23",
+  "stock": "ie03060c9d92b",
+  "stop": "ie7fa1ab6eebd",
+  "storey skyscraper": "i263abd1cc87f",
+  "stumps": "i6cbecdf83d95",
+  "subcontinent": "i92295e2d06d8",
+  "subtract": "icce0d50d152c",
+  "suicide": "i7201d9dd1947",
+  "summary": "ic76b8c5804f9",
+  "summer": "if098e1375979",
+  "superficial": "i5a5a65193798",
+  "support": "i9b1fe8990709",
+  "surface": "i4aa1b7da19ae",
+  "surgeon": "idee25d5fe1c2",
+  "surrender": "id5120bdf1e29",
+  "sustainable development": "i5766fa853b17",
+  "swallow": "ie9035e2aaa57",
+  "sweater": "i44eb3b717d30",
+  "sweet lime": "ie5aa8827f7ab",
+  "swim": "ib5512aee8911",
+  "swing": "ib9609f1d1eb6",
+  "switch": "i5fb9a1392719",
+  "syntax": "i8f055b65d5ab",
+  "tailor": "if3066a4f0863",
+  "take off": "ib745010ba9cf",
+  "tall": "ib1b136bcb1a0",
+  "tamil": "if43031516f65",
+  "taste": "ic444d50de62f",
+  "tax": "i4a6fae527978",
+  "team": "i1a70d1db68cc",
+  "technician": "ibf53d0a9bb57",
+  "telangana": "i65473115b1fa",
+  "temperature": "ib367a2cb0c3d",
+  "temporary": "i39f559bdcbb4",
+  "test": "i665f67ccfa2c",
+  "test tube": "ib773471d17cb",
+  "thank you": "ib0a860603a5e",
+  "thermometer": "iedd9404cbae7",
+  "thrice": "i97e2fa39fac7",
+  "tight": "i3afa71c066f9",
+  "time table": "idadae3451b4d",
+  "time trial": "i2f89afafe6b6",
+  "tinda indian squash apple gourd": "i6d045b976025",
+  "tip": "i1e981a2aa46d",
+  "tolerate": "ic2ed76bcbb72",
+  "tone": "i3774bb6898b5",
+  "tongs": "ide6c3977d085",
+  "tooth": "i23300e2718f1",
+  "top": "i5b7cebaee3ab",
+  "topography": "i8c23d296f708",
+  "tornado": "iea2b063916df",
+  "town": "i476749c0026b",
+  "track race": "i50336480d19b",
+  "tractor": "if56e85370a1e",
+  "trade": "i08183bd6edb8",
+  "trader": "i2a59f4ef8599",
+  "traffic": "i94b2297f7809",
+  "trail": "ifb2092ae9ed6",
+  "train": "i2e4c161f9740",
+  "transpiration": "i0998499accf4",
+  "trap": "ie998d3a1934f",
+  "trapdoor": "i2af8bd58085a",
+  "tree": "iedbb40f86aa7",
+  "triangle": "ibf78622926cf",
+  "triple": "i1bb585cbc7a0",
+  "tripura": "ieb3c04bc8257",
+  "truck": "i19f5d4334a74",
+  "try": "ia9703835eaca",
+  "tuberculosis": "i8d1b78fd4108",
+  "tuesday": "i027c87023aae",
+  "tv": "idca7bc5230ae",
+  "twin": "ifd795a9cbb56",
+  "twitter": "i2b1b66471b63",
+  "umbrella": "i26e21dbefc46",
+  "umpire": "i14da2a94ce7f",
+  "uncrpd": "i0561b369e762",
+  "understand comprehend grasp": "id1b723776465",
+  "unfeeling uncaring unemotional": "id055ef223a4b",
+  "unit": "i1a3188346930",
+  "unite unity": "iec0d46e2eac3",
+  "united nations convention on the rights of persons with disabilities": "i8b46c2168734",
+  "universal adult franchise": "i723567221908",
+  "variable": "i364bccc6a6f9",
+  "vehicle": "i189ce9456542",
+  "vein": "i9d23f256d965",
+  "verb": "i67df48b008a4",
+  "vertex": "i9d1885c89a77",
+  "very hot": "i503e5632fc05",
+  "veterinarian": "i59d2d23635b3",
+  "victim": "id098ff6cd0b9",
+  "victory success triumph": "ic1ebfaddfb76",
+  "video": "ic98541522d14",
+  "video card": "i07f24929bee9",
+  "videographer": "i63ea69e0dd29",
+  "vietnam": "i72a2a2265081",
+  "view perspective": "i63ff502f125a",
+  "village": "i47680b5e22ee",
+  "virus": "ic7ed79bc41f9",
+  "visa": "i81787670125b",
+  "vision": "idf248474ad27",
+  "vitiligo": "ib72aa2e59ca7",
+  "vodka": "i38e4d4b67d69",
+  "volcano": "i4bf1f74b54fc",
+  "volkswagen": "i4f64f6f5febe",
+  "voltmeter": "i6a92630da975",
+  "volume": "ic1900539ba97",
+  "voluntary retirement scheme": "i19fa3930373e",
+  "war": "i09e8c7b8f314",
+  "warm": "i1d128b5f9a76",
+  "warranty": "if04d62b3bf22",
+  "wash": "i9129fd5fb04e",
+  "water cycle": "i7c72a51025d5",
+  "water pollution": "i222b2bd848b9",
+  "waterfall": "if20143dcd8a6",
+  "wave": "i42fbce0774d9",
+  "way": "i10e32d325e37",
+  "weak": "i84df6f37e61d",
+  "weapon": "i4d5b95a392f2",
+  "weather": "i0b2d8df86c00",
+  "weathering": "i3bfd976e6448",
+  "website": "ie11a33ba6c8f",
+  "wedding reception": "ifeec449c653a",
+  "week one week": "i71ec95dc3a14",
+  "weekly market": "i9344173020e2",
+  "weighing scale": "i8fa8909b27e3",
+  "weight weigh weighing scale": "i46a15767c3f2",
+  "welder": "i52ab418111f5",
+  "whats up": "ie02c6de27478",
+  "whisk beater": "i2f93c35e408a",
+  "white blood cells": "i95225576fa0c",
+  "whole number": "i17c68d215f6e",
+  "why": "i52daa831c290",
+  "wicket": "i20c2156ff1c8",
+  "wifi": "i7d7c4abc4f26",
+  "wikipedia": "iaa81551cd9b6",
+  "wine": "i01fe0da73f16",
+  "winter": "i38f4a11bbaf1",
+  "wiring": "i2a9d4245b5fe",
+  "without": "i8f34cca3f747",
+  "work": "i97271f8851f9",
+  "wound": "i087eeb4fb1b1",
+  "wrestling": "ie3d2c66e1c11",
+  "wto": "ib7e35a3ad32f",
+  "yak": "i7d1dde57df15",
+  "yes": "i88747f2f9444",
+  "yolk": "ief17d5af59fc",
+  "youth association of the deaf": "i3444cd26db4e",
+  "zip": "i7ffb7bfd29c9",
+  "zone": "ic8240c8df06d",
+  "zoo": "i532e889a02f4"
+ },
+ "alias": {},
+ "split": {},
+ "auto_default": {
+  "aam aadmi party": [
+   "iadfc7ce2f393",
+   "i9b4bf0ec3a59"
+  ],
+  "aamir khan": [
+   "if910c1216d57",
+   "i1ecd1c50e992"
+  ],
+  "aap": [
+   "iadfc7ce2f393",
+   "i9b4bf0ec3a59"
+  ],
+  "ab": [
+   "ibf3103fd7ac9",
+   "i290ebf31ee0b"
+  ],
+  "abandonment of child": [
+   "i0534d6fcd658",
+   "i307de9ba8426"
+  ],
+  "abdicate": [
+   "ia27e37a18d56",
+   "iab7152ed0617"
+  ],
+  "abortive trial": [
+   "i4af1dd1380f1",
+   "icc4bd606c948"
+  ],
+  "absorption": [
+   "i4e6ffdd4893e",
+   "if83931c60f27"
+  ],
+  "abstract": [
+   "iabae3fb03fe0",
+   "i41abff4a25b7"
+  ],
+  "abusive language": [
+   "ib0e34b7fd766",
+   "i06deda0e8b5a"
+  ],
+  "accelerator": [
+   "i5326f16538b3",
+   "ibabd5926e519"
+  ],
+  "accent": [
+   "ice4e8ee60840",
+   "idcf4f141eb37"
+  ],
+  "acceptance letter": [
+   "i356f97654c23",
+   "id69933025311"
+  ],
+  "accessibility": [
+   "i0505f77101ac",
+   "i31ad1452f5c9"
+  ],
+  "accessibility grants": [
+   "i6cc6f2339ac7",
+   "ica747f825a5a"
+  ],
+  "accommodation endorsement": [
+   "i46237118f1bb",
+   "i5c1d4aee5c49",
+   "i67d6d50b781b"
+  ],
+  "accompany": [
+   "i7e244750fa02",
+   "i7864fea27b4b"
+  ],
+  "account": [
+   "i4760ad6ed96a",
+   "i7a484561fdde",
+   "i1681be58b768"
+  ],
+  "acid": [
+   "i16a4e284542c",
+   "i30011ee9875a"
+  ],
+  "across": [
+   "i4dd458f062f1",
+   "i65ee3c16a9c8"
+  ],
+  "act of war": [
+   "ie644b046055f",
+   "ifc74f2eeb3ab"
+  ],
+  "actor": [
+   "i0e08c12a41ad",
+   "i9cfadc628b59"
+  ],
+  "actress": [
+   "i67203044a37f",
+   "i3ef6e56c325d"
+  ],
+  "actual loss": [
+   "i293bbac2af9e",
+   "iba7900e67961"
+  ],
+  "adaptation": [
+   "iab3d8d98bdc9",
+   "icf210d79dbe1"
+  ],
+  "addendum": [
+   "i24f9f0153685",
+   "ice45effdcaad"
+  ],
+  "addicted dependent hooked": [
+   "i8a00a3f7344e",
+   "i7b7cdb18a0df",
+   "i0c345d5644b1",
+   "i601263858e05"
+  ],
+  "address": [
+   "i13e0b01bd808",
+   "i8b3bd180c1a7"
+  ],
+  "adjacent angles": [
+   "i63ad132b9d07",
+   "i8e236dca8b8e"
+  ],
+  "adjective": [
+   "i4f6c9fa9cdb1",
+   "id4378f0dcc80"
+  ],
+  "adjustable workstation": [
+   "i34a726647f54",
+   "i105eafd50725"
+  ],
+  "administrator": [
+   "i2960ae3651e4",
+   "i6d2dd531fed3"
+  ],
+  "adult": [
+   "i293f7172c640",
+   "iff6920ab0d49",
+   "ia2f1aebf4b93",
+   "i8679c9c834f5"
+  ],
+  "adulteration": [
+   "id9322c23d5cc",
+   "idad34e9b9781",
+   "id305766b2ac1"
+  ],
+  "advance": [
+   "i561d624b3a2c",
+   "i91209bbd6f0d",
+   "i8b38c35a1f69",
+   "i8076c3810c26"
+  ],
+  "advocate general": [
+   "ie30662947ccc",
+   "i9fe37f673403",
+   "i884640d03206"
+  ],
+  "aeroplane": [
+   "i2a078f7888a9",
+   "ia98488645480",
+   "i8a516330cbb6"
+  ],
+  "africa": [
+   "i93be95499938",
+   "ie381e72bfb15"
+  ],
+  "aftershave lotion": [
+   "i587b366deee3",
+   "i1e73ad51c57e"
+  ],
+  "again repeat": [
+   "i7c81876f8b4b",
+   "ifd1b9fb71e96"
+  ],
+  "agenda": [
+   "i5b73631d66ad",
+   "i364ebc1f7c5c",
+   "ia1ce4ec5010f"
+  ],
+  "agnate": [
+   "i677660edc7f4",
+   "ic3ea593a854f"
+  ],
+  "agra": [
+   "i9990e9c8e93e",
+   "i7fd10e93c8f6"
+  ],
+  "agriculture": [
+   "icc6df13e1c45",
+   "i656e7fdbc0d5"
+  ],
+  "ahimsa": [
+   "i32e34e5d4790",
+   "iefc3626f13fb"
+  ],
+  "air": [
+   "i1d8986d26bd3",
+   "i2dc6aa018e30"
+  ],
+  "air conditioner ac": [
+   "i31317b6c78df",
+   "i8081fd830198"
+  ],
+  "air matress": [
+   "i4a2dc5ae2775",
+   "i1360efd15694",
+   "ie380e54e1472"
+  ],
+  "alarm": [
+   "i64d2f0203ace",
+   "i05e8dcc3d0b3"
+  ],
+  "alcohol": [
+   "i066fc5bacf2b",
+   "i10eb2200eef1",
+   "ib76054a401f1"
+  ],
+  "alert": [
+   "i534c713fba6b",
+   "i26705b147e2e"
+  ],
+  "algae": [
+   "if9d7e94cdc97",
+   "ib0f715c07953"
+  ],
+  "algebra": [
+   "i0ea06986a447",
+   "i9c0913dd0352"
+  ],
+  "all": [
+   "i07e5139d374b",
+   "if95f5bbe3e20"
+  ],
+  "allow": [
+   "iaefb9a7116bd",
+   "i779916a16890",
+   "i9ca96de955cd"
+  ],
+  "alloy": [
+   "i37ba8384eed5",
+   "i025018cf96da"
+  ],
+  "almond": [
+   "i62d9f620abdc",
+   "ic8d5391b4da1"
+  ],
+  "already": [
+   "i61d0f6d308c0",
+   "i45701467d7f3"
+  ],
+  "amazon": [
+   "i9fe6f53fb1bf",
+   "i6119ccd8e802",
+   "i3061097d3f2d",
+   "i9a19a00493ef"
+  ],
+  "amoeba": [
+   "iadcd110c1ada",
+   "idcf5d7934d0f"
+  ],
+  "amritsar": [
+   "i2f6c8d988cb7",
+   "ia4823d5900d5"
+  ],
+  "anatomy": [
+   "i4fc2689fe93b",
+   "i5ad2694d214c"
+  ],
+  "ancestor": [
+   "i25c39b8c1497",
+   "iab4b21a1d9b8"
+  ],
+  "anemometer": [
+   "i9061e283af2f",
+   "i97ac87ac9254"
+  ],
+  "animals": [
+   "ief60c84338ca",
+   "iadf280a8d85c"
+  ],
+  "ankle": [
+   "i70b87912224e",
+   "ib246fe1cd863"
+  ],
+  "anode": [
+   "ice8fd9f54a98",
+   "if6ef1495c7b2"
+  ],
+  "anonymous": [
+   "i1a2d58a6f514",
+   "i547cfef464f4"
+  ],
+  "anonymous complaint": [
+   "i2fa568ae6b61",
+   "i0a7e96fc5150"
+  ],
+  "anti corruption law": [
+   "i3bbaa262c18f",
+   "i682589c214e3",
+   "iccefaccd9be2"
+  ],
+  "anti virus": [
+   "i00a3ce710f96",
+   "i7442274b7be2"
+  ],
+  "anus": [
+   "ie1813db3ae45",
+   "ie6da53572c8a"
+  ],
+  "apartheid": [
+   "i69e044374b41",
+   "i6367c26d6c08"
+  ],
+  "app": [
+   "if367e22b469e",
+   "i0c3df3fae632"
+  ],
+  "appearance": [
+   "ibeb85e5c8b12",
+   "i5baa6744bde5"
+  ],
+  "application": [
+   "ia288e3baf6b3",
+   "id433df79ad28",
+   "i70c7202e4749"
+  ],
+  "appointment": [
+   "ic87b2fed85c4",
+   "i0b91b679caab"
+  ],
+  "approve": [
+   "i6377f342e08a",
+   "id8718397498d"
+  ],
+  "approximate": [
+   "i2b068f2c1fb0",
+   "iddc02af2b332"
+  ],
+  "apron": [
+   "ib2bd90e8c344",
+   "i56159ad8fafd"
+  ],
+  "aquaculture": [
+   "if334b2bf6ab4",
+   "i68a162f16221"
+  ],
+  "archeology": [
+   "i0dd2af301059",
+   "ibb84b5a9b0c8"
+  ],
+  "archive": [
+   "i6a522eb1cbee",
+   "i6ae9aa66f124"
+  ],
+  "area": [
+   "i27fcd9d94d71",
+   "i3c929b32ff7d",
+   "ibd421de5a099"
+  ],
+  "argument": [
+   "i275b40c1b92d",
+   "i4a4ce95c53fc"
+  ],
+  "armed dangerous": [
+   "iab9ce9c26c4e",
+   "ief380cc38dbf"
+  ],
+  "around": [
+   "i3030d84177a1",
+   "i6aae9ce3d76e"
+  ],
+  "arrest": [
+   "i4e198d99f251",
+   "idad82144bedd"
+  ],
+  "art": [
+   "i597724c4fa31",
+   "i0238976e93d1"
+  ],
+  "artery": [
+   "ic33f05493c5d",
+   "i4b011bcd709f"
+  ],
+  "article": [
+   "i884f75c550ad",
+   "i6d6471cf7756"
+  ],
+  "arunachal pradesh": [
+   "i76f050a164d0",
+   "i2e7502f15103",
+   "ic20c9b3d7509"
+  ],
+  "ascending order": [
+   "i92a1b7a7042c",
+   "id118e031b227"
+  ],
+  "assam": [
+   "i32f1e1dcc1c5",
+   "iaf09a5803af8"
+  ],
+  "assassination": [
+   "i0aa5f319b1b5",
+   "i0d8635353404",
+   "i3a70ada9d137"
+  ],
+  "association": [
+   "ia02732ef1573",
+   "i1a2eb366bf0f"
+  ],
+  "asymmetrical design": [
+   "i4ae39f3e10b9",
+   "i784e056fe67d"
+  ],
+  "atlas": [
+   "i6150368f37f3",
+   "i7abec3aa60a7"
+  ],
+  "atom": [
+   "iee9c26bd6ea9",
+   "ide6037151d17",
+   "if84716a433da"
+  ],
+  "attitude": [
+   "i875cdf7e360a",
+   "i1bf541feb4e5"
+  ],
+  "audiogram": [
+   "i703114f70208",
+   "i1a51371f9737"
+  ],
+  "audiology": [
+   "ic594980b06aa",
+   "i773efaffc8f2",
+   "i78936e0c33f5"
+  ],
+  "audiometer": [
+   "i361e21cfd90b",
+   "ie640e1209fe4",
+   "i575368e7a788"
+  ],
+  "august": [
+   "ie91f50f77516",
+   "ic29f5bf90eb7",
+   "i232f548bb5b6"
+  ],
+  "australia": [
+   "i4af719f2ec49",
+   "i4f3d3ea00f3a"
+  ],
+  "autotrophic": [
+   "i8c7375664c79",
+   "idd734c0f68c6"
+  ],
+  "back": [
+   "ic2e88bcea2de",
+   "i3b18a0ec94fa"
+  ],
+  "back date": [
+   "i436917011658",
+   "ib489c3e2b308"
+  ],
+  "back up": [
+   "if6862a347cd4",
+   "i7f8ff295af21"
+  ],
+  "backdate": [
+   "idd597063fcb8",
+   "i4a60b832198c"
+  ],
+  "backdoor": [
+   "i2af8bd58085a",
+   "i3e64ce3885cc"
+  ],
+  "backdoor or trapdoor": [
+   "i2af8bd58085a",
+   "i3e64ce3885cc"
+  ],
+  "backup": [
+   "if96d63be435d",
+   "i09fbb85f0507"
+  ],
+  "bacteria": [
+   "i41e88a7e633f",
+   "i8c35e92c165d",
+   "i6aeb821ea967"
+  ],
+  "bad": [
+   "i0c6d239c8e2a",
+   "i875206e871b6"
+  ],
+  "bad language verbal abuse": [
+   "i120b399a04a5",
+   "i000ac0d16e82"
+  ],
+  "badminton": [
+   "ib119dad010f3",
+   "icfc869ce8e67"
+  ],
+  "bail": [
+   "ie610baa30eaf",
+   "ib7a5b41d6dd0"
+  ],
+  "balance sheet": [
+   "i5e53013a9153",
+   "i8898703bf9cb",
+   "if169a4c1a25b"
+  ],
+  "bald": [
+   "i8e01ceacf06c",
+   "ia184f5f83d95"
+  ],
+  "ball": [
+   "i5a7adde2e762",
+   "i05ca8f6630f5"
+  ],
+  "ball bearing": [
+   "i5468274d9723",
+   "i993e2de23000"
+  ],
+  "ball room": [
+   "ifc87bdc19e6f",
+   "i5d3e33e38a45"
+  ],
+  "balloon": [
+   "i21b8561c39d4",
+   "i352755b90d53"
+  ],
+  "ban": [
+   "i84fcacefe40e",
+   "i35d0c61e99a6"
+  ],
+  "bandage": [
+   "i3404d90be643",
+   "i91f3d9eaec16"
+  ],
+  "bandh general strike": [
+   "i34dc7c84248b",
+   "i18cb7bd9d272"
+  ],
+  "bandit": [
+   "id6651e9cd830",
+   "i58cfc555751c"
+  ],
+  "bank": [
+   "i36b222b42988",
+   "i063c5710d958",
+   "i0f38ec3a6f6c"
+  ],
+  "banner": [
+   "id9068abadb07",
+   "id87578d4a750",
+   "i6149d1eeb0ec",
+   "i57c363e9d931"
+  ],
+  "banyan": [
+   "i8d08d1961146",
+   "i5bd8946ac261"
+  ],
+  "bar graph": [
+   "idebba8ee770d",
+   "ifde43bedcade"
+  ],
+  "base": [
+   "i861846a7952f",
+   "i445715200df6"
+  ],
+  "basic": [
+   "i30b5fcb9e534",
+   "if956693b3156"
+  ],
+  "basic pay": [
+   "i106c4cf3351f",
+   "i95f78387d876"
+  ],
+  "bat": [
+   "i675056ca4db4",
+   "i4004cbcef2c2",
+   "ibb58c3a0923f"
+  ],
+  "bath": [
+   "ia6c9528f3a8b",
+   "i3ff3601a3d05",
+   "i6e7034ac32f2"
+  ],
+  "batman": [
+   "i17c97377bf94",
+   "i2dd67c4d4601"
+  ],
+  "batter": [
+   "i2fdc54274f1a",
+   "i7b63948daf2e",
+   "i70cfda1b05da"
+  ],
+  "battered child syndrome": [
+   "id3f647d7cfe9",
+   "ifc08aa9f3fc4"
+  ],
+  "battery": [
+   "i08d3e8e89194",
+   "i45131be0c3b3"
+  ],
+  "beaker": [
+   "i923c9fb0d45f",
+   "i6195cdac2b2c",
+   "i7de7316ee1f7",
+   "iff6d9715f573"
+  ],
+  "beam": [
+   "i48a62790a45f",
+   "ic6cb85aec425"
+  ],
+  "bear": [
+   "ib97e81324c62",
+   "idf6166417863",
+   "ie799980cc0de"
+  ],
+  "bear endure tolerate": [
+   "i4aa0192f9b13",
+   "ie6d665a7f3d2"
+  ],
+  "beat": [
+   "i52013fbe18a3",
+   "i973c1c9185ee"
+  ],
+  "beat triumph outdo be victorious": [
+   "iaf8fdcb1a955",
+   "ibda541f2eef1"
+  ],
+  "beautiful": [
+   "i1efe61b2a61d",
+   "i4abff6ecf829"
+  ],
+  "beer": [
+   "ife3921c1db0d",
+   "i3808925f5422",
+   "ib40684310d56"
+  ],
+  "before": [
+   "if23e753923da",
+   "ica3474cfcb35"
+  ],
+  "beg": [
+   "id144b5c8ebac",
+   "iaf793a5bf738"
+  ],
+  "behind": [
+   "if43893e1d7c2",
+   "ie4c821960e63"
+  ],
+  "bell": [
+   "i014dd08b7664",
+   "i16b127950323",
+   "i120c42673558"
+  ],
+  "best": [
+   "ia0da83cf0a54",
+   "ia133e9d097c9",
+   "i2672e8530e7d"
+  ],
+  "bet": [
+   "i7d84bceed0dc",
+   "i774dc957a3c1"
+  ],
+  "betray": [
+   "i8d3634a78e0d",
+   "i87ad6ed40485",
+   "i4df7a975a850"
+  ],
+  "bharat": [
+   "i5428208096a5",
+   "id9e9865f181e",
+   "i8f9cf1fdbe3e",
+   "i54ea842ebec9",
+   "iacbb1f006b26"
+  ],
+  "bharatiya janata party": [
+   "i1300c7de5e47",
+   "i0d39bf337672",
+   "i244c0042bd8f",
+   "i168184ec20f3",
+   "i76302a60135f"
+  ],
+  "biased": [
+   "iba7830047ed4",
+   "ie6892682dc2c",
+   "i191048bdc97a",
+   "ia47dfa0273b0"
+  ],
+  "bike motorcycle": [
+   "ie1006ccccad6",
+   "i88a62a4f7325",
+   "i2e43cddb13f5"
+  ],
+  "bike oil filter": [
+   "i5dbe7295ce2b",
+   "ib5924126c659"
+  ],
+  "bike suspension": [
+   "i1d1197c38e31",
+   "i90c3bfc5d1ef"
+  ],
+  "bilingualism": [
+   "i511b9ff9f4a3",
+   "ia2062260c01b"
+  ],
+  "bill": [
+   "ib08bd18a51ae",
+   "if473e6c3dfb0"
+  ],
+  "biochemistry": [
+   "ib44bbd490569",
+   "i9410c82847da"
+  ],
+  "biodiversity": [
+   "i37bad8e47a33",
+   "i26cf8d76c23a"
+  ],
+  "biogas": [
+   "i8006672cccfc",
+   "ie6cf59ab5322"
+  ],
+  "biology": [
+   "idb9cb64e6694",
+   "i5aa7c2c25bd4",
+   "i63ae6694d750"
+  ],
+  "bite": [
+   "ia048b1477d7f",
+   "i545d4282cd74"
+  ],
+  "bjp": [
+   "i1300c7de5e47",
+   "i0d39bf337672",
+   "i244c0042bd8f",
+   "i168184ec20f3",
+   "i76302a60135f"
+  ],
+  "black market": [
+   "i5dff6025ab8a",
+   "ia07b4160db7b"
+  ],
+  "blackboard duster": [
+   "i341fcba2fecb",
+   "ia2f467f68fbb"
+  ],
+  "bleat baa": [
+   "id70fa68acc18",
+   "i74b3f4180d91"
+  ],
+  "bleeding": [
+   "ic48e0f552ba8",
+   "i48b1740e259b"
+  ],
+  "blind spot": [
+   "i77fdcc1c44f2",
+   "ica7c92803f56"
+  ],
+  "block": [
+   "i19b1ffbbaeac",
+   "i7bb5ce28796c"
+  ],
+  "blood pressure": [
+   "idb60674703bc",
+   "i2de3271aae3a",
+   "iaec4c4e223bc"
+  ],
+  "blouse": [
+   "i0fba899c994c",
+   "i8947831f82f2",
+   "i217c194bb59b"
+  ],
+  "bluetooth": [
+   "i73fddc51bb5b",
+   "ie3dcaac0cdcf"
+  ],
+  "board": [
+   "i07570f2a0c58",
+   "i275a2e14e53f",
+   "i5f259df9421c"
+  ],
+  "body": [
+   "i2a033727dcf0",
+   "icc4a766995ee"
+  ],
+  "bonafide": [
+   "i92c4a1673a4e",
+   "i4df2f92c6123"
+  ],
+  "bonus": [
+   "if406ce2a570d",
+   "i169d4d08cac4",
+   "ifad8c5c29a00"
+  ],
+  "book": [
+   "ie4f51e34265e",
+   "idb1756dccd20"
+  ],
+  "boot": [
+   "i3b82295aefdb",
+   "i8e6965c452d0"
+  ],
+  "bowl": [
+   "i5b53a4b63c17",
+   "iafc8fb25ee5f"
+  ],
+  "bowled out": [
+   "i83dd6a6936d9",
+   "i2aded1bced9b"
+  ],
+  "brace": [
+   "ic12d14489a72",
+   "iaf975c762742"
+  ],
+  "brackets": [
+   "ied447a12fc22",
+   "i8c36cdb51fca"
+  ],
+  "brain": [
+   "i290f6bc54e6f",
+   "if85ab5cdad15",
+   "i12407ddc6b3a",
+   "i15cae2b41792"
+  ],
+  "brain tumor": [
+   "i3a7d5a707bfa",
+   "ib9acf6c5e4e1"
+  ],
+  "branch": [
+   "i23397cf06344",
+   "id3bfae439b55"
+  ],
+  "brand": [
+   "if6ca6e851d55",
+   "i1c614241edb6"
+  ],
+  "break": [
+   "i7a087e2b4a9b",
+   "i8fb607055cb6"
+  ],
+  "briefcase": [
+   "ia7283f540a7d",
+   "ic77f106ce3bb"
+  ],
+  "broker": [
+   "id0bc0e9f718e",
+   "iacf41af125a4"
+  ],
+  "broom": [
+   "i87b7c624c5f7",
+   "if7c6102e201d"
+  ],
+  "buddhism buddhist": [
+   "i1ac66fc466d3",
+   "i3594291bdb73"
+  ],
+  "budget": [
+   "ic2e237e07524",
+   "i40601ea17610",
+   "i202ab95e036b"
+  ],
+  "buffalo": [
+   "i1004a1f051d4",
+   "i7b5b2040624f",
+   "id8713db382df"
+  ],
+  "bullet": [
+   "ic8ee90597609",
+   "i897ec12f72a7"
+  ],
+  "burqa": [
+   "i8e72a466fee0",
+   "ifcd3c693c2b8"
+  ],
+  "bus": [
+   "i37eeea7529f3",
+   "i89a033110114"
+  ],
+  "business": [
+   "ic31bbc51387a",
+   "i220a318e948e",
+   "i4c935af6f4f0"
+  ],
+  "butter": [
+   "i5f61b2f7b07a",
+   "iec0020853cda"
+  ],
+  "button": [
+   "i3c1bf08a293c",
+   "icb161961e4b6"
+  ],
+  "calculator": [
+   "i4192176808ff",
+   "ic75f16837ab5",
+   "i6de5b8248b44",
+   "i138a4f98e202"
+  ],
+  "calendar": [
+   "iaa870666ea7b",
+   "i7b0760b384b4",
+   "ia98c4a8db910"
+  ],
+  "calf": [
+   "i288c1eb14539",
+   "i225bd2a2f6d2"
+  ],
+  "call": [
+   "i79828c294a49",
+   "icc1901a19df4",
+   "i9eaf063c13d2",
+   "i6495e1ac6b41",
+   "iada2d4a71ef5"
+  ],
+  "can": [
+   "if32027e7afe9",
+   "i627a53027acc"
+  ],
+  "capital": [
+   "i8c41cac461fc",
+   "i4d30794fe541",
+   "i2a0369f10590",
+   "i9c1af1a96966"
+  ],
+  "capitalism": [
+   "i3d956050b250",
+   "i2a2f08c43d35"
+  ],
+  "capsicum": [
+   "i1eb516d39472",
+   "i0ba052ee9d60"
+  ],
+  "carbohydrates": [
+   "ie9afbbffef07",
+   "ief06fef3ea6d"
+  ],
+  "carbon dioxide": [
+   "i858fe721efd8",
+   "i67160dc61907"
+  ],
+  "carpenter": [
+   "i8c88a781f04b",
+   "i61f8646cf9bc",
+   "i9739798a17a4"
+  ],
+  "case": [
+   "i5f9979ffc4b9",
+   "idee71452e8d5"
+  ],
+  "cash flow": [
+   "ic6943b5fd5ca",
+   "i4126ca69c086"
+  ],
+  "cashier": [
+   "i1e8225cd804c",
+   "ic3e8ac7de652"
+  ],
+  "caste": [
+   "id41ba2d5adfa",
+   "i94a22c19de3d"
+  ],
+  "cat": [
+   "i9718cacc9574",
+   "i4b186b3d1f5f"
+  ],
+  "catch": [
+   "icdb20f6077ef",
+   "i30bd547b85ec",
+   "ifb411ff16d0b",
+   "i95bbf8813fee"
+  ],
+  "cathode": [
+   "i76da8daa8c9c",
+   "i75102abbfd1d"
+  ],
+  "ccl": [
+   "i2e591dd0da2e",
+   "i12cfe57a9639"
+  ],
+  "cell": [
+   "if390bb03114c",
+   "i733a5db0d64d",
+   "i4a0d056001bb",
+   "i27755cc15e93",
+   "i8d4dcb131dad"
+  ],
+  "cell mobile": [
+   "i34c593018bf0",
+   "i3cd988d56dd6",
+   "i546fbcfe5daa",
+   "ie8b414f61b76"
+  ],
+  "census": [
+   "i032dcfb4ea53",
+   "iaa29acfdcf2a"
+  ],
+  "certificate": [
+   "i34f725641243",
+   "i4229ceffa623"
+  ],
+  "chalk": [
+   "ic27735fdb05f",
+   "ie9df7c129790"
+  ],
+  "character map": [
+   "ic23d9090b3ee",
+   "i942dd7a7dce0"
+  ],
+  "charger": [
+   "i0aada6f0d170",
+   "i6105185bdcef",
+   "i9fe20f779037",
+   "i9595695ab1f6"
+  ],
+  "chart": [
+   "i95ceed58b5dc",
+   "ia573e6ad483d"
+  ],
+  "cheap": [
+   "i0676e0976cdc",
+   "i0436e16aeef9"
+  ],
+  "chemistry": [
+   "i0005b4827e28",
+   "iacb42cea6069",
+   "i855641ee4917",
+   "i711500c51faf"
+  ],
+  "chennai": [
+   "i0e7fa42c4c2f",
+   "i59540fdc0ee1"
+  ],
+  "cheque": [
+   "i99d87495c563",
+   "ib90bc8810f32"
+  ],
+  "cherry": [
+   "ic52a42e8a94a",
+   "ie6994682496c"
+  ],
+  "child": [
+   "i9912971faee4",
+   "i72209739838d"
+  ],
+  "child care leave": [
+   "i2e591dd0da2e",
+   "i12cfe57a9639"
+  ],
+  "chilli": [
+   "i05e8ed2b0f59",
+   "i67cb49e6bf65"
+  ],
+  "chimta tongs": [
+   "i6b78504cb3e4",
+   "i19eef401cc24"
+  ],
+  "chlorophyll": [
+   "i6d2a53905733",
+   "i82c883178c1b"
+  ],
+  "christmas": [
+   "i5ae592987b97",
+   "ifbd60afc2638",
+   "i4264fd14c1f4",
+   "i8a69ab41e375",
+   "ic02b91a4cb31",
+   "ie010bbe722e1"
+  ],
+  "cinema hall theatre": [
+   "ic0cd27cb7d7b",
+   "i7684b694885e",
+   "i1773e29fdbd7"
+  ],
+  "circle": [
+   "ic3c0d566f831",
+   "i3b8a4c0e50a9"
+  ],
+  "circular": [
+   "ifcf51ed11526",
+   "i968dcddb5b48"
+  ],
+  "circumference": [
+   "iae53714c47c9",
+   "i0289b0c4797d"
+  ],
+  "citizenship": [
+   "i09983afcaa68",
+   "i198303fa25b9"
+  ],
+  "city": [
+   "i10fa57836bc5",
+   "i8718327f9668"
+  ],
+  "clear": [
+   "i0f3437b97b7e",
+   "i7230cba7579d"
+  ],
+  "clearance certificate": [
+   "i2700084fe87c",
+   "ia570d436bffe"
+  ],
+  "clerk": [
+   "i0f2bf5cdd293",
+   "i2f55075dca24"
+  ],
+  "clever": [
+   "i030570d0ecd2",
+   "id999a71e6df6",
+   "i27de001822df"
+  ],
+  "climbers": [
+   "ic46e32549455",
+   "i8430aa91d9a0",
+   "i77415822df38"
+  ],
+  "clock": [
+   "if14bdb0d7078",
+   "i538f3a19cf98"
+  ],
+  "close": [
+   "i69bdea35a30a",
+   "if866f77e6945",
+   "i4cd549c7fa1d"
+  ],
+  "club": [
+   "i2eef2bd40fd7",
+   "i1de9ceaa89a7"
+  ],
+  "co accused": [
+   "i67f60efb4a56",
+   "ibb5f0331d838"
+  ],
+  "co curriculum": [
+   "icd03e07734cd",
+   "i82eebd4e2140"
+  ],
+  "coach": [
+   "i24230382042d",
+   "i4ef5857b3739"
+  ],
+  "cobbler": [
+   "i00501e280052",
+   "ide439956f8bb"
+  ],
+  "coconut": [
+   "ie54a514d65a4",
+   "ic67ad0f19af5"
+  ],
+  "coda": [
+   "i2711a6e66c82",
+   "idb393a3e168f"
+  ],
+  "cognizable": [
+   "iae2496c0b807",
+   "ifc337feea2f6"
+  ],
+  "cold": [
+   "i990dd6e20f9f",
+   "if39639ad3360"
+  ],
+  "colonialism": [
+   "ie51e6dcf9611",
+   "i87f4d4beedbf"
+  ],
+  "colour": [
+   "ib82402101949",
+   "i060dcea658a6"
+  ],
+  "colours": [
+   "ibdc96a1300fb",
+   "i715729baae16"
+  ],
+  "column": [
+   "i26488e2b021c",
+   "ia0d0e57ff621"
+  ],
+  "combat": [
+   "ie4f226046cd0",
+   "i7bf0d8da2a9b"
+  ],
+  "come": [
+   "i9142b6129247",
+   "idbeb1ac7b040"
+  ],
+  "comfortable": [
+   "i170b730279a0",
+   "if512c259e4ec"
+  ],
+  "comment": [
+   "i31275a5c5545",
+   "i27cebf0ce1d6"
+  ],
+  "commission": [
+   "i5228a50b092e",
+   "i6ee52db68884"
+  ],
+  "company": [
+   "i1ac10921260c",
+   "ie2bbbae51c70"
+  ],
+  "compass": [
+   "i6a53f65b5ebe",
+   "i17f6c438812d"
+  ],
+  "compensation": [
+   "i3c7ab18f486d",
+   "i59a0a23c97a9"
+  ],
+  "competition": [
+   "i869bf32e2a78",
+   "i0edd4908dfcb"
+  ],
+  "compound": [
+   "idf1e06a0575f",
+   "i3efb968c6aff",
+   "ic76ba7aa8014",
+   "iff8c44d50b29"
+  ],
+  "conceive": [
+   "ia1fa3b1d845c",
+   "i3845bf8a147c"
+  ],
+  "conclusion": [
+   "i85effc040f86",
+   "i1a7b264daeed",
+   "i30f4d13fdad7"
+  ],
+  "condensation": [
+   "ie35774981d31",
+   "i06277b025939",
+   "ia8b7ac42e219",
+   "ic024dce933f5"
+  ],
+  "conductor": [
+   "ic96531a6258d",
+   "i767db3c81684",
+   "ib9f5b6a57555"
+  ],
+  "cone": [
+   "i646b1fa803d2",
+   "i86e6182708ff",
+   "i8e6071970e9e"
+  ],
+  "conference": [
+   "i960d3b7e6793",
+   "ib5002b5a8938",
+   "icdbfd3d495ec"
+  ],
+  "confession": [
+   "i360c7f197ae3",
+   "i4266a38def6d"
+  ],
+  "confirm": [
+   "i97e1908c4943",
+   "ife2e18342d43"
+  ],
+  "confused": [
+   "i8f95764841a0",
+   "i50f66c31b5dd"
+  ],
+  "constant": [
+   "i15f27089d4aa",
+   "i026bc1b2f5ba"
+  ],
+  "constitution": [
+   "i6b98d6a7e8cc",
+   "i1f8981d62ef0",
+   "ibab58e151e09"
+  ],
+  "convection": [
+   "i7007c76043e7",
+   "i4092ecd636f2"
+  ],
+  "convention": [
+   "i06e54605cbb6",
+   "i33d319367747",
+   "ib34b51c74317"
+  ],
+  "convex lens": [
+   "i8a1e6736b846",
+   "ib87b65977070"
+  ],
+  "copper": [
+   "i872b6cf8a5f8",
+   "i0e7cbae8210d"
+  ],
+  "copy imitate": [
+   "id5a07e9078b8",
+   "i89048b133d93"
+  ],
+  "corn": [
+   "i181c27a6cc81",
+   "i7d4b45de01a0"
+  ],
+  "corpse": [
+   "i5b1212b98107",
+   "ia6d75141892f"
+  ],
+  "corruption graft": [
+   "if3b22d225ca1",
+   "i4ca0e128d48d",
+   "i1e4056563f40"
+  ],
+  "counter attack": [
+   "iae5481e250d4",
+   "i17e27f93eff3"
+  ],
+  "coverage": [
+   "idc893e2d6ab8",
+   "i4cfa6488d414"
+  ],
+  "cow": [
+   "ic44ac6408823",
+   "ib983720052a6"
+  ],
+  "cowl": [
+   "idf737c37114c",
+   "ic2d9a10552df"
+  ],
+  "cricket": [
+   "icc2907fa6606",
+   "i12f54fbde619"
+  ],
+  "crime": [
+   "ie87863f3064c",
+   "iaed9edd4be72"
+  ],
+  "crop rotation": [
+   "i17086ec88963",
+   "i78bf0a808ca7"
+  ],
+  "crops": [
+   "i75885823b2a1",
+   "i862b63af3791"
+  ],
+  "cross examine": [
+   "i8ba9a8b8e8ea",
+   "ie3dc32e027ba"
+  ],
+  "cruel callous harsh ruthless": [
+   "ib877b8dba86a",
+   "i95aac48725d4"
+  ],
+  "cry weep": [
+   "i7dc4d886f1db",
+   "ib7108e6562b7"
+  ],
+  "cube": [
+   "i16e7ae3b37a9",
+   "i85d6b261919f",
+   "i167a5bb5622f"
+  ],
+  "cultivation": [
+   "iad85e404fe18",
+   "i7c4244d06254"
+  ],
+  "cultivators": [
+   "ie47f87b732f7",
+   "i24854ee05c9e"
+  ],
+  "cultural model of disability": [
+   "i7e206e02f2a3",
+   "i6f74a7e2aee7"
+  ],
+  "culture": [
+   "i60137484ed06",
+   "i1a038c05eff3"
+  ],
+  "curfew": [
+   "i6f7ef7d19ab4",
+   "i0b47323e54d5"
+  ],
+  "current account": [
+   "i7eba8590be37",
+   "i60e0dace12d2"
+  ],
+  "curve": [
+   "i5a4e022e8992",
+   "i523910cd6e62"
+  ],
+  "custody": [
+   "ifb3a7f885735",
+   "if97a4331357f"
+  ],
+  "cut": [
+   "ied481a35c633",
+   "iccf946ae6cb2"
+  ],
+  "cyber crime": [
+   "if3364e278d56",
+   "ia1242711bd75"
+  ],
+  "cylinder": [
+   "id11f71ff5ef7",
+   "i107013bad757",
+   "i9e7639997e7c"
+  ],
+  "cytoplasm": [
+   "i7a6c6446ed29",
+   "id2b26c283ac6"
+  ],
+  "dairy products": [
+   "ic273c8c7bd51",
+   "i46d476a319f5"
+  ],
+  "dandruff": [
+   "i5b29a030f389",
+   "ifc31a22221e8",
+   "iba60af68b029"
+  ],
+  "dare challenge": [
+   "iaf0e6ac5c521",
+   "ic7a2f0f023f5",
+   "iefe944ec677a"
+  ],
+  "dash": [
+   "i914458c74958",
+   "i6cf900480d06"
+  ],
+  "data": [
+   "i6d38aa0d376c",
+   "iae63748f0717",
+   "ib34307e9143e"
+  ],
+  "date": [
+   "i79b392f93f15",
+   "ic2a18755a290"
+  ],
+  "date of retirement": [
+   "ieb683e9f913a",
+   "i4eed9c3c1cd7"
+  ],
+  "day": [
+   "i6766fbabafe6",
+   "i2d265d6da87e"
+  ],
+  "deadline time limit": [
+   "ie0bd65c3e328",
+   "i983e82ebcbee",
+   "ib0ab91d5b7f1",
+   "ibb207541e798"
+  ],
+  "deal": [
+   "i715b6e6c3c7f",
+   "icf9610bb3ed9"
+  ],
+  "death certificate": [
+   "i383de9915555",
+   "ic806b08e20f7",
+   "ie80f1ce7643d",
+   "i3dba86e2acd5"
+  ],
+  "debit card": [
+   "i5220d23c6121",
+   "i5fb8284be22c"
+  ],
+  "deceive": [
+   "i945f06697c20",
+   "i4df7a975a850"
+  ],
+  "decimal": [
+   "i6a91870e42e4",
+   "i14472847b34f"
+  ],
+  "decommission": [
+   "i3720b4501d98",
+   "i9c5f2a124f19"
+  ],
+  "decrease lessen reduce": [
+   "i3dfda857520f",
+   "i0c82c0a880a3"
+  ],
+  "deer": [
+   "i0f8262e68959",
+   "i46f93af46b02"
+  ],
+  "defend protect": [
+   "i6c098b0996aa",
+   "i14538725cbe4"
+  ],
+  "deforestation": [
+   "i67dc01dd1a46",
+   "if3ff4de180cd"
+  ],
+  "defraud": [
+   "i30a1f7939010",
+   "i81d5bba0b633"
+  ],
+  "degree": [
+   "i3e9742d5b286",
+   "ic28e21755341",
+   "i083e8b407294",
+   "i48f77a8c956c",
+   "i44f1eaeb0777",
+   "i7e7b175ad2a3"
+  ],
+  "delegate": [
+   "iea85156178a3",
+   "i1f6d17f95aed"
+  ],
+  "delegation": [
+   "if40d47f1e0e0",
+   "i5b25c60f550c"
+  ],
+  "deliberate": [
+   "i9e5282f70e63",
+   "i277d8e3e77a2"
+  ],
+  "delicious": [
+   "ieb82fc4f8b00",
+   "ibed99f93b3d9"
+  ],
+  "demand": [
+   "id87b76ce5a76",
+   "if099d8de3c48"
+  ],
+  "demand draft": [
+   "iaf966a824540",
+   "i75a60a400389"
+  ],
+  "demarcation": [
+   "i8ae8d9d58f73",
+   "ib533dc668dd5"
+  ],
+  "democracy": [
+   "i786890e28888",
+   "i3dc122824a19"
+  ],
+  "dentist": [
+   "i4f7556883e20",
+   "i4599384b85ce"
+  ],
+  "department of empowerment of persons with disabilities": [
+   "icf7f1f19a5ee",
+   "i99464a4b9ae7"
+  ],
+  "deploy": [
+   "i218ba9726d4d",
+   "i0303308bf9fd"
+  ],
+  "deposit": [
+   "i9899aa9112c9",
+   "i54747a6749fb",
+   "i1875588ac23f"
+  ],
+  "depression": [
+   "i2601d84b528a",
+   "if040d12e54e0",
+   "i9896ee4f2e8e"
+  ],
+  "deputy director": [
+   "ib0674e0400af",
+   "i50e8421bf5ff"
+  ],
+  "descending order": [
+   "ia9037800aa05",
+   "if405a4b27840"
+  ],
+  "diabetes": [
+   "id495d08071e1",
+   "i63727ce84873",
+   "if09176d70de3"
+  ],
+  "diagonal": [
+   "id8b864b5d146",
+   "iac1df8d12b86",
+   "i96f89596d9fc"
+  ],
+  "dice": [
+   "if22e06f9313e",
+   "id4029d876000",
+   "ib44ab247eaa4"
+  ],
+  "diet": [
+   "ice78d354780b",
+   "i383a989b1dcd"
+  ],
+  "digestion": [
+   "i42b64de0db98",
+   "ia982741e2145"
+  ],
+  "digestive system": [
+   "iadf0ce6e49ef",
+   "i77156c73cfe1"
+  ],
+  "director": [
+   "i1e4968e48ec1",
+   "i103aff972b1a"
+  ],
+  "disagree dissent": [
+   "i43cbeb424e1b",
+   "ibcfc71143570"
+  ],
+  "disappear with the arrival of someone": [
+   "i6f96177fc62b",
+   "i51f1f0bd54f8",
+   "i255ea795f858"
+  ],
+  "discount": [
+   "i617f91f1d133",
+   "i5ee15ac6aaf3"
+  ],
+  "discrimination": [
+   "i7996dca92924",
+   "id53b2169afb0",
+   "i1bb2dd6a662f"
+  ],
+  "disease": [
+   "ibb2909f81bd9",
+   "ie88441947e27"
+  ],
+  "disparity": [
+   "i024ac33944c2",
+   "i1cd151773cf3",
+   "i480a50391054"
+  ],
+  "dispersion": [
+   "i4c4273b4ad93",
+   "ibfc1f7f0593c"
+  ],
+  "district jail": [
+   "i2afdd77dc792",
+   "i7d710fe8d697"
+  ],
+  "dividend": [
+   "ie65598cc34d9",
+   "if6fc17731702"
+  ],
+  "divider": [
+   "i9e823955211b",
+   "i5b5153a3444c"
+  ],
+  "division": [
+   "i12a0d471e19b",
+   "ic33bd6314f7b",
+   "i95776053f593"
+  ],
+  "divorce": [
+   "i81bc78e6f6d2",
+   "ic8cf0c1ea3c0",
+   "i6a225a445a01"
+  ],
+  "divorcee": [
+   "i32ff03e9f05c",
+   "i27a443b0045d"
+  ],
+  "diwali": [
+   "i0b779949d098",
+   "i4378391c1be5",
+   "i80996391bda7",
+   "i5b6a2b47faac"
+  ],
+  "document": [
+   "iec828502ddfd",
+   "i2d7c84dafed0"
+  ],
+  "dog": [
+   "ie20007558f08",
+   "i0d05a7495bc6"
+  ],
+  "doner": [
+   "i85a700053311",
+   "i1925f032430d"
+  ],
+  "donkey": [
+   "i3a387ed0c50f",
+   "i5f24979a004d",
+   "idf1e1de5025a"
+  ],
+  "double burden": [
+   "i1ef7f4291049",
+   "if98f1b2fc387"
+  ],
+  "drip irrigation": [
+   "if2768dbba8ff",
+   "ie0125590c445"
+  ],
+  "drive": [
+   "i6a548e042ffa",
+   "i3a5946609ad0"
+  ],
+  "driver": [
+   "i9e53677ea2f2",
+   "i1f53ba80b818"
+  ],
+  "drought": [
+   "i963c4953117d",
+   "i2a1b82be5337",
+   "i2d7a0c95f4ba"
+  ],
+  "drug": [
+   "iebcbf6620fac",
+   "i22ac21a7eb56",
+   "i094c9d3d9e0e",
+   "i7e961fbdc65c",
+   "i55b880f5150c"
+  ],
+  "dubai": [
+   "ib56ffcfbcb69",
+   "ifd61084a470c"
+  ],
+  "duck": [
+   "i54f1641db618",
+   "i7254f1f44060"
+  ],
+  "dussehra": [
+   "i9582cd734fb3",
+   "ib75f45f85d72"
+  ],
+  "each": [
+   "i2bd1daccbab9",
+   "idd88ba1110e4"
+  ],
+  "earth": [
+   "i18e09304ec5c",
+   "i1d55721f82d6",
+   "i6c433d98ede7"
+  ],
+  "earthen water pot matka": [
+   "ie2861b749ed1",
+   "i9d4eb99c6af8"
+  ],
+  "east": [
+   "ic74997ac0287",
+   "ic812437998e6"
+  ],
+  "economics": [
+   "i727199f1eff6",
+   "i16dfa104411a"
+  ],
+  "edge": [
+   "i51b85d928e5e",
+   "ia4d4d30bdc11"
+  ],
+  "edit": [
+   "i99a18d80db3a",
+   "ie72212fda598"
+  ],
+  "egg": [
+   "i9ead9e9ad41c",
+   "i942cb662511e"
+  ],
+  "egypt": [
+   "i7be4dac1df5c",
+   "i29596deeb76c"
+  ],
+  "egyptian civilization": [
+   "if0c11cd75053",
+   "idd79c59774a8"
+  ],
+  "electric circuit": [
+   "i840f957b079e",
+   "i632ceab73f5d",
+   "i1ac1ca54e822"
+  ],
+  "electrician": [
+   "ifd2a2b365c62",
+   "i57a1d28dec8e"
+  ],
+  "electrode": [
+   "if1a2576665cd",
+   "id72edcfcfd60"
+  ],
+  "electrolyte": [
+   "i3365f9ce5a49",
+   "iccd60c9621f8"
+  ],
+  "electromagnet": [
+   "ie3e053b9e557",
+   "i95a1cba51f47"
+  ],
+  "elephant": [
+   "ic7a2b983859c",
+   "i2ab9f9215476"
+  ],
+  "elevation": [
+   "ie4046794bb84",
+   "ic206d4060305"
+  ],
+  "embarrass": [
+   "i0cad697d8fad",
+   "i2f33794c360a"
+  ],
+  "empathy": [
+   "ieae57284a0cc",
+   "i0147ef82a13f"
+  ],
+  "empowerment": [
+   "ide181391c0ce",
+   "iac033c73aa0e"
+  ],
+  "energy": [
+   "i2dea9d3c0ad7",
+   "ib235c766cb42",
+   "iab9783b3d814"
+  ],
+  "engine": [
+   "i9c02c45db056",
+   "i9a7e4bf92cf8"
+  ],
+  "england": [
+   "i90a42ea0bb11",
+   "ia483798d605d"
+  ],
+  "enough": [
+   "ib206c3031d25",
+   "i75e9a3dfc22e"
+  ],
+  "ent": [
+   "ibaec01c1ab50",
+   "iaf47b3fc4341"
+  ],
+  "environment": [
+   "ic44ce3afa7c1",
+   "idedf1e6efdc2"
+  ],
+  "euthanasia": [
+   "i2242605a7fda",
+   "i31c057c1d9a1"
+  ],
+  "excretion": [
+   "icb3db37234e0",
+   "i4cfed709690c",
+   "i2904bfee20c0"
+  ],
+  "executive": [
+   "i46d4ae582a8b",
+   "i0bceafcd5f5c"
+  ],
+  "expensive": [
+   "id739bc522527",
+   "iaf19ff316a1b"
+  ],
+  "experiment": [
+   "i19c8b5aae293",
+   "i0394b751a70f"
+  ],
+  "exporting graphics": [
+   "i47b501d51ab9",
+   "i23f359349d18"
+  ],
+  "extinct": [
+   "iea6c96e080f0",
+   "i2e50d95df9af"
+  ],
+  "eyebrow": [
+   "i336e1a1f1bed",
+   "i749bec0542b0"
+  ],
+  "fabricated evidence": [
+   "if472657d4f74",
+   "ie84ecfa1002a"
+  ],
+  "face": [
+   "ifca188bb18c0",
+   "i1e57face0b15",
+   "ic9fe2489a145"
+  ],
+  "fact": [
+   "if9d7c1ade6be",
+   "i84d43f199479"
+  ],
+  "factorisation": [
+   "i8adda2b51018",
+   "i3a42e508399a"
+  ],
+  "factory": [
+   "i6b3532a856a8",
+   "i46a1d2e139fc"
+  ],
+  "fair": [
+   "ia8192196823f",
+   "i2e137ffe82d6"
+  ],
+  "fall": [
+   "i92f3bae920b3",
+   "i862ba0c7b2bb"
+  ],
+  "family": [
+   "i48dd8de5fcc4",
+   "i0cf34daec99f"
+  ],
+  "farmer": [
+   "i494700a04464",
+   "idf3976ed21e5",
+   "iec6026aa8619"
+  ],
+  "fast": [
+   "if74a6b3d9a80",
+   "i60fd79157497"
+  ],
+  "father in law": [
+   "if74f9a49d0b6",
+   "i445d5b082c6c",
+   "ic99b5386778e"
+  ],
+  "favourite": [
+   "iec3290307796",
+   "iab4fd3f3f87a"
+  ],
+  "feudalism": [
+   "i8624fe0037d2",
+   "ife51f406f54e"
+  ],
+  "fever": [
+   "i4d8c68e426b5",
+   "i2d923a465dd4"
+  ],
+  "fiance": [
+   "i8cd7319f0626",
+   "id2ad94a10c51"
+  ],
+  "fiancee": [
+   "icc39758fe98f",
+   "i84ecc14ea92d"
+  ],
+  "fifth": [
+   "ia9e76168f0db",
+   "i455ffd2987f4"
+  ],
+  "fifty half century": [
+   "i28132bbd7229",
+   "i6c37008e20d3"
+  ],
+  "fight": [
+   "i78534941ae26",
+   "i80313ae4f165",
+   "ibf789d04afc6"
+  ],
+  "figure": [
+   "if0b9bc6b1469",
+   "i8bebe2a08ed2"
+  ],
+  "file": [
+   "i062bd3687117",
+   "i712e6cbe9364",
+   "i771de9ea6f4f"
+  ],
+  "financial year": [
+   "i0953c631db70",
+   "i1ef0c9dbc32c"
+  ],
+  "fine": [
+   "iaf2b462d7899",
+   "ic3afbc33f436"
+  ],
+  "fire": [
+   "id6ad26661d7d",
+   "ia5bbe54015fa",
+   "i36683007bc97"
+  ],
+  "fish": [
+   "i93f9bd2d43f5",
+   "i75779c43dcf2"
+  ],
+  "flag": [
+   "i0ea620088e95",
+   "id075fb4f8c10"
+  ],
+  "flask": [
+   "i91eafb815423",
+   "i3263ead8af0e"
+  ],
+  "flexible": [
+   "i7648d095ede9",
+   "i623062e18497"
+  ],
+  "float": [
+   "ib5e1f9b10e4c",
+   "ibddcfc121f76"
+  ],
+  "flood": [
+   "i828b94234b8f",
+   "i6e03a50f6091",
+   "ic517ddecfa16"
+  ],
+  "flour": [
+   "i0f051ce0c3ab",
+   "ib63134d9bebe"
+  ],
+  "food chain": [
+   "i764201b3da0c",
+   "i323db92a9318",
+   "ife9da7615173"
+  ],
+  "food security": [
+   "ie69691025fd8",
+   "ibc5f391f7d87"
+  ],
+  "football": [
+   "i06bc94b9ce24",
+   "i70f1bf65830f"
+  ],
+  "force": [
+   "iff72c59a9ec7",
+   "ibe1ef44f3921",
+   "i22f3e2e3b082"
+  ],
+  "forehead": [
+   "i03446f84b2a9",
+   "icd1acbfab820"
+  ],
+  "forgive": [
+   "ie0df13de8ec8",
+   "i9eedb9ddfae5"
+  ],
+  "form": [
+   "iea7bb20ffbb9",
+   "ib2da6033281f",
+   "ifdb4865f8386"
+  ],
+  "format": [
+   "id7214a6dfdc2",
+   "i65af981cbe42",
+   "i8c313be08f3c",
+   "ie9f11a28b739"
+  ],
+  "formula": [
+   "i189e807927fa",
+   "ic523ba0c65e2"
+  ],
+  "foundation": [
+   "i8dce9b232a88",
+   "ib761d34616df"
+  ],
+  "four": [
+   "i729b0ab529e1",
+   "i0feed9eed285"
+  ],
+  "fraction": [
+   "i7a78bfab73e2",
+   "i7d59ff244dfb"
+  ],
+  "free will": [
+   "id0ec78653928",
+   "i75ccb57015dc"
+  ],
+  "friction": [
+   "i3a872956cf8d",
+   "i79b5d1f164e2"
+  ],
+  "full": [
+   "i8895321dab4f",
+   "i466f960c5f18",
+   "ib6c635071cbd"
+  ],
+  "full time": [
+   "i59d0a9e5b664",
+   "id250d47157b3"
+  ],
+  "fundamental duties": [
+   "ice6c024c7dc0",
+   "i36ea766ac611"
+  ],
+  "funeral": [
+   "i8184194512f8",
+   "i457a84859d23"
+  ],
+  "funny": [
+   "if045b18ad491",
+   "i841c164eed5e"
+  ],
+  "fuse": [
+   "ib3d3a9a42593",
+   "i61f939cf8577"
+  ],
+  "garage door opener": [
+   "i3d6b45cbaf67",
+   "if1493f735795"
+  ],
+  "garden": [
+   "ib251983fa90c",
+   "i6a30096380da"
+  ],
+  "gas": [
+   "i91b77e1636d3",
+   "i4b4771d6551c"
+  ],
+  "gas stove": [
+   "i14df92f018b0",
+   "i2a4370770fb5"
+  ],
+  "gather": [
+   "i9f40cbbe6f0a",
+   "i67d57a2eddcf"
+  ],
+  "genealogy": [
+   "i42718a20c5a4",
+   "icfaf51d74494"
+  ],
+  "general financial rule": [
+   "i4ca173c3b316",
+   "i9dc903287857"
+  ],
+  "geology": [
+   "id63190c593f9",
+   "i383d074c01e8"
+  ],
+  "germination": [
+   "i41d0fde2538c",
+   "ic08ac6e8c7f4"
+  ],
+  "gfr": [
+   "i4ca173c3b316",
+   "i9dc903287857"
+  ],
+  "ginger": [
+   "i76af5c8ef0d0",
+   "icac602e9744a"
+  ],
+  "giraffe": [
+   "id10b5b1eb4c8",
+   "ifea0a944fa10"
+  ],
+  "glass block": [
+   "ic994f3f4147d",
+   "ie88a03916a73"
+  ],
+  "gloss over something": [
+   "ic660c28a8738",
+   "ib2d945447fd9"
+  ],
+  "gloves": [
+   "i86743cc02e17",
+   "i7faa6bb8b158",
+   "ie01ad1c304a2"
+  ],
+  "glow": [
+   "i500cf15c73b1",
+   "i30d71cfcc7ef"
+  ],
+  "goa": [
+   "ie54e7b59551a",
+   "i407a50e107dc"
+  ],
+  "goat": [
+   "i7549ad8b2d19",
+   "iea78f354177d"
+  ],
+  "god": [
+   "i06c9fcd46886",
+   "ide58a6dc951d"
+  ],
+  "gol gappe pani puri": [
+   "i5d0a3e9c491e",
+   "i370f38bb1115",
+   "ic911d7ee2961"
+  ],
+  "gold": [
+   "ia5385dee4ff6",
+   "i11630ae3e8dd",
+   "i54f806cb1462"
+  ],
+  "good": [
+   "i22a92b908266",
+   "i2d045a3b6863"
+  ],
+  "grafting": [
+   "i2e345f4a61d7",
+   "i2d5600c4f111"
+  ],
+  "gravity": [
+   "i11ca6fccc19f",
+   "iaa41b6b4951d"
+  ],
+  "greater than": [
+   "i6cc27457eea8",
+   "id1c055265286"
+  ],
+  "greedy": [
+   "icbc6470fe16b",
+   "ie7a88625c054"
+  ],
+  "green revolution": [
+   "i3192277c6df5",
+   "i377b44a1d096"
+  ],
+  "grey": [
+   "i67fa6cd215a0",
+   "ic38fe87784d7"
+  ],
+  "ground water": [
+   "idd617afaaf6b",
+   "i72e74514c8aa"
+  ],
+  "grow": [
+   "i851657c423c7",
+   "i635a873035be",
+   "i4c7ac9ebecc4",
+   "ic899a580c6e5"
+  ],
+  "gst": [
+   "i8b34b367ac16",
+   "i9c9f80bcaca2"
+  ],
+  "guilt": [
+   "ide713b88da02",
+   "i58e11bafa652"
+  ],
+  "gujarat": [
+   "icc59b80ed9c8",
+   "i86163930efde",
+   "i00fe041ae037"
+  ],
+  "gun": [
+   "i1d2cfbd6c05e",
+   "i426a1323b80c"
+  ],
+  "gurudwara": [
+   "i365d8d225b92",
+   "if54bf98129a8"
+  ],
+  "habitat": [
+   "i46124df3fb65",
+   "i723feaa3df45"
+  ],
+  "hair": [
+   "i50301c595684",
+   "ic775463f6e57",
+   "ibe3d1ba054da"
+  ],
+  "hair dryer": [
+   "i4977d18da6ea",
+   "i6c94a2aba017"
+  ],
+  "half": [
+   "i5bced55c5f58",
+   "i5037613e289a"
+  ],
+  "hand": [
+   "i96af3647afeb",
+   "i2f393090ef42"
+  ],
+  "handle": [
+   "ia0a0bb779b3a",
+   "i46a82925a1ab"
+  ],
+  "hanuman": [
+   "ic20762da8dfb",
+   "ie766f18b87b2"
+  ],
+  "hard": [
+   "ic8bdb89dc807",
+   "id81443e1a5d3"
+  ],
+  "hard disk hard drive": [
+   "i0dd1da9dbff5",
+   "idbaa8cf3308a"
+  ],
+  "hattrick": [
+   "i703bb48ca623",
+   "i7f7fa47eea41"
+  ],
+  "headache": [
+   "i2f5e21355f6f",
+   "i86b61f495336"
+  ],
+  "hear listen": [
+   "i283a1edbe274",
+   "i70ba401ace80"
+  ],
+  "heartbeat": [
+   "i20d5f212d5be",
+   "id7f4418f6560"
+  ],
+  "heater": [
+   "i60d9af6cf481",
+   "id41665f3f89a"
+  ],
+  "heaven": [
+   "i4f9f9b482b55",
+   "i01904b91d2aa"
+  ],
+  "height": [
+   "i4021457c5857",
+   "i43cdde343a7c"
+  ],
+  "hidden file": [
+   "id92b1843b916",
+   "ifeed2584ffd5"
+  ],
+  "himachal pradesh": [
+   "i459b2cff8877",
+   "i2e22a86365b2"
+  ],
+  "hippopotamus": [
+   "i30cf0637e8e7",
+   "i0e9ba0121989"
+  ],
+  "history": [
+   "i66aaf303d817",
+   "ic7b95976714c"
+  ],
+  "hobby": [
+   "i7c50925084b2",
+   "i8e25bc320c69"
+  ],
+  "holiday": [
+   "i9f6360715455",
+   "i021f3c05b5c9"
+  ],
+  "honest": [
+   "id561c63d187c",
+   "i0f0606e7ec8e",
+   "i885e1bccfc67"
+  ],
+  "honorarium": [
+   "ie989f78ac675",
+   "i8634783e3759"
+  ],
+  "host": [
+   "i0a629887311c",
+   "i8bea0fbdb263",
+   "i56008d049c9b"
+  ],
+  "hot": [
+   "i303f18821bea",
+   "i936b6100e4d7"
+  ],
+  "hot air balloon": [
+   "ib6a0e5818d99",
+   "i349110ecfb57"
+  ],
+  "hungry": [
+   "i0ce696b5205d",
+   "i04742f52a3e9"
+  ],
+  "hydrogen": [
+   "i3c52ee676f2b",
+   "i0edda0731394",
+   "i967936bd3f41"
+  ],
+  "hygiene": [
+   "i79fd9f1fec86",
+   "ibc9dad2dd9be",
+   "i748fe014fa4c"
+  ],
+  "ice cream": [
+   "icacf569e8466",
+   "i83d91052c245",
+   "i4c6bf1b02f59"
+  ],
+  "idea": [
+   "i9db2fc64a1a5",
+   "ib84a9f90b4bf",
+   "i1e90648885d8"
+  ],
+  "identity card": [
+   "i0c43a8508a96",
+   "i9b66d8069fbd",
+   "i266c2f1756e0"
+  ],
+  "igneous rocks": [
+   "i1bcb1e296d1d",
+   "i98bb5fa29eac"
+  ],
+  "ignore": [
+   "ic758bb5563eb",
+   "i994a1b50e8fe"
+  ],
+  "illegal unlawful": [
+   "i72d82618ab55",
+   "i15d92ae22df0"
+  ],
+  "imitation": [
+   "i614d1a410cb0",
+   "i5c07cb3aed6a"
+  ],
+  "impact": [
+   "i583f94a9a861",
+   "ie02a0f9f3947",
+   "i0a42cce383f8"
+  ],
+  "imperialism": [
+   "i504f8b8631d1",
+   "i1cf3f3de1855"
+  ],
+  "inauguration": [
+   "i4d1e09debf9d",
+   "ic7c52a524a35",
+   "ieea618606b8d"
+  ],
+  "incite ignite inflame instigate stir up provoke": [
+   "i3e817248e965",
+   "id598d7a43b4b"
+  ],
+  "incorporation": [
+   "id4e275ccf97f",
+   "i6226ffcb4faf"
+  ],
+  "increase": [
+   "iccf6f3248691",
+   "i078a5a38ebf5",
+   "i0c8d8012a75d"
+  ],
+  "independent": [
+   "ib167e516caa2",
+   "i6e44239a2cd3"
+  ],
+  "india": [
+   "i5b1513abd106",
+   "i6aa91f1bec12",
+   "i4b83a2ee4ec2",
+   "i8e81bdd10681",
+   "i111feac04ceb"
+  ],
+  "indian sign language": [
+   "i6bc35bb8c5e2",
+   "i9185f096a67e"
+  ],
+  "indicator": [
+   "id965425a9d8b",
+   "i946a84d9b9dd"
+  ],
+  "induction": [
+   "id8f818eae612",
+   "id6fcbb945b88"
+  ],
+  "indus valley civilization": [
+   "ieca0420f4e88",
+   "i54d7ace7855d"
+  ],
+  "inflammable": [
+   "i8f601b698390",
+   "iecb4e7cc5c45"
+  ],
+  "inform apprise notify": [
+   "ia698886e0329",
+   "i93196017454a",
+   "i7d09fce8d2d2"
+  ],
+  "initiative drive": [
+   "icfb9fd511fc7",
+   "i665482b2d739",
+   "if9e64b50da9d"
+  ],
+  "insect": [
+   "i0833dd5713a9",
+   "i34f28c18e768"
+  ],
+  "instagram": [
+   "i19afb3babcbe",
+   "i17bbcb541711"
+  ],
+  "insulator": [
+   "i21aac52455ff",
+   "iabf05229c45b",
+   "idb6cb6f88d77"
+  ],
+  "insurance": [
+   "if3e56d2c11a1",
+   "i248d6d4515fd"
+  ],
+  "integer": [
+   "i8733c8e64627",
+   "ieb66f7534fa6"
+  ],
+  "interest": [
+   "i83d03d92ead8",
+   "i1480f81853fe",
+   "i82add5dd55ee",
+   "i963bddcd5bae",
+   "ibc7a17fd1b87",
+   "ibd040ffc50f5"
+  ],
+  "international": [
+   "ia8b97bd0ada0",
+   "ie30cc3b91ad1"
+  ],
+  "interpretation": [
+   "id62579cefeb8",
+   "i18964604ffcb",
+   "i32277d752154"
+  ],
+  "intersecting lines": [
+   "i1946bf9282df",
+   "if9d4dc97f654"
+  ],
+  "interview": [
+   "idce21ac32399",
+   "i920af93f7f8c"
+  ],
+  "introspection": [
+   "ifbfa58bf4211",
+   "i311e995f8cb2"
+  ],
+  "inventory": [
+   "i5ae17a14c366",
+   "ia9a6533a1a09"
+  ],
+  "investor": [
+   "i8097b10e0d87",
+   "i7f019e6977dc"
+  ],
+  "iron": [
+   "ib93c4fddaf8a",
+   "i32a9d92a0834",
+   "i23b729f23ecf"
+  ],
+  "irrigation": [
+   "i118627c873e0",
+   "i6e16acdf56b6"
+  ],
+  "isl": [
+   "i6bc35bb8c5e2",
+   "i9185f096a67e"
+  ],
+  "islam muslim": [
+   "i91355dbe02b9",
+   "i329247e87e10"
+  ],
+  "island": [
+   "i8dd76764e1a0",
+   "iea9b456e57ce"
+  ],
+  "isosceles triangle": [
+   "i62532a5f7650",
+   "if0d4610eef96"
+  ],
+  "jackfruit": [
+   "i88ac80fceafa",
+   "i409c9cac078f"
+  ],
+  "jaipur": [
+   "idbe0812f60b8",
+   "i227526b81a5c"
+  ],
+  "janmashtami": [
+   "i862f65c9301d",
+   "i029a42cc6b88"
+  ],
+  "january": [
+   "i3ddb7abf85c3",
+   "i5e24557fb819"
+  ],
+  "jawaharlal nehru": [
+   "icaae2a7e2ce7",
+   "i75313b5a320a"
+  ],
+  "job": [
+   "i5017b4d5febb",
+   "if3b693103fb4"
+  ],
+  "join": [
+   "i4ee04b603b59",
+   "i152c259197b1"
+  ],
+  "journalist reporter": [
+   "i16f617a8f32b",
+   "i4e1cdce4c309"
+  ],
+  "judiciary": [
+   "ifaf627d76114",
+   "iba4caafe868b"
+  ],
+  "juvenile": [
+   "i44eca516f433",
+   "ied156421fe17"
+  ],
+  "kali mata": [
+   "if29adf3a087f",
+   "i97c8f1ee6c89"
+  ],
+  "kannada": [
+   "id1c090fa5909",
+   "idcd10e5dfbc3"
+  ],
+  "kidney beans": [
+   "i37380fdb3162",
+   "ie6a83506ecd0"
+  ],
+  "kill murder": [
+   "i9e5388b9a476",
+   "i5a170b668f89"
+  ],
+  "knife": [
+   "i9f5cf7462f07",
+   "ib30eb9a709f0",
+   "i5f0df9a344cf"
+  ],
+  "kumbh mela": [
+   "id3bddb8a7144",
+   "if5ec3a132015"
+  ],
+  "kyc": [
+   "ia4f21c49360f",
+   "ia69cdd7a923a"
+  ],
+  "label": [
+   "i7ba293277be2",
+   "i096f1f69a405"
+  ],
+  "laboratory": [
+   "i4109925a6861",
+   "i367747530a17"
+  ],
+  "labour": [
+   "i9c53306287d9",
+   "i02c8923fc298"
+  ],
+  "ladder": [
+   "i90f81c262b39",
+   "i6297a6cee0f4",
+   "if8455c656ee4",
+   "i30d941de0d03"
+  ],
+  "laminate": [
+   "i9978cb9c41de",
+   "i156e3fdc3f75"
+  ],
+  "land": [
+   "ibdb438711844",
+   "i6df5d7042193",
+   "iec09d3796c0f",
+   "iad917cd53d04",
+   "i3428409ae521"
+  ],
+  "land breeze": [
+   "i2a6ecc57ddbf",
+   "i66e8e086df92"
+  ],
+  "landfill": [
+   "i7bb1c09f521f",
+   "ica349b213257"
+  ],
+  "language": [
+   "i694d55faf81c",
+   "ia46d75778092"
+  ],
+  "language acquisition": [
+   "i9c45a7bfc07f",
+   "i0fb7f854e523"
+  ],
+  "laptop": [
+   "ie44293141282",
+   "i25f5ac2622f2"
+  ],
+  "large intestine": [
+   "id58a5d648e4b",
+   "i20576b74206c"
+  ],
+  "lassi": [
+   "i87d9c558eab7",
+   "i0f2dd73e4a3b"
+  ],
+  "late": [
+   "i60c95ce662fc",
+   "i449763b1c1b3"
+  ],
+  "law": [
+   "ib2965317ea9a",
+   "if28c0dbf1a0e",
+   "i6c8ebf05a870"
+  ],
+  "lawyer": [
+   "i5ab3170b5455",
+   "ibb8377c75d29"
+  ],
+  "leaf": [
+   "i249bd6962d86",
+   "ibf0f712cf31e",
+   "if6599363ea8d",
+   "ibc2482bcd4d2"
+  ],
+  "leaf spring": [
+   "i46c4e20e44a6",
+   "ief7892ca09aa"
+  ],
+  "learn": [
+   "i99635df4b0af",
+   "i893e3148eb57"
+  ],
+  "legislative assembly": [
+   "i025fbb4ea397",
+   "i82a11069f3b6"
+  ],
+  "legislature": [
+   "idaaffcdc205f",
+   "ia5cdcca9ea0a"
+  ],
+  "less than": [
+   "i49b9d923bd72",
+   "id86f2ff4b81d"
+  ],
+  "letter": [
+   "i15f504fb3933",
+   "ib8f8491ef511"
+  ],
+  "level": [
+   "ibd207dd817dd",
+   "i32ad4a7aa988"
+  ],
+  "license": [
+   "i59f67cdfad78",
+   "i1bfaa820fa26",
+   "i5d40d2c55d41"
+  ],
+  "lift": [
+   "ie882a1f35b3d",
+   "i5740802b08ea",
+   "iff14381f1d8a"
+  ],
+  "light": [
+   "i291aa4ddd5d9",
+   "i10bf64316e4a"
+  ],
+  "lighthouse": [
+   "i47fb8d4a2664",
+   "i2eec8798e2c9"
+  ],
+  "lightning": [
+   "i7b3904aa9489",
+   "i3498dbcb4759",
+   "ia117a993cb37"
+  ],
+  "like": [
+   "i3bcd303c5edc",
+   "i78b90348b7c0",
+   "iec28e6207346"
+  ],
+  "line": [
+   "iecdd9dbf4b67",
+   "i3d50d6fede41"
+  ],
+  "line segment": [
+   "i64d2fd449cee",
+   "i126b5912a2b5"
+  ],
+  "liquid": [
+   "ibf614640ca63",
+   "iecb09e52626f"
+  ],
+  "list": [
+   "ib3c4566b30ba",
+   "i4424c624d7a4"
+  ],
+  "listen": [
+   "i2be68650901b",
+   "ide19fddd29ad"
+  ],
+  "livelihood": [
+   "ifdc99b33746f",
+   "icee41c2970d3",
+   "i3e4b86197bce"
+  ],
+  "liver": [
+   "i8e73f6bb28e4",
+   "i40d87117645e"
+  ],
+  "loan": [
+   "ic9651cd4ca9e",
+   "i205bcb7d01e1",
+   "i346dab580bff"
+  ],
+  "location": [
+   "i1cb4d6d500d5",
+   "ib736f4a2e4b1"
+  ],
+  "long jump": [
+   "ic7da30d9abaa",
+   "i61b0b876be15"
+  ],
+  "loss": [
+   "i29771c696ce4",
+   "i97569802ab71",
+   "ica2e32f610d6"
+  ],
+  "luck": [
+   "i59328d9b4017",
+   "i50ae1cd7013b"
+  ],
+  "machine": [
+   "iaca75d7a2af9",
+   "i84d70b834e38"
+  ],
+  "magician": [
+   "i3de5f7d0a6dc",
+   "ic7205548851f"
+  ],
+  "magnet": [
+   "i62433fd41fc6",
+   "i82445645ae57"
+  ],
+  "maha shivaratri": [
+   "i4b0c83911602",
+   "ibb763b652bfb",
+   "i301180570350"
+  ],
+  "mahavir jayanti": [
+   "i33a75b1a9278",
+   "ifd22b8712d33"
+  ],
+  "make": [
+   "i889c794450a4",
+   "i1dd557ef5e05"
+  ],
+  "make a long story short": [
+   "ia4c9f1737a4b",
+   "i1422dc29a9d3"
+  ],
+  "mall": [
+   "id4165c48bad2",
+   "ie5b2e133f688",
+   "i966e9b5ad0c1"
+  ],
+  "manipur": [
+   "i8727f4af0229",
+   "ie3e268fc78d7",
+   "i107eafd1e133"
+  ],
+  "manuscript": [
+   "i3f5951427577",
+   "i5069720291f0"
+  ],
+  "margin": [
+   "i90ba666d770b",
+   "ia8fa4759568b"
+  ],
+  "mars": [
+   "ic2598778deb7",
+   "i49c2f0e43b6a"
+  ],
+  "masturbation": [
+   "ie14b3f0d2544",
+   "id9f4e3f70c54"
+  ],
+  "material": [
+   "i12b8cd1d30c7",
+   "i94b5a2cb3f4b"
+  ],
+  "mean": [
+   "i8ee04ae758d1",
+   "ie87770e65cd4",
+   "i83a0038e626e"
+  ],
+  "measurement": [
+   "idaee5218ef98",
+   "i06df033425fd"
+  ],
+  "meat": [
+   "i57eb943cfed2",
+   "i4f4db9600727"
+  ],
+  "mechanic": [
+   "id33e369186e1",
+   "i950b388f0971",
+   "i8532bc63b833"
+  ],
+  "medical model of disability": [
+   "i485f2fecd7bd",
+   "i7bcd7de564da"
+  ],
+  "meeting": [
+   "i305151c83199",
+   "ic7ac7274e7c6"
+  ],
+  "meghalaya": [
+   "i60fca1ac91b8",
+   "i209bbdd91f39"
+  ],
+  "melt": [
+   "iaca5e8b36a4d",
+   "ia3f97d530f87",
+   "i64306e6ba86f"
+  ],
+  "mercury": [
+   "i4a41b53ee5d5",
+   "i4b4efc940ce3"
+  ],
+  "message": [
+   "i8836ee9d1c41",
+   "ieeb8081b5aff",
+   "ie21d63b32b18"
+  ],
+  "metal": [
+   "iad3bca973d61",
+   "idf7f01f27e57"
+  ],
+  "metamorphic rocks": [
+   "ib835580c5a6a",
+   "id66b84a88afd"
+  ],
+  "microscope": [
+   "i74ad2315d7ea",
+   "i17ef855312ac"
+  ],
+  "microsoft outlook plugin": [
+   "i1390bb0affa4",
+   "ibd0fc65940d8"
+  ],
+  "middleman": [
+   "i7d5b07639a47",
+   "ib19b41dd97db"
+  ],
+  "migration": [
+   "i4fd59aa52eae",
+   "i569e7eb4bff9"
+  ],
+  "ministry of social justice and empowerment": [
+   "ib07eca4d5eaf",
+   "i0cbd3ea7bba1"
+  ],
+  "minority": [
+   "i373089434751",
+   "i6bbff101cda8"
+  ],
+  "mirror": [
+   "icf719601cb86",
+   "i0c055f5990e1"
+  ],
+  "mistake error inaccuracy": [
+   "i7c83ac69630d",
+   "if286f90cfd7f"
+  ],
+  "mixed fraction": [
+   "i04876ccaed37",
+   "i955d3814a19c"
+  ],
+  "mizoram": [
+   "iececa96e13f0",
+   "if596bcddc5a5",
+   "i8477ea1d0fa7"
+  ],
+  "mode": [
+   "i1aef9c84a1f5",
+   "i443ea69198f0"
+  ],
+  "monkey": [
+   "ia76b4a250b83",
+   "if8716ab074c0"
+  ],
+  "monsoon": [
+   "i18159df0f646",
+   "iafb80b9f19dd",
+   "i8d82f9afd0a7"
+  ],
+  "month": [
+   "i672143166cca",
+   "icea636dde078"
+  ],
+  "moon": [
+   "iab8e0b578747",
+   "i87a8013e7b46"
+  ],
+  "more": [
+   "i923a65e686d4",
+   "i10a26793340b"
+  ],
+  "morphology": [
+   "i9541cdb93ba1",
+   "ie093caf4d5d2"
+  ],
+  "muharram": [
+   "icee263edf92e",
+   "ib829838acc05"
+  ],
+  "multiple": [
+   "ia9a263f5a551",
+   "i3f734d38c3ae"
+  ],
+  "mushroom": [
+   "i8c228aece988",
+   "ica51d25aa753"
+  ],
+  "musician": [
+   "i2a4e64a909b4",
+   "i7bade275098b"
+  ],
+  "name": [
+   "i2704ec55bda5",
+   "id6ab01cfd48e",
+   "i8dc8cb981cb2",
+   "i2df1f2ebd8d2",
+   "i179d6218add8"
+  ],
+  "national": [
+   "ib173b6ec177c",
+   "ie361e612ff13"
+  ],
+  "national anthem": [
+   "ie435f8307687",
+   "i1ebe103be304"
+  ],
+  "nationalist congress party ncp": [
+   "ib48bdeb9a9be",
+   "ic8119f34cadc"
+  ],
+  "natural gas": [
+   "ibcebe5a17a50",
+   "ic5b0a79f463c"
+  ],
+  "ncr": [
+   "i849dfbdfa49d",
+   "i7da95ddabc4f"
+  ],
+  "neck": [
+   "ia48e8ef6ab1d",
+   "iec32b271e8bb"
+  ],
+  "nervous": [
+   "ib0c6c6ac5cfa",
+   "ic96ddd6fac44",
+   "ibc88af07e2c7",
+   "ieffdd8435595"
+  ],
+  "nervous system": [
+   "i92794431ce7a",
+   "ic301ea65b3e5"
+  ],
+  "nest": [
+   "i24aa5c3719f1",
+   "i73d4921c8a1d"
+  ],
+  "net": [
+   "i5c0fe2fc2c94",
+   "ia0f6c708b666"
+  ],
+  "network": [
+   "i5b622afa8a78",
+   "if25f599e668f",
+   "if7c889973f7c"
+  ],
+  "next": [
+   "i57e03810e922",
+   "id0ee4fc4c975",
+   "icc56a4e6023f",
+   "ia89db0c7a832"
+  ],
+  "nice": [
+   "i418f944a0a43",
+   "iedc4a928a1bf"
+  ],
+  "nitrogen": [
+   "i3d3bdafbe2f4",
+   "ie613db1390f0"
+  ],
+  "no": [
+   "ie009c1707b91",
+   "iaceb11a58bfc"
+  ],
+  "nominal": [
+   "i55e97105856b",
+   "iaa12e5d96d99"
+  ],
+  "nominee": [
+   "i90f507ab6f89",
+   "i2f0b4608b91f",
+   "i4b3e47014a88"
+  ],
+  "none nothing": [
+   "ifb3deaba2e66",
+   "i5dd81576edeb",
+   "i56750db5b283"
+  ],
+  "normal delivery and cesarean": [
+   "i36a455a658af",
+   "i46926f60afcc"
+  ],
+  "north pole and south pole": [
+   "i3d386f575d7f",
+   "i7362af60e8b6"
+  ],
+  "noun": [
+   "i00f7eb89db39",
+   "i025eaa3af005",
+   "i3f2c93bde5f7",
+   "ifd7d833137ba"
+  ],
+  "nuclear family": [
+   "i426be92ebaca",
+   "ife4ab392495d"
+  ],
+  "numbers": [
+   "icf561c901dad",
+   "if3633d9c5953"
+  ],
+  "numbers 1 10": [
+   "i8c08c82f3ab7",
+   "i2585287bd515",
+   "i3435160f036d"
+  ],
+  "numerical control": [
+   "i1a3c0be19346",
+   "ide43098b7f8a"
+  ],
+  "nurse": [
+   "idefda56e2b04",
+   "i9d54fca42857"
+  ],
+  "nutrition": [
+   "i9d0d082f446d",
+   "i3f16e265d05b",
+   "i70997c07b8d2"
+  ],
+  "obey comply": [
+   "i33fce3773c54",
+   "i0d8257be8890"
+  ],
+  "october": [
+   "i8ef125b4f594",
+   "i60d49ff31c5a"
+  ],
+  "offence": [
+   "i6f5ed11ca098",
+   "i4bbea8e08b32"
+  ],
+  "official": [
+   "i639ec5187004",
+   "id63c48be4bfa",
+   "ibc37212a316c"
+  ],
+  "offshoot": [
+   "i26b93ee662f8",
+   "i6b5dd135f389"
+  ],
+  "often": [
+   "i55b4263f23bb",
+   "i7aeba6052ddf"
+  ],
+  "oil": [
+   "i280f7ab23cc4",
+   "ib605d6e8eb7f",
+   "i62e4e7c05e03"
+  ],
+  "okay": [
+   "i2477ce20f29e",
+   "iea73a98e4cdd"
+  ],
+  "oligarchy": [
+   "i38a1b497e782",
+   "i74f53e7c5a05"
+  ],
+  "onam": [
+   "i172eda480191",
+   "i89cd19e4ed21"
+  ],
+  "onion": [
+   "i0e75334712d7",
+   "i035bd8f790f3"
+  ],
+  "online": [
+   "i0abf74c53300",
+   "i4e119930105d",
+   "i8d25af7e657a",
+   "i5b8ed4457573"
+  ],
+  "open": [
+   "iaf456f438341",
+   "i16fdc9008bdc"
+  ],
+  "operation": [
+   "i9514546db061",
+   "i194ee1dffa66",
+   "iecda65c722f3"
+  ],
+  "opposition": [
+   "i2687ba79cd10",
+   "ica2b60b0d7c4"
+  ],
+  "oralism": [
+   "icfcb7e030776",
+   "i5e0b1a44b045",
+   "iaa19e77bc7e0"
+  ],
+  "orbit": [
+   "if6a6779df1bf",
+   "i41d7515e6b54"
+  ],
+  "order": [
+   "i795229912701",
+   "if47be38256b2"
+  ],
+  "order command direct instruct": [
+   "idba3780b965c",
+   "ia420ece7aaf7"
+  ],
+  "organic": [
+   "ie6b419346eed",
+   "i1f7820a73e5b"
+  ],
+  "oriya": [
+   "i9560e72a91e5",
+   "idbb3e32ee941"
+  ],
+  "out for a duck": [
+   "i16a6f2f8e309",
+   "i1020c0f96762"
+  ],
+  "over": [
+   "idf7633c08bfa",
+   "i5196944ff428",
+   "ibb108db44221",
+   "idf796edef8a5"
+  ],
+  "owl": [
+   "i2953a2d6708f",
+   "i58379fe75dd3",
+   "idc67f4c4cda1"
+  ],
+  "owner": [
+   "ibba68a1e69b9",
+   "i5f290852ba91"
+  ],
+  "oxidation": [
+   "ic49a2acd2c78",
+   "i8d3ec79410eb"
+  ],
+  "oxygen": [
+   "i2e1919623f79",
+   "ia36c6d8aa72b"
+  ],
+  "pace bowling fast bowling": [
+   "i0c1595ef000f",
+   "id95655bc5ea1",
+   "ia409c47dbe82"
+  ],
+  "pain": [
+   "i6d5396639309",
+   "i6cbafdfd7ce0",
+   "i87490dd2b3a2"
+  ],
+  "paint": [
+   "i99c8ec1e2c16",
+   "if69355939525",
+   "id88c946564e9"
+  ],
+  "pakistan": [
+   "i224dd771b5de",
+   "iff29bfd15f08",
+   "i5b44ffde72bb"
+  ],
+  "palliation": [
+   "i24a3aa6c3d62",
+   "ic78d277469e1"
+  ],
+  "panaji": [
+   "i0ae743ad451b",
+   "iacf61e57900c"
+  ],
+  "pancreas": [
+   "i5bac7ae41e20",
+   "ib2cf3de10c29"
+  ],
+  "papaya": [
+   "ic7b05f1a948e",
+   "i3e7854a8d2e6"
+  ],
+  "paper": [
+   "i5daee27561ed",
+   "idba5c49840d9"
+  ],
+  "paper clip": [
+   "i1c1940413e47",
+   "i9f217c5bd73f"
+  ],
+  "parade": [
+   "i4d5cc68f04e6",
+   "i8673af15d1dc"
+  ],
+  "paragraph": [
+   "if6b3fd0ece57",
+   "id46e9320e7c4"
+  ],
+  "parallel lines": [
+   "icebcbb0e442c",
+   "i944969a47d2e"
+  ],
+  "parasite": [
+   "i8b0864080bb8",
+   "i6dce73677b25"
+  ],
+  "parents": [
+   "i2fb10850c71d",
+   "ida99976ddbcb"
+  ],
+  "parking": [
+   "i7d94941e3137",
+   "ia8ad131f067f"
+  ],
+  "parliament": [
+   "i067a2840abe2",
+   "i2f482b226b1a",
+   "i5bd27aefb0ee"
+  ],
+  "parrot": [
+   "i49db04433573",
+   "ia62a3973a215"
+  ],
+  "pass": [
+   "iecd0cf93bb85",
+   "i2ee14d09f7a4",
+   "iae3e2beb571b",
+   "if6389b216ffa"
+  ],
+  "pasteurization": [
+   "i03799f347dfe",
+   "iaad133bbce53"
+  ],
+  "pause": [
+   "i40aa703b6cd1",
+   "ia1bbcfac5c71"
+  ],
+  "paytm": [
+   "iee4046794918",
+   "i4f59baf20b3f"
+  ],
+  "peacock": [
+   "idc8937c26388",
+   "ic518e97c31da",
+   "i05f840c854e2",
+   "ia2e85d0d8150"
+  ],
+  "peas": [
+   "i744c6af34e0d",
+   "ic192dbee9304"
+  ],
+  "pedestrian": [
+   "i524d2c5e50c9",
+   "i70a6a8c634f4"
+  ],
+  "pen": [
+   "iab910d89bc8e",
+   "i05949dfcd3c9",
+   "i0650f9e4591f"
+  ],
+  "pen drive": [
+   "i73a8474c1f48",
+   "i0e4cc722022c"
+  ],
+  "pencil": [
+   "i6f0fa6909d6d",
+   "i2fe9a36a9aa1",
+   "if1b36c1f5e5d",
+   "i0ef6346516d6",
+   "i60c0f766e13d",
+   "i2ac383faebb8",
+   "i5782b0414f46"
+  ],
+  "pending": [
+   "if8ee54bf87c6",
+   "i2bb292e2d878"
+  ],
+  "peon": [
+   "i05915754ba44",
+   "if4a56647b4f6"
+  ],
+  "percentage": [
+   "i66a07d0c42fd",
+   "i31ff20004a3a"
+  ],
+  "permanent": [
+   "i4e93d6d10d9f",
+   "ia8452d955cce"
+  ],
+  "personal": [
+   "ib51e61d23a8c",
+   "i0583cf64dc56"
+  ],
+  "personality": [
+   "i2ea8dc4796e8",
+   "ia0fd8879374d"
+  ],
+  "pharmacist": [
+   "i4affeeecb92a",
+   "id9faeb42c90a"
+  ],
+  "photosynthesis": [
+   "i46aabdfb03b2",
+   "i5473f922e2b9"
+  ],
+  "physics": [
+   "ifba040d95ce2",
+   "i797da0ae1cfa"
+  ],
+  "physiology": [
+   "i72e1e730332e",
+   "i9bb003929528"
+  ],
+  "pick": [
+   "i762294fe657e",
+   "i1899bdc5ae69"
+  ],
+  "piece": [
+   "i9e559ebaead3",
+   "i28b9a001fc42"
+  ],
+  "pilgrim": [
+   "i7197397dd793",
+   "i7f4e63f93b52"
+  ],
+  "pink": [
+   "i32b6bf6314e0",
+   "iab00533dfc34"
+  ],
+  "pizza": [
+   "ibb687a979d4b",
+   "i7d065983d276"
+  ],
+  "plagiarism": [
+   "i46d8652638e3",
+   "ie74d0b75034f"
+  ],
+  "plate": [
+   "if78ede45407c",
+   "ibe36d83c0c17"
+  ],
+  "platelet": [
+   "ibb6c9deb9a21",
+   "i822c707b9e4c"
+  ],
+  "please": [
+   "i834a836828b0",
+   "i244e305b2cbd",
+   "i1015c25d915f",
+   "i1d4fa892b024"
+  ],
+  "plenty": [
+   "i0045d0619166",
+   "idaafe05db0db"
+  ],
+  "podium": [
+   "i7560d7e3eecb",
+   "i059a144408d4",
+   "i52e3dee98d66"
+  ],
+  "point": [
+   "i05680970386e",
+   "i7471a057c15a"
+  ],
+  "point race": [
+   "i8b9bee112e87",
+   "i006a8b645d33"
+  ],
+  "poison": [
+   "i14c89327797b",
+   "i7b6fc227556f"
+  ],
+  "policeman": [
+   "idd4438a29343",
+   "ibd4e09d7a0ca"
+  ],
+  "policy": [
+   "i7fa4b1d1cbcb",
+   "ic08d289a9371",
+   "i326b8368c9d7"
+  ],
+  "polity": [
+   "i6125de89af44",
+   "id526d76df2d9"
+  ],
+  "pollution": [
+   "id0d8a3ead99c",
+   "i082dd4e59af8",
+   "ied54667c35a5"
+  ],
+  "ports tab": [
+   "ie82a134420a8",
+   "i43ff93655c91"
+  ],
+  "positive integer": [
+   "i39f90fe5566e",
+   "iacb331229dbc"
+  ],
+  "post": [
+   "iac499e2b4e8a",
+   "ie000638e9c33"
+  ],
+  "potato": [
+   "i56bf7204338c",
+   "ibc73241f7771"
+  ],
+  "predict": [
+   "i82c73df0baaa",
+   "i4a00e1896b59"
+  ],
+  "prefer": [
+   "i6cc33439ec5b",
+   "i8b066980f7ed"
+  ],
+  "premium": [
+   "i0656d197f805",
+   "ifc332fe11f5b"
+  ],
+  "preposition": [
+   "i932861e26eb1",
+   "i08cc167f2e6e"
+  ],
+  "prescription": [
+   "i4d3a614723af",
+   "ie1d36dfbafad"
+  ],
+  "principal": [
+   "ic288ce714180",
+   "i8bdca23b2946"
+  ],
+  "printer": [
+   "i49d0e589cddf",
+   "i4f7e6d64eab9"
+  ],
+  "prism": [
+   "i8747f4c40b27",
+   "i63ba51c3b5f1"
+  ],
+  "private goods": [
+   "i81772d0574f0",
+   "i008d707bb551"
+  ],
+  "problem": [
+   "i64567ac57a3f",
+   "i7000c9d6f76a"
+  ],
+  "process": [
+   "ifbeebe810b16",
+   "i724bfa9f6485"
+  ],
+  "profit": [
+   "i2b23df415fe9",
+   "i7a51752d3a6f",
+   "ie59b2590e45a",
+   "i9695e6cef144"
+  ],
+  "projector": [
+   "i9c118da9cb53",
+   "i315044063232",
+   "iba851d0923ac"
+  ],
+  "promote": [
+   "i87ddc9a30291",
+   "iab66a0444ad7"
+  ],
+  "promotion": [
+   "i5ef8649bd4ca",
+   "i06687d3a5239",
+   "i8587586beaa5",
+   "i6e72249d3a1a"
+  ],
+  "proof": [
+   "i57a92ff902b6",
+   "i44f94daf179a"
+  ],
+  "property": [
+   "iac97f30c1287",
+   "icad8a7eb632e",
+   "i9ab388fa812d"
+  ],
+  "protractor": [
+   "i684551ddf089",
+   "iae6db99285e6"
+  ],
+  "puberty": [
+   "i7273ddbadb58",
+   "id617cf94b800"
+  ],
+  "public goods": [
+   "id8f6cc7886f2",
+   "i9537f3620570"
+  ],
+  "public limited company": [
+   "i0f07fa131206",
+   "i9dfb549887ef"
+  ],
+  "public protest": [
+   "i139ffedad46b",
+   "i1415aa1a7965"
+  ],
+  "publish": [
+   "ieec8b936818a",
+   "i4a81fca45883",
+   "i7eeefe34a35a"
+  ],
+  "pull": [
+   "i0972612e344f",
+   "i766ab62d1ab6"
+  ],
+  "pulse": [
+   "ic23ef439d046",
+   "ib88d92a17b30"
+  ],
+  "punjab": [
+   "i41e37e099b6b",
+   "i7e1ff77e77f0"
+  ],
+  "punjabi": [
+   "i2ef1735dca31",
+   "i5ef6fd873436"
+  ],
+  "put": [
+   "ia0dd8872e402",
+   "ic737f3298703"
+  ],
+  "qualification": [
+   "ib448592fa7f6",
+   "i1b7593a2acda"
+  ],
+  "quantity": [
+   "i27ea6d47b6ac",
+   "i5a93ade2e65a"
+  ],
+  "race": [
+   "iacd1be1a1a2c",
+   "i0c534051b634",
+   "i1bc7ed19ec8e"
+  ],
+  "radiation": [
+   "ibfb11e002bbe",
+   "i94d34435a034"
+  ],
+  "raft": [
+   "ia285d99cd95b",
+   "if370e976dcc5"
+  ],
+  "rag": [
+   "i04c8be811a65",
+   "i1d7108afecde"
+  ],
+  "rainbow": [
+   "i99beefb306c9",
+   "i69499bd40e76"
+  ],
+  "rainwater harvesting": [
+   "i22fe46519bcf",
+   "id2976adc8212"
+  ],
+  "raise": [
+   "i019e8fceb43e",
+   "ie64488e991ba"
+  ],
+  "raita": [
+   "i03e5d0d05177",
+   "iafb22b03ad55"
+  ],
+  "rajasthan": [
+   "i6c39f5857a20",
+   "ibc29eebd6d0b"
+  ],
+  "rajdhani train": [
+   "ib4fad8108ef9",
+   "i1697d033698f"
+  ],
+  "range": [
+   "i1a0152cd3f25",
+   "i3805ba2c9485"
+  ],
+  "rashtriya janta dal rjd": [
+   "i459ba025fef2",
+   "ifdd657e26621",
+   "i7153c47038d6"
+  ],
+  "ray": [
+   "id7cfc57d88a5",
+   "i195dea0e9f11"
+  ],
+  "reception": [
+   "i3bfce5c97480",
+   "i596dc8b28474",
+   "id2d27d58da64"
+  ],
+  "recharge": [
+   "ie2bfb92614bb",
+   "ic3f17beaed4f"
+  ],
+  "reciprocal": [
+   "i4735df632f97",
+   "i5c52978a0e55"
+  ],
+  "record": [
+   "i7edf0244b73d",
+   "i671abd33a9ec",
+   "i1f107c2558f1",
+   "i804f533325e3"
+  ],
+  "rectangle": [
+   "i64ef317176db",
+   "i2691def32df9"
+  ],
+  "red blood cell": [
+   "i948bb52ea4b8",
+   "iabbfd2e5ce96",
+   "ib233ba5f6091"
+  ],
+  "reduce": [
+   "i1ab8c84863a2",
+   "i20e8a37143c8"
+  ],
+  "reflection": [
+   "if8c0235ee98c",
+   "iab9596a0541d",
+   "i7eb3e5a49324"
+  ],
+  "refraction": [
+   "i7d651ce2878d",
+   "i69bc2e68ba5d"
+  ],
+  "refund": [
+   "i72a4169a0a69",
+   "if5f0a4773673",
+   "i9e094e3b20e4"
+  ],
+  "refuse reject": [
+   "i917c9189aaa1",
+   "i4645a175af4e",
+   "ie5aa83c3cd7a"
+  ],
+  "regret": [
+   "i30b0dd18ebc4",
+   "id974b0479bdd",
+   "i224e47343c7b"
+  ],
+  "regular": [
+   "i04ca80852fff",
+   "i1c6b2c77a05d"
+  ],
+  "regulator": [
+   "i85a86ef1a990",
+   "ia672e1d90b89"
+  ],
+  "rehabilitation": [
+   "i48567e1612bd",
+   "i26fba795bf8c",
+   "i3288f8f9a1b3",
+   "ida21a92d5afa"
+  ],
+  "relay race": [
+   "ibacac1b5a4e2",
+   "i57dbfedc9310"
+  ],
+  "religion": [
+   "i5e3e342bd63c",
+   "ibff9edc92ebf"
+  ],
+  "remote": [
+   "i947e674f36fe",
+   "i736c9afee53d"
+  ],
+  "remove delete": [
+   "ia8ffa1b5c1e8",
+   "ia82dac4098b8",
+   "i96ac10c98fe0"
+  ],
+  "repair": [
+   "i4482d685b3b1",
+   "i4a52d387f3f5"
+  ],
+  "republic day": [
+   "ic2f9c99cfe9f",
+   "i3e76ec7f3589"
+  ],
+  "research": [
+   "i050dd4b98aa1",
+   "i85cc2d85b0c8"
+  ],
+  "reservation": [
+   "i91a3318dbb13",
+   "i0b942b011d51",
+   "ib8c082d0448e",
+   "i93f9e808b62c"
+  ],
+  "resign": [
+   "iccc41816bab9",
+   "i5b69127111ad"
+  ],
+  "restaurant": [
+   "i9bb0e471952f",
+   "i9715fe8d129a"
+  ],
+  "result": [
+   "ic66827f680b8",
+   "i9ea0e82abb23"
+  ],
+  "revenue": [
+   "i82bd8a0f965d",
+   "i895da9733c29"
+  ],
+  "revolution": [
+   "i7024354f033d",
+   "i289d3ef8d68c"
+  ],
+  "reward": [
+   "id41e22e6d976",
+   "i410928b672f1"
+  ],
+  "rhythm": [
+   "i4012c13e6fc9",
+   "i905bd7d4feed",
+   "i07e45a1d8a32",
+   "i9d8b292d03be"
+  ],
+  "right to equality": [
+   "i29d18f22438a",
+   "i374014d36112"
+  ],
+  "right to freedom": [
+   "iae91dd4a655b",
+   "ie7ae3f2c5746"
+  ],
+  "rock": [
+   "ifb64d32fe47e",
+   "icdccd5284766"
+  ],
+  "role": [
+   "i489aeafa4b22",
+   "i28cd44767c1c"
+  ],
+  "roll": [
+   "i7f50e93f8aff",
+   "i2296c3a5fe4c",
+   "i40829248d54b",
+   "i85db854e735d"
+  ],
+  "rotation": [
+   "i50d28a8ccc7f",
+   "id3b397615ac9"
+  ],
+  "rude": [
+   "i976431ace88c",
+   "i0ddf434bcc2f"
+  ],
+  "ruler": [
+   "ifa2a3ba726a9",
+   "i696a7043ca05"
+  ],
+  "runner": [
+   "i53c79ba5100b",
+   "if241fee6555c"
+  ],
+  "runs": [
+   "i4465b9ae5000",
+   "i05c07e6e0089"
+  ],
+  "runway": [
+   "i105b51118878",
+   "ie4f18b114f78",
+   "ie85db2f605a9"
+  ],
+  "russia": [
+   "ie2cee2682075",
+   "ib26648a92adf"
+  ],
+  "rust": [
+   "i51247dfbc765",
+   "i06b0eb123bf0"
+  ],
+  "sacrifice": [
+   "i70339050aa9e",
+   "i60cc98f46f1e"
+  ],
+  "safe": [
+   "ia8ceccfec2a0",
+   "ia7f941474583"
+  ],
+  "same": [
+   "i8bd0d9fec625",
+   "iaec9dc5cb9da",
+   "id9aa1d4c1279",
+   "ia941c7812a34"
+  ],
+  "sandwich": [
+   "ifaf5f0c21359",
+   "ibf7974e45063",
+   "i5a856441e467",
+   "ibbde866fb41d"
+  ],
+  "sanitary pad": [
+   "ib494b42c07a5",
+   "ie9c0687791d0"
+  ],
+  "sari": [
+   "ib8e65156c307",
+   "i8ad3b4385a77"
+  ],
+  "saving account": [
+   "i3dd25e613e42",
+   "i0748842cc015",
+   "ibdd58fd893be"
+  ],
+  "scalene triangle": [
+   "iac30a25d8314",
+   "i34b409863839"
+  ],
+  "scalpel": [
+   "i6f1565686b0b",
+   "id1c555f22b51"
+  ],
+  "schedule": [
+   "ib0e28ac86f26",
+   "i337c92166a57"
+  ],
+  "scheduled caste": [
+   "i2d83deed80ad",
+   "i079a7a023a8d"
+  ],
+  "score": [
+   "i856f18d9f9d0",
+   "ieee15b004ef3"
+  ],
+  "scratch": [
+   "i34aeaa57ba09",
+   "i490fed7634f0",
+   "if4dd851e27bf"
+  ],
+  "scribe": [
+   "i61e4fb2ea110",
+   "i516dc6345032"
+  ],
+  "sea breeze": [
+   "ibcd0ecd578ab",
+   "ieb4404c0f127"
+  ],
+  "secret": [
+   "i6af2840c713f",
+   "id73ff4dc808f",
+   "i9006aa88dd79"
+  ],
+  "secretary": [
+   "i8ff1dece57b4",
+   "i21dcd1a5b905"
+  ],
+  "section": [
+   "i30785f850297",
+   "idcd8f1fdefe6",
+   "i80e24f380b05"
+  ],
+  "secularism": [
+   "i5d2334be8f2d",
+   "if69026796805"
+  ],
+  "seed": [
+   "i61369f91d2ba",
+   "i899fbd9d65ec"
+  ],
+  "semantics": [
+   "if2b13e9e0f58",
+   "i1c3d60bd7e0b"
+  ],
+  "sentence": [
+   "i8effc213b21c",
+   "i3ae249a9c9df",
+   "i10a6bc73a5a3"
+  ],
+  "separate": [
+   "i29d9921f6724",
+   "i7de3fec3ee7c",
+   "ic6d82baefca2"
+  ],
+  "sequential": [
+   "i5ee0343ff5da",
+   "iac01ae43671b"
+  ],
+  "serial": [
+   "idca7bc5230ae",
+   "i3578521d118d"
+  ],
+  "settlement": [
+   "id334fd2ab8c8",
+   "if3a9a9db26d7",
+   "if65d0ab22aa3"
+  ],
+  "sewing machine": [
+   "id4abf94ed336",
+   "i2cbb51e93d92",
+   "i7fb7b827f07d"
+  ],
+  "sex ratio": [
+   "i7fdd5de43144",
+   "ib28b0144feeb"
+  ],
+  "shaheed bhagat singh": [
+   "ie0637f74a699",
+   "ic0a7215bb35c"
+  ],
+  "shallow": [
+   "i2b75479aadc2",
+   "ifcf086eeb9d8",
+   "i26c0bc055aae"
+  ],
+  "shape": [
+   "i0ef8643853cd",
+   "id2f89c1e5aab"
+  ],
+  "share": [
+   "i8233aabf179a",
+   "i1da6665af7a0",
+   "i84575e3e33a8",
+   "iec10570a1468",
+   "i9d390d74c518"
+  ],
+  "shark": [
+   "iac847b824551",
+   "i01d2ac3cfbd7"
+  ],
+  "shaving razor": [
+   "i57d405189cdf",
+   "ibd3458ef8447"
+  ],
+  "shawl": [
+   "i1a471fb3e752",
+   "i5507f3d5c2c8",
+   "ia1934477939e",
+   "i7b2edc7cd130",
+   "i0aa613a5586a"
+  ],
+  "sheep": [
+   "idd67ac4bbb69",
+   "i0273a0d5ec62"
+  ],
+  "shift": [
+   "i64ec2d4a4e59",
+   "if8b985c24dd2"
+  ],
+  "shine": [
+   "i5957e9358529",
+   "i7ae6544be5b0"
+  ],
+  "shiva": [
+   "i8fa9812a75f3",
+   "i3ffbb6deef22"
+  ],
+  "shock": [
+   "if204d6b4628e",
+   "i9d8ef6e891d4"
+  ],
+  "shoot": [
+   "ieb9a35baa213",
+   "idc91ac9b57b6",
+   "i8bf3e10e8eb3"
+  ],
+  "shooting": [
+   "i347b59930395",
+   "i7002e26f7ced"
+  ],
+  "shoulder": [
+   "i5bb59fd1a884",
+   "i2062c6eb45d1"
+  ],
+  "shut up stop talking": [
+   "i48a5cca27c77",
+   "i607fdd2a4776"
+  ],
+  "shy": [
+   "iff242fc677f3",
+   "if395cba28fb9"
+  ],
+  "sick": [
+   "i8469fd5894e9",
+   "i1cdc632ef65a"
+  ],
+  "side": [
+   "i902e2bef061f",
+   "i693f48dc4968"
+  ],
+  "sikhism sikh": [
+   "i387ce031ba32",
+   "i5046fdc2506a"
+  ],
+  "silt": [
+   "i3db6b183189e",
+   "i62e6a4bb62a7"
+  ],
+  "silver": [
+   "i42ac97eb11d9",
+   "i398aa21f8e50",
+   "i1b82dd55aa5a"
+  ],
+  "similar": [
+   "i81de558a08e5",
+   "i183acfcbac65"
+  ],
+  "sin": [
+   "ib721330d45b5",
+   "iced41426dd16"
+  ],
+  "sit": [
+   "ib19fea9a7c50",
+   "i79d7fd5f5dfb"
+  ],
+  "site": [
+   "i2d2d4d4e84d7",
+   "id58c91efe4fd"
+  ],
+  "six": [
+   "iebe631c98412",
+   "i1aa0ad770a9d"
+  ],
+  "size": [
+   "id17dff313959",
+   "i7c1a3ba416b9"
+  ],
+  "skin": [
+   "iefd709cb382e",
+   "i630e4f37c66d"
+  ],
+  "slap": [
+   "ib1a040a29e50",
+   "ie853e5ff09ba"
+  ],
+  "slide": [
+   "i5b7eeb7e0299",
+   "ice14f7352477",
+   "i7b13fe844f56"
+  ],
+  "small intestine": [
+   "i8b43197ec512",
+   "i82947d6c79c9"
+  ],
+  "smell": [
+   "ie012e23542bb",
+   "i23bcda18613a"
+  ],
+  "smog": [
+   "i3c219a69be33",
+   "i62cfbde94f1a"
+  ],
+  "snail": [
+   "iccca83f65e54",
+   "i2837be20d753"
+  ],
+  "snorkelling": [
+   "i167d1249b820",
+   "i4f40813709e6"
+  ],
+  "snow": [
+   "ieed44d5bd3d6",
+   "i7a2d1a6862d8"
+  ],
+  "social": [
+   "i47651ed0018c",
+   "i431095f6e0ea"
+  ],
+  "social model of disability": [
+   "i23e8ed6efc98",
+   "ia4cadbd6dc3a"
+  ],
+  "sociolinguistics": [
+   "i6db49a440fec",
+   "i5ca40ccecfb4"
+  ],
+  "soil erosion": [
+   "ie808b073585b",
+   "ib4a172472d9e",
+   "i61351e5cb102"
+  ],
+  "solid": [
+   "i819689f7b83a",
+   "i55f3b75cbe5e"
+  ],
+  "solution": [
+   "i5933b94d5744",
+   "i3bdcb707db5c"
+  ],
+  "sometimes": [
+   "i1cd040893a83",
+   "ic668bf7b6d68"
+  ],
+  "sorry": [
+   "i5a6fde8a7424",
+   "ibf841001d9c0",
+   "if0454922f627"
+  ],
+  "soup": [
+   "i115b74df7187",
+   "ia40f87b6a2d3"
+  ],
+  "sparrow": [
+   "ie34d5f3a92f0",
+   "i9cdd7d4c478e"
+  ],
+  "speak speech": [
+   "if091145489bb",
+   "ic077e6395895"
+  ],
+  "special": [
+   "ief58272d7cd3",
+   "i669619176536"
+  ],
+  "speech therapist": [
+   "i70cc91f0d126",
+   "i820815c8d32e"
+  ],
+  "sperm": [
+   "if0337e5bd0ed",
+   "ic74beb4ec082",
+   "ia321a3dfbdf8"
+  ],
+  "sphere": [
+   "ie6740f8bea25",
+   "i5add6e67fc86",
+   "i4ccafd452a6e"
+  ],
+  "sphygmomanometer": [
+   "i611f1ce6a768",
+   "i893ba71986dc"
+  ],
+  "spider": [
+   "idf2dc86caaae",
+   "i89cea0c24d66",
+   "id7ee6b5da6ad"
+  ],
+  "spiritual": [
+   "ib09a10f4f938",
+   "i3a276e1f85c8"
+  ],
+  "spoon": [
+   "if53eaca6f79f",
+   "i0c1dbdaa79c4"
+  ],
+  "spot": [
+   "id39a2904901d",
+   "i52a8dff7c47a"
+  ],
+  "spread": [
+   "i4808c2612e3c",
+   "i0b55463e045c"
+  ],
+  "sprint": [
+   "ia7eb90c807c0",
+   "i39b0acc123ba"
+  ],
+  "square": [
+   "ic12277751b25",
+   "i4636570051ee",
+   "i4283242a7d35",
+   "i7226d61e27a2"
+  ],
+  "staff": [
+   "ib9d8c43036ab",
+   "i721b45e19500"
+  ],
+  "stairs": [
+   "i9551631b0040",
+   "i0691ccaa078e"
+  ],
+  "star": [
+   "if0a9e0862ec2",
+   "i0c1b556c8657"
+  ],
+  "start begin": [
+   "iee2c2b2c7b5c",
+   "i76b4aaa6f4d4"
+  ],
+  "starvation": [
+   "if4748549892a",
+   "ia0337244548e"
+  ],
+  "stereotype": [
+   "iae9261d97c23",
+   "icb683f54e86f"
+  ],
+  "stock": [
+   "ie03060c9d92b",
+   "i97f965862608"
+  ],
+  "stop": [
+   "ie7fa1ab6eebd",
+   "i8410ebf1ad38"
+  ],
+  "storey skyscraper": [
+   "i263abd1cc87f",
+   "i84c817d300f8"
+  ],
+  "stumps": [
+   "i6cbecdf83d95",
+   "i8e95bf1f65c4"
+  ],
+  "subcontinent": [
+   "i92295e2d06d8",
+   "i884ad8ebf6de"
+  ],
+  "subtract": [
+   "icce0d50d152c",
+   "i9f27976407ed"
+  ],
+  "suicide": [
+   "i7201d9dd1947",
+   "iabf3f71f09e5"
+  ],
+  "summary": [
+   "ic76b8c5804f9",
+   "if0239174c3f2",
+   "i3655a666d930"
+  ],
+  "summer": [
+   "if098e1375979",
+   "icb2c65087fa1"
+  ],
+  "superficial": [
+   "i5a5a65193798",
+   "ie506d95f68c7"
+  ],
+  "support": [
+   "i9b1fe8990709",
+   "id7c05ab50b3f"
+  ],
+  "surface": [
+   "i4aa1b7da19ae",
+   "ie70a9e1ff848"
+  ],
+  "surgeon": [
+   "idee25d5fe1c2",
+   "if98e74b5167d"
+  ],
+  "surrender": [
+   "id5120bdf1e29",
+   "ic001dcc53889"
+  ],
+  "sustainable development": [
+   "i5766fa853b17",
+   "if03f9320dde8"
+  ],
+  "swallow": [
+   "ie9035e2aaa57",
+   "i086454796106"
+  ],
+  "sweater": [
+   "i44eb3b717d30",
+   "i42b8361a7bb3"
+  ],
+  "sweet lime": [
+   "ie5aa8827f7ab",
+   "i945eb8b5c511"
+  ],
+  "swim": [
+   "ib5512aee8911",
+   "i336d7625643f"
+  ],
+  "swing": [
+   "ib9609f1d1eb6",
+   "i51c8200c244b"
+  ],
+  "switch": [
+   "i5fb9a1392719",
+   "i02de8ae3cb37",
+   "iafd88bf3cf14"
+  ],
+  "syntax": [
+   "i8f055b65d5ab",
+   "i0c6176a16d90"
+  ],
+  "tailor": [
+   "if3066a4f0863",
+   "if2ced1a1e49b"
+  ],
+  "take off": [
+   "ib745010ba9cf",
+   "i45ba31177dd3",
+   "ia377d62cde1a"
+  ],
+  "tall": [
+   "ib1b136bcb1a0",
+   "i6d17d017671d",
+   "i2864901af17e",
+   "icacfd5e845b6"
+  ],
+  "tamil": [
+   "if43031516f65",
+   "i6e58de664077"
+  ],
+  "taste": [
+   "ic444d50de62f",
+   "id7137baa451b"
+  ],
+  "tax": [
+   "i4a6fae527978",
+   "ic9fb222904af"
+  ],
+  "team": [
+   "i1a70d1db68cc",
+   "i4314ee4b3b6f"
+  ],
+  "technician": [
+   "ibf53d0a9bb57",
+   "i2df22afa237a"
+  ],
+  "telangana": [
+   "i65473115b1fa",
+   "i3be4c6269044"
+  ],
+  "temperature": [
+   "ib367a2cb0c3d",
+   "i0259ff736cc0",
+   "i98c01a621e5b"
+  ],
+  "temporary": [
+   "i39f559bdcbb4",
+   "i45b30fbd7f2b",
+   "i7d347465efb9"
+  ],
+  "test": [
+   "i665f67ccfa2c",
+   "i518eac448f46"
+  ],
+  "test tube": [
+   "ib773471d17cb",
+   "ic929fe58a386",
+   "ib49e25c6bb2a"
+  ],
+  "thank you": [
+   "ib0a860603a5e",
+   "i2e6e2ffb07dd"
+  ],
+  "thermometer": [
+   "iedd9404cbae7",
+   "i71f9cbf7b3f6",
+   "i0b37ef41f88d"
+  ],
+  "thrice": [
+   "i97e2fa39fac7",
+   "i4f6d4e4895a8"
+  ],
+  "tight": [
+   "i3afa71c066f9",
+   "i838b76275441"
+  ],
+  "time table": [
+   "idadae3451b4d",
+   "id3e66189ada5"
+  ],
+  "time trial": [
+   "i2f89afafe6b6",
+   "i062a9620f76e"
+  ],
+  "tinda indian squash apple gourd": [
+   "i6d045b976025",
+   "iaf54e23ad62d"
+  ],
+  "tip": [
+   "i1e981a2aa46d",
+   "i04d4a7c9253e"
+  ],
+  "tolerate": [
+   "ic2ed76bcbb72",
+   "i768f1efcca04"
+  ],
+  "tone": [
+   "i3774bb6898b5",
+   "i779d8eb4d1c6",
+   "ifc491c709c62",
+   "i28ab7c2eb22d",
+   "i5ab85b60e58f"
+  ],
+  "tongs": [
+   "ide6c3977d085",
+   "i18e20b934752"
+  ],
+  "tooth": [
+   "i23300e2718f1",
+   "i1502e0c460cb"
+  ],
+  "top": [
+   "i5b7cebaee3ab",
+   "i88b65315107c"
+  ],
+  "topography": [
+   "i8c23d296f708",
+   "i43378bfb70b6"
+  ],
+  "tornado": [
+   "iea2b063916df",
+   "iafa3dc1b07c6"
+  ],
+  "town": [
+   "i476749c0026b",
+   "id55c9c7592b2"
+  ],
+  "track race": [
+   "i50336480d19b",
+   "i1ab59b2165ec"
+  ],
+  "tractor": [
+   "if56e85370a1e",
+   "ie91308b27f2b",
+   "ibfdb177ee048"
+  ],
+  "trade": [
+   "i08183bd6edb8",
+   "i9bcf13a70e0c",
+   "i9d4284cc895c"
+  ],
+  "trader": [
+   "i2a59f4ef8599",
+   "i359efb71b4e3"
+  ],
+  "traffic": [
+   "i94b2297f7809",
+   "i1d288d0af5bb"
+  ],
+  "trail": [
+   "ifb2092ae9ed6",
+   "i2956d76b5450"
+  ],
+  "train": [
+   "i2e4c161f9740",
+   "i138aa877db88"
+  ],
+  "transpiration": [
+   "i0998499accf4",
+   "i087089112a1e"
+  ],
+  "trap": [
+   "ie998d3a1934f",
+   "i1d078583b60d"
+  ],
+  "trapdoor": [
+   "i2af8bd58085a",
+   "i3e64ce3885cc"
+  ],
+  "tree": [
+   "iedbb40f86aa7",
+   "i1be45f23c79a"
+  ],
+  "triangle": [
+   "ibf78622926cf",
+   "if9acd72a80a4"
+  ],
+  "triple": [
+   "i1bb585cbc7a0",
+   "iaa50739a81f8"
+  ],
+  "tripura": [
+   "ieb3c04bc8257",
+   "i6fa25725844f",
+   "ib2f99f02528c",
+   "i730ac2d91af7"
+  ],
+  "truck": [
+   "i19f5d4334a74",
+   "i21ef3c1cb809",
+   "ifbdcc6f4277d"
+  ],
+  "try": [
+   "ia9703835eaca",
+   "i680792ba1aba"
+  ],
+  "tuberculosis": [
+   "i8d1b78fd4108",
+   "i3a7d961f8a25"
+  ],
+  "tuesday": [
+   "i027c87023aae",
+   "i11f097b61094"
+  ],
+  "tv": [
+   "idca7bc5230ae",
+   "i3578521d118d"
+  ],
+  "twin": [
+   "ifd795a9cbb56",
+   "i5f7ddbd192c5"
+  ],
+  "twitter": [
+   "i2b1b66471b63",
+   "i6c390223a576"
+  ],
+  "umbrella": [
+   "i26e21dbefc46",
+   "i9ce4208e6ad6"
+  ],
+  "umpire": [
+   "i14da2a94ce7f",
+   "i51078b6a1eef"
+  ],
+  "uncrpd": [
+   "i0561b369e762",
+   "i8b46c2168734",
+   "i9824ca2944b9"
+  ],
+  "understand comprehend grasp": [
+   "id1b723776465",
+   "i2365f08c6591"
+  ],
+  "unfeeling uncaring unemotional": [
+   "id055ef223a4b",
+   "i5566e3ecc132"
+  ],
+  "unit": [
+   "i1a3188346930",
+   "ifa3085115cff"
+  ],
+  "unite unity": [
+   "iec0d46e2eac3",
+   "i835fa353ef0d"
+  ],
+  "united nations convention on the rights of persons with disabilities": [
+   "i8b46c2168734",
+   "i9824ca2944b9"
+  ],
+  "universal adult franchise": [
+   "i723567221908",
+   "i00c623cf614b"
+  ],
+  "variable": [
+   "i364bccc6a6f9",
+   "i302467e78528"
+  ],
+  "vehicle": [
+   "i189ce9456542",
+   "if134344f09cd"
+  ],
+  "vein": [
+   "i9d23f256d965",
+   "i53d1324b10b7"
+  ],
+  "verb": [
+   "i67df48b008a4",
+   "i1af6b0fa2a7e",
+   "i2546801d8863"
+  ],
+  "vertex": [
+   "i9d1885c89a77",
+   "i6f74a539cf16"
+  ],
+  "very hot": [
+   "i503e5632fc05",
+   "i28a1ba38a0e4"
+  ],
+  "veterinarian": [
+   "i59d2d23635b3",
+   "i186edea8384d"
+  ],
+  "victim": [
+   "id098ff6cd0b9",
+   "i4ee351db7506"
+  ],
+  "victory success triumph": [
+   "ic1ebfaddfb76",
+   "i2349dfedf5ab"
+  ],
+  "video": [
+   "ic98541522d14",
+   "i2bfefdee0405"
+  ],
+  "video card": [
+   "i07f24929bee9",
+   "icf5cfe7594f5"
+  ],
+  "videographer": [
+   "i63ea69e0dd29",
+   "if4b9d560303e"
+  ],
+  "vietnam": [
+   "i72a2a2265081",
+   "i59c4c1e01b10"
+  ],
+  "view perspective": [
+   "i63ff502f125a",
+   "ifd09c76db786"
+  ],
+  "village": [
+   "i47680b5e22ee",
+   "i9205a5fe8410"
+  ],
+  "virus": [
+   "ic7ed79bc41f9",
+   "i305f8ad86f90",
+   "i545801976dab",
+   "id1bafabd9054"
+  ],
+  "visa": [
+   "i81787670125b",
+   "if80ca694dedc"
+  ],
+  "vision": [
+   "idf248474ad27",
+   "ib1f06bf734c4",
+   "i41a208f1332c"
+  ],
+  "vitiligo": [
+   "ib72aa2e59ca7",
+   "if36c53d43640"
+  ],
+  "vodka": [
+   "i38e4d4b67d69",
+   "i6077c054e27b"
+  ],
+  "volcano": [
+   "i4bf1f74b54fc",
+   "i05306c711963",
+   "i2f2700e738a5",
+   "i108f9f7153f0",
+   "i651aa4afd207"
+  ],
+  "volkswagen": [
+   "i4f64f6f5febe",
+   "i0977b64ece9d"
+  ],
+  "voltmeter": [
+   "i6a92630da975",
+   "i4f5158f54ebd"
+  ],
+  "volume": [
+   "ic1900539ba97",
+   "id988e4a07d96"
+  ],
+  "voluntary retirement scheme": [
+   "i19fa3930373e",
+   "i7da084754b40"
+  ],
+  "war": [
+   "i09e8c7b8f314",
+   "ifd4ca0590317"
+  ],
+  "warm": [
+   "i1d128b5f9a76",
+   "ib1350308cc50"
+  ],
+  "warranty": [
+   "if04d62b3bf22",
+   "iea05791f3f5a"
+  ],
+  "wash": [
+   "i9129fd5fb04e",
+   "iff321e01faf9",
+   "i914de61de565",
+   "ic88735764c9a",
+   "i83214ff8fd5e"
+  ],
+  "water cycle": [
+   "i7c72a51025d5",
+   "i8b74e9552787"
+  ],
+  "water pollution": [
+   "i222b2bd848b9",
+   "id02d9d4b7068"
+  ],
+  "waterfall": [
+   "if20143dcd8a6",
+   "i258af718ff18",
+   "i6c1818f9236a"
+  ],
+  "wave": [
+   "i42fbce0774d9",
+   "i9a3cee158934"
+  ],
+  "way": [
+   "i10e32d325e37",
+   "ie83d1ad2daae"
+  ],
+  "weak": [
+   "i84df6f37e61d",
+   "ibde00aef9a67",
+   "if8b8e03eaa81"
+  ],
+  "weapon": [
+   "i4d5b95a392f2",
+   "i0bcb0bb0d472"
+  ],
+  "weather": [
+   "i0b2d8df86c00",
+   "ida4de29bdf74"
+  ],
+  "weathering": [
+   "i3bfd976e6448",
+   "iccb2eaf74896"
+  ],
+  "website": [
+   "ie11a33ba6c8f",
+   "i5ddaf53d93e8",
+   "i73fa406ae395",
+   "i776f61038d15"
+  ],
+  "wedding reception": [
+   "ifeec449c653a",
+   "i7df19cf5c9f6"
+  ],
+  "week one week": [
+   "i71ec95dc3a14",
+   "i42778233332e"
+  ],
+  "weekly market": [
+   "i9344173020e2",
+   "i03f1511d7a12"
+  ],
+  "weighing scale": [
+   "i8fa8909b27e3",
+   "icd2539e6c318"
+  ],
+  "weight weigh weighing scale": [
+   "i46a15767c3f2",
+   "i5281d12c9754",
+   "idf07ec98be53"
+  ],
+  "welder": [
+   "i52ab418111f5",
+   "i3a23b63c4f74",
+   "idd6171080c11"
+  ],
+  "whats up": [
+   "ie02c6de27478",
+   "iab3d0e3a2581"
+  ],
+  "whisk beater": [
+   "i2f93c35e408a",
+   "i8413ddf8f821"
+  ],
+  "white blood cells": [
+   "i95225576fa0c",
+   "i0c99be5927f4"
+  ],
+  "whole number": [
+   "i17c68d215f6e",
+   "i2282123fa706"
+  ],
+  "why": [
+   "i52daa831c290",
+   "ifbac9d7f0d2d"
+  ],
+  "wicket": [
+   "i20c2156ff1c8",
+   "i06533cee57dc"
+  ],
+  "wifi": [
+   "i7d7c4abc4f26",
+   "i4514734f3aad",
+   "iac9d56cfc3b9"
+  ],
+  "wikipedia": [
+   "iaa81551cd9b6",
+   "iabe617d31b3e"
+  ],
+  "wine": [
+   "i01fe0da73f16",
+   "i75de13580920"
+  ],
+  "winter": [
+   "i38f4a11bbaf1",
+   "i88bb6824593d"
+  ],
+  "wiring": [
+   "i2a9d4245b5fe",
+   "id939ce280cb1"
+  ],
+  "without": [
+   "i8f34cca3f747",
+   "i058b027c1c0a"
+  ],
+  "work": [
+   "i97271f8851f9",
+   "i146aeff7e493",
+   "i515fdf305911"
+  ],
+  "wound": [
+   "i087eeb4fb1b1",
+   "i20e9e8be07f6"
+  ],
+  "wrestling": [
+   "ie3d2c66e1c11",
+   "icd242e4265e8"
+  ],
+  "wto": [
+   "ib7e35a3ad32f",
+   "i094df801378c"
+  ],
+  "yak": [
+   "i7d1dde57df15",
+   "i0fffdb477059"
+  ],
+  "yes": [
+   "i88747f2f9444",
+   "i0d2aa8795594"
+  ],
+  "yolk": [
+   "ief17d5af59fc",
+   "idcd6010f11c9"
+  ],
+  "youth association of the deaf": [
+   "i3444cd26db4e",
+   "i6c488e677e59"
+  ],
+  "zip": [
+   "i7ffb7bfd29c9",
+   "ib655093f65db"
+  ],
+  "zone": [
+   "ic8240c8df06d",
+   "i1175939497a9"
+  ],
+  "zoo": [
+   "i532e889a02f4",
+   "i2b73d05905dd",
+   "i1e6372c09c8f"
+  ]
+ },
+ "synonyms": {
+  "hi": {
+   "to": [
+    "hello"
+   ],
+   "confidence": "exact",
+   "note": "greeting"
+  },
+  "hey": {
+   "to": [
+    "hello"
+   ],
+   "confidence": "exact",
+   "note": "greeting"
+  },
+  "thanks": {
+   "to": [
+    "thank you"
+   ],
+   "confidence": "exact",
+   "note": ""
+  },
+  "thank": {
+   "to": [
+    "thank you"
+   ],
+   "confidence": "exact",
+   "note": "short form of 'thank you'"
+  },
+  "goodbye": {
+   "to": [
+    "bye"
+   ],
+   "confidence": "exact",
+   "note": "spelling variant"
+  },
+  "yeah": {
+   "to": [
+    "yes"
+   ],
+   "confidence": "exact",
+   "note": ""
+  },
+  "ok": {
+   "to": [
+    "okay"
+   ],
+   "confidence": "exact",
+   "note": "spelling variant"
+  },
+  "us": {
+   "to": [
+    "we"
+   ],
+   "confidence": "exact",
+   "note": "pronoun case: ISL pronoun signs are not case-marked"
+  },
+  "me": {
+   "to": [
+    "i"
+   ],
+   "confidence": "exact",
+   "note": "pronoun case: ISL pronoun signs are not case-marked"
+  },
+  "mom": {
+   "to": [
+    "mother"
+   ],
+   "confidence": "exact",
+   "note": ""
+  },
+  "mum": {
+   "to": [
+    "mother"
+   ],
+   "confidence": "exact",
+   "note": ""
+  },
+  "mommy": {
+   "to": [
+    "mother"
+   ],
+   "confidence": "exact",
+   "note": ""
+  },
+  "dad": {
+   "to": [
+    "father"
+   ],
+   "confidence": "exact",
+   "note": ""
+  },
+  "daddy": {
+   "to": [
+    "father"
+   ],
+   "confidence": "exact",
+   "note": ""
+  },
+  "physician": {
+   "to": [
+    "doctor"
+   ],
+   "confidence": "exact",
+   "note": ""
+  },
+  "telephone": {
+   "to": [
+    "phone"
+   ],
+   "confidence": "exact",
+   "note": ""
+  },
+  "cellphone": {
+   "to": [
+    "mobile",
+    "phone"
+   ],
+   "confidence": "exact",
+   "note": "ordered: first available target is used"
+  },
+  "assist": {
+   "to": [
+    "help"
+   ],
+   "confidence": "exact",
+   "note": ""
+  },
+  "utilize": {
+   "to": [
+    "use"
+   ],
+   "confidence": "exact",
+   "note": ""
+  },
+  "commence": {
+   "to": [
+    "start"
+   ],
+   "confidence": "exact",
+   "note": ""
+  },
+  "tradition": {
+   "to": [
+    "traditions"
+   ],
+   "confidence": "exact",
+   "note": "the dictionary only has the plural entry"
+  },
+  "say": {
+   "to": [
+    "tell"
+   ],
+   "confidence": "close",
+   "note": ""
+  },
+  "create": {
+   "to": [
+    "make"
+   ],
+   "confidence": "close",
+   "note": ""
+  },
+  "not": {
+   "to": [
+    "no"
+   ],
+   "confidence": "close",
+   "note": "negation also uses a head shake that a gloss does not record"
+  },
+  "many": {
+   "to": [
+    "a lot"
+   ],
+   "confidence": "close",
+   "note": ""
+  },
+  "whenever": {
+   "to": [
+    "when"
+   ],
+   "confidence": "close",
+   "note": ""
+  },
+  "opportunity": {
+   "to": [
+    "chance"
+   ],
+   "confidence": "close",
+   "note": ""
+  },
+  "image": {
+   "to": [
+    "picture"
+   ],
+   "confidence": "close",
+   "note": ""
+  },
+  "worldwide": {
+   "to": [
+    "global"
+   ],
+   "confidence": "close",
+   "note": ""
+  },
+  "exciting": {
+   "to": [
+    "excited"
+   ],
+   "confidence": "close",
+   "note": "related form"
+  },
+  "lucky": {
+   "to": [
+    "luck"
+   ],
+   "confidence": "close",
+   "note": "related form"
+  },
+  "curiosity": {
+   "to": [
+    "curious"
+   ],
+   "confidence": "close",
+   "note": "related form"
+  },
+  "truly": {
+   "to": [
+    "true"
+   ],
+   "confidence": "close",
+   "note": "related form"
+  },
+  "course": {
+   "to": [
+    "class"
+   ],
+   "confidence": "close",
+   "note": ""
+  },
+  "session": {
+   "to": [
+    "meeting"
+   ],
+   "confidence": "close",
+   "note": ""
+  },
+  "introductory": {
+   "to": [
+    "basic"
+   ],
+   "confidence": "close",
+   "note": ""
+  },
+  "everyone": {
+   "to": [
+    "all"
+   ],
+   "confidence": "close",
+   "note": ""
+  },
+  "children": {
+   "to": [
+    "child"
+   ],
+   "confidence": "close",
+   "note": "plural"
+  },
+  "residence": {
+   "to": [
+    "house"
+   ],
+   "confidence": "close",
+   "note": ""
+  },
+  "afraid": {
+   "to": [
+    "scared"
+   ],
+   "confidence": "close",
+   "note": ""
+  },
+  "frightened": {
+   "to": [
+    "scared"
+   ],
+   "confidence": "close",
+   "note": ""
+  },
+  "joyful": {
+   "to": [
+    "happy"
+   ],
+   "confidence": "close",
+   "note": ""
+  },
+  "tiny": {
+   "to": [
+    "small"
+   ],
+   "confidence": "close",
+   "note": ""
+  },
+  "enormous": {
+   "to": [
+    "huge"
+   ],
+   "confidence": "close",
+   "note": ""
+  },
+  "quick": {
+   "to": [
+    "fast"
+   ],
+   "confidence": "close",
+   "note": ""
+  },
+  "rapid": {
+   "to": [
+    "fast"
+   ],
+   "confidence": "close",
+   "note": ""
+  },
+  "complete": {
+   "to": [
+    "finish"
+   ],
+   "confidence": "close",
+   "note": ""
+  },
+  "done": {
+   "to": [
+    "finish"
+   ],
+   "confidence": "close",
+   "note": ""
+  },
+  "enquire": {
+   "to": [
+    "ask"
+   ],
+   "confidence": "close",
+   "note": ""
+  },
+  "inquire": {
+   "to": [
+    "ask"
+   ],
+   "confidence": "close",
+   "note": ""
+  },
+  "obtain": {
+   "to": [
+    "get"
+   ],
+   "confidence": "close",
+   "note": ""
+  }
+ }
+}

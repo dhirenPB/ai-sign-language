@@ -14,6 +14,8 @@ dependencies = []
 layer2 = ["spacy>=3.5", "nltk"]
 # YouTube ingestion only. FFmpeg is a separate program; the Whisper model downloads on first use.
 youtube = ["yt-dlp", "faster-whisper"]
+# ISLRTC pose experiment only (run_islrtc_pose.py / run_islrtc_retarget.py). The MediaPipe model file is a separate download, see docs/islrtc_pose_poc.md.
+pose = ["mediapipe", "opencv-python-headless", "numpy"]
 
 [project.scripts]
 transcript-cleaner = "transcript_cleaner.cli:main"

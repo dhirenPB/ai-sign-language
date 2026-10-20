@@ -1,0 +1,4162 @@
+{
+  "schema_version": "1.0",
+  "report_type": "isl_gloss_translation",
+  "tool_version": "0.1.0",
+  "source_id": "02-i-want-to-be-equal-with-parmatma",
+  "source_file": "data\\structured\\02-i-want-to-be-equal-with-parmatma.cleaned.json",
+  "generated_at": "2026-10-20T09:24:03+00:00",
+  "review_status": "unreviewed",
+  "review_note": "Gloss is a machine-generated candidate. It has NOT been reviewed by an ISL-fluent signer and must not be treated as production-accurate.",
+  "complete": true,
+  "stop_reason": null,
+  "counts": {
+    "translated": 40,
+    "validation_review_required": 4,
+    "validation_pass": 36,
+    "cache_hits": 0
+  },
+  "assembly_validation": {
+    "passed": true,
+    "errors": [],
+    "warnings": []
+  },
+  "metadata": {
+    "model": "groq/openai/gpt-oss-120b",
+    "prompt_version": "8.0",
+    "llm_config": {
+      "provider": "groq",
+      "model": "openai/gpt-oss-120b",
+      "reasoning_effort": "low",
+      "temperature": 0.0,
+      "max_output_tokens": 8192,
+      "prompt_version": "8.0",
+      "thinking_budget": null,
+      "empty_gloss_retry": true,
+      "references_file": null,
+      "reference_entries_loaded": 0
+    },
+    "rule_set_version": "0.1.0",
+    "active_rules": [
+      "R-FMT-01",
+      "R-ART-01",
+      "R-SKIP-01"
+    ],
+    "result_schema_version": "1.0"
+  },
+  "source_type": "unknown",
+  "mode": "groups",
+  "limit": 40,
+  "grouping": {
+    "groups": 6,
+    "sentences": 40,
+    "sentences_per_group_avg": 6.7,
+    "sentences_per_group_max": 8,
+    "boundary_reasons": {
+      "max_sentences": 5,
+      "end": 1
+    },
+    "forced_boundaries": 0,
+    "oversize_groups": 0,
+    "groups_with_context_before": 0,
+    "groups_with_context_after": 0
+  },
+  "groups": [
+    {
+      "group_id": "02-i-want-to-be-equal-with-parmatma-g0001",
+      "sentence_ids": [
+        "02-i-want-to-be-equal-with-parmatma-s0001",
+        "02-i-want-to-be-equal-with-parmatma-s0002",
+        "02-i-want-to-be-equal-with-parmatma-s0003",
+        "02-i-want-to-be-equal-with-parmatma-s0004",
+        "02-i-want-to-be-equal-with-parmatma-s0005"
+      ],
+      "context_before_ids": [],
+      "context_after_ids": [],
+      "context_text": "Om Ooh Hello Done, frio Today They are celebrating Bhagwan Mahavir's Janmotsav Today is a day of expressing heartfelt gratitude. Let us close our eyes for two minutes. Let us bow down our head in Paramatma's feet and feel thankful to Prabhu from the bottom of our heart.",
+      "start_timestamp": null,
+      "end_timestamp": null,
+      "boundary_reason": "max_sentences",
+      "forced_boundary": false,
+      "oversize": false
+    },
+    {
+      "group_id": "02-i-want-to-be-equal-with-parmatma-g0002",
+      "sentence_ids": [
+        "02-i-want-to-be-equal-with-parmatma-s0006",
+        "02-i-want-to-be-equal-with-parmatma-s0007",
+        "02-i-want-to-be-equal-with-parmatma-s0008",
+        "02-i-want-to-be-equal-with-parmatma-s0009",
+        "02-i-want-to-be-equal-with-parmatma-s0010",
+        "02-i-want-to-be-equal-with-parmatma-s0011",
+        "02-i-want-to-be-equal-with-parmatma-s0012",
+        "02-i-want-to-be-equal-with-parmatma-s0013"
+      ],
+      "context_before_ids": [],
+      "context_after_ids": [],
+      "context_text": "Hey Prabhu If you had not grasped this land If you had not taught us the values of Ahimsa, Truth non-stealing, celibacy, non-possessionness. Then Even we would be doing so many wrong activities like the other living beings on this planet. even they would have been involved in violence lies stealing possessions We would also be polluting our soul with these bad qualities. Hey Prabhu With a vow in our hearts to bow down to you. and express our heartfelt Vandana Prabhu, it is your infinite grace on each and every one of us. Prabhu, you practiced tough Sadhana for twelve and a half long years.",
+      "start_timestamp": null,
+      "end_timestamp": null,
+      "boundary_reason": "max_sentences",
+      "forced_boundary": false,
+      "oversize": false
+    },
+    {
+      "group_id": "02-i-want-to-be-equal-with-parmatma-g0003",
+      "sentence_ids": [
+        "02-i-want-to-be-equal-with-parmatma-s0014",
+        "02-i-want-to-be-equal-with-parmatma-s0015",
+        "02-i-want-to-be-equal-with-parmatma-s0016",
+        "02-i-want-to-be-equal-with-parmatma-s0017",
+        "02-i-want-to-be-equal-with-parmatma-s0018",
+        "02-i-want-to-be-equal-with-parmatma-s0019",
+        "02-i-want-to-be-equal-with-parmatma-s0020",
+        "02-i-want-to-be-equal-with-parmatma-s0021"
+      ],
+      "context_before_ids": [],
+      "context_after_ids": [],
+      "context_text": "You tolerated so much pain and so many difficulties. But when you achieved Kevalnan, as a result of that Sadhana, you did not limit that knowledge only to yourself. You did not stay selfish in what you achieved. But you utilized it for the well-being of the entire world. You gave knowledge to the entire world. Prabhu, we express our deep gratitude to you for the complete knowledge that you gave us in the form of Agamas. If you had not given us that knowledge, even we would be committing so many sins today. We would be giving pain to so many living beings.",
+      "start_timestamp": null,
+      "end_timestamp": null,
+      "boundary_reason": "max_sentences",
+      "forced_boundary": false,
+      "oversize": false
+    },
+    {
+      "group_id": "02-i-want-to-be-equal-with-parmatma-g0004",
+      "sentence_ids": [
+        "02-i-want-to-be-equal-with-parmatma-s0022",
+        "02-i-want-to-be-equal-with-parmatma-s0023",
+        "02-i-want-to-be-equal-with-parmatma-s0024",
+        "02-i-want-to-be-equal-with-parmatma-s0025",
+        "02-i-want-to-be-equal-with-parmatma-s0026",
+        "02-i-want-to-be-equal-with-parmatma-s0027",
+        "02-i-want-to-be-equal-with-parmatma-s0028"
+      ],
+      "context_before_ids": [],
+      "context_after_ids": [],
+      "context_text": "We would also be killing so many animals and birds for our test. And we would be enjoying such harmful and cruel acts. Prabhu, it is you who has saved us from so many sins. It is your Maha Upkar. You not only taught us the quality of Ahimsa, but you nurtured that quality in our soul, in our deep memories. And so, we have been saved from countless wrong activities today. Prabhu We are very fortunate to have you.",
+      "start_timestamp": null,
+      "end_timestamp": null,
+      "boundary_reason": "max_sentences",
+      "forced_boundary": false,
+      "oversize": false
+    },
+    {
+      "group_id": "02-i-want-to-be-equal-with-parmatma-g0005",
+      "sentence_ids": [
+        "02-i-want-to-be-equal-with-parmatma-s0029",
+        "02-i-want-to-be-equal-with-parmatma-s0030",
+        "02-i-want-to-be-equal-with-parmatma-s0031",
+        "02-i-want-to-be-equal-with-parmatma-s0032",
+        "02-i-want-to-be-equal-with-parmatma-s0033",
+        "02-i-want-to-be-equal-with-parmatma-s0034",
+        "02-i-want-to-be-equal-with-parmatma-s0035",
+        "02-i-want-to-be-equal-with-parmatma-s0036"
+      ],
+      "context_before_ids": [],
+      "context_after_ids": [],
+      "context_text": "We are very fortunate to have you. And so, we celebrate today's day with immense enthusiasm and gratitude in our hearts. Hey Prabhu, navigate our religion and your path of truth and compassion in every birth. Hey Prabhu, May we attain your sharan in every birth. Okay Open your eyes Open your eyes Done, Priyo. Today, as we celebrate the occasion of Bhagwan Mahavir Janmotsav. I want to tell you something. We all worship Prabhu Mahavir but this Parishad Mahaprabhu has come to give us a different message.",
+      "start_timestamp": null,
+      "end_timestamp": null,
+      "boundary_reason": "max_sentences",
+      "forced_boundary": false,
+      "oversize": false
+    },
+    {
+      "group_id": "02-i-want-to-be-equal-with-parmatma-g0006",
+      "sentence_ids": [
+        "02-i-want-to-be-equal-with-parmatma-s0037",
+        "02-i-want-to-be-equal-with-parmatma-s0038",
+        "02-i-want-to-be-equal-with-parmatma-s0039",
+        "02-i-want-to-be-equal-with-parmatma-s0040"
+      ],
+      "context_before_ids": [],
+      "context_after_ids": [],
+      "context_text": "Every follower, every disciple of Paramatma has an eagerness to know one thing. When Paramatma was present, how was he? What qualities did he have? What qualities did he have?",
+      "start_timestamp": null,
+      "end_timestamp": null,
+      "boundary_reason": "end",
+      "forced_boundary": false,
+      "oversize": false
+    }
+  ],
+  "results": [
+    {
+      "sentence_id": "02-i-want-to-be-equal-with-parmatma-s0001",
+      "group_id": "02-i-want-to-be-equal-with-parmatma-g0001",
+      "source_text": "Om Ooh Hello Done, frio",
+      "llm_input_text": "Om Hello Done, frio",
+      "skipped_spans": [
+        {
+          "start": 3,
+          "end": 6,
+          "text": "Ooh",
+          "reason": "expression_cue"
+        }
+      ],
+      "translation_status": "translated",
+      "candidate_gloss": "",
+      "candidate_tokens": [],
+      "final_gloss": "",
+      "final_tokens": [],
+      "applied_rules": [],
+      "validation": {
+        "status": "review_required",
+        "warnings": [
+          {
+            "code": "llm_review_required",
+            "severity": "review",
+            "message": "The model could not gloss this sentence and marked it review-required: Source sentence is unintelligible or garbled; unable to determine meaning."
+          },
+          {
+            "code": "spans_skipped",
+            "severity": "info",
+            "message": "1 span(s) were excluded from translation by design."
+          },
+          {
+            "code": "name_may_be_missing",
+            "severity": "review",
+            "message": "Capitalised word(s) not found in the gloss: DONE. May be names or sign-label substitutions."
+          },
+          {
+            "code": "empty_gloss_retried",
+            "severity": "info",
+            "message": "The first reply had an empty gloss; one targeted retry was made (outcome: still_empty)."
+          }
+        ]
+      },
+      "review_status": "unreviewed",
+      "uncertainty_notes": "Source sentence is unintelligible or garbled; unable to determine meaning.",
+      "uncertain_parts": [],
+      "needs_human_review": true,
+      "llm_status": "review_required",
+      "llm": {
+        "status": "review_required",
+        "needs_human_review": true,
+        "uncertain": true,
+        "uncertain_parts": [],
+        "notes": "Source sentence is unintelligible or garbled; unable to determine meaning.",
+        "echoed_source_text": "Om Hello Done, frio"
+      },
+      "error": null,
+      "speaker_id": "Speaker 1",
+      "start_timestamp": null,
+      "end_timestamp": null,
+      "turn_index": 0,
+      "source_metadata": {
+        "source_id": "02-i-want-to-be-equal-with-parmatma",
+        "parent_chunk_id": "02-i-want-to-be-equal-with-parmatma-0001",
+        "split_method": "runon_capital_opener",
+        "piece": [
+          1,
+          3
+        ],
+        "source_start_offset": null,
+        "source_end_offset": null,
+        "cue_indices": null,
+        "cue_ids": null,
+        "incomplete": true,
+        "depends_on_previous": false,
+        "dependency_reasons": []
+      },
+      "metadata": {
+        "model": "groq/openai/gpt-oss-120b",
+        "prompt_version": "8.0",
+        "llm_config": {
+          "provider": "groq",
+          "model": "openai/gpt-oss-120b",
+          "reasoning_effort": "low",
+          "temperature": 0.0,
+          "max_output_tokens": 8192,
+          "prompt_version": "8.0",
+          "thinking_budget": null,
+          "empty_gloss_retry": true,
+          "references_file": null,
+          "reference_entries_loaded": 0
+        },
+        "rule_set_version": "0.1.0",
+        "active_rules": [
+          "R-FMT-01",
+          "R-ART-01",
+          "R-SKIP-01"
+        ],
+        "result_schema_version": "1.0",
+        "rule_pass_completed": true,
+        "cache_hit": false
+      }
+    },
+    {
+      "sentence_id": "02-i-want-to-be-equal-with-parmatma-s0002",
+      "group_id": "02-i-want-to-be-equal-with-parmatma-g0001",
+      "source_text": "Today They are celebrating Bhagwan Mahavir's Janmotsav",
+      "llm_input_text": "Today They are celebrating Bhagwan Mahavir's Janmotsav",
+      "skipped_spans": [],
+      "translation_status": "translated",
+      "candidate_gloss": "TODAY THEY CELEBRATE BHAGWAN MAHAVIR FS:JANMOTSAV",
+      "candidate_tokens": [
+        "TODAY",
+        "THEY",
+        "CELEBRATE",
+        "BHAGWAN",
+        "MAHAVIR",
+        "FS:JANMOTSAV"
+      ],
+      "final_gloss": "TODAY THEY CELEBRATE BHAGWAN MAHAVIR FS:JANMOTSAV",
+      "final_tokens": [
+        "TODAY",
+        "THEY",
+        "CELEBRATE",
+        "BHAGWAN",
+        "MAHAVIR",
+        "FS:JANMOTSAV"
+      ],
+      "applied_rules": [],
+      "validation": {
+        "status": "review_required",
+        "warnings": [
+          {
+            "code": "name_may_be_missing",
+            "severity": "review",
+            "message": "Capitalised word(s) not found in the gloss: MAHAVIR'S. May be names or sign-label substitutions."
+          }
+        ]
+      },
+      "review_status": "unreviewed",
+      "uncertainty_notes": "Cultural term Janmotsav not in verified vocabulary; fingerspelled with uncertainty.",
+      "uncertain_parts": [
+        "FS:JANMOTSAV"
+      ],
+      "needs_human_review": true,
+      "llm_status": "ok",
+      "llm": {
+        "status": "ok",
+        "needs_human_review": false,
+        "uncertain": false,
+        "uncertain_parts": [
+          "FS:JANMOTSAV"
+        ],
+        "notes": "Cultural term Janmotsav not in verified vocabulary; fingerspelled with uncertainty.",
+        "echoed_source_text": "Today They are celebrating Bhagwan Mahavir's Janmotsav"
+      },
+      "error": null,
+      "speaker_id": "Speaker 1",
+      "start_timestamp": null,
+      "end_timestamp": null,
+      "turn_index": 0,
+      "source_metadata": {
+        "source_id": "02-i-want-to-be-equal-with-parmatma",
+        "parent_chunk_id": "02-i-want-to-be-equal-with-parmatma-0001",
+        "split_method": "runon_capital_opener",
+        "piece": [
+          2,
+          3
+        ],
+        "source_start_offset": null,
+        "source_end_offset": null,
+        "cue_indices": null,
+        "cue_ids": null,
+        "incomplete": true,
+        "depends_on_previous": true,
+        "dependency_reasons": [
+          "previous_incomplete"
+        ]
+      },
+      "metadata": {
+        "model": "groq/openai/gpt-oss-120b",
+        "prompt_version": "8.0",
+        "llm_config": {
+          "provider": "groq",
+          "model": "openai/gpt-oss-120b",
+          "reasoning_effort": "low",
+          "temperature": 0.0,
+          "max_output_tokens": 8192,
+          "prompt_version": "8.0",
+          "thinking_budget": null,
+          "empty_gloss_retry": true,
+          "references_file": null,
+          "reference_entries_loaded": 0
+        },
+        "rule_set_version": "0.1.0",
+        "active_rules": [
+          "R-FMT-01",
+          "R-ART-01",
+          "R-SKIP-01"
+        ],
+        "result_schema_version": "1.0",
+        "rule_pass_completed": true,
+        "cache_hit": false
+      }
+    },
+    {
+      "sentence_id": "02-i-want-to-be-equal-with-parmatma-s0003",
+      "group_id": "02-i-want-to-be-equal-with-parmatma-g0001",
+      "source_text": "Today is a day of expressing heartfelt gratitude.",
+      "llm_input_text": "Today is a day of expressing heartfelt gratitude.",
+      "skipped_spans": [],
+      "translation_status": "translated",
+      "candidate_gloss": "TODAY DAY EXPRESS HEARTFELT GRATITUDE",
+      "candidate_tokens": [
+        "TODAY",
+        "DAY",
+        "EXPRESS",
+        "HEARTFELT",
+        "GRATITUDE"
+      ],
+      "final_gloss": "TODAY DAY EXPRESS HEARTFELT GRATITUDE",
+      "final_tokens": [
+        "TODAY",
+        "DAY",
+        "EXPRESS",
+        "HEARTFELT",
+        "GRATITUDE"
+      ],
+      "applied_rules": [],
+      "validation": {
+        "status": "pass",
+        "warnings": []
+      },
+      "review_status": "unreviewed",
+      "uncertainty_notes": "",
+      "uncertain_parts": [],
+      "needs_human_review": false,
+      "llm_status": "ok",
+      "llm": {
+        "status": "ok",
+        "needs_human_review": false,
+        "uncertain": false,
+        "uncertain_parts": [],
+        "notes": "",
+        "echoed_source_text": "Today is a day of expressing heartfelt gratitude."
+      },
+      "error": null,
+      "speaker_id": "Speaker 1",
+      "start_timestamp": null,
+      "end_timestamp": null,
+      "turn_index": 0,
+      "source_metadata": {
+        "source_id": "02-i-want-to-be-equal-with-parmatma",
+        "parent_chunk_id": "02-i-want-to-be-equal-with-parmatma-0001",
+        "split_method": "runon_capital_opener",
+        "piece": [
+          3,
+          3
+        ],
+        "source_start_offset": null,
+        "source_end_offset": null,
+        "cue_indices": null,
+        "cue_ids": null,
+        "incomplete": false,
+        "depends_on_previous": true,
+        "dependency_reasons": [
+          "previous_incomplete"
+        ]
+      },
+      "metadata": {
+        "model": "groq/openai/gpt-oss-120b",
+        "prompt_version": "8.0",
+        "llm_config": {
+          "provider": "groq",
+          "model": "openai/gpt-oss-120b",
+          "reasoning_effort": "low",
+          "temperature": 0.0,
+          "max_output_tokens": 8192,
+          "prompt_version": "8.0",
+          "thinking_budget": null,
+          "empty_gloss_retry": true,
+          "references_file": null,
+          "reference_entries_loaded": 0
+        },
+        "rule_set_version": "0.1.0",
+        "active_rules": [
+          "R-FMT-01",
+          "R-ART-01",
+          "R-SKIP-01"
+        ],
+        "result_schema_version": "1.0",
+        "rule_pass_completed": true,
+        "cache_hit": false
+      }
+    },
+    {
+      "sentence_id": "02-i-want-to-be-equal-with-parmatma-s0004",
+      "group_id": "02-i-want-to-be-equal-with-parmatma-g0001",
+      "source_text": "Let us close our eyes for two minutes.",
+      "llm_input_text": "Let us close our eyes for two minutes.",
+      "skipped_spans": [],
+      "translation_status": "translated",
+      "candidate_gloss": "LET US CLOSE EYES FOR TWO MINUTES",
+      "candidate_tokens": [
+        "LET",
+        "US",
+        "CLOSE",
+        "EYES",
+        "FOR",
+        "TWO",
+        "MINUTES"
+      ],
+      "final_gloss": "LET US CLOSE EYES FOR TWO MINUTES",
+      "final_tokens": [
+        "LET",
+        "US",
+        "CLOSE",
+        "EYES",
+        "FOR",
+        "TWO",
+        "MINUTES"
+      ],
+      "applied_rules": [],
+      "validation": {
+        "status": "pass",
+        "warnings": []
+      },
+      "review_status": "unreviewed",
+      "uncertainty_notes": "",
+      "uncertain_parts": [],
+      "needs_human_review": false,
+      "llm_status": "ok",
+      "llm": {
+        "status": "ok",
+        "needs_human_review": false,
+        "uncertain": false,
+        "uncertain_parts": [],
+        "notes": "",
+        "echoed_source_text": "Let us close our eyes for two minutes."
+      },
+      "error": null,
+      "speaker_id": "Speaker 1",
+      "start_timestamp": null,
+      "end_timestamp": null,
+      "turn_index": 0,
+      "source_metadata": {
+        "source_id": "02-i-want-to-be-equal-with-parmatma",
+        "parent_chunk_id": "02-i-want-to-be-equal-with-parmatma-0002",
+        "split_method": null,
+        "piece": [
+          1,
+          1
+        ],
+        "source_start_offset": 294,
+        "source_end_offset": 332,
+        "cue_indices": null,
+        "cue_ids": null,
+        "incomplete": false,
+        "depends_on_previous": false,
+        "dependency_reasons": []
+      },
+      "metadata": {
+        "model": "groq/openai/gpt-oss-120b",
+        "prompt_version": "8.0",
+        "llm_config": {
+          "provider": "groq",
+          "model": "openai/gpt-oss-120b",
+          "reasoning_effort": "low",
+          "temperature": 0.0,
+          "max_output_tokens": 8192,
+          "prompt_version": "8.0",
+          "thinking_budget": null,
+          "empty_gloss_retry": true,
+          "references_file": null,
+          "reference_entries_loaded": 0
+        },
+        "rule_set_version": "0.1.0",
+        "active_rules": [
+          "R-FMT-01",
+          "R-ART-01",
+          "R-SKIP-01"
+        ],
+        "result_schema_version": "1.0",
+        "rule_pass_completed": true,
+        "cache_hit": false
+      }
+    },
+    {
+      "sentence_id": "02-i-want-to-be-equal-with-parmatma-s0005",
+      "group_id": "02-i-want-to-be-equal-with-parmatma-g0001",
+      "source_text": "Let us bow down our head in Paramatma's feet and feel thankful to Prabhu from the bottom of our heart.",
+      "llm_input_text": "Let us bow down our head in Paramatma's feet and feel thankful to Prabhu from the bottom of our heart.",
+      "skipped_spans": [],
+      "translation_status": "translated",
+      "candidate_gloss": "LET US BOW HEAD IN PARAMATMA FEET AND FEEL THANKFUL TO PRABHU FROM BOTTOM HEART",
+      "candidate_tokens": [
+        "LET",
+        "US",
+        "BOW",
+        "HEAD",
+        "IN",
+        "PARAMATMA",
+        "FEET",
+        "AND",
+        "FEEL",
+        "THANKFUL",
+        "TO",
+        "PRABHU",
+        "FROM",
+        "BOTTOM",
+        "HEART"
+      ],
+      "final_gloss": "LET US BOW HEAD IN PARAMATMA FEET AND FEEL THANKFUL TO PRABHU FROM BOTTOM HEART",
+      "final_tokens": [
+        "LET",
+        "US",
+        "BOW",
+        "HEAD",
+        "IN",
+        "PARAMATMA",
+        "FEET",
+        "AND",
+        "FEEL",
+        "THANKFUL",
+        "TO",
+        "PRABHU",
+        "FROM",
+        "BOTTOM",
+        "HEART"
+      ],
+      "applied_rules": [],
+      "validation": {
+        "status": "review_required",
+        "warnings": [
+          {
+            "code": "name_may_be_missing",
+            "severity": "review",
+            "message": "Capitalised word(s) not found in the gloss: PARAMATMA'S. May be names or sign-label substitutions."
+          }
+        ]
+      },
+      "review_status": "unreviewed",
+      "uncertainty_notes": "",
+      "uncertain_parts": [],
+      "needs_human_review": true,
+      "llm_status": "ok",
+      "llm": {
+        "status": "ok",
+        "needs_human_review": false,
+        "uncertain": false,
+        "uncertain_parts": [],
+        "notes": "",
+        "echoed_source_text": "Let us bow down our head in Paramatma's feet and feel thankful to Prabhu from the bottom of our heart."
+      },
+      "error": null,
+      "speaker_id": "Speaker 1",
+      "start_timestamp": null,
+      "end_timestamp": null,
+      "turn_index": 0,
+      "source_metadata": {
+        "source_id": "02-i-want-to-be-equal-with-parmatma",
+        "parent_chunk_id": "02-i-want-to-be-equal-with-parmatma-0003",
+        "split_method": null,
+        "piece": [
+          1,
+          1
+        ],
+        "source_start_offset": 333,
+        "source_end_offset": 435,
+        "cue_indices": null,
+        "cue_ids": null,
+        "incomplete": false,
+        "depends_on_previous": false,
+        "dependency_reasons": []
+      },
+      "metadata": {
+        "model": "groq/openai/gpt-oss-120b",
+        "prompt_version": "8.0",
+        "llm_config": {
+          "provider": "groq",
+          "model": "openai/gpt-oss-120b",
+          "reasoning_effort": "low",
+          "temperature": 0.0,
+          "max_output_tokens": 8192,
+          "prompt_version": "8.0",
+          "thinking_budget": null,
+          "empty_gloss_retry": true,
+          "references_file": null,
+          "reference_entries_loaded": 0
+        },
+        "rule_set_version": "0.1.0",
+        "active_rules": [
+          "R-FMT-01",
+          "R-ART-01",
+          "R-SKIP-01"
+        ],
+        "result_schema_version": "1.0",
+        "rule_pass_completed": true,
+        "cache_hit": false
+      }
+    },
+    {
+      "sentence_id": "02-i-want-to-be-equal-with-parmatma-s0006",
+      "group_id": "02-i-want-to-be-equal-with-parmatma-g0002",
+      "source_text": "Hey Prabhu If you had not grasped this land",
+      "llm_input_text": "Hey Prabhu If you had not grasped this land",
+      "skipped_spans": [],
+      "translation_status": "translated",
+      "candidate_gloss": "HEY FS:PRABHU IF YOU NOT GRASP THIS LAND",
+      "candidate_tokens": [
+        "HEY",
+        "FS:PRABHU",
+        "IF",
+        "YOU",
+        "NOT",
+        "GRASP",
+        "THIS",
+        "LAND"
+      ],
+      "final_gloss": "HEY FS:PRABHU IF YOU NOT GRASP THIS LAND",
+      "final_tokens": [
+        "HEY",
+        "FS:PRABHU",
+        "IF",
+        "YOU",
+        "NOT",
+        "GRASP",
+        "THIS",
+        "LAND"
+      ],
+      "applied_rules": [],
+      "validation": {
+        "status": "pass",
+        "warnings": []
+      },
+      "review_status": "unreviewed",
+      "uncertainty_notes": "",
+      "uncertain_parts": [],
+      "needs_human_review": false,
+      "llm_status": "ok",
+      "llm": {
+        "status": "ok",
+        "needs_human_review": false,
+        "uncertain": false,
+        "uncertain_parts": [],
+        "notes": "",
+        "echoed_source_text": "Hey Prabhu If you had not grasped this land"
+      },
+      "error": null,
+      "speaker_id": "Speaker 1",
+      "start_timestamp": null,
+      "end_timestamp": null,
+      "turn_index": 0,
+      "source_metadata": {
+        "source_id": "02-i-want-to-be-equal-with-parmatma",
+        "parent_chunk_id": "02-i-want-to-be-equal-with-parmatma-0004",
+        "split_method": "runon_capital_opener",
+        "piece": [
+          1,
+          2
+        ],
+        "source_start_offset": null,
+        "source_end_offset": null,
+        "cue_indices": null,
+        "cue_ids": null,
+        "incomplete": true,
+        "depends_on_previous": false,
+        "dependency_reasons": []
+      },
+      "metadata": {
+        "model": "groq/openai/gpt-oss-120b",
+        "prompt_version": "8.0",
+        "llm_config": {
+          "provider": "groq",
+          "model": "openai/gpt-oss-120b",
+          "reasoning_effort": "low",
+          "temperature": 0.0,
+          "max_output_tokens": 8192,
+          "prompt_version": "8.0",
+          "thinking_budget": null,
+          "empty_gloss_retry": true,
+          "references_file": null,
+          "reference_entries_loaded": 0
+        },
+        "rule_set_version": "0.1.0",
+        "active_rules": [
+          "R-FMT-01",
+          "R-ART-01",
+          "R-SKIP-01"
+        ],
+        "result_schema_version": "1.0",
+        "rule_pass_completed": true,
+        "cache_hit": false
+      }
+    },
+    {
+      "sentence_id": "02-i-want-to-be-equal-with-parmatma-s0007",
+      "group_id": "02-i-want-to-be-equal-with-parmatma-g0002",
+      "source_text": "If you had not taught us the values of Ahimsa, Truth non-stealing, celibacy, non-possessionness.",
+      "llm_input_text": "If you had not taught us the values of Ahimsa, Truth non-stealing, celibacy, non-possessionness.",
+      "skipped_spans": [],
+      "translation_status": "translated",
+      "candidate_gloss": "IF YOU NOT TEACH US VALUE AHIMSA TRUTH NON_STEALING CELIBACY NON_POSSESSIONNESS",
+      "candidate_tokens": [
+        "IF",
+        "YOU",
+        "NOT",
+        "TEACH",
+        "US",
+        "VALUE",
+        "AHIMSA",
+        "TRUTH",
+        "NON_STEALING",
+        "CELIBACY",
+        "NON_POSSESSIONNESS"
+      ],
+      "final_gloss": "IF YOU NOT TEACH US VALUE AHIMSA TRUTH NON_STEALING CELIBACY NON_POSSESSIONNESS",
+      "final_tokens": [
+        "IF",
+        "YOU",
+        "NOT",
+        "TEACH",
+        "US",
+        "VALUE",
+        "AHIMSA",
+        "TRUTH",
+        "NON_STEALING",
+        "CELIBACY",
+        "NON_POSSESSIONNESS"
+      ],
+      "applied_rules": [],
+      "validation": {
+        "status": "pass",
+        "warnings": []
+      },
+      "review_status": "unreviewed",
+      "uncertainty_notes": "Term \"non-possessionness\" not verified in ISL lexicon.",
+      "uncertain_parts": [
+        "NON_POSSESSIONNESS"
+      ],
+      "needs_human_review": false,
+      "llm_status": "ok",
+      "llm": {
+        "status": "ok",
+        "needs_human_review": false,
+        "uncertain": false,
+        "uncertain_parts": [
+          "NON_POSSESSIONNESS"
+        ],
+        "notes": "Term \"non-possessionness\" not verified in ISL lexicon.",
+        "echoed_source_text": "If you had not taught us the values of Ahimsa, Truth non-stealing, celibacy, non-possessionness."
+      },
+      "error": null,
+      "speaker_id": "Speaker 1",
+      "start_timestamp": null,
+      "end_timestamp": null,
+      "turn_index": 0,
+      "source_metadata": {
+        "source_id": "02-i-want-to-be-equal-with-parmatma",
+        "parent_chunk_id": "02-i-want-to-be-equal-with-parmatma-0004",
+        "split_method": "runon_capital_opener",
+        "piece": [
+          2,
+          2
+        ],
+        "source_start_offset": null,
+        "source_end_offset": null,
+        "cue_indices": null,
+        "cue_ids": null,
+        "incomplete": false,
+        "depends_on_previous": true,
+        "dependency_reasons": [
+          "previous_incomplete"
+        ]
+      },
+      "metadata": {
+        "model": "groq/openai/gpt-oss-120b",
+        "prompt_version": "8.0",
+        "llm_config": {
+          "provider": "groq",
+          "model": "openai/gpt-oss-120b",
+          "reasoning_effort": "low",
+          "temperature": 0.0,
+          "max_output_tokens": 8192,
+          "prompt_version": "8.0",
+          "thinking_budget": null,
+          "empty_gloss_retry": true,
+          "references_file": null,
+          "reference_entries_loaded": 0
+        },
+        "rule_set_version": "0.1.0",
+        "active_rules": [
+          "R-FMT-01",
+          "R-ART-01",
+          "R-SKIP-01"
+        ],
+        "result_schema_version": "1.0",
+        "rule_pass_completed": true,
+        "cache_hit": false
+      }
+    },
+    {
+      "sentence_id": "02-i-want-to-be-equal-with-parmatma-s0008",
+      "group_id": "02-i-want-to-be-equal-with-parmatma-g0002",
+      "source_text": "Then Even we would be doing so many wrong activities like the other living beings on this planet.",
+      "llm_input_text": "Then Even we would be doing so many wrong activities like the other living beings on this planet.",
+      "skipped_spans": [],
+      "translation_status": "translated",
+      "candidate_gloss": "THEN EVEN WE WOULD DO MANY WRONG ACTIVITY LIKE OTHER LIVING BEING PLANET",
+      "candidate_tokens": [
+        "THEN",
+        "EVEN",
+        "WE",
+        "WOULD",
+        "DO",
+        "MANY",
+        "WRONG",
+        "ACTIVITY",
+        "LIKE",
+        "OTHER",
+        "LIVING",
+        "BEING",
+        "PLANET"
+      ],
+      "final_gloss": "THEN EVEN WE WOULD DO MANY WRONG ACTIVITY LIKE OTHER LIVING BEING PLANET",
+      "final_tokens": [
+        "THEN",
+        "EVEN",
+        "WE",
+        "WOULD",
+        "DO",
+        "MANY",
+        "WRONG",
+        "ACTIVITY",
+        "LIKE",
+        "OTHER",
+        "LIVING",
+        "BEING",
+        "PLANET"
+      ],
+      "applied_rules": [],
+      "validation": {
+        "status": "pass",
+        "warnings": []
+      },
+      "review_status": "unreviewed",
+      "uncertainty_notes": "",
+      "uncertain_parts": [],
+      "needs_human_review": false,
+      "llm_status": "ok",
+      "llm": {
+        "status": "ok",
+        "needs_human_review": false,
+        "uncertain": false,
+        "uncertain_parts": [],
+        "notes": "",
+        "echoed_source_text": "Then Even we would be doing so many wrong activities like the other living beings on this planet."
+      },
+      "error": null,
+      "speaker_id": "Speaker 1",
+      "start_timestamp": null,
+      "end_timestamp": null,
+      "turn_index": 0,
+      "source_metadata": {
+        "source_id": "02-i-want-to-be-equal-with-parmatma",
+        "parent_chunk_id": "02-i-want-to-be-equal-with-parmatma-0005",
+        "split_method": null,
+        "piece": [
+          1,
+          1
+        ],
+        "source_start_offset": 577,
+        "source_end_offset": 674,
+        "cue_indices": null,
+        "cue_ids": null,
+        "incomplete": false,
+        "depends_on_previous": true,
+        "dependency_reasons": [
+          "continuation_word"
+        ]
+      },
+      "metadata": {
+        "model": "groq/openai/gpt-oss-120b",
+        "prompt_version": "8.0",
+        "llm_config": {
+          "provider": "groq",
+          "model": "openai/gpt-oss-120b",
+          "reasoning_effort": "low",
+          "temperature": 0.0,
+          "max_output_tokens": 8192,
+          "prompt_version": "8.0",
+          "thinking_budget": null,
+          "empty_gloss_retry": true,
+          "references_file": null,
+          "reference_entries_loaded": 0
+        },
+        "rule_set_version": "0.1.0",
+        "active_rules": [
+          "R-FMT-01",
+          "R-ART-01",
+          "R-SKIP-01"
+        ],
+        "result_schema_version": "1.0",
+        "rule_pass_completed": true,
+        "cache_hit": false
+      }
+    },
+    {
+      "sentence_id": "02-i-want-to-be-equal-with-parmatma-s0009",
+      "group_id": "02-i-want-to-be-equal-with-parmatma-g0002",
+      "source_text": "even they would have been involved in violence lies stealing possessions",
+      "llm_input_text": "even they would have been involved in violence lies stealing possessions",
+      "skipped_spans": [],
+      "translation_status": "translated",
+      "candidate_gloss": "EVEN THEY WOULD BE INVOLVE VIOLENCE LIES STEALING POSSESSIONS",
+      "candidate_tokens": [
+        "EVEN",
+        "THEY",
+        "WOULD",
+        "BE",
+        "INVOLVE",
+        "VIOLENCE",
+        "LIES",
+        "STEALING",
+        "POSSESSIONS"
+      ],
+      "final_gloss": "EVEN THEY WOULD BE INVOLVE VIOLENCE LIES STEALING POSSESSIONS",
+      "final_tokens": [
+        "EVEN",
+        "THEY",
+        "WOULD",
+        "BE",
+        "INVOLVE",
+        "VIOLENCE",
+        "LIES",
+        "STEALING",
+        "POSSESSIONS"
+      ],
+      "applied_rules": [],
+      "validation": {
+        "status": "pass",
+        "warnings": []
+      },
+      "review_status": "unreviewed",
+      "uncertainty_notes": "",
+      "uncertain_parts": [],
+      "needs_human_review": false,
+      "llm_status": "ok",
+      "llm": {
+        "status": "ok",
+        "needs_human_review": false,
+        "uncertain": false,
+        "uncertain_parts": [],
+        "notes": "",
+        "echoed_source_text": "even they would have been involved in violence lies stealing possessions"
+      },
+      "error": null,
+      "speaker_id": "Speaker 1",
+      "start_timestamp": null,
+      "end_timestamp": null,
+      "turn_index": 0,
+      "source_metadata": {
+        "source_id": "02-i-want-to-be-equal-with-parmatma",
+        "parent_chunk_id": "02-i-want-to-be-equal-with-parmatma-0006",
+        "split_method": "runon_capital_opener",
+        "piece": [
+          1,
+          2
+        ],
+        "source_start_offset": null,
+        "source_end_offset": null,
+        "cue_indices": null,
+        "cue_ids": null,
+        "incomplete": true,
+        "depends_on_previous": true,
+        "dependency_reasons": [
+          "lowercase_start"
+        ]
+      },
+      "metadata": {
+        "model": "groq/openai/gpt-oss-120b",
+        "prompt_version": "8.0",
+        "llm_config": {
+          "provider": "groq",
+          "model": "openai/gpt-oss-120b",
+          "reasoning_effort": "low",
+          "temperature": 0.0,
+          "max_output_tokens": 8192,
+          "prompt_version": "8.0",
+          "thinking_budget": null,
+          "empty_gloss_retry": true,
+          "references_file": null,
+          "reference_entries_loaded": 0
+        },
+        "rule_set_version": "0.1.0",
+        "active_rules": [
+          "R-FMT-01",
+          "R-ART-01",
+          "R-SKIP-01"
+        ],
+        "result_schema_version": "1.0",
+        "rule_pass_completed": true,
+        "cache_hit": false
+      }
+    },
+    {
+      "sentence_id": "02-i-want-to-be-equal-with-parmatma-s0010",
+      "group_id": "02-i-want-to-be-equal-with-parmatma-g0002",
+      "source_text": "We would also be polluting our soul with these bad qualities.",
+      "llm_input_text": "We would also be polluting our soul with these bad qualities.",
+      "skipped_spans": [],
+      "translation_status": "translated",
+      "candidate_gloss": "WE WOULD ALSO POLLUTE OUR SOUL WITH THESE BAD QUALITY",
+      "candidate_tokens": [
+        "WE",
+        "WOULD",
+        "ALSO",
+        "POLLUTE",
+        "OUR",
+        "SOUL",
+        "WITH",
+        "THESE",
+        "BAD",
+        "QUALITY"
+      ],
+      "final_gloss": "WE WOULD ALSO POLLUTE OUR SOUL WITH THESE BAD QUALITY",
+      "final_tokens": [
+        "WE",
+        "WOULD",
+        "ALSO",
+        "POLLUTE",
+        "OUR",
+        "SOUL",
+        "WITH",
+        "THESE",
+        "BAD",
+        "QUALITY"
+      ],
+      "applied_rules": [],
+      "validation": {
+        "status": "pass",
+        "warnings": []
+      },
+      "review_status": "unreviewed",
+      "uncertainty_notes": "",
+      "uncertain_parts": [],
+      "needs_human_review": false,
+      "llm_status": "ok",
+      "llm": {
+        "status": "ok",
+        "needs_human_review": false,
+        "uncertain": false,
+        "uncertain_parts": [],
+        "notes": "",
+        "echoed_source_text": "We would also be polluting our soul with these bad qualities."
+      },
+      "error": null,
+      "speaker_id": "Speaker 1",
+      "start_timestamp": null,
+      "end_timestamp": null,
+      "turn_index": 0,
+      "source_metadata": {
+        "source_id": "02-i-want-to-be-equal-with-parmatma",
+        "parent_chunk_id": "02-i-want-to-be-equal-with-parmatma-0006",
+        "split_method": "runon_capital_opener",
+        "piece": [
+          2,
+          2
+        ],
+        "source_start_offset": null,
+        "source_end_offset": null,
+        "cue_indices": null,
+        "cue_ids": null,
+        "incomplete": false,
+        "depends_on_previous": true,
+        "dependency_reasons": [
+          "previous_incomplete"
+        ]
+      },
+      "metadata": {
+        "model": "groq/openai/gpt-oss-120b",
+        "prompt_version": "8.0",
+        "llm_config": {
+          "provider": "groq",
+          "model": "openai/gpt-oss-120b",
+          "reasoning_effort": "low",
+          "temperature": 0.0,
+          "max_output_tokens": 8192,
+          "prompt_version": "8.0",
+          "thinking_budget": null,
+          "empty_gloss_retry": true,
+          "references_file": null,
+          "reference_entries_loaded": 0
+        },
+        "rule_set_version": "0.1.0",
+        "active_rules": [
+          "R-FMT-01",
+          "R-ART-01",
+          "R-SKIP-01"
+        ],
+        "result_schema_version": "1.0",
+        "rule_pass_completed": true,
+        "cache_hit": false
+      }
+    },
+    {
+      "sentence_id": "02-i-want-to-be-equal-with-parmatma-s0011",
+      "group_id": "02-i-want-to-be-equal-with-parmatma-g0002",
+      "source_text": "Hey Prabhu With a vow in our hearts to bow down to you.",
+      "llm_input_text": "Hey Prabhu With a vow in our hearts to bow down to you.",
+      "skipped_spans": [],
+      "translation_status": "translated",
+      "candidate_gloss": "HEY FS:PRABHU WITH VOW IN OUR HEART BOW_DOWN TO YOU",
+      "candidate_tokens": [
+        "HEY",
+        "FS:PRABHU",
+        "WITH",
+        "VOW",
+        "IN",
+        "OUR",
+        "HEART",
+        "BOW_DOWN",
+        "TO",
+        "YOU"
+      ],
+      "final_gloss": "HEY FS:PRABHU WITH VOW IN OUR HEART BOW_DOWN TO YOU",
+      "final_tokens": [
+        "HEY",
+        "FS:PRABHU",
+        "WITH",
+        "VOW",
+        "IN",
+        "OUR",
+        "HEART",
+        "BOW_DOWN",
+        "TO",
+        "YOU"
+      ],
+      "applied_rules": [],
+      "validation": {
+        "status": "pass",
+        "warnings": []
+      },
+      "review_status": "unreviewed",
+      "uncertainty_notes": "",
+      "uncertain_parts": [],
+      "needs_human_review": false,
+      "llm_status": "ok",
+      "llm": {
+        "status": "ok",
+        "needs_human_review": false,
+        "uncertain": false,
+        "uncertain_parts": [],
+        "notes": "",
+        "echoed_source_text": "Hey Prabhu With a vow in our hearts to bow down to you."
+      },
+      "error": null,
+      "speaker_id": "Speaker 1",
+      "start_timestamp": null,
+      "end_timestamp": null,
+      "turn_index": 0,
+      "source_metadata": {
+        "source_id": "02-i-want-to-be-equal-with-parmatma",
+        "parent_chunk_id": "02-i-want-to-be-equal-with-parmatma-0007",
+        "split_method": null,
+        "piece": [
+          1,
+          1
+        ],
+        "source_start_offset": 810,
+        "source_end_offset": 865,
+        "cue_indices": null,
+        "cue_ids": null,
+        "incomplete": false,
+        "depends_on_previous": false,
+        "dependency_reasons": []
+      },
+      "metadata": {
+        "model": "groq/openai/gpt-oss-120b",
+        "prompt_version": "8.0",
+        "llm_config": {
+          "provider": "groq",
+          "model": "openai/gpt-oss-120b",
+          "reasoning_effort": "low",
+          "temperature": 0.0,
+          "max_output_tokens": 8192,
+          "prompt_version": "8.0",
+          "thinking_budget": null,
+          "empty_gloss_retry": true,
+          "references_file": null,
+          "reference_entries_loaded": 0
+        },
+        "rule_set_version": "0.1.0",
+        "active_rules": [
+          "R-FMT-01",
+          "R-ART-01",
+          "R-SKIP-01"
+        ],
+        "result_schema_version": "1.0",
+        "rule_pass_completed": true,
+        "cache_hit": false
+      }
+    },
+    {
+      "sentence_id": "02-i-want-to-be-equal-with-parmatma-s0012",
+      "group_id": "02-i-want-to-be-equal-with-parmatma-g0002",
+      "source_text": "and express our heartfelt Vandana Prabhu, it is your infinite grace on each and every one of us.",
+      "llm_input_text": "and express our heartfelt Vandana Prabhu, it is your infinite grace on each and every one of us.",
+      "skipped_spans": [],
+      "translation_status": "translated",
+      "candidate_gloss": "AND EXPRESS OUR HEARTFELT VANDANA FS:PRABHU IT IS YOUR INFINITE GRACE EACH EVERY ONE OF US",
+      "candidate_tokens": [
+        "AND",
+        "EXPRESS",
+        "OUR",
+        "HEARTFELT",
+        "VANDANA",
+        "FS:PRABHU",
+        "IT",
+        "IS",
+        "YOUR",
+        "INFINITE",
+        "GRACE",
+        "EACH",
+        "EVERY",
+        "ONE",
+        "OF",
+        "US"
+      ],
+      "final_gloss": "AND EXPRESS OUR HEARTFELT VANDANA FS:PRABHU IT IS YOUR INFINITE GRACE EACH EVERY ONE OF US",
+      "final_tokens": [
+        "AND",
+        "EXPRESS",
+        "OUR",
+        "HEARTFELT",
+        "VANDANA",
+        "FS:PRABHU",
+        "IT",
+        "IS",
+        "YOUR",
+        "INFINITE",
+        "GRACE",
+        "EACH",
+        "EVERY",
+        "ONE",
+        "OF",
+        "US"
+      ],
+      "applied_rules": [],
+      "validation": {
+        "status": "pass",
+        "warnings": []
+      },
+      "review_status": "unreviewed",
+      "uncertainty_notes": "",
+      "uncertain_parts": [],
+      "needs_human_review": false,
+      "llm_status": "ok",
+      "llm": {
+        "status": "ok",
+        "needs_human_review": false,
+        "uncertain": false,
+        "uncertain_parts": [],
+        "notes": "",
+        "echoed_source_text": "and express our heartfelt Vandana Prabhu, it is your infinite grace on each and every one of us."
+      },
+      "error": null,
+      "speaker_id": "Speaker 1",
+      "start_timestamp": null,
+      "end_timestamp": null,
+      "turn_index": 0,
+      "source_metadata": {
+        "source_id": "02-i-want-to-be-equal-with-parmatma",
+        "parent_chunk_id": "02-i-want-to-be-equal-with-parmatma-0008",
+        "split_method": null,
+        "piece": [
+          1,
+          1
+        ],
+        "source_start_offset": 866,
+        "source_end_offset": 962,
+        "cue_indices": null,
+        "cue_ids": null,
+        "incomplete": false,
+        "depends_on_previous": true,
+        "dependency_reasons": [
+          "lowercase_start",
+          "continuation_word"
+        ]
+      },
+      "metadata": {
+        "model": "groq/openai/gpt-oss-120b",
+        "prompt_version": "8.0",
+        "llm_config": {
+          "provider": "groq",
+          "model": "openai/gpt-oss-120b",
+          "reasoning_effort": "low",
+          "temperature": 0.0,
+          "max_output_tokens": 8192,
+          "prompt_version": "8.0",
+          "thinking_budget": null,
+          "empty_gloss_retry": true,
+          "references_file": null,
+          "reference_entries_loaded": 0
+        },
+        "rule_set_version": "0.1.0",
+        "active_rules": [
+          "R-FMT-01",
+          "R-ART-01",
+          "R-SKIP-01"
+        ],
+        "result_schema_version": "1.0",
+        "rule_pass_completed": true,
+        "cache_hit": false
+      }
+    },
+    {
+      "sentence_id": "02-i-want-to-be-equal-with-parmatma-s0013",
+      "group_id": "02-i-want-to-be-equal-with-parmatma-g0002",
+      "source_text": "Prabhu, you practiced tough Sadhana for twelve and a half long years.",
+      "llm_input_text": "Prabhu, you practiced tough Sadhana for twelve and a half long years.",
+      "skipped_spans": [],
+      "translation_status": "translated",
+      "candidate_gloss": "FS:PRABHU YOU PRACTICE TOUGH SADHANA FOR 12.5 LONG YEAR",
+      "candidate_tokens": [
+        "FS:PRABHU",
+        "YOU",
+        "PRACTICE",
+        "TOUGH",
+        "SADHANA",
+        "FOR",
+        "12.5",
+        "LONG",
+        "YEAR"
+      ],
+      "final_gloss": "FS:PRABHU YOU PRACTICE TOUGH SADHANA FOR 125 LONG YEAR",
+      "final_tokens": [
+        "FS:PRABHU",
+        "YOU",
+        "PRACTICE",
+        "TOUGH",
+        "SADHANA",
+        "FOR",
+        "125",
+        "LONG",
+        "YEAR"
+      ],
+      "applied_rules": [
+        {
+          "rule_id": "R-FMT-01",
+          "rule_version": "1",
+          "description": "Normalise token format: upper-case, strip punctuation/odd characters, spaces inside a token -> underscore, drop tokens that become empty.",
+          "status": "applied",
+          "before": [
+            "FS:PRABHU",
+            "YOU",
+            "PRACTICE",
+            "TOUGH",
+            "SADHANA",
+            "FOR",
+            "12.5",
+            "LONG",
+            "YEAR"
+          ],
+          "after": [
+            "FS:PRABHU",
+            "YOU",
+            "PRACTICE",
+            "TOUGH",
+            "SADHANA",
+            "FOR",
+            "125",
+            "LONG",
+            "YEAR"
+          ]
+        }
+      ],
+      "validation": {
+        "status": "pass",
+        "warnings": [
+          {
+            "code": "candidate_format_issue",
+            "severity": "info",
+            "message": "1 candidate token(s) were not in gloss format (e.g. '12.5'); the rule pass normalises these."
+          },
+          {
+            "code": "rules_changed_output",
+            "severity": "info",
+            "message": "Rule pass changed the LLM candidate: R-FMT-01"
+          }
+        ]
+      },
+      "review_status": "unreviewed",
+      "uncertainty_notes": "",
+      "uncertain_parts": [],
+      "needs_human_review": false,
+      "llm_status": "ok",
+      "llm": {
+        "status": "ok",
+        "needs_human_review": false,
+        "uncertain": false,
+        "uncertain_parts": [],
+        "notes": "",
+        "echoed_source_text": "Prabhu, you practiced tough Sadhana for twelve and a half long years."
+      },
+      "error": null,
+      "speaker_id": "Speaker 1",
+      "start_timestamp": null,
+      "end_timestamp": null,
+      "turn_index": 0,
+      "source_metadata": {
+        "source_id": "02-i-want-to-be-equal-with-parmatma",
+        "parent_chunk_id": "02-i-want-to-be-equal-with-parmatma-0009",
+        "split_method": null,
+        "piece": [
+          1,
+          1
+        ],
+        "source_start_offset": 963,
+        "source_end_offset": 1032,
+        "cue_indices": null,
+        "cue_ids": null,
+        "incomplete": false,
+        "depends_on_previous": false,
+        "dependency_reasons": []
+      },
+      "metadata": {
+        "model": "groq/openai/gpt-oss-120b",
+        "prompt_version": "8.0",
+        "llm_config": {
+          "provider": "groq",
+          "model": "openai/gpt-oss-120b",
+          "reasoning_effort": "low",
+          "temperature": 0.0,
+          "max_output_tokens": 8192,
+          "prompt_version": "8.0",
+          "thinking_budget": null,
+          "empty_gloss_retry": true,
+          "references_file": null,
+          "reference_entries_loaded": 0
+        },
+        "rule_set_version": "0.1.0",
+        "active_rules": [
+          "R-FMT-01",
+          "R-ART-01",
+          "R-SKIP-01"
+        ],
+        "result_schema_version": "1.0",
+        "rule_pass_completed": true,
+        "cache_hit": false
+      }
+    },
+    {
+      "sentence_id": "02-i-want-to-be-equal-with-parmatma-s0014",
+      "group_id": "02-i-want-to-be-equal-with-parmatma-g0003",
+      "source_text": "You tolerated so much pain and so many difficulties.",
+      "llm_input_text": "You tolerated so much pain and so many difficulties.",
+      "skipped_spans": [],
+      "translation_status": "translated",
+      "candidate_gloss": "YOU TOLERATE MUCH PAIN AND MANY DIFFICULTY",
+      "candidate_tokens": [
+        "YOU",
+        "TOLERATE",
+        "MUCH",
+        "PAIN",
+        "AND",
+        "MANY",
+        "DIFFICULTY"
+      ],
+      "final_gloss": "YOU TOLERATE MUCH PAIN AND MANY DIFFICULTY",
+      "final_tokens": [
+        "YOU",
+        "TOLERATE",
+        "MUCH",
+        "PAIN",
+        "AND",
+        "MANY",
+        "DIFFICULTY"
+      ],
+      "applied_rules": [],
+      "validation": {
+        "status": "pass",
+        "warnings": []
+      },
+      "review_status": "unreviewed",
+      "uncertainty_notes": "",
+      "uncertain_parts": [],
+      "needs_human_review": false,
+      "llm_status": "ok",
+      "llm": {
+        "status": "ok",
+        "needs_human_review": false,
+        "uncertain": false,
+        "uncertain_parts": [],
+        "notes": "",
+        "echoed_source_text": "You tolerated so much pain and so many difficulties."
+      },
+      "error": null,
+      "speaker_id": "Speaker 1",
+      "start_timestamp": null,
+      "end_timestamp": null,
+      "turn_index": 0,
+      "source_metadata": {
+        "source_id": "02-i-want-to-be-equal-with-parmatma",
+        "parent_chunk_id": "02-i-want-to-be-equal-with-parmatma-0010",
+        "split_method": null,
+        "piece": [
+          1,
+          1
+        ],
+        "source_start_offset": 1033,
+        "source_end_offset": 1085,
+        "cue_indices": null,
+        "cue_ids": null,
+        "incomplete": false,
+        "depends_on_previous": false,
+        "dependency_reasons": []
+      },
+      "metadata": {
+        "model": "groq/openai/gpt-oss-120b",
+        "prompt_version": "8.0",
+        "llm_config": {
+          "provider": "groq",
+          "model": "openai/gpt-oss-120b",
+          "reasoning_effort": "low",
+          "temperature": 0.0,
+          "max_output_tokens": 8192,
+          "prompt_version": "8.0",
+          "thinking_budget": null,
+          "empty_gloss_retry": true,
+          "references_file": null,
+          "reference_entries_loaded": 0
+        },
+        "rule_set_version": "0.1.0",
+        "active_rules": [
+          "R-FMT-01",
+          "R-ART-01",
+          "R-SKIP-01"
+        ],
+        "result_schema_version": "1.0",
+        "rule_pass_completed": true,
+        "cache_hit": false
+      }
+    },
+    {
+      "sentence_id": "02-i-want-to-be-equal-with-parmatma-s0015",
+      "group_id": "02-i-want-to-be-equal-with-parmatma-g0003",
+      "source_text": "But when you achieved Kevalnan, as a result of that Sadhana, you did not limit that knowledge only to yourself.",
+      "llm_input_text": "But when you achieved Kevalnan, as a result of that Sadhana, you did not limit that knowledge only to yourself.",
+      "skipped_spans": [],
+      "translation_status": "translated",
+      "candidate_gloss": "BUT WHEN YOU ACHIEVE KEVALNAN AS RESULT OF THAT SADHANA YOU NOT LIMIT THAT KNOWLEDGE ONLY TO YOURSELF",
+      "candidate_tokens": [
+        "BUT",
+        "WHEN",
+        "YOU",
+        "ACHIEVE",
+        "KEVALNAN",
+        "AS",
+        "RESULT",
+        "OF",
+        "THAT",
+        "SADHANA",
+        "YOU",
+        "NOT",
+        "LIMIT",
+        "THAT",
+        "KNOWLEDGE",
+        "ONLY",
+        "TO",
+        "YOURSELF"
+      ],
+      "final_gloss": "BUT WHEN YOU ACHIEVE KEVALNAN AS RESULT OF THAT SADHANA YOU NOT LIMIT THAT KNOWLEDGE ONLY TO YOURSELF",
+      "final_tokens": [
+        "BUT",
+        "WHEN",
+        "YOU",
+        "ACHIEVE",
+        "KEVALNAN",
+        "AS",
+        "RESULT",
+        "OF",
+        "THAT",
+        "SADHANA",
+        "YOU",
+        "NOT",
+        "LIMIT",
+        "THAT",
+        "KNOWLEDGE",
+        "ONLY",
+        "TO",
+        "YOURSELF"
+      ],
+      "applied_rules": [],
+      "validation": {
+        "status": "pass",
+        "warnings": []
+      },
+      "review_status": "unreviewed",
+      "uncertainty_notes": "",
+      "uncertain_parts": [],
+      "needs_human_review": false,
+      "llm_status": "ok",
+      "llm": {
+        "status": "ok",
+        "needs_human_review": false,
+        "uncertain": false,
+        "uncertain_parts": [],
+        "notes": "",
+        "echoed_source_text": "But when you achieved Kevalnan, as a result of that Sadhana, you did not limit that knowledge only to yourself."
+      },
+      "error": null,
+      "speaker_id": "Speaker 1",
+      "start_timestamp": null,
+      "end_timestamp": null,
+      "turn_index": 0,
+      "source_metadata": {
+        "source_id": "02-i-want-to-be-equal-with-parmatma",
+        "parent_chunk_id": "02-i-want-to-be-equal-with-parmatma-0011",
+        "split_method": null,
+        "piece": [
+          1,
+          1
+        ],
+        "source_start_offset": 1086,
+        "source_end_offset": 1197,
+        "cue_indices": null,
+        "cue_ids": null,
+        "incomplete": false,
+        "depends_on_previous": true,
+        "dependency_reasons": [
+          "continuation_word"
+        ]
+      },
+      "metadata": {
+        "model": "groq/openai/gpt-oss-120b",
+        "prompt_version": "8.0",
+        "llm_config": {
+          "provider": "groq",
+          "model": "openai/gpt-oss-120b",
+          "reasoning_effort": "low",
+          "temperature": 0.0,
+          "max_output_tokens": 8192,
+          "prompt_version": "8.0",
+          "thinking_budget": null,
+          "empty_gloss_retry": true,
+          "references_file": null,
+          "reference_entries_loaded": 0
+        },
+        "rule_set_version": "0.1.0",
+        "active_rules": [
+          "R-FMT-01",
+          "R-ART-01",
+          "R-SKIP-01"
+        ],
+        "result_schema_version": "1.0",
+        "rule_pass_completed": true,
+        "cache_hit": false
+      }
+    },
+    {
+      "sentence_id": "02-i-want-to-be-equal-with-parmatma-s0016",
+      "group_id": "02-i-want-to-be-equal-with-parmatma-g0003",
+      "source_text": "You did not stay selfish in what you achieved.",
+      "llm_input_text": "You did not stay selfish in what you achieved.",
+      "skipped_spans": [],
+      "translation_status": "translated",
+      "candidate_gloss": "YOU NOT STAY SELFISH IN WHAT YOU ACHIEVE",
+      "candidate_tokens": [
+        "YOU",
+        "NOT",
+        "STAY",
+        "SELFISH",
+        "IN",
+        "WHAT",
+        "YOU",
+        "ACHIEVE"
+      ],
+      "final_gloss": "YOU NOT STAY SELFISH IN WHAT YOU ACHIEVE",
+      "final_tokens": [
+        "YOU",
+        "NOT",
+        "STAY",
+        "SELFISH",
+        "IN",
+        "WHAT",
+        "YOU",
+        "ACHIEVE"
+      ],
+      "applied_rules": [],
+      "validation": {
+        "status": "pass",
+        "warnings": []
+      },
+      "review_status": "unreviewed",
+      "uncertainty_notes": "",
+      "uncertain_parts": [],
+      "needs_human_review": false,
+      "llm_status": "ok",
+      "llm": {
+        "status": "ok",
+        "needs_human_review": false,
+        "uncertain": false,
+        "uncertain_parts": [],
+        "notes": "",
+        "echoed_source_text": "You did not stay selfish in what you achieved."
+      },
+      "error": null,
+      "speaker_id": "Speaker 1",
+      "start_timestamp": null,
+      "end_timestamp": null,
+      "turn_index": 0,
+      "source_metadata": {
+        "source_id": "02-i-want-to-be-equal-with-parmatma",
+        "parent_chunk_id": "02-i-want-to-be-equal-with-parmatma-0012",
+        "split_method": null,
+        "piece": [
+          1,
+          1
+        ],
+        "source_start_offset": 1198,
+        "source_end_offset": 1244,
+        "cue_indices": null,
+        "cue_ids": null,
+        "incomplete": false,
+        "depends_on_previous": false,
+        "dependency_reasons": []
+      },
+      "metadata": {
+        "model": "groq/openai/gpt-oss-120b",
+        "prompt_version": "8.0",
+        "llm_config": {
+          "provider": "groq",
+          "model": "openai/gpt-oss-120b",
+          "reasoning_effort": "low",
+          "temperature": 0.0,
+          "max_output_tokens": 8192,
+          "prompt_version": "8.0",
+          "thinking_budget": null,
+          "empty_gloss_retry": true,
+          "references_file": null,
+          "reference_entries_loaded": 0
+        },
+        "rule_set_version": "0.1.0",
+        "active_rules": [
+          "R-FMT-01",
+          "R-ART-01",
+          "R-SKIP-01"
+        ],
+        "result_schema_version": "1.0",
+        "rule_pass_completed": true,
+        "cache_hit": false
+      }
+    },
+    {
+      "sentence_id": "02-i-want-to-be-equal-with-parmatma-s0017",
+      "group_id": "02-i-want-to-be-equal-with-parmatma-g0003",
+      "source_text": "But you utilized it for the well-being of the entire world.",
+      "llm_input_text": "But you utilized it for the well-being of the entire world.",
+      "skipped_spans": [],
+      "translation_status": "translated",
+      "candidate_gloss": "BUT YOU UTILIZE IT FOR WELL_BEING OF ENTIRE WORLD",
+      "candidate_tokens": [
+        "BUT",
+        "YOU",
+        "UTILIZE",
+        "IT",
+        "FOR",
+        "WELL_BEING",
+        "OF",
+        "ENTIRE",
+        "WORLD"
+      ],
+      "final_gloss": "BUT YOU UTILIZE IT FOR WELL_BEING OF ENTIRE WORLD",
+      "final_tokens": [
+        "BUT",
+        "YOU",
+        "UTILIZE",
+        "IT",
+        "FOR",
+        "WELL_BEING",
+        "OF",
+        "ENTIRE",
+        "WORLD"
+      ],
+      "applied_rules": [],
+      "validation": {
+        "status": "pass",
+        "warnings": []
+      },
+      "review_status": "unreviewed",
+      "uncertainty_notes": "",
+      "uncertain_parts": [],
+      "needs_human_review": false,
+      "llm_status": "ok",
+      "llm": {
+        "status": "ok",
+        "needs_human_review": false,
+        "uncertain": false,
+        "uncertain_parts": [],
+        "notes": "",
+        "echoed_source_text": "But you utilized it for the well-being of the entire world."
+      },
+      "error": null,
+      "speaker_id": "Speaker 1",
+      "start_timestamp": null,
+      "end_timestamp": null,
+      "turn_index": 0,
+      "source_metadata": {
+        "source_id": "02-i-want-to-be-equal-with-parmatma",
+        "parent_chunk_id": "02-i-want-to-be-equal-with-parmatma-0013",
+        "split_method": null,
+        "piece": [
+          1,
+          1
+        ],
+        "source_start_offset": 1245,
+        "source_end_offset": 1304,
+        "cue_indices": null,
+        "cue_ids": null,
+        "incomplete": false,
+        "depends_on_previous": true,
+        "dependency_reasons": [
+          "continuation_word"
+        ]
+      },
+      "metadata": {
+        "model": "groq/openai/gpt-oss-120b",
+        "prompt_version": "8.0",
+        "llm_config": {
+          "provider": "groq",
+          "model": "openai/gpt-oss-120b",
+          "reasoning_effort": "low",
+          "temperature": 0.0,
+          "max_output_tokens": 8192,
+          "prompt_version": "8.0",
+          "thinking_budget": null,
+          "empty_gloss_retry": true,
+          "references_file": null,
+          "reference_entries_loaded": 0
+        },
+        "rule_set_version": "0.1.0",
+        "active_rules": [
+          "R-FMT-01",
+          "R-ART-01",
+          "R-SKIP-01"
+        ],
+        "result_schema_version": "1.0",
+        "rule_pass_completed": true,
+        "cache_hit": false
+      }
+    },
+    {
+      "sentence_id": "02-i-want-to-be-equal-with-parmatma-s0018",
+      "group_id": "02-i-want-to-be-equal-with-parmatma-g0003",
+      "source_text": "You gave knowledge to the entire world.",
+      "llm_input_text": "You gave knowledge to the entire world.",
+      "skipped_spans": [],
+      "translation_status": "translated",
+      "candidate_gloss": "YOU GIVE KNOWLEDGE TO ENTIRE WORLD",
+      "candidate_tokens": [
+        "YOU",
+        "GIVE",
+        "KNOWLEDGE",
+        "TO",
+        "ENTIRE",
+        "WORLD"
+      ],
+      "final_gloss": "YOU GIVE KNOWLEDGE TO ENTIRE WORLD",
+      "final_tokens": [
+        "YOU",
+        "GIVE",
+        "KNOWLEDGE",
+        "TO",
+        "ENTIRE",
+        "WORLD"
+      ],
+      "applied_rules": [],
+      "validation": {
+        "status": "pass",
+        "warnings": []
+      },
+      "review_status": "unreviewed",
+      "uncertainty_notes": "",
+      "uncertain_parts": [],
+      "needs_human_review": false,
+      "llm_status": "ok",
+      "llm": {
+        "status": "ok",
+        "needs_human_review": false,
+        "uncertain": false,
+        "uncertain_parts": [],
+        "notes": "",
+        "echoed_source_text": "You gave knowledge to the entire world."
+      },
+      "error": null,
+      "speaker_id": "Speaker 1",
+      "start_timestamp": null,
+      "end_timestamp": null,
+      "turn_index": 0,
+      "source_metadata": {
+        "source_id": "02-i-want-to-be-equal-with-parmatma",
+        "parent_chunk_id": "02-i-want-to-be-equal-with-parmatma-0014",
+        "split_method": null,
+        "piece": [
+          1,
+          1
+        ],
+        "source_start_offset": 1305,
+        "source_end_offset": 1344,
+        "cue_indices": null,
+        "cue_ids": null,
+        "incomplete": false,
+        "depends_on_previous": false,
+        "dependency_reasons": []
+      },
+      "metadata": {
+        "model": "groq/openai/gpt-oss-120b",
+        "prompt_version": "8.0",
+        "llm_config": {
+          "provider": "groq",
+          "model": "openai/gpt-oss-120b",
+          "reasoning_effort": "low",
+          "temperature": 0.0,
+          "max_output_tokens": 8192,
+          "prompt_version": "8.0",
+          "thinking_budget": null,
+          "empty_gloss_retry": true,
+          "references_file": null,
+          "reference_entries_loaded": 0
+        },
+        "rule_set_version": "0.1.0",
+        "active_rules": [
+          "R-FMT-01",
+          "R-ART-01",
+          "R-SKIP-01"
+        ],
+        "result_schema_version": "1.0",
+        "rule_pass_completed": true,
+        "cache_hit": false
+      }
+    },
+    {
+      "sentence_id": "02-i-want-to-be-equal-with-parmatma-s0019",
+      "group_id": "02-i-want-to-be-equal-with-parmatma-g0003",
+      "source_text": "Prabhu, we express our deep gratitude to you for the complete knowledge that you gave us in the form of Agamas.",
+      "llm_input_text": "Prabhu, we express our deep gratitude to you for the complete knowledge that you gave us in the form of Agamas.",
+      "skipped_spans": [],
+      "translation_status": "translated",
+      "candidate_gloss": "PRABHU WE EXPRESS DEEP GRATITUDE TO YOU FOR COMPLETE KNOWLEDGE THAT YOU GIVE US IN FORM OF AGAMAS",
+      "candidate_tokens": [
+        "PRABHU",
+        "WE",
+        "EXPRESS",
+        "DEEP",
+        "GRATITUDE",
+        "TO",
+        "YOU",
+        "FOR",
+        "COMPLETE",
+        "KNOWLEDGE",
+        "THAT",
+        "YOU",
+        "GIVE",
+        "US",
+        "IN",
+        "FORM",
+        "OF",
+        "AGAMAS"
+      ],
+      "final_gloss": "PRABHU WE EXPRESS DEEP GRATITUDE TO YOU FOR COMPLETE KNOWLEDGE THAT YOU GIVE US IN FORM OF AGAMAS",
+      "final_tokens": [
+        "PRABHU",
+        "WE",
+        "EXPRESS",
+        "DEEP",
+        "GRATITUDE",
+        "TO",
+        "YOU",
+        "FOR",
+        "COMPLETE",
+        "KNOWLEDGE",
+        "THAT",
+        "YOU",
+        "GIVE",
+        "US",
+        "IN",
+        "FORM",
+        "OF",
+        "AGAMAS"
+      ],
+      "applied_rules": [],
+      "validation": {
+        "status": "pass",
+        "warnings": []
+      },
+      "review_status": "unreviewed",
+      "uncertainty_notes": "",
+      "uncertain_parts": [],
+      "needs_human_review": false,
+      "llm_status": "ok",
+      "llm": {
+        "status": "ok",
+        "needs_human_review": false,
+        "uncertain": false,
+        "uncertain_parts": [],
+        "notes": "",
+        "echoed_source_text": "Prabhu, we express our deep gratitude to you for the complete knowledge that you gave us in the form of Agamas."
+      },
+      "error": null,
+      "speaker_id": "Speaker 1",
+      "start_timestamp": null,
+      "end_timestamp": null,
+      "turn_index": 0,
+      "source_metadata": {
+        "source_id": "02-i-want-to-be-equal-with-parmatma",
+        "parent_chunk_id": "02-i-want-to-be-equal-with-parmatma-0015",
+        "split_method": null,
+        "piece": [
+          1,
+          1
+        ],
+        "source_start_offset": 1345,
+        "source_end_offset": 1456,
+        "cue_indices": null,
+        "cue_ids": null,
+        "incomplete": false,
+        "depends_on_previous": false,
+        "dependency_reasons": []
+      },
+      "metadata": {
+        "model": "groq/openai/gpt-oss-120b",
+        "prompt_version": "8.0",
+        "llm_config": {
+          "provider": "groq",
+          "model": "openai/gpt-oss-120b",
+          "reasoning_effort": "low",
+          "temperature": 0.0,
+          "max_output_tokens": 8192,
+          "prompt_version": "8.0",
+          "thinking_budget": null,
+          "empty_gloss_retry": true,
+          "references_file": null,
+          "reference_entries_loaded": 0
+        },
+        "rule_set_version": "0.1.0",
+        "active_rules": [
+          "R-FMT-01",
+          "R-ART-01",
+          "R-SKIP-01"
+        ],
+        "result_schema_version": "1.0",
+        "rule_pass_completed": true,
+        "cache_hit": false
+      }
+    },
+    {
+      "sentence_id": "02-i-want-to-be-equal-with-parmatma-s0020",
+      "group_id": "02-i-want-to-be-equal-with-parmatma-g0003",
+      "source_text": "If you had not given us that knowledge, even we would be committing so many sins today.",
+      "llm_input_text": "If you had not given us that knowledge, even we would be committing so many sins today.",
+      "skipped_spans": [],
+      "translation_status": "translated",
+      "candidate_gloss": "IF YOU NOT GIVE US THAT KNOWLEDGE EVEN WE WOULD COMMIT MANY SINS TODAY",
+      "candidate_tokens": [
+        "IF",
+        "YOU",
+        "NOT",
+        "GIVE",
+        "US",
+        "THAT",
+        "KNOWLEDGE",
+        "EVEN",
+        "WE",
+        "WOULD",
+        "COMMIT",
+        "MANY",
+        "SINS",
+        "TODAY"
+      ],
+      "final_gloss": "IF YOU NOT GIVE US THAT KNOWLEDGE EVEN WE WOULD COMMIT MANY SINS TODAY",
+      "final_tokens": [
+        "IF",
+        "YOU",
+        "NOT",
+        "GIVE",
+        "US",
+        "THAT",
+        "KNOWLEDGE",
+        "EVEN",
+        "WE",
+        "WOULD",
+        "COMMIT",
+        "MANY",
+        "SINS",
+        "TODAY"
+      ],
+      "applied_rules": [],
+      "validation": {
+        "status": "pass",
+        "warnings": []
+      },
+      "review_status": "unreviewed",
+      "uncertainty_notes": "",
+      "uncertain_parts": [],
+      "needs_human_review": false,
+      "llm_status": "ok",
+      "llm": {
+        "status": "ok",
+        "needs_human_review": false,
+        "uncertain": false,
+        "uncertain_parts": [],
+        "notes": "",
+        "echoed_source_text": "If you had not given us that knowledge, even we would be committing so many sins today."
+      },
+      "error": null,
+      "speaker_id": "Speaker 1",
+      "start_timestamp": null,
+      "end_timestamp": null,
+      "turn_index": 0,
+      "source_metadata": {
+        "source_id": "02-i-want-to-be-equal-with-parmatma",
+        "parent_chunk_id": "02-i-want-to-be-equal-with-parmatma-0016",
+        "split_method": null,
+        "piece": [
+          1,
+          1
+        ],
+        "source_start_offset": 1457,
+        "source_end_offset": 1544,
+        "cue_indices": null,
+        "cue_ids": null,
+        "incomplete": false,
+        "depends_on_previous": false,
+        "dependency_reasons": []
+      },
+      "metadata": {
+        "model": "groq/openai/gpt-oss-120b",
+        "prompt_version": "8.0",
+        "llm_config": {
+          "provider": "groq",
+          "model": "openai/gpt-oss-120b",
+          "reasoning_effort": "low",
+          "temperature": 0.0,
+          "max_output_tokens": 8192,
+          "prompt_version": "8.0",
+          "thinking_budget": null,
+          "empty_gloss_retry": true,
+          "references_file": null,
+          "reference_entries_loaded": 0
+        },
+        "rule_set_version": "0.1.0",
+        "active_rules": [
+          "R-FMT-01",
+          "R-ART-01",
+          "R-SKIP-01"
+        ],
+        "result_schema_version": "1.0",
+        "rule_pass_completed": true,
+        "cache_hit": false
+      }
+    },
+    {
+      "sentence_id": "02-i-want-to-be-equal-with-parmatma-s0021",
+      "group_id": "02-i-want-to-be-equal-with-parmatma-g0003",
+      "source_text": "We would be giving pain to so many living beings.",
+      "llm_input_text": "We would be giving pain to so many living beings.",
+      "skipped_spans": [],
+      "translation_status": "translated",
+      "candidate_gloss": "WE WOULD GIVE PAIN TO MANY LIVING BEING",
+      "candidate_tokens": [
+        "WE",
+        "WOULD",
+        "GIVE",
+        "PAIN",
+        "TO",
+        "MANY",
+        "LIVING",
+        "BEING"
+      ],
+      "final_gloss": "WE WOULD GIVE PAIN TO MANY LIVING BEING",
+      "final_tokens": [
+        "WE",
+        "WOULD",
+        "GIVE",
+        "PAIN",
+        "TO",
+        "MANY",
+        "LIVING",
+        "BEING"
+      ],
+      "applied_rules": [],
+      "validation": {
+        "status": "pass",
+        "warnings": []
+      },
+      "review_status": "unreviewed",
+      "uncertainty_notes": "",
+      "uncertain_parts": [],
+      "needs_human_review": false,
+      "llm_status": "ok",
+      "llm": {
+        "status": "ok",
+        "needs_human_review": false,
+        "uncertain": false,
+        "uncertain_parts": [],
+        "notes": "",
+        "echoed_source_text": "We would be giving pain to so many living beings."
+      },
+      "error": null,
+      "speaker_id": "Speaker 1",
+      "start_timestamp": null,
+      "end_timestamp": null,
+      "turn_index": 0,
+      "source_metadata": {
+        "source_id": "02-i-want-to-be-equal-with-parmatma",
+        "parent_chunk_id": "02-i-want-to-be-equal-with-parmatma-0017",
+        "split_method": null,
+        "piece": [
+          1,
+          1
+        ],
+        "source_start_offset": 1545,
+        "source_end_offset": 1594,
+        "cue_indices": null,
+        "cue_ids": null,
+        "incomplete": false,
+        "depends_on_previous": false,
+        "dependency_reasons": []
+      },
+      "metadata": {
+        "model": "groq/openai/gpt-oss-120b",
+        "prompt_version": "8.0",
+        "llm_config": {
+          "provider": "groq",
+          "model": "openai/gpt-oss-120b",
+          "reasoning_effort": "low",
+          "temperature": 0.0,
+          "max_output_tokens": 8192,
+          "prompt_version": "8.0",
+          "thinking_budget": null,
+          "empty_gloss_retry": true,
+          "references_file": null,
+          "reference_entries_loaded": 0
+        },
+        "rule_set_version": "0.1.0",
+        "active_rules": [
+          "R-FMT-01",
+          "R-ART-01",
+          "R-SKIP-01"
+        ],
+        "result_schema_version": "1.0",
+        "rule_pass_completed": true,
+        "cache_hit": false
+      }
+    },
+    {
+      "sentence_id": "02-i-want-to-be-equal-with-parmatma-s0022",
+      "group_id": "02-i-want-to-be-equal-with-parmatma-g0004",
+      "source_text": "We would also be killing so many animals and birds for our test.",
+      "llm_input_text": "We would also be killing so many animals and birds for our test.",
+      "skipped_spans": [],
+      "translation_status": "translated",
+      "candidate_gloss": "WE ALSO WOULD KILL MANY ANIMAL BIRD FOR OUR TEST",
+      "candidate_tokens": [
+        "WE",
+        "ALSO",
+        "WOULD",
+        "KILL",
+        "MANY",
+        "ANIMAL",
+        "BIRD",
+        "FOR",
+        "OUR",
+        "TEST"
+      ],
+      "final_gloss": "WE ALSO WOULD KILL MANY ANIMAL BIRD FOR OUR TEST",
+      "final_tokens": [
+        "WE",
+        "ALSO",
+        "WOULD",
+        "KILL",
+        "MANY",
+        "ANIMAL",
+        "BIRD",
+        "FOR",
+        "OUR",
+        "TEST"
+      ],
+      "applied_rules": [],
+      "validation": {
+        "status": "pass",
+        "warnings": []
+      },
+      "review_status": "unreviewed",
+      "uncertainty_notes": "",
+      "uncertain_parts": [],
+      "needs_human_review": false,
+      "llm_status": "ok",
+      "llm": {
+        "status": "ok",
+        "needs_human_review": false,
+        "uncertain": false,
+        "uncertain_parts": [],
+        "notes": "",
+        "echoed_source_text": "We would also be killing so many animals and birds for our test."
+      },
+      "error": null,
+      "speaker_id": "Speaker 1",
+      "start_timestamp": null,
+      "end_timestamp": null,
+      "turn_index": 0,
+      "source_metadata": {
+        "source_id": "02-i-want-to-be-equal-with-parmatma",
+        "parent_chunk_id": "02-i-want-to-be-equal-with-parmatma-0018",
+        "split_method": null,
+        "piece": [
+          1,
+          1
+        ],
+        "source_start_offset": 1595,
+        "source_end_offset": 1659,
+        "cue_indices": null,
+        "cue_ids": null,
+        "incomplete": false,
+        "depends_on_previous": false,
+        "dependency_reasons": []
+      },
+      "metadata": {
+        "model": "groq/openai/gpt-oss-120b",
+        "prompt_version": "8.0",
+        "llm_config": {
+          "provider": "groq",
+          "model": "openai/gpt-oss-120b",
+          "reasoning_effort": "low",
+          "temperature": 0.0,
+          "max_output_tokens": 8192,
+          "prompt_version": "8.0",
+          "thinking_budget": null,
+          "empty_gloss_retry": true,
+          "references_file": null,
+          "reference_entries_loaded": 0
+        },
+        "rule_set_version": "0.1.0",
+        "active_rules": [
+          "R-FMT-01",
+          "R-ART-01",
+          "R-SKIP-01"
+        ],
+        "result_schema_version": "1.0",
+        "rule_pass_completed": true,
+        "cache_hit": false
+      }
+    },
+    {
+      "sentence_id": "02-i-want-to-be-equal-with-parmatma-s0023",
+      "group_id": "02-i-want-to-be-equal-with-parmatma-g0004",
+      "source_text": "And we would be enjoying such harmful and cruel acts.",
+      "llm_input_text": "And we would be enjoying such harmful and cruel acts.",
+      "skipped_spans": [],
+      "translation_status": "translated",
+      "candidate_gloss": "AND WE WOULD ENJOY SUCH HARMFUL CRUEL ACT",
+      "candidate_tokens": [
+        "AND",
+        "WE",
+        "WOULD",
+        "ENJOY",
+        "SUCH",
+        "HARMFUL",
+        "CRUEL",
+        "ACT"
+      ],
+      "final_gloss": "AND WE WOULD ENJOY SUCH HARMFUL CRUEL ACT",
+      "final_tokens": [
+        "AND",
+        "WE",
+        "WOULD",
+        "ENJOY",
+        "SUCH",
+        "HARMFUL",
+        "CRUEL",
+        "ACT"
+      ],
+      "applied_rules": [],
+      "validation": {
+        "status": "pass",
+        "warnings": []
+      },
+      "review_status": "unreviewed",
+      "uncertainty_notes": "",
+      "uncertain_parts": [],
+      "needs_human_review": false,
+      "llm_status": "ok",
+      "llm": {
+        "status": "ok",
+        "needs_human_review": false,
+        "uncertain": false,
+        "uncertain_parts": [],
+        "notes": "",
+        "echoed_source_text": "And we would be enjoying such harmful and cruel acts."
+      },
+      "error": null,
+      "speaker_id": "Speaker 1",
+      "start_timestamp": null,
+      "end_timestamp": null,
+      "turn_index": 0,
+      "source_metadata": {
+        "source_id": "02-i-want-to-be-equal-with-parmatma",
+        "parent_chunk_id": "02-i-want-to-be-equal-with-parmatma-0019",
+        "split_method": null,
+        "piece": [
+          1,
+          1
+        ],
+        "source_start_offset": 1660,
+        "source_end_offset": 1713,
+        "cue_indices": null,
+        "cue_ids": null,
+        "incomplete": false,
+        "depends_on_previous": true,
+        "dependency_reasons": [
+          "continuation_word"
+        ]
+      },
+      "metadata": {
+        "model": "groq/openai/gpt-oss-120b",
+        "prompt_version": "8.0",
+        "llm_config": {
+          "provider": "groq",
+          "model": "openai/gpt-oss-120b",
+          "reasoning_effort": "low",
+          "temperature": 0.0,
+          "max_output_tokens": 8192,
+          "prompt_version": "8.0",
+          "thinking_budget": null,
+          "empty_gloss_retry": true,
+          "references_file": null,
+          "reference_entries_loaded": 0
+        },
+        "rule_set_version": "0.1.0",
+        "active_rules": [
+          "R-FMT-01",
+          "R-ART-01",
+          "R-SKIP-01"
+        ],
+        "result_schema_version": "1.0",
+        "rule_pass_completed": true,
+        "cache_hit": false
+      }
+    },
+    {
+      "sentence_id": "02-i-want-to-be-equal-with-parmatma-s0024",
+      "group_id": "02-i-want-to-be-equal-with-parmatma-g0004",
+      "source_text": "Prabhu, it is you who has saved us from so many sins.",
+      "llm_input_text": "Prabhu, it is you who has saved us from so many sins.",
+      "skipped_spans": [],
+      "translation_status": "translated",
+      "candidate_gloss": "FS:PRABHU IT YOU WHO SAVE US FROM MANY SIN",
+      "candidate_tokens": [
+        "FS:PRABHU",
+        "IT",
+        "YOU",
+        "WHO",
+        "SAVE",
+        "US",
+        "FROM",
+        "MANY",
+        "SIN"
+      ],
+      "final_gloss": "FS:PRABHU IT YOU WHO SAVE US FROM MANY SIN",
+      "final_tokens": [
+        "FS:PRABHU",
+        "IT",
+        "YOU",
+        "WHO",
+        "SAVE",
+        "US",
+        "FROM",
+        "MANY",
+        "SIN"
+      ],
+      "applied_rules": [],
+      "validation": {
+        "status": "pass",
+        "warnings": []
+      },
+      "review_status": "unreviewed",
+      "uncertainty_notes": "",
+      "uncertain_parts": [],
+      "needs_human_review": false,
+      "llm_status": "ok",
+      "llm": {
+        "status": "ok",
+        "needs_human_review": false,
+        "uncertain": false,
+        "uncertain_parts": [],
+        "notes": "",
+        "echoed_source_text": "Prabhu, it is you who has saved us from so many sins."
+      },
+      "error": null,
+      "speaker_id": "Speaker 1",
+      "start_timestamp": null,
+      "end_timestamp": null,
+      "turn_index": 0,
+      "source_metadata": {
+        "source_id": "02-i-want-to-be-equal-with-parmatma",
+        "parent_chunk_id": "02-i-want-to-be-equal-with-parmatma-0020",
+        "split_method": null,
+        "piece": [
+          1,
+          1
+        ],
+        "source_start_offset": 1714,
+        "source_end_offset": 1767,
+        "cue_indices": null,
+        "cue_ids": null,
+        "incomplete": false,
+        "depends_on_previous": false,
+        "dependency_reasons": []
+      },
+      "metadata": {
+        "model": "groq/openai/gpt-oss-120b",
+        "prompt_version": "8.0",
+        "llm_config": {
+          "provider": "groq",
+          "model": "openai/gpt-oss-120b",
+          "reasoning_effort": "low",
+          "temperature": 0.0,
+          "max_output_tokens": 8192,
+          "prompt_version": "8.0",
+          "thinking_budget": null,
+          "empty_gloss_retry": true,
+          "references_file": null,
+          "reference_entries_loaded": 0
+        },
+        "rule_set_version": "0.1.0",
+        "active_rules": [
+          "R-FMT-01",
+          "R-ART-01",
+          "R-SKIP-01"
+        ],
+        "result_schema_version": "1.0",
+        "rule_pass_completed": true,
+        "cache_hit": false
+      }
+    },
+    {
+      "sentence_id": "02-i-want-to-be-equal-with-parmatma-s0025",
+      "group_id": "02-i-want-to-be-equal-with-parmatma-g0004",
+      "source_text": "It is your Maha Upkar.",
+      "llm_input_text": "It is your Maha Upkar.",
+      "skipped_spans": [],
+      "translation_status": "translated",
+      "candidate_gloss": "IT YOUR FS:MAHA FS:UPKAR",
+      "candidate_tokens": [
+        "IT",
+        "YOUR",
+        "FS:MAHA",
+        "FS:UPKAR"
+      ],
+      "final_gloss": "IT YOUR FS:MAHA FS:UPKAR",
+      "final_tokens": [
+        "IT",
+        "YOUR",
+        "FS:MAHA",
+        "FS:UPKAR"
+      ],
+      "applied_rules": [],
+      "validation": {
+        "status": "pass",
+        "warnings": []
+      },
+      "review_status": "unreviewed",
+      "uncertainty_notes": "",
+      "uncertain_parts": [],
+      "needs_human_review": false,
+      "llm_status": "ok",
+      "llm": {
+        "status": "ok",
+        "needs_human_review": false,
+        "uncertain": false,
+        "uncertain_parts": [],
+        "notes": "",
+        "echoed_source_text": "It is your Maha Upkar."
+      },
+      "error": null,
+      "speaker_id": "Speaker 1",
+      "start_timestamp": null,
+      "end_timestamp": null,
+      "turn_index": 0,
+      "source_metadata": {
+        "source_id": "02-i-want-to-be-equal-with-parmatma",
+        "parent_chunk_id": "02-i-want-to-be-equal-with-parmatma-0021",
+        "split_method": null,
+        "piece": [
+          1,
+          1
+        ],
+        "source_start_offset": 1768,
+        "source_end_offset": 1790,
+        "cue_indices": null,
+        "cue_ids": null,
+        "incomplete": false,
+        "depends_on_previous": true,
+        "dependency_reasons": [
+          "pronoun_start"
+        ]
+      },
+      "metadata": {
+        "model": "groq/openai/gpt-oss-120b",
+        "prompt_version": "8.0",
+        "llm_config": {
+          "provider": "groq",
+          "model": "openai/gpt-oss-120b",
+          "reasoning_effort": "low",
+          "temperature": 0.0,
+          "max_output_tokens": 8192,
+          "prompt_version": "8.0",
+          "thinking_budget": null,
+          "empty_gloss_retry": true,
+          "references_file": null,
+          "reference_entries_loaded": 0
+        },
+        "rule_set_version": "0.1.0",
+        "active_rules": [
+          "R-FMT-01",
+          "R-ART-01",
+          "R-SKIP-01"
+        ],
+        "result_schema_version": "1.0",
+        "rule_pass_completed": true,
+        "cache_hit": false
+      }
+    },
+    {
+      "sentence_id": "02-i-want-to-be-equal-with-parmatma-s0026",
+      "group_id": "02-i-want-to-be-equal-with-parmatma-g0004",
+      "source_text": "You not only taught us the quality of Ahimsa, but you nurtured that quality in our soul, in our deep memories.",
+      "llm_input_text": "You not only taught us the quality of Ahimsa, but you nurtured that quality in our soul, in our deep memories.",
+      "skipped_spans": [],
+      "translation_status": "translated",
+      "candidate_gloss": "YOU NOT ONLY TEACH US QUALITY OF FS:AHIMSA BUT YOU NURTURE THAT QUALITY IN OUR SOUL IN OUR DEEP MEMORY",
+      "candidate_tokens": [
+        "YOU",
+        "NOT",
+        "ONLY",
+        "TEACH",
+        "US",
+        "QUALITY",
+        "OF",
+        "FS:AHIMSA",
+        "BUT",
+        "YOU",
+        "NURTURE",
+        "THAT",
+        "QUALITY",
+        "IN",
+        "OUR",
+        "SOUL",
+        "IN",
+        "OUR",
+        "DEEP",
+        "MEMORY"
+      ],
+      "final_gloss": "YOU NOT ONLY TEACH US QUALITY OF FS:AHIMSA BUT YOU NURTURE THAT QUALITY IN OUR SOUL IN OUR DEEP MEMORY",
+      "final_tokens": [
+        "YOU",
+        "NOT",
+        "ONLY",
+        "TEACH",
+        "US",
+        "QUALITY",
+        "OF",
+        "FS:AHIMSA",
+        "BUT",
+        "YOU",
+        "NURTURE",
+        "THAT",
+        "QUALITY",
+        "IN",
+        "OUR",
+        "SOUL",
+        "IN",
+        "OUR",
+        "DEEP",
+        "MEMORY"
+      ],
+      "applied_rules": [],
+      "validation": {
+        "status": "pass",
+        "warnings": []
+      },
+      "review_status": "unreviewed",
+      "uncertainty_notes": "",
+      "uncertain_parts": [],
+      "needs_human_review": false,
+      "llm_status": "ok",
+      "llm": {
+        "status": "ok",
+        "needs_human_review": false,
+        "uncertain": false,
+        "uncertain_parts": [],
+        "notes": "",
+        "echoed_source_text": "You not only taught us the quality of Ahimsa, but you nurtured that quality in our soul, in our deep memories."
+      },
+      "error": null,
+      "speaker_id": "Speaker 1",
+      "start_timestamp": null,
+      "end_timestamp": null,
+      "turn_index": 0,
+      "source_metadata": {
+        "source_id": "02-i-want-to-be-equal-with-parmatma",
+        "parent_chunk_id": "02-i-want-to-be-equal-with-parmatma-0022",
+        "split_method": null,
+        "piece": [
+          1,
+          1
+        ],
+        "source_start_offset": 1791,
+        "source_end_offset": 1901,
+        "cue_indices": null,
+        "cue_ids": null,
+        "incomplete": false,
+        "depends_on_previous": false,
+        "dependency_reasons": []
+      },
+      "metadata": {
+        "model": "groq/openai/gpt-oss-120b",
+        "prompt_version": "8.0",
+        "llm_config": {
+          "provider": "groq",
+          "model": "openai/gpt-oss-120b",
+          "reasoning_effort": "low",
+          "temperature": 0.0,
+          "max_output_tokens": 8192,
+          "prompt_version": "8.0",
+          "thinking_budget": null,
+          "empty_gloss_retry": true,
+          "references_file": null,
+          "reference_entries_loaded": 0
+        },
+        "rule_set_version": "0.1.0",
+        "active_rules": [
+          "R-FMT-01",
+          "R-ART-01",
+          "R-SKIP-01"
+        ],
+        "result_schema_version": "1.0",
+        "rule_pass_completed": true,
+        "cache_hit": false
+      }
+    },
+    {
+      "sentence_id": "02-i-want-to-be-equal-with-parmatma-s0027",
+      "group_id": "02-i-want-to-be-equal-with-parmatma-g0004",
+      "source_text": "And so, we have been saved from countless wrong activities today.",
+      "llm_input_text": "And so, we have been saved from countless wrong activities today.",
+      "skipped_spans": [],
+      "translation_status": "translated",
+      "candidate_gloss": "AND SO WE HAVE BEEN SAVE FROM COUNTLESS WRONG ACTIVITY TODAY",
+      "candidate_tokens": [
+        "AND",
+        "SO",
+        "WE",
+        "HAVE",
+        "BEEN",
+        "SAVE",
+        "FROM",
+        "COUNTLESS",
+        "WRONG",
+        "ACTIVITY",
+        "TODAY"
+      ],
+      "final_gloss": "AND SO WE HAVE BEEN SAVE FROM COUNTLESS WRONG ACTIVITY TODAY",
+      "final_tokens": [
+        "AND",
+        "SO",
+        "WE",
+        "HAVE",
+        "BEEN",
+        "SAVE",
+        "FROM",
+        "COUNTLESS",
+        "WRONG",
+        "ACTIVITY",
+        "TODAY"
+      ],
+      "applied_rules": [],
+      "validation": {
+        "status": "pass",
+        "warnings": []
+      },
+      "review_status": "unreviewed",
+      "uncertainty_notes": "",
+      "uncertain_parts": [],
+      "needs_human_review": false,
+      "llm_status": "ok",
+      "llm": {
+        "status": "ok",
+        "needs_human_review": false,
+        "uncertain": false,
+        "uncertain_parts": [],
+        "notes": "",
+        "echoed_source_text": "And so, we have been saved from countless wrong activities today."
+      },
+      "error": null,
+      "speaker_id": "Speaker 1",
+      "start_timestamp": null,
+      "end_timestamp": null,
+      "turn_index": 0,
+      "source_metadata": {
+        "source_id": "02-i-want-to-be-equal-with-parmatma",
+        "parent_chunk_id": "02-i-want-to-be-equal-with-parmatma-0023",
+        "split_method": null,
+        "piece": [
+          1,
+          1
+        ],
+        "source_start_offset": 1902,
+        "source_end_offset": 1967,
+        "cue_indices": null,
+        "cue_ids": null,
+        "incomplete": false,
+        "depends_on_previous": true,
+        "dependency_reasons": [
+          "continuation_word"
+        ]
+      },
+      "metadata": {
+        "model": "groq/openai/gpt-oss-120b",
+        "prompt_version": "8.0",
+        "llm_config": {
+          "provider": "groq",
+          "model": "openai/gpt-oss-120b",
+          "reasoning_effort": "low",
+          "temperature": 0.0,
+          "max_output_tokens": 8192,
+          "prompt_version": "8.0",
+          "thinking_budget": null,
+          "empty_gloss_retry": true,
+          "references_file": null,
+          "reference_entries_loaded": 0
+        },
+        "rule_set_version": "0.1.0",
+        "active_rules": [
+          "R-FMT-01",
+          "R-ART-01",
+          "R-SKIP-01"
+        ],
+        "result_schema_version": "1.0",
+        "rule_pass_completed": true,
+        "cache_hit": false
+      }
+    },
+    {
+      "sentence_id": "02-i-want-to-be-equal-with-parmatma-s0028",
+      "group_id": "02-i-want-to-be-equal-with-parmatma-g0004",
+      "source_text": "Prabhu We are very fortunate to have you.",
+      "llm_input_text": "Prabhu We are very fortunate to have you.",
+      "skipped_spans": [],
+      "translation_status": "translated",
+      "candidate_gloss": "FS:PRABHU WE VERY FORTUNATE HAVE YOU",
+      "candidate_tokens": [
+        "FS:PRABHU",
+        "WE",
+        "VERY",
+        "FORTUNATE",
+        "HAVE",
+        "YOU"
+      ],
+      "final_gloss": "FS:PRABHU WE VERY FORTUNATE HAVE YOU",
+      "final_tokens": [
+        "FS:PRABHU",
+        "WE",
+        "VERY",
+        "FORTUNATE",
+        "HAVE",
+        "YOU"
+      ],
+      "applied_rules": [],
+      "validation": {
+        "status": "pass",
+        "warnings": []
+      },
+      "review_status": "unreviewed",
+      "uncertainty_notes": "",
+      "uncertain_parts": [],
+      "needs_human_review": false,
+      "llm_status": "ok",
+      "llm": {
+        "status": "ok",
+        "needs_human_review": false,
+        "uncertain": false,
+        "uncertain_parts": [],
+        "notes": "",
+        "echoed_source_text": "Prabhu We are very fortunate to have you."
+      },
+      "error": null,
+      "speaker_id": "Speaker 1",
+      "start_timestamp": null,
+      "end_timestamp": null,
+      "turn_index": 0,
+      "source_metadata": {
+        "source_id": "02-i-want-to-be-equal-with-parmatma",
+        "parent_chunk_id": "02-i-want-to-be-equal-with-parmatma-0024",
+        "split_method": null,
+        "piece": [
+          1,
+          1
+        ],
+        "source_start_offset": 1968,
+        "source_end_offset": 2009,
+        "cue_indices": null,
+        "cue_ids": null,
+        "incomplete": false,
+        "depends_on_previous": false,
+        "dependency_reasons": []
+      },
+      "metadata": {
+        "model": "groq/openai/gpt-oss-120b",
+        "prompt_version": "8.0",
+        "llm_config": {
+          "provider": "groq",
+          "model": "openai/gpt-oss-120b",
+          "reasoning_effort": "low",
+          "temperature": 0.0,
+          "max_output_tokens": 8192,
+          "prompt_version": "8.0",
+          "thinking_budget": null,
+          "empty_gloss_retry": true,
+          "references_file": null,
+          "reference_entries_loaded": 0
+        },
+        "rule_set_version": "0.1.0",
+        "active_rules": [
+          "R-FMT-01",
+          "R-ART-01",
+          "R-SKIP-01"
+        ],
+        "result_schema_version": "1.0",
+        "rule_pass_completed": true,
+        "cache_hit": false
+      }
+    },
+    {
+      "sentence_id": "02-i-want-to-be-equal-with-parmatma-s0029",
+      "group_id": "02-i-want-to-be-equal-with-parmatma-g0005",
+      "source_text": "We are very fortunate to have you.",
+      "llm_input_text": "We are very fortunate to have you.",
+      "skipped_spans": [],
+      "translation_status": "translated",
+      "candidate_gloss": "WE VERY FORTUNATE HAVE YOU",
+      "candidate_tokens": [
+        "WE",
+        "VERY",
+        "FORTUNATE",
+        "HAVE",
+        "YOU"
+      ],
+      "final_gloss": "WE VERY FORTUNATE HAVE YOU",
+      "final_tokens": [
+        "WE",
+        "VERY",
+        "FORTUNATE",
+        "HAVE",
+        "YOU"
+      ],
+      "applied_rules": [],
+      "validation": {
+        "status": "pass",
+        "warnings": []
+      },
+      "review_status": "unreviewed",
+      "uncertainty_notes": "",
+      "uncertain_parts": [],
+      "needs_human_review": false,
+      "llm_status": "ok",
+      "llm": {
+        "status": "ok",
+        "needs_human_review": false,
+        "uncertain": false,
+        "uncertain_parts": [],
+        "notes": "",
+        "echoed_source_text": "We are very fortunate to have you."
+      },
+      "error": null,
+      "speaker_id": "Speaker 1",
+      "start_timestamp": null,
+      "end_timestamp": null,
+      "turn_index": 0,
+      "source_metadata": {
+        "source_id": "02-i-want-to-be-equal-with-parmatma",
+        "parent_chunk_id": "02-i-want-to-be-equal-with-parmatma-0025",
+        "split_method": null,
+        "piece": [
+          1,
+          1
+        ],
+        "source_start_offset": 2010,
+        "source_end_offset": 2044,
+        "cue_indices": null,
+        "cue_ids": null,
+        "incomplete": false,
+        "depends_on_previous": false,
+        "dependency_reasons": []
+      },
+      "metadata": {
+        "model": "groq/openai/gpt-oss-120b",
+        "prompt_version": "8.0",
+        "llm_config": {
+          "provider": "groq",
+          "model": "openai/gpt-oss-120b",
+          "reasoning_effort": "low",
+          "temperature": 0.0,
+          "max_output_tokens": 8192,
+          "prompt_version": "8.0",
+          "thinking_budget": null,
+          "empty_gloss_retry": true,
+          "references_file": null,
+          "reference_entries_loaded": 0
+        },
+        "rule_set_version": "0.1.0",
+        "active_rules": [
+          "R-FMT-01",
+          "R-ART-01",
+          "R-SKIP-01"
+        ],
+        "result_schema_version": "1.0",
+        "rule_pass_completed": true,
+        "cache_hit": false
+      }
+    },
+    {
+      "sentence_id": "02-i-want-to-be-equal-with-parmatma-s0030",
+      "group_id": "02-i-want-to-be-equal-with-parmatma-g0005",
+      "source_text": "And so, we celebrate today's day with immense enthusiasm and gratitude in our hearts.",
+      "llm_input_text": "And so, we celebrate today's day with immense enthusiasm and gratitude in our hearts.",
+      "skipped_spans": [],
+      "translation_status": "translated",
+      "candidate_gloss": "WE CELEBRATE TODAY DAY IMMENSE ENTHUSIASM GRATITUDE OUR HEARTS",
+      "candidate_tokens": [
+        "WE",
+        "CELEBRATE",
+        "TODAY",
+        "DAY",
+        "IMMENSE",
+        "ENTHUSIASM",
+        "GRATITUDE",
+        "OUR",
+        "HEARTS"
+      ],
+      "final_gloss": "WE CELEBRATE TODAY DAY IMMENSE ENTHUSIASM GRATITUDE OUR HEARTS",
+      "final_tokens": [
+        "WE",
+        "CELEBRATE",
+        "TODAY",
+        "DAY",
+        "IMMENSE",
+        "ENTHUSIASM",
+        "GRATITUDE",
+        "OUR",
+        "HEARTS"
+      ],
+      "applied_rules": [],
+      "validation": {
+        "status": "pass",
+        "warnings": []
+      },
+      "review_status": "unreviewed",
+      "uncertainty_notes": "",
+      "uncertain_parts": [],
+      "needs_human_review": false,
+      "llm_status": "ok",
+      "llm": {
+        "status": "ok",
+        "needs_human_review": false,
+        "uncertain": false,
+        "uncertain_parts": [],
+        "notes": "",
+        "echoed_source_text": "And so, we celebrate today's day with immense enthusiasm and gratitude in our hearts."
+      },
+      "error": null,
+      "speaker_id": "Speaker 1",
+      "start_timestamp": null,
+      "end_timestamp": null,
+      "turn_index": 0,
+      "source_metadata": {
+        "source_id": "02-i-want-to-be-equal-with-parmatma",
+        "parent_chunk_id": "02-i-want-to-be-equal-with-parmatma-0026",
+        "split_method": null,
+        "piece": [
+          1,
+          1
+        ],
+        "source_start_offset": 2045,
+        "source_end_offset": 2130,
+        "cue_indices": null,
+        "cue_ids": null,
+        "incomplete": false,
+        "depends_on_previous": true,
+        "dependency_reasons": [
+          "continuation_word"
+        ]
+      },
+      "metadata": {
+        "model": "groq/openai/gpt-oss-120b",
+        "prompt_version": "8.0",
+        "llm_config": {
+          "provider": "groq",
+          "model": "openai/gpt-oss-120b",
+          "reasoning_effort": "low",
+          "temperature": 0.0,
+          "max_output_tokens": 8192,
+          "prompt_version": "8.0",
+          "thinking_budget": null,
+          "empty_gloss_retry": true,
+          "references_file": null,
+          "reference_entries_loaded": 0
+        },
+        "rule_set_version": "0.1.0",
+        "active_rules": [
+          "R-FMT-01",
+          "R-ART-01",
+          "R-SKIP-01"
+        ],
+        "result_schema_version": "1.0",
+        "rule_pass_completed": true,
+        "cache_hit": false
+      }
+    },
+    {
+      "sentence_id": "02-i-want-to-be-equal-with-parmatma-s0031",
+      "group_id": "02-i-want-to-be-equal-with-parmatma-g0005",
+      "source_text": "Hey Prabhu, navigate our religion and your path of truth and compassion in every birth.",
+      "llm_input_text": "Hey Prabhu, navigate our religion and your path of truth and compassion in every birth.",
+      "skipped_spans": [],
+      "translation_status": "translated",
+      "candidate_gloss": "HEY PRABHU NAVIGATE OUR RELIGION AND YOUR PATH TRUTH COMPASSION EVERY BIRTH",
+      "candidate_tokens": [
+        "HEY",
+        "PRABHU",
+        "NAVIGATE",
+        "OUR",
+        "RELIGION",
+        "AND",
+        "YOUR",
+        "PATH",
+        "TRUTH",
+        "COMPASSION",
+        "EVERY",
+        "BIRTH"
+      ],
+      "final_gloss": "HEY PRABHU NAVIGATE OUR RELIGION AND YOUR PATH TRUTH COMPASSION EVERY BIRTH",
+      "final_tokens": [
+        "HEY",
+        "PRABHU",
+        "NAVIGATE",
+        "OUR",
+        "RELIGION",
+        "AND",
+        "YOUR",
+        "PATH",
+        "TRUTH",
+        "COMPASSION",
+        "EVERY",
+        "BIRTH"
+      ],
+      "applied_rules": [],
+      "validation": {
+        "status": "pass",
+        "warnings": []
+      },
+      "review_status": "unreviewed",
+      "uncertainty_notes": "",
+      "uncertain_parts": [],
+      "needs_human_review": false,
+      "llm_status": "ok",
+      "llm": {
+        "status": "ok",
+        "needs_human_review": false,
+        "uncertain": false,
+        "uncertain_parts": [],
+        "notes": "",
+        "echoed_source_text": "Hey Prabhu, navigate our religion and your path of truth and compassion in every birth."
+      },
+      "error": null,
+      "speaker_id": "Speaker 1",
+      "start_timestamp": null,
+      "end_timestamp": null,
+      "turn_index": 0,
+      "source_metadata": {
+        "source_id": "02-i-want-to-be-equal-with-parmatma",
+        "parent_chunk_id": "02-i-want-to-be-equal-with-parmatma-0027",
+        "split_method": null,
+        "piece": [
+          1,
+          1
+        ],
+        "source_start_offset": 2131,
+        "source_end_offset": 2218,
+        "cue_indices": null,
+        "cue_ids": null,
+        "incomplete": false,
+        "depends_on_previous": false,
+        "dependency_reasons": []
+      },
+      "metadata": {
+        "model": "groq/openai/gpt-oss-120b",
+        "prompt_version": "8.0",
+        "llm_config": {
+          "provider": "groq",
+          "model": "openai/gpt-oss-120b",
+          "reasoning_effort": "low",
+          "temperature": 0.0,
+          "max_output_tokens": 8192,
+          "prompt_version": "8.0",
+          "thinking_budget": null,
+          "empty_gloss_retry": true,
+          "references_file": null,
+          "reference_entries_loaded": 0
+        },
+        "rule_set_version": "0.1.0",
+        "active_rules": [
+          "R-FMT-01",
+          "R-ART-01",
+          "R-SKIP-01"
+        ],
+        "result_schema_version": "1.0",
+        "rule_pass_completed": true,
+        "cache_hit": false
+      }
+    },
+    {
+      "sentence_id": "02-i-want-to-be-equal-with-parmatma-s0032",
+      "group_id": "02-i-want-to-be-equal-with-parmatma-g0005",
+      "source_text": "Hey Prabhu, May we attain your sharan in every birth.",
+      "llm_input_text": "Hey Prabhu, May we attain your sharan in every birth.",
+      "skipped_spans": [],
+      "translation_status": "translated",
+      "candidate_gloss": "HEY PRABHU MAY WE ATTTAIN YOUR SHARAN EVERY BIRTH",
+      "candidate_tokens": [
+        "HEY",
+        "PRABHU",
+        "MAY",
+        "WE",
+        "ATTTAIN",
+        "YOUR",
+        "SHARAN",
+        "EVERY",
+        "BIRTH"
+      ],
+      "final_gloss": "HEY PRABHU MAY WE ATTTAIN YOUR SHARAN EVERY BIRTH",
+      "final_tokens": [
+        "HEY",
+        "PRABHU",
+        "MAY",
+        "WE",
+        "ATTTAIN",
+        "YOUR",
+        "SHARAN",
+        "EVERY",
+        "BIRTH"
+      ],
+      "applied_rules": [],
+      "validation": {
+        "status": "pass",
+        "warnings": []
+      },
+      "review_status": "unreviewed",
+      "uncertainty_notes": "",
+      "uncertain_parts": [],
+      "needs_human_review": false,
+      "llm_status": "ok",
+      "llm": {
+        "status": "ok",
+        "needs_human_review": false,
+        "uncertain": false,
+        "uncertain_parts": [],
+        "notes": "",
+        "echoed_source_text": "Hey Prabhu, May we attain your sharan in every birth."
+      },
+      "error": null,
+      "speaker_id": "Speaker 1",
+      "start_timestamp": null,
+      "end_timestamp": null,
+      "turn_index": 0,
+      "source_metadata": {
+        "source_id": "02-i-want-to-be-equal-with-parmatma",
+        "parent_chunk_id": "02-i-want-to-be-equal-with-parmatma-0028",
+        "split_method": null,
+        "piece": [
+          1,
+          1
+        ],
+        "source_start_offset": 2219,
+        "source_end_offset": 2272,
+        "cue_indices": null,
+        "cue_ids": null,
+        "incomplete": false,
+        "depends_on_previous": false,
+        "dependency_reasons": []
+      },
+      "metadata": {
+        "model": "groq/openai/gpt-oss-120b",
+        "prompt_version": "8.0",
+        "llm_config": {
+          "provider": "groq",
+          "model": "openai/gpt-oss-120b",
+          "reasoning_effort": "low",
+          "temperature": 0.0,
+          "max_output_tokens": 8192,
+          "prompt_version": "8.0",
+          "thinking_budget": null,
+          "empty_gloss_retry": true,
+          "references_file": null,
+          "reference_entries_loaded": 0
+        },
+        "rule_set_version": "0.1.0",
+        "active_rules": [
+          "R-FMT-01",
+          "R-ART-01",
+          "R-SKIP-01"
+        ],
+        "result_schema_version": "1.0",
+        "rule_pass_completed": true,
+        "cache_hit": false
+      }
+    },
+    {
+      "sentence_id": "02-i-want-to-be-equal-with-parmatma-s0033",
+      "group_id": "02-i-want-to-be-equal-with-parmatma-g0005",
+      "source_text": "Okay Open your eyes Open your eyes Done, Priyo.",
+      "llm_input_text": "Okay Open your eyes Open your eyes Done, Priyo.",
+      "skipped_spans": [],
+      "translation_status": "translated",
+      "candidate_gloss": "OKAY OPEN YOUR EYES OPEN YOUR EYES DONE FS:PRIYO",
+      "candidate_tokens": [
+        "OKAY",
+        "OPEN",
+        "YOUR",
+        "EYES",
+        "OPEN",
+        "YOUR",
+        "EYES",
+        "DONE",
+        "FS:PRIYO"
+      ],
+      "final_gloss": "OKAY OPEN YOUR EYES OPEN YOUR EYES DONE FS:PRIYO",
+      "final_tokens": [
+        "OKAY",
+        "OPEN",
+        "YOUR",
+        "EYES",
+        "OPEN",
+        "YOUR",
+        "EYES",
+        "DONE",
+        "FS:PRIYO"
+      ],
+      "applied_rules": [],
+      "validation": {
+        "status": "pass",
+        "warnings": []
+      },
+      "review_status": "unreviewed",
+      "uncertainty_notes": "",
+      "uncertain_parts": [],
+      "needs_human_review": false,
+      "llm_status": "ok",
+      "llm": {
+        "status": "ok",
+        "needs_human_review": false,
+        "uncertain": false,
+        "uncertain_parts": [],
+        "notes": "",
+        "echoed_source_text": "Okay Open your eyes Open your eyes Done, Priyo."
+      },
+      "error": null,
+      "speaker_id": "Speaker 1",
+      "start_timestamp": null,
+      "end_timestamp": null,
+      "turn_index": 0,
+      "source_metadata": {
+        "source_id": "02-i-want-to-be-equal-with-parmatma",
+        "parent_chunk_id": "02-i-want-to-be-equal-with-parmatma-0029",
+        "split_method": null,
+        "piece": [
+          1,
+          1
+        ],
+        "source_start_offset": 2273,
+        "source_end_offset": 2320,
+        "cue_indices": null,
+        "cue_ids": null,
+        "incomplete": false,
+        "depends_on_previous": false,
+        "dependency_reasons": []
+      },
+      "metadata": {
+        "model": "groq/openai/gpt-oss-120b",
+        "prompt_version": "8.0",
+        "llm_config": {
+          "provider": "groq",
+          "model": "openai/gpt-oss-120b",
+          "reasoning_effort": "low",
+          "temperature": 0.0,
+          "max_output_tokens": 8192,
+          "prompt_version": "8.0",
+          "thinking_budget": null,
+          "empty_gloss_retry": true,
+          "references_file": null,
+          "reference_entries_loaded": 0
+        },
+        "rule_set_version": "0.1.0",
+        "active_rules": [
+          "R-FMT-01",
+          "R-ART-01",
+          "R-SKIP-01"
+        ],
+        "result_schema_version": "1.0",
+        "rule_pass_completed": true,
+        "cache_hit": false
+      }
+    },
+    {
+      "sentence_id": "02-i-want-to-be-equal-with-parmatma-s0034",
+      "group_id": "02-i-want-to-be-equal-with-parmatma-g0005",
+      "source_text": "Today, as we celebrate the occasion of Bhagwan Mahavir Janmotsav.",
+      "llm_input_text": "Today, as we celebrate the occasion of Bhagwan Mahavir Janmotsav.",
+      "skipped_spans": [],
+      "translation_status": "translated",
+      "candidate_gloss": "TODAY CELEBRATE OCCASION FS:BHAGWAN FS:MAHAVIR FS:JANMOTSAV",
+      "candidate_tokens": [
+        "TODAY",
+        "CELEBRATE",
+        "OCCASION",
+        "FS:BHAGWAN",
+        "FS:MAHAVIR",
+        "FS:JANMOTSAV"
+      ],
+      "final_gloss": "TODAY CELEBRATE OCCASION FS:BHAGWAN FS:MAHAVIR FS:JANMOTSAV",
+      "final_tokens": [
+        "TODAY",
+        "CELEBRATE",
+        "OCCASION",
+        "FS:BHAGWAN",
+        "FS:MAHAVIR",
+        "FS:JANMOTSAV"
+      ],
+      "applied_rules": [],
+      "validation": {
+        "status": "pass",
+        "warnings": []
+      },
+      "review_status": "unreviewed",
+      "uncertainty_notes": "",
+      "uncertain_parts": [],
+      "needs_human_review": false,
+      "llm_status": "ok",
+      "llm": {
+        "status": "ok",
+        "needs_human_review": false,
+        "uncertain": false,
+        "uncertain_parts": [],
+        "notes": "",
+        "echoed_source_text": "Today, as we celebrate the occasion of Bhagwan Mahavir Janmotsav."
+      },
+      "error": null,
+      "speaker_id": "Speaker 1",
+      "start_timestamp": null,
+      "end_timestamp": null,
+      "turn_index": 0,
+      "source_metadata": {
+        "source_id": "02-i-want-to-be-equal-with-parmatma",
+        "parent_chunk_id": "02-i-want-to-be-equal-with-parmatma-0030",
+        "split_method": null,
+        "piece": [
+          1,
+          1
+        ],
+        "source_start_offset": 2321,
+        "source_end_offset": 2386,
+        "cue_indices": null,
+        "cue_ids": null,
+        "incomplete": false,
+        "depends_on_previous": false,
+        "dependency_reasons": []
+      },
+      "metadata": {
+        "model": "groq/openai/gpt-oss-120b",
+        "prompt_version": "8.0",
+        "llm_config": {
+          "provider": "groq",
+          "model": "openai/gpt-oss-120b",
+          "reasoning_effort": "low",
+          "temperature": 0.0,
+          "max_output_tokens": 8192,
+          "prompt_version": "8.0",
+          "thinking_budget": null,
+          "empty_gloss_retry": true,
+          "references_file": null,
+          "reference_entries_loaded": 0
+        },
+        "rule_set_version": "0.1.0",
+        "active_rules": [
+          "R-FMT-01",
+          "R-ART-01",
+          "R-SKIP-01"
+        ],
+        "result_schema_version": "1.0",
+        "rule_pass_completed": true,
+        "cache_hit": false
+      }
+    },
+    {
+      "sentence_id": "02-i-want-to-be-equal-with-parmatma-s0035",
+      "group_id": "02-i-want-to-be-equal-with-parmatma-g0005",
+      "source_text": "I want to tell you something.",
+      "llm_input_text": "I want to tell you something.",
+      "skipped_spans": [],
+      "translation_status": "translated",
+      "candidate_gloss": "I WANT TELL YOU SOMETHING",
+      "candidate_tokens": [
+        "I",
+        "WANT",
+        "TELL",
+        "YOU",
+        "SOMETHING"
+      ],
+      "final_gloss": "I WANT TELL YOU SOMETHING",
+      "final_tokens": [
+        "I",
+        "WANT",
+        "TELL",
+        "YOU",
+        "SOMETHING"
+      ],
+      "applied_rules": [],
+      "validation": {
+        "status": "pass",
+        "warnings": []
+      },
+      "review_status": "unreviewed",
+      "uncertainty_notes": "",
+      "uncertain_parts": [],
+      "needs_human_review": false,
+      "llm_status": "ok",
+      "llm": {
+        "status": "ok",
+        "needs_human_review": false,
+        "uncertain": false,
+        "uncertain_parts": [],
+        "notes": "",
+        "echoed_source_text": "I want to tell you something."
+      },
+      "error": null,
+      "speaker_id": "Speaker 1",
+      "start_timestamp": null,
+      "end_timestamp": null,
+      "turn_index": 0,
+      "source_metadata": {
+        "source_id": "02-i-want-to-be-equal-with-parmatma",
+        "parent_chunk_id": "02-i-want-to-be-equal-with-parmatma-0031",
+        "split_method": null,
+        "piece": [
+          1,
+          1
+        ],
+        "source_start_offset": 2387,
+        "source_end_offset": 2416,
+        "cue_indices": null,
+        "cue_ids": null,
+        "incomplete": false,
+        "depends_on_previous": false,
+        "dependency_reasons": []
+      },
+      "metadata": {
+        "model": "groq/openai/gpt-oss-120b",
+        "prompt_version": "8.0",
+        "llm_config": {
+          "provider": "groq",
+          "model": "openai/gpt-oss-120b",
+          "reasoning_effort": "low",
+          "temperature": 0.0,
+          "max_output_tokens": 8192,
+          "prompt_version": "8.0",
+          "thinking_budget": null,
+          "empty_gloss_retry": true,
+          "references_file": null,
+          "reference_entries_loaded": 0
+        },
+        "rule_set_version": "0.1.0",
+        "active_rules": [
+          "R-FMT-01",
+          "R-ART-01",
+          "R-SKIP-01"
+        ],
+        "result_schema_version": "1.0",
+        "rule_pass_completed": true,
+        "cache_hit": false
+      }
+    },
+    {
+      "sentence_id": "02-i-want-to-be-equal-with-parmatma-s0036",
+      "group_id": "02-i-want-to-be-equal-with-parmatma-g0005",
+      "source_text": "We all worship Prabhu Mahavir but this Parishad Mahaprabhu has come to give us a different message.",
+      "llm_input_text": "We all worship Prabhu Mahavir but this Parishad Mahaprabhu has come to give us a different message.",
+      "skipped_spans": [],
+      "translation_status": "translated",
+      "candidate_gloss": "WE ALL WORSHIP PRABHU MAHAVIR BUT THIS FS:PARISHAD FS:MAHAPRAABHU COME GIVE US DIFFERENT MESSAGE",
+      "candidate_tokens": [
+        "WE",
+        "ALL",
+        "WORSHIP",
+        "PRABHU",
+        "MAHAVIR",
+        "BUT",
+        "THIS",
+        "FS:PARISHAD",
+        "FS:MAHAPRAABHU",
+        "COME",
+        "GIVE",
+        "US",
+        "DIFFERENT",
+        "MESSAGE"
+      ],
+      "final_gloss": "WE ALL WORSHIP PRABHU MAHAVIR BUT THIS FS:PARISHAD FS:MAHAPRAABHU COME GIVE US DIFFERENT MESSAGE",
+      "final_tokens": [
+        "WE",
+        "ALL",
+        "WORSHIP",
+        "PRABHU",
+        "MAHAVIR",
+        "BUT",
+        "THIS",
+        "FS:PARISHAD",
+        "FS:MAHAPRAABHU",
+        "COME",
+        "GIVE",
+        "US",
+        "DIFFERENT",
+        "MESSAGE"
+      ],
+      "applied_rules": [],
+      "validation": {
+        "status": "review_required",
+        "warnings": [
+          {
+            "code": "name_may_be_missing",
+            "severity": "review",
+            "message": "Capitalised word(s) not found in the gloss: MAHAPRABHU. May be names or sign-label substitutions."
+          }
+        ]
+      },
+      "review_status": "unreviewed",
+      "uncertainty_notes": "",
+      "uncertain_parts": [],
+      "needs_human_review": true,
+      "llm_status": "ok",
+      "llm": {
+        "status": "ok",
+        "needs_human_review": false,
+        "uncertain": false,
+        "uncertain_parts": [],
+        "notes": "",
+        "echoed_source_text": "We all worship Prabhu Mahavir but this Parishad Mahaprabhu has come to give us a different message."
+      },
+      "error": null,
+      "speaker_id": "Speaker 1",
+      "start_timestamp": null,
+      "end_timestamp": null,
+      "turn_index": 0,
+      "source_metadata": {
+        "source_id": "02-i-want-to-be-equal-with-parmatma",
+        "parent_chunk_id": "02-i-want-to-be-equal-with-parmatma-0032",
+        "split_method": null,
+        "piece": [
+          1,
+          1
+        ],
+        "source_start_offset": 2417,
+        "source_end_offset": 2516,
+        "cue_indices": null,
+        "cue_ids": null,
+        "incomplete": false,
+        "depends_on_previous": false,
+        "dependency_reasons": []
+      },
+      "metadata": {
+        "model": "groq/openai/gpt-oss-120b",
+        "prompt_version": "8.0",
+        "llm_config": {
+          "provider": "groq",
+          "model": "openai/gpt-oss-120b",
+          "reasoning_effort": "low",
+          "temperature": 0.0,
+          "max_output_tokens": 8192,
+          "prompt_version": "8.0",
+          "thinking_budget": null,
+          "empty_gloss_retry": true,
+          "references_file": null,
+          "reference_entries_loaded": 0
+        },
+        "rule_set_version": "0.1.0",
+        "active_rules": [
+          "R-FMT-01",
+          "R-ART-01",
+          "R-SKIP-01"
+        ],
+        "result_schema_version": "1.0",
+        "rule_pass_completed": true,
+        "cache_hit": false
+      }
+    },
+    {
+      "sentence_id": "02-i-want-to-be-equal-with-parmatma-s0037",
+      "group_id": "02-i-want-to-be-equal-with-parmatma-g0006",
+      "source_text": "Every follower, every disciple of Paramatma has an eagerness to know one thing.",
+      "llm_input_text": "Every follower, every disciple of Paramatma has an eagerness to know one thing.",
+      "skipped_spans": [],
+      "translation_status": "translated",
+      "candidate_gloss": "EVERY FOLLOWER EVERY DISCIPLE OF FS:PARAMATMA HAVE EAGERNESS TO KNOW ONE THING",
+      "candidate_tokens": [
+        "EVERY",
+        "FOLLOWER",
+        "EVERY",
+        "DISCIPLE",
+        "OF",
+        "FS:PARAMATMA",
+        "HAVE",
+        "EAGERNESS",
+        "TO",
+        "KNOW",
+        "ONE",
+        "THING"
+      ],
+      "final_gloss": "EVERY FOLLOWER EVERY DISCIPLE OF FS:PARAMATMA HAVE EAGERNESS TO KNOW ONE THING",
+      "final_tokens": [
+        "EVERY",
+        "FOLLOWER",
+        "EVERY",
+        "DISCIPLE",
+        "OF",
+        "FS:PARAMATMA",
+        "HAVE",
+        "EAGERNESS",
+        "TO",
+        "KNOW",
+        "ONE",
+        "THING"
+      ],
+      "applied_rules": [],
+      "validation": {
+        "status": "pass",
+        "warnings": []
+      },
+      "review_status": "unreviewed",
+      "uncertainty_notes": "",
+      "uncertain_parts": [],
+      "needs_human_review": false,
+      "llm_status": "ok",
+      "llm": {
+        "status": "ok",
+        "needs_human_review": false,
+        "uncertain": false,
+        "uncertain_parts": [],
+        "notes": "",
+        "echoed_source_text": "Every follower, every disciple of Paramatma has an eagerness to know one thing."
+      },
+      "error": null,
+      "speaker_id": "Speaker 1",
+      "start_timestamp": null,
+      "end_timestamp": null,
+      "turn_index": 0,
+      "source_metadata": {
+        "source_id": "02-i-want-to-be-equal-with-parmatma",
+        "parent_chunk_id": "02-i-want-to-be-equal-with-parmatma-0033",
+        "split_method": null,
+        "piece": [
+          1,
+          1
+        ],
+        "source_start_offset": 2517,
+        "source_end_offset": 2596,
+        "cue_indices": null,
+        "cue_ids": null,
+        "incomplete": false,
+        "depends_on_previous": false,
+        "dependency_reasons": []
+      },
+      "metadata": {
+        "model": "groq/openai/gpt-oss-120b",
+        "prompt_version": "8.0",
+        "llm_config": {
+          "provider": "groq",
+          "model": "openai/gpt-oss-120b",
+          "reasoning_effort": "low",
+          "temperature": 0.0,
+          "max_output_tokens": 8192,
+          "prompt_version": "8.0",
+          "thinking_budget": null,
+          "empty_gloss_retry": true,
+          "references_file": null,
+          "reference_entries_loaded": 0
+        },
+        "rule_set_version": "0.1.0",
+        "active_rules": [
+          "R-FMT-01",
+          "R-ART-01",
+          "R-SKIP-01"
+        ],
+        "result_schema_version": "1.0",
+        "rule_pass_completed": true,
+        "cache_hit": false
+      }
+    },
+    {
+      "sentence_id": "02-i-want-to-be-equal-with-parmatma-s0038",
+      "group_id": "02-i-want-to-be-equal-with-parmatma-g0006",
+      "source_text": "When Paramatma was present, how was he?",
+      "llm_input_text": "When Paramatma was present, how was he?",
+      "skipped_spans": [],
+      "translation_status": "translated",
+      "candidate_gloss": "WHEN FS:PARAMATMA PRESENT HOW HE",
+      "candidate_tokens": [
+        "WHEN",
+        "FS:PARAMATMA",
+        "PRESENT",
+        "HOW",
+        "HE"
+      ],
+      "final_gloss": "WHEN FS:PARAMATMA PRESENT HOW HE",
+      "final_tokens": [
+        "WHEN",
+        "FS:PARAMATMA",
+        "PRESENT",
+        "HOW",
+        "HE"
+      ],
+      "applied_rules": [],
+      "validation": {
+        "status": "pass",
+        "warnings": []
+      },
+      "review_status": "unreviewed",
+      "uncertainty_notes": "",
+      "uncertain_parts": [],
+      "needs_human_review": false,
+      "llm_status": "ok",
+      "llm": {
+        "status": "ok",
+        "needs_human_review": false,
+        "uncertain": false,
+        "uncertain_parts": [],
+        "notes": "",
+        "echoed_source_text": "When Paramatma was present, how was he?"
+      },
+      "error": null,
+      "speaker_id": "Speaker 1",
+      "start_timestamp": null,
+      "end_timestamp": null,
+      "turn_index": 0,
+      "source_metadata": {
+        "source_id": "02-i-want-to-be-equal-with-parmatma",
+        "parent_chunk_id": "02-i-want-to-be-equal-with-parmatma-0034",
+        "split_method": null,
+        "piece": [
+          1,
+          1
+        ],
+        "source_start_offset": 2597,
+        "source_end_offset": 2636,
+        "cue_indices": null,
+        "cue_ids": null,
+        "incomplete": false,
+        "depends_on_previous": false,
+        "dependency_reasons": []
+      },
+      "metadata": {
+        "model": "groq/openai/gpt-oss-120b",
+        "prompt_version": "8.0",
+        "llm_config": {
+          "provider": "groq",
+          "model": "openai/gpt-oss-120b",
+          "reasoning_effort": "low",
+          "temperature": 0.0,
+          "max_output_tokens": 8192,
+          "prompt_version": "8.0",
+          "thinking_budget": null,
+          "empty_gloss_retry": true,
+          "references_file": null,
+          "reference_entries_loaded": 0
+        },
+        "rule_set_version": "0.1.0",
+        "active_rules": [
+          "R-FMT-01",
+          "R-ART-01",
+          "R-SKIP-01"
+        ],
+        "result_schema_version": "1.0",
+        "rule_pass_completed": true,
+        "cache_hit": false
+      }
+    },
+    {
+      "sentence_id": "02-i-want-to-be-equal-with-parmatma-s0039",
+      "group_id": "02-i-want-to-be-equal-with-parmatma-g0006",
+      "source_text": "What qualities did he have?",
+      "llm_input_text": "What qualities did he have?",
+      "skipped_spans": [],
+      "translation_status": "translated",
+      "candidate_gloss": "WHAT QUALITIES HE HAVE",
+      "candidate_tokens": [
+        "WHAT",
+        "QUALITIES",
+        "HE",
+        "HAVE"
+      ],
+      "final_gloss": "WHAT QUALITIES HE HAVE",
+      "final_tokens": [
+        "WHAT",
+        "QUALITIES",
+        "HE",
+        "HAVE"
+      ],
+      "applied_rules": [],
+      "validation": {
+        "status": "pass",
+        "warnings": []
+      },
+      "review_status": "unreviewed",
+      "uncertainty_notes": "",
+      "uncertain_parts": [],
+      "needs_human_review": false,
+      "llm_status": "ok",
+      "llm": {
+        "status": "ok",
+        "needs_human_review": false,
+        "uncertain": false,
+        "uncertain_parts": [],
+        "notes": "",
+        "echoed_source_text": "What qualities did he have?"
+      },
+      "error": null,
+      "speaker_id": "Speaker 1",
+      "start_timestamp": null,
+      "end_timestamp": null,
+      "turn_index": 0,
+      "source_metadata": {
+        "source_id": "02-i-want-to-be-equal-with-parmatma",
+        "parent_chunk_id": "02-i-want-to-be-equal-with-parmatma-0035",
+        "split_method": null,
+        "piece": [
+          1,
+          1
+        ],
+        "source_start_offset": 2637,
+        "source_end_offset": 2664,
+        "cue_indices": null,
+        "cue_ids": null,
+        "incomplete": false,
+        "depends_on_previous": false,
+        "dependency_reasons": []
+      },
+      "metadata": {
+        "model": "groq/openai/gpt-oss-120b",
+        "prompt_version": "8.0",
+        "llm_config": {
+          "provider": "groq",
+          "model": "openai/gpt-oss-120b",
+          "reasoning_effort": "low",
+          "temperature": 0.0,
+          "max_output_tokens": 8192,
+          "prompt_version": "8.0",
+          "thinking_budget": null,
+          "empty_gloss_retry": true,
+          "references_file": null,
+          "reference_entries_loaded": 0
+        },
+        "rule_set_version": "0.1.0",
+        "active_rules": [
+          "R-FMT-01",
+          "R-ART-01",
+          "R-SKIP-01"
+        ],
+        "result_schema_version": "1.0",
+        "rule_pass_completed": true,
+        "cache_hit": false
+      }
+    },
+    {
+      "sentence_id": "02-i-want-to-be-equal-with-parmatma-s0040",
+      "group_id": "02-i-want-to-be-equal-with-parmatma-g0006",
+      "source_text": "What qualities did he have?",
+      "llm_input_text": "What qualities did he have?",
+      "skipped_spans": [],
+      "translation_status": "translated",
+      "candidate_gloss": "WHAT QUALITIES HE HAVE",
+      "candidate_tokens": [
+        "WHAT",
+        "QUALITIES",
+        "HE",
+        "HAVE"
+      ],
+      "final_gloss": "WHAT QUALITIES HE HAVE",
+      "final_tokens": [
+        "WHAT",
+        "QUALITIES",
+        "HE",
+        "HAVE"
+      ],
+      "applied_rules": [],
+      "validation": {
+        "status": "pass",
+        "warnings": []
+      },
+      "review_status": "unreviewed",
+      "uncertainty_notes": "",
+      "uncertain_parts": [],
+      "needs_human_review": false,
+      "llm_status": "ok",
+      "llm": {
+        "status": "ok",
+        "needs_human_review": false,
+        "uncertain": false,
+        "uncertain_parts": [],
+        "notes": "",
+        "echoed_source_text": "What qualities did he have?"
+      },
+      "error": null,
+      "speaker_id": "Speaker 1",
+      "start_timestamp": null,
+      "end_timestamp": null,
+      "turn_index": 0,
+      "source_metadata": {
+        "source_id": "02-i-want-to-be-equal-with-parmatma",
+        "parent_chunk_id": "02-i-want-to-be-equal-with-parmatma-0036",
+        "split_method": null,
+        "piece": [
+          1,
+          1
+        ],
+        "source_start_offset": 2665,
+        "source_end_offset": 2692,
+        "cue_indices": null,
+        "cue_ids": null,
+        "incomplete": false,
+        "depends_on_previous": false,
+        "dependency_reasons": []
+      },
+      "metadata": {
+        "model": "groq/openai/gpt-oss-120b",
+        "prompt_version": "8.0",
+        "llm_config": {
+          "provider": "groq",
+          "model": "openai/gpt-oss-120b",
+          "reasoning_effort": "low",
+          "temperature": 0.0,
+          "max_output_tokens": 8192,
+          "prompt_version": "8.0",
+          "thinking_budget": null,
+          "empty_gloss_retry": true,
+          "references_file": null,
+          "reference_entries_loaded": 0
+        },
+        "rule_set_version": "0.1.0",
+        "active_rules": [
+          "R-FMT-01",
+          "R-ART-01",
+          "R-SKIP-01"
+        ],
+        "result_schema_version": "1.0",
+        "rule_pass_completed": true,
+        "cache_hit": false
+      }
+    }
+  ]
+}
