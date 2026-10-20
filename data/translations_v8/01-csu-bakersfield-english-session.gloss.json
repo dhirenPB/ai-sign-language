@@ -1,0 +1,4409 @@
+{
+  "schema_version": "1.0",
+  "report_type": "isl_gloss_translation",
+  "tool_version": "0.1.0",
+  "source_id": "01-csu-bakersfield-english-session",
+  "source_file": "data\\structured\\01-csu-bakersfield-english-session.cleaned.json",
+  "generated_at": "2026-10-20T09:18:18+00:00",
+  "review_status": "unreviewed",
+  "review_note": "Gloss is a machine-generated candidate. It has NOT been reviewed by an ISL-fluent signer and must not be treated as production-accurate.",
+  "complete": true,
+  "stop_reason": null,
+  "counts": {
+    "translated": 40,
+    "validation_review_required": 7,
+    "validation_pass": 33,
+    "cache_hits": 0
+  },
+  "assembly_validation": {
+    "passed": true,
+    "errors": [],
+    "warnings": []
+  },
+  "metadata": {
+    "model": "groq/openai/gpt-oss-120b",
+    "prompt_version": "8.0",
+    "llm_config": {
+      "provider": "groq",
+      "model": "openai/gpt-oss-120b",
+      "reasoning_effort": "low",
+      "temperature": 0.0,
+      "max_output_tokens": 8192,
+      "prompt_version": "8.0",
+      "thinking_budget": null,
+      "empty_gloss_retry": true,
+      "references_file": null,
+      "reference_entries_loaded": 0
+    },
+    "rule_set_version": "0.1.0",
+    "active_rules": [
+      "R-FMT-01",
+      "R-ART-01",
+      "R-SKIP-01"
+    ],
+    "result_schema_version": "1.0"
+  },
+  "source_type": "unknown",
+  "mode": "groups",
+  "limit": 40,
+  "grouping": {
+    "groups": 8,
+    "sentences": 40,
+    "sentences_per_group_avg": 5.0,
+    "sentences_per_group_max": 7,
+    "boundary_reasons": {
+      "max_sentences": 4,
+      "turn_change": 3,
+      "end": 1
+    },
+    "forced_boundaries": 0,
+    "oversize_groups": 0,
+    "groups_with_context_before": 0,
+    "groups_with_context_after": 0
+  },
+  "groups": [
+    {
+      "group_id": "01-csu-bakersfield-english-session-g0001",
+      "sentence_ids": [
+        "01-csu-bakersfield-english-session-s0001",
+        "01-csu-bakersfield-english-session-s0002",
+        "01-csu-bakersfield-english-session-s0003",
+        "01-csu-bakersfield-english-session-s0004",
+        "01-csu-bakersfield-english-session-s0005",
+        "01-csu-bakersfield-english-session-s0006",
+        "01-csu-bakersfield-english-session-s0007"
+      ],
+      "context_before_ids": [],
+      "context_after_ids": [],
+      "context_text": "Okay, I just wanted to say good morning to everyone. I know my students are still coming in and joining us and I see we have a number of other guests. I'm happy to have you with us this morning. or this evening depending on where you are in the world. I know we have a global audience today. It's pretty exciting I think. I'm glad we have this opportunity.",
+      "start_timestamp": null,
+      "end_timestamp": null,
+      "boundary_reason": "max_sentences",
+      "forced_boundary": false,
+      "oversize": false
+    },
+    {
+      "group_id": "01-csu-bakersfield-english-session-g0002",
+      "sentence_ids": [
+        "01-csu-bakersfield-english-session-s0008",
+        "01-csu-bakersfield-english-session-s0009",
+        "01-csu-bakersfield-english-session-s0010",
+        "01-csu-bakersfield-english-session-s0011",
+        "01-csu-bakersfield-english-session-s0012",
+        "01-csu-bakersfield-english-session-s0013",
+        "01-csu-bakersfield-english-session-s0014"
+      ],
+      "context_before_ids": [],
+      "context_after_ids": [],
+      "context_text": "Okay everyone, like we can begin. just to to clarify, this is a introductory course at California State University Bakersfield on the religions of Asia. And this week in particular, we are taking a look at the Jane tradition and we are fortunate to have with us some guest speakers to teach us more about the tradition from their perspective. These are people who have practiced the religion for quite some time and can share with us. some basics on Jane ideas, philosophy and practice. And hopefully we'll have some chance at the end for questions as well. So I want to begin with a greeting which I learned from my Jain friends over the last couple of years, Jai Jin Indra, which is, Shaileshya Didi maybe the best way to explain that, you can correct me if I'm wrong, but it's something like homage to the victor, the Jina.",
+      "start_timestamp": null,
+      "end_timestamp": null,
+      "boundary_reason": "max_sentences",
+      "forced_boundary": false,
+      "oversize": false
+    },
+    {
+      "group_id": "01-csu-bakersfield-english-session-g0003",
+      "sentence_ids": [
+        "01-csu-bakersfield-english-session-s0015",
+        "01-csu-bakersfield-english-session-s0016"
+      ],
+      "context_before_ids": [],
+      "context_after_ids": [],
+      "context_text": "The Lord Jina. So, that's something you can take right off the bat.",
+      "start_timestamp": null,
+      "end_timestamp": null,
+      "boundary_reason": "turn_change",
+      "forced_boundary": false,
+      "oversize": false
+    },
+    {
+      "group_id": "01-csu-bakersfield-english-session-g0004",
+      "sentence_ids": [
+        "01-csu-bakersfield-english-session-s0017"
+      ],
+      "context_before_ids": [],
+      "context_after_ids": [],
+      "context_text": "Yes, yes, yes.",
+      "start_timestamp": null,
+      "end_timestamp": null,
+      "boundary_reason": "turn_change",
+      "forced_boundary": false,
+      "oversize": false
+    },
+    {
+      "group_id": "01-csu-bakersfield-english-session-g0005",
+      "sentence_ids": [
+        "01-csu-bakersfield-english-session-s0018",
+        "01-csu-bakersfield-english-session-s0019",
+        "01-csu-bakersfield-english-session-s0020",
+        "01-csu-bakersfield-english-session-s0021",
+        "01-csu-bakersfield-english-session-s0022",
+        "01-csu-bakersfield-english-session-s0023",
+        "01-csu-bakersfield-english-session-s0024"
+      ],
+      "context_before_ids": [],
+      "context_after_ids": [],
+      "context_text": "By Janindra, a greeting if you do meet James in your community and you'd like to offer a proper greeting. With that said, let me introduce you to, some of the people we'll be hearing from today. So, the leading guru or teacher, as my students should know, for the community of Jains we'll be learning from, is Rashtrasant Param Gurudev Sri Namramuni Maharaj Sahi. His community sees him as a Jain saint whose thoughts, words, and work are an inspiration for people around the world. For his community, he's not only a profound visionary, but also humanitarian, working to engender a positive difference in countless lives globally. He's the founder of Parastham, a socio-religious organization in India with humanitarian initiatives and spiritually uplifting missions across the world. So far, he's inspired 37 young women and men to accept renunciation in the Jain tradition.",
+      "start_timestamp": null,
+      "end_timestamp": null,
+      "boundary_reason": "max_sentences",
+      "forced_boundary": false,
+      "oversize": false
+    },
+    {
+      "group_id": "01-csu-bakersfield-english-session-g0006",
+      "sentence_ids": [
+        "01-csu-bakersfield-english-session-s0025",
+        "01-csu-bakersfield-english-session-s0026",
+        "01-csu-bakersfield-english-session-s0027",
+        "01-csu-bakersfield-english-session-s0028",
+        "01-csu-bakersfield-english-session-s0029",
+        "01-csu-bakersfield-english-session-s0030"
+      ],
+      "context_before_ids": [],
+      "context_after_ids": [],
+      "context_text": "We'll learn more about, about the guru, Sri Namramuni Maharaj Sahib as we go. But I want to introduce our speaker today, Param Asmitaji Mahasataji, who is one among the disciples of Gurudev. She's a leading cosmetologist, having treated renowned celebrities in India, and her life underwent a complete transformation when Asmitaji Mahasatji heard just one audio CD of Param Gurudev's discourse on the real identity of the soul. After deep contemplation, she decided to adopt Jain Diksha, that is renunciation from the materialistic world in 2016 under the guidance of Gurudev. Since then she's dedicated her life in the pursuit of truth. She has been delivering online discourses on various subjects of Jainism for devotees from various countries like the United States, but also the UK, Malaysia, Singapore, UAE, Sudan, Congo, Sweden, and Australia.",
+      "start_timestamp": null,
+      "end_timestamp": null,
+      "boundary_reason": "max_sentences",
+      "forced_boundary": false,
+      "oversize": false
+    },
+    {
+      "group_id": "01-csu-bakersfield-english-session-g0007",
+      "sentence_ids": [
+        "01-csu-bakersfield-english-session-s0031",
+        "01-csu-bakersfield-english-session-s0032",
+        "01-csu-bakersfield-english-session-s0033",
+        "01-csu-bakersfield-english-session-s0034"
+      ],
+      "context_before_ids": [],
+      "context_after_ids": [],
+      "context_text": "That's quite a resume. So we were fortunate to have her with us. with us this morning. So without further ado, please welcome Asmita Ji Masaji.",
+      "start_timestamp": null,
+      "end_timestamp": null,
+      "boundary_reason": "turn_change",
+      "forced_boundary": false,
+      "oversize": false
+    },
+    {
+      "group_id": "01-csu-bakersfield-english-session-g0008",
+      "sentence_ids": [
+        "01-csu-bakersfield-english-session-s0035",
+        "01-csu-bakersfield-english-session-s0036",
+        "01-csu-bakersfield-english-session-s0037",
+        "01-csu-bakersfield-english-session-s0038",
+        "01-csu-bakersfield-english-session-s0039",
+        "01-csu-bakersfield-english-session-s0040"
+      ],
+      "context_before_ids": [],
+      "context_after_ids": [],
+      "context_text": "Shasanpati Shraman Bhagwan Mahavir Swami ne bhavpurvak vandan. Asim upkari rashtrasant param gurudev aap shreena shree charanoma bhavpurvak vandan. a very warm welcome. To all of you It's very interesting to know the curiosity. that you all have within your hearts to know about all the different religions of this world. And today, we have been blessed with this opportunity to gain some insight.",
+      "start_timestamp": null,
+      "end_timestamp": null,
+      "boundary_reason": "end",
+      "forced_boundary": false,
+      "oversize": false
+    }
+  ],
+  "results": [
+    {
+      "sentence_id": "01-csu-bakersfield-english-session-s0001",
+      "group_id": "01-csu-bakersfield-english-session-g0001",
+      "source_text": "Okay, I just wanted to say good morning to everyone.",
+      "llm_input_text": "Okay, I just wanted to say good morning to everyone.",
+      "skipped_spans": [],
+      "translation_status": "translated",
+      "candidate_gloss": "GOOD_MORNING EVERYONE",
+      "candidate_tokens": [
+        "GOOD_MORNING",
+        "EVERYONE"
+      ],
+      "final_gloss": "GOOD_MORNING EVERYONE",
+      "final_tokens": [
+        "GOOD_MORNING",
+        "EVERYONE"
+      ],
+      "applied_rules": [],
+      "validation": {
+        "status": "review_required",
+        "warnings": [
+          {
+            "code": "possible_omission",
+            "severity": "review",
+            "message": "Gloss has 2 tokens for 7 content words in the source."
+          }
+        ]
+      },
+      "review_status": "unreviewed",
+      "uncertainty_notes": "",
+      "uncertain_parts": [],
+      "needs_human_review": true,
+      "llm_status": "ok",
+      "llm": {
+        "status": "ok",
+        "needs_human_review": false,
+        "uncertain": false,
+        "uncertain_parts": [],
+        "notes": "",
+        "echoed_source_text": "Okay, I just wanted to say good morning to everyone."
+      },
+      "error": null,
+      "speaker_id": "Speaker 1",
+      "start_timestamp": null,
+      "end_timestamp": null,
+      "turn_index": 0,
+      "source_metadata": {
+        "source_id": "01-csu-bakersfield-english-session",
+        "parent_chunk_id": "01-csu-bakersfield-english-session-0001",
+        "split_method": null,
+        "piece": [
+          1,
+          1
+        ],
+        "source_start_offset": 161,
+        "source_end_offset": 213,
+        "cue_indices": null,
+        "cue_ids": null,
+        "incomplete": false,
+        "depends_on_previous": false,
+        "dependency_reasons": []
+      },
+      "metadata": {
+        "model": "groq/openai/gpt-oss-120b",
+        "prompt_version": "8.0",
+        "llm_config": {
+          "provider": "groq",
+          "model": "openai/gpt-oss-120b",
+          "reasoning_effort": "low",
+          "temperature": 0.0,
+          "max_output_tokens": 8192,
+          "prompt_version": "8.0",
+          "thinking_budget": null,
+          "empty_gloss_retry": true,
+          "references_file": null,
+          "reference_entries_loaded": 0
+        },
+        "rule_set_version": "0.1.0",
+        "active_rules": [
+          "R-FMT-01",
+          "R-ART-01",
+          "R-SKIP-01"
+        ],
+        "result_schema_version": "1.0",
+        "rule_pass_completed": true,
+        "cache_hit": false
+      }
+    },
+    {
+      "sentence_id": "01-csu-bakersfield-english-session-s0002",
+      "group_id": "01-csu-bakersfield-english-session-g0001",
+      "source_text": "I know my students are still coming in and joining us and I see we have a number of other guests.",
+      "llm_input_text": "I know my students are still coming in and joining us and I see we have a number of other guests.",
+      "skipped_spans": [],
+      "translation_status": "translated",
+      "candidate_gloss": "STUDENT STILL COME JOIN WE NUMBER OTHER GUEST",
+      "candidate_tokens": [
+        "STUDENT",
+        "STILL",
+        "COME",
+        "JOIN",
+        "WE",
+        "NUMBER",
+        "OTHER",
+        "GUEST"
+      ],
+      "final_gloss": "STUDENT STILL COME JOIN WE NUMBER OTHER GUEST",
+      "final_tokens": [
+        "STUDENT",
+        "STILL",
+        "COME",
+        "JOIN",
+        "WE",
+        "NUMBER",
+        "OTHER",
+        "GUEST"
+      ],
+      "applied_rules": [],
+      "validation": {
+        "status": "pass",
+        "warnings": []
+      },
+      "review_status": "unreviewed",
+      "uncertainty_notes": "",
+      "uncertain_parts": [],
+      "needs_human_review": false,
+      "llm_status": "ok",
+      "llm": {
+        "status": "ok",
+        "needs_human_review": false,
+        "uncertain": false,
+        "uncertain_parts": [],
+        "notes": "",
+        "echoed_source_text": "I know my students are still coming in and joining us and I see we have a number of other guests."
+      },
+      "error": null,
+      "speaker_id": "Speaker 1",
+      "start_timestamp": null,
+      "end_timestamp": null,
+      "turn_index": 0,
+      "source_metadata": {
+        "source_id": "01-csu-bakersfield-english-session",
+        "parent_chunk_id": "01-csu-bakersfield-english-session-0002",
+        "split_method": null,
+        "piece": [
+          1,
+          1
+        ],
+        "source_start_offset": 214,
+        "source_end_offset": 311,
+        "cue_indices": null,
+        "cue_ids": null,
+        "incomplete": false,
+        "depends_on_previous": false,
+        "dependency_reasons": []
+      },
+      "metadata": {
+        "model": "groq/openai/gpt-oss-120b",
+        "prompt_version": "8.0",
+        "llm_config": {
+          "provider": "groq",
+          "model": "openai/gpt-oss-120b",
+          "reasoning_effort": "low",
+          "temperature": 0.0,
+          "max_output_tokens": 8192,
+          "prompt_version": "8.0",
+          "thinking_budget": null,
+          "empty_gloss_retry": true,
+          "references_file": null,
+          "reference_entries_loaded": 0
+        },
+        "rule_set_version": "0.1.0",
+        "active_rules": [
+          "R-FMT-01",
+          "R-ART-01",
+          "R-SKIP-01"
+        ],
+        "result_schema_version": "1.0",
+        "rule_pass_completed": true,
+        "cache_hit": false
+      }
+    },
+    {
+      "sentence_id": "01-csu-bakersfield-english-session-s0003",
+      "group_id": "01-csu-bakersfield-english-session-g0001",
+      "source_text": "I'm happy to have you with us this morning.",
+      "llm_input_text": "I'm happy to have you with us this morning.",
+      "skipped_spans": [],
+      "translation_status": "translated",
+      "candidate_gloss": "HAPPY YOU WITH US THIS MORNING",
+      "candidate_tokens": [
+        "HAPPY",
+        "YOU",
+        "WITH",
+        "US",
+        "THIS",
+        "MORNING"
+      ],
+      "final_gloss": "HAPPY YOU WITH US THIS MORNING",
+      "final_tokens": [
+        "HAPPY",
+        "YOU",
+        "WITH",
+        "US",
+        "THIS",
+        "MORNING"
+      ],
+      "applied_rules": [],
+      "validation": {
+        "status": "pass",
+        "warnings": []
+      },
+      "review_status": "unreviewed",
+      "uncertainty_notes": "",
+      "uncertain_parts": [],
+      "needs_human_review": false,
+      "llm_status": "ok",
+      "llm": {
+        "status": "ok",
+        "needs_human_review": false,
+        "uncertain": false,
+        "uncertain_parts": [],
+        "notes": "",
+        "echoed_source_text": "I'm happy to have you with us this morning."
+      },
+      "error": null,
+      "speaker_id": "Speaker 1",
+      "start_timestamp": null,
+      "end_timestamp": null,
+      "turn_index": 0,
+      "source_metadata": {
+        "source_id": "01-csu-bakersfield-english-session",
+        "parent_chunk_id": "01-csu-bakersfield-english-session-0003",
+        "split_method": null,
+        "piece": [
+          1,
+          1
+        ],
+        "source_start_offset": 312,
+        "source_end_offset": 355,
+        "cue_indices": null,
+        "cue_ids": null,
+        "incomplete": false,
+        "depends_on_previous": false,
+        "dependency_reasons": []
+      },
+      "metadata": {
+        "model": "groq/openai/gpt-oss-120b",
+        "prompt_version": "8.0",
+        "llm_config": {
+          "provider": "groq",
+          "model": "openai/gpt-oss-120b",
+          "reasoning_effort": "low",
+          "temperature": 0.0,
+          "max_output_tokens": 8192,
+          "prompt_version": "8.0",
+          "thinking_budget": null,
+          "empty_gloss_retry": true,
+          "references_file": null,
+          "reference_entries_loaded": 0
+        },
+        "rule_set_version": "0.1.0",
+        "active_rules": [
+          "R-FMT-01",
+          "R-ART-01",
+          "R-SKIP-01"
+        ],
+        "result_schema_version": "1.0",
+        "rule_pass_completed": true,
+        "cache_hit": false
+      }
+    },
+    {
+      "sentence_id": "01-csu-bakersfield-english-session-s0004",
+      "group_id": "01-csu-bakersfield-english-session-g0001",
+      "source_text": "or this evening depending on where you are in the world.",
+      "llm_input_text": "or this evening depending on where you are in the world.",
+      "skipped_spans": [],
+      "translation_status": "translated",
+      "candidate_gloss": "OR THIS EVENING DEPEND WHERE YOU WORLD",
+      "candidate_tokens": [
+        "OR",
+        "THIS",
+        "EVENING",
+        "DEPEND",
+        "WHERE",
+        "YOU",
+        "WORLD"
+      ],
+      "final_gloss": "OR THIS EVENING DEPEND WHERE YOU WORLD",
+      "final_tokens": [
+        "OR",
+        "THIS",
+        "EVENING",
+        "DEPEND",
+        "WHERE",
+        "YOU",
+        "WORLD"
+      ],
+      "applied_rules": [],
+      "validation": {
+        "status": "pass",
+        "warnings": []
+      },
+      "review_status": "unreviewed",
+      "uncertainty_notes": "",
+      "uncertain_parts": [],
+      "needs_human_review": false,
+      "llm_status": "ok",
+      "llm": {
+        "status": "ok",
+        "needs_human_review": false,
+        "uncertain": false,
+        "uncertain_parts": [],
+        "notes": "",
+        "echoed_source_text": "or this evening depending on where you are in the world."
+      },
+      "error": null,
+      "speaker_id": "Speaker 1",
+      "start_timestamp": null,
+      "end_timestamp": null,
+      "turn_index": 0,
+      "source_metadata": {
+        "source_id": "01-csu-bakersfield-english-session",
+        "parent_chunk_id": "01-csu-bakersfield-english-session-0004",
+        "split_method": null,
+        "piece": [
+          1,
+          1
+        ],
+        "source_start_offset": 356,
+        "source_end_offset": 412,
+        "cue_indices": null,
+        "cue_ids": null,
+        "incomplete": false,
+        "depends_on_previous": true,
+        "dependency_reasons": [
+          "lowercase_start",
+          "continuation_word"
+        ]
+      },
+      "metadata": {
+        "model": "groq/openai/gpt-oss-120b",
+        "prompt_version": "8.0",
+        "llm_config": {
+          "provider": "groq",
+          "model": "openai/gpt-oss-120b",
+          "reasoning_effort": "low",
+          "temperature": 0.0,
+          "max_output_tokens": 8192,
+          "prompt_version": "8.0",
+          "thinking_budget": null,
+          "empty_gloss_retry": true,
+          "references_file": null,
+          "reference_entries_loaded": 0
+        },
+        "rule_set_version": "0.1.0",
+        "active_rules": [
+          "R-FMT-01",
+          "R-ART-01",
+          "R-SKIP-01"
+        ],
+        "result_schema_version": "1.0",
+        "rule_pass_completed": true,
+        "cache_hit": false
+      }
+    },
+    {
+      "sentence_id": "01-csu-bakersfield-english-session-s0005",
+      "group_id": "01-csu-bakersfield-english-session-g0001",
+      "source_text": "I know we have a global audience today.",
+      "llm_input_text": "I know we have a global audience today.",
+      "skipped_spans": [],
+      "translation_status": "translated",
+      "candidate_gloss": "KNOW WE GLOBAL AUDIENCE TODAY",
+      "candidate_tokens": [
+        "KNOW",
+        "WE",
+        "GLOBAL",
+        "AUDIENCE",
+        "TODAY"
+      ],
+      "final_gloss": "KNOW WE GLOBAL AUDIENCE TODAY",
+      "final_tokens": [
+        "KNOW",
+        "WE",
+        "GLOBAL",
+        "AUDIENCE",
+        "TODAY"
+      ],
+      "applied_rules": [],
+      "validation": {
+        "status": "pass",
+        "warnings": []
+      },
+      "review_status": "unreviewed",
+      "uncertainty_notes": "",
+      "uncertain_parts": [],
+      "needs_human_review": false,
+      "llm_status": "ok",
+      "llm": {
+        "status": "ok",
+        "needs_human_review": false,
+        "uncertain": false,
+        "uncertain_parts": [],
+        "notes": "",
+        "echoed_source_text": "I know we have a global audience today."
+      },
+      "error": null,
+      "speaker_id": "Speaker 1",
+      "start_timestamp": null,
+      "end_timestamp": null,
+      "turn_index": 0,
+      "source_metadata": {
+        "source_id": "01-csu-bakersfield-english-session",
+        "parent_chunk_id": "01-csu-bakersfield-english-session-0005",
+        "split_method": null,
+        "piece": [
+          1,
+          1
+        ],
+        "source_start_offset": 413,
+        "source_end_offset": 452,
+        "cue_indices": null,
+        "cue_ids": null,
+        "incomplete": false,
+        "depends_on_previous": false,
+        "dependency_reasons": []
+      },
+      "metadata": {
+        "model": "groq/openai/gpt-oss-120b",
+        "prompt_version": "8.0",
+        "llm_config": {
+          "provider": "groq",
+          "model": "openai/gpt-oss-120b",
+          "reasoning_effort": "low",
+          "temperature": 0.0,
+          "max_output_tokens": 8192,
+          "prompt_version": "8.0",
+          "thinking_budget": null,
+          "empty_gloss_retry": true,
+          "references_file": null,
+          "reference_entries_loaded": 0
+        },
+        "rule_set_version": "0.1.0",
+        "active_rules": [
+          "R-FMT-01",
+          "R-ART-01",
+          "R-SKIP-01"
+        ],
+        "result_schema_version": "1.0",
+        "rule_pass_completed": true,
+        "cache_hit": false
+      }
+    },
+    {
+      "sentence_id": "01-csu-bakersfield-english-session-s0006",
+      "group_id": "01-csu-bakersfield-english-session-g0001",
+      "source_text": "It's pretty exciting I think.",
+      "llm_input_text": "It's pretty exciting I think.",
+      "skipped_spans": [],
+      "translation_status": "translated",
+      "candidate_gloss": "PRETTY EXCITING THINK",
+      "candidate_tokens": [
+        "PRETTY",
+        "EXCITING",
+        "THINK"
+      ],
+      "final_gloss": "PRETTY EXCITING THINK",
+      "final_tokens": [
+        "PRETTY",
+        "EXCITING",
+        "THINK"
+      ],
+      "applied_rules": [],
+      "validation": {
+        "status": "pass",
+        "warnings": []
+      },
+      "review_status": "unreviewed",
+      "uncertainty_notes": "",
+      "uncertain_parts": [],
+      "needs_human_review": false,
+      "llm_status": "ok",
+      "llm": {
+        "status": "ok",
+        "needs_human_review": false,
+        "uncertain": false,
+        "uncertain_parts": [],
+        "notes": "",
+        "echoed_source_text": "It's pretty exciting I think."
+      },
+      "error": null,
+      "speaker_id": "Speaker 1",
+      "start_timestamp": null,
+      "end_timestamp": null,
+      "turn_index": 0,
+      "source_metadata": {
+        "source_id": "01-csu-bakersfield-english-session",
+        "parent_chunk_id": "01-csu-bakersfield-english-session-0006",
+        "split_method": null,
+        "piece": [
+          1,
+          1
+        ],
+        "source_start_offset": 453,
+        "source_end_offset": 482,
+        "cue_indices": null,
+        "cue_ids": null,
+        "incomplete": false,
+        "depends_on_previous": false,
+        "dependency_reasons": []
+      },
+      "metadata": {
+        "model": "groq/openai/gpt-oss-120b",
+        "prompt_version": "8.0",
+        "llm_config": {
+          "provider": "groq",
+          "model": "openai/gpt-oss-120b",
+          "reasoning_effort": "low",
+          "temperature": 0.0,
+          "max_output_tokens": 8192,
+          "prompt_version": "8.0",
+          "thinking_budget": null,
+          "empty_gloss_retry": true,
+          "references_file": null,
+          "reference_entries_loaded": 0
+        },
+        "rule_set_version": "0.1.0",
+        "active_rules": [
+          "R-FMT-01",
+          "R-ART-01",
+          "R-SKIP-01"
+        ],
+        "result_schema_version": "1.0",
+        "rule_pass_completed": true,
+        "cache_hit": false
+      }
+    },
+    {
+      "sentence_id": "01-csu-bakersfield-english-session-s0007",
+      "group_id": "01-csu-bakersfield-english-session-g0001",
+      "source_text": "I'm glad we have this opportunity.",
+      "llm_input_text": "I'm glad we have this opportunity.",
+      "skipped_spans": [],
+      "translation_status": "translated",
+      "candidate_gloss": "GLAD WE THIS OPPORTUNITY",
+      "candidate_tokens": [
+        "GLAD",
+        "WE",
+        "THIS",
+        "OPPORTUNITY"
+      ],
+      "final_gloss": "GLAD WE THIS OPPORTUNITY",
+      "final_tokens": [
+        "GLAD",
+        "WE",
+        "THIS",
+        "OPPORTUNITY"
+      ],
+      "applied_rules": [],
+      "validation": {
+        "status": "pass",
+        "warnings": []
+      },
+      "review_status": "unreviewed",
+      "uncertainty_notes": "",
+      "uncertain_parts": [],
+      "needs_human_review": false,
+      "llm_status": "ok",
+      "llm": {
+        "status": "ok",
+        "needs_human_review": false,
+        "uncertain": false,
+        "uncertain_parts": [],
+        "notes": "",
+        "echoed_source_text": "I'm glad we have this opportunity."
+      },
+      "error": null,
+      "speaker_id": "Speaker 1",
+      "start_timestamp": null,
+      "end_timestamp": null,
+      "turn_index": 0,
+      "source_metadata": {
+        "source_id": "01-csu-bakersfield-english-session",
+        "parent_chunk_id": "01-csu-bakersfield-english-session-0007",
+        "split_method": null,
+        "piece": [
+          1,
+          1
+        ],
+        "source_start_offset": 483,
+        "source_end_offset": 517,
+        "cue_indices": null,
+        "cue_ids": null,
+        "incomplete": false,
+        "depends_on_previous": false,
+        "dependency_reasons": []
+      },
+      "metadata": {
+        "model": "groq/openai/gpt-oss-120b",
+        "prompt_version": "8.0",
+        "llm_config": {
+          "provider": "groq",
+          "model": "openai/gpt-oss-120b",
+          "reasoning_effort": "low",
+          "temperature": 0.0,
+          "max_output_tokens": 8192,
+          "prompt_version": "8.0",
+          "thinking_budget": null,
+          "empty_gloss_retry": true,
+          "references_file": null,
+          "reference_entries_loaded": 0
+        },
+        "rule_set_version": "0.1.0",
+        "active_rules": [
+          "R-FMT-01",
+          "R-ART-01",
+          "R-SKIP-01"
+        ],
+        "result_schema_version": "1.0",
+        "rule_pass_completed": true,
+        "cache_hit": false
+      }
+    },
+    {
+      "sentence_id": "01-csu-bakersfield-english-session-s0008",
+      "group_id": "01-csu-bakersfield-english-session-g0002",
+      "source_text": "Okay everyone, like we can begin.",
+      "llm_input_text": "Okay everyone, like we can begin.",
+      "skipped_spans": [],
+      "translation_status": "translated",
+      "candidate_gloss": "OK EVERYONE CAN BEGIN",
+      "candidate_tokens": [
+        "OK",
+        "EVERYONE",
+        "CAN",
+        "BEGIN"
+      ],
+      "final_gloss": "OK EVERYONE CAN BEGIN",
+      "final_tokens": [
+        "OK",
+        "EVERYONE",
+        "CAN",
+        "BEGIN"
+      ],
+      "applied_rules": [],
+      "validation": {
+        "status": "pass",
+        "warnings": []
+      },
+      "review_status": "unreviewed",
+      "uncertainty_notes": "",
+      "uncertain_parts": [],
+      "needs_human_review": false,
+      "llm_status": "ok",
+      "llm": {
+        "status": "ok",
+        "needs_human_review": false,
+        "uncertain": false,
+        "uncertain_parts": [],
+        "notes": "",
+        "echoed_source_text": "Okay everyone, like we can begin."
+      },
+      "error": null,
+      "speaker_id": "Speaker 1",
+      "start_timestamp": null,
+      "end_timestamp": null,
+      "turn_index": 0,
+      "source_metadata": {
+        "source_id": "01-csu-bakersfield-english-session",
+        "parent_chunk_id": "01-csu-bakersfield-english-session-0008",
+        "split_method": null,
+        "piece": [
+          1,
+          1
+        ],
+        "source_start_offset": 518,
+        "source_end_offset": 551,
+        "cue_indices": null,
+        "cue_ids": null,
+        "incomplete": false,
+        "depends_on_previous": false,
+        "dependency_reasons": []
+      },
+      "metadata": {
+        "model": "groq/openai/gpt-oss-120b",
+        "prompt_version": "8.0",
+        "llm_config": {
+          "provider": "groq",
+          "model": "openai/gpt-oss-120b",
+          "reasoning_effort": "low",
+          "temperature": 0.0,
+          "max_output_tokens": 8192,
+          "prompt_version": "8.0",
+          "thinking_budget": null,
+          "empty_gloss_retry": true,
+          "references_file": null,
+          "reference_entries_loaded": 0
+        },
+        "rule_set_version": "0.1.0",
+        "active_rules": [
+          "R-FMT-01",
+          "R-ART-01",
+          "R-SKIP-01"
+        ],
+        "result_schema_version": "1.0",
+        "rule_pass_completed": true,
+        "cache_hit": false
+      }
+    },
+    {
+      "sentence_id": "01-csu-bakersfield-english-session-s0009",
+      "group_id": "01-csu-bakersfield-english-session-g0002",
+      "source_text": "just to to clarify, this is a introductory course at California State University Bakersfield on the religions of Asia.",
+      "llm_input_text": "just to to clarify, this is a introductory course at California State University Bakersfield on the religions of Asia.",
+      "skipped_spans": [],
+      "translation_status": "translated",
+      "candidate_gloss": "CLARIFY THIS IS INTRODUCTORY COURSE FS:CALIFORNIA FS:STATE FS:UNIVERSITY FS:BAKERSFIELD ON RELIGION ASIA",
+      "candidate_tokens": [
+        "CLARIFY",
+        "THIS",
+        "IS",
+        "INTRODUCTORY",
+        "COURSE",
+        "FS:CALIFORNIA",
+        "FS:STATE",
+        "FS:UNIVERSITY",
+        "FS:BAKERSFIELD",
+        "ON",
+        "RELIGION",
+        "ASIA"
+      ],
+      "final_gloss": "CLARIFY THIS IS INTRODUCTORY COURSE FS:CALIFORNIA FS:STATE FS:UNIVERSITY FS:BAKERSFIELD ON RELIGION ASIA",
+      "final_tokens": [
+        "CLARIFY",
+        "THIS",
+        "IS",
+        "INTRODUCTORY",
+        "COURSE",
+        "FS:CALIFORNIA",
+        "FS:STATE",
+        "FS:UNIVERSITY",
+        "FS:BAKERSFIELD",
+        "ON",
+        "RELIGION",
+        "ASIA"
+      ],
+      "applied_rules": [],
+      "validation": {
+        "status": "pass",
+        "warnings": []
+      },
+      "review_status": "unreviewed",
+      "uncertainty_notes": "",
+      "uncertain_parts": [],
+      "needs_human_review": false,
+      "llm_status": "ok",
+      "llm": {
+        "status": "ok",
+        "needs_human_review": false,
+        "uncertain": false,
+        "uncertain_parts": [],
+        "notes": "",
+        "echoed_source_text": "just to to clarify, this is a introductory course at California State University Bakersfield on the religions of Asia."
+      },
+      "error": null,
+      "speaker_id": "Speaker 1",
+      "start_timestamp": null,
+      "end_timestamp": null,
+      "turn_index": 0,
+      "source_metadata": {
+        "source_id": "01-csu-bakersfield-english-session",
+        "parent_chunk_id": "01-csu-bakersfield-english-session-0009",
+        "split_method": null,
+        "piece": [
+          1,
+          1
+        ],
+        "source_start_offset": 552,
+        "source_end_offset": 670,
+        "cue_indices": null,
+        "cue_ids": null,
+        "incomplete": false,
+        "depends_on_previous": true,
+        "dependency_reasons": [
+          "lowercase_start"
+        ]
+      },
+      "metadata": {
+        "model": "groq/openai/gpt-oss-120b",
+        "prompt_version": "8.0",
+        "llm_config": {
+          "provider": "groq",
+          "model": "openai/gpt-oss-120b",
+          "reasoning_effort": "low",
+          "temperature": 0.0,
+          "max_output_tokens": 8192,
+          "prompt_version": "8.0",
+          "thinking_budget": null,
+          "empty_gloss_retry": true,
+          "references_file": null,
+          "reference_entries_loaded": 0
+        },
+        "rule_set_version": "0.1.0",
+        "active_rules": [
+          "R-FMT-01",
+          "R-ART-01",
+          "R-SKIP-01"
+        ],
+        "result_schema_version": "1.0",
+        "rule_pass_completed": true,
+        "cache_hit": false
+      }
+    },
+    {
+      "sentence_id": "01-csu-bakersfield-english-session-s0010",
+      "group_id": "01-csu-bakersfield-english-session-g0002",
+      "source_text": "And this week in particular, we are taking a look at the Jane tradition and we are fortunate to have with us some guest speakers to teach us more about the tradition from their perspective.",
+      "llm_input_text": "And this week in particular, we are taking a look at the tradition and we are fortunate to have with us some guest speakers to teach us more about the tradition from their perspective.",
+      "skipped_spans": [
+        {
+          "start": 57,
+          "end": 61,
+          "text": "Jane",
+          "reason": "skip_term"
+        }
+      ],
+      "translation_status": "translated",
+      "candidate_gloss": "THIS WEEK PARTICULAR WE TAKE LOOK AT TRADITION WE FORTUNATE HAVE GUEST SPEAKER TEACH US MORE ABOUT TRADITION FROM THEIR PERSPECTIVE",
+      "candidate_tokens": [
+        "THIS",
+        "WEEK",
+        "PARTICULAR",
+        "WE",
+        "TAKE",
+        "LOOK",
+        "AT",
+        "TRADITION",
+        "WE",
+        "FORTUNATE",
+        "HAVE",
+        "GUEST",
+        "SPEAKER",
+        "TEACH",
+        "US",
+        "MORE",
+        "ABOUT",
+        "TRADITION",
+        "FROM",
+        "THEIR",
+        "PERSPECTIVE"
+      ],
+      "final_gloss": "THIS WEEK PARTICULAR WE TAKE LOOK AT TRADITION WE FORTUNATE HAVE GUEST SPEAKER TEACH US MORE ABOUT TRADITION FROM THEIR PERSPECTIVE",
+      "final_tokens": [
+        "THIS",
+        "WEEK",
+        "PARTICULAR",
+        "WE",
+        "TAKE",
+        "LOOK",
+        "AT",
+        "TRADITION",
+        "WE",
+        "FORTUNATE",
+        "HAVE",
+        "GUEST",
+        "SPEAKER",
+        "TEACH",
+        "US",
+        "MORE",
+        "ABOUT",
+        "TRADITION",
+        "FROM",
+        "THEIR",
+        "PERSPECTIVE"
+      ],
+      "applied_rules": [],
+      "validation": {
+        "status": "pass",
+        "warnings": [
+          {
+            "code": "spans_skipped",
+            "severity": "info",
+            "message": "1 span(s) were excluded from translation by design."
+          }
+        ]
+      },
+      "review_status": "unreviewed",
+      "uncertainty_notes": "",
+      "uncertain_parts": [],
+      "needs_human_review": false,
+      "llm_status": "ok",
+      "llm": {
+        "status": "ok",
+        "needs_human_review": false,
+        "uncertain": false,
+        "uncertain_parts": [],
+        "notes": "",
+        "echoed_source_text": "And this week in particular, we are taking a look at the tradition and we are fortunate to have with us some guest speakers to teach us more about the tradition from their perspective."
+      },
+      "error": null,
+      "speaker_id": "Speaker 1",
+      "start_timestamp": null,
+      "end_timestamp": null,
+      "turn_index": 0,
+      "source_metadata": {
+        "source_id": "01-csu-bakersfield-english-session",
+        "parent_chunk_id": "01-csu-bakersfield-english-session-0010",
+        "split_method": null,
+        "piece": [
+          1,
+          1
+        ],
+        "source_start_offset": 671,
+        "source_end_offset": 860,
+        "cue_indices": null,
+        "cue_ids": null,
+        "incomplete": false,
+        "depends_on_previous": true,
+        "dependency_reasons": [
+          "continuation_word"
+        ]
+      },
+      "metadata": {
+        "model": "groq/openai/gpt-oss-120b",
+        "prompt_version": "8.0",
+        "llm_config": {
+          "provider": "groq",
+          "model": "openai/gpt-oss-120b",
+          "reasoning_effort": "low",
+          "temperature": 0.0,
+          "max_output_tokens": 8192,
+          "prompt_version": "8.0",
+          "thinking_budget": null,
+          "empty_gloss_retry": true,
+          "references_file": null,
+          "reference_entries_loaded": 0
+        },
+        "rule_set_version": "0.1.0",
+        "active_rules": [
+          "R-FMT-01",
+          "R-ART-01",
+          "R-SKIP-01"
+        ],
+        "result_schema_version": "1.0",
+        "rule_pass_completed": true,
+        "cache_hit": false
+      }
+    },
+    {
+      "sentence_id": "01-csu-bakersfield-english-session-s0011",
+      "group_id": "01-csu-bakersfield-english-session-g0002",
+      "source_text": "These are people who have practiced the religion for quite some time and can share with us.",
+      "llm_input_text": "These are people who have practiced the religion for quite some time and can share with us.",
+      "skipped_spans": [],
+      "translation_status": "translated",
+      "candidate_gloss": "THESE PEOPLE WHO PRACTICE RELIGION LONG TIME CAN SHARE WITH US",
+      "candidate_tokens": [
+        "THESE",
+        "PEOPLE",
+        "WHO",
+        "PRACTICE",
+        "RELIGION",
+        "LONG",
+        "TIME",
+        "CAN",
+        "SHARE",
+        "WITH",
+        "US"
+      ],
+      "final_gloss": "THESE PEOPLE WHO PRACTICE RELIGION LONG TIME CAN SHARE WITH US",
+      "final_tokens": [
+        "THESE",
+        "PEOPLE",
+        "WHO",
+        "PRACTICE",
+        "RELIGION",
+        "LONG",
+        "TIME",
+        "CAN",
+        "SHARE",
+        "WITH",
+        "US"
+      ],
+      "applied_rules": [],
+      "validation": {
+        "status": "pass",
+        "warnings": []
+      },
+      "review_status": "unreviewed",
+      "uncertainty_notes": "",
+      "uncertain_parts": [],
+      "needs_human_review": false,
+      "llm_status": "ok",
+      "llm": {
+        "status": "ok",
+        "needs_human_review": false,
+        "uncertain": false,
+        "uncertain_parts": [],
+        "notes": "",
+        "echoed_source_text": "These are people who have practiced the religion for quite some time and can share with us."
+      },
+      "error": null,
+      "speaker_id": "Speaker 1",
+      "start_timestamp": null,
+      "end_timestamp": null,
+      "turn_index": 0,
+      "source_metadata": {
+        "source_id": "01-csu-bakersfield-english-session",
+        "parent_chunk_id": "01-csu-bakersfield-english-session-0011",
+        "split_method": null,
+        "piece": [
+          1,
+          1
+        ],
+        "source_start_offset": 861,
+        "source_end_offset": 952,
+        "cue_indices": null,
+        "cue_ids": null,
+        "incomplete": false,
+        "depends_on_previous": true,
+        "dependency_reasons": [
+          "pronoun_start"
+        ]
+      },
+      "metadata": {
+        "model": "groq/openai/gpt-oss-120b",
+        "prompt_version": "8.0",
+        "llm_config": {
+          "provider": "groq",
+          "model": "openai/gpt-oss-120b",
+          "reasoning_effort": "low",
+          "temperature": 0.0,
+          "max_output_tokens": 8192,
+          "prompt_version": "8.0",
+          "thinking_budget": null,
+          "empty_gloss_retry": true,
+          "references_file": null,
+          "reference_entries_loaded": 0
+        },
+        "rule_set_version": "0.1.0",
+        "active_rules": [
+          "R-FMT-01",
+          "R-ART-01",
+          "R-SKIP-01"
+        ],
+        "result_schema_version": "1.0",
+        "rule_pass_completed": true,
+        "cache_hit": false
+      }
+    },
+    {
+      "sentence_id": "01-csu-bakersfield-english-session-s0012",
+      "group_id": "01-csu-bakersfield-english-session-g0002",
+      "source_text": "some basics on Jane ideas, philosophy and practice.",
+      "llm_input_text": "some basics on ideas, philosophy and practice.",
+      "skipped_spans": [
+        {
+          "start": 15,
+          "end": 19,
+          "text": "Jane",
+          "reason": "skip_term"
+        }
+      ],
+      "translation_status": "translated",
+      "candidate_gloss": "SOME BASIC ON IDEA PHILOSOPHY PRACTICE",
+      "candidate_tokens": [
+        "SOME",
+        "BASIC",
+        "ON",
+        "IDEA",
+        "PHILOSOPHY",
+        "PRACTICE"
+      ],
+      "final_gloss": "SOME BASIC ON IDEA PHILOSOPHY PRACTICE",
+      "final_tokens": [
+        "SOME",
+        "BASIC",
+        "ON",
+        "IDEA",
+        "PHILOSOPHY",
+        "PRACTICE"
+      ],
+      "applied_rules": [],
+      "validation": {
+        "status": "pass",
+        "warnings": [
+          {
+            "code": "spans_skipped",
+            "severity": "info",
+            "message": "1 span(s) were excluded from translation by design."
+          }
+        ]
+      },
+      "review_status": "unreviewed",
+      "uncertainty_notes": "",
+      "uncertain_parts": [],
+      "needs_human_review": false,
+      "llm_status": "ok",
+      "llm": {
+        "status": "ok",
+        "needs_human_review": false,
+        "uncertain": false,
+        "uncertain_parts": [],
+        "notes": "",
+        "echoed_source_text": "some basics on ideas, philosophy and practice."
+      },
+      "error": null,
+      "speaker_id": "Speaker 1",
+      "start_timestamp": null,
+      "end_timestamp": null,
+      "turn_index": 0,
+      "source_metadata": {
+        "source_id": "01-csu-bakersfield-english-session",
+        "parent_chunk_id": "01-csu-bakersfield-english-session-0012",
+        "split_method": null,
+        "piece": [
+          1,
+          1
+        ],
+        "source_start_offset": 953,
+        "source_end_offset": 1004,
+        "cue_indices": null,
+        "cue_ids": null,
+        "incomplete": false,
+        "depends_on_previous": true,
+        "dependency_reasons": [
+          "lowercase_start"
+        ]
+      },
+      "metadata": {
+        "model": "groq/openai/gpt-oss-120b",
+        "prompt_version": "8.0",
+        "llm_config": {
+          "provider": "groq",
+          "model": "openai/gpt-oss-120b",
+          "reasoning_effort": "low",
+          "temperature": 0.0,
+          "max_output_tokens": 8192,
+          "prompt_version": "8.0",
+          "thinking_budget": null,
+          "empty_gloss_retry": true,
+          "references_file": null,
+          "reference_entries_loaded": 0
+        },
+        "rule_set_version": "0.1.0",
+        "active_rules": [
+          "R-FMT-01",
+          "R-ART-01",
+          "R-SKIP-01"
+        ],
+        "result_schema_version": "1.0",
+        "rule_pass_completed": true,
+        "cache_hit": false
+      }
+    },
+    {
+      "sentence_id": "01-csu-bakersfield-english-session-s0013",
+      "group_id": "01-csu-bakersfield-english-session-g0002",
+      "source_text": "And hopefully we'll have some chance at the end for questions as well.",
+      "llm_input_text": "And hopefully we'll have some chance at the end for questions as well.",
+      "skipped_spans": [],
+      "translation_status": "translated",
+      "candidate_gloss": "HOPEFULLY END HAVE CHANCE FOR QUESTION ALSO",
+      "candidate_tokens": [
+        "HOPEFULLY",
+        "END",
+        "HAVE",
+        "CHANCE",
+        "FOR",
+        "QUESTION",
+        "ALSO"
+      ],
+      "final_gloss": "HOPEFULLY END HAVE CHANCE FOR QUESTION ALSO",
+      "final_tokens": [
+        "HOPEFULLY",
+        "END",
+        "HAVE",
+        "CHANCE",
+        "FOR",
+        "QUESTION",
+        "ALSO"
+      ],
+      "applied_rules": [],
+      "validation": {
+        "status": "pass",
+        "warnings": []
+      },
+      "review_status": "unreviewed",
+      "uncertainty_notes": "",
+      "uncertain_parts": [],
+      "needs_human_review": false,
+      "llm_status": "ok",
+      "llm": {
+        "status": "ok",
+        "needs_human_review": false,
+        "uncertain": false,
+        "uncertain_parts": [],
+        "notes": "",
+        "echoed_source_text": "And hopefully we'll have some chance at the end for questions as well."
+      },
+      "error": null,
+      "speaker_id": "Speaker 1",
+      "start_timestamp": null,
+      "end_timestamp": null,
+      "turn_index": 0,
+      "source_metadata": {
+        "source_id": "01-csu-bakersfield-english-session",
+        "parent_chunk_id": "01-csu-bakersfield-english-session-0013",
+        "split_method": null,
+        "piece": [
+          1,
+          1
+        ],
+        "source_start_offset": 1005,
+        "source_end_offset": 1075,
+        "cue_indices": null,
+        "cue_ids": null,
+        "incomplete": false,
+        "depends_on_previous": true,
+        "dependency_reasons": [
+          "continuation_word"
+        ]
+      },
+      "metadata": {
+        "model": "groq/openai/gpt-oss-120b",
+        "prompt_version": "8.0",
+        "llm_config": {
+          "provider": "groq",
+          "model": "openai/gpt-oss-120b",
+          "reasoning_effort": "low",
+          "temperature": 0.0,
+          "max_output_tokens": 8192,
+          "prompt_version": "8.0",
+          "thinking_budget": null,
+          "empty_gloss_retry": true,
+          "references_file": null,
+          "reference_entries_loaded": 0
+        },
+        "rule_set_version": "0.1.0",
+        "active_rules": [
+          "R-FMT-01",
+          "R-ART-01",
+          "R-SKIP-01"
+        ],
+        "result_schema_version": "1.0",
+        "rule_pass_completed": true,
+        "cache_hit": false
+      }
+    },
+    {
+      "sentence_id": "01-csu-bakersfield-english-session-s0014",
+      "group_id": "01-csu-bakersfield-english-session-g0002",
+      "source_text": "So I want to begin with a greeting which I learned from my Jain friends over the last couple of years, Jai Jin Indra, which is, Shaileshya Didi maybe the best way to explain that, you can correct me if I'm wrong, but it's something like homage to the victor, the Jina.",
+      "llm_input_text": "So I want to begin with a greeting which I learned from my Jain friends over the last couple of years, Indra, which is, Shaileshya Didi maybe the best way to explain that, you can correct me if I'm wrong, but it's something like homage to the victor, the Jina.",
+      "skipped_spans": [
+        {
+          "start": 103,
+          "end": 110,
+          "text": "Jai Jin",
+          "reason": "skip_term"
+        }
+      ],
+      "translation_status": "translated",
+      "candidate_gloss": "I WANT BEGIN WITH GREETING LEARN FROM MY FS:JAIN FRIEND LAST COUPLE YEAR FS:INDRA BEST WAY EXPLAIN YOU CAN CORRECT ME IF WRONG BUT SOMETHING LIKE HOMAGE TO VICTOR FS:JINA",
+      "candidate_tokens": [
+        "I",
+        "WANT",
+        "BEGIN",
+        "WITH",
+        "GREETING",
+        "LEARN",
+        "FROM",
+        "MY",
+        "FS:JAIN",
+        "FRIEND",
+        "LAST",
+        "COUPLE",
+        "YEAR",
+        "FS:INDRA",
+        "BEST",
+        "WAY",
+        "EXPLAIN",
+        "YOU",
+        "CAN",
+        "CORRECT",
+        "ME",
+        "IF",
+        "WRONG",
+        "BUT",
+        "SOMETHING",
+        "LIKE",
+        "HOMAGE",
+        "TO",
+        "VICTOR",
+        "FS:JINA"
+      ],
+      "final_gloss": "I WANT BEGIN WITH GREETING LEARN FROM MY FS:JAIN FRIEND LAST COUPLE YEAR FS:INDRA BEST WAY EXPLAIN YOU CAN CORRECT ME IF WRONG BUT SOMETHING LIKE HOMAGE TO VICTOR FS:JINA",
+      "final_tokens": [
+        "I",
+        "WANT",
+        "BEGIN",
+        "WITH",
+        "GREETING",
+        "LEARN",
+        "FROM",
+        "MY",
+        "FS:JAIN",
+        "FRIEND",
+        "LAST",
+        "COUPLE",
+        "YEAR",
+        "FS:INDRA",
+        "BEST",
+        "WAY",
+        "EXPLAIN",
+        "YOU",
+        "CAN",
+        "CORRECT",
+        "ME",
+        "IF",
+        "WRONG",
+        "BUT",
+        "SOMETHING",
+        "LIKE",
+        "HOMAGE",
+        "TO",
+        "VICTOR",
+        "FS:JINA"
+      ],
+      "applied_rules": [],
+      "validation": {
+        "status": "review_required",
+        "warnings": [
+          {
+            "code": "spans_skipped",
+            "severity": "info",
+            "message": "1 span(s) were excluded from translation by design."
+          },
+          {
+            "code": "name_may_be_missing",
+            "severity": "review",
+            "message": "Capitalised word(s) not found in the gloss: DIDI, SHAILESHYA. May be names or sign-label substitutions."
+          }
+        ]
+      },
+      "review_status": "unreviewed",
+      "uncertainty_notes": "Cultural terms (Jain, Indra, Jina) are fingerspelled due to lack of verified ISL signs.",
+      "uncertain_parts": [
+        "FS:JAIN",
+        "FS:INDRA",
+        "FS:JINA"
+      ],
+      "needs_human_review": true,
+      "llm_status": "ok",
+      "llm": {
+        "status": "ok",
+        "needs_human_review": false,
+        "uncertain": false,
+        "uncertain_parts": [
+          "FS:JAIN",
+          "FS:INDRA",
+          "FS:JINA"
+        ],
+        "notes": "Cultural terms (Jain, Indra, Jina) are fingerspelled due to lack of verified ISL signs.",
+        "echoed_source_text": "So I want to begin with a greeting which I learned from my Jain friends over the last couple of years, Indra, which is, Shaileshya Didi maybe the best way to explain that, you can correct me if I'm wrong, but it's something like homage to the victor, the Jina."
+      },
+      "error": null,
+      "speaker_id": "Speaker 1",
+      "start_timestamp": null,
+      "end_timestamp": null,
+      "turn_index": 0,
+      "source_metadata": {
+        "source_id": "01-csu-bakersfield-english-session",
+        "parent_chunk_id": "01-csu-bakersfield-english-session-0014",
+        "split_method": null,
+        "piece": [
+          1,
+          1
+        ],
+        "source_start_offset": 1076,
+        "source_end_offset": 1352,
+        "cue_indices": null,
+        "cue_ids": null,
+        "incomplete": false,
+        "depends_on_previous": true,
+        "dependency_reasons": [
+          "continuation_word"
+        ]
+      },
+      "metadata": {
+        "model": "groq/openai/gpt-oss-120b",
+        "prompt_version": "8.0",
+        "llm_config": {
+          "provider": "groq",
+          "model": "openai/gpt-oss-120b",
+          "reasoning_effort": "low",
+          "temperature": 0.0,
+          "max_output_tokens": 8192,
+          "prompt_version": "8.0",
+          "thinking_budget": null,
+          "empty_gloss_retry": true,
+          "references_file": null,
+          "reference_entries_loaded": 0
+        },
+        "rule_set_version": "0.1.0",
+        "active_rules": [
+          "R-FMT-01",
+          "R-ART-01",
+          "R-SKIP-01"
+        ],
+        "result_schema_version": "1.0",
+        "rule_pass_completed": true,
+        "cache_hit": false
+      }
+    },
+    {
+      "sentence_id": "01-csu-bakersfield-english-session-s0015",
+      "group_id": "01-csu-bakersfield-english-session-g0003",
+      "source_text": "The Lord Jina.",
+      "llm_input_text": "The Lord Jina.",
+      "skipped_spans": [],
+      "translation_status": "translated",
+      "candidate_gloss": "LORD FS:JINA",
+      "candidate_tokens": [
+        "LORD",
+        "FS:JINA"
+      ],
+      "final_gloss": "LORD FS:JINA",
+      "final_tokens": [
+        "LORD",
+        "FS:JINA"
+      ],
+      "applied_rules": [],
+      "validation": {
+        "status": "pass",
+        "warnings": []
+      },
+      "review_status": "unreviewed",
+      "uncertainty_notes": "",
+      "uncertain_parts": [],
+      "needs_human_review": false,
+      "llm_status": "ok",
+      "llm": {
+        "status": "ok",
+        "needs_human_review": false,
+        "uncertain": false,
+        "uncertain_parts": [],
+        "notes": "",
+        "echoed_source_text": "The Lord Jina."
+      },
+      "error": null,
+      "speaker_id": "Speaker 1",
+      "start_timestamp": null,
+      "end_timestamp": null,
+      "turn_index": 0,
+      "source_metadata": {
+        "source_id": "01-csu-bakersfield-english-session",
+        "parent_chunk_id": "01-csu-bakersfield-english-session-0015",
+        "split_method": null,
+        "piece": [
+          1,
+          1
+        ],
+        "source_start_offset": 1353,
+        "source_end_offset": 1371,
+        "cue_indices": null,
+        "cue_ids": null,
+        "incomplete": false,
+        "depends_on_previous": false,
+        "dependency_reasons": []
+      },
+      "metadata": {
+        "model": "groq/openai/gpt-oss-120b",
+        "prompt_version": "8.0",
+        "llm_config": {
+          "provider": "groq",
+          "model": "openai/gpt-oss-120b",
+          "reasoning_effort": "low",
+          "temperature": 0.0,
+          "max_output_tokens": 8192,
+          "prompt_version": "8.0",
+          "thinking_budget": null,
+          "empty_gloss_retry": true,
+          "references_file": null,
+          "reference_entries_loaded": 0
+        },
+        "rule_set_version": "0.1.0",
+        "active_rules": [
+          "R-FMT-01",
+          "R-ART-01",
+          "R-SKIP-01"
+        ],
+        "result_schema_version": "1.0",
+        "rule_pass_completed": true,
+        "cache_hit": false
+      }
+    },
+    {
+      "sentence_id": "01-csu-bakersfield-english-session-s0016",
+      "group_id": "01-csu-bakersfield-english-session-g0003",
+      "source_text": "So, that's something you can take right off the bat.",
+      "llm_input_text": "So, that's something you can take right off the bat.",
+      "skipped_spans": [],
+      "translation_status": "translated",
+      "candidate_gloss": "SO THAT SOMETHING YOU CAN TAKE RIGHT_OFF_THE_BAT",
+      "candidate_tokens": [
+        "SO",
+        "THAT",
+        "SOMETHING",
+        "YOU",
+        "CAN",
+        "TAKE",
+        "RIGHT_OFF_THE_BAT"
+      ],
+      "final_gloss": "SO THAT SOMETHING YOU CAN TAKE RIGHT_OFF_THE_BAT",
+      "final_tokens": [
+        "SO",
+        "THAT",
+        "SOMETHING",
+        "YOU",
+        "CAN",
+        "TAKE",
+        "RIGHT_OFF_THE_BAT"
+      ],
+      "applied_rules": [],
+      "validation": {
+        "status": "pass",
+        "warnings": []
+      },
+      "review_status": "unreviewed",
+      "uncertainty_notes": "",
+      "uncertain_parts": [],
+      "needs_human_review": false,
+      "llm_status": "ok",
+      "llm": {
+        "status": "ok",
+        "needs_human_review": false,
+        "uncertain": false,
+        "uncertain_parts": [],
+        "notes": "",
+        "echoed_source_text": "So, that's something you can take right off the bat."
+      },
+      "error": null,
+      "speaker_id": "Speaker 1",
+      "start_timestamp": null,
+      "end_timestamp": null,
+      "turn_index": 0,
+      "source_metadata": {
+        "source_id": "01-csu-bakersfield-english-session",
+        "parent_chunk_id": "01-csu-bakersfield-english-session-0016",
+        "split_method": null,
+        "piece": [
+          1,
+          1
+        ],
+        "source_start_offset": 1372,
+        "source_end_offset": 1428,
+        "cue_indices": null,
+        "cue_ids": null,
+        "incomplete": false,
+        "depends_on_previous": true,
+        "dependency_reasons": [
+          "continuation_word"
+        ]
+      },
+      "metadata": {
+        "model": "groq/openai/gpt-oss-120b",
+        "prompt_version": "8.0",
+        "llm_config": {
+          "provider": "groq",
+          "model": "openai/gpt-oss-120b",
+          "reasoning_effort": "low",
+          "temperature": 0.0,
+          "max_output_tokens": 8192,
+          "prompt_version": "8.0",
+          "thinking_budget": null,
+          "empty_gloss_retry": true,
+          "references_file": null,
+          "reference_entries_loaded": 0
+        },
+        "rule_set_version": "0.1.0",
+        "active_rules": [
+          "R-FMT-01",
+          "R-ART-01",
+          "R-SKIP-01"
+        ],
+        "result_schema_version": "1.0",
+        "rule_pass_completed": true,
+        "cache_hit": false
+      }
+    },
+    {
+      "sentence_id": "01-csu-bakersfield-english-session-s0017",
+      "group_id": "01-csu-bakersfield-english-session-g0004",
+      "source_text": "Yes, yes, yes.",
+      "llm_input_text": "Yes, yes, yes.",
+      "skipped_spans": [],
+      "translation_status": "translated",
+      "candidate_gloss": "YES YES YES",
+      "candidate_tokens": [
+        "YES",
+        "YES",
+        "YES"
+      ],
+      "final_gloss": "YES YES YES",
+      "final_tokens": [
+        "YES",
+        "YES",
+        "YES"
+      ],
+      "applied_rules": [],
+      "validation": {
+        "status": "pass",
+        "warnings": [
+          {
+            "code": "adjacent_duplicate_tokens",
+            "severity": "info",
+            "message": "Adjacent identical tokens (may be intended reduplication)."
+          }
+        ]
+      },
+      "review_status": "unreviewed",
+      "uncertainty_notes": "",
+      "uncertain_parts": [],
+      "needs_human_review": false,
+      "llm_status": "ok",
+      "llm": {
+        "status": "ok",
+        "needs_human_review": false,
+        "uncertain": false,
+        "uncertain_parts": [],
+        "notes": "",
+        "echoed_source_text": "Yes, yes, yes."
+      },
+      "error": null,
+      "speaker_id": "Speaker 0",
+      "start_timestamp": null,
+      "end_timestamp": null,
+      "turn_index": 1,
+      "source_metadata": {
+        "source_id": "01-csu-bakersfield-english-session",
+        "parent_chunk_id": "01-csu-bakersfield-english-session-0017",
+        "split_method": null,
+        "piece": [
+          1,
+          1
+        ],
+        "source_start_offset": 1440,
+        "source_end_offset": 1454,
+        "cue_indices": null,
+        "cue_ids": null,
+        "incomplete": false,
+        "depends_on_previous": false,
+        "dependency_reasons": []
+      },
+      "metadata": {
+        "model": "groq/openai/gpt-oss-120b",
+        "prompt_version": "8.0",
+        "llm_config": {
+          "provider": "groq",
+          "model": "openai/gpt-oss-120b",
+          "reasoning_effort": "low",
+          "temperature": 0.0,
+          "max_output_tokens": 8192,
+          "prompt_version": "8.0",
+          "thinking_budget": null,
+          "empty_gloss_retry": true,
+          "references_file": null,
+          "reference_entries_loaded": 0
+        },
+        "rule_set_version": "0.1.0",
+        "active_rules": [
+          "R-FMT-01",
+          "R-ART-01",
+          "R-SKIP-01"
+        ],
+        "result_schema_version": "1.0",
+        "rule_pass_completed": true,
+        "cache_hit": false
+      }
+    },
+    {
+      "sentence_id": "01-csu-bakersfield-english-session-s0018",
+      "group_id": "01-csu-bakersfield-english-session-g0005",
+      "source_text": "By Janindra, a greeting if you do meet James in your community and you'd like to offer a proper greeting.",
+      "llm_input_text": "By, a greeting if you do meet James in your community and you'd like to offer a proper greeting.",
+      "skipped_spans": [
+        {
+          "start": 3,
+          "end": 11,
+          "text": "Janindra",
+          "reason": "skip_term"
+        }
+      ],
+      "translation_status": "translated",
+      "candidate_gloss": "IF YOU MEET FS:JAMES IN YOUR COMMUNITY AND YOU LIKE OFFER PROPER_GREETING",
+      "candidate_tokens": [
+        "IF",
+        "YOU",
+        "MEET",
+        "FS:JAMES",
+        "IN",
+        "YOUR",
+        "COMMUNITY",
+        "AND",
+        "YOU",
+        "LIKE",
+        "OFFER",
+        "PROPER_GREETING"
+      ],
+      "final_gloss": "IF YOU MEET FS:JAMES IN YOUR COMMUNITY AND YOU LIKE OFFER PROPER_GREETING",
+      "final_tokens": [
+        "IF",
+        "YOU",
+        "MEET",
+        "FS:JAMES",
+        "IN",
+        "YOUR",
+        "COMMUNITY",
+        "AND",
+        "YOU",
+        "LIKE",
+        "OFFER",
+        "PROPER_GREETING"
+      ],
+      "applied_rules": [],
+      "validation": {
+        "status": "pass",
+        "warnings": [
+          {
+            "code": "spans_skipped",
+            "severity": "info",
+            "message": "1 span(s) were excluded from translation by design."
+          }
+        ]
+      },
+      "review_status": "unreviewed",
+      "uncertainty_notes": "",
+      "uncertain_parts": [],
+      "needs_human_review": false,
+      "llm_status": "ok",
+      "llm": {
+        "status": "ok",
+        "needs_human_review": false,
+        "uncertain": false,
+        "uncertain_parts": [],
+        "notes": "",
+        "echoed_source_text": "By, a greeting if you do meet James in your community and you'd like to offer a proper greeting."
+      },
+      "error": null,
+      "speaker_id": "Speaker 1",
+      "start_timestamp": null,
+      "end_timestamp": null,
+      "turn_index": 2,
+      "source_metadata": {
+        "source_id": "01-csu-bakersfield-english-session",
+        "parent_chunk_id": "01-csu-bakersfield-english-session-0018",
+        "split_method": null,
+        "piece": [
+          1,
+          1
+        ],
+        "source_start_offset": 1466,
+        "source_end_offset": 1571,
+        "cue_indices": null,
+        "cue_ids": null,
+        "incomplete": false,
+        "depends_on_previous": false,
+        "dependency_reasons": []
+      },
+      "metadata": {
+        "model": "groq/openai/gpt-oss-120b",
+        "prompt_version": "8.0",
+        "llm_config": {
+          "provider": "groq",
+          "model": "openai/gpt-oss-120b",
+          "reasoning_effort": "low",
+          "temperature": 0.0,
+          "max_output_tokens": 8192,
+          "prompt_version": "8.0",
+          "thinking_budget": null,
+          "empty_gloss_retry": true,
+          "references_file": null,
+          "reference_entries_loaded": 0
+        },
+        "rule_set_version": "0.1.0",
+        "active_rules": [
+          "R-FMT-01",
+          "R-ART-01",
+          "R-SKIP-01"
+        ],
+        "result_schema_version": "1.0",
+        "rule_pass_completed": true,
+        "cache_hit": false
+      }
+    },
+    {
+      "sentence_id": "01-csu-bakersfield-english-session-s0019",
+      "group_id": "01-csu-bakersfield-english-session-g0005",
+      "source_text": "With that said, let me introduce you to, some of the people we'll be hearing from today.",
+      "llm_input_text": "With that said, let me introduce you to, some of the people we'll be hearing from today.",
+      "skipped_spans": [],
+      "translation_status": "translated",
+      "candidate_gloss": "LET_ME INTRODUCE YOU TO SOME PEOPLE WE HEAR FROM TODAY",
+      "candidate_tokens": [
+        "LET_ME",
+        "INTRODUCE",
+        "YOU",
+        "TO",
+        "SOME",
+        "PEOPLE",
+        "WE",
+        "HEAR",
+        "FROM",
+        "TODAY"
+      ],
+      "final_gloss": "LET_ME INTRODUCE YOU TO SOME PEOPLE WE HEAR FROM TODAY",
+      "final_tokens": [
+        "LET_ME",
+        "INTRODUCE",
+        "YOU",
+        "TO",
+        "SOME",
+        "PEOPLE",
+        "WE",
+        "HEAR",
+        "FROM",
+        "TODAY"
+      ],
+      "applied_rules": [],
+      "validation": {
+        "status": "pass",
+        "warnings": []
+      },
+      "review_status": "unreviewed",
+      "uncertainty_notes": "",
+      "uncertain_parts": [],
+      "needs_human_review": false,
+      "llm_status": "ok",
+      "llm": {
+        "status": "ok",
+        "needs_human_review": false,
+        "uncertain": false,
+        "uncertain_parts": [],
+        "notes": "",
+        "echoed_source_text": "With that said, let me introduce you to, some of the people we'll be hearing from today."
+      },
+      "error": null,
+      "speaker_id": "Speaker 1",
+      "start_timestamp": null,
+      "end_timestamp": null,
+      "turn_index": 2,
+      "source_metadata": {
+        "source_id": "01-csu-bakersfield-english-session",
+        "parent_chunk_id": "01-csu-bakersfield-english-session-0019",
+        "split_method": null,
+        "piece": [
+          1,
+          1
+        ],
+        "source_start_offset": 1572,
+        "source_end_offset": 1664,
+        "cue_indices": null,
+        "cue_ids": null,
+        "incomplete": false,
+        "depends_on_previous": false,
+        "dependency_reasons": []
+      },
+      "metadata": {
+        "model": "groq/openai/gpt-oss-120b",
+        "prompt_version": "8.0",
+        "llm_config": {
+          "provider": "groq",
+          "model": "openai/gpt-oss-120b",
+          "reasoning_effort": "low",
+          "temperature": 0.0,
+          "max_output_tokens": 8192,
+          "prompt_version": "8.0",
+          "thinking_budget": null,
+          "empty_gloss_retry": true,
+          "references_file": null,
+          "reference_entries_loaded": 0
+        },
+        "rule_set_version": "0.1.0",
+        "active_rules": [
+          "R-FMT-01",
+          "R-ART-01",
+          "R-SKIP-01"
+        ],
+        "result_schema_version": "1.0",
+        "rule_pass_completed": true,
+        "cache_hit": false
+      }
+    },
+    {
+      "sentence_id": "01-csu-bakersfield-english-session-s0020",
+      "group_id": "01-csu-bakersfield-english-session-g0005",
+      "source_text": "So, the leading guru or teacher, as my students should know, for the community of Jains we'll be learning from, is Rashtrasant Param Gurudev Sri Namramuni Maharaj Sahi.",
+      "llm_input_text": "So, the leading guru or teacher, as my students should know, for the community of Jains we'll be learning from, is Rashtrasant Param Gurudev Sri Namramuni Maharaj Sahi.",
+      "skipped_spans": [],
+      "translation_status": "translated",
+      "candidate_gloss": "LEADING GURU TEACHER AS MY STUDENTS SHOULD KNOW FOR COMMUNITY OF JAIN WE LEARN FROM IS FS:RASHTRASANT FS:PARAM FS:GURUDEV FS:SRI FS:NAMRAMUNI FS:MAHARAJ FS:SAHI",
+      "candidate_tokens": [
+        "LEADING",
+        "GURU",
+        "TEACHER",
+        "AS",
+        "MY",
+        "STUDENTS",
+        "SHOULD",
+        "KNOW",
+        "FOR",
+        "COMMUNITY",
+        "OF",
+        "JAIN",
+        "WE",
+        "LEARN",
+        "FROM",
+        "IS",
+        "FS:RASHTRASANT",
+        "FS:PARAM",
+        "FS:GURUDEV",
+        "FS:SRI",
+        "FS:NAMRAMUNI",
+        "FS:MAHARAJ",
+        "FS:SAHI"
+      ],
+      "final_gloss": "LEADING GURU TEACHER AS MY STUDENTS SHOULD KNOW FOR COMMUNITY OF JAIN WE LEARN FROM IS FS:RASHTRASANT FS:PARAM FS:GURUDEV FS:SRI FS:NAMRAMUNI FS:MAHARAJ FS:SAHI",
+      "final_tokens": [
+        "LEADING",
+        "GURU",
+        "TEACHER",
+        "AS",
+        "MY",
+        "STUDENTS",
+        "SHOULD",
+        "KNOW",
+        "FOR",
+        "COMMUNITY",
+        "OF",
+        "JAIN",
+        "WE",
+        "LEARN",
+        "FROM",
+        "IS",
+        "FS:RASHTRASANT",
+        "FS:PARAM",
+        "FS:GURUDEV",
+        "FS:SRI",
+        "FS:NAMRAMUNI",
+        "FS:MAHARAJ",
+        "FS:SAHI"
+      ],
+      "applied_rules": [],
+      "validation": {
+        "status": "review_required",
+        "warnings": [
+          {
+            "code": "name_may_be_missing",
+            "severity": "review",
+            "message": "Capitalised word(s) not found in the gloss: JAINS. May be names or sign-label substitutions."
+          }
+        ]
+      },
+      "review_status": "unreviewed",
+      "uncertainty_notes": "",
+      "uncertain_parts": [],
+      "needs_human_review": true,
+      "llm_status": "ok",
+      "llm": {
+        "status": "ok",
+        "needs_human_review": false,
+        "uncertain": false,
+        "uncertain_parts": [],
+        "notes": "",
+        "echoed_source_text": "So, the leading guru or teacher, as my students should know, for the community of Jains we'll be learning from, is Rashtrasant Param Gurudev Sri Namramuni Maharaj Sahi."
+      },
+      "error": null,
+      "speaker_id": "Speaker 1",
+      "start_timestamp": null,
+      "end_timestamp": null,
+      "turn_index": 2,
+      "source_metadata": {
+        "source_id": "01-csu-bakersfield-english-session",
+        "parent_chunk_id": "01-csu-bakersfield-english-session-0020",
+        "split_method": null,
+        "piece": [
+          1,
+          1
+        ],
+        "source_start_offset": 1665,
+        "source_end_offset": 1833,
+        "cue_indices": null,
+        "cue_ids": null,
+        "incomplete": false,
+        "depends_on_previous": true,
+        "dependency_reasons": [
+          "continuation_word"
+        ]
+      },
+      "metadata": {
+        "model": "groq/openai/gpt-oss-120b",
+        "prompt_version": "8.0",
+        "llm_config": {
+          "provider": "groq",
+          "model": "openai/gpt-oss-120b",
+          "reasoning_effort": "low",
+          "temperature": 0.0,
+          "max_output_tokens": 8192,
+          "prompt_version": "8.0",
+          "thinking_budget": null,
+          "empty_gloss_retry": true,
+          "references_file": null,
+          "reference_entries_loaded": 0
+        },
+        "rule_set_version": "0.1.0",
+        "active_rules": [
+          "R-FMT-01",
+          "R-ART-01",
+          "R-SKIP-01"
+        ],
+        "result_schema_version": "1.0",
+        "rule_pass_completed": true,
+        "cache_hit": false
+      }
+    },
+    {
+      "sentence_id": "01-csu-bakersfield-english-session-s0021",
+      "group_id": "01-csu-bakersfield-english-session-g0005",
+      "source_text": "His community sees him as a Jain saint whose thoughts, words, and work are an inspiration for people around the world.",
+      "llm_input_text": "His community sees him as a Jain saint whose thoughts, words, and work are an inspiration for people around the world.",
+      "skipped_spans": [],
+      "translation_status": "translated",
+      "candidate_gloss": "HIS COMMUNITY SEES HIM AS JAIN SAINT WHOSE THOUGHTS WORDS WORK ARE INSPIRATION FOR PEOPLE AROUND WORLD",
+      "candidate_tokens": [
+        "HIS",
+        "COMMUNITY",
+        "SEES",
+        "HIM",
+        "AS",
+        "JAIN",
+        "SAINT",
+        "WHOSE",
+        "THOUGHTS",
+        "WORDS",
+        "WORK",
+        "ARE",
+        "INSPIRATION",
+        "FOR",
+        "PEOPLE",
+        "AROUND",
+        "WORLD"
+      ],
+      "final_gloss": "HIS COMMUNITY SEES HIM AS JAIN SAINT WHOSE THOUGHTS WORDS WORK ARE INSPIRATION FOR PEOPLE AROUND WORLD",
+      "final_tokens": [
+        "HIS",
+        "COMMUNITY",
+        "SEES",
+        "HIM",
+        "AS",
+        "JAIN",
+        "SAINT",
+        "WHOSE",
+        "THOUGHTS",
+        "WORDS",
+        "WORK",
+        "ARE",
+        "INSPIRATION",
+        "FOR",
+        "PEOPLE",
+        "AROUND",
+        "WORLD"
+      ],
+      "applied_rules": [],
+      "validation": {
+        "status": "pass",
+        "warnings": []
+      },
+      "review_status": "unreviewed",
+      "uncertainty_notes": "",
+      "uncertain_parts": [],
+      "needs_human_review": false,
+      "llm_status": "ok",
+      "llm": {
+        "status": "ok",
+        "needs_human_review": false,
+        "uncertain": false,
+        "uncertain_parts": [],
+        "notes": "",
+        "echoed_source_text": "His community sees him as a Jain saint whose thoughts, words, and work are an inspiration for people around the world."
+      },
+      "error": null,
+      "speaker_id": "Speaker 1",
+      "start_timestamp": null,
+      "end_timestamp": null,
+      "turn_index": 2,
+      "source_metadata": {
+        "source_id": "01-csu-bakersfield-english-session",
+        "parent_chunk_id": "01-csu-bakersfield-english-session-0021",
+        "split_method": null,
+        "piece": [
+          1,
+          1
+        ],
+        "source_start_offset": 1834,
+        "source_end_offset": 1952,
+        "cue_indices": null,
+        "cue_ids": null,
+        "incomplete": false,
+        "depends_on_previous": true,
+        "dependency_reasons": [
+          "pronoun_start"
+        ]
+      },
+      "metadata": {
+        "model": "groq/openai/gpt-oss-120b",
+        "prompt_version": "8.0",
+        "llm_config": {
+          "provider": "groq",
+          "model": "openai/gpt-oss-120b",
+          "reasoning_effort": "low",
+          "temperature": 0.0,
+          "max_output_tokens": 8192,
+          "prompt_version": "8.0",
+          "thinking_budget": null,
+          "empty_gloss_retry": true,
+          "references_file": null,
+          "reference_entries_loaded": 0
+        },
+        "rule_set_version": "0.1.0",
+        "active_rules": [
+          "R-FMT-01",
+          "R-ART-01",
+          "R-SKIP-01"
+        ],
+        "result_schema_version": "1.0",
+        "rule_pass_completed": true,
+        "cache_hit": false
+      }
+    },
+    {
+      "sentence_id": "01-csu-bakersfield-english-session-s0022",
+      "group_id": "01-csu-bakersfield-english-session-g0005",
+      "source_text": "For his community, he's not only a profound visionary, but also humanitarian, working to engender a positive difference in countless lives globally.",
+      "llm_input_text": "For his community, he's not only a profound visionary, but also humanitarian, working to engender a positive difference in countless lives globally.",
+      "skipped_spans": [],
+      "translation_status": "translated",
+      "candidate_gloss": "FOR HIS COMMUNITY HE NOT_ONLY PROFOUND VISIONARY BUT ALSO HUMANITARIAN WORKING TO CREATE POSITIVE DIFFERENCE IN COUNTLESS LIVES GLOBALLY",
+      "candidate_tokens": [
+        "FOR",
+        "HIS",
+        "COMMUNITY",
+        "HE",
+        "NOT_ONLY",
+        "PROFOUND",
+        "VISIONARY",
+        "BUT",
+        "ALSO",
+        "HUMANITARIAN",
+        "WORKING",
+        "TO",
+        "CREATE",
+        "POSITIVE",
+        "DIFFERENCE",
+        "IN",
+        "COUNTLESS",
+        "LIVES",
+        "GLOBALLY"
+      ],
+      "final_gloss": "FOR HIS COMMUNITY HE NOT_ONLY PROFOUND VISIONARY BUT ALSO HUMANITARIAN WORKING TO CREATE POSITIVE DIFFERENCE IN COUNTLESS LIVES GLOBALLY",
+      "final_tokens": [
+        "FOR",
+        "HIS",
+        "COMMUNITY",
+        "HE",
+        "NOT_ONLY",
+        "PROFOUND",
+        "VISIONARY",
+        "BUT",
+        "ALSO",
+        "HUMANITARIAN",
+        "WORKING",
+        "TO",
+        "CREATE",
+        "POSITIVE",
+        "DIFFERENCE",
+        "IN",
+        "COUNTLESS",
+        "LIVES",
+        "GLOBALLY"
+      ],
+      "applied_rules": [],
+      "validation": {
+        "status": "pass",
+        "warnings": []
+      },
+      "review_status": "unreviewed",
+      "uncertainty_notes": "",
+      "uncertain_parts": [],
+      "needs_human_review": false,
+      "llm_status": "ok",
+      "llm": {
+        "status": "ok",
+        "needs_human_review": false,
+        "uncertain": false,
+        "uncertain_parts": [],
+        "notes": "",
+        "echoed_source_text": "For his community, he's not only a profound visionary, but also humanitarian, working to engender a positive difference in countless lives globally."
+      },
+      "error": null,
+      "speaker_id": "Speaker 1",
+      "start_timestamp": null,
+      "end_timestamp": null,
+      "turn_index": 2,
+      "source_metadata": {
+        "source_id": "01-csu-bakersfield-english-session",
+        "parent_chunk_id": "01-csu-bakersfield-english-session-0022",
+        "split_method": null,
+        "piece": [
+          1,
+          1
+        ],
+        "source_start_offset": 1953,
+        "source_end_offset": 2101,
+        "cue_indices": null,
+        "cue_ids": null,
+        "incomplete": false,
+        "depends_on_previous": false,
+        "dependency_reasons": []
+      },
+      "metadata": {
+        "model": "groq/openai/gpt-oss-120b",
+        "prompt_version": "8.0",
+        "llm_config": {
+          "provider": "groq",
+          "model": "openai/gpt-oss-120b",
+          "reasoning_effort": "low",
+          "temperature": 0.0,
+          "max_output_tokens": 8192,
+          "prompt_version": "8.0",
+          "thinking_budget": null,
+          "empty_gloss_retry": true,
+          "references_file": null,
+          "reference_entries_loaded": 0
+        },
+        "rule_set_version": "0.1.0",
+        "active_rules": [
+          "R-FMT-01",
+          "R-ART-01",
+          "R-SKIP-01"
+        ],
+        "result_schema_version": "1.0",
+        "rule_pass_completed": true,
+        "cache_hit": false
+      }
+    },
+    {
+      "sentence_id": "01-csu-bakersfield-english-session-s0023",
+      "group_id": "01-csu-bakersfield-english-session-g0005",
+      "source_text": "He's the founder of Parastham, a socio-religious organization in India with humanitarian initiatives and spiritually uplifting missions across the world.",
+      "llm_input_text": "He's the founder of Parastham, a socio-religious organization in India with humanitarian initiatives and spiritually uplifting missions across the world.",
+      "skipped_spans": [],
+      "translation_status": "translated",
+      "candidate_gloss": "HE FOUNDER OF FS:PARASTHAM SOCIO_RELIGIOUS ORGANIZATION IN INDIA WITH HUMANITARIAN INITIATIVES AND SPIRITUALLY UPLIFTING MISSIONS ACROSS WORLD",
+      "candidate_tokens": [
+        "HE",
+        "FOUNDER",
+        "OF",
+        "FS:PARASTHAM",
+        "SOCIO_RELIGIOUS",
+        "ORGANIZATION",
+        "IN",
+        "INDIA",
+        "WITH",
+        "HUMANITARIAN",
+        "INITIATIVES",
+        "AND",
+        "SPIRITUALLY",
+        "UPLIFTING",
+        "MISSIONS",
+        "ACROSS",
+        "WORLD"
+      ],
+      "final_gloss": "HE FOUNDER OF FS:PARASTHAM SOCIO_RELIGIOUS ORGANIZATION IN INDIA WITH HUMANITARIAN INITIATIVES AND SPIRITUALLY UPLIFTING MISSIONS ACROSS WORLD",
+      "final_tokens": [
+        "HE",
+        "FOUNDER",
+        "OF",
+        "FS:PARASTHAM",
+        "SOCIO_RELIGIOUS",
+        "ORGANIZATION",
+        "IN",
+        "INDIA",
+        "WITH",
+        "HUMANITARIAN",
+        "INITIATIVES",
+        "AND",
+        "SPIRITUALLY",
+        "UPLIFTING",
+        "MISSIONS",
+        "ACROSS",
+        "WORLD"
+      ],
+      "applied_rules": [],
+      "validation": {
+        "status": "pass",
+        "warnings": []
+      },
+      "review_status": "unreviewed",
+      "uncertainty_notes": "",
+      "uncertain_parts": [],
+      "needs_human_review": false,
+      "llm_status": "ok",
+      "llm": {
+        "status": "ok",
+        "needs_human_review": false,
+        "uncertain": false,
+        "uncertain_parts": [],
+        "notes": "",
+        "echoed_source_text": "He's the founder of Parastham, a socio-religious organization in India with humanitarian initiatives and spiritually uplifting missions across the world."
+      },
+      "error": null,
+      "speaker_id": "Speaker 1",
+      "start_timestamp": null,
+      "end_timestamp": null,
+      "turn_index": 2,
+      "source_metadata": {
+        "source_id": "01-csu-bakersfield-english-session",
+        "parent_chunk_id": "01-csu-bakersfield-english-session-0023",
+        "split_method": null,
+        "piece": [
+          1,
+          1
+        ],
+        "source_start_offset": 2102,
+        "source_end_offset": 2255,
+        "cue_indices": null,
+        "cue_ids": null,
+        "incomplete": false,
+        "depends_on_previous": false,
+        "dependency_reasons": []
+      },
+      "metadata": {
+        "model": "groq/openai/gpt-oss-120b",
+        "prompt_version": "8.0",
+        "llm_config": {
+          "provider": "groq",
+          "model": "openai/gpt-oss-120b",
+          "reasoning_effort": "low",
+          "temperature": 0.0,
+          "max_output_tokens": 8192,
+          "prompt_version": "8.0",
+          "thinking_budget": null,
+          "empty_gloss_retry": true,
+          "references_file": null,
+          "reference_entries_loaded": 0
+        },
+        "rule_set_version": "0.1.0",
+        "active_rules": [
+          "R-FMT-01",
+          "R-ART-01",
+          "R-SKIP-01"
+        ],
+        "result_schema_version": "1.0",
+        "rule_pass_completed": true,
+        "cache_hit": false
+      }
+    },
+    {
+      "sentence_id": "01-csu-bakersfield-english-session-s0024",
+      "group_id": "01-csu-bakersfield-english-session-g0005",
+      "source_text": "So far, he's inspired 37 young women and men to accept renunciation in the Jain tradition.",
+      "llm_input_text": "So far, he's inspired 37 young women and men to accept renunciation in the Jain tradition.",
+      "skipped_spans": [],
+      "translation_status": "translated",
+      "candidate_gloss": "SO_FAR HE INSPIRED 37 YOUNG WOMEN MEN TO ACCEPT RENUNCIATION IN JAIN TRADITION",
+      "candidate_tokens": [
+        "SO_FAR",
+        "HE",
+        "INSPIRED",
+        "37",
+        "YOUNG",
+        "WOMEN",
+        "MEN",
+        "TO",
+        "ACCEPT",
+        "RENUNCIATION",
+        "IN",
+        "JAIN",
+        "TRADITION"
+      ],
+      "final_gloss": "SO_FAR HE INSPIRED 37 YOUNG WOMEN MEN TO ACCEPT RENUNCIATION IN JAIN TRADITION",
+      "final_tokens": [
+        "SO_FAR",
+        "HE",
+        "INSPIRED",
+        "37",
+        "YOUNG",
+        "WOMEN",
+        "MEN",
+        "TO",
+        "ACCEPT",
+        "RENUNCIATION",
+        "IN",
+        "JAIN",
+        "TRADITION"
+      ],
+      "applied_rules": [],
+      "validation": {
+        "status": "pass",
+        "warnings": []
+      },
+      "review_status": "unreviewed",
+      "uncertainty_notes": "",
+      "uncertain_parts": [],
+      "needs_human_review": false,
+      "llm_status": "ok",
+      "llm": {
+        "status": "ok",
+        "needs_human_review": false,
+        "uncertain": false,
+        "uncertain_parts": [],
+        "notes": "",
+        "echoed_source_text": "So far, he's inspired 37 young women and men to accept renunciation in the Jain tradition."
+      },
+      "error": null,
+      "speaker_id": "Speaker 1",
+      "start_timestamp": null,
+      "end_timestamp": null,
+      "turn_index": 2,
+      "source_metadata": {
+        "source_id": "01-csu-bakersfield-english-session",
+        "parent_chunk_id": "01-csu-bakersfield-english-session-0024",
+        "split_method": null,
+        "piece": [
+          1,
+          1
+        ],
+        "source_start_offset": 2256,
+        "source_end_offset": 2346,
+        "cue_indices": null,
+        "cue_ids": null,
+        "incomplete": false,
+        "depends_on_previous": true,
+        "dependency_reasons": [
+          "continuation_word"
+        ]
+      },
+      "metadata": {
+        "model": "groq/openai/gpt-oss-120b",
+        "prompt_version": "8.0",
+        "llm_config": {
+          "provider": "groq",
+          "model": "openai/gpt-oss-120b",
+          "reasoning_effort": "low",
+          "temperature": 0.0,
+          "max_output_tokens": 8192,
+          "prompt_version": "8.0",
+          "thinking_budget": null,
+          "empty_gloss_retry": true,
+          "references_file": null,
+          "reference_entries_loaded": 0
+        },
+        "rule_set_version": "0.1.0",
+        "active_rules": [
+          "R-FMT-01",
+          "R-ART-01",
+          "R-SKIP-01"
+        ],
+        "result_schema_version": "1.0",
+        "rule_pass_completed": true,
+        "cache_hit": false
+      }
+    },
+    {
+      "sentence_id": "01-csu-bakersfield-english-session-s0025",
+      "group_id": "01-csu-bakersfield-english-session-g0006",
+      "source_text": "We'll learn more about, about the guru, Sri Namramuni Maharaj Sahib as we go.",
+      "llm_input_text": "We'll learn more about, about the guru, Sri Namramuni Maharaj Sahib as we go.",
+      "skipped_spans": [],
+      "translation_status": "translated",
+      "candidate_gloss": "WE WILL LEARN MORE ABOUT GURU FS:SRI FS:NAMRAMUNI FS:MAHARAJ FS:SAHIB AS WE GO",
+      "candidate_tokens": [
+        "WE",
+        "WILL",
+        "LEARN",
+        "MORE",
+        "ABOUT",
+        "GURU",
+        "FS:SRI",
+        "FS:NAMRAMUNI",
+        "FS:MAHARAJ",
+        "FS:SAHIB",
+        "AS",
+        "WE",
+        "GO"
+      ],
+      "final_gloss": "WE WILL LEARN MORE ABOUT GURU FS:SRI FS:NAMRAMUNI FS:MAHARAJ FS:SAHIB AS WE GO",
+      "final_tokens": [
+        "WE",
+        "WILL",
+        "LEARN",
+        "MORE",
+        "ABOUT",
+        "GURU",
+        "FS:SRI",
+        "FS:NAMRAMUNI",
+        "FS:MAHARAJ",
+        "FS:SAHIB",
+        "AS",
+        "WE",
+        "GO"
+      ],
+      "applied_rules": [],
+      "validation": {
+        "status": "pass",
+        "warnings": []
+      },
+      "review_status": "unreviewed",
+      "uncertainty_notes": "",
+      "uncertain_parts": [],
+      "needs_human_review": false,
+      "llm_status": "ok",
+      "llm": {
+        "status": "ok",
+        "needs_human_review": false,
+        "uncertain": false,
+        "uncertain_parts": [],
+        "notes": "",
+        "echoed_source_text": "We'll learn more about, about the guru, Sri Namramuni Maharaj Sahib as we go."
+      },
+      "error": null,
+      "speaker_id": "Speaker 1",
+      "start_timestamp": null,
+      "end_timestamp": null,
+      "turn_index": 2,
+      "source_metadata": {
+        "source_id": "01-csu-bakersfield-english-session",
+        "parent_chunk_id": "01-csu-bakersfield-english-session-0025",
+        "split_method": null,
+        "piece": [
+          1,
+          1
+        ],
+        "source_start_offset": 2347,
+        "source_end_offset": 2436,
+        "cue_indices": null,
+        "cue_ids": null,
+        "incomplete": false,
+        "depends_on_previous": false,
+        "dependency_reasons": []
+      },
+      "metadata": {
+        "model": "groq/openai/gpt-oss-120b",
+        "prompt_version": "8.0",
+        "llm_config": {
+          "provider": "groq",
+          "model": "openai/gpt-oss-120b",
+          "reasoning_effort": "low",
+          "temperature": 0.0,
+          "max_output_tokens": 8192,
+          "prompt_version": "8.0",
+          "thinking_budget": null,
+          "empty_gloss_retry": true,
+          "references_file": null,
+          "reference_entries_loaded": 0
+        },
+        "rule_set_version": "0.1.0",
+        "active_rules": [
+          "R-FMT-01",
+          "R-ART-01",
+          "R-SKIP-01"
+        ],
+        "result_schema_version": "1.0",
+        "rule_pass_completed": true,
+        "cache_hit": false
+      }
+    },
+    {
+      "sentence_id": "01-csu-bakersfield-english-session-s0026",
+      "group_id": "01-csu-bakersfield-english-session-g0006",
+      "source_text": "But I want to introduce our speaker today, Param Asmitaji Mahasataji, who is one among the disciples of Gurudev.",
+      "llm_input_text": "But I want to introduce our speaker today, Param Asmitaji Mahasataji, who is one among the disciples of Gurudev.",
+      "skipped_spans": [],
+      "translation_status": "translated",
+      "candidate_gloss": "BUT I WANT INTRODUCE OUR SPEAKER TODAY FS:PARAM FS:ASMITAJI FS:MAHASATAJI WHO ONE AMONG DISCIPLES OF FS:GURUDEV",
+      "candidate_tokens": [
+        "BUT",
+        "I",
+        "WANT",
+        "INTRODUCE",
+        "OUR",
+        "SPEAKER",
+        "TODAY",
+        "FS:PARAM",
+        "FS:ASMITAJI",
+        "FS:MAHASATAJI",
+        "WHO",
+        "ONE",
+        "AMONG",
+        "DISCIPLES",
+        "OF",
+        "FS:GURUDEV"
+      ],
+      "final_gloss": "BUT I WANT INTRODUCE OUR SPEAKER TODAY FS:PARAM FS:ASMITAJI FS:MAHASATAJI WHO ONE AMONG DISCIPLES OF FS:GURUDEV",
+      "final_tokens": [
+        "BUT",
+        "I",
+        "WANT",
+        "INTRODUCE",
+        "OUR",
+        "SPEAKER",
+        "TODAY",
+        "FS:PARAM",
+        "FS:ASMITAJI",
+        "FS:MAHASATAJI",
+        "WHO",
+        "ONE",
+        "AMONG",
+        "DISCIPLES",
+        "OF",
+        "FS:GURUDEV"
+      ],
+      "applied_rules": [],
+      "validation": {
+        "status": "pass",
+        "warnings": []
+      },
+      "review_status": "unreviewed",
+      "uncertainty_notes": "",
+      "uncertain_parts": [],
+      "needs_human_review": false,
+      "llm_status": "ok",
+      "llm": {
+        "status": "ok",
+        "needs_human_review": false,
+        "uncertain": false,
+        "uncertain_parts": [],
+        "notes": "",
+        "echoed_source_text": "But I want to introduce our speaker today, Param Asmitaji Mahasataji, who is one among the disciples of Gurudev."
+      },
+      "error": null,
+      "speaker_id": "Speaker 1",
+      "start_timestamp": null,
+      "end_timestamp": null,
+      "turn_index": 2,
+      "source_metadata": {
+        "source_id": "01-csu-bakersfield-english-session",
+        "parent_chunk_id": "01-csu-bakersfield-english-session-0026",
+        "split_method": null,
+        "piece": [
+          1,
+          1
+        ],
+        "source_start_offset": 2437,
+        "source_end_offset": 2557,
+        "cue_indices": null,
+        "cue_ids": null,
+        "incomplete": false,
+        "depends_on_previous": true,
+        "dependency_reasons": [
+          "continuation_word"
+        ]
+      },
+      "metadata": {
+        "model": "groq/openai/gpt-oss-120b",
+        "prompt_version": "8.0",
+        "llm_config": {
+          "provider": "groq",
+          "model": "openai/gpt-oss-120b",
+          "reasoning_effort": "low",
+          "temperature": 0.0,
+          "max_output_tokens": 8192,
+          "prompt_version": "8.0",
+          "thinking_budget": null,
+          "empty_gloss_retry": true,
+          "references_file": null,
+          "reference_entries_loaded": 0
+        },
+        "rule_set_version": "0.1.0",
+        "active_rules": [
+          "R-FMT-01",
+          "R-ART-01",
+          "R-SKIP-01"
+        ],
+        "result_schema_version": "1.0",
+        "rule_pass_completed": true,
+        "cache_hit": false
+      }
+    },
+    {
+      "sentence_id": "01-csu-bakersfield-english-session-s0027",
+      "group_id": "01-csu-bakersfield-english-session-g0006",
+      "source_text": "She's a leading cosmetologist, having treated renowned celebrities in India, and her life underwent a complete transformation when Asmitaji Mahasatji heard just one audio CD of Param Gurudev's discourse on the real identity of the soul.",
+      "llm_input_text": "She's a leading cosmetologist, having treated renowned celebrities in India, and her life underwent a complete transformation when Asmitaji Mahasatji heard just one audio CD of Param Gurudev's discourse on the real identity of the soul.",
+      "skipped_spans": [],
+      "translation_status": "translated",
+      "candidate_gloss": "SHE LEADING COSMETOLOGIST HAVE TREATED RENOWNED CELEBRITIES IN INDIA AND HER LIFE UNDERGO COMPLETE TRANSFORMATION WHEN FS:ASMITAJI FS:MAHASATJI HEAR ONE AUDIO CD OF FS:PARAM FS:GURUDEV DISCOURSE ON REAL IDENTITY OF SOUL",
+      "candidate_tokens": [
+        "SHE",
+        "LEADING",
+        "COSMETOLOGIST",
+        "HAVE",
+        "TREATED",
+        "RENOWNED",
+        "CELEBRITIES",
+        "IN",
+        "INDIA",
+        "AND",
+        "HER",
+        "LIFE",
+        "UNDERGO",
+        "COMPLETE",
+        "TRANSFORMATION",
+        "WHEN",
+        "FS:ASMITAJI",
+        "FS:MAHASATJI",
+        "HEAR",
+        "ONE",
+        "AUDIO",
+        "CD",
+        "OF",
+        "FS:PARAM",
+        "FS:GURUDEV",
+        "DISCOURSE",
+        "ON",
+        "REAL",
+        "IDENTITY",
+        "OF",
+        "SOUL"
+      ],
+      "final_gloss": "SHE LEADING COSMETOLOGIST HAVE TREATED RENOWNED CELEBRITIES IN INDIA AND HER LIFE UNDERGO COMPLETE TRANSFORMATION WHEN FS:ASMITAJI FS:MAHASATJI HEAR ONE AUDIO CD OF FS:PARAM FS:GURUDEV DISCOURSE ON REAL IDENTITY OF SOUL",
+      "final_tokens": [
+        "SHE",
+        "LEADING",
+        "COSMETOLOGIST",
+        "HAVE",
+        "TREATED",
+        "RENOWNED",
+        "CELEBRITIES",
+        "IN",
+        "INDIA",
+        "AND",
+        "HER",
+        "LIFE",
+        "UNDERGO",
+        "COMPLETE",
+        "TRANSFORMATION",
+        "WHEN",
+        "FS:ASMITAJI",
+        "FS:MAHASATJI",
+        "HEAR",
+        "ONE",
+        "AUDIO",
+        "CD",
+        "OF",
+        "FS:PARAM",
+        "FS:GURUDEV",
+        "DISCOURSE",
+        "ON",
+        "REAL",
+        "IDENTITY",
+        "OF",
+        "SOUL"
+      ],
+      "applied_rules": [],
+      "validation": {
+        "status": "review_required",
+        "warnings": [
+          {
+            "code": "name_may_be_missing",
+            "severity": "review",
+            "message": "Capitalised word(s) not found in the gloss: GURUDEV'S. May be names or sign-label substitutions."
+          }
+        ]
+      },
+      "review_status": "unreviewed",
+      "uncertainty_notes": "",
+      "uncertain_parts": [],
+      "needs_human_review": true,
+      "llm_status": "ok",
+      "llm": {
+        "status": "ok",
+        "needs_human_review": false,
+        "uncertain": false,
+        "uncertain_parts": [],
+        "notes": "",
+        "echoed_source_text": "She's a leading cosmetologist, having treated renowned celebrities in India, and her life underwent a complete transformation when Asmitaji Mahasatji heard just one audio CD of Param Gurudev's discourse on the real identity of the soul."
+      },
+      "error": null,
+      "speaker_id": "Speaker 1",
+      "start_timestamp": null,
+      "end_timestamp": null,
+      "turn_index": 2,
+      "source_metadata": {
+        "source_id": "01-csu-bakersfield-english-session",
+        "parent_chunk_id": "01-csu-bakersfield-english-session-0027",
+        "split_method": null,
+        "piece": [
+          1,
+          1
+        ],
+        "source_start_offset": 2558,
+        "source_end_offset": 2794,
+        "cue_indices": null,
+        "cue_ids": null,
+        "incomplete": false,
+        "depends_on_previous": false,
+        "dependency_reasons": []
+      },
+      "metadata": {
+        "model": "groq/openai/gpt-oss-120b",
+        "prompt_version": "8.0",
+        "llm_config": {
+          "provider": "groq",
+          "model": "openai/gpt-oss-120b",
+          "reasoning_effort": "low",
+          "temperature": 0.0,
+          "max_output_tokens": 8192,
+          "prompt_version": "8.0",
+          "thinking_budget": null,
+          "empty_gloss_retry": true,
+          "references_file": null,
+          "reference_entries_loaded": 0
+        },
+        "rule_set_version": "0.1.0",
+        "active_rules": [
+          "R-FMT-01",
+          "R-ART-01",
+          "R-SKIP-01"
+        ],
+        "result_schema_version": "1.0",
+        "rule_pass_completed": true,
+        "cache_hit": false
+      }
+    },
+    {
+      "sentence_id": "01-csu-bakersfield-english-session-s0028",
+      "group_id": "01-csu-bakersfield-english-session-g0006",
+      "source_text": "After deep contemplation, she decided to adopt Jain Diksha, that is renunciation from the materialistic world in 2016 under the guidance of Gurudev.",
+      "llm_input_text": "After deep contemplation, she decided to adopt Jain Diksha, that is renunciation from the materialistic world in 2016 under the guidance of Gurudev.",
+      "skipped_spans": [],
+      "translation_status": "translated",
+      "candidate_gloss": "AFTER DEEP CONTEMPLATION SHE DECIDE ADOPT FS:JAIN FS:DIKSHA THAT RENUNCIATION FROM MATERIALISTIC WORLD 2016 UNDER GUIDANCE OF FS:GURUDEV",
+      "candidate_tokens": [
+        "AFTER",
+        "DEEP",
+        "CONTEMPLATION",
+        "SHE",
+        "DECIDE",
+        "ADOPT",
+        "FS:JAIN",
+        "FS:DIKSHA",
+        "THAT",
+        "RENUNCIATION",
+        "FROM",
+        "MATERIALISTIC",
+        "WORLD",
+        "2016",
+        "UNDER",
+        "GUIDANCE",
+        "OF",
+        "FS:GURUDEV"
+      ],
+      "final_gloss": "AFTER DEEP CONTEMPLATION SHE DECIDE ADOPT FS:JAIN FS:DIKSHA THAT RENUNCIATION FROM MATERIALISTIC WORLD 2016 UNDER GUIDANCE OF FS:GURUDEV",
+      "final_tokens": [
+        "AFTER",
+        "DEEP",
+        "CONTEMPLATION",
+        "SHE",
+        "DECIDE",
+        "ADOPT",
+        "FS:JAIN",
+        "FS:DIKSHA",
+        "THAT",
+        "RENUNCIATION",
+        "FROM",
+        "MATERIALISTIC",
+        "WORLD",
+        "2016",
+        "UNDER",
+        "GUIDANCE",
+        "OF",
+        "FS:GURUDEV"
+      ],
+      "applied_rules": [],
+      "validation": {
+        "status": "pass",
+        "warnings": []
+      },
+      "review_status": "unreviewed",
+      "uncertainty_notes": "Term \"Jain Diksha\" not verified in reference; fingerspelled as separate tokens.",
+      "uncertain_parts": [
+        "FS:JAIN",
+        "FS:DIKSHA"
+      ],
+      "needs_human_review": false,
+      "llm_status": "ok",
+      "llm": {
+        "status": "ok",
+        "needs_human_review": false,
+        "uncertain": false,
+        "uncertain_parts": [
+          "FS:JAIN",
+          "FS:DIKSHA"
+        ],
+        "notes": "Term \"Jain Diksha\" not verified in reference; fingerspelled as separate tokens.",
+        "echoed_source_text": "After deep contemplation, she decided to adopt Jain Diksha, that is renunciation from the materialistic world in 2016 under the guidance of Gurudev."
+      },
+      "error": null,
+      "speaker_id": "Speaker 1",
+      "start_timestamp": null,
+      "end_timestamp": null,
+      "turn_index": 2,
+      "source_metadata": {
+        "source_id": "01-csu-bakersfield-english-session",
+        "parent_chunk_id": "01-csu-bakersfield-english-session-0028",
+        "split_method": null,
+        "piece": [
+          1,
+          1
+        ],
+        "source_start_offset": 2795,
+        "source_end_offset": 2943,
+        "cue_indices": null,
+        "cue_ids": null,
+        "incomplete": false,
+        "depends_on_previous": false,
+        "dependency_reasons": []
+      },
+      "metadata": {
+        "model": "groq/openai/gpt-oss-120b",
+        "prompt_version": "8.0",
+        "llm_config": {
+          "provider": "groq",
+          "model": "openai/gpt-oss-120b",
+          "reasoning_effort": "low",
+          "temperature": 0.0,
+          "max_output_tokens": 8192,
+          "prompt_version": "8.0",
+          "thinking_budget": null,
+          "empty_gloss_retry": true,
+          "references_file": null,
+          "reference_entries_loaded": 0
+        },
+        "rule_set_version": "0.1.0",
+        "active_rules": [
+          "R-FMT-01",
+          "R-ART-01",
+          "R-SKIP-01"
+        ],
+        "result_schema_version": "1.0",
+        "rule_pass_completed": true,
+        "cache_hit": false
+      }
+    },
+    {
+      "sentence_id": "01-csu-bakersfield-english-session-s0029",
+      "group_id": "01-csu-bakersfield-english-session-g0006",
+      "source_text": "Since then she's dedicated her life in the pursuit of truth.",
+      "llm_input_text": "Since then she's dedicated her life in the pursuit of truth.",
+      "skipped_spans": [],
+      "translation_status": "translated",
+      "candidate_gloss": "SINCE THEN SHE DEDICATE HER LIFE IN PURSUIT OF TRUTH",
+      "candidate_tokens": [
+        "SINCE",
+        "THEN",
+        "SHE",
+        "DEDICATE",
+        "HER",
+        "LIFE",
+        "IN",
+        "PURSUIT",
+        "OF",
+        "TRUTH"
+      ],
+      "final_gloss": "SINCE THEN SHE DEDICATE HER LIFE IN PURSUIT OF TRUTH",
+      "final_tokens": [
+        "SINCE",
+        "THEN",
+        "SHE",
+        "DEDICATE",
+        "HER",
+        "LIFE",
+        "IN",
+        "PURSUIT",
+        "OF",
+        "TRUTH"
+      ],
+      "applied_rules": [],
+      "validation": {
+        "status": "pass",
+        "warnings": []
+      },
+      "review_status": "unreviewed",
+      "uncertainty_notes": "",
+      "uncertain_parts": [],
+      "needs_human_review": false,
+      "llm_status": "ok",
+      "llm": {
+        "status": "ok",
+        "needs_human_review": false,
+        "uncertain": false,
+        "uncertain_parts": [],
+        "notes": "",
+        "echoed_source_text": "Since then she's dedicated her life in the pursuit of truth."
+      },
+      "error": null,
+      "speaker_id": "Speaker 1",
+      "start_timestamp": null,
+      "end_timestamp": null,
+      "turn_index": 2,
+      "source_metadata": {
+        "source_id": "01-csu-bakersfield-english-session",
+        "parent_chunk_id": "01-csu-bakersfield-english-session-0029",
+        "split_method": null,
+        "piece": [
+          1,
+          1
+        ],
+        "source_start_offset": 2944,
+        "source_end_offset": 3004,
+        "cue_indices": null,
+        "cue_ids": null,
+        "incomplete": false,
+        "depends_on_previous": false,
+        "dependency_reasons": []
+      },
+      "metadata": {
+        "model": "groq/openai/gpt-oss-120b",
+        "prompt_version": "8.0",
+        "llm_config": {
+          "provider": "groq",
+          "model": "openai/gpt-oss-120b",
+          "reasoning_effort": "low",
+          "temperature": 0.0,
+          "max_output_tokens": 8192,
+          "prompt_version": "8.0",
+          "thinking_budget": null,
+          "empty_gloss_retry": true,
+          "references_file": null,
+          "reference_entries_loaded": 0
+        },
+        "rule_set_version": "0.1.0",
+        "active_rules": [
+          "R-FMT-01",
+          "R-ART-01",
+          "R-SKIP-01"
+        ],
+        "result_schema_version": "1.0",
+        "rule_pass_completed": true,
+        "cache_hit": false
+      }
+    },
+    {
+      "sentence_id": "01-csu-bakersfield-english-session-s0030",
+      "group_id": "01-csu-bakersfield-english-session-g0006",
+      "source_text": "She has been delivering online discourses on various subjects of Jainism for devotees from various countries like the United States, but also the UK, Malaysia, Singapore, UAE, Sudan, Congo, Sweden, and Australia.",
+      "llm_input_text": "She has been delivering online discourses on various subjects of Jainism for devotees from various countries like the United States, but also the UK, Malaysia, Singapore, UAE, Sudan, Congo, Sweden, and Australia.",
+      "skipped_spans": [],
+      "translation_status": "translated",
+      "candidate_gloss": "SHE DELIVER ONLINE DISCOURSES ON VARIOUS SUBJECTS OF FS:JAISM FOR DEVOTEES FROM VARIOUS COUNTRIES LIKE FS:UNITED FS:STATES BUT ALSO FS:UK FS:MALAYSIA FS:SINGAPORE FS:UAE FS:SUDAN FS:CONGO FS:SWEDEN AND FS:AUSTRALIA",
+      "candidate_tokens": [
+        "SHE",
+        "DELIVER",
+        "ONLINE",
+        "DISCOURSES",
+        "ON",
+        "VARIOUS",
+        "SUBJECTS",
+        "OF",
+        "FS:JAISM",
+        "FOR",
+        "DEVOTEES",
+        "FROM",
+        "VARIOUS",
+        "COUNTRIES",
+        "LIKE",
+        "FS:UNITED",
+        "FS:STATES",
+        "BUT",
+        "ALSO",
+        "FS:UK",
+        "FS:MALAYSIA",
+        "FS:SINGAPORE",
+        "FS:UAE",
+        "FS:SUDAN",
+        "FS:CONGO",
+        "FS:SWEDEN",
+        "AND",
+        "FS:AUSTRALIA"
+      ],
+      "final_gloss": "SHE DELIVER ONLINE DISCOURSES ON VARIOUS SUBJECTS OF FS:JAISM FOR DEVOTEES FROM VARIOUS COUNTRIES LIKE FS:UNITED FS:STATES BUT ALSO FS:UK FS:MALAYSIA FS:SINGAPORE FS:UAE FS:SUDAN FS:CONGO FS:SWEDEN AND FS:AUSTRALIA",
+      "final_tokens": [
+        "SHE",
+        "DELIVER",
+        "ONLINE",
+        "DISCOURSES",
+        "ON",
+        "VARIOUS",
+        "SUBJECTS",
+        "OF",
+        "FS:JAISM",
+        "FOR",
+        "DEVOTEES",
+        "FROM",
+        "VARIOUS",
+        "COUNTRIES",
+        "LIKE",
+        "FS:UNITED",
+        "FS:STATES",
+        "BUT",
+        "ALSO",
+        "FS:UK",
+        "FS:MALAYSIA",
+        "FS:SINGAPORE",
+        "FS:UAE",
+        "FS:SUDAN",
+        "FS:CONGO",
+        "FS:SWEDEN",
+        "AND",
+        "FS:AUSTRALIA"
+      ],
+      "applied_rules": [],
+      "validation": {
+        "status": "review_required",
+        "warnings": [
+          {
+            "code": "name_may_be_missing",
+            "severity": "review",
+            "message": "Capitalised word(s) not found in the gloss: JAINISM. May be names or sign-label substitutions."
+          }
+        ]
+      },
+      "review_status": "unreviewed",
+      "uncertainty_notes": "Term \"Jainism\" not verified; fingerspelled as FS:JAISM.",
+      "uncertain_parts": [
+        "FS:JAISM"
+      ],
+      "needs_human_review": true,
+      "llm_status": "ok",
+      "llm": {
+        "status": "ok",
+        "needs_human_review": false,
+        "uncertain": false,
+        "uncertain_parts": [
+          "FS:JAISM"
+        ],
+        "notes": "Term \"Jainism\" not verified; fingerspelled as FS:JAISM.",
+        "echoed_source_text": "She has been delivering online discourses on various subjects of Jainism for devotees from various countries like the United States, but also the UK, Malaysia, Singapore, UAE, Sudan, Congo, Sweden, and Australia."
+      },
+      "error": null,
+      "speaker_id": "Speaker 1",
+      "start_timestamp": null,
+      "end_timestamp": null,
+      "turn_index": 2,
+      "source_metadata": {
+        "source_id": "01-csu-bakersfield-english-session",
+        "parent_chunk_id": "01-csu-bakersfield-english-session-0030",
+        "split_method": null,
+        "piece": [
+          1,
+          1
+        ],
+        "source_start_offset": 3005,
+        "source_end_offset": 3217,
+        "cue_indices": null,
+        "cue_ids": null,
+        "incomplete": false,
+        "depends_on_previous": true,
+        "dependency_reasons": [
+          "pronoun_start"
+        ]
+      },
+      "metadata": {
+        "model": "groq/openai/gpt-oss-120b",
+        "prompt_version": "8.0",
+        "llm_config": {
+          "provider": "groq",
+          "model": "openai/gpt-oss-120b",
+          "reasoning_effort": "low",
+          "temperature": 0.0,
+          "max_output_tokens": 8192,
+          "prompt_version": "8.0",
+          "thinking_budget": null,
+          "empty_gloss_retry": true,
+          "references_file": null,
+          "reference_entries_loaded": 0
+        },
+        "rule_set_version": "0.1.0",
+        "active_rules": [
+          "R-FMT-01",
+          "R-ART-01",
+          "R-SKIP-01"
+        ],
+        "result_schema_version": "1.0",
+        "rule_pass_completed": true,
+        "cache_hit": false
+      }
+    },
+    {
+      "sentence_id": "01-csu-bakersfield-english-session-s0031",
+      "group_id": "01-csu-bakersfield-english-session-g0007",
+      "source_text": "That's quite a resume.",
+      "llm_input_text": "That's quite a resume.",
+      "skipped_spans": [],
+      "translation_status": "translated",
+      "candidate_gloss": "THAT QUITE RESUME",
+      "candidate_tokens": [
+        "THAT",
+        "QUITE",
+        "RESUME"
+      ],
+      "final_gloss": "THAT QUITE RESUME",
+      "final_tokens": [
+        "THAT",
+        "QUITE",
+        "RESUME"
+      ],
+      "applied_rules": [],
+      "validation": {
+        "status": "pass",
+        "warnings": []
+      },
+      "review_status": "unreviewed",
+      "uncertainty_notes": "",
+      "uncertain_parts": [],
+      "needs_human_review": false,
+      "llm_status": "ok",
+      "llm": {
+        "status": "ok",
+        "needs_human_review": false,
+        "uncertain": false,
+        "uncertain_parts": [],
+        "notes": "",
+        "echoed_source_text": "That's quite a resume."
+      },
+      "error": null,
+      "speaker_id": "Speaker 1",
+      "start_timestamp": null,
+      "end_timestamp": null,
+      "turn_index": 2,
+      "source_metadata": {
+        "source_id": "01-csu-bakersfield-english-session",
+        "parent_chunk_id": "01-csu-bakersfield-english-session-0031",
+        "split_method": null,
+        "piece": [
+          1,
+          1
+        ],
+        "source_start_offset": 3218,
+        "source_end_offset": 3240,
+        "cue_indices": null,
+        "cue_ids": null,
+        "incomplete": false,
+        "depends_on_previous": false,
+        "dependency_reasons": []
+      },
+      "metadata": {
+        "model": "groq/openai/gpt-oss-120b",
+        "prompt_version": "8.0",
+        "llm_config": {
+          "provider": "groq",
+          "model": "openai/gpt-oss-120b",
+          "reasoning_effort": "low",
+          "temperature": 0.0,
+          "max_output_tokens": 8192,
+          "prompt_version": "8.0",
+          "thinking_budget": null,
+          "empty_gloss_retry": true,
+          "references_file": null,
+          "reference_entries_loaded": 0
+        },
+        "rule_set_version": "0.1.0",
+        "active_rules": [
+          "R-FMT-01",
+          "R-ART-01",
+          "R-SKIP-01"
+        ],
+        "result_schema_version": "1.0",
+        "rule_pass_completed": true,
+        "cache_hit": false
+      }
+    },
+    {
+      "sentence_id": "01-csu-bakersfield-english-session-s0032",
+      "group_id": "01-csu-bakersfield-english-session-g0007",
+      "source_text": "So we were fortunate to have her with us.",
+      "llm_input_text": "So we were fortunate to have her with us.",
+      "skipped_spans": [],
+      "translation_status": "translated",
+      "candidate_gloss": "SO WE FORTUNATE HAVE HER WITH US",
+      "candidate_tokens": [
+        "SO",
+        "WE",
+        "FORTUNATE",
+        "HAVE",
+        "HER",
+        "WITH",
+        "US"
+      ],
+      "final_gloss": "SO WE FORTUNATE HAVE HER WITH US",
+      "final_tokens": [
+        "SO",
+        "WE",
+        "FORTUNATE",
+        "HAVE",
+        "HER",
+        "WITH",
+        "US"
+      ],
+      "applied_rules": [],
+      "validation": {
+        "status": "pass",
+        "warnings": []
+      },
+      "review_status": "unreviewed",
+      "uncertainty_notes": "",
+      "uncertain_parts": [],
+      "needs_human_review": false,
+      "llm_status": "ok",
+      "llm": {
+        "status": "ok",
+        "needs_human_review": false,
+        "uncertain": false,
+        "uncertain_parts": [],
+        "notes": "",
+        "echoed_source_text": "So we were fortunate to have her with us."
+      },
+      "error": null,
+      "speaker_id": "Speaker 1",
+      "start_timestamp": null,
+      "end_timestamp": null,
+      "turn_index": 2,
+      "source_metadata": {
+        "source_id": "01-csu-bakersfield-english-session",
+        "parent_chunk_id": "01-csu-bakersfield-english-session-0032",
+        "split_method": null,
+        "piece": [
+          1,
+          1
+        ],
+        "source_start_offset": 3241,
+        "source_end_offset": 3282,
+        "cue_indices": null,
+        "cue_ids": null,
+        "incomplete": false,
+        "depends_on_previous": true,
+        "dependency_reasons": [
+          "continuation_word"
+        ]
+      },
+      "metadata": {
+        "model": "groq/openai/gpt-oss-120b",
+        "prompt_version": "8.0",
+        "llm_config": {
+          "provider": "groq",
+          "model": "openai/gpt-oss-120b",
+          "reasoning_effort": "low",
+          "temperature": 0.0,
+          "max_output_tokens": 8192,
+          "prompt_version": "8.0",
+          "thinking_budget": null,
+          "empty_gloss_retry": true,
+          "references_file": null,
+          "reference_entries_loaded": 0
+        },
+        "rule_set_version": "0.1.0",
+        "active_rules": [
+          "R-FMT-01",
+          "R-ART-01",
+          "R-SKIP-01"
+        ],
+        "result_schema_version": "1.0",
+        "rule_pass_completed": true,
+        "cache_hit": false
+      }
+    },
+    {
+      "sentence_id": "01-csu-bakersfield-english-session-s0033",
+      "group_id": "01-csu-bakersfield-english-session-g0007",
+      "source_text": "with us this morning.",
+      "llm_input_text": "with us this morning.",
+      "skipped_spans": [],
+      "translation_status": "translated",
+      "candidate_gloss": "WITH US THIS MORNING",
+      "candidate_tokens": [
+        "WITH",
+        "US",
+        "THIS",
+        "MORNING"
+      ],
+      "final_gloss": "WITH US THIS MORNING",
+      "final_tokens": [
+        "WITH",
+        "US",
+        "THIS",
+        "MORNING"
+      ],
+      "applied_rules": [],
+      "validation": {
+        "status": "pass",
+        "warnings": []
+      },
+      "review_status": "unreviewed",
+      "uncertainty_notes": "",
+      "uncertain_parts": [],
+      "needs_human_review": false,
+      "llm_status": "ok",
+      "llm": {
+        "status": "ok",
+        "needs_human_review": false,
+        "uncertain": false,
+        "uncertain_parts": [],
+        "notes": "",
+        "echoed_source_text": "with us this morning."
+      },
+      "error": null,
+      "speaker_id": "Speaker 1",
+      "start_timestamp": null,
+      "end_timestamp": null,
+      "turn_index": 2,
+      "source_metadata": {
+        "source_id": "01-csu-bakersfield-english-session",
+        "parent_chunk_id": "01-csu-bakersfield-english-session-0033",
+        "split_method": null,
+        "piece": [
+          1,
+          1
+        ],
+        "source_start_offset": 3283,
+        "source_end_offset": 3304,
+        "cue_indices": null,
+        "cue_ids": null,
+        "incomplete": false,
+        "depends_on_previous": true,
+        "dependency_reasons": [
+          "lowercase_start"
+        ]
+      },
+      "metadata": {
+        "model": "groq/openai/gpt-oss-120b",
+        "prompt_version": "8.0",
+        "llm_config": {
+          "provider": "groq",
+          "model": "openai/gpt-oss-120b",
+          "reasoning_effort": "low",
+          "temperature": 0.0,
+          "max_output_tokens": 8192,
+          "prompt_version": "8.0",
+          "thinking_budget": null,
+          "empty_gloss_retry": true,
+          "references_file": null,
+          "reference_entries_loaded": 0
+        },
+        "rule_set_version": "0.1.0",
+        "active_rules": [
+          "R-FMT-01",
+          "R-ART-01",
+          "R-SKIP-01"
+        ],
+        "result_schema_version": "1.0",
+        "rule_pass_completed": true,
+        "cache_hit": false
+      }
+    },
+    {
+      "sentence_id": "01-csu-bakersfield-english-session-s0034",
+      "group_id": "01-csu-bakersfield-english-session-g0007",
+      "source_text": "So without further ado, please welcome Asmita Ji Masaji.",
+      "llm_input_text": "So without further ado, please welcome Asmita Ji Masaji.",
+      "skipped_spans": [],
+      "translation_status": "translated",
+      "candidate_gloss": "SO WITHOUT FURTHER ADO PLEASE WELCOME FS:ASMITA FS:JI FS:MASAJI",
+      "candidate_tokens": [
+        "SO",
+        "WITHOUT",
+        "FURTHER",
+        "ADO",
+        "PLEASE",
+        "WELCOME",
+        "FS:ASMITA",
+        "FS:JI",
+        "FS:MASAJI"
+      ],
+      "final_gloss": "SO WITHOUT FURTHER ADO PLEASE WELCOME FS:ASMITA FS:JI FS:MASAJI",
+      "final_tokens": [
+        "SO",
+        "WITHOUT",
+        "FURTHER",
+        "ADO",
+        "PLEASE",
+        "WELCOME",
+        "FS:ASMITA",
+        "FS:JI",
+        "FS:MASAJI"
+      ],
+      "applied_rules": [],
+      "validation": {
+        "status": "pass",
+        "warnings": []
+      },
+      "review_status": "unreviewed",
+      "uncertainty_notes": "",
+      "uncertain_parts": [],
+      "needs_human_review": false,
+      "llm_status": "ok",
+      "llm": {
+        "status": "ok",
+        "needs_human_review": false,
+        "uncertain": false,
+        "uncertain_parts": [],
+        "notes": "",
+        "echoed_source_text": "So without further ado, please welcome Asmita Ji Masaji."
+      },
+      "error": null,
+      "speaker_id": "Speaker 1",
+      "start_timestamp": null,
+      "end_timestamp": null,
+      "turn_index": 2,
+      "source_metadata": {
+        "source_id": "01-csu-bakersfield-english-session",
+        "parent_chunk_id": "01-csu-bakersfield-english-session-0034",
+        "split_method": null,
+        "piece": [
+          1,
+          1
+        ],
+        "source_start_offset": 3305,
+        "source_end_offset": 3361,
+        "cue_indices": null,
+        "cue_ids": null,
+        "incomplete": false,
+        "depends_on_previous": true,
+        "dependency_reasons": [
+          "continuation_word"
+        ]
+      },
+      "metadata": {
+        "model": "groq/openai/gpt-oss-120b",
+        "prompt_version": "8.0",
+        "llm_config": {
+          "provider": "groq",
+          "model": "openai/gpt-oss-120b",
+          "reasoning_effort": "low",
+          "temperature": 0.0,
+          "max_output_tokens": 8192,
+          "prompt_version": "8.0",
+          "thinking_budget": null,
+          "empty_gloss_retry": true,
+          "references_file": null,
+          "reference_entries_loaded": 0
+        },
+        "rule_set_version": "0.1.0",
+        "active_rules": [
+          "R-FMT-01",
+          "R-ART-01",
+          "R-SKIP-01"
+        ],
+        "result_schema_version": "1.0",
+        "rule_pass_completed": true,
+        "cache_hit": false
+      }
+    },
+    {
+      "sentence_id": "01-csu-bakersfield-english-session-s0035",
+      "group_id": "01-csu-bakersfield-english-session-g0008",
+      "source_text": "Shasanpati Shraman Bhagwan Mahavir Swami ne bhavpurvak vandan.",
+      "llm_input_text": "Shasanpati Shraman Bhagwan Mahavir Swami ne bhavpurvak vandan.",
+      "skipped_spans": [],
+      "translation_status": "translated",
+      "candidate_gloss": "FS:SHASANPATI FS:SHRAMAN FS:BHA...?? FS:MAHAVIR FS:SWAMI NE BHAVPURVAK VANDAN",
+      "candidate_tokens": [
+        "FS:SHASANPATI",
+        "FS:SHRAMAN",
+        "FS:BHA...??",
+        "FS:MAHAVIR",
+        "FS:SWAMI",
+        "NE",
+        "BHAVPURVAK",
+        "VANDAN"
+      ],
+      "final_gloss": "FS:SHASANPATI FS:SHRAMAN FS:BHA FS:MAHAVIR FS:SWAMI NE BHAVPURVAK VANDAN",
+      "final_tokens": [
+        "FS:SHASANPATI",
+        "FS:SHRAMAN",
+        "FS:BHA",
+        "FS:MAHAVIR",
+        "FS:SWAMI",
+        "NE",
+        "BHAVPURVAK",
+        "VANDAN"
+      ],
+      "applied_rules": [
+        {
+          "rule_id": "R-FMT-01",
+          "rule_version": "1",
+          "description": "Normalise token format: upper-case, strip punctuation/odd characters, spaces inside a token -> underscore, drop tokens that become empty.",
+          "status": "applied",
+          "before": [
+            "FS:SHASANPATI",
+            "FS:SHRAMAN",
+            "FS:BHA...??",
+            "FS:MAHAVIR",
+            "FS:SWAMI",
+            "NE",
+            "BHAVPURVAK",
+            "VANDAN"
+          ],
+          "after": [
+            "FS:SHASANPATI",
+            "FS:SHRAMAN",
+            "FS:BHA",
+            "FS:MAHAVIR",
+            "FS:SWAMI",
+            "NE",
+            "BHAVPURVAK",
+            "VANDAN"
+          ]
+        }
+      ],
+      "validation": {
+        "status": "review_required",
+        "warnings": [
+          {
+            "code": "llm_marked_uncertain",
+            "severity": "review",
+            "message": "The LLM flagged this entry as uncertain: Uncertain spelling of 'Bhagwan' token; fingerspelling each word of the title is assumed.. Doubtful: FS:BHA...??."
+          },
+          {
+            "code": "candidate_format_issue",
+            "severity": "info",
+            "message": "1 candidate token(s) were not in gloss format (e.g. 'FS:BHA...??'); the rule pass normalises these."
+          },
+          {
+            "code": "name_may_be_missing",
+            "severity": "review",
+            "message": "Capitalised word(s) not found in the gloss: BHAGWAN. May be names or sign-label substitutions."
+          },
+          {
+            "code": "rules_changed_output",
+            "severity": "info",
+            "message": "Rule pass changed the LLM candidate: R-FMT-01"
+          }
+        ]
+      },
+      "review_status": "unreviewed",
+      "uncertainty_notes": "Uncertain spelling of 'Bhagwan' token; fingerspelling each word of the title is assumed.",
+      "uncertain_parts": [
+        "FS:BHA...??"
+      ],
+      "needs_human_review": true,
+      "llm_status": "uncertain",
+      "llm": {
+        "status": "uncertain",
+        "needs_human_review": true,
+        "uncertain": true,
+        "uncertain_parts": [
+          "FS:BHA...??"
+        ],
+        "notes": "Uncertain spelling of 'Bhagwan' token; fingerspelling each word of the title is assumed.",
+        "echoed_source_text": "Shasanpati Shraman Bhagwan Mahavir Swami ne bhavpurvak vandan."
+      },
+      "error": null,
+      "speaker_id": "Speaker 5",
+      "start_timestamp": null,
+      "end_timestamp": null,
+      "turn_index": 3,
+      "source_metadata": {
+        "source_id": "01-csu-bakersfield-english-session",
+        "parent_chunk_id": "01-csu-bakersfield-english-session-0035",
+        "split_method": null,
+        "piece": [
+          1,
+          1
+        ],
+        "source_start_offset": 3373,
+        "source_end_offset": 3435,
+        "cue_indices": null,
+        "cue_ids": null,
+        "incomplete": false,
+        "depends_on_previous": false,
+        "dependency_reasons": []
+      },
+      "metadata": {
+        "model": "groq/openai/gpt-oss-120b",
+        "prompt_version": "8.0",
+        "llm_config": {
+          "provider": "groq",
+          "model": "openai/gpt-oss-120b",
+          "reasoning_effort": "low",
+          "temperature": 0.0,
+          "max_output_tokens": 8192,
+          "prompt_version": "8.0",
+          "thinking_budget": null,
+          "empty_gloss_retry": true,
+          "references_file": null,
+          "reference_entries_loaded": 0
+        },
+        "rule_set_version": "0.1.0",
+        "active_rules": [
+          "R-FMT-01",
+          "R-ART-01",
+          "R-SKIP-01"
+        ],
+        "result_schema_version": "1.0",
+        "rule_pass_completed": true,
+        "cache_hit": false
+      }
+    },
+    {
+      "sentence_id": "01-csu-bakersfield-english-session-s0036",
+      "group_id": "01-csu-bakersfield-english-session-g0008",
+      "source_text": "Asim upkari rashtrasant param gurudev aap shreena shree charanoma bhavpurvak vandan.",
+      "llm_input_text": "Asim upkari rashtrasant param gurudev aap shreena shree charanoma bhavpurvak vandan.",
+      "skipped_spans": [],
+      "translation_status": "translated",
+      "candidate_gloss": "FS:ASIM UPKARI RASHTRASANT PARAM GURUDEV AAP SHREENA SHREE CHARANOMA BHAVPURVAK VANDAN",
+      "candidate_tokens": [
+        "FS:ASIM",
+        "UPKARI",
+        "RASHTRASANT",
+        "PARAM",
+        "GURUDEV",
+        "AAP",
+        "SHREENA",
+        "SHREE",
+        "CHARANOMA",
+        "BHAVPURVAK",
+        "VANDAN"
+      ],
+      "final_gloss": "FS:ASIM UPKARI RASHTRASANT PARAM GURUDEV AAP SHREENA SHREE CHARANOMA BHAVPURVAK VANDAN",
+      "final_tokens": [
+        "FS:ASIM",
+        "UPKARI",
+        "RASHTRASANT",
+        "PARAM",
+        "GURUDEV",
+        "AAP",
+        "SHREENA",
+        "SHREE",
+        "CHARANOMA",
+        "BHAVPURVAK",
+        "VANDAN"
+      ],
+      "applied_rules": [],
+      "validation": {
+        "status": "pass",
+        "warnings": []
+      },
+      "review_status": "unreviewed",
+      "uncertainty_notes": "",
+      "uncertain_parts": [],
+      "needs_human_review": false,
+      "llm_status": "ok",
+      "llm": {
+        "status": "ok",
+        "needs_human_review": false,
+        "uncertain": false,
+        "uncertain_parts": [],
+        "notes": "",
+        "echoed_source_text": "Asim upkari rashtrasant param gurudev aap shreena shree charanoma bhavpurvak vandan."
+      },
+      "error": null,
+      "speaker_id": "Speaker 5",
+      "start_timestamp": null,
+      "end_timestamp": null,
+      "turn_index": 3,
+      "source_metadata": {
+        "source_id": "01-csu-bakersfield-english-session",
+        "parent_chunk_id": "01-csu-bakersfield-english-session-0036",
+        "split_method": null,
+        "piece": [
+          1,
+          1
+        ],
+        "source_start_offset": 3436,
+        "source_end_offset": 3520,
+        "cue_indices": null,
+        "cue_ids": null,
+        "incomplete": false,
+        "depends_on_previous": false,
+        "dependency_reasons": []
+      },
+      "metadata": {
+        "model": "groq/openai/gpt-oss-120b",
+        "prompt_version": "8.0",
+        "llm_config": {
+          "provider": "groq",
+          "model": "openai/gpt-oss-120b",
+          "reasoning_effort": "low",
+          "temperature": 0.0,
+          "max_output_tokens": 8192,
+          "prompt_version": "8.0",
+          "thinking_budget": null,
+          "empty_gloss_retry": true,
+          "references_file": null,
+          "reference_entries_loaded": 0
+        },
+        "rule_set_version": "0.1.0",
+        "active_rules": [
+          "R-FMT-01",
+          "R-ART-01",
+          "R-SKIP-01"
+        ],
+        "result_schema_version": "1.0",
+        "rule_pass_completed": true,
+        "cache_hit": false
+      }
+    },
+    {
+      "sentence_id": "01-csu-bakersfield-english-session-s0037",
+      "group_id": "01-csu-bakersfield-english-session-g0008",
+      "source_text": "a very warm welcome.",
+      "llm_input_text": "a very warm welcome.",
+      "skipped_spans": [],
+      "translation_status": "translated",
+      "candidate_gloss": "VERY WARM WELCOME",
+      "candidate_tokens": [
+        "VERY",
+        "WARM",
+        "WELCOME"
+      ],
+      "final_gloss": "VERY WARM WELCOME",
+      "final_tokens": [
+        "VERY",
+        "WARM",
+        "WELCOME"
+      ],
+      "applied_rules": [],
+      "validation": {
+        "status": "pass",
+        "warnings": []
+      },
+      "review_status": "unreviewed",
+      "uncertainty_notes": "",
+      "uncertain_parts": [],
+      "needs_human_review": false,
+      "llm_status": "ok",
+      "llm": {
+        "status": "ok",
+        "needs_human_review": false,
+        "uncertain": false,
+        "uncertain_parts": [],
+        "notes": "",
+        "echoed_source_text": "a very warm welcome."
+      },
+      "error": null,
+      "speaker_id": "Speaker 5",
+      "start_timestamp": null,
+      "end_timestamp": null,
+      "turn_index": 3,
+      "source_metadata": {
+        "source_id": "01-csu-bakersfield-english-session",
+        "parent_chunk_id": "01-csu-bakersfield-english-session-0037",
+        "split_method": null,
+        "piece": [
+          1,
+          1
+        ],
+        "source_start_offset": 3521,
+        "source_end_offset": 3541,
+        "cue_indices": null,
+        "cue_ids": null,
+        "incomplete": false,
+        "depends_on_previous": true,
+        "dependency_reasons": [
+          "lowercase_start"
+        ]
+      },
+      "metadata": {
+        "model": "groq/openai/gpt-oss-120b",
+        "prompt_version": "8.0",
+        "llm_config": {
+          "provider": "groq",
+          "model": "openai/gpt-oss-120b",
+          "reasoning_effort": "low",
+          "temperature": 0.0,
+          "max_output_tokens": 8192,
+          "prompt_version": "8.0",
+          "thinking_budget": null,
+          "empty_gloss_retry": true,
+          "references_file": null,
+          "reference_entries_loaded": 0
+        },
+        "rule_set_version": "0.1.0",
+        "active_rules": [
+          "R-FMT-01",
+          "R-ART-01",
+          "R-SKIP-01"
+        ],
+        "result_schema_version": "1.0",
+        "rule_pass_completed": true,
+        "cache_hit": false
+      }
+    },
+    {
+      "sentence_id": "01-csu-bakersfield-english-session-s0038",
+      "group_id": "01-csu-bakersfield-english-session-g0008",
+      "source_text": "To all of you It's very interesting to know the curiosity.",
+      "llm_input_text": "To all of you It's very interesting to know the curiosity.",
+      "skipped_spans": [],
+      "translation_status": "translated",
+      "candidate_gloss": "ALL YOU IT VERY INTERESTING KNOW CURIOUSITY",
+      "candidate_tokens": [
+        "ALL",
+        "YOU",
+        "IT",
+        "VERY",
+        "INTERESTING",
+        "KNOW",
+        "CURIOUSITY"
+      ],
+      "final_gloss": "ALL YOU IT VERY INTERESTING KNOW CURIOUSITY",
+      "final_tokens": [
+        "ALL",
+        "YOU",
+        "IT",
+        "VERY",
+        "INTERESTING",
+        "KNOW",
+        "CURIOUSITY"
+      ],
+      "applied_rules": [],
+      "validation": {
+        "status": "review_required",
+        "warnings": [
+          {
+            "code": "name_may_be_missing",
+            "severity": "review",
+            "message": "Capitalised word(s) not found in the gloss: IT'S. May be names or sign-label substitutions."
+          }
+        ]
+      },
+      "review_status": "unreviewed",
+      "uncertainty_notes": "The word 'curiosity' is ambiguous in this context; kept as literal gloss.",
+      "uncertain_parts": [
+        "CURIOUSITY"
+      ],
+      "needs_human_review": true,
+      "llm_status": "ok",
+      "llm": {
+        "status": "ok",
+        "needs_human_review": false,
+        "uncertain": false,
+        "uncertain_parts": [
+          "CURIOUSITY"
+        ],
+        "notes": "The word 'curiosity' is ambiguous in this context; kept as literal gloss.",
+        "echoed_source_text": "To all of you It's very interesting to know the curiosity."
+      },
+      "error": null,
+      "speaker_id": "Speaker 5",
+      "start_timestamp": null,
+      "end_timestamp": null,
+      "turn_index": 3,
+      "source_metadata": {
+        "source_id": "01-csu-bakersfield-english-session",
+        "parent_chunk_id": "01-csu-bakersfield-english-session-0038",
+        "split_method": null,
+        "piece": [
+          1,
+          1
+        ],
+        "source_start_offset": 3542,
+        "source_end_offset": 3600,
+        "cue_indices": null,
+        "cue_ids": null,
+        "incomplete": false,
+        "depends_on_previous": false,
+        "dependency_reasons": []
+      },
+      "metadata": {
+        "model": "groq/openai/gpt-oss-120b",
+        "prompt_version": "8.0",
+        "llm_config": {
+          "provider": "groq",
+          "model": "openai/gpt-oss-120b",
+          "reasoning_effort": "low",
+          "temperature": 0.0,
+          "max_output_tokens": 8192,
+          "prompt_version": "8.0",
+          "thinking_budget": null,
+          "empty_gloss_retry": true,
+          "references_file": null,
+          "reference_entries_loaded": 0
+        },
+        "rule_set_version": "0.1.0",
+        "active_rules": [
+          "R-FMT-01",
+          "R-ART-01",
+          "R-SKIP-01"
+        ],
+        "result_schema_version": "1.0",
+        "rule_pass_completed": true,
+        "cache_hit": false
+      }
+    },
+    {
+      "sentence_id": "01-csu-bakersfield-english-session-s0039",
+      "group_id": "01-csu-bakersfield-english-session-g0008",
+      "source_text": "that you all have within your hearts to know about all the different religions of this world.",
+      "llm_input_text": "that you all have within your hearts to know about all the different religions of this world.",
+      "skipped_spans": [],
+      "translation_status": "translated",
+      "candidate_gloss": "YOU ALL HAVE HEART INSIDE KNOW ABOUT ALL DIFFERENT RELIGIONS WORLD",
+      "candidate_tokens": [
+        "YOU",
+        "ALL",
+        "HAVE",
+        "HEART",
+        "INSIDE",
+        "KNOW",
+        "ABOUT",
+        "ALL",
+        "DIFFERENT",
+        "RELIGIONS",
+        "WORLD"
+      ],
+      "final_gloss": "YOU ALL HAVE HEART INSIDE KNOW ABOUT ALL DIFFERENT RELIGIONS WORLD",
+      "final_tokens": [
+        "YOU",
+        "ALL",
+        "HAVE",
+        "HEART",
+        "INSIDE",
+        "KNOW",
+        "ABOUT",
+        "ALL",
+        "DIFFERENT",
+        "RELIGIONS",
+        "WORLD"
+      ],
+      "applied_rules": [],
+      "validation": {
+        "status": "pass",
+        "warnings": []
+      },
+      "review_status": "unreviewed",
+      "uncertainty_notes": "",
+      "uncertain_parts": [],
+      "needs_human_review": false,
+      "llm_status": "ok",
+      "llm": {
+        "status": "ok",
+        "needs_human_review": false,
+        "uncertain": false,
+        "uncertain_parts": [],
+        "notes": "",
+        "echoed_source_text": "that you all have within your hearts to know about all the different religions of this world."
+      },
+      "error": null,
+      "speaker_id": "Speaker 5",
+      "start_timestamp": null,
+      "end_timestamp": null,
+      "turn_index": 3,
+      "source_metadata": {
+        "source_id": "01-csu-bakersfield-english-session",
+        "parent_chunk_id": "01-csu-bakersfield-english-session-0039",
+        "split_method": null,
+        "piece": [
+          1,
+          1
+        ],
+        "source_start_offset": 3601,
+        "source_end_offset": 3694,
+        "cue_indices": null,
+        "cue_ids": null,
+        "incomplete": false,
+        "depends_on_previous": true,
+        "dependency_reasons": [
+          "lowercase_start",
+          "pronoun_start"
+        ]
+      },
+      "metadata": {
+        "model": "groq/openai/gpt-oss-120b",
+        "prompt_version": "8.0",
+        "llm_config": {
+          "provider": "groq",
+          "model": "openai/gpt-oss-120b",
+          "reasoning_effort": "low",
+          "temperature": 0.0,
+          "max_output_tokens": 8192,
+          "prompt_version": "8.0",
+          "thinking_budget": null,
+          "empty_gloss_retry": true,
+          "references_file": null,
+          "reference_entries_loaded": 0
+        },
+        "rule_set_version": "0.1.0",
+        "active_rules": [
+          "R-FMT-01",
+          "R-ART-01",
+          "R-SKIP-01"
+        ],
+        "result_schema_version": "1.0",
+        "rule_pass_completed": true,
+        "cache_hit": false
+      }
+    },
+    {
+      "sentence_id": "01-csu-bakersfield-english-session-s0040",
+      "group_id": "01-csu-bakersfield-english-session-g0008",
+      "source_text": "And today, we have been blessed with this opportunity to gain some insight.",
+      "llm_input_text": "And today, we have been blessed with this opportunity to gain some insight.",
+      "skipped_spans": [],
+      "translation_status": "translated",
+      "candidate_gloss": "TODAY WE BLESSED THIS OPPORTUNITY GAIN INSIGHT",
+      "candidate_tokens": [
+        "TODAY",
+        "WE",
+        "BLESSED",
+        "THIS",
+        "OPPORTUNITY",
+        "GAIN",
+        "INSIGHT"
+      ],
+      "final_gloss": "TODAY WE BLESSED THIS OPPORTUNITY GAIN INSIGHT",
+      "final_tokens": [
+        "TODAY",
+        "WE",
+        "BLESSED",
+        "THIS",
+        "OPPORTUNITY",
+        "GAIN",
+        "INSIGHT"
+      ],
+      "applied_rules": [],
+      "validation": {
+        "status": "pass",
+        "warnings": []
+      },
+      "review_status": "unreviewed",
+      "uncertainty_notes": "",
+      "uncertain_parts": [],
+      "needs_human_review": false,
+      "llm_status": "ok",
+      "llm": {
+        "status": "ok",
+        "needs_human_review": false,
+        "uncertain": false,
+        "uncertain_parts": [],
+        "notes": "",
+        "echoed_source_text": "And today, we have been blessed with this opportunity to gain some insight."
+      },
+      "error": null,
+      "speaker_id": "Speaker 5",
+      "start_timestamp": null,
+      "end_timestamp": null,
+      "turn_index": 3,
+      "source_metadata": {
+        "source_id": "01-csu-bakersfield-english-session",
+        "parent_chunk_id": "01-csu-bakersfield-english-session-0040",
+        "split_method": null,
+        "piece": [
+          1,
+          1
+        ],
+        "source_start_offset": 3695,
+        "source_end_offset": 3770,
+        "cue_indices": null,
+        "cue_ids": null,
+        "incomplete": false,
+        "depends_on_previous": true,
+        "dependency_reasons": [
+          "continuation_word"
+        ]
+      },
+      "metadata": {
+        "model": "groq/openai/gpt-oss-120b",
+        "prompt_version": "8.0",
+        "llm_config": {
+          "provider": "groq",
+          "model": "openai/gpt-oss-120b",
+          "reasoning_effort": "low",
+          "temperature": 0.0,
+          "max_output_tokens": 8192,
+          "prompt_version": "8.0",
+          "thinking_budget": null,
+          "empty_gloss_retry": true,
+          "references_file": null,
+          "reference_entries_loaded": 0
+        },
+        "rule_set_version": "0.1.0",
+        "active_rules": [
+          "R-FMT-01",
+          "R-ART-01",
+          "R-SKIP-01"
+        ],
+        "result_schema_version": "1.0",
+        "rule_pass_completed": true,
+        "cache_hit": false
+      }
+    }
+  ]
+}

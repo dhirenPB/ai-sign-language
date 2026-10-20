@@ -42,7 +42,7 @@ Full source of `app/api/translate-isl/route.ts` was read. Still no licence, so o
 | Auxiliaries | Drops do/does/will/have | Drops only "do"-support; keeps meaning-bearing modals and tense words | **Adapted**: dropping will/have can lose tense; reviewer to confirm |
 | Worked examples | Two (one garbled) | Two clean ones, labelled as illustrations, not gold | **Adopted** |
 | Vocabulary list | Fixed avatar sign list, mandatory | None by default; if `--vocab` is given it is put in the prompt (use only those tokens or FS:) | **Adapted** as an option for the later sign-generation phase |
-| Synonym mapping | Maps to the nearest listed sign (professor -> TEACHER) | Forbidden: fingerspell or mark uncertain | **Kept ours**: silent substitution changes meaning |
+| Synonym mapping | Maps to the nearest listed sign (professor -> TEACHER) | Forbidden inside the LLM prompt: fingerspell or mark uncertain | **Kept ours in the prompt**. **Update 2026-10-20:** on the project owner's instruction a separate, deterministic, logged synonym step now runs AFTER Phase 1 (`docs/gloss_signability.md`): only for words with no sign, `exact` synonyms by default, original word kept, table validated against the real vocabulary. The LLM prompt is unchanged. |
 | Pronouns | Merges (we -> I, he/she/they -> PERSON) | Kept distinct | **Kept ours** |
 | Names | Letter by letter | One `FS:NAME` token per name | **Kept ours** (reviewer to confirm the notation) |
 | Output | Bare string array | Objects: n, gloss, uncertain, notes | **Kept ours** |

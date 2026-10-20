@@ -6,3 +6,15 @@ data/translations/*.llm_cache.jsonl
 data/demo/
 data/jobs/
 deploy/
+
+# iSign working data (private, never commit)
+isl_out/
+
+# ISLRTC pose experiment outputs (landmarks/overlays derived from the dictionary videos; not for redistribution)
+outputs/
+
+# LLM request caches for any translation output folder (prompts and replies; never commit)
+data/*/*.llm_cache.jsonl
+
+# regenerable binary index (run_islrtc_index.py rebuilds it); manifest.json, review_queue.csv and mappings are tracked
+data/islrtc/*.sqlite

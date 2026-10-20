@@ -1,0 +1,4224 @@
+{
+  "schema_version": "1.0",
+  "report_type": "isl_gloss_translation",
+  "tool_version": "0.1.0",
+  "source_id": "03-manage-your-emotional-memories",
+  "source_file": "data\\structured\\03-manage-your-emotional-memories.cleaned.json",
+  "generated_at": "2026-10-20T09:29:23+00:00",
+  "review_status": "unreviewed",
+  "review_note": "Gloss is a machine-generated candidate. It has NOT been reviewed by an ISL-fluent signer and must not be treated as production-accurate.",
+  "complete": true,
+  "stop_reason": null,
+  "counts": {
+    "translated": 40,
+    "validation_pass": 40,
+    "cache_hits": 0
+  },
+  "assembly_validation": {
+    "passed": true,
+    "errors": [],
+    "warnings": []
+  },
+  "metadata": {
+    "model": "groq/openai/gpt-oss-120b",
+    "prompt_version": "8.0",
+    "llm_config": {
+      "provider": "groq",
+      "model": "openai/gpt-oss-120b",
+      "reasoning_effort": "low",
+      "temperature": 0.0,
+      "max_output_tokens": 8192,
+      "prompt_version": "8.0",
+      "thinking_budget": null,
+      "empty_gloss_retry": true,
+      "references_file": null,
+      "reference_entries_loaded": 0
+    },
+    "rule_set_version": "0.1.0",
+    "active_rules": [
+      "R-FMT-01",
+      "R-ART-01",
+      "R-SKIP-01"
+    ],
+    "result_schema_version": "1.0"
+  },
+  "source_type": "unknown",
+  "mode": "groups",
+  "limit": 40,
+  "grouping": {
+    "groups": 6,
+    "sentences": 40,
+    "sentences_per_group_avg": 6.7,
+    "sentences_per_group_max": 8,
+    "boundary_reasons": {
+      "max_sentences": 5,
+      "end": 1
+    },
+    "forced_boundaries": 0,
+    "oversize_groups": 0,
+    "groups_with_context_before": 0,
+    "groups_with_context_after": 0
+  },
+  "groups": [
+    {
+      "group_id": "03-manage-your-emotional-memories-g0001",
+      "sentence_ids": [
+        "03-manage-your-emotional-memories-s0001",
+        "03-manage-your-emotional-memories-s0002",
+        "03-manage-your-emotional-memories-s0003",
+        "03-manage-your-emotional-memories-s0004",
+        "03-manage-your-emotional-memories-s0005",
+        "03-manage-your-emotional-memories-s0006"
+      ],
+      "context_before_ids": [],
+      "context_after_ids": [],
+      "context_text": "Hello Hi students The California State University where Professor Jonathan Young has invited to take a session on philosophy and religious studies Today, first of all, I would like to appreciate your curiosity to learn something about Jainism. I truly believe that Jainism is Not a religion But it is a philosophy and a way of living. Whenever we do any action It creates an image. an impression in your mind.",
+      "start_timestamp": null,
+      "end_timestamp": null,
+      "boundary_reason": "max_sentences",
+      "forced_boundary": false,
+      "oversize": false
+    },
+    {
+      "group_id": "03-manage-your-emotional-memories-g0002",
+      "sentence_ids": [
+        "03-manage-your-emotional-memories-s0007",
+        "03-manage-your-emotional-memories-s0008",
+        "03-manage-your-emotional-memories-s0009",
+        "03-manage-your-emotional-memories-s0010",
+        "03-manage-your-emotional-memories-s0011",
+        "03-manage-your-emotional-memories-s0012",
+        "03-manage-your-emotional-memories-s0013",
+        "03-manage-your-emotional-memories-s0014"
+      ],
+      "context_before_ids": [],
+      "context_after_ids": [],
+      "context_text": "You must have seen that whenever water splits from a glass, it starts flowing in one direction and then it dries up. but If you again pour water in that same place, you must have marked that it starts flowing in the same path, same direction that is had created before. Why? Because Though the water had dried up, it still created and left back an image. So now When you again poured water over it, it flowed in the same path of the impression. What is this impression? It's nothing but memory. The action got over but it left an impression.",
+      "start_timestamp": null,
+      "end_timestamp": null,
+      "boundary_reason": "max_sentences",
+      "forced_boundary": false,
+      "oversize": false
+    },
+    {
+      "group_id": "03-manage-your-emotional-memories-g0003",
+      "sentence_ids": [
+        "03-manage-your-emotional-memories-s0015",
+        "03-manage-your-emotional-memories-s0016",
+        "03-manage-your-emotional-memories-s0017",
+        "03-manage-your-emotional-memories-s0018",
+        "03-manage-your-emotional-memories-s0019",
+        "03-manage-your-emotional-memories-s0020",
+        "03-manage-your-emotional-memories-s0021",
+        "03-manage-your-emotional-memories-s0022"
+      ],
+      "context_before_ids": [],
+      "context_after_ids": [],
+      "context_text": "Same thing happens with our life too. When we get angry, after getting angry the act is over, but It leaves behind an impression of getting angry which gets saved in the form of memories. So now Whenever you do any action of getting angry, it gets connected with this impression which is set in your mind. And hence, because of linking to the same impression, it opens the same file of getting angry and then you react. Now, tell me one thing. Then you boil water, its temperature increases, but slowly slowly after some time, it comes back to its normal room temperature, right? Because the real nature of the water is to be at room temperature.",
+      "start_timestamp": null,
+      "end_timestamp": null,
+      "boundary_reason": "max_sentences",
+      "forced_boundary": false,
+      "oversize": false
+    },
+    {
+      "group_id": "03-manage-your-emotional-memories-g0004",
+      "sentence_ids": [
+        "03-manage-your-emotional-memories-s0023",
+        "03-manage-your-emotional-memories-s0024",
+        "03-manage-your-emotional-memories-s0025",
+        "03-manage-your-emotional-memories-s0026",
+        "03-manage-your-emotional-memories-s0027",
+        "03-manage-your-emotional-memories-s0028",
+        "03-manage-your-emotional-memories-s0029",
+        "03-manage-your-emotional-memories-s0030"
+      ],
+      "context_before_ids": [],
+      "context_after_ids": [],
+      "context_text": "It's only when you hit it, it becomes hot. Similarly, whenever you get angry, how long can you remain angry? for few minutes. Okay. for few hours. and then then slowly slowly you will come down. and come back to normal mood. Right?",
+      "start_timestamp": null,
+      "end_timestamp": null,
+      "boundary_reason": "max_sentences",
+      "forced_boundary": false,
+      "oversize": false
+    },
+    {
+      "group_id": "03-manage-your-emotional-memories-g0005",
+      "sentence_ids": [
+        "03-manage-your-emotional-memories-s0031",
+        "03-manage-your-emotional-memories-s0032",
+        "03-manage-your-emotional-memories-s0033",
+        "03-manage-your-emotional-memories-s0034",
+        "03-manage-your-emotional-memories-s0035",
+        "03-manage-your-emotional-memories-s0036",
+        "03-manage-your-emotional-memories-s0037"
+      ],
+      "context_before_ids": [],
+      "context_after_ids": [],
+      "context_text": "Can you remain normal for a longer time or can you remain angry for a longer time? Normal, Right. Bye Because anger is not your nature, ego is not your nature. So, what is not your nature, you cannot remain in that state for a longer time. Whenever you come out from your nature, you cannot stay in that state for a longer time. Understand? Every time you come out of your nature and get angry, it starts creating an impression in your mind.",
+      "start_timestamp": null,
+      "end_timestamp": null,
+      "boundary_reason": "max_sentences",
+      "forced_boundary": false,
+      "oversize": false
+    },
+    {
+      "group_id": "03-manage-your-emotional-memories-g0006",
+      "sentence_ids": [
+        "03-manage-your-emotional-memories-s0038",
+        "03-manage-your-emotional-memories-s0039",
+        "03-manage-your-emotional-memories-s0040"
+      ],
+      "context_before_ids": [],
+      "context_after_ids": [],
+      "context_text": "Remember one thing Whenever you remain normal or when you are not highly connected with your emotions, it does not create a strong impression or image in your mind. Only when you come out of your normal nature, either you become too hot or you become too calm.",
+      "start_timestamp": null,
+      "end_timestamp": null,
+      "boundary_reason": "end",
+      "forced_boundary": false,
+      "oversize": false
+    }
+  ],
+  "results": [
+    {
+      "sentence_id": "03-manage-your-emotional-memories-s0001",
+      "group_id": "03-manage-your-emotional-memories-g0001",
+      "source_text": "Hello Hi students The California State University where Professor Jonathan Young has invited to take a session on philosophy and religious studies",
+      "llm_input_text": "Hello Hi students The California State University where Professor Jonathan Young has invited to take a session on philosophy and religious studies",
+      "skipped_spans": [],
+      "translation_status": "translated",
+      "candidate_gloss": "HELLO HI STUDENTS CALIFORNIA STATE UNIVERSITY WHERE PROFESSOR FS:JONATHAN FS:YOUNG INVITE TAKE SESSION ON PHILOSOPHY RELIGIOUS STUDIES",
+      "candidate_tokens": [
+        "HELLO",
+        "HI",
+        "STUDENTS",
+        "CALIFORNIA",
+        "STATE",
+        "UNIVERSITY",
+        "WHERE",
+        "PROFESSOR",
+        "FS:JONATHAN",
+        "FS:YOUNG",
+        "INVITE",
+        "TAKE",
+        "SESSION",
+        "ON",
+        "PHILOSOPHY",
+        "RELIGIOUS",
+        "STUDIES"
+      ],
+      "final_gloss": "HELLO HI STUDENTS CALIFORNIA STATE UNIVERSITY WHERE PROFESSOR FS:JONATHAN FS:YOUNG INVITE TAKE SESSION ON PHILOSOPHY RELIGIOUS STUDIES",
+      "final_tokens": [
+        "HELLO",
+        "HI",
+        "STUDENTS",
+        "CALIFORNIA",
+        "STATE",
+        "UNIVERSITY",
+        "WHERE",
+        "PROFESSOR",
+        "FS:JONATHAN",
+        "FS:YOUNG",
+        "INVITE",
+        "TAKE",
+        "SESSION",
+        "ON",
+        "PHILOSOPHY",
+        "RELIGIOUS",
+        "STUDIES"
+      ],
+      "applied_rules": [],
+      "validation": {
+        "status": "pass",
+        "warnings": []
+      },
+      "review_status": "unreviewed",
+      "uncertainty_notes": "",
+      "uncertain_parts": [],
+      "needs_human_review": false,
+      "llm_status": "ok",
+      "llm": {
+        "status": "ok",
+        "needs_human_review": false,
+        "uncertain": false,
+        "uncertain_parts": [],
+        "notes": "",
+        "echoed_source_text": "Hello Hi students The California State University where Professor Jonathan Young has invited to take a session on philosophy and religious studies"
+      },
+      "error": null,
+      "speaker_id": "Speaker 1",
+      "start_timestamp": null,
+      "end_timestamp": null,
+      "turn_index": 0,
+      "source_metadata": {
+        "source_id": "03-manage-your-emotional-memories",
+        "parent_chunk_id": "03-manage-your-emotional-memories-0001",
+        "split_method": "runon_capital_opener",
+        "piece": [
+          1,
+          2
+        ],
+        "source_start_offset": null,
+        "source_end_offset": null,
+        "cue_indices": null,
+        "cue_ids": null,
+        "incomplete": true,
+        "depends_on_previous": false,
+        "dependency_reasons": []
+      },
+      "metadata": {
+        "model": "groq/openai/gpt-oss-120b",
+        "prompt_version": "8.0",
+        "llm_config": {
+          "provider": "groq",
+          "model": "openai/gpt-oss-120b",
+          "reasoning_effort": "low",
+          "temperature": 0.0,
+          "max_output_tokens": 8192,
+          "prompt_version": "8.0",
+          "thinking_budget": null,
+          "empty_gloss_retry": true,
+          "references_file": null,
+          "reference_entries_loaded": 0
+        },
+        "rule_set_version": "0.1.0",
+        "active_rules": [
+          "R-FMT-01",
+          "R-ART-01",
+          "R-SKIP-01"
+        ],
+        "result_schema_version": "1.0",
+        "rule_pass_completed": true,
+        "cache_hit": false
+      }
+    },
+    {
+      "sentence_id": "03-manage-your-emotional-memories-s0002",
+      "group_id": "03-manage-your-emotional-memories-g0001",
+      "source_text": "Today, first of all, I would like to appreciate your curiosity to learn something about Jainism.",
+      "llm_input_text": "Today, first of all, I would like to appreciate your curiosity to learn something about Jainism.",
+      "skipped_spans": [],
+      "translation_status": "translated",
+      "candidate_gloss": "TODAY FIRST ALL I WOULD LIKE APPRECIATE YOUR CURIOSITY TO LEARN SOMETHING ABOUT FS:JAINISM",
+      "candidate_tokens": [
+        "TODAY",
+        "FIRST",
+        "ALL",
+        "I",
+        "WOULD",
+        "LIKE",
+        "APPRECIATE",
+        "YOUR",
+        "CURIOSITY",
+        "TO",
+        "LEARN",
+        "SOMETHING",
+        "ABOUT",
+        "FS:JAINISM"
+      ],
+      "final_gloss": "TODAY FIRST ALL I WOULD LIKE APPRECIATE YOUR CURIOSITY TO LEARN SOMETHING ABOUT FS:JAINISM",
+      "final_tokens": [
+        "TODAY",
+        "FIRST",
+        "ALL",
+        "I",
+        "WOULD",
+        "LIKE",
+        "APPRECIATE",
+        "YOUR",
+        "CURIOSITY",
+        "TO",
+        "LEARN",
+        "SOMETHING",
+        "ABOUT",
+        "FS:JAINISM"
+      ],
+      "applied_rules": [],
+      "validation": {
+        "status": "pass",
+        "warnings": []
+      },
+      "review_status": "unreviewed",
+      "uncertainty_notes": "JAINISM not in verified vocabulary, fingerspelled",
+      "uncertain_parts": [
+        "FS:JAINISM"
+      ],
+      "needs_human_review": false,
+      "llm_status": "ok",
+      "llm": {
+        "status": "ok",
+        "needs_human_review": false,
+        "uncertain": false,
+        "uncertain_parts": [
+          "FS:JAINISM"
+        ],
+        "notes": "JAINISM not in verified vocabulary, fingerspelled",
+        "echoed_source_text": "Today, first of all, I would like to appreciate your curiosity to learn something about Jainism."
+      },
+      "error": null,
+      "speaker_id": "Speaker 1",
+      "start_timestamp": null,
+      "end_timestamp": null,
+      "turn_index": 0,
+      "source_metadata": {
+        "source_id": "03-manage-your-emotional-memories",
+        "parent_chunk_id": "03-manage-your-emotional-memories-0001",
+        "split_method": "runon_capital_opener",
+        "piece": [
+          2,
+          2
+        ],
+        "source_start_offset": null,
+        "source_end_offset": null,
+        "cue_indices": null,
+        "cue_ids": null,
+        "incomplete": false,
+        "depends_on_previous": true,
+        "dependency_reasons": [
+          "previous_incomplete"
+        ]
+      },
+      "metadata": {
+        "model": "groq/openai/gpt-oss-120b",
+        "prompt_version": "8.0",
+        "llm_config": {
+          "provider": "groq",
+          "model": "openai/gpt-oss-120b",
+          "reasoning_effort": "low",
+          "temperature": 0.0,
+          "max_output_tokens": 8192,
+          "prompt_version": "8.0",
+          "thinking_budget": null,
+          "empty_gloss_retry": true,
+          "references_file": null,
+          "reference_entries_loaded": 0
+        },
+        "rule_set_version": "0.1.0",
+        "active_rules": [
+          "R-FMT-01",
+          "R-ART-01",
+          "R-SKIP-01"
+        ],
+        "result_schema_version": "1.0",
+        "rule_pass_completed": true,
+        "cache_hit": false
+      }
+    },
+    {
+      "sentence_id": "03-manage-your-emotional-memories-s0003",
+      "group_id": "03-manage-your-emotional-memories-g0001",
+      "source_text": "I truly believe that Jainism is Not a religion",
+      "llm_input_text": "I truly believe that Jainism is Not a religion",
+      "skipped_spans": [],
+      "translation_status": "translated",
+      "candidate_gloss": "I TRULY BELIEVE FS:JAINISM NOT RELIGION",
+      "candidate_tokens": [
+        "I",
+        "TRULY",
+        "BELIEVE",
+        "FS:JAINISM",
+        "NOT",
+        "RELIGION"
+      ],
+      "final_gloss": "I TRULY BELIEVE FS:JAINISM NOT RELIGION",
+      "final_tokens": [
+        "I",
+        "TRULY",
+        "BELIEVE",
+        "FS:JAINISM",
+        "NOT",
+        "RELIGION"
+      ],
+      "applied_rules": [],
+      "validation": {
+        "status": "pass",
+        "warnings": []
+      },
+      "review_status": "unreviewed",
+      "uncertainty_notes": "JAINISM not in verified vocabulary, fingerspelled",
+      "uncertain_parts": [
+        "FS:JAINISM"
+      ],
+      "needs_human_review": false,
+      "llm_status": "ok",
+      "llm": {
+        "status": "ok",
+        "needs_human_review": false,
+        "uncertain": false,
+        "uncertain_parts": [
+          "FS:JAINISM"
+        ],
+        "notes": "JAINISM not in verified vocabulary, fingerspelled",
+        "echoed_source_text": "I truly believe that Jainism is Not a religion"
+      },
+      "error": null,
+      "speaker_id": "Speaker 1",
+      "start_timestamp": null,
+      "end_timestamp": null,
+      "turn_index": 0,
+      "source_metadata": {
+        "source_id": "03-manage-your-emotional-memories",
+        "parent_chunk_id": "03-manage-your-emotional-memories-0002",
+        "split_method": "runon_capital_opener",
+        "piece": [
+          1,
+          2
+        ],
+        "source_start_offset": null,
+        "source_end_offset": null,
+        "cue_indices": null,
+        "cue_ids": null,
+        "incomplete": true,
+        "depends_on_previous": false,
+        "dependency_reasons": []
+      },
+      "metadata": {
+        "model": "groq/openai/gpt-oss-120b",
+        "prompt_version": "8.0",
+        "llm_config": {
+          "provider": "groq",
+          "model": "openai/gpt-oss-120b",
+          "reasoning_effort": "low",
+          "temperature": 0.0,
+          "max_output_tokens": 8192,
+          "prompt_version": "8.0",
+          "thinking_budget": null,
+          "empty_gloss_retry": true,
+          "references_file": null,
+          "reference_entries_loaded": 0
+        },
+        "rule_set_version": "0.1.0",
+        "active_rules": [
+          "R-FMT-01",
+          "R-ART-01",
+          "R-SKIP-01"
+        ],
+        "result_schema_version": "1.0",
+        "rule_pass_completed": true,
+        "cache_hit": false
+      }
+    },
+    {
+      "sentence_id": "03-manage-your-emotional-memories-s0004",
+      "group_id": "03-manage-your-emotional-memories-g0001",
+      "source_text": "But it is a philosophy and a way of living.",
+      "llm_input_text": "But it is a philosophy and a way of living.",
+      "skipped_spans": [],
+      "translation_status": "translated",
+      "candidate_gloss": "BUT IT IS PHILOSOPHY AND WAY_OF_LIVING",
+      "candidate_tokens": [
+        "BUT",
+        "IT",
+        "IS",
+        "PHILOSOPHY",
+        "AND",
+        "WAY_OF_LIVING"
+      ],
+      "final_gloss": "BUT IT IS PHILOSOPHY AND WAY_OF_LIVING",
+      "final_tokens": [
+        "BUT",
+        "IT",
+        "IS",
+        "PHILOSOPHY",
+        "AND",
+        "WAY_OF_LIVING"
+      ],
+      "applied_rules": [],
+      "validation": {
+        "status": "pass",
+        "warnings": []
+      },
+      "review_status": "unreviewed",
+      "uncertainty_notes": "",
+      "uncertain_parts": [],
+      "needs_human_review": false,
+      "llm_status": "ok",
+      "llm": {
+        "status": "ok",
+        "needs_human_review": false,
+        "uncertain": false,
+        "uncertain_parts": [],
+        "notes": "",
+        "echoed_source_text": "But it is a philosophy and a way of living."
+      },
+      "error": null,
+      "speaker_id": "Speaker 1",
+      "start_timestamp": null,
+      "end_timestamp": null,
+      "turn_index": 0,
+      "source_metadata": {
+        "source_id": "03-manage-your-emotional-memories",
+        "parent_chunk_id": "03-manage-your-emotional-memories-0002",
+        "split_method": "runon_capital_opener",
+        "piece": [
+          2,
+          2
+        ],
+        "source_start_offset": null,
+        "source_end_offset": null,
+        "cue_indices": null,
+        "cue_ids": null,
+        "incomplete": false,
+        "depends_on_previous": true,
+        "dependency_reasons": [
+          "continuation_word",
+          "previous_incomplete"
+        ]
+      },
+      "metadata": {
+        "model": "groq/openai/gpt-oss-120b",
+        "prompt_version": "8.0",
+        "llm_config": {
+          "provider": "groq",
+          "model": "openai/gpt-oss-120b",
+          "reasoning_effort": "low",
+          "temperature": 0.0,
+          "max_output_tokens": 8192,
+          "prompt_version": "8.0",
+          "thinking_budget": null,
+          "empty_gloss_retry": true,
+          "references_file": null,
+          "reference_entries_loaded": 0
+        },
+        "rule_set_version": "0.1.0",
+        "active_rules": [
+          "R-FMT-01",
+          "R-ART-01",
+          "R-SKIP-01"
+        ],
+        "result_schema_version": "1.0",
+        "rule_pass_completed": true,
+        "cache_hit": false
+      }
+    },
+    {
+      "sentence_id": "03-manage-your-emotional-memories-s0005",
+      "group_id": "03-manage-your-emotional-memories-g0001",
+      "source_text": "Whenever we do any action It creates an image.",
+      "llm_input_text": "Whenever we do any action It creates an image.",
+      "skipped_spans": [],
+      "translation_status": "translated",
+      "candidate_gloss": "WHENEVER WE DO ANY ACTION IT CREATE IMAGE",
+      "candidate_tokens": [
+        "WHENEVER",
+        "WE",
+        "DO",
+        "ANY",
+        "ACTION",
+        "IT",
+        "CREATE",
+        "IMAGE"
+      ],
+      "final_gloss": "WHENEVER WE DO ANY ACTION IT CREATE IMAGE",
+      "final_tokens": [
+        "WHENEVER",
+        "WE",
+        "DO",
+        "ANY",
+        "ACTION",
+        "IT",
+        "CREATE",
+        "IMAGE"
+      ],
+      "applied_rules": [],
+      "validation": {
+        "status": "pass",
+        "warnings": []
+      },
+      "review_status": "unreviewed",
+      "uncertainty_notes": "",
+      "uncertain_parts": [],
+      "needs_human_review": false,
+      "llm_status": "ok",
+      "llm": {
+        "status": "ok",
+        "needs_human_review": false,
+        "uncertain": false,
+        "uncertain_parts": [],
+        "notes": "",
+        "echoed_source_text": "Whenever we do any action It creates an image."
+      },
+      "error": null,
+      "speaker_id": "Speaker 1",
+      "start_timestamp": null,
+      "end_timestamp": null,
+      "turn_index": 0,
+      "source_metadata": {
+        "source_id": "03-manage-your-emotional-memories",
+        "parent_chunk_id": "03-manage-your-emotional-memories-0003",
+        "split_method": null,
+        "piece": [
+          1,
+          1
+        ],
+        "source_start_offset": 504,
+        "source_end_offset": 550,
+        "cue_indices": null,
+        "cue_ids": null,
+        "incomplete": false,
+        "depends_on_previous": false,
+        "dependency_reasons": []
+      },
+      "metadata": {
+        "model": "groq/openai/gpt-oss-120b",
+        "prompt_version": "8.0",
+        "llm_config": {
+          "provider": "groq",
+          "model": "openai/gpt-oss-120b",
+          "reasoning_effort": "low",
+          "temperature": 0.0,
+          "max_output_tokens": 8192,
+          "prompt_version": "8.0",
+          "thinking_budget": null,
+          "empty_gloss_retry": true,
+          "references_file": null,
+          "reference_entries_loaded": 0
+        },
+        "rule_set_version": "0.1.0",
+        "active_rules": [
+          "R-FMT-01",
+          "R-ART-01",
+          "R-SKIP-01"
+        ],
+        "result_schema_version": "1.0",
+        "rule_pass_completed": true,
+        "cache_hit": false
+      }
+    },
+    {
+      "sentence_id": "03-manage-your-emotional-memories-s0006",
+      "group_id": "03-manage-your-emotional-memories-g0001",
+      "source_text": "an impression in your mind.",
+      "llm_input_text": "an impression in your mind.",
+      "skipped_spans": [],
+      "translation_status": "translated",
+      "candidate_gloss": "IMPRESSION IN YOUR MIND",
+      "candidate_tokens": [
+        "IMPRESSION",
+        "IN",
+        "YOUR",
+        "MIND"
+      ],
+      "final_gloss": "IMPRESSION IN YOUR MIND",
+      "final_tokens": [
+        "IMPRESSION",
+        "IN",
+        "YOUR",
+        "MIND"
+      ],
+      "applied_rules": [],
+      "validation": {
+        "status": "pass",
+        "warnings": []
+      },
+      "review_status": "unreviewed",
+      "uncertainty_notes": "",
+      "uncertain_parts": [],
+      "needs_human_review": false,
+      "llm_status": "ok",
+      "llm": {
+        "status": "ok",
+        "needs_human_review": false,
+        "uncertain": false,
+        "uncertain_parts": [],
+        "notes": "",
+        "echoed_source_text": "an impression in your mind."
+      },
+      "error": null,
+      "speaker_id": "Speaker 1",
+      "start_timestamp": null,
+      "end_timestamp": null,
+      "turn_index": 0,
+      "source_metadata": {
+        "source_id": "03-manage-your-emotional-memories",
+        "parent_chunk_id": "03-manage-your-emotional-memories-0004",
+        "split_method": null,
+        "piece": [
+          1,
+          1
+        ],
+        "source_start_offset": 551,
+        "source_end_offset": 578,
+        "cue_indices": null,
+        "cue_ids": null,
+        "incomplete": false,
+        "depends_on_previous": true,
+        "dependency_reasons": [
+          "lowercase_start"
+        ]
+      },
+      "metadata": {
+        "model": "groq/openai/gpt-oss-120b",
+        "prompt_version": "8.0",
+        "llm_config": {
+          "provider": "groq",
+          "model": "openai/gpt-oss-120b",
+          "reasoning_effort": "low",
+          "temperature": 0.0,
+          "max_output_tokens": 8192,
+          "prompt_version": "8.0",
+          "thinking_budget": null,
+          "empty_gloss_retry": true,
+          "references_file": null,
+          "reference_entries_loaded": 0
+        },
+        "rule_set_version": "0.1.0",
+        "active_rules": [
+          "R-FMT-01",
+          "R-ART-01",
+          "R-SKIP-01"
+        ],
+        "result_schema_version": "1.0",
+        "rule_pass_completed": true,
+        "cache_hit": false
+      }
+    },
+    {
+      "sentence_id": "03-manage-your-emotional-memories-s0007",
+      "group_id": "03-manage-your-emotional-memories-g0002",
+      "source_text": "You must have seen that whenever water splits from a glass, it starts flowing in one direction and then it dries up.",
+      "llm_input_text": "You must have seen that whenever water splits from a glass, it starts flowing in one direction and then it dries up.",
+      "skipped_spans": [],
+      "translation_status": "translated",
+      "candidate_gloss": "YOU MUST HAVE SEEN THAT WHENEVER WATER SPLIT FROM GLASS START FLOW ONE DIRECTION THEN DRY UP",
+      "candidate_tokens": [
+        "YOU",
+        "MUST",
+        "HAVE",
+        "SEEN",
+        "THAT",
+        "WHENEVER",
+        "WATER",
+        "SPLIT",
+        "FROM",
+        "GLASS",
+        "START",
+        "FLOW",
+        "ONE",
+        "DIRECTION",
+        "THEN",
+        "DRY",
+        "UP"
+      ],
+      "final_gloss": "YOU MUST HAVE SEEN THAT WHENEVER WATER SPLIT FROM GLASS START FLOW ONE DIRECTION THEN DRY UP",
+      "final_tokens": [
+        "YOU",
+        "MUST",
+        "HAVE",
+        "SEEN",
+        "THAT",
+        "WHENEVER",
+        "WATER",
+        "SPLIT",
+        "FROM",
+        "GLASS",
+        "START",
+        "FLOW",
+        "ONE",
+        "DIRECTION",
+        "THEN",
+        "DRY",
+        "UP"
+      ],
+      "applied_rules": [],
+      "validation": {
+        "status": "pass",
+        "warnings": []
+      },
+      "review_status": "unreviewed",
+      "uncertainty_notes": "",
+      "uncertain_parts": [],
+      "needs_human_review": false,
+      "llm_status": "ok",
+      "llm": {
+        "status": "ok",
+        "needs_human_review": false,
+        "uncertain": false,
+        "uncertain_parts": [],
+        "notes": "",
+        "echoed_source_text": "You must have seen that whenever water splits from a glass, it starts flowing in one direction and then it dries up."
+      },
+      "error": null,
+      "speaker_id": "Speaker 1",
+      "start_timestamp": null,
+      "end_timestamp": null,
+      "turn_index": 0,
+      "source_metadata": {
+        "source_id": "03-manage-your-emotional-memories",
+        "parent_chunk_id": "03-manage-your-emotional-memories-0005",
+        "split_method": null,
+        "piece": [
+          1,
+          1
+        ],
+        "source_start_offset": 579,
+        "source_end_offset": 695,
+        "cue_indices": null,
+        "cue_ids": null,
+        "incomplete": false,
+        "depends_on_previous": false,
+        "dependency_reasons": []
+      },
+      "metadata": {
+        "model": "groq/openai/gpt-oss-120b",
+        "prompt_version": "8.0",
+        "llm_config": {
+          "provider": "groq",
+          "model": "openai/gpt-oss-120b",
+          "reasoning_effort": "low",
+          "temperature": 0.0,
+          "max_output_tokens": 8192,
+          "prompt_version": "8.0",
+          "thinking_budget": null,
+          "empty_gloss_retry": true,
+          "references_file": null,
+          "reference_entries_loaded": 0
+        },
+        "rule_set_version": "0.1.0",
+        "active_rules": [
+          "R-FMT-01",
+          "R-ART-01",
+          "R-SKIP-01"
+        ],
+        "result_schema_version": "1.0",
+        "rule_pass_completed": true,
+        "cache_hit": false
+      }
+    },
+    {
+      "sentence_id": "03-manage-your-emotional-memories-s0008",
+      "group_id": "03-manage-your-emotional-memories-g0002",
+      "source_text": "but If you again pour water in that same place, you must have marked that it starts flowing in the same path, same direction that is had created before.",
+      "llm_input_text": "but If you again pour water in that same place, you must have marked that it starts flowing in the same path, same direction that is had created before.",
+      "skipped_spans": [],
+      "translation_status": "translated",
+      "candidate_gloss": "BUT IF YOU AGAIN POUR WATER SAME PLACE YOU MUST HAVE MARKED THAT START FLOW SAME PATH SAME DIRECTION CREATED BEFORE",
+      "candidate_tokens": [
+        "BUT",
+        "IF",
+        "YOU",
+        "AGAIN",
+        "POUR",
+        "WATER",
+        "SAME",
+        "PLACE",
+        "YOU",
+        "MUST",
+        "HAVE",
+        "MARKED",
+        "THAT",
+        "START",
+        "FLOW",
+        "SAME",
+        "PATH",
+        "SAME",
+        "DIRECTION",
+        "CREATED",
+        "BEFORE"
+      ],
+      "final_gloss": "BUT IF YOU AGAIN POUR WATER SAME PLACE YOU MUST HAVE MARKED THAT START FLOW SAME PATH SAME DIRECTION CREATED BEFORE",
+      "final_tokens": [
+        "BUT",
+        "IF",
+        "YOU",
+        "AGAIN",
+        "POUR",
+        "WATER",
+        "SAME",
+        "PLACE",
+        "YOU",
+        "MUST",
+        "HAVE",
+        "MARKED",
+        "THAT",
+        "START",
+        "FLOW",
+        "SAME",
+        "PATH",
+        "SAME",
+        "DIRECTION",
+        "CREATED",
+        "BEFORE"
+      ],
+      "applied_rules": [],
+      "validation": {
+        "status": "pass",
+        "warnings": []
+      },
+      "review_status": "unreviewed",
+      "uncertainty_notes": "",
+      "uncertain_parts": [],
+      "needs_human_review": false,
+      "llm_status": "ok",
+      "llm": {
+        "status": "ok",
+        "needs_human_review": false,
+        "uncertain": false,
+        "uncertain_parts": [],
+        "notes": "",
+        "echoed_source_text": "but If you again pour water in that same place, you must have marked that it starts flowing in the same path, same direction that is had created before."
+      },
+      "error": null,
+      "speaker_id": "Speaker 1",
+      "start_timestamp": null,
+      "end_timestamp": null,
+      "turn_index": 0,
+      "source_metadata": {
+        "source_id": "03-manage-your-emotional-memories",
+        "parent_chunk_id": "03-manage-your-emotional-memories-0006",
+        "split_method": null,
+        "piece": [
+          1,
+          1
+        ],
+        "source_start_offset": 696,
+        "source_end_offset": 848,
+        "cue_indices": null,
+        "cue_ids": null,
+        "incomplete": false,
+        "depends_on_previous": true,
+        "dependency_reasons": [
+          "lowercase_start",
+          "continuation_word"
+        ]
+      },
+      "metadata": {
+        "model": "groq/openai/gpt-oss-120b",
+        "prompt_version": "8.0",
+        "llm_config": {
+          "provider": "groq",
+          "model": "openai/gpt-oss-120b",
+          "reasoning_effort": "low",
+          "temperature": 0.0,
+          "max_output_tokens": 8192,
+          "prompt_version": "8.0",
+          "thinking_budget": null,
+          "empty_gloss_retry": true,
+          "references_file": null,
+          "reference_entries_loaded": 0
+        },
+        "rule_set_version": "0.1.0",
+        "active_rules": [
+          "R-FMT-01",
+          "R-ART-01",
+          "R-SKIP-01"
+        ],
+        "result_schema_version": "1.0",
+        "rule_pass_completed": true,
+        "cache_hit": false
+      }
+    },
+    {
+      "sentence_id": "03-manage-your-emotional-memories-s0009",
+      "group_id": "03-manage-your-emotional-memories-g0002",
+      "source_text": "Why?",
+      "llm_input_text": "Why?",
+      "skipped_spans": [],
+      "translation_status": "translated",
+      "candidate_gloss": "WHY",
+      "candidate_tokens": [
+        "WHY"
+      ],
+      "final_gloss": "WHY",
+      "final_tokens": [
+        "WHY"
+      ],
+      "applied_rules": [],
+      "validation": {
+        "status": "pass",
+        "warnings": []
+      },
+      "review_status": "unreviewed",
+      "uncertainty_notes": "",
+      "uncertain_parts": [],
+      "needs_human_review": false,
+      "llm_status": "ok",
+      "llm": {
+        "status": "ok",
+        "needs_human_review": false,
+        "uncertain": false,
+        "uncertain_parts": [],
+        "notes": "",
+        "echoed_source_text": "Why?"
+      },
+      "error": null,
+      "speaker_id": "Speaker 1",
+      "start_timestamp": null,
+      "end_timestamp": null,
+      "turn_index": 0,
+      "source_metadata": {
+        "source_id": "03-manage-your-emotional-memories",
+        "parent_chunk_id": "03-manage-your-emotional-memories-0007",
+        "split_method": null,
+        "piece": [
+          1,
+          1
+        ],
+        "source_start_offset": 849,
+        "source_end_offset": 853,
+        "cue_indices": null,
+        "cue_ids": null,
+        "incomplete": false,
+        "depends_on_previous": true,
+        "dependency_reasons": [
+          "very_short"
+        ]
+      },
+      "metadata": {
+        "model": "groq/openai/gpt-oss-120b",
+        "prompt_version": "8.0",
+        "llm_config": {
+          "provider": "groq",
+          "model": "openai/gpt-oss-120b",
+          "reasoning_effort": "low",
+          "temperature": 0.0,
+          "max_output_tokens": 8192,
+          "prompt_version": "8.0",
+          "thinking_budget": null,
+          "empty_gloss_retry": true,
+          "references_file": null,
+          "reference_entries_loaded": 0
+        },
+        "rule_set_version": "0.1.0",
+        "active_rules": [
+          "R-FMT-01",
+          "R-ART-01",
+          "R-SKIP-01"
+        ],
+        "result_schema_version": "1.0",
+        "rule_pass_completed": true,
+        "cache_hit": false
+      }
+    },
+    {
+      "sentence_id": "03-manage-your-emotional-memories-s0010",
+      "group_id": "03-manage-your-emotional-memories-g0002",
+      "source_text": "Because Though the water had dried up, it still created and left back an image.",
+      "llm_input_text": "Because Though the water had dried up, it still created and left back an image.",
+      "skipped_spans": [],
+      "translation_status": "translated",
+      "candidate_gloss": "BECAUSE THOUGH WATER DRY UP IT STILL CREATE LEFT BACK IMAGE",
+      "candidate_tokens": [
+        "BECAUSE",
+        "THOUGH",
+        "WATER",
+        "DRY",
+        "UP",
+        "IT",
+        "STILL",
+        "CREATE",
+        "LEFT",
+        "BACK",
+        "IMAGE"
+      ],
+      "final_gloss": "BECAUSE THOUGH WATER DRY UP IT STILL CREATE LEFT BACK IMAGE",
+      "final_tokens": [
+        "BECAUSE",
+        "THOUGH",
+        "WATER",
+        "DRY",
+        "UP",
+        "IT",
+        "STILL",
+        "CREATE",
+        "LEFT",
+        "BACK",
+        "IMAGE"
+      ],
+      "applied_rules": [],
+      "validation": {
+        "status": "pass",
+        "warnings": []
+      },
+      "review_status": "unreviewed",
+      "uncertainty_notes": "",
+      "uncertain_parts": [],
+      "needs_human_review": false,
+      "llm_status": "ok",
+      "llm": {
+        "status": "ok",
+        "needs_human_review": false,
+        "uncertain": false,
+        "uncertain_parts": [],
+        "notes": "",
+        "echoed_source_text": "Because Though the water had dried up, it still created and left back an image."
+      },
+      "error": null,
+      "speaker_id": "Speaker 1",
+      "start_timestamp": null,
+      "end_timestamp": null,
+      "turn_index": 0,
+      "source_metadata": {
+        "source_id": "03-manage-your-emotional-memories",
+        "parent_chunk_id": "03-manage-your-emotional-memories-0008",
+        "split_method": null,
+        "piece": [
+          1,
+          1
+        ],
+        "source_start_offset": 854,
+        "source_end_offset": 933,
+        "cue_indices": null,
+        "cue_ids": null,
+        "incomplete": false,
+        "depends_on_previous": true,
+        "dependency_reasons": [
+          "continuation_word"
+        ]
+      },
+      "metadata": {
+        "model": "groq/openai/gpt-oss-120b",
+        "prompt_version": "8.0",
+        "llm_config": {
+          "provider": "groq",
+          "model": "openai/gpt-oss-120b",
+          "reasoning_effort": "low",
+          "temperature": 0.0,
+          "max_output_tokens": 8192,
+          "prompt_version": "8.0",
+          "thinking_budget": null,
+          "empty_gloss_retry": true,
+          "references_file": null,
+          "reference_entries_loaded": 0
+        },
+        "rule_set_version": "0.1.0",
+        "active_rules": [
+          "R-FMT-01",
+          "R-ART-01",
+          "R-SKIP-01"
+        ],
+        "result_schema_version": "1.0",
+        "rule_pass_completed": true,
+        "cache_hit": false
+      }
+    },
+    {
+      "sentence_id": "03-manage-your-emotional-memories-s0011",
+      "group_id": "03-manage-your-emotional-memories-g0002",
+      "source_text": "So now When you again poured water over it, it flowed in the same path of the impression.",
+      "llm_input_text": "So now When you again poured water over it, it flowed in the same path of the impression.",
+      "skipped_spans": [],
+      "translation_status": "translated",
+      "candidate_gloss": "SO NOW WHEN YOU AGAIN POUR WATER OVER IT IT FLOW SAME PATH IMPRESS​ION",
+      "candidate_tokens": [
+        "SO",
+        "NOW",
+        "WHEN",
+        "YOU",
+        "AGAIN",
+        "POUR",
+        "WATER",
+        "OVER",
+        "IT",
+        "IT",
+        "FLOW",
+        "SAME",
+        "PATH",
+        "IMPRESS​ION"
+      ],
+      "final_gloss": "SO NOW WHEN YOU AGAIN POUR WATER OVER IT IT FLOW SAME PATH IMPRESSION",
+      "final_tokens": [
+        "SO",
+        "NOW",
+        "WHEN",
+        "YOU",
+        "AGAIN",
+        "POUR",
+        "WATER",
+        "OVER",
+        "IT",
+        "IT",
+        "FLOW",
+        "SAME",
+        "PATH",
+        "IMPRESSION"
+      ],
+      "applied_rules": [
+        {
+          "rule_id": "R-FMT-01",
+          "rule_version": "1",
+          "description": "Normalise token format: upper-case, strip punctuation/odd characters, spaces inside a token -> underscore, drop tokens that become empty.",
+          "status": "applied",
+          "before": [
+            "SO",
+            "NOW",
+            "WHEN",
+            "YOU",
+            "AGAIN",
+            "POUR",
+            "WATER",
+            "OVER",
+            "IT",
+            "IT",
+            "FLOW",
+            "SAME",
+            "PATH",
+            "IMPRESS​ION"
+          ],
+          "after": [
+            "SO",
+            "NOW",
+            "WHEN",
+            "YOU",
+            "AGAIN",
+            "POUR",
+            "WATER",
+            "OVER",
+            "IT",
+            "IT",
+            "FLOW",
+            "SAME",
+            "PATH",
+            "IMPRESSION"
+          ]
+        }
+      ],
+      "validation": {
+        "status": "pass",
+        "warnings": [
+          {
+            "code": "candidate_format_issue",
+            "severity": "info",
+            "message": "1 candidate token(s) were not in gloss format (e.g. 'IMPRESS\\u200bION'); the rule pass normalises these."
+          },
+          {
+            "code": "adjacent_duplicate_tokens",
+            "severity": "info",
+            "message": "Adjacent identical tokens (may be intended reduplication)."
+          },
+          {
+            "code": "rules_changed_output",
+            "severity": "info",
+            "message": "Rule pass changed the LLM candidate: R-FMT-01"
+          }
+        ]
+      },
+      "review_status": "unreviewed",
+      "uncertainty_notes": "",
+      "uncertain_parts": [],
+      "needs_human_review": false,
+      "llm_status": "ok",
+      "llm": {
+        "status": "ok",
+        "needs_human_review": false,
+        "uncertain": false,
+        "uncertain_parts": [],
+        "notes": "",
+        "echoed_source_text": "So now When you again poured water over it, it flowed in the same path of the impression."
+      },
+      "error": null,
+      "speaker_id": "Speaker 1",
+      "start_timestamp": null,
+      "end_timestamp": null,
+      "turn_index": 0,
+      "source_metadata": {
+        "source_id": "03-manage-your-emotional-memories",
+        "parent_chunk_id": "03-manage-your-emotional-memories-0009",
+        "split_method": null,
+        "piece": [
+          1,
+          1
+        ],
+        "source_start_offset": 934,
+        "source_end_offset": 1023,
+        "cue_indices": null,
+        "cue_ids": null,
+        "incomplete": false,
+        "depends_on_previous": true,
+        "dependency_reasons": [
+          "continuation_word"
+        ]
+      },
+      "metadata": {
+        "model": "groq/openai/gpt-oss-120b",
+        "prompt_version": "8.0",
+        "llm_config": {
+          "provider": "groq",
+          "model": "openai/gpt-oss-120b",
+          "reasoning_effort": "low",
+          "temperature": 0.0,
+          "max_output_tokens": 8192,
+          "prompt_version": "8.0",
+          "thinking_budget": null,
+          "empty_gloss_retry": true,
+          "references_file": null,
+          "reference_entries_loaded": 0
+        },
+        "rule_set_version": "0.1.0",
+        "active_rules": [
+          "R-FMT-01",
+          "R-ART-01",
+          "R-SKIP-01"
+        ],
+        "result_schema_version": "1.0",
+        "rule_pass_completed": true,
+        "cache_hit": false
+      }
+    },
+    {
+      "sentence_id": "03-manage-your-emotional-memories-s0012",
+      "group_id": "03-manage-your-emotional-memories-g0002",
+      "source_text": "What is this impression?",
+      "llm_input_text": "What is this impression?",
+      "skipped_spans": [],
+      "translation_status": "translated",
+      "candidate_gloss": "WHAT THIS IMPRESS​ION",
+      "candidate_tokens": [
+        "WHAT",
+        "THIS",
+        "IMPRESS​ION"
+      ],
+      "final_gloss": "WHAT THIS IMPRESSION",
+      "final_tokens": [
+        "WHAT",
+        "THIS",
+        "IMPRESSION"
+      ],
+      "applied_rules": [
+        {
+          "rule_id": "R-FMT-01",
+          "rule_version": "1",
+          "description": "Normalise token format: upper-case, strip punctuation/odd characters, spaces inside a token -> underscore, drop tokens that become empty.",
+          "status": "applied",
+          "before": [
+            "WHAT",
+            "THIS",
+            "IMPRESS​ION"
+          ],
+          "after": [
+            "WHAT",
+            "THIS",
+            "IMPRESSION"
+          ]
+        }
+      ],
+      "validation": {
+        "status": "pass",
+        "warnings": [
+          {
+            "code": "candidate_format_issue",
+            "severity": "info",
+            "message": "1 candidate token(s) were not in gloss format (e.g. 'IMPRESS\\u200bION'); the rule pass normalises these."
+          },
+          {
+            "code": "rules_changed_output",
+            "severity": "info",
+            "message": "Rule pass changed the LLM candidate: R-FMT-01"
+          }
+        ]
+      },
+      "review_status": "unreviewed",
+      "uncertainty_notes": "",
+      "uncertain_parts": [],
+      "needs_human_review": false,
+      "llm_status": "ok",
+      "llm": {
+        "status": "ok",
+        "needs_human_review": false,
+        "uncertain": false,
+        "uncertain_parts": [],
+        "notes": "",
+        "echoed_source_text": "What is this impression?"
+      },
+      "error": null,
+      "speaker_id": "Speaker 1",
+      "start_timestamp": null,
+      "end_timestamp": null,
+      "turn_index": 0,
+      "source_metadata": {
+        "source_id": "03-manage-your-emotional-memories",
+        "parent_chunk_id": "03-manage-your-emotional-memories-0010",
+        "split_method": null,
+        "piece": [
+          1,
+          1
+        ],
+        "source_start_offset": 1024,
+        "source_end_offset": 1048,
+        "cue_indices": null,
+        "cue_ids": null,
+        "incomplete": false,
+        "depends_on_previous": false,
+        "dependency_reasons": []
+      },
+      "metadata": {
+        "model": "groq/openai/gpt-oss-120b",
+        "prompt_version": "8.0",
+        "llm_config": {
+          "provider": "groq",
+          "model": "openai/gpt-oss-120b",
+          "reasoning_effort": "low",
+          "temperature": 0.0,
+          "max_output_tokens": 8192,
+          "prompt_version": "8.0",
+          "thinking_budget": null,
+          "empty_gloss_retry": true,
+          "references_file": null,
+          "reference_entries_loaded": 0
+        },
+        "rule_set_version": "0.1.0",
+        "active_rules": [
+          "R-FMT-01",
+          "R-ART-01",
+          "R-SKIP-01"
+        ],
+        "result_schema_version": "1.0",
+        "rule_pass_completed": true,
+        "cache_hit": false
+      }
+    },
+    {
+      "sentence_id": "03-manage-your-emotional-memories-s0013",
+      "group_id": "03-manage-your-emotional-memories-g0002",
+      "source_text": "It's nothing but memory.",
+      "llm_input_text": "It's nothing but memory.",
+      "skipped_spans": [],
+      "translation_status": "translated",
+      "candidate_gloss": "IT NOTHING BUT MEMORY",
+      "candidate_tokens": [
+        "IT",
+        "NOTHING",
+        "BUT",
+        "MEMORY"
+      ],
+      "final_gloss": "IT NOTHING BUT MEMORY",
+      "final_tokens": [
+        "IT",
+        "NOTHING",
+        "BUT",
+        "MEMORY"
+      ],
+      "applied_rules": [],
+      "validation": {
+        "status": "pass",
+        "warnings": []
+      },
+      "review_status": "unreviewed",
+      "uncertainty_notes": "",
+      "uncertain_parts": [],
+      "needs_human_review": false,
+      "llm_status": "ok",
+      "llm": {
+        "status": "ok",
+        "needs_human_review": false,
+        "uncertain": false,
+        "uncertain_parts": [],
+        "notes": "",
+        "echoed_source_text": "It's nothing but memory."
+      },
+      "error": null,
+      "speaker_id": "Speaker 1",
+      "start_timestamp": null,
+      "end_timestamp": null,
+      "turn_index": 0,
+      "source_metadata": {
+        "source_id": "03-manage-your-emotional-memories",
+        "parent_chunk_id": "03-manage-your-emotional-memories-0011",
+        "split_method": null,
+        "piece": [
+          1,
+          1
+        ],
+        "source_start_offset": 1049,
+        "source_end_offset": 1073,
+        "cue_indices": null,
+        "cue_ids": null,
+        "incomplete": false,
+        "depends_on_previous": false,
+        "dependency_reasons": []
+      },
+      "metadata": {
+        "model": "groq/openai/gpt-oss-120b",
+        "prompt_version": "8.0",
+        "llm_config": {
+          "provider": "groq",
+          "model": "openai/gpt-oss-120b",
+          "reasoning_effort": "low",
+          "temperature": 0.0,
+          "max_output_tokens": 8192,
+          "prompt_version": "8.0",
+          "thinking_budget": null,
+          "empty_gloss_retry": true,
+          "references_file": null,
+          "reference_entries_loaded": 0
+        },
+        "rule_set_version": "0.1.0",
+        "active_rules": [
+          "R-FMT-01",
+          "R-ART-01",
+          "R-SKIP-01"
+        ],
+        "result_schema_version": "1.0",
+        "rule_pass_completed": true,
+        "cache_hit": false
+      }
+    },
+    {
+      "sentence_id": "03-manage-your-emotional-memories-s0014",
+      "group_id": "03-manage-your-emotional-memories-g0002",
+      "source_text": "The action got over but it left an impression.",
+      "llm_input_text": "The action got over but it left an impression.",
+      "skipped_spans": [],
+      "translation_status": "translated",
+      "candidate_gloss": "ACTION END BUT IT LEFT IMPRESS​ION",
+      "candidate_tokens": [
+        "ACTION",
+        "END",
+        "BUT",
+        "IT",
+        "LEFT",
+        "IMPRESS​ION"
+      ],
+      "final_gloss": "ACTION END BUT IT LEFT IMPRESSION",
+      "final_tokens": [
+        "ACTION",
+        "END",
+        "BUT",
+        "IT",
+        "LEFT",
+        "IMPRESSION"
+      ],
+      "applied_rules": [
+        {
+          "rule_id": "R-FMT-01",
+          "rule_version": "1",
+          "description": "Normalise token format: upper-case, strip punctuation/odd characters, spaces inside a token -> underscore, drop tokens that become empty.",
+          "status": "applied",
+          "before": [
+            "ACTION",
+            "END",
+            "BUT",
+            "IT",
+            "LEFT",
+            "IMPRESS​ION"
+          ],
+          "after": [
+            "ACTION",
+            "END",
+            "BUT",
+            "IT",
+            "LEFT",
+            "IMPRESSION"
+          ]
+        }
+      ],
+      "validation": {
+        "status": "pass",
+        "warnings": [
+          {
+            "code": "candidate_format_issue",
+            "severity": "info",
+            "message": "1 candidate token(s) were not in gloss format (e.g. 'IMPRESS\\u200bION'); the rule pass normalises these."
+          },
+          {
+            "code": "rules_changed_output",
+            "severity": "info",
+            "message": "Rule pass changed the LLM candidate: R-FMT-01"
+          }
+        ]
+      },
+      "review_status": "unreviewed",
+      "uncertainty_notes": "",
+      "uncertain_parts": [],
+      "needs_human_review": false,
+      "llm_status": "ok",
+      "llm": {
+        "status": "ok",
+        "needs_human_review": false,
+        "uncertain": false,
+        "uncertain_parts": [],
+        "notes": "",
+        "echoed_source_text": "The action got over but it left an impression."
+      },
+      "error": null,
+      "speaker_id": "Speaker 1",
+      "start_timestamp": null,
+      "end_timestamp": null,
+      "turn_index": 0,
+      "source_metadata": {
+        "source_id": "03-manage-your-emotional-memories",
+        "parent_chunk_id": "03-manage-your-emotional-memories-0012",
+        "split_method": null,
+        "piece": [
+          1,
+          1
+        ],
+        "source_start_offset": 1074,
+        "source_end_offset": 1120,
+        "cue_indices": null,
+        "cue_ids": null,
+        "incomplete": false,
+        "depends_on_previous": false,
+        "dependency_reasons": []
+      },
+      "metadata": {
+        "model": "groq/openai/gpt-oss-120b",
+        "prompt_version": "8.0",
+        "llm_config": {
+          "provider": "groq",
+          "model": "openai/gpt-oss-120b",
+          "reasoning_effort": "low",
+          "temperature": 0.0,
+          "max_output_tokens": 8192,
+          "prompt_version": "8.0",
+          "thinking_budget": null,
+          "empty_gloss_retry": true,
+          "references_file": null,
+          "reference_entries_loaded": 0
+        },
+        "rule_set_version": "0.1.0",
+        "active_rules": [
+          "R-FMT-01",
+          "R-ART-01",
+          "R-SKIP-01"
+        ],
+        "result_schema_version": "1.0",
+        "rule_pass_completed": true,
+        "cache_hit": false
+      }
+    },
+    {
+      "sentence_id": "03-manage-your-emotional-memories-s0015",
+      "group_id": "03-manage-your-emotional-memories-g0003",
+      "source_text": "Same thing happens with our life too.",
+      "llm_input_text": "Same thing happens with our life too.",
+      "skipped_spans": [],
+      "translation_status": "translated",
+      "candidate_gloss": "SAME THING HAPPEN WITH OUR LIFE ALSO",
+      "candidate_tokens": [
+        "SAME",
+        "THING",
+        "HAPPEN",
+        "WITH",
+        "OUR",
+        "LIFE",
+        "ALSO"
+      ],
+      "final_gloss": "SAME THING HAPPEN WITH OUR LIFE ALSO",
+      "final_tokens": [
+        "SAME",
+        "THING",
+        "HAPPEN",
+        "WITH",
+        "OUR",
+        "LIFE",
+        "ALSO"
+      ],
+      "applied_rules": [],
+      "validation": {
+        "status": "pass",
+        "warnings": []
+      },
+      "review_status": "unreviewed",
+      "uncertainty_notes": "",
+      "uncertain_parts": [],
+      "needs_human_review": false,
+      "llm_status": "ok",
+      "llm": {
+        "status": "ok",
+        "needs_human_review": false,
+        "uncertain": false,
+        "uncertain_parts": [],
+        "notes": "",
+        "echoed_source_text": "Same thing happens with our life too."
+      },
+      "error": null,
+      "speaker_id": "Speaker 1",
+      "start_timestamp": null,
+      "end_timestamp": null,
+      "turn_index": 0,
+      "source_metadata": {
+        "source_id": "03-manage-your-emotional-memories",
+        "parent_chunk_id": "03-manage-your-emotional-memories-0013",
+        "split_method": null,
+        "piece": [
+          1,
+          1
+        ],
+        "source_start_offset": 1121,
+        "source_end_offset": 1158,
+        "cue_indices": null,
+        "cue_ids": null,
+        "incomplete": false,
+        "depends_on_previous": false,
+        "dependency_reasons": []
+      },
+      "metadata": {
+        "model": "groq/openai/gpt-oss-120b",
+        "prompt_version": "8.0",
+        "llm_config": {
+          "provider": "groq",
+          "model": "openai/gpt-oss-120b",
+          "reasoning_effort": "low",
+          "temperature": 0.0,
+          "max_output_tokens": 8192,
+          "prompt_version": "8.0",
+          "thinking_budget": null,
+          "empty_gloss_retry": true,
+          "references_file": null,
+          "reference_entries_loaded": 0
+        },
+        "rule_set_version": "0.1.0",
+        "active_rules": [
+          "R-FMT-01",
+          "R-ART-01",
+          "R-SKIP-01"
+        ],
+        "result_schema_version": "1.0",
+        "rule_pass_completed": true,
+        "cache_hit": false
+      }
+    },
+    {
+      "sentence_id": "03-manage-your-emotional-memories-s0016",
+      "group_id": "03-manage-your-emotional-memories-g0003",
+      "source_text": "When we get angry, after getting angry the act is over, but",
+      "llm_input_text": "When we get angry, after getting angry the act is over, but",
+      "skipped_spans": [],
+      "translation_status": "translated",
+      "candidate_gloss": "WHEN WE GET ANGRY AFTER GET ANGRY ACT OVER BUT",
+      "candidate_tokens": [
+        "WHEN",
+        "WE",
+        "GET",
+        "ANGRY",
+        "AFTER",
+        "GET",
+        "ANGRY",
+        "ACT",
+        "OVER",
+        "BUT"
+      ],
+      "final_gloss": "WHEN WE GET ANGRY AFTER GET ANGRY ACT OVER BUT",
+      "final_tokens": [
+        "WHEN",
+        "WE",
+        "GET",
+        "ANGRY",
+        "AFTER",
+        "GET",
+        "ANGRY",
+        "ACT",
+        "OVER",
+        "BUT"
+      ],
+      "applied_rules": [],
+      "validation": {
+        "status": "pass",
+        "warnings": []
+      },
+      "review_status": "unreviewed",
+      "uncertainty_notes": "",
+      "uncertain_parts": [],
+      "needs_human_review": false,
+      "llm_status": "ok",
+      "llm": {
+        "status": "ok",
+        "needs_human_review": false,
+        "uncertain": false,
+        "uncertain_parts": [],
+        "notes": "",
+        "echoed_source_text": "When we get angry, after getting angry the act is over, but"
+      },
+      "error": null,
+      "speaker_id": "Speaker 1",
+      "start_timestamp": null,
+      "end_timestamp": null,
+      "turn_index": 0,
+      "source_metadata": {
+        "source_id": "03-manage-your-emotional-memories",
+        "parent_chunk_id": "03-manage-your-emotional-memories-0014",
+        "split_method": "runon_capital_opener",
+        "piece": [
+          1,
+          2
+        ],
+        "source_start_offset": null,
+        "source_end_offset": null,
+        "cue_indices": null,
+        "cue_ids": null,
+        "incomplete": true,
+        "depends_on_previous": false,
+        "dependency_reasons": []
+      },
+      "metadata": {
+        "model": "groq/openai/gpt-oss-120b",
+        "prompt_version": "8.0",
+        "llm_config": {
+          "provider": "groq",
+          "model": "openai/gpt-oss-120b",
+          "reasoning_effort": "low",
+          "temperature": 0.0,
+          "max_output_tokens": 8192,
+          "prompt_version": "8.0",
+          "thinking_budget": null,
+          "empty_gloss_retry": true,
+          "references_file": null,
+          "reference_entries_loaded": 0
+        },
+        "rule_set_version": "0.1.0",
+        "active_rules": [
+          "R-FMT-01",
+          "R-ART-01",
+          "R-SKIP-01"
+        ],
+        "result_schema_version": "1.0",
+        "rule_pass_completed": true,
+        "cache_hit": false
+      }
+    },
+    {
+      "sentence_id": "03-manage-your-emotional-memories-s0017",
+      "group_id": "03-manage-your-emotional-memories-g0003",
+      "source_text": "It leaves behind an impression of getting angry which gets saved in the form of memories.",
+      "llm_input_text": "It leaves behind an impression of getting angry which gets saved in the form of memories.",
+      "skipped_spans": [],
+      "translation_status": "translated",
+      "candidate_gloss": "IT LEAVE BEHIND IMPRESSION GET ANGRY WHICH SAVE FORM MEMORIES",
+      "candidate_tokens": [
+        "IT",
+        "LEAVE",
+        "BEHIND",
+        "IMPRESSION",
+        "GET",
+        "ANGRY",
+        "WHICH",
+        "SAVE",
+        "FORM",
+        "MEMORIES"
+      ],
+      "final_gloss": "IT LEAVE BEHIND IMPRESSION GET ANGRY WHICH SAVE FORM MEMORIES",
+      "final_tokens": [
+        "IT",
+        "LEAVE",
+        "BEHIND",
+        "IMPRESSION",
+        "GET",
+        "ANGRY",
+        "WHICH",
+        "SAVE",
+        "FORM",
+        "MEMORIES"
+      ],
+      "applied_rules": [],
+      "validation": {
+        "status": "pass",
+        "warnings": []
+      },
+      "review_status": "unreviewed",
+      "uncertainty_notes": "",
+      "uncertain_parts": [],
+      "needs_human_review": false,
+      "llm_status": "ok",
+      "llm": {
+        "status": "ok",
+        "needs_human_review": false,
+        "uncertain": false,
+        "uncertain_parts": [],
+        "notes": "",
+        "echoed_source_text": "It leaves behind an impression of getting angry which gets saved in the form of memories."
+      },
+      "error": null,
+      "speaker_id": "Speaker 1",
+      "start_timestamp": null,
+      "end_timestamp": null,
+      "turn_index": 0,
+      "source_metadata": {
+        "source_id": "03-manage-your-emotional-memories",
+        "parent_chunk_id": "03-manage-your-emotional-memories-0014",
+        "split_method": "runon_capital_opener",
+        "piece": [
+          2,
+          2
+        ],
+        "source_start_offset": null,
+        "source_end_offset": null,
+        "cue_indices": null,
+        "cue_ids": null,
+        "incomplete": false,
+        "depends_on_previous": true,
+        "dependency_reasons": [
+          "pronoun_start",
+          "previous_incomplete"
+        ]
+      },
+      "metadata": {
+        "model": "groq/openai/gpt-oss-120b",
+        "prompt_version": "8.0",
+        "llm_config": {
+          "provider": "groq",
+          "model": "openai/gpt-oss-120b",
+          "reasoning_effort": "low",
+          "temperature": 0.0,
+          "max_output_tokens": 8192,
+          "prompt_version": "8.0",
+          "thinking_budget": null,
+          "empty_gloss_retry": true,
+          "references_file": null,
+          "reference_entries_loaded": 0
+        },
+        "rule_set_version": "0.1.0",
+        "active_rules": [
+          "R-FMT-01",
+          "R-ART-01",
+          "R-SKIP-01"
+        ],
+        "result_schema_version": "1.0",
+        "rule_pass_completed": true,
+        "cache_hit": false
+      }
+    },
+    {
+      "sentence_id": "03-manage-your-emotional-memories-s0018",
+      "group_id": "03-manage-your-emotional-memories-g0003",
+      "source_text": "So now Whenever you do any action of getting angry, it gets connected with this impression which is set in your mind.",
+      "llm_input_text": "So now Whenever you do any action of getting angry, it gets connected with this impression which is set in your mind.",
+      "skipped_spans": [],
+      "translation_status": "translated",
+      "candidate_gloss": "SO NOW WHENEVER YOU DO ANY ACTION GET ANGRY IT CONNECT WITH THIS IMPRESSION WHICH SET IN YOUR MIND",
+      "candidate_tokens": [
+        "SO",
+        "NOW",
+        "WHENEVER",
+        "YOU",
+        "DO",
+        "ANY",
+        "ACTION",
+        "GET",
+        "ANGRY",
+        "IT",
+        "CONNECT",
+        "WITH",
+        "THIS",
+        "IMPRESSION",
+        "WHICH",
+        "SET",
+        "IN",
+        "YOUR",
+        "MIND"
+      ],
+      "final_gloss": "SO NOW WHENEVER YOU DO ANY ACTION GET ANGRY IT CONNECT WITH THIS IMPRESSION WHICH SET IN YOUR MIND",
+      "final_tokens": [
+        "SO",
+        "NOW",
+        "WHENEVER",
+        "YOU",
+        "DO",
+        "ANY",
+        "ACTION",
+        "GET",
+        "ANGRY",
+        "IT",
+        "CONNECT",
+        "WITH",
+        "THIS",
+        "IMPRESSION",
+        "WHICH",
+        "SET",
+        "IN",
+        "YOUR",
+        "MIND"
+      ],
+      "applied_rules": [],
+      "validation": {
+        "status": "pass",
+        "warnings": []
+      },
+      "review_status": "unreviewed",
+      "uncertainty_notes": "",
+      "uncertain_parts": [],
+      "needs_human_review": false,
+      "llm_status": "ok",
+      "llm": {
+        "status": "ok",
+        "needs_human_review": false,
+        "uncertain": false,
+        "uncertain_parts": [],
+        "notes": "",
+        "echoed_source_text": "So now Whenever you do any action of getting angry, it gets connected with this impression which is set in your mind."
+      },
+      "error": null,
+      "speaker_id": "Speaker 1",
+      "start_timestamp": null,
+      "end_timestamp": null,
+      "turn_index": 0,
+      "source_metadata": {
+        "source_id": "03-manage-your-emotional-memories",
+        "parent_chunk_id": "03-manage-your-emotional-memories-0015",
+        "split_method": null,
+        "piece": [
+          1,
+          1
+        ],
+        "source_start_offset": 1309,
+        "source_end_offset": 1426,
+        "cue_indices": null,
+        "cue_ids": null,
+        "incomplete": false,
+        "depends_on_previous": true,
+        "dependency_reasons": [
+          "continuation_word"
+        ]
+      },
+      "metadata": {
+        "model": "groq/openai/gpt-oss-120b",
+        "prompt_version": "8.0",
+        "llm_config": {
+          "provider": "groq",
+          "model": "openai/gpt-oss-120b",
+          "reasoning_effort": "low",
+          "temperature": 0.0,
+          "max_output_tokens": 8192,
+          "prompt_version": "8.0",
+          "thinking_budget": null,
+          "empty_gloss_retry": true,
+          "references_file": null,
+          "reference_entries_loaded": 0
+        },
+        "rule_set_version": "0.1.0",
+        "active_rules": [
+          "R-FMT-01",
+          "R-ART-01",
+          "R-SKIP-01"
+        ],
+        "result_schema_version": "1.0",
+        "rule_pass_completed": true,
+        "cache_hit": false
+      }
+    },
+    {
+      "sentence_id": "03-manage-your-emotional-memories-s0019",
+      "group_id": "03-manage-your-emotional-memories-g0003",
+      "source_text": "And hence, because of linking to the same impression, it opens the same file of getting angry and then you react.",
+      "llm_input_text": "And hence, because of linking to the same impression, it opens the same file of getting angry and then you react.",
+      "skipped_spans": [],
+      "translation_status": "translated",
+      "candidate_gloss": "AND HENCE BECAUSE LINK SAME IMPRESSION IT OPEN SAME FILE GET ANGRY THEN YOU REACT",
+      "candidate_tokens": [
+        "AND",
+        "HENCE",
+        "BECAUSE",
+        "LINK",
+        "SAME",
+        "IMPRESSION",
+        "IT",
+        "OPEN",
+        "SAME",
+        "FILE",
+        "GET",
+        "ANGRY",
+        "THEN",
+        "YOU",
+        "REACT"
+      ],
+      "final_gloss": "AND HENCE BECAUSE LINK SAME IMPRESSION IT OPEN SAME FILE GET ANGRY THEN YOU REACT",
+      "final_tokens": [
+        "AND",
+        "HENCE",
+        "BECAUSE",
+        "LINK",
+        "SAME",
+        "IMPRESSION",
+        "IT",
+        "OPEN",
+        "SAME",
+        "FILE",
+        "GET",
+        "ANGRY",
+        "THEN",
+        "YOU",
+        "REACT"
+      ],
+      "applied_rules": [],
+      "validation": {
+        "status": "pass",
+        "warnings": []
+      },
+      "review_status": "unreviewed",
+      "uncertainty_notes": "",
+      "uncertain_parts": [],
+      "needs_human_review": false,
+      "llm_status": "ok",
+      "llm": {
+        "status": "ok",
+        "needs_human_review": false,
+        "uncertain": false,
+        "uncertain_parts": [],
+        "notes": "",
+        "echoed_source_text": "And hence, because of linking to the same impression, it opens the same file of getting angry and then you react."
+      },
+      "error": null,
+      "speaker_id": "Speaker 1",
+      "start_timestamp": null,
+      "end_timestamp": null,
+      "turn_index": 0,
+      "source_metadata": {
+        "source_id": "03-manage-your-emotional-memories",
+        "parent_chunk_id": "03-manage-your-emotional-memories-0016",
+        "split_method": null,
+        "piece": [
+          1,
+          1
+        ],
+        "source_start_offset": 1427,
+        "source_end_offset": 1540,
+        "cue_indices": null,
+        "cue_ids": null,
+        "incomplete": false,
+        "depends_on_previous": true,
+        "dependency_reasons": [
+          "continuation_word"
+        ]
+      },
+      "metadata": {
+        "model": "groq/openai/gpt-oss-120b",
+        "prompt_version": "8.0",
+        "llm_config": {
+          "provider": "groq",
+          "model": "openai/gpt-oss-120b",
+          "reasoning_effort": "low",
+          "temperature": 0.0,
+          "max_output_tokens": 8192,
+          "prompt_version": "8.0",
+          "thinking_budget": null,
+          "empty_gloss_retry": true,
+          "references_file": null,
+          "reference_entries_loaded": 0
+        },
+        "rule_set_version": "0.1.0",
+        "active_rules": [
+          "R-FMT-01",
+          "R-ART-01",
+          "R-SKIP-01"
+        ],
+        "result_schema_version": "1.0",
+        "rule_pass_completed": true,
+        "cache_hit": false
+      }
+    },
+    {
+      "sentence_id": "03-manage-your-emotional-memories-s0020",
+      "group_id": "03-manage-your-emotional-memories-g0003",
+      "source_text": "Now, tell me one thing.",
+      "llm_input_text": "Now, tell me one thing.",
+      "skipped_spans": [],
+      "translation_status": "translated",
+      "candidate_gloss": "NOW TELL ME ONE THING",
+      "candidate_tokens": [
+        "NOW",
+        "TELL",
+        "ME",
+        "ONE",
+        "THING"
+      ],
+      "final_gloss": "NOW TELL ME ONE THING",
+      "final_tokens": [
+        "NOW",
+        "TELL",
+        "ME",
+        "ONE",
+        "THING"
+      ],
+      "applied_rules": [],
+      "validation": {
+        "status": "pass",
+        "warnings": []
+      },
+      "review_status": "unreviewed",
+      "uncertainty_notes": "",
+      "uncertain_parts": [],
+      "needs_human_review": false,
+      "llm_status": "ok",
+      "llm": {
+        "status": "ok",
+        "needs_human_review": false,
+        "uncertain": false,
+        "uncertain_parts": [],
+        "notes": "",
+        "echoed_source_text": "Now, tell me one thing."
+      },
+      "error": null,
+      "speaker_id": "Speaker 1",
+      "start_timestamp": null,
+      "end_timestamp": null,
+      "turn_index": 0,
+      "source_metadata": {
+        "source_id": "03-manage-your-emotional-memories",
+        "parent_chunk_id": "03-manage-your-emotional-memories-0017",
+        "split_method": null,
+        "piece": [
+          1,
+          1
+        ],
+        "source_start_offset": 1541,
+        "source_end_offset": 1564,
+        "cue_indices": null,
+        "cue_ids": null,
+        "incomplete": false,
+        "depends_on_previous": false,
+        "dependency_reasons": []
+      },
+      "metadata": {
+        "model": "groq/openai/gpt-oss-120b",
+        "prompt_version": "8.0",
+        "llm_config": {
+          "provider": "groq",
+          "model": "openai/gpt-oss-120b",
+          "reasoning_effort": "low",
+          "temperature": 0.0,
+          "max_output_tokens": 8192,
+          "prompt_version": "8.0",
+          "thinking_budget": null,
+          "empty_gloss_retry": true,
+          "references_file": null,
+          "reference_entries_loaded": 0
+        },
+        "rule_set_version": "0.1.0",
+        "active_rules": [
+          "R-FMT-01",
+          "R-ART-01",
+          "R-SKIP-01"
+        ],
+        "result_schema_version": "1.0",
+        "rule_pass_completed": true,
+        "cache_hit": false
+      }
+    },
+    {
+      "sentence_id": "03-manage-your-emotional-memories-s0021",
+      "group_id": "03-manage-your-emotional-memories-g0003",
+      "source_text": "Then you boil water, its temperature increases, but slowly slowly after some time, it comes back to its normal room temperature, right?",
+      "llm_input_text": "Then you boil water, its temperature increases, but slowly slowly after some time, it comes back to its normal room temperature, right?",
+      "skipped_spans": [],
+      "translation_status": "translated",
+      "candidate_gloss": "THEN YOU BOIL WATER ITS TEMPERATURE INCREASE BUT SLOWLY AFTER SOME TIME IT COME BACK NORMAL ROOM TEMPERATURE RIGHT",
+      "candidate_tokens": [
+        "THEN",
+        "YOU",
+        "BOIL",
+        "WATER",
+        "ITS",
+        "TEMPERATURE",
+        "INCREASE",
+        "BUT",
+        "SLOWLY",
+        "AFTER",
+        "SOME",
+        "TIME",
+        "IT",
+        "COME",
+        "BACK",
+        "NORMAL",
+        "ROOM",
+        "TEMPERATURE",
+        "RIGHT"
+      ],
+      "final_gloss": "THEN YOU BOIL WATER ITS TEMPERATURE INCREASE BUT SLOWLY AFTER SOME TIME IT COME BACK NORMAL ROOM TEMPERATURE RIGHT",
+      "final_tokens": [
+        "THEN",
+        "YOU",
+        "BOIL",
+        "WATER",
+        "ITS",
+        "TEMPERATURE",
+        "INCREASE",
+        "BUT",
+        "SLOWLY",
+        "AFTER",
+        "SOME",
+        "TIME",
+        "IT",
+        "COME",
+        "BACK",
+        "NORMAL",
+        "ROOM",
+        "TEMPERATURE",
+        "RIGHT"
+      ],
+      "applied_rules": [],
+      "validation": {
+        "status": "pass",
+        "warnings": []
+      },
+      "review_status": "unreviewed",
+      "uncertainty_notes": "",
+      "uncertain_parts": [],
+      "needs_human_review": false,
+      "llm_status": "ok",
+      "llm": {
+        "status": "ok",
+        "needs_human_review": false,
+        "uncertain": false,
+        "uncertain_parts": [],
+        "notes": "",
+        "echoed_source_text": "Then you boil water, its temperature increases, but slowly slowly after some time, it comes back to its normal room temperature, right?"
+      },
+      "error": null,
+      "speaker_id": "Speaker 1",
+      "start_timestamp": null,
+      "end_timestamp": null,
+      "turn_index": 0,
+      "source_metadata": {
+        "source_id": "03-manage-your-emotional-memories",
+        "parent_chunk_id": "03-manage-your-emotional-memories-0018",
+        "split_method": null,
+        "piece": [
+          1,
+          1
+        ],
+        "source_start_offset": 1565,
+        "source_end_offset": 1700,
+        "cue_indices": null,
+        "cue_ids": null,
+        "incomplete": false,
+        "depends_on_previous": true,
+        "dependency_reasons": [
+          "continuation_word"
+        ]
+      },
+      "metadata": {
+        "model": "groq/openai/gpt-oss-120b",
+        "prompt_version": "8.0",
+        "llm_config": {
+          "provider": "groq",
+          "model": "openai/gpt-oss-120b",
+          "reasoning_effort": "low",
+          "temperature": 0.0,
+          "max_output_tokens": 8192,
+          "prompt_version": "8.0",
+          "thinking_budget": null,
+          "empty_gloss_retry": true,
+          "references_file": null,
+          "reference_entries_loaded": 0
+        },
+        "rule_set_version": "0.1.0",
+        "active_rules": [
+          "R-FMT-01",
+          "R-ART-01",
+          "R-SKIP-01"
+        ],
+        "result_schema_version": "1.0",
+        "rule_pass_completed": true,
+        "cache_hit": false
+      }
+    },
+    {
+      "sentence_id": "03-manage-your-emotional-memories-s0022",
+      "group_id": "03-manage-your-emotional-memories-g0003",
+      "source_text": "Because the real nature of the water is to be at room temperature.",
+      "llm_input_text": "Because the real nature of the water is to be at room temperature.",
+      "skipped_spans": [],
+      "translation_status": "translated",
+      "candidate_gloss": "BECAUSE REAL NATURE WATER BE AT ROOM TEMPERATURE",
+      "candidate_tokens": [
+        "BECAUSE",
+        "REAL",
+        "NATURE",
+        "WATER",
+        "BE",
+        "AT",
+        "ROOM",
+        "TEMPERATURE"
+      ],
+      "final_gloss": "BECAUSE REAL NATURE WATER BE AT ROOM TEMPERATURE",
+      "final_tokens": [
+        "BECAUSE",
+        "REAL",
+        "NATURE",
+        "WATER",
+        "BE",
+        "AT",
+        "ROOM",
+        "TEMPERATURE"
+      ],
+      "applied_rules": [],
+      "validation": {
+        "status": "pass",
+        "warnings": []
+      },
+      "review_status": "unreviewed",
+      "uncertainty_notes": "",
+      "uncertain_parts": [],
+      "needs_human_review": false,
+      "llm_status": "ok",
+      "llm": {
+        "status": "ok",
+        "needs_human_review": false,
+        "uncertain": false,
+        "uncertain_parts": [],
+        "notes": "",
+        "echoed_source_text": "Because the real nature of the water is to be at room temperature."
+      },
+      "error": null,
+      "speaker_id": "Speaker 1",
+      "start_timestamp": null,
+      "end_timestamp": null,
+      "turn_index": 0,
+      "source_metadata": {
+        "source_id": "03-manage-your-emotional-memories",
+        "parent_chunk_id": "03-manage-your-emotional-memories-0019",
+        "split_method": null,
+        "piece": [
+          1,
+          1
+        ],
+        "source_start_offset": 1701,
+        "source_end_offset": 1767,
+        "cue_indices": null,
+        "cue_ids": null,
+        "incomplete": false,
+        "depends_on_previous": true,
+        "dependency_reasons": [
+          "continuation_word"
+        ]
+      },
+      "metadata": {
+        "model": "groq/openai/gpt-oss-120b",
+        "prompt_version": "8.0",
+        "llm_config": {
+          "provider": "groq",
+          "model": "openai/gpt-oss-120b",
+          "reasoning_effort": "low",
+          "temperature": 0.0,
+          "max_output_tokens": 8192,
+          "prompt_version": "8.0",
+          "thinking_budget": null,
+          "empty_gloss_retry": true,
+          "references_file": null,
+          "reference_entries_loaded": 0
+        },
+        "rule_set_version": "0.1.0",
+        "active_rules": [
+          "R-FMT-01",
+          "R-ART-01",
+          "R-SKIP-01"
+        ],
+        "result_schema_version": "1.0",
+        "rule_pass_completed": true,
+        "cache_hit": false
+      }
+    },
+    {
+      "sentence_id": "03-manage-your-emotional-memories-s0023",
+      "group_id": "03-manage-your-emotional-memories-g0004",
+      "source_text": "It's only when you hit it, it becomes hot.",
+      "llm_input_text": "It's only when you hit it, it becomes hot.",
+      "skipped_spans": [],
+      "translation_status": "translated",
+      "candidate_gloss": "ONLY WHEN YOU HIT IT IT BECOME HOT",
+      "candidate_tokens": [
+        "ONLY",
+        "WHEN",
+        "YOU",
+        "HIT",
+        "IT",
+        "IT",
+        "BECOME",
+        "HOT"
+      ],
+      "final_gloss": "ONLY WHEN YOU HIT IT IT BECOME HOT",
+      "final_tokens": [
+        "ONLY",
+        "WHEN",
+        "YOU",
+        "HIT",
+        "IT",
+        "IT",
+        "BECOME",
+        "HOT"
+      ],
+      "applied_rules": [],
+      "validation": {
+        "status": "pass",
+        "warnings": [
+          {
+            "code": "adjacent_duplicate_tokens",
+            "severity": "info",
+            "message": "Adjacent identical tokens (may be intended reduplication)."
+          }
+        ]
+      },
+      "review_status": "unreviewed",
+      "uncertainty_notes": "",
+      "uncertain_parts": [],
+      "needs_human_review": false,
+      "llm_status": "ok",
+      "llm": {
+        "status": "ok",
+        "needs_human_review": false,
+        "uncertain": false,
+        "uncertain_parts": [],
+        "notes": "",
+        "echoed_source_text": "It's only when you hit it, it becomes hot."
+      },
+      "error": null,
+      "speaker_id": "Speaker 1",
+      "start_timestamp": null,
+      "end_timestamp": null,
+      "turn_index": 0,
+      "source_metadata": {
+        "source_id": "03-manage-your-emotional-memories",
+        "parent_chunk_id": "03-manage-your-emotional-memories-0020",
+        "split_method": null,
+        "piece": [
+          1,
+          1
+        ],
+        "source_start_offset": 1768,
+        "source_end_offset": 1810,
+        "cue_indices": null,
+        "cue_ids": null,
+        "incomplete": false,
+        "depends_on_previous": false,
+        "dependency_reasons": []
+      },
+      "metadata": {
+        "model": "groq/openai/gpt-oss-120b",
+        "prompt_version": "8.0",
+        "llm_config": {
+          "provider": "groq",
+          "model": "openai/gpt-oss-120b",
+          "reasoning_effort": "low",
+          "temperature": 0.0,
+          "max_output_tokens": 8192,
+          "prompt_version": "8.0",
+          "thinking_budget": null,
+          "empty_gloss_retry": true,
+          "references_file": null,
+          "reference_entries_loaded": 0
+        },
+        "rule_set_version": "0.1.0",
+        "active_rules": [
+          "R-FMT-01",
+          "R-ART-01",
+          "R-SKIP-01"
+        ],
+        "result_schema_version": "1.0",
+        "rule_pass_completed": true,
+        "cache_hit": false
+      }
+    },
+    {
+      "sentence_id": "03-manage-your-emotional-memories-s0024",
+      "group_id": "03-manage-your-emotional-memories-g0004",
+      "source_text": "Similarly, whenever you get angry, how long can you remain angry?",
+      "llm_input_text": "Similarly, whenever you get angry, how long can you remain angry?",
+      "skipped_spans": [],
+      "translation_status": "translated",
+      "candidate_gloss": "SIMILARLY WHENEVER YOU GET ANGRY HOW LONG CAN YOU REMAIN ANGRY",
+      "candidate_tokens": [
+        "SIMILARLY",
+        "WHENEVER",
+        "YOU",
+        "GET",
+        "ANGRY",
+        "HOW",
+        "LONG",
+        "CAN",
+        "YOU",
+        "REMAIN",
+        "ANGRY"
+      ],
+      "final_gloss": "SIMILARLY WHENEVER YOU GET ANGRY HOW LONG CAN YOU REMAIN ANGRY",
+      "final_tokens": [
+        "SIMILARLY",
+        "WHENEVER",
+        "YOU",
+        "GET",
+        "ANGRY",
+        "HOW",
+        "LONG",
+        "CAN",
+        "YOU",
+        "REMAIN",
+        "ANGRY"
+      ],
+      "applied_rules": [],
+      "validation": {
+        "status": "pass",
+        "warnings": []
+      },
+      "review_status": "unreviewed",
+      "uncertainty_notes": "",
+      "uncertain_parts": [],
+      "needs_human_review": false,
+      "llm_status": "ok",
+      "llm": {
+        "status": "ok",
+        "needs_human_review": false,
+        "uncertain": false,
+        "uncertain_parts": [],
+        "notes": "",
+        "echoed_source_text": "Similarly, whenever you get angry, how long can you remain angry?"
+      },
+      "error": null,
+      "speaker_id": "Speaker 1",
+      "start_timestamp": null,
+      "end_timestamp": null,
+      "turn_index": 0,
+      "source_metadata": {
+        "source_id": "03-manage-your-emotional-memories",
+        "parent_chunk_id": "03-manage-your-emotional-memories-0021",
+        "split_method": null,
+        "piece": [
+          1,
+          1
+        ],
+        "source_start_offset": 1811,
+        "source_end_offset": 1876,
+        "cue_indices": null,
+        "cue_ids": null,
+        "incomplete": false,
+        "depends_on_previous": false,
+        "dependency_reasons": []
+      },
+      "metadata": {
+        "model": "groq/openai/gpt-oss-120b",
+        "prompt_version": "8.0",
+        "llm_config": {
+          "provider": "groq",
+          "model": "openai/gpt-oss-120b",
+          "reasoning_effort": "low",
+          "temperature": 0.0,
+          "max_output_tokens": 8192,
+          "prompt_version": "8.0",
+          "thinking_budget": null,
+          "empty_gloss_retry": true,
+          "references_file": null,
+          "reference_entries_loaded": 0
+        },
+        "rule_set_version": "0.1.0",
+        "active_rules": [
+          "R-FMT-01",
+          "R-ART-01",
+          "R-SKIP-01"
+        ],
+        "result_schema_version": "1.0",
+        "rule_pass_completed": true,
+        "cache_hit": false
+      }
+    },
+    {
+      "sentence_id": "03-manage-your-emotional-memories-s0025",
+      "group_id": "03-manage-your-emotional-memories-g0004",
+      "source_text": "for few minutes.",
+      "llm_input_text": "for few minutes.",
+      "skipped_spans": [],
+      "translation_status": "translated",
+      "candidate_gloss": "FOR FEW MINUTES",
+      "candidate_tokens": [
+        "FOR",
+        "FEW",
+        "MINUTES"
+      ],
+      "final_gloss": "FOR FEW MINUTES",
+      "final_tokens": [
+        "FOR",
+        "FEW",
+        "MINUTES"
+      ],
+      "applied_rules": [],
+      "validation": {
+        "status": "pass",
+        "warnings": []
+      },
+      "review_status": "unreviewed",
+      "uncertainty_notes": "",
+      "uncertain_parts": [],
+      "needs_human_review": false,
+      "llm_status": "ok",
+      "llm": {
+        "status": "ok",
+        "needs_human_review": false,
+        "uncertain": false,
+        "uncertain_parts": [],
+        "notes": "",
+        "echoed_source_text": "for few minutes."
+      },
+      "error": null,
+      "speaker_id": "Speaker 1",
+      "start_timestamp": null,
+      "end_timestamp": null,
+      "turn_index": 0,
+      "source_metadata": {
+        "source_id": "03-manage-your-emotional-memories",
+        "parent_chunk_id": "03-manage-your-emotional-memories-0022",
+        "split_method": null,
+        "piece": [
+          1,
+          1
+        ],
+        "source_start_offset": 1877,
+        "source_end_offset": 1893,
+        "cue_indices": null,
+        "cue_ids": null,
+        "incomplete": false,
+        "depends_on_previous": true,
+        "dependency_reasons": [
+          "lowercase_start"
+        ]
+      },
+      "metadata": {
+        "model": "groq/openai/gpt-oss-120b",
+        "prompt_version": "8.0",
+        "llm_config": {
+          "provider": "groq",
+          "model": "openai/gpt-oss-120b",
+          "reasoning_effort": "low",
+          "temperature": 0.0,
+          "max_output_tokens": 8192,
+          "prompt_version": "8.0",
+          "thinking_budget": null,
+          "empty_gloss_retry": true,
+          "references_file": null,
+          "reference_entries_loaded": 0
+        },
+        "rule_set_version": "0.1.0",
+        "active_rules": [
+          "R-FMT-01",
+          "R-ART-01",
+          "R-SKIP-01"
+        ],
+        "result_schema_version": "1.0",
+        "rule_pass_completed": true,
+        "cache_hit": false
+      }
+    },
+    {
+      "sentence_id": "03-manage-your-emotional-memories-s0026",
+      "group_id": "03-manage-your-emotional-memories-g0004",
+      "source_text": "Okay.",
+      "llm_input_text": "Okay.",
+      "skipped_spans": [],
+      "translation_status": "translated",
+      "candidate_gloss": "OKAY",
+      "candidate_tokens": [
+        "OKAY"
+      ],
+      "final_gloss": "OKAY",
+      "final_tokens": [
+        "OKAY"
+      ],
+      "applied_rules": [],
+      "validation": {
+        "status": "pass",
+        "warnings": []
+      },
+      "review_status": "unreviewed",
+      "uncertainty_notes": "",
+      "uncertain_parts": [],
+      "needs_human_review": false,
+      "llm_status": "ok",
+      "llm": {
+        "status": "ok",
+        "needs_human_review": false,
+        "uncertain": false,
+        "uncertain_parts": [],
+        "notes": "",
+        "echoed_source_text": "Okay."
+      },
+      "error": null,
+      "speaker_id": "Speaker 1",
+      "start_timestamp": null,
+      "end_timestamp": null,
+      "turn_index": 0,
+      "source_metadata": {
+        "source_id": "03-manage-your-emotional-memories",
+        "parent_chunk_id": "03-manage-your-emotional-memories-0023",
+        "split_method": null,
+        "piece": [
+          1,
+          1
+        ],
+        "source_start_offset": 1894,
+        "source_end_offset": 1899,
+        "cue_indices": null,
+        "cue_ids": null,
+        "incomplete": false,
+        "depends_on_previous": true,
+        "dependency_reasons": [
+          "very_short"
+        ]
+      },
+      "metadata": {
+        "model": "groq/openai/gpt-oss-120b",
+        "prompt_version": "8.0",
+        "llm_config": {
+          "provider": "groq",
+          "model": "openai/gpt-oss-120b",
+          "reasoning_effort": "low",
+          "temperature": 0.0,
+          "max_output_tokens": 8192,
+          "prompt_version": "8.0",
+          "thinking_budget": null,
+          "empty_gloss_retry": true,
+          "references_file": null,
+          "reference_entries_loaded": 0
+        },
+        "rule_set_version": "0.1.0",
+        "active_rules": [
+          "R-FMT-01",
+          "R-ART-01",
+          "R-SKIP-01"
+        ],
+        "result_schema_version": "1.0",
+        "rule_pass_completed": true,
+        "cache_hit": false
+      }
+    },
+    {
+      "sentence_id": "03-manage-your-emotional-memories-s0027",
+      "group_id": "03-manage-your-emotional-memories-g0004",
+      "source_text": "for few hours.",
+      "llm_input_text": "for few hours.",
+      "skipped_spans": [],
+      "translation_status": "translated",
+      "candidate_gloss": "FOR FEW HOURS",
+      "candidate_tokens": [
+        "FOR",
+        "FEW",
+        "HOURS"
+      ],
+      "final_gloss": "FOR FEW HOURS",
+      "final_tokens": [
+        "FOR",
+        "FEW",
+        "HOURS"
+      ],
+      "applied_rules": [],
+      "validation": {
+        "status": "pass",
+        "warnings": []
+      },
+      "review_status": "unreviewed",
+      "uncertainty_notes": "",
+      "uncertain_parts": [],
+      "needs_human_review": false,
+      "llm_status": "ok",
+      "llm": {
+        "status": "ok",
+        "needs_human_review": false,
+        "uncertain": false,
+        "uncertain_parts": [],
+        "notes": "",
+        "echoed_source_text": "for few hours."
+      },
+      "error": null,
+      "speaker_id": "Speaker 1",
+      "start_timestamp": null,
+      "end_timestamp": null,
+      "turn_index": 0,
+      "source_metadata": {
+        "source_id": "03-manage-your-emotional-memories",
+        "parent_chunk_id": "03-manage-your-emotional-memories-0024",
+        "split_method": null,
+        "piece": [
+          1,
+          1
+        ],
+        "source_start_offset": 1900,
+        "source_end_offset": 1914,
+        "cue_indices": null,
+        "cue_ids": null,
+        "incomplete": false,
+        "depends_on_previous": true,
+        "dependency_reasons": [
+          "lowercase_start"
+        ]
+      },
+      "metadata": {
+        "model": "groq/openai/gpt-oss-120b",
+        "prompt_version": "8.0",
+        "llm_config": {
+          "provider": "groq",
+          "model": "openai/gpt-oss-120b",
+          "reasoning_effort": "low",
+          "temperature": 0.0,
+          "max_output_tokens": 8192,
+          "prompt_version": "8.0",
+          "thinking_budget": null,
+          "empty_gloss_retry": true,
+          "references_file": null,
+          "reference_entries_loaded": 0
+        },
+        "rule_set_version": "0.1.0",
+        "active_rules": [
+          "R-FMT-01",
+          "R-ART-01",
+          "R-SKIP-01"
+        ],
+        "result_schema_version": "1.0",
+        "rule_pass_completed": true,
+        "cache_hit": false
+      }
+    },
+    {
+      "sentence_id": "03-manage-your-emotional-memories-s0028",
+      "group_id": "03-manage-your-emotional-memories-g0004",
+      "source_text": "and then then slowly slowly you will come down.",
+      "llm_input_text": "and then then slowly slowly you will come down.",
+      "skipped_spans": [],
+      "translation_status": "translated",
+      "candidate_gloss": "AND THEN SLOWLY YOU WILL COME DOWN",
+      "candidate_tokens": [
+        "AND",
+        "THEN",
+        "SLOWLY",
+        "YOU",
+        "WILL",
+        "COME",
+        "DOWN"
+      ],
+      "final_gloss": "AND THEN SLOWLY YOU WILL COME DOWN",
+      "final_tokens": [
+        "AND",
+        "THEN",
+        "SLOWLY",
+        "YOU",
+        "WILL",
+        "COME",
+        "DOWN"
+      ],
+      "applied_rules": [],
+      "validation": {
+        "status": "pass",
+        "warnings": []
+      },
+      "review_status": "unreviewed",
+      "uncertainty_notes": "",
+      "uncertain_parts": [],
+      "needs_human_review": false,
+      "llm_status": "ok",
+      "llm": {
+        "status": "ok",
+        "needs_human_review": false,
+        "uncertain": false,
+        "uncertain_parts": [],
+        "notes": "",
+        "echoed_source_text": "and then then slowly slowly you will come down."
+      },
+      "error": null,
+      "speaker_id": "Speaker 1",
+      "start_timestamp": null,
+      "end_timestamp": null,
+      "turn_index": 0,
+      "source_metadata": {
+        "source_id": "03-manage-your-emotional-memories",
+        "parent_chunk_id": "03-manage-your-emotional-memories-0025",
+        "split_method": null,
+        "piece": [
+          1,
+          1
+        ],
+        "source_start_offset": 1915,
+        "source_end_offset": 1962,
+        "cue_indices": null,
+        "cue_ids": null,
+        "incomplete": false,
+        "depends_on_previous": true,
+        "dependency_reasons": [
+          "lowercase_start",
+          "continuation_word"
+        ]
+      },
+      "metadata": {
+        "model": "groq/openai/gpt-oss-120b",
+        "prompt_version": "8.0",
+        "llm_config": {
+          "provider": "groq",
+          "model": "openai/gpt-oss-120b",
+          "reasoning_effort": "low",
+          "temperature": 0.0,
+          "max_output_tokens": 8192,
+          "prompt_version": "8.0",
+          "thinking_budget": null,
+          "empty_gloss_retry": true,
+          "references_file": null,
+          "reference_entries_loaded": 0
+        },
+        "rule_set_version": "0.1.0",
+        "active_rules": [
+          "R-FMT-01",
+          "R-ART-01",
+          "R-SKIP-01"
+        ],
+        "result_schema_version": "1.0",
+        "rule_pass_completed": true,
+        "cache_hit": false
+      }
+    },
+    {
+      "sentence_id": "03-manage-your-emotional-memories-s0029",
+      "group_id": "03-manage-your-emotional-memories-g0004",
+      "source_text": "and come back to normal mood.",
+      "llm_input_text": "and come back to normal mood.",
+      "skipped_spans": [],
+      "translation_status": "translated",
+      "candidate_gloss": "AND COME BACK TO NORMAL MOOD",
+      "candidate_tokens": [
+        "AND",
+        "COME",
+        "BACK",
+        "TO",
+        "NORMAL",
+        "MOOD"
+      ],
+      "final_gloss": "AND COME BACK TO NORMAL MOOD",
+      "final_tokens": [
+        "AND",
+        "COME",
+        "BACK",
+        "TO",
+        "NORMAL",
+        "MOOD"
+      ],
+      "applied_rules": [],
+      "validation": {
+        "status": "pass",
+        "warnings": []
+      },
+      "review_status": "unreviewed",
+      "uncertainty_notes": "",
+      "uncertain_parts": [],
+      "needs_human_review": false,
+      "llm_status": "ok",
+      "llm": {
+        "status": "ok",
+        "needs_human_review": false,
+        "uncertain": false,
+        "uncertain_parts": [],
+        "notes": "",
+        "echoed_source_text": "and come back to normal mood."
+      },
+      "error": null,
+      "speaker_id": "Speaker 1",
+      "start_timestamp": null,
+      "end_timestamp": null,
+      "turn_index": 0,
+      "source_metadata": {
+        "source_id": "03-manage-your-emotional-memories",
+        "parent_chunk_id": "03-manage-your-emotional-memories-0026",
+        "split_method": null,
+        "piece": [
+          1,
+          1
+        ],
+        "source_start_offset": 1963,
+        "source_end_offset": 1992,
+        "cue_indices": null,
+        "cue_ids": null,
+        "incomplete": false,
+        "depends_on_previous": true,
+        "dependency_reasons": [
+          "lowercase_start",
+          "continuation_word"
+        ]
+      },
+      "metadata": {
+        "model": "groq/openai/gpt-oss-120b",
+        "prompt_version": "8.0",
+        "llm_config": {
+          "provider": "groq",
+          "model": "openai/gpt-oss-120b",
+          "reasoning_effort": "low",
+          "temperature": 0.0,
+          "max_output_tokens": 8192,
+          "prompt_version": "8.0",
+          "thinking_budget": null,
+          "empty_gloss_retry": true,
+          "references_file": null,
+          "reference_entries_loaded": 0
+        },
+        "rule_set_version": "0.1.0",
+        "active_rules": [
+          "R-FMT-01",
+          "R-ART-01",
+          "R-SKIP-01"
+        ],
+        "result_schema_version": "1.0",
+        "rule_pass_completed": true,
+        "cache_hit": false
+      }
+    },
+    {
+      "sentence_id": "03-manage-your-emotional-memories-s0030",
+      "group_id": "03-manage-your-emotional-memories-g0004",
+      "source_text": "Right?",
+      "llm_input_text": "Right?",
+      "skipped_spans": [],
+      "translation_status": "translated",
+      "candidate_gloss": "RIGHT",
+      "candidate_tokens": [
+        "RIGHT"
+      ],
+      "final_gloss": "RIGHT",
+      "final_tokens": [
+        "RIGHT"
+      ],
+      "applied_rules": [],
+      "validation": {
+        "status": "pass",
+        "warnings": []
+      },
+      "review_status": "unreviewed",
+      "uncertainty_notes": "",
+      "uncertain_parts": [],
+      "needs_human_review": false,
+      "llm_status": "ok",
+      "llm": {
+        "status": "ok",
+        "needs_human_review": false,
+        "uncertain": false,
+        "uncertain_parts": [],
+        "notes": "",
+        "echoed_source_text": "Right?"
+      },
+      "error": null,
+      "speaker_id": "Speaker 1",
+      "start_timestamp": null,
+      "end_timestamp": null,
+      "turn_index": 0,
+      "source_metadata": {
+        "source_id": "03-manage-your-emotional-memories",
+        "parent_chunk_id": "03-manage-your-emotional-memories-0027",
+        "split_method": null,
+        "piece": [
+          1,
+          1
+        ],
+        "source_start_offset": 1993,
+        "source_end_offset": 1999,
+        "cue_indices": null,
+        "cue_ids": null,
+        "incomplete": false,
+        "depends_on_previous": true,
+        "dependency_reasons": [
+          "very_short"
+        ]
+      },
+      "metadata": {
+        "model": "groq/openai/gpt-oss-120b",
+        "prompt_version": "8.0",
+        "llm_config": {
+          "provider": "groq",
+          "model": "openai/gpt-oss-120b",
+          "reasoning_effort": "low",
+          "temperature": 0.0,
+          "max_output_tokens": 8192,
+          "prompt_version": "8.0",
+          "thinking_budget": null,
+          "empty_gloss_retry": true,
+          "references_file": null,
+          "reference_entries_loaded": 0
+        },
+        "rule_set_version": "0.1.0",
+        "active_rules": [
+          "R-FMT-01",
+          "R-ART-01",
+          "R-SKIP-01"
+        ],
+        "result_schema_version": "1.0",
+        "rule_pass_completed": true,
+        "cache_hit": false
+      }
+    },
+    {
+      "sentence_id": "03-manage-your-emotional-memories-s0031",
+      "group_id": "03-manage-your-emotional-memories-g0005",
+      "source_text": "Can you remain normal for a longer time or can you remain angry for a longer time?",
+      "llm_input_text": "Can you remain normal for a longer time or can you remain angry for a longer time?",
+      "skipped_spans": [],
+      "translation_status": "translated",
+      "candidate_gloss": "CAN YOU REMAIN NORMAL LONG_TIME OR CAN YOU REMAIN ANGRY LONG_TIME QUESTION",
+      "candidate_tokens": [
+        "CAN",
+        "YOU",
+        "REMAIN",
+        "NORMAL",
+        "LONG_TIME",
+        "OR",
+        "CAN",
+        "YOU",
+        "REMAIN",
+        "ANGRY",
+        "LONG_TIME",
+        "QUESTION"
+      ],
+      "final_gloss": "CAN YOU REMAIN NORMAL LONG_TIME OR CAN YOU REMAIN ANGRY LONG_TIME QUESTION",
+      "final_tokens": [
+        "CAN",
+        "YOU",
+        "REMAIN",
+        "NORMAL",
+        "LONG_TIME",
+        "OR",
+        "CAN",
+        "YOU",
+        "REMAIN",
+        "ANGRY",
+        "LONG_TIME",
+        "QUESTION"
+      ],
+      "applied_rules": [],
+      "validation": {
+        "status": "pass",
+        "warnings": []
+      },
+      "review_status": "unreviewed",
+      "uncertainty_notes": "",
+      "uncertain_parts": [],
+      "needs_human_review": false,
+      "llm_status": "ok",
+      "llm": {
+        "status": "ok",
+        "needs_human_review": false,
+        "uncertain": false,
+        "uncertain_parts": [],
+        "notes": "",
+        "echoed_source_text": "Can you remain normal for a longer time or can you remain angry for a longer time?"
+      },
+      "error": null,
+      "speaker_id": "Speaker 1",
+      "start_timestamp": null,
+      "end_timestamp": null,
+      "turn_index": 0,
+      "source_metadata": {
+        "source_id": "03-manage-your-emotional-memories",
+        "parent_chunk_id": "03-manage-your-emotional-memories-0028",
+        "split_method": null,
+        "piece": [
+          1,
+          1
+        ],
+        "source_start_offset": 2000,
+        "source_end_offset": 2082,
+        "cue_indices": null,
+        "cue_ids": null,
+        "incomplete": false,
+        "depends_on_previous": false,
+        "dependency_reasons": []
+      },
+      "metadata": {
+        "model": "groq/openai/gpt-oss-120b",
+        "prompt_version": "8.0",
+        "llm_config": {
+          "provider": "groq",
+          "model": "openai/gpt-oss-120b",
+          "reasoning_effort": "low",
+          "temperature": 0.0,
+          "max_output_tokens": 8192,
+          "prompt_version": "8.0",
+          "thinking_budget": null,
+          "empty_gloss_retry": true,
+          "references_file": null,
+          "reference_entries_loaded": 0
+        },
+        "rule_set_version": "0.1.0",
+        "active_rules": [
+          "R-FMT-01",
+          "R-ART-01",
+          "R-SKIP-01"
+        ],
+        "result_schema_version": "1.0",
+        "rule_pass_completed": true,
+        "cache_hit": false
+      }
+    },
+    {
+      "sentence_id": "03-manage-your-emotional-memories-s0032",
+      "group_id": "03-manage-your-emotional-memories-g0005",
+      "source_text": "Normal, Right.",
+      "llm_input_text": "Normal, Right.",
+      "skipped_spans": [],
+      "translation_status": "translated",
+      "candidate_gloss": "NORMAL RIGHT",
+      "candidate_tokens": [
+        "NORMAL",
+        "RIGHT"
+      ],
+      "final_gloss": "NORMAL RIGHT",
+      "final_tokens": [
+        "NORMAL",
+        "RIGHT"
+      ],
+      "applied_rules": [],
+      "validation": {
+        "status": "pass",
+        "warnings": []
+      },
+      "review_status": "unreviewed",
+      "uncertainty_notes": "",
+      "uncertain_parts": [],
+      "needs_human_review": false,
+      "llm_status": "ok",
+      "llm": {
+        "status": "ok",
+        "needs_human_review": false,
+        "uncertain": false,
+        "uncertain_parts": [],
+        "notes": "",
+        "echoed_source_text": "Normal, Right."
+      },
+      "error": null,
+      "speaker_id": "Speaker 1",
+      "start_timestamp": null,
+      "end_timestamp": null,
+      "turn_index": 0,
+      "source_metadata": {
+        "source_id": "03-manage-your-emotional-memories",
+        "parent_chunk_id": "03-manage-your-emotional-memories-0029",
+        "split_method": null,
+        "piece": [
+          1,
+          1
+        ],
+        "source_start_offset": 2083,
+        "source_end_offset": 2097,
+        "cue_indices": null,
+        "cue_ids": null,
+        "incomplete": false,
+        "depends_on_previous": true,
+        "dependency_reasons": [
+          "very_short"
+        ]
+      },
+      "metadata": {
+        "model": "groq/openai/gpt-oss-120b",
+        "prompt_version": "8.0",
+        "llm_config": {
+          "provider": "groq",
+          "model": "openai/gpt-oss-120b",
+          "reasoning_effort": "low",
+          "temperature": 0.0,
+          "max_output_tokens": 8192,
+          "prompt_version": "8.0",
+          "thinking_budget": null,
+          "empty_gloss_retry": true,
+          "references_file": null,
+          "reference_entries_loaded": 0
+        },
+        "rule_set_version": "0.1.0",
+        "active_rules": [
+          "R-FMT-01",
+          "R-ART-01",
+          "R-SKIP-01"
+        ],
+        "result_schema_version": "1.0",
+        "rule_pass_completed": true,
+        "cache_hit": false
+      }
+    },
+    {
+      "sentence_id": "03-manage-your-emotional-memories-s0033",
+      "group_id": "03-manage-your-emotional-memories-g0005",
+      "source_text": "Bye Because anger is not your nature, ego is not your nature.",
+      "llm_input_text": "Bye Because anger is not your nature, ego is not your nature.",
+      "skipped_spans": [],
+      "translation_status": "translated",
+      "candidate_gloss": "BYE BECAUSE ANGER NOT YOUR NATURE EGO NOT YOUR NATURE",
+      "candidate_tokens": [
+        "BYE",
+        "BECAUSE",
+        "ANGER",
+        "NOT",
+        "YOUR",
+        "NATURE",
+        "EGO",
+        "NOT",
+        "YOUR",
+        "NATURE"
+      ],
+      "final_gloss": "BYE BECAUSE ANGER NOT YOUR NATURE EGO NOT YOUR NATURE",
+      "final_tokens": [
+        "BYE",
+        "BECAUSE",
+        "ANGER",
+        "NOT",
+        "YOUR",
+        "NATURE",
+        "EGO",
+        "NOT",
+        "YOUR",
+        "NATURE"
+      ],
+      "applied_rules": [],
+      "validation": {
+        "status": "pass",
+        "warnings": []
+      },
+      "review_status": "unreviewed",
+      "uncertainty_notes": "",
+      "uncertain_parts": [],
+      "needs_human_review": false,
+      "llm_status": "ok",
+      "llm": {
+        "status": "ok",
+        "needs_human_review": false,
+        "uncertain": false,
+        "uncertain_parts": [],
+        "notes": "",
+        "echoed_source_text": "Bye Because anger is not your nature, ego is not your nature."
+      },
+      "error": null,
+      "speaker_id": "Speaker 1",
+      "start_timestamp": null,
+      "end_timestamp": null,
+      "turn_index": 0,
+      "source_metadata": {
+        "source_id": "03-manage-your-emotional-memories",
+        "parent_chunk_id": "03-manage-your-emotional-memories-0030",
+        "split_method": null,
+        "piece": [
+          1,
+          1
+        ],
+        "source_start_offset": 2098,
+        "source_end_offset": 2159,
+        "cue_indices": null,
+        "cue_ids": null,
+        "incomplete": false,
+        "depends_on_previous": false,
+        "dependency_reasons": []
+      },
+      "metadata": {
+        "model": "groq/openai/gpt-oss-120b",
+        "prompt_version": "8.0",
+        "llm_config": {
+          "provider": "groq",
+          "model": "openai/gpt-oss-120b",
+          "reasoning_effort": "low",
+          "temperature": 0.0,
+          "max_output_tokens": 8192,
+          "prompt_version": "8.0",
+          "thinking_budget": null,
+          "empty_gloss_retry": true,
+          "references_file": null,
+          "reference_entries_loaded": 0
+        },
+        "rule_set_version": "0.1.0",
+        "active_rules": [
+          "R-FMT-01",
+          "R-ART-01",
+          "R-SKIP-01"
+        ],
+        "result_schema_version": "1.0",
+        "rule_pass_completed": true,
+        "cache_hit": false
+      }
+    },
+    {
+      "sentence_id": "03-manage-your-emotional-memories-s0034",
+      "group_id": "03-manage-your-emotional-memories-g0005",
+      "source_text": "So, what is not your nature, you cannot remain in that state for a longer time.",
+      "llm_input_text": "So, what is not your nature, you cannot remain in that state for a longer time.",
+      "skipped_spans": [],
+      "translation_status": "translated",
+      "candidate_gloss": "SO WHAT NOT YOUR NATURE YOU CANNOT REMAIN THAT STATE LONG_TIME",
+      "candidate_tokens": [
+        "SO",
+        "WHAT",
+        "NOT",
+        "YOUR",
+        "NATURE",
+        "YOU",
+        "CANNOT",
+        "REMAIN",
+        "THAT",
+        "STATE",
+        "LONG_TIME"
+      ],
+      "final_gloss": "SO WHAT NOT YOUR NATURE YOU CANNOT REMAIN THAT STATE LONG_TIME",
+      "final_tokens": [
+        "SO",
+        "WHAT",
+        "NOT",
+        "YOUR",
+        "NATURE",
+        "YOU",
+        "CANNOT",
+        "REMAIN",
+        "THAT",
+        "STATE",
+        "LONG_TIME"
+      ],
+      "applied_rules": [],
+      "validation": {
+        "status": "pass",
+        "warnings": []
+      },
+      "review_status": "unreviewed",
+      "uncertainty_notes": "",
+      "uncertain_parts": [],
+      "needs_human_review": false,
+      "llm_status": "ok",
+      "llm": {
+        "status": "ok",
+        "needs_human_review": false,
+        "uncertain": false,
+        "uncertain_parts": [],
+        "notes": "",
+        "echoed_source_text": "So, what is not your nature, you cannot remain in that state for a longer time."
+      },
+      "error": null,
+      "speaker_id": "Speaker 1",
+      "start_timestamp": null,
+      "end_timestamp": null,
+      "turn_index": 0,
+      "source_metadata": {
+        "source_id": "03-manage-your-emotional-memories",
+        "parent_chunk_id": "03-manage-your-emotional-memories-0031",
+        "split_method": null,
+        "piece": [
+          1,
+          1
+        ],
+        "source_start_offset": 2160,
+        "source_end_offset": 2239,
+        "cue_indices": null,
+        "cue_ids": null,
+        "incomplete": false,
+        "depends_on_previous": true,
+        "dependency_reasons": [
+          "continuation_word"
+        ]
+      },
+      "metadata": {
+        "model": "groq/openai/gpt-oss-120b",
+        "prompt_version": "8.0",
+        "llm_config": {
+          "provider": "groq",
+          "model": "openai/gpt-oss-120b",
+          "reasoning_effort": "low",
+          "temperature": 0.0,
+          "max_output_tokens": 8192,
+          "prompt_version": "8.0",
+          "thinking_budget": null,
+          "empty_gloss_retry": true,
+          "references_file": null,
+          "reference_entries_loaded": 0
+        },
+        "rule_set_version": "0.1.0",
+        "active_rules": [
+          "R-FMT-01",
+          "R-ART-01",
+          "R-SKIP-01"
+        ],
+        "result_schema_version": "1.0",
+        "rule_pass_completed": true,
+        "cache_hit": false
+      }
+    },
+    {
+      "sentence_id": "03-manage-your-emotional-memories-s0035",
+      "group_id": "03-manage-your-emotional-memories-g0005",
+      "source_text": "Whenever you come out from your nature, you cannot stay in that state for a longer time.",
+      "llm_input_text": "Whenever you come out from your nature, you cannot stay in that state for a longer time.",
+      "skipped_spans": [],
+      "translation_status": "translated",
+      "candidate_gloss": "WHENEVER YOU COME_OUT FROM YOUR NATURE YOU CANNOT STAY THAT STATE LONG_TIME",
+      "candidate_tokens": [
+        "WHENEVER",
+        "YOU",
+        "COME_OUT",
+        "FROM",
+        "YOUR",
+        "NATURE",
+        "YOU",
+        "CANNOT",
+        "STAY",
+        "THAT",
+        "STATE",
+        "LONG_TIME"
+      ],
+      "final_gloss": "WHENEVER YOU COME_OUT FROM YOUR NATURE YOU CANNOT STAY THAT STATE LONG_TIME",
+      "final_tokens": [
+        "WHENEVER",
+        "YOU",
+        "COME_OUT",
+        "FROM",
+        "YOUR",
+        "NATURE",
+        "YOU",
+        "CANNOT",
+        "STAY",
+        "THAT",
+        "STATE",
+        "LONG_TIME"
+      ],
+      "applied_rules": [],
+      "validation": {
+        "status": "pass",
+        "warnings": []
+      },
+      "review_status": "unreviewed",
+      "uncertainty_notes": "",
+      "uncertain_parts": [],
+      "needs_human_review": false,
+      "llm_status": "ok",
+      "llm": {
+        "status": "ok",
+        "needs_human_review": false,
+        "uncertain": false,
+        "uncertain_parts": [],
+        "notes": "",
+        "echoed_source_text": "Whenever you come out from your nature, you cannot stay in that state for a longer time."
+      },
+      "error": null,
+      "speaker_id": "Speaker 1",
+      "start_timestamp": null,
+      "end_timestamp": null,
+      "turn_index": 0,
+      "source_metadata": {
+        "source_id": "03-manage-your-emotional-memories",
+        "parent_chunk_id": "03-manage-your-emotional-memories-0032",
+        "split_method": null,
+        "piece": [
+          1,
+          1
+        ],
+        "source_start_offset": 2240,
+        "source_end_offset": 2328,
+        "cue_indices": null,
+        "cue_ids": null,
+        "incomplete": false,
+        "depends_on_previous": false,
+        "dependency_reasons": []
+      },
+      "metadata": {
+        "model": "groq/openai/gpt-oss-120b",
+        "prompt_version": "8.0",
+        "llm_config": {
+          "provider": "groq",
+          "model": "openai/gpt-oss-120b",
+          "reasoning_effort": "low",
+          "temperature": 0.0,
+          "max_output_tokens": 8192,
+          "prompt_version": "8.0",
+          "thinking_budget": null,
+          "empty_gloss_retry": true,
+          "references_file": null,
+          "reference_entries_loaded": 0
+        },
+        "rule_set_version": "0.1.0",
+        "active_rules": [
+          "R-FMT-01",
+          "R-ART-01",
+          "R-SKIP-01"
+        ],
+        "result_schema_version": "1.0",
+        "rule_pass_completed": true,
+        "cache_hit": false
+      }
+    },
+    {
+      "sentence_id": "03-manage-your-emotional-memories-s0036",
+      "group_id": "03-manage-your-emotional-memories-g0005",
+      "source_text": "Understand?",
+      "llm_input_text": "Understand?",
+      "skipped_spans": [],
+      "translation_status": "translated",
+      "candidate_gloss": "UNDERSTAND QUESTION",
+      "candidate_tokens": [
+        "UNDERSTAND",
+        "QUESTION"
+      ],
+      "final_gloss": "UNDERSTAND QUESTION",
+      "final_tokens": [
+        "UNDERSTAND",
+        "QUESTION"
+      ],
+      "applied_rules": [],
+      "validation": {
+        "status": "pass",
+        "warnings": []
+      },
+      "review_status": "unreviewed",
+      "uncertainty_notes": "",
+      "uncertain_parts": [],
+      "needs_human_review": false,
+      "llm_status": "ok",
+      "llm": {
+        "status": "ok",
+        "needs_human_review": false,
+        "uncertain": false,
+        "uncertain_parts": [],
+        "notes": "",
+        "echoed_source_text": "Understand?"
+      },
+      "error": null,
+      "speaker_id": "Speaker 1",
+      "start_timestamp": null,
+      "end_timestamp": null,
+      "turn_index": 0,
+      "source_metadata": {
+        "source_id": "03-manage-your-emotional-memories",
+        "parent_chunk_id": "03-manage-your-emotional-memories-0033",
+        "split_method": null,
+        "piece": [
+          1,
+          1
+        ],
+        "source_start_offset": 2329,
+        "source_end_offset": 2340,
+        "cue_indices": null,
+        "cue_ids": null,
+        "incomplete": false,
+        "depends_on_previous": true,
+        "dependency_reasons": [
+          "very_short"
+        ]
+      },
+      "metadata": {
+        "model": "groq/openai/gpt-oss-120b",
+        "prompt_version": "8.0",
+        "llm_config": {
+          "provider": "groq",
+          "model": "openai/gpt-oss-120b",
+          "reasoning_effort": "low",
+          "temperature": 0.0,
+          "max_output_tokens": 8192,
+          "prompt_version": "8.0",
+          "thinking_budget": null,
+          "empty_gloss_retry": true,
+          "references_file": null,
+          "reference_entries_loaded": 0
+        },
+        "rule_set_version": "0.1.0",
+        "active_rules": [
+          "R-FMT-01",
+          "R-ART-01",
+          "R-SKIP-01"
+        ],
+        "result_schema_version": "1.0",
+        "rule_pass_completed": true,
+        "cache_hit": false
+      }
+    },
+    {
+      "sentence_id": "03-manage-your-emotional-memories-s0037",
+      "group_id": "03-manage-your-emotional-memories-g0005",
+      "source_text": "Every time you come out of your nature and get angry, it starts creating an impression in your mind.",
+      "llm_input_text": "Every time you come out of your nature and get angry, it starts creating an impression in your mind.",
+      "skipped_spans": [],
+      "translation_status": "translated",
+      "candidate_gloss": "EVERY_TIME YOU COME_OUT OF YOUR NATURE AND GET ANGRY IT START CREATE IMPRESSION IN YOUR MIND",
+      "candidate_tokens": [
+        "EVERY_TIME",
+        "YOU",
+        "COME_OUT",
+        "OF",
+        "YOUR",
+        "NATURE",
+        "AND",
+        "GET",
+        "ANGRY",
+        "IT",
+        "START",
+        "CREATE",
+        "IMPRESSION",
+        "IN",
+        "YOUR",
+        "MIND"
+      ],
+      "final_gloss": "EVERY_TIME YOU COME_OUT OF YOUR NATURE AND GET ANGRY IT START CREATE IMPRESSION IN YOUR MIND",
+      "final_tokens": [
+        "EVERY_TIME",
+        "YOU",
+        "COME_OUT",
+        "OF",
+        "YOUR",
+        "NATURE",
+        "AND",
+        "GET",
+        "ANGRY",
+        "IT",
+        "START",
+        "CREATE",
+        "IMPRESSION",
+        "IN",
+        "YOUR",
+        "MIND"
+      ],
+      "applied_rules": [],
+      "validation": {
+        "status": "pass",
+        "warnings": []
+      },
+      "review_status": "unreviewed",
+      "uncertainty_notes": "",
+      "uncertain_parts": [],
+      "needs_human_review": false,
+      "llm_status": "ok",
+      "llm": {
+        "status": "ok",
+        "needs_human_review": false,
+        "uncertain": false,
+        "uncertain_parts": [],
+        "notes": "",
+        "echoed_source_text": "Every time you come out of your nature and get angry, it starts creating an impression in your mind."
+      },
+      "error": null,
+      "speaker_id": "Speaker 1",
+      "start_timestamp": null,
+      "end_timestamp": null,
+      "turn_index": 0,
+      "source_metadata": {
+        "source_id": "03-manage-your-emotional-memories",
+        "parent_chunk_id": "03-manage-your-emotional-memories-0034",
+        "split_method": null,
+        "piece": [
+          1,
+          1
+        ],
+        "source_start_offset": 2341,
+        "source_end_offset": 2441,
+        "cue_indices": null,
+        "cue_ids": null,
+        "incomplete": false,
+        "depends_on_previous": false,
+        "dependency_reasons": []
+      },
+      "metadata": {
+        "model": "groq/openai/gpt-oss-120b",
+        "prompt_version": "8.0",
+        "llm_config": {
+          "provider": "groq",
+          "model": "openai/gpt-oss-120b",
+          "reasoning_effort": "low",
+          "temperature": 0.0,
+          "max_output_tokens": 8192,
+          "prompt_version": "8.0",
+          "thinking_budget": null,
+          "empty_gloss_retry": true,
+          "references_file": null,
+          "reference_entries_loaded": 0
+        },
+        "rule_set_version": "0.1.0",
+        "active_rules": [
+          "R-FMT-01",
+          "R-ART-01",
+          "R-SKIP-01"
+        ],
+        "result_schema_version": "1.0",
+        "rule_pass_completed": true,
+        "cache_hit": false
+      }
+    },
+    {
+      "sentence_id": "03-manage-your-emotional-memories-s0038",
+      "group_id": "03-manage-your-emotional-memories-g0006",
+      "source_text": "Remember one thing",
+      "llm_input_text": "Remember one thing",
+      "skipped_spans": [],
+      "translation_status": "translated",
+      "candidate_gloss": "REMEMBER ONE THING",
+      "candidate_tokens": [
+        "REMEMBER",
+        "ONE",
+        "THING"
+      ],
+      "final_gloss": "REMEMBER ONE THING",
+      "final_tokens": [
+        "REMEMBER",
+        "ONE",
+        "THING"
+      ],
+      "applied_rules": [],
+      "validation": {
+        "status": "pass",
+        "warnings": []
+      },
+      "review_status": "unreviewed",
+      "uncertainty_notes": "",
+      "uncertain_parts": [],
+      "needs_human_review": false,
+      "llm_status": "ok",
+      "llm": {
+        "status": "ok",
+        "needs_human_review": false,
+        "uncertain": false,
+        "uncertain_parts": [],
+        "notes": "",
+        "echoed_source_text": "Remember one thing"
+      },
+      "error": null,
+      "speaker_id": "Speaker 1",
+      "start_timestamp": null,
+      "end_timestamp": null,
+      "turn_index": 0,
+      "source_metadata": {
+        "source_id": "03-manage-your-emotional-memories",
+        "parent_chunk_id": "03-manage-your-emotional-memories-0035",
+        "split_method": "runon_capital_opener",
+        "piece": [
+          1,
+          2
+        ],
+        "source_start_offset": null,
+        "source_end_offset": null,
+        "cue_indices": null,
+        "cue_ids": null,
+        "incomplete": true,
+        "depends_on_previous": false,
+        "dependency_reasons": []
+      },
+      "metadata": {
+        "model": "groq/openai/gpt-oss-120b",
+        "prompt_version": "8.0",
+        "llm_config": {
+          "provider": "groq",
+          "model": "openai/gpt-oss-120b",
+          "reasoning_effort": "low",
+          "temperature": 0.0,
+          "max_output_tokens": 8192,
+          "prompt_version": "8.0",
+          "thinking_budget": null,
+          "empty_gloss_retry": true,
+          "references_file": null,
+          "reference_entries_loaded": 0
+        },
+        "rule_set_version": "0.1.0",
+        "active_rules": [
+          "R-FMT-01",
+          "R-ART-01",
+          "R-SKIP-01"
+        ],
+        "result_schema_version": "1.0",
+        "rule_pass_completed": true,
+        "cache_hit": false
+      }
+    },
+    {
+      "sentence_id": "03-manage-your-emotional-memories-s0039",
+      "group_id": "03-manage-your-emotional-memories-g0006",
+      "source_text": "Whenever you remain normal or when you are not highly connected with your emotions, it does not create a strong impression or image in your mind.",
+      "llm_input_text": "Whenever you remain normal or when you are not highly connected with your emotions, it does not create a strong impression or image in your mind.",
+      "skipped_spans": [],
+      "translation_status": "translated",
+      "candidate_gloss": "WHENEVER YOU REMAIN NORMAL OR NOT HIGHLY CONNECTED WITH EMOTIONS IT NOT CREATE STRONG IMPRESSION OR IMAGE IN MIND",
+      "candidate_tokens": [
+        "WHENEVER",
+        "YOU",
+        "REMAIN",
+        "NORMAL",
+        "OR",
+        "NOT",
+        "HIGHLY",
+        "CONNECTED",
+        "WITH",
+        "EMOTIONS",
+        "IT",
+        "NOT",
+        "CREATE",
+        "STRONG",
+        "IMPRESSION",
+        "OR",
+        "IMAGE",
+        "IN",
+        "MIND"
+      ],
+      "final_gloss": "WHENEVER YOU REMAIN NORMAL OR NOT HIGHLY CONNECTED WITH EMOTIONS IT NOT CREATE STRONG IMPRESSION OR IMAGE IN MIND",
+      "final_tokens": [
+        "WHENEVER",
+        "YOU",
+        "REMAIN",
+        "NORMAL",
+        "OR",
+        "NOT",
+        "HIGHLY",
+        "CONNECTED",
+        "WITH",
+        "EMOTIONS",
+        "IT",
+        "NOT",
+        "CREATE",
+        "STRONG",
+        "IMPRESSION",
+        "OR",
+        "IMAGE",
+        "IN",
+        "MIND"
+      ],
+      "applied_rules": [],
+      "validation": {
+        "status": "pass",
+        "warnings": []
+      },
+      "review_status": "unreviewed",
+      "uncertainty_notes": "",
+      "uncertain_parts": [],
+      "needs_human_review": false,
+      "llm_status": "ok",
+      "llm": {
+        "status": "ok",
+        "needs_human_review": false,
+        "uncertain": false,
+        "uncertain_parts": [],
+        "notes": "",
+        "echoed_source_text": "Whenever you remain normal or when you are not highly connected with your emotions, it does not create a strong impression or image in your mind."
+      },
+      "error": null,
+      "speaker_id": "Speaker 1",
+      "start_timestamp": null,
+      "end_timestamp": null,
+      "turn_index": 0,
+      "source_metadata": {
+        "source_id": "03-manage-your-emotional-memories",
+        "parent_chunk_id": "03-manage-your-emotional-memories-0035",
+        "split_method": "runon_capital_opener",
+        "piece": [
+          2,
+          2
+        ],
+        "source_start_offset": null,
+        "source_end_offset": null,
+        "cue_indices": null,
+        "cue_ids": null,
+        "incomplete": false,
+        "depends_on_previous": true,
+        "dependency_reasons": [
+          "previous_incomplete"
+        ]
+      },
+      "metadata": {
+        "model": "groq/openai/gpt-oss-120b",
+        "prompt_version": "8.0",
+        "llm_config": {
+          "provider": "groq",
+          "model": "openai/gpt-oss-120b",
+          "reasoning_effort": "low",
+          "temperature": 0.0,
+          "max_output_tokens": 8192,
+          "prompt_version": "8.0",
+          "thinking_budget": null,
+          "empty_gloss_retry": true,
+          "references_file": null,
+          "reference_entries_loaded": 0
+        },
+        "rule_set_version": "0.1.0",
+        "active_rules": [
+          "R-FMT-01",
+          "R-ART-01",
+          "R-SKIP-01"
+        ],
+        "result_schema_version": "1.0",
+        "rule_pass_completed": true,
+        "cache_hit": false
+      }
+    },
+    {
+      "sentence_id": "03-manage-your-emotional-memories-s0040",
+      "group_id": "03-manage-your-emotional-memories-g0006",
+      "source_text": "Only when you come out of your normal nature, either you become too hot or you become too calm.",
+      "llm_input_text": "Only when you come out of your normal nature, either you become too hot or you become too calm.",
+      "skipped_spans": [],
+      "translation_status": "translated",
+      "candidate_gloss": "ONLY WHEN YOU COME OUT OF NORMAL NATURE EITHER YOU BECOME TOO HOT OR YOU BECOME TOO CALM",
+      "candidate_tokens": [
+        "ONLY",
+        "WHEN",
+        "YOU",
+        "COME",
+        "OUT",
+        "OF",
+        "NORMAL",
+        "NATURE",
+        "EITHER",
+        "YOU",
+        "BECOME",
+        "TOO",
+        "HOT",
+        "OR",
+        "YOU",
+        "BECOME",
+        "TOO",
+        "CALM"
+      ],
+      "final_gloss": "ONLY WHEN YOU COME OUT OF NORMAL NATURE EITHER YOU BECOME TOO HOT OR YOU BECOME TOO CALM",
+      "final_tokens": [
+        "ONLY",
+        "WHEN",
+        "YOU",
+        "COME",
+        "OUT",
+        "OF",
+        "NORMAL",
+        "NATURE",
+        "EITHER",
+        "YOU",
+        "BECOME",
+        "TOO",
+        "HOT",
+        "OR",
+        "YOU",
+        "BECOME",
+        "TOO",
+        "CALM"
+      ],
+      "applied_rules": [],
+      "validation": {
+        "status": "pass",
+        "warnings": []
+      },
+      "review_status": "unreviewed",
+      "uncertainty_notes": "",
+      "uncertain_parts": [],
+      "needs_human_review": false,
+      "llm_status": "ok",
+      "llm": {
+        "status": "ok",
+        "needs_human_review": false,
+        "uncertain": false,
+        "uncertain_parts": [],
+        "notes": "",
+        "echoed_source_text": "Only when you come out of your normal nature, either you become too hot or you become too calm."
+      },
+      "error": null,
+      "speaker_id": "Speaker 1",
+      "start_timestamp": null,
+      "end_timestamp": null,
+      "turn_index": 0,
+      "source_metadata": {
+        "source_id": "03-manage-your-emotional-memories",
+        "parent_chunk_id": "03-manage-your-emotional-memories-0036",
+        "split_method": null,
+        "piece": [
+          1,
+          1
+        ],
+        "source_start_offset": 2607,
+        "source_end_offset": 2702,
+        "cue_indices": null,
+        "cue_ids": null,
+        "incomplete": false,
+        "depends_on_previous": false,
+        "dependency_reasons": []
+      },
+      "metadata": {
+        "model": "groq/openai/gpt-oss-120b",
+        "prompt_version": "8.0",
+        "llm_config": {
+          "provider": "groq",
+          "model": "openai/gpt-oss-120b",
+          "reasoning_effort": "low",
+          "temperature": 0.0,
+          "max_output_tokens": 8192,
+          "prompt_version": "8.0",
+          "thinking_budget": null,
+          "empty_gloss_retry": true,
+          "references_file": null,
+          "reference_entries_loaded": 0
+        },
+        "rule_set_version": "0.1.0",
+        "active_rules": [
+          "R-FMT-01",
+          "R-ART-01",
+          "R-SKIP-01"
+        ],
+        "result_schema_version": "1.0",
+        "rule_pass_completed": true,
+        "cache_hit": false
+      }
+    }
+  ]
+}
